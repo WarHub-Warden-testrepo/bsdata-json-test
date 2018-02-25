@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "identifier": "Relic Cerberus Heavy Tank Destroyer",
+    "prevIdentifier": "Relic Typhon Heavy Siege Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 26.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 680.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "beea-36cd-2a00-43c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4f50-83f9-9474-b038",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3cd1-1c5b-75fc-2d9a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "4dab-4b12-c340-8ed8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "f99c-70c0-866c-000c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "51bc-53e0-b2e4-6ff3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "86c0-00fa-9e62-a6d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b966-cb25-d53b-4bd2",
+          "id": "325c-ccef-9316-65a6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3216-79af-660b-7711",
+          "id": "cbd9-cca2-e849-faff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "4d64-a527-acd3-e27f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fc8c-3a11-6a1e-ea3f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9997-c2ef-f37e-ee14",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f7d-ca3a-ce3b-b714",
+          "id": "a41c-9f1a-51c6-a0d1",
+          "name": "Crushing tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3962-a76a-0f1f-e56f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "21cc-b95d-47d7-3387",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ad5a-55f5-7353-d90c",
+          "id": "dedb-4cb2-0d70-736c",
+          "name": "Heavy neutron pulse array"
+        }
+      ],
+      "id": "c0a4-cc23-05db-0069",
+      "name": "Relic Cerberus Heavy Tank Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "0c23-0782-a67d-c7ea",
+          "id": "1a37-68d1-5d5c-8908",
+          "name": "Relic Cerberus"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "2ed6-8f7c-d211-49ea",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "acc0-5e12-56d7-ac33",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "2fe7-c29a-da8a-ab83",
+          "id": "ef98-3303-e678-2643",
+          "name": "Steel Behemoth"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "24d1-adfa-2507-62b9",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "beea-36cd-2a00-43c3",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "beea-36cd-2a00-43c3",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "beea-36cd-2a00-43c3",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c888f08a-6cea-4a01-8126-d374a9231554",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "beea-36cd-2a00-43c3",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

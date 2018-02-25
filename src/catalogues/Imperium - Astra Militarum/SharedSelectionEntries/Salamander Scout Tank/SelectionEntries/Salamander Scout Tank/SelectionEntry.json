@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "identifier": "Salamander Scout Tank"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "75e5-e27b-8826-32fd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5f7b-89c6-e944-287d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "975a-fc6b-d0bb-5537",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "3bdf-6b49-ca75-6d30",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "e768-de8c-93b3-2f5c",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4f76-77aa-eb84-20b5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "54cf-ed50-bb0d-1959",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "36ae-3b7c-a55b-dbe6",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9b81-f60e-80f0-b9ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "22bf-01af-84db-d25f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "5dd4-b7ad-57e9-7713",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "dd03-14d5-63ac-c8bc",
+      "name": "Salamander Scout Tank",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "7f52-d3d3-5ad6-551a",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "8d35-7527-0621-45c7",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "845f-8ed6-17d2-265d",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "6338-ae1c-93c9-2e89",
+          "id": "03c5-9fab-ebfc-8554",
+          "name": "Scout Vehicle"
+        }
+      ]
+    }
+  ]
+}

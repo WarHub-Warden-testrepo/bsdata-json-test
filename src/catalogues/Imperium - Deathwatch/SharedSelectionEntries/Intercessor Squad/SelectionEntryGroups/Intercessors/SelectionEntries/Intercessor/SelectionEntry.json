@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "64bf-559d-35e5-3b55",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4508-46d9-bd70-4700",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "d40c-9efb-891f-189a",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8051-f43f-9c4f-a149",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1e0b-6722-4de6-0fee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "af31-35dc-f8d1-fe37",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "b3ba-f714-1ce6-2526",
+      "name": "Intercessor"
+    }
+  ]
+}

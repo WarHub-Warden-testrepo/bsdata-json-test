@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "identifier": "Acastus Knight Porphyrion",
+    "prevIdentifier": "Volkite chieorovile"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 40.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 600.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7b39-16e7-79a2-fd58",
+          "id": "c7a7-5e63-cd91-de37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "a048-b23e-855d-d031",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "085e-6413-ffc3-25e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "35d7-2d74-143c-05c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "8675-b5cc-0619-8e90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1e22-0c65-2557-6015",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "7607-8d01-de3f-8652",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2ed8-55fa-16fe-c787",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "84bd-9c02-a768-881c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0cf5-a793-1129-ac3b",
+          "id": "6db6-eb7a-c4b7-15d0",
+          "name": "Twin magna lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c945-75f6-eff1-cdf2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d311-6da9-ffec-0c55",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "efb5-bbc8-adad-bf0b",
+          "name": "Titanic feet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f2a9-5602-3f0e-91b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "8972-246f-6d71-cf64",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4514-5229-f814-ca8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "e869-0825-5ad2-b47c",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "babb-01d4-7ed0-e181",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "4115-84bd-7803-6847",
+      "name": "Acastus Knight Porphyrion",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "95",
+      "infoLinks": [
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "883b-e989-0b0f-ea6e",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "fa1d-76c9-a3fb-7adf",
+          "id": "0c62-c668-6585-20d2",
+          "name": "Explodes (Unstable Reactor) (Acastus Knight Porphyrion)"
+        },
+        {
+          "targetId": "7d1d-e7ee-9a4e-2821",
+          "id": "0e84-e367-50b0-ed17",
+          "name": "Ion Shield"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "d461-52bc-98d9-92be",
+          "name": "Knight Titan"
+        },
+        {
+          "targetId": "d8bd-fde5-02f4-3fea",
+          "id": "0e41-edab-4463-e705",
+          "name": "Acastus Knight Porphyrion"
+        }
+      ]
+    }
+  ]
+}

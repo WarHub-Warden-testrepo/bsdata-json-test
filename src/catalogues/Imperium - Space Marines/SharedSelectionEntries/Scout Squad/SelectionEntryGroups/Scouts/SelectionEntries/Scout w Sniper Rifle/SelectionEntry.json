@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Scout w/Sniper Rifle",
+    "prevIdentifier": "Scout w/Combat Knife"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d548-d190-574a-484f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d28-e7be-2b2b-6016",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "a413-c7af-70b7-67d5",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "76a3-e0d5-2f46-c223",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4c8f-5fe5-a66c-3a49",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ec92-0817-97de-a73b",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "295f-9ce5-6326-5a2d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f137-4f04-066f-e18f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "db90-b325-244d-3e35",
+          "id": "278a-d35e-bca4-1bea",
+          "name": "Sniper rifle"
+        }
+      ],
+      "id": "953d-c139-c8cf-2ea9",
+      "name": "Scout w/Sniper Rifle"
+    }
+  ]
+}

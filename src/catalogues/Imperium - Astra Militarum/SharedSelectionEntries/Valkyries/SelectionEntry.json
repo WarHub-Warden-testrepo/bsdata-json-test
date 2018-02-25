@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Valkyries",
+    "prevIdentifier": "Stat Damage (Leman Russ)"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "id": "3447-95ac-4721-2e48",
+      "name": "Valkyries",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "f731-f77b-45cd-e16c",
+              "type": 4,
+              "field": "selections",
+              "scope": "3447-95ac-4721-2e48",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "f731-f77b-45cd-e16c",
+              "type": 4,
+              "field": "selections",
+              "scope": "3447-95ac-4721-2e48",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Dreadnought combat weapon",
+    "prevIdentifier": "Dreadnought chainfist"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "a869-5624-fe55-fe95",
+      "name": "Dreadnought combat weapon",
+      "infoLinks": [
+        {
+          "targetId": "3b26-3098-155f-0e58",
+          "id": "11ba-17e4-c1d2-9bbb",
+          "name": "Dreadnought combat weapon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "ad76-d653-9f96-093a",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

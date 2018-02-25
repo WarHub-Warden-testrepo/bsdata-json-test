@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Master of Ordnance",
+    "prevIdentifier": "Death Korps Marshal"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "762a-0701-a280-7b3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "3a9d-1ac6-5aab-6877",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ae46-9ef0-e024-0483",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f679-1a9e-e07f-480b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5ecd-ef1a-8e47-c1dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ea76-0124-c9b1-482a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "030a-c374-c943-b0bc",
+          "id": "8bc6-2ebc-7009-2e44",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "04c4-6ee5-8848-4bc2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2b3f-a0ff-2a38-b80e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "77b6-e3a4-03ba-0ca2",
+          "name": "Laspistol"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "c40c-be8f-0eac-652d",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "6877-ffd0-7278-90be",
+          "name": "Heirlooms of Conquest"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "14de-3620-c66b-d2bf",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8ebe-a59f-90f8-ec1b",
+      "name": "Master of Ordnance",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "59fa-5661-3fbc-e0fa",
+          "name": "The Cult of Sacrifice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Reaver w/ Shardcarbine",
+    "prevIdentifier": "Reaver w/ Shuriken Catapult"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "34e9-ea88-dd6b-4a8d",
+          "id": "9b2c-5f76-b352-e1a5",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "8fed-b107-6c5d-2b4f",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "80e2-4922-800e-8c4f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b610-49ef-9128-a903",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c27b-3969-cb78-62f0",
+          "id": "ac36-1a77-d546-7817",
+          "name": "Shardcarbine"
+        }
+      ],
+      "id": "4e35-8d0f-801e-f13c",
+      "name": "Reaver w/ Shardcarbine",
+      "book": "IA - Index Xenos",
+      "page": "78",
+      "infoLinks": [
+        {
+          "targetId": "46d2-7afa-7bb7-af2b",
+          "id": "623b-97c7-f469-0cd2",
+          "name": "Corsair Reaver"
+        }
+      ]
+    }
+  ]
+}

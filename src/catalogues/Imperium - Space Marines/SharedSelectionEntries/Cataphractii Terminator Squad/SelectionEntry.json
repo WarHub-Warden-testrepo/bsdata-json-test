@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Cataphractii Terminator Squad",
+    "prevIdentifier": "Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "efe3-a12b-b16d-e8db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "555d-c945-1669-b1b2",
+          "id": "07a1-396c-2a2b-9e30",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "276a-999e-3f95-9359",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b4f2-bb13-a5b2-887e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "01a4-2827-a012-2550",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "f928-d2b7-7b49-23fc",
+      "name": "Cataphractii Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "4f23-54a6-66d6-3b37",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "6327-5a45-5123-79dd",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "cbde-177e-19dd-b506",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1da0-3127-d978-6dc2",
+          "id": "c114-e60b-4fc5-38a2",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "638d-d2e0-3df5-67f4",
+              "type": 4,
+              "field": "selections",
+              "scope": "f928-d2b7-7b49-23fc",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

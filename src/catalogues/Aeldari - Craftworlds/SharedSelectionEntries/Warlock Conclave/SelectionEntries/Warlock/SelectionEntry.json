@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Warlock"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0e62-17ab-40be-bdd4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "6f2a-3dfc-6656-bc17",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "1cce-abc6-e18d-4764",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "d4bd-758f-a5e9-8ce0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "9d9b-3102-18bf-32ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b4f7-1ff0-424a-2806",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "41bf-c0d8-55a7-a056",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "62f2-2196-a229-b491",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3422-62ae-2c7f-ad67",
+          "id": "ae45-b5fd-babd-3970",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afbb-a355-ff30-9cd6",
+          "id": "5b26-2418-c0cc-88a0",
+          "name": "Rune Armour"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9097-7887-9b96-6144",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b62b-cc00-0dc4-e234",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "56e7-d03d-d270-7f76",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "3b0b-35d5-d59d-d953",
+          "id": "38e8-b87f-b91e-76d9",
+          "name": "Witch Weapon Option"
+        }
+      ],
+      "id": "57c5-d161-d7a8-11f3",
+      "name": "Warlock"
+    }
+  ]
+}

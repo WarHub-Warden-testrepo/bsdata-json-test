@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4b2d-5d73-ac37-6e01",
+      "constraints": [
+        {
+          "id": "5c83-c101-98a5-f1ba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "c7cd-4a74-4329-7f8f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "50b4-412a-b8d8-e849",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "331c-e274-c0c5-c964",
+          "id": "b39e-d50a-3677-c6f9",
+          "name": "Sergeant Equipment",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "a648-ad2f-fbdf-b180",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1633-e690-5c1d-8915",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "4b2d-5d73-ac37-6e01",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "fac1-1edc-6a31-d772",
+      "name": "Armament 1"
+    }
+  ]
+}

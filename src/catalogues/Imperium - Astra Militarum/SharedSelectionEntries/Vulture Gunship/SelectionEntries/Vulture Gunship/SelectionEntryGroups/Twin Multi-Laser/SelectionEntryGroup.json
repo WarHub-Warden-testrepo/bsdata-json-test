@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Twin Multi-Laser"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9e2f-386d-6e5e-5ee6",
+      "constraints": [
+        {
+          "id": "780c-07e1-8e1c-c375",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ff26-fea6-ca03-8be1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fcc4-a341-681f-aec7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afe0-3771-1982-92b4",
+          "id": "fe2f-bbe8-e9a6-a598",
+          "name": "Twin autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a28-40a1-513b-aae5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "c056-659a-f9f6-94bb",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "fcb3-5460-3121-de0c",
+      "name": "Twin Multi-Laser",
+      "modifiers": [
+        {
+          "field": "780c-07e1-8e1c-c375",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "78f4-f487-3a45-5d66",
+              "type": 2,
+              "field": "selections",
+              "scope": "f22f-69da-0ad2-1459",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "ff26-fea6-ca03-8be1",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "78f4-f487-3a45-5d66",
+              "type": 2,
+              "field": "selections",
+              "scope": "f22f-69da-0ad2-1459",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

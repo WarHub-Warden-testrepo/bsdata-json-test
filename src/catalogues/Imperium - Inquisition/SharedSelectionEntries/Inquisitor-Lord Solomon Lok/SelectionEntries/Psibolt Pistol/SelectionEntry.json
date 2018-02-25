@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Psibolt Pistol",
+    "prevIdentifier": "Blade of Surety"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b4cd-8db1-4a1c-0550",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "4eff-c0b1-54ea-5593",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2c37-d7ae-1cd3-fc15",
+      "name": "Psibolt Pistol"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Grey Knight Justicar",
+    "prevIdentifier": "Grey Knight"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "19ec-febb-759f-f765",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c3f1-cb69-ff2a-28fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "98ca-4c67-2c7f-c3ee",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "2619-cbc9-7327-dc75",
+          "id": "fb52-5a60-2169-0454",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "767b-e555-311f-cdbe",
+      "name": "Grey Knight Justicar"
+    }
+  ]
+}

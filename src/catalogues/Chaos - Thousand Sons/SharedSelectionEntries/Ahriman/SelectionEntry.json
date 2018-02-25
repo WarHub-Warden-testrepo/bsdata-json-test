@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "identifier": "Ahriman",
+    "prevIdentifier": "Tzaangors"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 131.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "94a7-a458-7cec-2f58",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "b973-ff49-f55f-506b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "631d-674f-bc42-4651",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "a516-14b6-2592-e2e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "b34c-64a8-d464-7bdd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "55ca-bb67-3cc3-88dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "59ec-af24-ce8b-3aa9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "294f-d272-4466-09ae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "68f9-33bb-bd2b-c777",
+          "id": "ec1d-7a95-16c2-ff38",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "558b-7eec-30a5-96e4",
+          "id": "a625-3c5b-1d7d-c15f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "0b27-6b65-32ee-dd26",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1ee7-4e30-4ddb-99d8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5846-2a9b-796f-12e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be98-d80e-5822-dffe",
+          "id": "f5b3-f3b3-f12a-f8b4",
+          "name": "Inferno Bolt Pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "00c8-5015-903a-6d50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "476d-0804-e5f4-b8d9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1c74-1907-9985-9566",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1824-6018-fa1f-4742",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "66a8-d6d1-3dfb-19b0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "0259-de42-7507-625d",
+          "name": "Smite"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cf0-330f-0b38-f8de",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9aed-5e2d-8d51-5f31",
+          "id": "5302-0302-bb5c-e607",
+          "name": "Warlord"
+        }
+      ],
+      "id": "ee14-de68-b811-ebd0",
+      "name": "Ahriman",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "27a8-c34a-7a70-904e",
+          "id": "7a81-2211-d524-8a1f",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "7b33-2619-776d-3081",
+          "id": "84b8-6e03-003c-7524",
+          "name": "Lord of the Thousand Sons"
+        },
+        {
+          "targetId": "d31e-520a-c01d-38fe",
+          "id": "f53b-9fbc-228d-355a",
+          "name": "Otherworldly Prescience",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "9aed-5e2d-8d51-5f31",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ee14-de68-b811-ebd0",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "94a7-a458-7cec-2f58",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "ea3f-d47c-01f9-f553",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Pathfinder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "21d7-af26-1b81-b735",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9278-7ddd-bc79-e9f9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca6b-6ce9-0f0f-8c1b",
+          "id": "497a-f3fd-d8d2-0c09",
+          "name": "Markerlight"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b5ca-cbbb-4db3-0ffd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7fa6-3794-9c94-7cb9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "ed57-8a6d-7a0f-5891",
+          "name": "Photon grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d15-df1e-06ff-cbda",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b8d0-2910-6a13-9c0e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb97-7f88-6b4b-67b6",
+          "id": "a3a0-f6a1-292f-cbc8",
+          "name": "Pulse carbine"
+        }
+      ],
+      "id": "12b8-0a43-1e13-5373",
+      "name": "Pathfinder",
+      "infoLinks": [
+        {
+          "targetId": "8aee-6b1f-4ae3-024f",
+          "id": "3f87-4a42-0624-dd46",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

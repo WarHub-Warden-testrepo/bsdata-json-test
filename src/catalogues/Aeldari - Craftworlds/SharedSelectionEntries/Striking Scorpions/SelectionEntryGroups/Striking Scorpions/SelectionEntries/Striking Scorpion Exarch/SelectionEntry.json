@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Striking Scorpion Exarch",
+    "prevIdentifier": "Striking Scorpion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0544-6b6a-2c82-57f1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dabe-1a46-7249-7d97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "47a1-497d-7276-4d76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "861f-3176-d3cc-587b",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "477c-04b0-ab2b-2119",
+      "name": "Striking Scorpion Exarch"
+    }
+  ]
+}

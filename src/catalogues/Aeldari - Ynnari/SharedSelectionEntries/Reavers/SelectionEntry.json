@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Reavers",
+    "prevIdentifier": "Razorwing Jetfighter"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "e732-d0a8-c65c-7d12",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "3c30-8387-8f19-92af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "04d1-e4bb-7504-d06c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "99c9-6127-f78b-1f66",
+          "id": "ddc2-034f-89d0-5e2c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "0e73-d99b-0b16-8446",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c98b-c442-7890-f27d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4ee8-ef24-8efb-948e",
+          "id": "ee4e-9198-9533-78ea",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "4da6-8b2a-acaf-d1fe",
+      "name": "Reavers",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "0668-607b-8729-ddc5",
+          "name": "Combat Drugs"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "bb36-3d46-7436-67f3",
+          "name": "Combat Drugs"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "fca1-3567-c370-e2f7",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "1556-f1bb-147a-f555",
+              "type": 1,
+              "field": "selections",
+              "scope": "4da6-8b2a-acaf-d1fe",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "1556-f1bb-147a-f555",
+              "type": 1,
+              "field": "selections",
+              "scope": "4da6-8b2a-acaf-d1fe",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "20",
+          "conditions": [
+            {
+              "childId": "1556-f1bb-147a-f555",
+              "type": 1,
+              "field": "selections",
+              "scope": "4da6-8b2a-acaf-d1fe",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

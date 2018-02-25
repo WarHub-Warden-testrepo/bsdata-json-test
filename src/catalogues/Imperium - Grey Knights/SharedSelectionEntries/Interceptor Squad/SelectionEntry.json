@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "identifier": "Interceptor Squad",
+    "prevIdentifier": "Interceptor Justicar"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "684a-94a6-065e-3d2f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "7a3c-0076-e799-7811",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "e841-515c-d82f-00ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b56b-cbb1-1679-c47e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "c60c-364c-e96a-3b39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "dd80-093b-b141-dff5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2dee-488a-0b2d-7187",
+          "id": "c7de-7899-4550-833c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "25be-0652-38f3-6511",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "68b7-273f-37d5-67fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "81a2-5c1f-69f7-ae05",
+          "id": "974b-45d6-bf5a-e1f5",
+          "name": "Interceptor Justicar"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "4357-c929-5f7e-5558",
+          "name": "Sanctic Powers (1)"
+        }
+      ],
+      "id": "d8c1-ae2a-0ca5-88df",
+      "name": "Interceptor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d5d7-fb88-965e-0fbe",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "61ea-32f5-e880-70b3",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "8fdc-d8a1-d24a-c0ca",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "1f80-0897-3065-57c6",
+          "id": "2f8c-a972-bb98-9f2a",
+          "name": "Personal Teleporters"
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "cf72-fb39-343f-3daf",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "a29c-ad1e-441b-2167",
+          "id": "1e22-be79-c5df-7f00",
+          "name": "Teleport Strike"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "173d-25be-615a-3c18",
+          "name": "Psyker (Sanctic 1 Squad)"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "f4c3-abd2-1deb-a080",
+          "name": "Smite (Rites of Banishment)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "3f8f-6619-355b-2f65",
+              "type": 1,
+              "field": "selections",
+              "scope": "d8c1-ae2a-0ca5-88df",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Ravenwing grenade launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "163e-c0e4-8033-04b5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "8e77-1d72-b99f-0198",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c34e-2ada-c209-aa46",
+      "name": "Ravenwing grenade launcher"
+    }
+  ]
+}

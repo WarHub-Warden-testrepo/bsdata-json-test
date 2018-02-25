@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Doomhammer",
+    "prevIdentifier": "Hellhammer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 420.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 27.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6c79-4cfe-b7ce-79c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a761-4cdf-9d69-3ab1",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bfea-76c6-6fc3-7841",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "44bf-4d06-f862-d43d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "40dc-1ace-1e5f-1a2f",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0dcc-de41-1200-9aec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a47b-1127-b3d5-5bbd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "8295-06e2-ee6b-3960",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a292-0505-261b-722d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d8c9-32ed-dc23-027b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "ce2a-b927-14ae-f8a2",
+          "name": "Stat Damage (Baneblade)"
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "a819-43ad-d72d-b495",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "130a-4b09-48e2-47bb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7d45-082d-92d1-fb27",
+      "name": "Doomhammer",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "9f1b-663f-bdcd-3221",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "565a-0614-8a9c-6a72",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "8cf8-497f-053e-ece7",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "9981-5fb9-57f6-7930",
+          "id": "decb-c2cd-8f7b-054c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

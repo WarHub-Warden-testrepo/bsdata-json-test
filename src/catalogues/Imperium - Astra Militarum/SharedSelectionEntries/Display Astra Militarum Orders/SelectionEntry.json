@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Display Astra Militarum Orders",
+    "prevIdentifier": "Guardsmen Crew"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fa6f-0e22-a116-c31a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "7d8c-221c-99c5-97d2",
+      "name": "Display Astra Militarum Orders"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Medusa Siege Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "df73-020c-9ea1-e4c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "63d2-14a4-2bb4-a71f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "01a3-1ed1-5758-3af5",
+      "name": "Medusa Siege Cannon"
+    }
+  ]
+}

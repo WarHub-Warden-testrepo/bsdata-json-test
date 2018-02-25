@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Vengeance Weapon Batteries",
+    "prevIdentifier": "Skyshield Landing Pad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "04bf-6c22-19fb-4e46-d713cda3-5d0f-40d8-b621-69233263ec2a"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "1247-5dd1-35a3-5f1d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4cac-c373-1a0a-d62f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8172-12c9-8092-0756",
+          "id": "c815-1fe3-00a0-a85d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9df5-bb14-9326-4108",
+          "id": "3fdd-4995-f25e-4149",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "04bf-6c22-19fb-4e46",
+      "name": "Vengeance Weapon Batteries",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "8830-2c9e-ad7e-e57d",
+          "id": "9ff0-e1ea-d6b4-f945",
+          "name": "Immobile"
+        },
+        {
+          "targetId": "429b-91d2-8356-7150",
+          "id": "02a2-99ca-97cb-5db5",
+          "name": "Magazine Explosion"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "04bf-6c22-19fb-4e46",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

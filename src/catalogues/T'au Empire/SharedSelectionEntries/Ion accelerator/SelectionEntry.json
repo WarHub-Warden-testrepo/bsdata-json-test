@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Ion accelerator",
+    "prevIdentifier": "High-yield missile pod"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 107.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "8677-825d-0983-0d85",
+      "name": "Ion accelerator",
+      "infoLinks": [
+        {
+          "targetId": "d6c3-f7cd-b812-8f6a",
+          "id": "37b0-8ca2-ecfb-ca60",
+          "name": "Ion accelerator (Nova-charge)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "725a-82bb-106e-d3d9",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d658-4509-56e8-99e1",
+          "id": "b60a-6485-c30f-a3c2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2ceb-c98f-a2d2-4b06",
+          "id": "1c70-4787-7b80-fba5",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

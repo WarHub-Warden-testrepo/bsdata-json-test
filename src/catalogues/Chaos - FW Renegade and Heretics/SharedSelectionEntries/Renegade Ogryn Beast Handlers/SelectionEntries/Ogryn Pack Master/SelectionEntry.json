@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Ogryn Pack Master"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a42d-9652-dea2-d806",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7b92-54df-8b35-c70e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5f0e-8855-50a9-0bfc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "54f4-a7eb-e809-3d65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "6267-6913-33e3-9a57",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "7def-f199-30c7-ad7f",
+      "name": "Ogryn Pack Master"
+    }
+  ]
+}

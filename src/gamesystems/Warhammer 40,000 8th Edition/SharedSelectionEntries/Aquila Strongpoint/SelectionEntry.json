@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Aquila Strongpoint",
+    "prevIdentifier": "Aegis Defense Line"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 330.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "16d6-25c4-af92-4329-d713cda3-5d0f-40d8-b621-69233263ec2a"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "c353-75e3-7c61-3339",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "93b7-b6e5-9bfb-03d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "7a5f-333e-bcd9-c6f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8172-12c9-8092-0756",
+          "id": "cd60-65f4-4189-7f6d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9669-776c-84f2-6150",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "a66e-a15d-3c96-15b1",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "16d6-25c4-af92-4329",
+      "name": "Aquila Strongpoint",
+      "book": "Planetary Onslaught",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "8830-2c9e-ad7e-e57d",
+          "id": "cbf3-33ac-73e9-50c7",
+          "name": "Immobile"
+        },
+        {
+          "targetId": "298d-b8cf-d3ed-04d8",
+          "id": "769e-c3f8-d4d9-8c25",
+          "name": "Fire Points (15)"
+        },
+        {
+          "targetId": "a179-f592-3224-72c9",
+          "id": "d1b0-0bbd-8997-301b",
+          "name": "Automated Weapons"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1600-8ea4-6f3f-383f",
+              "type": 4,
+              "field": "selections",
+              "scope": "16d6-25c4-af92-4329",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

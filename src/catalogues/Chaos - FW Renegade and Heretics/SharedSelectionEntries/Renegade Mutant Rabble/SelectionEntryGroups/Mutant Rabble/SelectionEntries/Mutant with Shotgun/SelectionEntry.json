@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Mutant with Shotgun",
+    "prevIdentifier": "Mutant with Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4873-3dfb-1679-e8fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d369-17af-e998-a677",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "e4a0-276b-32cb-d59b",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "36cb-4bb8-0311-d161",
+      "name": "Mutant with Shotgun",
+      "infoLinks": [
+        {
+          "targetId": "07cb-70d7-15c3-5117",
+          "id": "6669-557d-9c8e-5823",
+          "name": "Shotgun"
+        }
+      ]
+    }
+  ]
+}

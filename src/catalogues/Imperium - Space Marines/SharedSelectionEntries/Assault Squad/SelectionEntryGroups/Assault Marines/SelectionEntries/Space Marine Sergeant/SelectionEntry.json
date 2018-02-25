@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6266-408c-dd66-1f26",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7f38-9f4b-1c24-2fc7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d284-b450-2c5c-1738",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2792-c0fb-d72e-cee4",
+          "id": "6ceb-d11a-052b-b9e0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "963d-f24d-d869-e3d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "5ac7-c1aa-3376-09ee",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f0f4-3e2e-01b7-9b9a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "20a5-2ff9-7108-6f0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "07fc-9936-65c0-b676",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7c29-08cf-8e84-22a5",
+      "name": "Space Marine Sergeant"
+    }
+  ]
+}

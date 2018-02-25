@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Macharius Heavy Tank",
+    "prevIdentifier": "Medusa Carriage Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 345.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "17d9-df8a-373e-2ccf",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "e73a-442d-93f7-dfd6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ed23-4472-85ea-be41",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "c500-129a-1ee9-b350",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "fa94-11df-1e4f-3a89",
+      "name": "Macharius Heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "9ed4-5448-3e55-cebf",
+          "id": "981e-1abb-d1f2-8dd5",
+          "name": "Macharius Tank"
+        },
+        {
+          "targetId": "edfc-3252-b135-99d6",
+          "id": "1bb7-374c-f78d-d33c",
+          "name": "Macharius Tank"
+        },
+        {
+          "targetId": "0e17-408f-2a01-a7bd",
+          "id": "b3b5-3807-c5f3-73bc",
+          "name": "Macharius Tank 1"
+        },
+        {
+          "targetId": "fdf2-a8ba-efd3-2308",
+          "id": "b339-3bf5-1e21-18ef",
+          "name": "Macharius Tank 2"
+        },
+        {
+          "targetId": "82fe-f0a5-6acc-42a2",
+          "id": "e330-8443-14c4-c024",
+          "name": "Macharius Tank 3"
+        },
+        {
+          "targetId": "7aa0-421d-1067-58a5",
+          "id": "b49e-f5e0-203c-8709",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "4369-a01c-76c7-ad52",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "7ec4-03b3-3612-0cfd",
+          "id": "e991-ed15-4941-1ddd",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Bolt carbine arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ddcf-7e2e-f755-7e7d",
+      "constraints": [
+        {
+          "id": "5ff8-cfa2-d20a-b9b0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a9d7-7a4a-1669-bfa8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6431-7c68-9288-e1e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bdd8-e34e-7bc7-ba34",
+          "id": "ddcf-7e2e-f755-7e7d",
+          "name": "Bolt carbine"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7ddd-db05-afb4-0602",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f0a2-9051-0738-17ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "69ef-3c6f-c301-c874",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "bc0b-c19f-0b71-081e",
+          "id": "fa9f-f8be-55b6-0a7b",
+          "name": "Combat knife"
+        }
+      ],
+      "id": "1bb6-6eb7-0727-6c5b",
+      "name": "Bolt carbine arm"
+    }
+  ]
+}

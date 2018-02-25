@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Chaos Predator",
+    "prevIdentifier": "Chaos Lord"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "c962-e65e-be8e-8607",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d544-2dc7-1eca-0a9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "23bc-4374-312b-0f00",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "81c6-d02b-09ed-bf85",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "8720-7f99-4615-07b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "c4ab-22e6-0b3c-eb09",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ce96-2f80-a7fa-5630",
+          "id": "470f-b087-39e3-b1d4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f668-0ff7-69d5-be65",
+          "id": "1f14-3677-3768-e2d3",
+          "name": "Havoc launcher"
+        },
+        {
+          "type": 1,
+          "targetId": "5383-9a88-9883-e144",
+          "id": "ca5f-5ebd-ef7f-3c2f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aa91-3ddc-6ae9-2188",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e874-ec40-b283-bf40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a8f6-49e7-ea35-aca5",
+          "id": "bd00-8391-5c20-ac65",
+          "name": "Smoke launchers"
+        }
+      ],
+      "id": "9765-6363-9d49-b571",
+      "name": "Chaos Predator",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "113f-c728-f886-9d6d",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

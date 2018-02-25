@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "identifier": "Main armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "cac5-c065-562d-31b3",
+      "constraints": [
+        {
+          "id": "fe1a-bf50-2a45-7610",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3e0d-a71e-4710-d0b3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "b7fb-346d-b640-b550",
+      "name": "Main armament"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "identifier": "Imperial Space Marine",
+    "prevIdentifier": "Hellblaster Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7859-7250-eae7-30fe",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "89a6-f2a7-d112-4634",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "001d-0ac5-4fed-4cb8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "fa00-9c9c-4e76-a2d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "52be-74ca-d573-25fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ddb5-eef9-5214-ee47",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b269-05db-d1f1-e22d",
+          "id": "8c95-662a-008f-2330",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "25b8-023a-e4d6-b76e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7ba4-51c1-4c74-6cb2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e22f-4d69-ae05-c1fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dc17-09cb-c84b-e837",
+          "id": "0b87-79d1-e950-5e91",
+          "name": "Disintegration combi-gun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5ed5-1dec-0cc1-0cbf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "341f-0d4b-9431-834e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9728-3bce-75d9-803a",
+          "id": "9d84-ba15-30e9-731a",
+          "name": "Disintegration pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5f7e-0396-2220-9eae",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5973-8b5e-eda6-13a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "be76-634e-1b08-4bfa",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b89e-bec1-8d4d-be30",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "d37d-7c1b-c8fb-1b66",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "333d-7f25-cb1d-d0db",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "66a3-a789-1390-3d55",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "a99b-0c13-5d11-23d4",
+      "name": "Imperial Space Marine",
+      "infoLinks": [
+        {
+          "targetId": "1587-10cb-2ef8-8895",
+          "id": "d21b-de34-b59a-fbc1",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "4d68-a434-b6f4-4f18",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

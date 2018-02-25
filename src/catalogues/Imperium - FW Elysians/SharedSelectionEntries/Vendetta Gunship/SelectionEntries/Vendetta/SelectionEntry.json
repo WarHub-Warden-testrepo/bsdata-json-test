@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Vendetta"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ce95-cdb1-ed3c-c5ee",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "8d4a-e4a0-ee89-7ec3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9430-0ec7-6d9a-56a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a56a-df21-fa3f-0979",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "ac80-b2c5-186c-cb1a",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "839a-3ec7-6e61-9b67",
+      "name": "Vendetta",
+      "infoLinks": [
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "b0d4-c0c8-767c-8537",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "8ecb-6081-f217-a615",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "c4f9-48e3-4bdc-737f",
+          "id": "8873-8a1d-6948-0867",
+          "name": "Grav Chute Insertion"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "54c7-5a2c-6f68-fff6",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "5a36-1d6c-6116-8e99",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "4b49-9966-df57-d4b0",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "a100-911e-3074-eaad",
+          "id": "e4cb-2a79-377d-ad42",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

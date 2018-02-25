@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Dimachaeron",
+    "prevIdentifier": "Barbed Hierodule"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "ff54-09b0-910d-49db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "f228-cf22-5980-3264",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "768b-91e9-2f50-cc86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "983b-cce4-6f44-a993",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2da7-5f24-3060-3128",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "28a8-cf40-63ec-0624",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a8e7-240e-26c7-f27a",
+          "id": "e9e4-6711-5f64-dd31",
+          "name": "Sickle Claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ce26-7ad5-fb39-8310",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e322-d628-1f13-c819",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7db0-b30f-6c80-6bb9",
+          "id": "6a66-ebab-e420-b728",
+          "name": "Grasping Talons and Thorax Spine-maw"
+        }
+      ],
+      "id": "31b7-cfad-2be9-9997",
+      "name": "Dimachaeron",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "3501-1e0f-889f-cfad",
+          "name": "Instinctive Behaviour",
+          "book": ""
+        }
+      ]
+    }
+  ]
+}

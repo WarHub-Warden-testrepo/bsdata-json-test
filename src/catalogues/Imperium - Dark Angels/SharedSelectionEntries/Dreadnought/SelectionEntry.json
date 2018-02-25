@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Dreadnought",
+    "prevIdentifier": "Imperial Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "c354-a48d-0034-ef26",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9235-bb03-d17a-73ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "43ed-bb80-79f5-7e6e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "20b8-a840-4037-22ec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d9b1-fa27-2874-4dc9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3e27-51e9-e41f-3eb3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "345e-609b-29f8-73af",
+          "id": "ad6e-4389-6ef2-7a49",
+          "name": "Dreadnought Heavy Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "0f5d-5463-7908-f599",
+          "id": "cbac-2948-5657-1165",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "002e-7c43-59e8-3496",
+      "name": "Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "b879-ad30-dbaa-f345",
+          "id": "c20a-757d-4f92-5ca2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "1110-9da1-d24f-43d3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

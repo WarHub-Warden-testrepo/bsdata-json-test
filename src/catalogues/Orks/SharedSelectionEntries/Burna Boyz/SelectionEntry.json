@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "identifier": "Burna Boyz",
+    "prevIdentifier": "Burna - 49"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "efc2-93a2-93fc-dab6",
+          "id": "73be-3f01-0eb1-5145",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "3c11-58b5-c71a-8538",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "3d98-c327-9b37-8667",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "c33a-f44c-fd86-6238",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "783f-c7b5-49da-30d9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0d17-9ee8-267d-9824",
+      "name": "Burna Boyz",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "f058-0c3f-bb31-f967",
+          "name": "'Ere We Go!"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "4373-54e0-f368-7a9a",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "0d17-9ee8-267d-9824",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "0d17-9ee8-267d-9824",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

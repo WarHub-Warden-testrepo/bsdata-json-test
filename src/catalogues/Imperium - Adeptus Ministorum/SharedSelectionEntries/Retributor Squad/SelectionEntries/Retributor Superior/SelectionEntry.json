@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Retributor Superior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7d18-e33d-d2e6-9d6a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4f93-9f84-9b8b-af4e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f1e4-721f-152f-d090",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e7b0-9607-8c03-55c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "16ad-91ac-8508-99a5",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "794a-087d-636d-cddd",
+          "id": "53d7-2470-15cb-a099",
+          "name": "Additional Melee Weapon"
+        }
+      ],
+      "id": "276d-29bc-df88-b20f",
+      "name": "Retributor Superior"
+    }
+  ]
+}

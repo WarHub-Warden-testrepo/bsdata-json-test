@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Agressor Squad",
+    "prevIdentifier": "Flamestorm Gauntlets"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9f98-f9aa-a7f6-6b62",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "03aa-9caa-cf94-1995",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "02a9-f9cd-e3b1-eaec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4a9d-391d-b2f7-55e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "47d0-37d6-8e40-b3e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fe4a-5222-06e9-0b07",
+          "id": "7dba-a1fa-0e2e-ccf5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "90f0-6ff0-18b9-a715",
+          "id": "7136-eaae-f972-76e4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "78d6-2309-b216-3f7d",
+      "name": "Agressor Squad",
+      "infoLinks": [
+        {
+          "targetId": "1baf-0fae-82e1-da51",
+          "id": "f429-5a2b-9d76-5bd6",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "aeff-7a16-81c0-c1b0",
+          "name": "And They Shall Know No Fear"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "2313-de6c-656d-3313",
+              "type": 1,
+              "field": "selections",
+              "scope": "78d6-2309-b216-3f7d",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

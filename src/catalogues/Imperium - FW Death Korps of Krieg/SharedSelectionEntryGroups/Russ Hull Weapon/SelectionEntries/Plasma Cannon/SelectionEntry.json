@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Plasma Cannon",
+    "prevIdentifier": "Heavy Flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bad0-228c-dced-056c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a680-8e64-6a14-7c5f",
+      "name": "Plasma Cannon",
+      "infoLinks": [
+        {
+          "targetId": "fbb2-f4cb-e47d-1d10",
+          "id": "4e52-40b2-f17c-9995",
+          "name": "Plasma cannon, Supercharge"
+        },
+        {
+          "targetId": "7983-8451-cdc3-ce7e",
+          "id": "8e8b-09dd-fd53-cb40",
+          "name": "Plasma cannon, Standard"
+        }
+      ]
+    }
+  ]
+}

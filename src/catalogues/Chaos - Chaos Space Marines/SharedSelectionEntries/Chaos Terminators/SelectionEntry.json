@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "identifier": "Chaos Terminators",
+    "prevIdentifier": "Chaos Predator"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "1114-68e6-efe0-0a16",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "c01b-bafd-5e7a-7098",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "0110-8780-03ce-38f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "064f-ff63-732f-f5cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "208a-42b3-30b5-6fdf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36b8-cf23-7648-ece9",
+          "id": "145c-16ee-cf75-8100",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "8e5b-0087-a187-f98a",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c331-3361-0d25-6a2c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b82-0948-eac4-b35f",
+          "id": "1b66-e3fb-e387-461d",
+          "name": "Icon of Excess",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "81f9-01f6-e82e-7eec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8a3b-80c7-0cf3-e044",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f395-a909-4b57-35bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "0154-6c00-3255-5b6a",
+          "name": "Icon of Flame",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "57d0-d6cb-db5a-2142",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8a3b-80c7-0cf3-e044",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f953-5ac3-fd2e-fe36",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eab4-cf83-7555-b8c3",
+          "id": "6611-b65a-a90f-7c00",
+          "name": "Icon of Vengeance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfe4-7311-dbd5-c9e1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8a3b-80c7-0cf3-e044",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7c9f-0326-6aad-9fb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4925-fdaf-aee3-c408",
+          "id": "f87a-df2d-5b86-e2cf",
+          "name": "Icon of Wrath",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c919-21bc-48b7-0423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8a3b-80c7-0cf3-e044",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c012-d3d7-d8f0-7942",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "81b1-5ea4-3dbd-73ad",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "34a8-8285-a3c2-f4e6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8a3b-80c7-0cf3-e044",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8a3b-80c7-0cf3-e044",
+      "name": "Chaos Terminators",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "2835-d046-8ce7-775d",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "d4d3-93d9-8313-56c8",
+          "id": "eba0-a7bc-2c3a-d807",
+          "name": "Teleport Strike"
+        },
+        {
+          "targetId": "aa2e-f0e5-04d3-aae3",
+          "id": "7646-3052-fb3b-bc96",
+          "name": "Terminator Armour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "8a3b-80c7-0cf3-e044",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

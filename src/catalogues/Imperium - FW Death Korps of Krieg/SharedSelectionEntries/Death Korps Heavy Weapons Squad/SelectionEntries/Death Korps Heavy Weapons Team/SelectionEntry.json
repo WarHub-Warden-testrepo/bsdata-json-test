@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Death Korps Heavy Weapons Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a1b1-9e72-1749-2a59",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "e334-cb08-410d-712e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ec6c-11a4-823b-c90e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7a0f-4c6e-ebcd-602f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "7568-b197-3379-dd55",
+          "name": "Lasgun"
+        },
+        {
+          "type": 1,
+          "targetId": "cfec-a505-70eb-3fc3",
+          "id": "a428-dd11-f64d-1d8d",
+          "name": "DKOK Heavy Weapons"
+        }
+      ],
+      "id": "4ec6-a966-c1d4-1da0",
+      "name": "Death Korps Heavy Weapons Team",
+      "infoLinks": [
+        {
+          "targetId": "7ded-3511-4205-3d6e",
+          "id": "01cd-3c16-676e-d0c0",
+          "name": "Death Korps Heavy Weapons Team"
+        }
+      ]
+    }
+  ]
+}

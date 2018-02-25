@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2183-1bbc-944e-0651",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "df22-6c47-41e3-caf4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4852-7172-b840-4d5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "9057-9993-438e-ee98",
+          "id": "799f-d332-f74d-b57d",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "271e-a61b-5eb7-f9dc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "63d9-b569-dc9c-f794",
+          "id": "a732-4fbb-1dd4-c307",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "68af-1e15-f338-5b11",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7351-b60b-1ed4-5d3a",
+          "id": "701b-cb0b-2271-7aca",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "470e-daaf-f811-2108",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "b408-6399-f268-e277",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "995d-c32c-9868-9c03",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "42b5-32e0-1265-c0d8",
+          "id": "cee3-253a-07f3-e75a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1251-2623-1b12-b9f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "9e14-5518-2839-dafe",
+          "name": "Lightning Claw (Pair)"
+        }
+      ],
+      "id": "78b5-591c-8de0-c3bf",
+      "name": "Weapon Options",
+      "modifiers": [
+        {
+          "field": "2183-1bbc-944e-0651",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "9e14-5518-2839-dafe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "994b-ca79-7d97-f69b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "df22-6c47-41e3-caf4",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "9e14-5518-2839-dafe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "994b-ca79-7d97-f69b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

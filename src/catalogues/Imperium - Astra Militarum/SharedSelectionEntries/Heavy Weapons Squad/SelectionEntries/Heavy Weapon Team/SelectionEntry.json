@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1d01-57a3-b483-84b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "299e-8782-c3fd-3df1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f4c0-fb2d-6bb4-f85f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "29c3-5475-96d1-6a44",
+          "id": "d2d7-13d9-fd37-033a",
+          "name": "Astra Militarum Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1434-e5fc-2bf1-b5ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e293-bd24-a913-7de2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "7a6c-67f8-e7c9-7cc6",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "663c-7614-80d5-e8d2",
+      "name": "Heavy Weapon Team",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "83ce-60e7-ff5a-633c",
+          "id": "5a34-5a02-cfeb-790f",
+          "name": "Heavy Weapons Team"
+        }
+      ]
+    }
+  ]
+}

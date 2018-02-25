@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Stalker",
+    "prevIdentifier": "Hunter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "b15f-d32a-f9b2-3a71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "a117-8257-3cd1-0d55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "541a-5a32-7494-d588",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "54bf-4923-0cb5-4ef5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d8f8-ba79-e66f-8f40",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7b59-3865-4434-bd31",
+          "id": "7c8d-f000-1b70-1b24",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4531-78bd-ae4d-34ea",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "0d48-3c33-b2a2-6c22",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "98bf-0664-0b1b-3e27",
+          "id": "ece2-413a-1e1e-e374",
+          "name": "Icarus stormcannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f5b5-20d0-5d23-edb7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "4146-d953-bd33-867c",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "65d9-6ee0-4118-f854",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "de86-5882-33f7-52b0",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "74b4-a8e2-14b0-452d",
+      "name": "Stalker",
+      "infoLinks": [
+        {
+          "targetId": "88bd-6f9c-3a0e-eaa3",
+          "id": "1b01-247f-eaf1-b120",
+          "name": "Stalker"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "ad54-7052-14f4-be96",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

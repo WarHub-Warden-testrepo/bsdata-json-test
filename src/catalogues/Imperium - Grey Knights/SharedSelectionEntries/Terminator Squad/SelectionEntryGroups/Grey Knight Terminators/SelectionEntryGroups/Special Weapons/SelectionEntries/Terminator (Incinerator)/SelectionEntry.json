@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Terminator (Incinerator)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 41.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eb41-79cb-d9ae-6549",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0c06-b841-21c2-1ed5",
+          "id": "bfe4-0281-57d2-ec86",
+          "name": "Incinerator (Terminator)"
+        },
+        {
+          "type": 1,
+          "targetId": "2619-cbc9-7327-dc75",
+          "id": "f379-efba-c6ab-423f",
+          "name": "Grey Knight Melee Weapons Single"
+        }
+      ],
+      "id": "336b-2af6-1366-1845",
+      "name": "Terminator (Incinerator)",
+      "infoLinks": [
+        {
+          "targetId": "f204-dc7f-aacf-e947",
+          "id": "9cd9-dd23-8f69-4ace",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

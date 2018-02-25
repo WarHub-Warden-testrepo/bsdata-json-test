@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3b66-4c1e-2369-c351",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "16f4-1b10-92a9-93f8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "f778-4032-27f7-7f2c",
+      "name": "Khorne",
+      "infoLinks": [
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "7897-10f0-819b-8dc6",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "targetId": "da2b-7976-af0f-6e90",
+          "id": "256d-af38-e2d7-3ed8",
+          "name": "Might over Magic"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "3b66-4c1e-2369-c351",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Captain-General Trajann Valoris",
+    "prevIdentifier": "Venerable Land Raider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 250.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0d60-8abf-47d2-904f",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ca0a-1954-794d-c04f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "3c12-0bdb-0ce9-f387",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "bda4-f390-3de0-e13b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ebc5-1e64-780e-38f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "51ff-e0d7-3f50-a94f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a91f-e1b8-f90b-dd19",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bbac-a331-3638-5748",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "06e2-2b7b-7b1a-5339",
+          "name": "Misericordia",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "44d4-e9d8-7319-7037",
+          "id": "f964-4027-22a4-d76e",
+          "name": "Champion of the Imperium",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "7cf0-8a24-879c-2194",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2c77-ba1a-be8d-be4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2471-0b95-738c-edd9",
+          "id": "7cf0-8a24-879c-2194",
+          "name": "Warlord"
+        }
+      ],
+      "id": "174b-ddd4-9558-b13d",
+      "name": "Captain-General Trajann Valoris",
+      "infoLinks": [
+        {
+          "targetId": "55b4-45f6-4fff-93d8",
+          "id": "9b4c-38b7-27c9-f668",
+          "name": "Aegis of The Emperor"
+        }
+      ]
+    }
+  ]
+}

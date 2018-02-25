@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Staunch Defenders",
+    "prevIdentifier": "Dogma: Relentless March"
+  },
+  "rules": [
+    {
+      "description": "When firing Overwatch, units with this dogma hit on a roll on 5+, instead of only 6+, irrespective modifiers",
+      "id": "7bb8-e3b1-2765-3ac9",
+      "name": "Dogma: Staunch Defenders",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "8ae2-d027-8a2f-301b",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

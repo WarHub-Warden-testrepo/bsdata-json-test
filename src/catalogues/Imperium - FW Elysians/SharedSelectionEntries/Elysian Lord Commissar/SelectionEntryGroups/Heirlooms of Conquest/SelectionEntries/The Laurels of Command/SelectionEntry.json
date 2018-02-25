@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "The Laurels of Command",
+    "prevIdentifier": "The Emperor's Benediction"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1c08-36ce-e491-6668",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "83c4-5311-e7c3-43b5",
+      "name": "The Laurels of Command",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "adc3-d7b2-b51f-ecaa",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

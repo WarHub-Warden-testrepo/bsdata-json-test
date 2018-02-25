@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Plasma Cannon)",
+    "prevIdentifier": "Space Marine (Grav Cannon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b330-b04d-b78a-1c0a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ac75-f408-f8b2-48be",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3448-fbca-8c15-067a",
+          "id": "05fc-afea-8e5d-f989",
+          "name": "Plasma cannon"
+        }
+      ],
+      "id": "7bcd-70b7-d54d-92c7",
+      "name": "Space Marine (Plasma Cannon)",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "eedd-9f68-4d12-73fb",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

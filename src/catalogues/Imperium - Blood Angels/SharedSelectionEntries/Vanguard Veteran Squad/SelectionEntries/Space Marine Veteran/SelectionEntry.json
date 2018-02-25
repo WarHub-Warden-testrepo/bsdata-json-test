@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Space Marine Veteran",
+    "prevIdentifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3ca1-5d4d-9e00-87c3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "283a-79d6-cbe3-bbdb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b6fd-7e47-5bda-d0c4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fd2d-2226-d6b8-0fbd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b4a4-b7ef-b116-416a",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "87ce-8749-7151-7437",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "616f-4057-2198-5961",
+              "type": 1,
+              "field": "selections",
+              "scope": "f010-18e3-33fc-6aa4",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "a62a-0e5d-c74d-4c30",
+          "name": "Melta bombs"
+        }
+      ],
+      "id": "1174-7136-ea7e-55b7",
+      "name": "Space Marine Veteran",
+      "infoLinks": [
+        {
+          "targetId": "ead1-fe37-8e36-5369",
+          "id": "77f7-5912-073e-3cc0",
+          "name": "Space Marine Veteran",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "21d5-2f9c-29e1-c3cb",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f010-18e3-33fc-6aa4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

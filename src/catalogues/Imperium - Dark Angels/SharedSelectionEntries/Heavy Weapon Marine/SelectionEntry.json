@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapon Marine",
+    "prevIdentifier": "Techmarine on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d029-c73a-2b17-e59b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d19d-b3ff-103d-9fc0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "026f-f4dc-9e33-cd9d",
+          "id": "033c-eb5b-8f9b-39c7",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d5cd-aa90-843a-1d66",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0710-e15a-e63d-61b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "45dc-a254-dce3-8940",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "1d7c-dc03-489d-5917",
+      "name": "Heavy Weapon Marine"
+    }
+  ]
+}

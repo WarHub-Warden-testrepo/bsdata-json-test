@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Razorback",
+    "prevIdentifier": "Librarian in Terminator Armor"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "d119-845e-2774-b150",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "a6e1-6fea-4da7-8c87",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e659-0de8-099d-f3a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "9a61-7418-8768-9c6a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc61-f649-c828-2c12",
+          "id": "ee70-1402-dfad-d3dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4214-8802-bba9-923a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3417-2de8-a8e8-0f95",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a69a-2f21-8dc0-59b9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a55d-6f26-a2e9-f5a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "2243-9b66-d350-919a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "50a2-4244-4bad-1768",
+      "name": "Razorback",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "5ca8-f351-a79c-441e",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "bd2c-fab2-a0e8-a01f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

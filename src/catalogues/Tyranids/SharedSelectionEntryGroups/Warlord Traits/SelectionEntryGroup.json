@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Bio-artefacts"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f10f-c293-943f-691b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "229f-833e-ec42-ef25",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "f7e0-f344-5ea6-98e3",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "25a0-b547-6079-03a1",
+      "name": "Warlord Traits",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "c832-2f4e-ee51-f481",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

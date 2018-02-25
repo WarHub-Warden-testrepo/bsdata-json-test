@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Hellblaster",
+    "prevIdentifier": "Hellblaster Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "66a3-7e84-aece-2046",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "afc2-9624-cdab-3cb9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4927-3264-47df-3bac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f972-017c-ea05-94aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "157c-96bc-350b-92c8",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4dd6-188f-fd00-6e1e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "79f4-e3f1-7967-2e61",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b66b-978d-bc99-f294",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "9df5-1319-f610-c730",
+      "name": "Hellblaster",
+      "infoLinks": [
+        {
+          "targetId": "4e23-86d7-6a61-01f5",
+          "id": "65d8-799d-cfcf-f11a",
+          "name": "Hellblaster"
+        }
+      ]
+    }
+  ]
+}

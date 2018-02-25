@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Haemonculus",
+    "prevIdentifier": "Archon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a41d-078b-986a-286f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3cc-22d9-1014-b496",
+          "id": "f432-570c-ea5f-9a48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "f8b0-a11d-b989-cb44",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "fd1d-103b-a5b4-7aa4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "186e-5077-610d-c8b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "923d-0d67-e380-5a17",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8fca-4ed9-4326-8a23",
+          "id": "5349-d558-8135-16cf",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b66b-a423-3330-89a9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "81df-39ce-a8ae-7d87",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "7de1-3715-26ec-4ef8",
+          "id": "4edd-96e2-43eb-7870",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "type": 1,
+          "targetId": "e852-3a50-d3ca-9934",
+          "id": "f3e2-4e5f-371c-b105",
+          "name": "Relic"
+        }
+      ],
+      "id": "bcaa-5a3b-de61-6f41",
+      "name": "Haemonculus",
+      "infoLinks": [
+        {
+          "targetId": "3054-d0fa-72dc-f253",
+          "id": "d497-502a-3a56-e8a3",
+          "name": "Master of Pain"
+        },
+        {
+          "targetId": "8697-63a6-0f4e-66f8",
+          "id": "7996-9fa2-28e5-2ccf",
+          "name": "Insensible to Pain"
+        },
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "09af-f9b1-d19d-5d75",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "8332-fa04-d02e-e795",
+          "name": "Power from Pain"
+        }
+      ]
+    }
+  ]
+}

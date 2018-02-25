@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Dark Reapers",
+    "prevIdentifier": "Hemlock Wraithfighter"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "b708-9cf8-8796-7153",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "142c-c0cf-7dbd-3eb7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "de5a-5738-a06c-b4a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "d5d3-fe56-cc51-2f16",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "4d87-f270-6945-cf5a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "574a-ff45-4de3-a261",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d703-f7d7-7faf-735c",
+          "id": "9372-0725-c7aa-6bd7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "269f-a845-3c8d-834f",
+      "name": "Dark Reapers",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "c8de-ff1d-9683-ccdd",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "85f3-0bfa-72b2-5825",
+              "type": 1,
+              "field": "selections",
+              "scope": "269f-a845-3c8d-834f",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "85f3-0bfa-72b2-5825",
+              "type": 1,
+              "field": "selections",
+              "scope": "269f-a845-3c8d-834f",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

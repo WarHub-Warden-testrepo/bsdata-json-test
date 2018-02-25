@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Chainsword",
+    "prevIdentifier": "Laspistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "200b-d949-5d25-ec00",
+      "constraints": [
+        {
+          "id": "027c-8f5b-779b-3e6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5890-f79e-a192-c9b3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1ffe-b3a8-f017-fa94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "200b-d949-5d25-ec00",
+          "name": "Chainsword"
+        },
+        {
+          "type": 1,
+          "targetId": "7622-e68e-c5e5-c8e7",
+          "id": "2202-a5a1-1ed2-41c3",
+          "name": "Astra Militarum Melee Weapons"
+        }
+      ],
+      "id": "ea2a-b271-672b-c5bb",
+      "name": "Chainsword"
+    }
+  ]
+}

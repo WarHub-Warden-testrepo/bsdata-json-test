@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two lascannons",
+    "prevIdentifier": "Two heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8a74-f003-99be-548f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1531-8a19-7158-a4d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "a628-19ec-74e1-e5bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2963-a604-60c0-889f",
+          "id": "0f81-8265-bf81-087f",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "509b-1cfc-f75d-c498",
+      "name": "Two lascannons"
+    }
+  ]
+}

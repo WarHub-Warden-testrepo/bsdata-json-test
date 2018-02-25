@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Nemesis Falchion",
+    "prevIdentifier": "Nemesis Daemon Greathammer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "2893-f27f-6013-51e7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "b40d-9020-75db-7e26",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "9beb-5ba2-8317-4b82",
+      "name": "Nemesis Falchion",
+      "infoLinks": [
+        {
+          "targetId": "8dda-c08b-39ae-a8f3",
+          "id": "3b45-5376-733a-9050",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

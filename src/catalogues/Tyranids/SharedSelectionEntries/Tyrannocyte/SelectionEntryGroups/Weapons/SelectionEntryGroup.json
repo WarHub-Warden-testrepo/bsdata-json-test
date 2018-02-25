@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e571-0a07-7ff3-6409",
+      "constraints": [
+        {
+          "id": "7d70-c103-b8ed-76c8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "86bc-7ad7-e961-06c4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7af8-70de-cfec-20d3",
+          "id": "e571-0a07-7ff3-6409",
+          "name": "Deathspitter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25"
+            },
+            {
+              "field": "name",
+              "value": "5x Deathspitter"
+            }
+          ]
+        },
+        {
+          "targetId": "eaa6-717f-8aca-64fb",
+          "id": "33ef-b94b-6087-25ff",
+          "name": "Barbed Strangler",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "50"
+            },
+            {
+              "field": "name",
+              "value": "5x Barbed Strangler"
+            }
+          ]
+        },
+        {
+          "targetId": "8ca0-202f-634d-67de",
+          "id": "02ae-2e54-a41b-4005",
+          "name": "Venom Cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "100"
+            },
+            {
+              "field": "name",
+              "value": "5x Venom Cannon"
+            }
+          ]
+        }
+      ],
+      "id": "eb0b-1332-4ccc-5480",
+      "name": "Weapons"
+    }
+  ]
+}

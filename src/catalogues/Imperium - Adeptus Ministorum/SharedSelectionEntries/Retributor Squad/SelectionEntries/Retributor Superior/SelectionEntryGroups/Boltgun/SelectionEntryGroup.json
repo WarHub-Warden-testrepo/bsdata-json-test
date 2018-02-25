@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Boltgun",
+    "prevIdentifier": "Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "91ed-65ad-7cc4-211e",
+      "constraints": [
+        {
+          "id": "93ad-7d85-71a0-86f5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "98b1-810c-8a71-fab8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0ed1-3d28-362f-0b47",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "896b-28f1-e64a-3eb4",
+          "id": "91ed-65ad-7cc4-211e",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "targetId": "6e4d-1ac7-ebe3-ab59",
+          "id": "a465-0cfc-7909-5cd9",
+          "name": "Ranged Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "8235-67f6-27ad-1348",
+          "id": "b40d-21dc-0796-cef0",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "7c0d-b218-10c7-2ab1",
+      "name": "Boltgun"
+    }
+  ]
+}

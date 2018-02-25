@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Devastators",
+    "prevIdentifier": "Flamer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2439-ff59-ef4e-cca2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "b287-96ee-5cb7-3e79",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "2a33-5ebd-7323-0509",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "510a-162c-558b-6e18",
+          "id": "20d0-30b5-b580-b8d3",
+          "name": "Space Marine Sergeant"
+        }
+      ],
+      "id": "a648-ad2f-fbdf-b180",
+      "name": "Devastators",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b7d9-ad42-baef-60c3",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "1d11-b7cf-ef11-02cc",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "3041-459c-5b4b-1559",
+              "type": 4,
+              "field": "selections",
+              "scope": "a648-ad2f-fbdf-b180",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

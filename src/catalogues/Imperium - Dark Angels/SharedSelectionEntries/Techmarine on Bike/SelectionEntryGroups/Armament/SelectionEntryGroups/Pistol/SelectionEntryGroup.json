@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7dba-abe2-ffda-ca73",
+      "constraints": [
+        {
+          "id": "5d9e-a9a8-e3f4-5b17",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e7b5-83e2-40b3-2f9e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3fdd-8550-5ac0-72f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "7dba-abe2-ffda-ca73",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2c35-03ae-2f8e-18a6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "ce8a-95a1-32de-cc01",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "04d4-c333-5a1f-2a26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "dbeb-2798-d7a7-ab6c",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "457e-fcd3-2012-625c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "206f-4aa9-7f50-c1b0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "462b-577d-5420-b885",
+      "name": "Pistol"
+    }
+  ]
+}

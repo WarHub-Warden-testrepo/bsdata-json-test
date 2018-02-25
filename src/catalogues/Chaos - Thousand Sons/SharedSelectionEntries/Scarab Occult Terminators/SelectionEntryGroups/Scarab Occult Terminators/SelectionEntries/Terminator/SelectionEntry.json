@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 33.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0946-302b-d86b-d27d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5b36-1e91-a455-9204",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f41b-9faf-b87c-aba0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b493-4d6f-efcc-a068",
+          "id": "d778-32a6-2e2f-b74e",
+          "name": "Inferno Combi-bolter"
+        }
+      ],
+      "id": "0f71-fbb2-b6d6-a5b5",
+      "name": "Terminator",
+      "page": "0"
+    }
+  ]
+}

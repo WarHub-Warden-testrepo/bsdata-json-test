@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Warbuggies",
+    "prevIdentifier": "Skorchas"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "7bd3-a78c-493e-3276",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "2e76-0931-9812-533c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "df10-7552-41ab-73bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "835f-2fe6-c1dc-747b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "88a5-92ca-69c3-d345",
+          "id": "7c59-71ed-6d2b-eab6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "f7ee-37e2-efd6-a351",
+      "name": "Warbuggies",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "7604-18cf-da8f-7a9b",
+          "name": "Mob Rule"
+        },
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "29fb-3393-361d-47fa",
+          "name": "'Ere We Go!"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "f7ee-37e2-efd6-a351",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "f7ee-37e2-efd6-a351",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

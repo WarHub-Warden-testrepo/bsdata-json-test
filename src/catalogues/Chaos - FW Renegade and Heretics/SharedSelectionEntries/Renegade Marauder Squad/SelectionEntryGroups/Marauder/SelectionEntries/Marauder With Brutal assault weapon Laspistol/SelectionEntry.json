@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Marauder With Brutal assault weapon/Laspistol",
+    "prevIdentifier": "Marauder With Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d091-2d9c-ecc1-6d3f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "acb9-df8b-6982-faac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "661a-7d71-3421-a34b",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0eb3-7c35-8aec-7ed5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0797-327e-9c54-ff7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a2ab-ad37-feee-243e",
+          "id": "1ed6-b915-f615-19af",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "0cb5-7c0d-1934-bdfc",
+      "name": "Marauder With Brutal assault weapon/Laspistol",
+      "infoLinks": [
+        {
+          "targetId": "f2b7-768f-a270-de64",
+          "id": "7c61-a975-e9d8-ce6e",
+          "name": "Laspistol"
+        }
+      ]
+    }
+  ]
+}

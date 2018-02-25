@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "identifier": "Cerastus Knight-Acheron",
+    "prevIdentifier": "Acastus Knight Porphyrion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 25.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 358.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "a821-cfc9-f75f-3ebc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "bbef-7c5c-b6e3-2a0c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "9885-b00e-524a-0915",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "7bf5-fd95-775a-ea94",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "0225-a682-5105-4ac0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "0982-1fab-21a1-4cb9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "47ee-a379-57f2-6ab6",
+          "id": "8bf9-fc26-4b8f-5757",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "02e3-b077-0fd9-de30",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a1cb-90a8-d450-b1e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "c942-aa47-07f7-11f9",
+          "name": "Titanic feet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2275-7dc4-a021-bd8b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ebd0-e71d-efc0-f5d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afa8-4bd5-728b-f0fc",
+          "id": "90cc-cde7-6ab2-deab",
+          "name": "Reaper chainfist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0b3b-7dbf-80ca-2716",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a85f-2a43-a9d6-a323",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "84c5-c409-1a03-7fbb",
+          "id": "357b-f35d-82c6-be28",
+          "name": "Acheron flame cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a02d-6683-64f5-14d8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fbc8-d294-fe2f-9a24",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64e3-4020-2d8f-58f8",
+          "id": "fcf2-a2ad-fb1b-25aa",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a91a-c790-748b-af4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "41ac-eb39-7e75-f03f",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "06a6-c61b-72f2-a984",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "d477-1641-beed-54ab",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "aaac-e536-f7b8-0f60",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "03ab-01e9-4319-e4fa",
+      "name": "Cerastus Knight-Acheron",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "96",
+      "infoLinks": [
+        {
+          "targetId": "3882-1ceb-b4ee-7341",
+          "id": "fe04-3d36-77b7-b6fe",
+          "name": "Cerastus Knight-Acheron"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "b7c5-29ef-3fd8-d52a",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "77eb-2a36-2c78-02d7",
+          "id": "d7d2-8c76-4136-78af",
+          "name": "Explodes (Unstable Reactor)"
+        },
+        {
+          "targetId": "eda1-ba88-7192-826e",
+          "id": "4530-e786-b3c0-6f0a",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "7d1d-e7ee-9a4e-2821",
+          "id": "5d9e-2dac-d40f-2d8b",
+          "name": "Ion Shield"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "ab98-35d4-52ee-a819",
+          "name": "Knight Titan"
+        }
+      ]
+    }
+  ]
+}

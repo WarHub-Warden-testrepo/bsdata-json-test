@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "27de-38c3-2932-d119",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ac06-b954-073e-0765",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "cb29-557b-77ca-aff0",
+      "name": "Lasgun",
+      "infoLinks": [
+        {
+          "targetId": "d174-eb55-aaa6-d032",
+          "id": "5900-5a84-b462-115f",
+          "name": "Lasgun"
+        }
+      ]
+    }
+  ]
+}

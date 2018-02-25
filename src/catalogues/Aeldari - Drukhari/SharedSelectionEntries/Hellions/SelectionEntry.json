@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Hellions",
+    "prevIdentifier": "Flesh Gauntlet"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "3726-6891-9723-0aea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "75a6-6a00-f8c4-afca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "4cab-93f6-87a7-b56c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "99c9-6127-f78b-1f66",
+          "id": "fa54-63c9-a018-6ddb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5c0c-3e4b-e873-8f26",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1014-6eec-3841-7bc5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b15b-abaf-9eda-f855",
+          "id": "5c4d-7181-ce72-8c41",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2bd3-2b66-0d6e-ff43",
+      "name": "Hellions",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "0537-c77d-636d-c65b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e762-5343-3c4b-d8ee",
+          "id": "8144-ea4c-d2e5-d989",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "9dd3-b290-ba8d-8e4a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "096c-8ad1-2ebe-cee1",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "490f-63dd-5662-3d82",
+          "name": "Combat Drugs"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "c2ee-39d4-428d-d013",
+              "type": 1,
+              "field": "selections",
+              "scope": "2bd3-2b66-0d6e-ff43",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "c2ee-39d4-428d-d013",
+              "type": 1,
+              "field": "selections",
+              "scope": "2bd3-2b66-0d6e-ff43",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "17",
+          "conditions": [
+            {
+              "childId": "c2ee-39d4-428d-d013",
+              "type": 1,
+              "field": "selections",
+              "scope": "2bd3-2b66-0d6e-ff43",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

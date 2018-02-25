@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "2 Lascannon & Twin Heavy Bolter Sponsons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2454-f740-7099-b350",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2bd6-993d-71eb-943b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d577-23e2-320e-dca3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "fa8e-029b-439e-2a50",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3a47-bccc-a0ee-287e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "fa16-6675-a48f-1b76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d8ff-f086-b9ee-a9e4",
+          "id": "2c43-b42c-6a46-58b4",
+          "name": "Twin heavy bolter"
+        }
+      ],
+      "id": "9955-167d-3996-0491",
+      "name": "2 Lascannon & Twin Heavy Bolter Sponsons"
+    }
+  ]
+}

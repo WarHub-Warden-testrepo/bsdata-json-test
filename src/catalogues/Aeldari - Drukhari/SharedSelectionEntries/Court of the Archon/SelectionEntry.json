@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Court of the Archon",
+    "prevIdentifier": "Khymerae"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b638-8922-706a-4dd6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "5d5f-96cb-76b1-23f6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "65cd-a17c-d556-3734",
+      "name": "Court of the Archon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "b638-8922-706a-4dd6",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "9cf3-09b4-05fe-4ec9",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

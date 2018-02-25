@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Hellblaster Squad",
+    "prevIdentifier": "Drop Pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "81d8-3431-8714-4f91",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "13ac-0a73-2640-cc7a",
+          "id": "e632-a4e0-dfa6-21e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "14d8-1d67-4871-162b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d97e-3022-109d-f20b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "7691-9d1a-ad5d-ee87",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "b4d3-2f1d-b91e-c694",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "1c2f-8221-dbc2-f2fd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "bd95-3ac7-a2c0-a49d",
+      "name": "Hellblaster Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c5ce-0c8c-7a59-26c3",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "287e-07ce-af33-0c33",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "c7f9-9505-f842-9e77",
+              "type": 1,
+              "field": "selections",
+              "scope": "bd95-3ac7-a2c0-a49d",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

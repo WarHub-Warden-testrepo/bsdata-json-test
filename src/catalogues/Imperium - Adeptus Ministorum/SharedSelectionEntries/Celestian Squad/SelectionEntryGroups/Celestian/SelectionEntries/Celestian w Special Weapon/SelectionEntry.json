@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Celestian w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1af6-2ba2-f50d-a0da",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5e8d-e2a2-1b17-eed2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e6da-027a-c0cf-91ec",
+          "id": "a642-c967-064a-7cbf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c29-758b-5aec-8655",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "be46-b121-ff92-516b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "b25c-280c-08a2-48ca",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9125-febd-45b3-6fc2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed59-5f11-703d-3c46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "38ac-0ae4-14e7-2d23",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c609-eef8-ad0f-4c55",
+      "name": "Celestian w/ Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "75e7-bff4-c3d4-40b3",
+          "id": "0bf8-bbd7-e542-4a37",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

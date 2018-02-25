@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Vulkan He'stan",
+    "prevIdentifier": "Kayvaan Shrike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 154.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b54c-fccb-f97a-312a",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5494-8d7f-9089-c42d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8352-7f67-7e2b-3b4f",
+          "id": "4a22-6000-bd18-0551",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c22e-6734-6db5-93c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "668c-c0b5-1bef-25f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9a26-3fb1-9b16-e3ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8a0e-466b-406e-0f8b",
+          "id": "97d4-1b88-a6b4-09f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb00-1874-c550-b479",
+          "id": "5171-9e10-646c-e8e4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "81a2-0e97-f3aa-f8d4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b282-a70a-15a2-32f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "f6f4-718b-23f4-303e",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0907-ab2d-bb64-79eb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7fa5-e0fa-1129-f2b8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7682-ce1c-0f4a-d26f",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "cbc7-811e-05af-aab6",
+      "name": "Vulkan He'stan",
+      "infoLinks": [
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "3dce-002f-f441-40b0",
+          "name": "Rites of Battle"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "9859-bf56-c735-4099",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

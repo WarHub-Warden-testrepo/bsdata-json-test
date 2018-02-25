@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Vertus Praetor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "792f-0cd7-8536-ad67",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "35b8-3186-26d8-37bd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "75ac-6c0d-f056-293b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "f2ba-0150-8fbc-ffe5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "f2e1-3034-84e3-df14",
+          "id": "6632-b29c-ffb7-61f1",
+          "name": "Interceptor Lance"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b8fc-18d4-8a00-39ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "7b79-5d88-f3ac-6247",
+          "name": "Misericordia"
+        }
+      ],
+      "id": "7122-048d-a9f6-5523",
+      "name": "Vertus Praetor"
+    }
+  ]
+}

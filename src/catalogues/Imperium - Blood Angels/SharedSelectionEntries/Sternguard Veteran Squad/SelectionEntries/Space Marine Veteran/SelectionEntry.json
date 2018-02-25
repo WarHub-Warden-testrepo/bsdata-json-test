@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "751a-dd2b-a2d3-7721",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "9241-2c3e-de12-fc7d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "38af-01cd-2f7b-7ad8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bdc2-8bc9-caf7-74ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0cf4-50ee-0a2e-5ccf",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d0ac-f502-6396-7242",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "99a9-ca71-b14a-37a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "58cb-cb2f-f5f0-2a6c",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "1284-ecf3-a01f-0719",
+      "name": "Space Marine Veteran",
+      "infoLinks": [
+        {
+          "targetId": "ead1-fe37-8e36-5369",
+          "id": "b424-3bb8-3f7e-c847",
+          "name": "Space Marine Veteran"
+        }
+      ]
+    }
+  ]
+}

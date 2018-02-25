@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "identifier": "Relics of Terra",
+    "prevIdentifier": "Warlord Trait"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "430d-53e3-a957-b6fb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "20e8-7963-b83a-9e1b",
+          "id": "9a4b-00e0-694c-e984",
+          "name": "Auric Aquilis",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1c6f-0311-3eba-3180",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e81d-fde5-42b1-b10d",
+          "id": "7884-8709-d9ef-449f",
+          "name": "Auric Shackles"
+        },
+        {
+          "targetId": "c92e-191a-4ce0-063f",
+          "id": "d4b5-31b1-b44e-cd3c",
+          "name": "Raiment of Sorrows"
+        },
+        {
+          "targetId": "26cc-79bf-92f3-0d5d",
+          "id": "6eff-4f48-2b3b-31e8",
+          "name": "Eagle's Eye"
+        },
+        {
+          "targetId": "d53b-0455-210f-e22a",
+          "id": "ff9d-cfe4-f6a5-1e72",
+          "name": "Praetorian Plate",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "648b-745c-9da9-eda3",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ffd0-616c-8a5b-c36d",
+          "id": "3f23-c129-4f88-94aa",
+          "name": "Castellan's Mark"
+        },
+        {
+          "targetId": "e077-3c69-628a-ada5",
+          "id": "4a04-eeb7-7000-ae79",
+          "name": "Gatekeeper",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "e823-268c-0bed-4c0a",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ac75-ab60-08e8-0eca",
+          "id": "7d35-e275-37ae-e0be",
+          "name": "The Veiled Blade",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "131b-ad6f-5a72-9664",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "c47a-82fa-afbf-2a6f",
+          "id": "3d1c-89d6-164b-f5bd",
+          "name": "The Emperor's Light",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "77ea-4be8-f3d1-1f4d",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8936-2860-603d-705c",
+          "id": "6465-a8f3-6957-71f6",
+          "name": "Obliteratum",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "648b-745c-9da9-eda3",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8330-a389-2528-cbf5",
+          "id": "77d8-0e6b-ef51-2074",
+          "name": "Wrath Angelis",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "18e8-b22d-6049-73ce",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "bd21-a20e-fd11-2047",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        },
+                        {
+                          "childId": "94cf-8a27-b114-90b2",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "3dd8-849a-3c03-601f",
+          "id": "8455-c71f-587d-4350",
+          "name": "Faith Absolute",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "18e8-b22d-6049-73ce",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "bd21-a20e-fd11-2047",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        },
+                        {
+                          "childId": "94cf-8a27-b114-90b2",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7954-c01e-89bc-934e",
+          "id": "b0d5-c6c9-b500-78af",
+          "name": "Fulminaris Agressor",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "8c61-e2de-6499-2372",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "bd21-a20e-fd11-2047",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        },
+                        {
+                          "childId": "94cf-8a27-b114-90b2",
+                          "type": 6,
+                          "field": "selections",
+                          "scope": "ancestor",
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "35fc-bb34-950d-cce4",
+      "name": "Relics of Terra"
+    }
+  ]
+}

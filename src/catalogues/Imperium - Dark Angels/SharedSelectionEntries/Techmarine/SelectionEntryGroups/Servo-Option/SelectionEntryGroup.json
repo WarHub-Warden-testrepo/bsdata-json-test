@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Servo-Option",
+    "prevIdentifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c867-9492-a2c3-ba04",
+      "constraints": [
+        {
+          "id": "7fd7-f9b5-5cc3-fb8f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "bfa7-dcec-ddbd-0840",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fed0-f525-be18-6db8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "c867-9492-a2c3-ba04",
+          "name": "Servo-arm"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4ad3-4380-c05c-837c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fbb1-9dd6-aefc-eba2",
+          "id": "5e66-cc85-0d57-b035",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "676b-f205-4d7c-947d",
+      "name": "Servo-Option"
+    }
+  ]
+}

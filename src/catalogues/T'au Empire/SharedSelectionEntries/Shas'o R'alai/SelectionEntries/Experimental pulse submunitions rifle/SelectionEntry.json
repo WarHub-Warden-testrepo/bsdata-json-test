@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Experimental pulse submunitions rifle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eeb3-5a97-8ef8-5d3a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1f57-1211-2627-2206",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "48a6-ffc5-1c3c-1ab1",
+      "name": "Experimental pulse submunitions rifle",
+      "book": "IAI: Xenos",
+      "page": "41"
+    }
+  ]
+}

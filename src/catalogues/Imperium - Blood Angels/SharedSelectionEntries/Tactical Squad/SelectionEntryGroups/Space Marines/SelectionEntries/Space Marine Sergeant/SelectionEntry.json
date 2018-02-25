@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Space Marine Sergeant",
+    "prevIdentifier": "Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f983-91c7-c19b-1ff0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c54c-7167-a7cc-37a4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "376c-50a1-940d-748e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d2fd-1cec-4640-bf65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "bda4-eb42-6ff0-3784",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "df5f-7838-353f-0c0d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "4dc4-b7f5-c5cf-b190",
+          "name": "Melta bombs"
+        }
+      ],
+      "id": "5f1d-e7da-08ea-e5ba",
+      "name": "Space Marine Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "3051-055d-2641-1142",
+          "id": "8c76-d9ce-d867-5b74",
+          "name": "Space Marine Sergeant"
+        }
+      ]
+    }
+  ]
+}

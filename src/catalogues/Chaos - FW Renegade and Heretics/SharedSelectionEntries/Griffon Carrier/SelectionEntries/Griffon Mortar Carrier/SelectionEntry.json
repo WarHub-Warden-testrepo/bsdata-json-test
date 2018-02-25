@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Griffon Mortar Carrier"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 77.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0a6f-43f9-5a16-9f69",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cf2a-433c-ff7c-9dd2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "1edf-8631-7209-6a23",
+          "id": "4d01-b9a4-cb46-ed22",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "d4dc-3052-f0fe-95a2",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "b668-c910-af64-c4d7",
+      "name": "Griffon Mortar Carrier",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5d62-cdae-90d2-e0a8",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "ac84-a4d0-3a58-2a83",
+          "id": "a4dc-52f8-e3ec-5438",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "d810-c2b7-3f91-a278",
+          "name": "Explodes"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

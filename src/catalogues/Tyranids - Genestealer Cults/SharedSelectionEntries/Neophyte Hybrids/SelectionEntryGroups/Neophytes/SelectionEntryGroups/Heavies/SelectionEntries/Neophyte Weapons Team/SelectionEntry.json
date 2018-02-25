@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Neophyte Weapons Team",
+    "prevIdentifier": "Neophyte Hybrid (Heavy Weapon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac22-9e87-c714-7cb4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "66f8-9671-ffbf-3b83",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8370-3a0f-73b5-b6d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "9ce6-993a-2371-4105",
+          "name": "Blasting Charges"
+        },
+        {
+          "constraints": [
+            {
+              "id": "39fa-f69d-336c-83c2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f4f6-c9d2-db63-f9bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "dab3-defe-04be-3da6",
+          "name": "Autopistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8e6e-5c16-c36f-504e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8fb9-3c4a-69a4-d07e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3d95-27c8-2032-bd53",
+          "id": "c0c8-daa7-4173-b6b3",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "c77e-9434-5b70-27c0",
+      "name": "Neophyte Weapons Team"
+    }
+  ]
+}

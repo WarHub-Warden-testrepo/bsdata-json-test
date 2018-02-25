@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Guardsman W/ Special Weapon",
+    "prevIdentifier": "Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "890e-aafb-9d74-f2e2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1c3a-87d6-2fa0-ad7f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a465-d3f9-68f9-2e55",
+          "id": "588d-01ec-6804-f399",
+          "name": "Astra Militarum Special Weapons"
+        }
+      ],
+      "id": "e75b-a8e8-48f3-63dc",
+      "name": "Guardsman W/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "3635-257d-26f1-26e8",
+          "id": "4b20-b5f7-0a8f-a1c9",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Secondary weapon",
+    "prevIdentifier": "Main weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "fd45-31da-2188-8013",
+      "constraints": [
+        {
+          "id": "25e8-4fa6-7990-d795",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9b2b-7214-f20a-8f88",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1f10-1841-db6f-83e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4572-20b8-fea6-4041",
+          "id": "d5a2-27af-386d-4897",
+          "name": "Multi-melta"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a359-6fea-3c3d-e8f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4138-56bd-4131-f4da",
+          "id": "fd45-31da-2188-8013",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "345f-335e-da4d-504c",
+      "name": "Secondary weapon"
+    }
+  ]
+}

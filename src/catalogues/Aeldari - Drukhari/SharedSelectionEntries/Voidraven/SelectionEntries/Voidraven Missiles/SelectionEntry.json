@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Voidraven Missiles",
+    "prevIdentifier": "Void Mine"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "abee-310e-1354-a7b1",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "7a1c-ac78-766f-a73c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "92ad-a9d8-a314-276b",
+      "name": "Voidraven Missiles"
+    }
+  ]
+}

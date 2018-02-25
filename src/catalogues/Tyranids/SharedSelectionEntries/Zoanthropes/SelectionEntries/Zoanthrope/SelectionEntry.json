@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Zoanthrope"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9296-9c9e-b530-935d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        },
+        {
+          "id": "3c28-0c9f-c0b1-254a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3685-2a97-795b-5334",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ff8c-3931-6240-414c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2634-0525-7b04-6f89",
+          "id": "0f65-cb1c-1917-3825",
+          "name": "Claws and Teeth"
+        }
+      ],
+      "id": "08fa-c524-ddfa-299b",
+      "name": "Zoanthrope"
+    }
+  ]
+}

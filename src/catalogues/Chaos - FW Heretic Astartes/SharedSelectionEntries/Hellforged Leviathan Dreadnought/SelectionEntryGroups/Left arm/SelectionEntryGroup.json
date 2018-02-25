@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Left arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c36a-56e7-7142-6669",
+      "constraints": [
+        {
+          "id": "8e2a-8cea-73cc-ed86",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "10b0-f22b-06bb-0e1f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "37e4-be83-1a05-6c56",
+          "id": "5dfa-6aaa-8564-9d2a",
+          "name": "Grav-flux bombard"
+        },
+        {
+          "targetId": "8502-800f-4230-aa7e",
+          "id": "c36a-56e7-7142-6669",
+          "name": "Hellforged siege claw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "32.5",
+              "conditions": [
+                {
+                  "childId": "ca57-f8f3-c560-50da",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f6c4-89ad-891b-4beb",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "96f1-ef7c-d1bf-250e",
+          "id": "c1d1-4102-c430-9840",
+          "name": "Hellforged siege drill",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "37.5",
+              "conditions": [
+                {
+                  "childId": "b229-bcd2-f0e9-79fe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f6c4-89ad-891b-4beb",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6997-fa23-9701-826e",
+          "id": "184a-1ab0-b732-421b",
+          "name": "Butcher cannon array"
+        },
+        {
+          "targetId": "dfba-b9ba-cac6-f23a",
+          "id": "d19e-de37-87b4-6d7e",
+          "name": "Soulburner ribaudkin"
+        }
+      ],
+      "id": "0938-8419-b6ae-f1dd",
+      "name": "Left arm"
+    }
+  ]
+}

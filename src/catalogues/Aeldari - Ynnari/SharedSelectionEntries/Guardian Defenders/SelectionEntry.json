@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Guardian Defenders",
+    "prevIdentifier": "Spiritseer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "c472-bb01-7d0b-8743",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "d8aa-5ab3-e2e0-96c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "8c77-0097-177a-98b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6e32-5dcc-91f4-328b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "6c27-4dd6-e15d-aee2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "77ed-f39c-0344-0984",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0341-e29a-e0ec-acd4",
+      "name": "Guardian Defenders",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "742b-2a80-f731-dfa4",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "c758-aaf5-4754-8653",
+              "type": 1,
+              "field": "selections",
+              "scope": "0341-e29a-e0ec-acd4",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

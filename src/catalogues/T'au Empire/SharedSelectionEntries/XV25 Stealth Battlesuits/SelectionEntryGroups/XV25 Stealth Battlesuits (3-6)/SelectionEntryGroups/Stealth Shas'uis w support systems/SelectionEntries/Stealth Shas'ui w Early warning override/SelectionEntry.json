@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Stealth Shas'ui w/ Early warning override",
+    "prevIdentifier": "Stealth Shas'ui w/ Drone controller"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "71dc-5788-a4df-8eed",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7aef-5456-4d68-ba97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed48-b502-b975-e1ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "3ce3-014f-9af5-44b3",
+          "name": "Burst cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad43-ffa8-3030-8892",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e126-58c2-0665-6b67",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3194-357d-e01f-60a0",
+          "id": "3839-0c1a-ccc7-3b8a",
+          "name": "Early warning override"
+        }
+      ],
+      "id": "08e0-fe77-b179-dbb6",
+      "name": "Stealth Shas'ui w/ Early warning override",
+      "infoLinks": [
+        {
+          "targetId": "2721-d55e-c098-be60",
+          "id": "6c3d-0650-992a-327b",
+          "name": "Stealth Shas'ui"
+        }
+      ]
+    }
+  ]
+}

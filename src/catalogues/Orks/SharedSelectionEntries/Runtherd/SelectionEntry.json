@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Runtherd",
+    "prevIdentifier": "Gretchin"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5fcc-3536-d9c9-2f7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "549d-33f3-8f54-ce6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4c69-d276-dec1-ae44",
+          "id": "6d47-bb35-63db-3c25",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "855d-2e67-3dcb-2c5d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "3d97-d5d5-72df-f029",
+          "name": "Stikkbombs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d2b5-5660-bcef-750c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "edd0-eb6d-adb0-3fcc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d13b-ad69-e6a2-d485",
+          "id": "2da7-e98d-c616-73af",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c2ce-6759-e009-8c11",
+          "id": "4a9e-834f-395c-a841",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "80cc-76e8-0699-53f5",
+          "name": "Warlord"
+        }
+      ],
+      "id": "4a86-9031-67e9-cb27",
+      "name": "Runtherd",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "9c22-e994-a1f4-f848",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "ee6f-0b64-193a-a44f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

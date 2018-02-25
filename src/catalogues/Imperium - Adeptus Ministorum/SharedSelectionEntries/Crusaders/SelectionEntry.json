@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "identifier": "Crusaders",
+    "prevIdentifier": "Arco-Flagellants"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "ce43-14ac-decf-ea18",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7b5a-1d07-fdab-dd6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b61c-fa68-41b4-834c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e74c-d07f-6388-2476",
+          "id": "1215-d72d-853f-57bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "d2d3-663b-1bdb-9793",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "90a6-f1ed-a8fd-2744",
+      "name": "Crusaders",
+      "book": "Index: Imperium 2",
+      "page": "92",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "2479a8f3-63b0-4d01-0a1f-673c73c5cb1f",
+          "id": "36c9-f939-2155-5fce",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "377d-924e-ebbb-ca9a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "9ae5-84ea-9269-88eb",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "90a6-f1ed-a8fd-2744",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "90a6-f1ed-a8fd-2744",
+              "value": 7.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "90a6-f1ed-a8fd-2744",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "90a6-f1ed-a8fd-2744",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

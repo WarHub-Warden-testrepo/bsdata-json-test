@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Neophyte Hybrid (Shotgun)",
+    "prevIdentifier": "Neophyte Hybrid"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d59a-7496-4ab0-ebd1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6986-ff62-8726-010e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5503-d18a-a33f-8c97",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bca5-893f-3e46-4116",
+          "id": "c788-4392-2b55-cf25",
+          "name": "Shotgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1f61-ded4-88db-d050",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "35c0-2bba-aed9-9211",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "8b12-c295-e097-020d",
+          "name": "Autopistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bdeb-9b96-6f05-2e72",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5571-a3bc-8966-f96b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "d7e1-4103-063f-1e5c",
+          "name": "Blasting Charges"
+        }
+      ],
+      "id": "e718-1bb3-5fca-788d",
+      "name": "Neophyte Hybrid (Shotgun)"
+    }
+  ]
+}

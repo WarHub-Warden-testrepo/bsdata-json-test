@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ad8f-1a87-adca-20a9",
+      "constraints": [
+        {
+          "id": "f361-5fdf-743f-1348",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "682b-b8b4-c1cf-7d37",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "ad8f-1a87-adca-20a9",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "90de-7b01-e401-888b",
+          "id": "9d41-8ce9-e248-c312",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "61a9-154c-438f-848e",
+      "name": "Weapon",
+      "modifiers": [
+        {
+          "field": "f361-5fdf-743f-1348",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "8d5f-fdf5-6bf4-33ef",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "682b-b8b4-c1cf-7d37",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "8d5f-fdf5-6bf4-33ef",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Hover Tank",
+    "prevIdentifier": "Explodes (Hover Tank)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "258c-87a0-96fa-e032",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ba8c-430e-68b7-ea07",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1c73-6268-eb22-c189",
+      "name": "Hover Tank"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Styges Destroyer Tank Hunter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c904-984c-fef8-4adf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "b74d-3465-ad21-ade7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "3247-2133-f03b-113b",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b59f-992c-4860-c78e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "154f-1608-9001-a3a0",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "ef91-c57b-5dba-45a9",
+      "name": "Styges Destroyer Tank Hunter",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "7024-e8c3-9884-214d",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "e97a-0274-2304-9a19",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "b530-a215-6d5f-1851",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

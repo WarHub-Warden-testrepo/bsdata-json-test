@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Chaos Decimator",
+    "prevIdentifier": "Blood Slaughterer of Khorne"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "45f9-ff42-89ad-789d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "b2aa-ba7b-1955-3954",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "37db-2713-c0e0-df20",
+          "id": "8311-b8a7-781a-b382",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c96-d14c-b0c7-53e3",
+          "id": "85d3-d884-17ac-26ad",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "94fb-281a-0117-9e53",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "d173-d6e0-c1cf-f899",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e7f5-b290-2b96-4515",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "28ac-238d-1a82-4eca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "19d7-59fa-6050-caf8",
+      "name": "Chaos Decimator",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "7451-a4ef-f298-2364",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "3058-5172-2acd-9223",
+          "id": "66b0-31ef-ede4-c205",
+          "name": "Daemon Engine"
+        },
+        {
+          "targetId": "c4c3-dbe0-1fac-32ec",
+          "id": "c3e4-2756-4560-ec66",
+          "name": "Infernal Regeneration"
+        },
+        {
+          "targetId": "b1a6-697e-dc2d-e949",
+          "id": "af22-cbbb-e512-36be",
+          "name": "Dark Fury",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "00b4-0252-e233-0981",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "19d7-59fa-6050-caf8",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Chainsword Options",
+    "prevIdentifier": "Shuriken Pistol Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "b5a4-328b-b490-e7ac",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "95c4-b441-218a-20a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "afdf-ff8e-1c6e-49e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7be9-5ef2-05ac-fb47",
+          "id": "166b-b2ed-15e3-4906",
+          "name": "Scorpion Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d06d-4d32-2eed-45c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88e7-7c4d-f902-5c75",
+          "id": "f8e0-928e-5e07-69d9",
+          "name": "Biting Blade"
+        }
+      ],
+      "id": "1be6-4f38-9cbb-62d3",
+      "name": "Chainsword Options",
+      "modifiers": [
+        {
+          "field": "b5a4-328b-b490-e7ac",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a56f-c3ee-c9a7-66ad",
+              "type": 2,
+              "field": "selections",
+              "scope": "50e8-22bd-0182-8f79",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "95c4-b441-218a-20a1",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a56f-c3ee-c9a7-66ad",
+              "type": 2,
+              "field": "selections",
+              "scope": "50e8-22bd-0182-8f79",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

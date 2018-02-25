@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Special Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "1bb4-ed68-70bb-6e9b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "44d6-4eb2-e802-e50c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cfc8-442a-39cc-ebd5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "31b3-b725-0606-9f8d",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1779-0eae-5692-eda7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "fdaa-5a19-d799-00d2",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8610-32b2-c817-42da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "77ba-44f8-8b38-e24a",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "id": "3dbe-dcc0-9765-bb0e",
+      "name": "Special Weapon"
+    }
+  ]
+}

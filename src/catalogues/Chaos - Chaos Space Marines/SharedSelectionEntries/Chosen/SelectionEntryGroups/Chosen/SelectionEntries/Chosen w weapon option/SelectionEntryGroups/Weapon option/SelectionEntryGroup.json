@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Weapon option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "c354-4838-2702-0ae3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "becb-9ac2-cb36-95f7",
+          "id": "b24f-d68f-6c83-5e4a",
+          "name": "Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "a44b-4b4d-46b5-d3a6",
+          "id": "cf18-24f2-6ff7-bffc",
+          "name": "Special Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "5383-9a88-9883-e144",
+          "id": "8c67-8d8e-88ba-b2ec",
+          "name": "Combi-weapons"
+        }
+      ],
+      "id": "66b6-3ccc-29d3-0b37",
+      "name": "Weapon option",
+      "modifiers": [
+        {
+          "field": "c354-4838-2702-0ae3",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "72f0-6262-b417-dd10",
+              "type": 2,
+              "field": "selections",
+              "scope": "64c8-ad43-da9e-da82",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "c354-4838-2702-0ae3",
+          "value": "0",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "0dd1-2e2b-7dd1-5495",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "83be-1ba9-c326-4760",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Special Weapon",
+    "prevIdentifier": "Veteran w/ Regimental Standard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "34c2-2f85-eae5-50a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "4c82-1b74-49d1-d127",
+          "id": "b28d-ad6b-c7d8-fb0e",
+          "name": "Elysian Special weapons BS3"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5648-86f0-68d6-cbb0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "26d7-619d-9a8d-c419",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "b844-6997-7e01-0365",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a2db-8037-9c27-d560",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "fb89-55f8-f1cc-7e61",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "7fe4-e4ef-cec9-89a3",
+      "name": "Veteran w/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "d390-dbc2-c3aa-c7b2",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

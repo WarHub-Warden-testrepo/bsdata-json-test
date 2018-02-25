@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Terminator w/ Heavy Weapon",
+    "prevIdentifier": "Deathwatch Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 32.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7bf6-3da1-0b51-f284",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c12e-90ec-08ee-13ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c129-9017-ac8a-2e8e",
+          "id": "a596-cb5f-8470-e2d7",
+          "name": "Deathwatch Term CC Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0b1e-924b-020e-d918",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4341-bc14-da57-b7e1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4188-e508-914f-34fb",
+          "id": "9ed6-c189-1284-4dc9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c732-0370-25cb-24cd",
+      "name": "Deathwatch Terminator w/ Heavy Weapon"
+    }
+  ]
+}

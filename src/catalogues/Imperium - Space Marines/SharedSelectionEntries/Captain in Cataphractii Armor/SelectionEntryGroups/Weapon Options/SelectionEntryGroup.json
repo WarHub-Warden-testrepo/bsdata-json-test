@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5dc2-fcc7-ad5b-5728",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "1269-3574-e4f0-3c6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "754e-801b-292d-461a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "bf5f-8096-c5cc-8084",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "754e-801b-292d-461a",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "d3f1-99af-1f20-5d10",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "92b3-c77a-eff7-4d9b",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2581-1a49-4337-39f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "99c2-5d36-15a6-7629",
+          "id": "d3f1-99af-1f20-5d10",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ab11-23da-53b8-2674",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "554a-4c06-6d28-a87c",
+          "id": "a37c-9d30-b3d0-9482",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "50e4-4411-8b06-cc3c",
+      "name": "Weapon Options"
+    }
+  ]
+}

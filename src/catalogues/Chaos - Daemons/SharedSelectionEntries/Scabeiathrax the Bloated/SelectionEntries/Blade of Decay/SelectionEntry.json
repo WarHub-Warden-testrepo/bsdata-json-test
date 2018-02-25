@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Blade of Decay",
+    "prevIdentifier": "Horrific vomit"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b33f-512c-af31-11ed",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "98ba-39cc-3e75-c51a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "adcf-f137-b61c-969b",
+      "name": "Blade of Decay"
+    }
+  ]
+}

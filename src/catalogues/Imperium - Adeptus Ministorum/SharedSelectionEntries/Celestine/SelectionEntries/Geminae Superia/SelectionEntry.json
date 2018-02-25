@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Geminae Superia"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d84a-c210-6740-0a6a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b286-5ccd-10bd-bc99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db73-37c6-960d-0aff",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "99a8-b1c2-c7a8-b294",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2816-b1b6-8d47-0166",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7ae2-d918-383e-b8b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "f485-9501-35cf-1e08",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f164-017d-5489-2f79",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "25c7-2342-e69d-a209",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e00a-6cb6-2690-8c55",
+          "id": "5004-24eb-9bf7-f0e4",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "2fc4-f8b2-5768-a698",
+      "name": "Geminae Superia"
+    }
+  ]
+}

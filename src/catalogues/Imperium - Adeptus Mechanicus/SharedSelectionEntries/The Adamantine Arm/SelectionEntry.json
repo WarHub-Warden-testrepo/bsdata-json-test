@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "The Adamantine Arm",
+    "prevIdentifier": "Forge World"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "de96-f647-9ce9-4f9c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "0b42-72c3-f7df-0122",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "dd3a-1341-729a-c0a1",
+      "name": "The Adamantine Arm",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "398f-cf30-2355-c34f",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

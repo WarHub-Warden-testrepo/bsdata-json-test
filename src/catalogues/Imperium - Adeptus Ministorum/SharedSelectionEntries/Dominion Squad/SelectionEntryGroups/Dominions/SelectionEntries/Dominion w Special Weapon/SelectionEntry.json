@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Dominion w/ Special Weapon",
+    "prevIdentifier": "Dominion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5dc5-4705-b301-98ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b195-2a76-f189-3f0b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e6da-027a-c0cf-91ec",
+          "id": "cf1f-1a6a-55da-a459",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "46dc-cf63-b669-a0ec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5d6f-f0c1-6132-4413",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "d79e-dca7-a0a7-f5ee",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "efa7-f0ea-05e4-5623",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b777-629c-e3be-084d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "15dd-7e7f-026e-5e17",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b55c-59c0-8c4d-169b",
+      "name": "Dominion w/ Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "5a1d-0cc8-e60c-0048",
+          "id": "37bd-14bc-6915-b8c5",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

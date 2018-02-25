@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "identifier": "Exalted Champion",
+    "prevIdentifier": "Blissgiver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "2397-962e-3003-9405",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "4dfb-015d-77a0-6ac5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d631-df9f-8d24-3f17",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "1c5c-3cd3-d76f-9a77",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "7f08-1067-7a1f-ea5c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fe42-b67c-2de0-6cd9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "a772-2947-3b13-51d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4796-e195-faf7-d932",
+          "id": "ffef-f51c-d5c3-b5e2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cacd-af8e-da47-c8e7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9bf3-b347-1435-a50e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "e985-247d-30e5-9b17",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "383d-d974-00a3-bd09",
+          "id": "b7d8-77a0-fab8-34e9",
+          "name": "Chaos Lord Weapon options",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Exalted Champion weapon options"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "7877-848b-888b-74cd",
+          "name": "Mark of Chaos"
+        },
+        {
+          "type": 1,
+          "targetId": "5876-fcc5-8283-1aca",
+          "id": "cbc3-ad95-456e-2107",
+          "name": "Artefacts of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c9a4-e902-b4c9-15b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "3a55-7b57-55a8-40e4",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "b34c-6c4b-d22c-25b5",
+          "id": "a74c-3f0e-e914-ef0a",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "9f4a-9156-265b-266e",
+      "name": "Exalted Champion",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "0e1f-1adc-1734-92bb",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "8b01-0911-05af-1e11",
+          "id": "64e9-33ff-2b0d-4698",
+          "name": "For the Dark Gods"
+        }
+      ]
+    }
+  ]
+}

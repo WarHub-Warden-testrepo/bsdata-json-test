@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Tidewall Droneport",
+    "prevIdentifier": "Tidewall Gunrig"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "d9cf-4a0c-d588-667d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "d36b-dc9f-97fb-8332",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "c961-af22-c811-decb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a55a-5014-4686-c633",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "bd6e-42b9-357b-00c4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "6427-c009-72ea-9227",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c7ff-2bfa-f161-f86c",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "ec6f-b922-4a44-68ec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "3762-100d-2efc-6d4a",
+          "name": "Tactical Drones"
+        }
+      ],
+      "id": "b5cb-0fc1-45ac-867a",
+      "name": "Tidewall Droneport",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e2ef-269f-8ab5-9b20",
+          "id": "860d-44a6-0485-2584",
+          "name": "Fortification"
+        },
+        {
+          "type": 1,
+          "targetId": "a341-7d9b-b950-e289",
+          "id": "4e9a-ebbc-8939-e44c",
+          "name": "Mobile Defence Platform"
+        },
+        {
+          "type": 1,
+          "targetId": "b21d-2b95-7a43-1500",
+          "id": "79e6-0684-fe11-8c59",
+          "name": "Open-topped"
+        },
+        {
+          "type": 1,
+          "targetId": "ed2c-4b7d-a3cb-0417",
+          "id": "b2bf-55d0-df00-31d0",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "408d-93ae-35a0-50c0",
+          "id": "1d94-d253-d372-043e",
+          "name": "Tidewall Droneport"
+        },
+        {
+          "targetId": "8627-1277-093a-41f3",
+          "id": "ed04-5b27-ff92-1f00",
+          "name": "Tidewall (Transport)"
+        },
+        {
+          "type": 1,
+          "targetId": "c8a2-aa8f-c08d-319e",
+          "id": "af03-22a8-f4ec-8567",
+          "name": "Drone Control System"
+        }
+      ]
+    }
+  ]
+}

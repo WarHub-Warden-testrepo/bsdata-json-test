@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Vanguard Veteran Squad",
+    "prevIdentifier": "Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "6a45-6a6d-07ab-28c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "618c-a0ad-15ab-bf65",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "2f56-e757-8d4e-cc3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "3884-2e32-2440-9ba2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f43b-f8b9-8b5e-0a3e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c91f-cb6d-9201-fc3b",
+          "id": "f751-d71b-8709-bde6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "df71-9a86-3b33-01a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "21d5-2f9c-29e1-c3cb",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "f010-18e3-33fc-6aa4",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f010-18e3-33fc-6aa4",
+      "name": "Vanguard Veteran Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7764-3593-9ea0-228b",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "1174-7136-ea7e-55b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "f010-18e3-33fc-6aa4",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

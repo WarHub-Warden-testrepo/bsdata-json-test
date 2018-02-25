@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Plagueridden",
+    "prevIdentifier": "Plaguebearer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ec09-de21-7a5f-ab2a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b1ef-8705-e952-4edc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a35-47d9-1ccd-45d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "86f4-5264-1964-3e73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5df1-ff58-ee19-6e21",
+          "id": "8faf-411c-5ecd-6247",
+          "name": "Plaguesword"
+        }
+      ],
+      "id": "56ab-5dd2-8833-dbeb",
+      "name": "Plagueridden"
+    }
+  ]
+}

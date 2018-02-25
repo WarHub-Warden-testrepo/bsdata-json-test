@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Shroud Protocols",
+    "prevIdentifier": "Dogma: Refusal To Yield"
+  },
+  "rules": [
+    {
+      "description": "Your opponent must subtract 1 from their hit rolls when shooting at units with this dogma if they are more than 12\" away",
+      "id": "4bc0-a593-94ab-6bae",
+      "name": "Dogma: Shroud Protocols",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "8052-a037-da6b-950f",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

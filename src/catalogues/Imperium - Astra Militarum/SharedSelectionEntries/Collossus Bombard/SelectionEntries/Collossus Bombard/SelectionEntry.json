@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Collossus Bombard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7115-7e77-2b48-a35e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e4bf-50da-6f22-27e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "4ba2-fd65-3263-9805",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "ba14-6a05-ec0c-a701",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "42fd-c3f5-7efb-b904",
+      "name": "Collossus Bombard",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "5021-bda3-0fa2-7658",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "3322-1e55-4b5d-3ab8",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "362b-5280-ccdd-b158",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

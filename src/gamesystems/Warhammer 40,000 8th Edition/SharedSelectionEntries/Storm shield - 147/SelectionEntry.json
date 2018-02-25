@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Storm shield - 147",
+    "prevIdentifier": "Thunder hammer - 146"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "id": "e2ea-efee-e689-42df",
+      "name": "Storm shield",
+      "infoLinks": [
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "6e80-54c9-444c-9140",
+          "name": "Storm shield"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

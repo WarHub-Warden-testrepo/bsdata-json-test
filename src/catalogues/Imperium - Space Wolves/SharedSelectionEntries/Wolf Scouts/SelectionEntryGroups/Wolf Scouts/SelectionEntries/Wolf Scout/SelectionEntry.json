@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Wolf Scout"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "3287-db8e-e394-40fc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "974d-18d6-c20b-c770",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d3d0-8b1e-40b5-00bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "9daa-dd3e-7372-b24d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8cd2-5434-50f7-acaf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a0bc-706a-6e38-b0db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "18eb-c349-2904-9e65",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9900-1176-d707-4fdc",
+      "name": "Wolf Scout",
+      "infoLinks": [
+        {
+          "targetId": "6faa-5f0d-bd78-f2cc",
+          "id": "2a06-f721-bd21-4faa",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "3287-db8e-e394-40fc",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "0192-581c-7f7f-a5e7",
+              "type": 4,
+              "field": "selections",
+              "scope": "f05f-c816-5f62-678a",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "3287-db8e-e394-40fc",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2faa-cbbc-b337-d0d3",
+              "type": 4,
+              "field": "selections",
+              "scope": "f05f-c816-5f62-678a",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

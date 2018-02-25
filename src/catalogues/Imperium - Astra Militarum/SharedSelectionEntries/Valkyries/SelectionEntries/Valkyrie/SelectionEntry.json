@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Valkyrie"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5290-7b6f-276a-08bf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "6e49-aedb-66c4-2865",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebca-14a1-f915-8f33",
+          "id": "71f7-fcd2-dbf0-58f3",
+          "name": "Wing-mounted Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4bf9-e461-329e-e5d7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "47b0-6639-2122-26fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eeba-99b4-1642-534d",
+          "id": "ae2c-c3ae-cfc9-df3c",
+          "name": "Stat Damage (Gunships)"
+        }
+      ],
+      "id": "f731-f77b-45cd-e16c",
+      "name": "Valkyrie",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "63a8-b23f-a97a-b2e2",
+          "id": "aa87-eec4-c855-6b04",
+          "name": "Transport: Gunship"
+        },
+        {
+          "type": 1,
+          "targetId": "681d-8707-d8ee-8034",
+          "id": "d94d-5b42-c18b-106b",
+          "name": "Roving Gunship"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "080c-7f08-9d8d-5c51",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "b81c-c3d0-f0ac-6010",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "342e-55c5-2da6-7a4a",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "cc00-2daf-9d94-796e",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "f721-d16c-757d-99b5",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "c4f9-48e3-4bdc-737f",
+          "id": "ae4a-7b1a-9928-02bd",
+          "name": "Grav Chute Insertion"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "ccbd-b718-748e-a755",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

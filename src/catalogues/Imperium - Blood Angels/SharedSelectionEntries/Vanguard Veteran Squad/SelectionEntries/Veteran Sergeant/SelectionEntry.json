@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b8d0-4767-a0f9-a67a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "73eb-c201-d390-5097",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0915-7301-1fda-0020",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "417b-0be7-2e00-1556",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a75d-a1f8-7996-5b35",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d23b-2f9c-ee6d-4319",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3e4a-4487-0b64-4dda",
+              "type": 1,
+              "field": "selections",
+              "scope": "f010-18e3-33fc-6aa4",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "7197-08e3-ceb6-fd57",
+          "name": "Melta bombs"
+        }
+      ],
+      "id": "d452-bcda-be1e-aa7c",
+      "name": "Veteran Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "5b4c-3b1f-69d8-a84c",
+          "id": "3f89-dc70-5a2f-19fe",
+          "name": "Veteran Sergeant",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "21d5-2f9c-29e1-c3cb",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f010-18e3-33fc-6aa4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "May Take..",
+    "prevIdentifier": "Grey Hunters"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e5d0-5267-63b0-30c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": -1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "51ec-e106-c570-929a",
+          "name": "Chainsword",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e5d0-5267-63b0-30c9",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "2e39-6ee4-1903-7c95",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "e5d0-5267-63b0-30c9",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "e01c-9852-c7d9-21fc",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2e39-6ee4-1903-7c95",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9a4f-3db9-e0ba-0074",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f1b-fc35-a279-3955",
+          "id": "27dc-f5a1-b509-252b",
+          "name": "Wolf Standard"
+        }
+      ],
+      "id": "209a-cea2-87d6-6329",
+      "name": "May Take.."
+    }
+  ]
+}

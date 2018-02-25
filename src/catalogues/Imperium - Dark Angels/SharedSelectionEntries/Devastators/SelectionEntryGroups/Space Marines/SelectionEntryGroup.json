@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Space Marines"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b5e1-4b66-77ff-1489",
+      "constraints": [
+        {
+          "id": "e175-bc46-a828-7227",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "1a72-e2ac-3429-cbbf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2acf-91ba-bf85-2f41",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "8813-4647-edd7-182c",
+          "id": "b5e1-4b66-77ff-1489",
+          "name": "Space Marine"
+        }
+      ],
+      "id": "3041-459c-5b4b-1559",
+      "name": "Space Marines"
+    }
+  ]
+}

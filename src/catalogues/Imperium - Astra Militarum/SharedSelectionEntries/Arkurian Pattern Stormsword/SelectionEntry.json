@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "identifier": "Arkurian Pattern Stormsword",
+    "prevIdentifier": "Arkurian Pattern Stormhammer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 25.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "6837-b7a2-3061-9514",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "bf0d-64a3-8c8d-eb9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "a161-d5f5-5728-c9a6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "b379-7bdf-86aa-cd40",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a583-f322-9b46-c705",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f7ac-a31a-578d-369d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "acfc-1538-d8fd-9a7d",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad68-0c7a-7e55-3a6f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c721-5723-5f76-e954",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "1fa5-f81a-00e3-56b7",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ec60-90a9-79eb-28e2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ebab-aede-8cc3-1e90",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "5b95-510c-aeee-0a76",
+          "name": "Stat Damage (Baneblade)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1067-dd86-ac3c-709c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4e61-4561-b23b-b786",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "4f4d-f400-931d-c635",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "2dd6-9930-5643-76e7",
+          "name": "Baneblade Sponsons"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "fb36-8c3b-8933-09fa",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "756d-96e9-ba4a-0866",
+      "name": "Arkurian Pattern Stormsword",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "e1ca-298e-ec37-c597",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d237-af26-a4d9-5cb9",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "38b3-51b5-1dda-50f1",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Draznicht's Ravagers",
+    "prevIdentifier": "Kranon the Relentless"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c651-2986-9289-3009",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "702a-3b56-7559-60fe",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "5b1b-04a1-6626-d422",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2398-1be3-3391-6984",
+          "id": "496b-b02c-3c6c-dcb3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "96ff-4c6a-0e1a-b591",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "95c4-ad07-6a01-626a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c7a8-fedf-fb5e-e888",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "551b-c441-ba4d-f592",
+      "name": "Draznicht's Ravagers",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "5952-5964-8588-967e",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "702a-3b56-7559-60fe",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c4a9-5a33-d824-bcf8",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

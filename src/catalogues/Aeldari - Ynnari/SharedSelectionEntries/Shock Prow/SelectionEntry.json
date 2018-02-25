@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Shock Prow",
+    "prevIdentifier": "Disintegrator cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c56f-58ea-7d6a-e160",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3704-34c8-3d77-d831",
+      "name": "Shock Prow"
+    }
+  ]
+}

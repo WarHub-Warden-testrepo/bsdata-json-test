@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Guardsmen Crew",
+    "prevIdentifier": "Rapier"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d9bd-5cea-ec62-8760",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "556e-c632-0ee6-5455",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "7671-dae8-6042-88a9",
+          "name": "Frag grenade"
+        },
+        {
+          "targetId": "fd87-854b-d284-184a",
+          "id": "4460-61cb-e061-7729",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "d918-b417-2131-0316",
+      "name": "Guardsmen Crew",
+      "infoLinks": [
+        {
+          "targetId": "efac-a40e-8d33-0bb5",
+          "id": "edf9-9df7-9642-e275",
+          "name": "Guardsmen Crew"
+        }
+      ]
+    }
+  ]
+}

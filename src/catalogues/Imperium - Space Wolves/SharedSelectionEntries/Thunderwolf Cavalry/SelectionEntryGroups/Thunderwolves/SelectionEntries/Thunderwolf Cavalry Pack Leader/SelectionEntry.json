@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Thunderwolf Cavalry Pack Leader",
+    "prevIdentifier": "Thunderwolf Cavalry"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6df3-39c9-473b-0207",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4fe7-7c53-a3a4-2e8e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5015-9a46-ea49-56fa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "395a-72a1-3bc9-9ef2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0180-e72b-4832-ab0d",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2823-dacf-c1bb-6837",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f77a-a622-4ecc-3a8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6b0-fdca-ccd1-57d7",
+          "id": "4e04-191c-bfb1-4937",
+          "name": "Thunderwolf"
+        }
+      ],
+      "id": "52d8-c66c-1e37-3661",
+      "name": "Thunderwolf Cavalry Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "c586-f365-f4c1-3258",
+          "id": "20e9-707d-bc82-3338",
+          "name": "Thunderwolf Cavalry Pack Leader"
+        }
+      ]
+    }
+  ]
+}

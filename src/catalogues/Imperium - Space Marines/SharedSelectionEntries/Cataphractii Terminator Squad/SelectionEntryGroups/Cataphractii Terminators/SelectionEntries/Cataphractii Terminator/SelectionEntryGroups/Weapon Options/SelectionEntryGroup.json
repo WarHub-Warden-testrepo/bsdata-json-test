@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bb31-4afc-5d9a-db0b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "2f7d-76ad-1d09-69f0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5d4c-6ffc-3792-aa15",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "caae-f721-310b-3798",
+          "id": "2bfd-e3e4-5c3f-4008",
+          "name": "Power fist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd57-9db1-c6e6-d2a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "ce35-a289-a1a3-83ca",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d60-4dbf-ed21-723b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "571f-9ce0-488c-0857",
+          "id": "3a32-b5ef-8e68-aff3",
+          "name": "Lightning Claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5569-55f6-da84-52d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c635-337e-3d19-8f62",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "c1cd-de06-175a-abe3",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "c635-337e-3d19-8f62",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "6bbc-dde8-61b9-2f48",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b969-29b9-4c40-3609",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b050-572b-911b-d51c",
+          "id": "6bbc-dde8-61b9-2f48",
+          "name": "Lightning Claw (Pair)"
+        }
+      ],
+      "id": "1d1e-ddb6-c2fb-32b2",
+      "name": "Weapon Options",
+      "modifiers": [
+        {
+          "field": "bb31-4afc-5d9a-db0b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "6bbc-dde8-61b9-2f48",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "2f7d-76ad-1d09-69f0",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "6bbc-dde8-61b9-2f48",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

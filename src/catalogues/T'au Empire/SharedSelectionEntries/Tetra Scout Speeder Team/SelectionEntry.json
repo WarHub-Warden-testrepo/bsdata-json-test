@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Tetra Scout Speeder Team",
+    "prevIdentifier": "KX139 Ta'unar Supremacy Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "0a6d-9553-daea-3717",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "76cb-f946-3657-cb67",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9a5f-13a3-6c9b-ec37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "9c86-d8ae-57c0-427e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "379d-d0ef-ddae-02b1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8662-7c30-437d-2dce",
+      "name": "Tetra Scout Speeder Team",
+      "book": "IAI: Xenos",
+      "page": "48",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "7c72-5746-753b-4b01",
+          "name": "For the Greater Good"
+        },
+        {
+          "targetId": "843b-c56d-c44e-0595",
+          "id": "7d5c-cae3-89d0-bc08",
+          "name": "Shadow Strike",
+          "book": "IAI: Xenos",
+          "page": "48"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "b58a-c151-9079-16e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "8662-7c30-437d-2dce",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "b58a-c151-9079-16e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "8662-7c30-437d-2dce",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

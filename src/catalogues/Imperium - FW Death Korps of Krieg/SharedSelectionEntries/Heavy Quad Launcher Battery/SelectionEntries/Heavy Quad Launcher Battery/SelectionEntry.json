@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Heavy Quad Launcher Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9932-6fd8-5c95-5416",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5897-ec45-95bc-7777",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "d700-5137-ac65-361f",
+      "name": "Heavy Quad Launcher Battery",
+      "infoLinks": [
+        {
+          "targetId": "3fe6-0898-b98b-5a2b",
+          "id": "0836-23eb-72bd-a624",
+          "name": "Artillery"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "34be-51c9-b76a-626a",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "040d-3933-16ec-e864",
+          "name": "Artillery Battery"
+        }
+      ]
+    }
+  ]
+}

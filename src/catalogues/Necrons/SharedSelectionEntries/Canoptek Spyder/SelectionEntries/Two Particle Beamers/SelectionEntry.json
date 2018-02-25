@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Two Particle Beamers",
+    "prevIdentifier": "Automaton Claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "74df-3cbf-c63d-9b65",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b5ff-22ce-598b-8275",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1be9-0e5a-d394-9429",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26ad-bf23-16f5-7f91",
+          "id": "bbe3-d01c-c9a9-dcc4",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "6625-370f-4830-0646",
+      "name": "Two Particle Beamers",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

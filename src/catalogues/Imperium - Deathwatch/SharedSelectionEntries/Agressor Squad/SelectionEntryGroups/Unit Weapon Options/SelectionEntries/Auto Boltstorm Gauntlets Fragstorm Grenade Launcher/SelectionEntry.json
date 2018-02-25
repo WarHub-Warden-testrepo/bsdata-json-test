@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Auto Boltstorm Gauntlets/Fragstorm Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "20b2-c14a-cd61-5ccb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0a44-b7cd-3014-13f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c80d-14b5-faf7-32e5",
+          "id": "efd7-b4f3-8775-331b",
+          "name": "Auto Boltstorm Gauntlets"
+        },
+        {
+          "constraints": [
+            {
+              "id": "63a9-750f-c46b-1165",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "393d-69d7-3267-a043",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7857-e612-9389-79a4",
+          "id": "5ca2-9dc9-fa28-1956",
+          "name": "Fragstorm Grenade Launchers"
+        }
+      ],
+      "id": "670f-5307-9b15-beaa",
+      "name": "Auto Boltstorm Gauntlets/Fragstorm Grenade Launcher",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "points",
+          "value": "16",
+          "repeats": [
+            {
+              "childId": "2313-de6c-656d-3313",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "78d6-2309-b216-3f7d",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

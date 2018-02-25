@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Chief Librarian Tigurius",
+    "prevIdentifier": "Captain Sicarius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a566-74ee-3c60-5da3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "743a-89c1-1d21-28fe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "286b-a6e0-aed0-6935",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "22e7-4091-2ad5-d3c4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "27d2-2998-2f52-84cf",
+          "id": "f9f4-06dc-fe47-659c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "c3f7-b6b3-47e3-0396",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f4ed-5b82-6154-db1c",
+          "id": "6a10-fa98-4bce-75d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "0035-be17-29b2-df9b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a846-38ef-9c09-fc1a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "316d-962a-79eb-4cab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a58a-2270-2ef6-4116",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9812-498b-3c34-bc0d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f2d7-315f-7693-949a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "9a86-6757-55c8-4943",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "targetId": "edd9-59c0-8f74-3b36",
+          "id": "df50-6d97-eef2-b06b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6e23-8f16-a099-9120",
+      "name": "Chief Librarian Tigurius",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "e897-f9ad-efc5-d393",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

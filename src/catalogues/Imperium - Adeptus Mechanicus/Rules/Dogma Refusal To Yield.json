@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Refusal To Yield",
+    "prevIdentifier": "Dogma: Red in Cog and Claw"
+  },
+  "rules": [
+    {
+      "description": "Roll a D6 each time a model with this dogma is slain or flees . on a 6 that model refuses to yield; either the wound that slew it is ignored or the model does not flee. However, <FORGE WORLD> units with this dogma cannot Fall Back unless there is a friendly <FORGE WORLD> Character on the battlefield.",
+      "id": "fb82-93f5-e698-7a5f",
+      "name": "Dogma: Refusal To Yield",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "dcc1-31fb-7003-ba0a",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

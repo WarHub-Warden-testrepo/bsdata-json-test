@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "identifier": "Destroyers",
+    "prevIdentifier": "Heavy Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "f018-ec28-e87f-314d",
+          "id": "3cd7-1cc1-64f5-d934",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "b085-f141-9db9-fd8f",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "b1cb-00c2-46a0-6803",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a88b-1050-e898-66e1",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ee86-9e64-81c7-56e3",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "91f6-c0ee-4e4b-9f17",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0a0c-528f-52c9-059b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true
+            }
+          ],
+          "targetId": "43e1-54b5-5f4c-159b",
+          "id": "8144-6215-54cd-5141",
+          "name": "Destroyer",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "field": "0a0c-528f-52c9-059b",
+              "value": "5",
+              "conditions": [
+                {
+                  "childId": "f397-8cce-163b-9ff3",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ced3-4ec4-60ec-b671",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a64c-5536-9a7f-f977",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "f397-8cce-163b-9ff3",
+          "id": "bd84-f37c-f2c8-6108",
+          "name": "Heavy Destroyer",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "field": "a64c-5536-9a7f-f977",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "ced3-4ec4-60ec-b671",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "3"
+            }
+          ]
+        }
+      ],
+      "id": "ced3-4ec4-60ec-b671",
+      "name": "Destroyers",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "7207-7e48-31a0-c906",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

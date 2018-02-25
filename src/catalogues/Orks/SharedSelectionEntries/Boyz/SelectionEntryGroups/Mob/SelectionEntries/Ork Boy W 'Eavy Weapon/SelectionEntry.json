@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Ork Boy W/ 'Eavy Weapon",
+    "prevIdentifier": "Ork Boy W/ Shoota"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0435-0a04-1247-0cea",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "8f9b-ac65-0bfb-31be",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d190-6060-5ab0-8645",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a732-2ef1-8616-eeea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "41a6-ce08-1467-5bf5",
+          "id": "3740-9653-aa95-eb84",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2aa4-c5ae-56f1-9fd0",
+      "name": "Ork Boy W/ 'Eavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "4305-daf8-8988-6189",
+          "id": "eadf-491c-9504-dc77",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "0435-0a04-1247-0cea",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "0f35-4e09-6673-45b4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

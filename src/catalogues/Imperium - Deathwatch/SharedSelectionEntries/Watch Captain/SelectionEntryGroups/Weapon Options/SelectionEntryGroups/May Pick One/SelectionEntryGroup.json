@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "May Pick One"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "9808-dd0f-8ecf-4e8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1248-4676-2363-e475",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "9ba2-ebf8-5986-4bcf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f0c4-df2a-60f5-8934",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "b69b-f704-9407-831e",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "228c-10c8-b782-4a6b",
+      "name": "May Pick One"
+    }
+  ]
+}

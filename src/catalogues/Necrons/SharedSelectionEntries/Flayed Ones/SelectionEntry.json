@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Flayed Ones",
+    "prevIdentifier": "Deathmark"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "cf0c-5169-6154-cfef",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "e955-b987-31f6-af58",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "b8dc-c00a-7d30-f4ce",
+          "id": "0f80-8bc4-e423-9066",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9946-423f-3490-acc4",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3f1f-2ad9-84d0-3063",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 20.0,
+              "shared": true
+            },
+            {
+              "id": "4443-5c0a-4a3c-1a4b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8d81-d6ab-e943-b42e",
+          "id": "937c-b295-75bf-2a71",
+          "name": "Flayed One",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "96eb-eb3c-9a92-930f",
+      "name": "Flayed Ones",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "e4c6-5699-2b23-c6a4",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "96eb-eb3c-9a92-930f",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "96eb-eb3c-9a92-930f",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "20",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "96eb-eb3c-9a92-930f",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

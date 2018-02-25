@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "2x lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "55a3-e7bb-3ad9-d6bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "62f4-1170-0105-6441",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "aa02-9acd-cc94-3c7e",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "4e7d-0944-82df-74da",
+      "name": "2x lascannons"
+    }
+  ]
+}

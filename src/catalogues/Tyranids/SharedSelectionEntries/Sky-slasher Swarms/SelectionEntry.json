@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Sky-slasher Swarms",
+    "prevIdentifier": "Ripper Swarms"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "bc59-9eee-72fd-0560",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "9c0c-0206-19ea-175c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "2f0a-7a19-401a-ea33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "7ab8-ec85-f7d5-1f39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7a53-eedc-8dbb-8505",
+          "id": "5425-24e7-7a2b-9d9e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "d7ba-bc0a-efeb-36f3",
+      "name": "Sky-slasher Swarms",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "c21a-b975-a899-d6e6",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "d7ba-bc0a-efeb-36f3",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "d7ba-bc0a-efeb-36f3",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

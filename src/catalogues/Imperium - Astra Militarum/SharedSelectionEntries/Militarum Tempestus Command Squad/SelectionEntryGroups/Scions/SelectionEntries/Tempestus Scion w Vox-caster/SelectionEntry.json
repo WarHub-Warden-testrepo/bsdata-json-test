@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Tempestus Scion w/ Vox-caster",
+    "prevIdentifier": "Tempestus Scion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f2dd-200c-3627-a81d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9964-c092-43f4-415e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c18-ef0d-47ee-fd4e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5563-fe60-717b-e5b6",
+          "id": "1a2a-9580-adaa-bc2e",
+          "name": "Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e9ab-5cab-d459-478b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "79cf-e115-f5c2-d425",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "38be-03a0-a386-d6eb",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5d4f-f0ef-690e-99ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5188-4b26-73ac-1160",
+          "id": "c3ad-437a-47f6-a333",
+          "name": "Hot-Shot Lasgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9481-7fed-b948-3ae1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7ecb-b2f4-7026-e477",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be4e-87d9-3bb2-4ecd",
+          "id": "73d7-ff3b-dbb6-056a",
+          "name": "Hot-shot Laspistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "id": "e35a-1b2d-8fba-c614",
+      "name": "Tempestus Scion w/ Vox-caster",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "c089-c9c1-6e7b-2138",
+          "name": "Tempestus Scion"
+        }
+      ]
+    }
+  ]
+}

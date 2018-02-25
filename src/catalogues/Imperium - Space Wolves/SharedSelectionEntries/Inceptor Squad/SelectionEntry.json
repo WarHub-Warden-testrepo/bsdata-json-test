@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Inceptor Squad",
+    "prevIdentifier": "Imperial Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2465-cb1e-5625-85ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1b88-d83c-1090-7fa0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b39c-4b4d-87ca-e4bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb53-a4d6-3823-86eb",
+          "id": "1eb9-cc4d-7b8e-c30b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d6b6-9174-d4a6-5fd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "7f09-62b4-9611-0f4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "82df-13db-9e7b-15a3",
+          "id": "c648-3800-37ab-d3c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "b239-ed0a-e437-2454",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "5359-afe8-e99d-b956",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "29f4-cba3-4492-c838",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "9efa-8744-f254-c046",
+      "name": "Inceptor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "4b50-bcee-96c1-7325",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "33ea-29e3-151e-9f9b",
+          "id": "b07f-3289-176f-e65e",
+          "name": "Meteoric Descent"
+        },
+        {
+          "targetId": "bd1b-dc88-554f-122b",
+          "id": "7b7e-6155-7bc2-72be",
+          "name": "Crushing Charge"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "5501-0394-5400-d5b6",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "3200-23f7-1fb3-3c3f",
+              "type": 1,
+              "field": "selections",
+              "scope": "9efa-8744-f254-c046",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

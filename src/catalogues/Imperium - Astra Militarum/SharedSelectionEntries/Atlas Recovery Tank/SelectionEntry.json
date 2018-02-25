@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Atlas Recovery Tank",
+    "prevIdentifier": "Arkurian Pattern Stormblade"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "087c-1d2a-d54b-3fe8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1e6c-caf7-3102-7849",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "6957-80a4-0d46-2291",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "63f7-5734-9c06-30ab",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7835-0a2e-515b-d15a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "2f93-45c7-3dc9-6faa",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "e172-910d-aae4-d668",
+      "name": "Atlas Recovery Tank",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0d2e-f805-3352-c034",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "da35-bb2a-b1a2-d17e",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

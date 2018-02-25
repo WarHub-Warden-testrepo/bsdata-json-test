@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "8170-ecda-68d0-ed12",
+      "constraints": [
+        {
+          "id": "67f7-531f-2dc8-60ea",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "18b9-8b7f-ec4b-6011",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f1a2-390f-de67-e343",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "f72c-013b-0f42-5028",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "83e0-d46c-76f3-0753",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "8170-ecda-68d0-ed12",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "8154-55fb-024d-1e46",
+          "id": "50bf-91f4-8577-22ae",
+          "name": "Elysian Ranged weapons"
+        }
+      ],
+      "id": "8261-8ecf-c394-cade",
+      "name": "Bolt Pistol"
+    }
+  ]
+}

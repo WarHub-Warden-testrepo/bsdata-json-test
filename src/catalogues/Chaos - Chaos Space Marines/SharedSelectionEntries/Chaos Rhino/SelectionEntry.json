@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "identifier": "Chaos Rhino",
+    "prevIdentifier": "Helbrute"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "af2a-c9b6-6b70-7fbb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "296a-d4d7-cc11-a945",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "bf72-5601-14e0-d96f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "58d0-94d5-39ac-8754",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "77cc-da44-f2b6-4a32",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "ff67-d5cd-7974-442e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "bba9-ef72-bb49-4ea9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "5383-9a88-9883-e144",
+          "id": "1e9a-c7fb-b70e-256f",
+          "name": "Combi-weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "011b-0398-3a8c-cee0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ca50-d6a9-560e-439b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a8f6-49e7-ea35-aca5",
+          "id": "b96b-b362-db03-7935",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "10e2-3d6e-78b9-40af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b61d-6cf6-28bd-1164",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "f378-325f-f828-a939",
+          "name": "Combi-bolter"
+        },
+        {
+          "targetId": "f668-0ff7-69d5-be65",
+          "id": "9ac1-8310-9179-ae5e",
+          "name": "Havoc launcher"
+        },
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "beb4-0d3f-574d-1067",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a008-7caa-0650-327c",
+      "name": "Chaos Rhino",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "d6b0-6873-981f-2009",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

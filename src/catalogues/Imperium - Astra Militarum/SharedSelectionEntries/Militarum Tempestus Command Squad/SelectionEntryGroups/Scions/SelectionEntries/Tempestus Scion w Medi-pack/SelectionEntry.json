@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Tempestus Scion w/ Medi-pack",
+    "prevIdentifier": "Tempestus Scion w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e489-1734-8bcb-73b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "09b4-7a8f-051f-ef5a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "adf0-ca03-047a-35c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9ab9-b200-22b4-07af",
+          "id": "a3e0-fae0-68f6-c84a",
+          "name": "Medi-pack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9eb7-0d94-2871-f68b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8b76-d83f-c7f3-aafd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "cedc-a576-e15e-6e2c",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "690b-5a99-a453-22c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5188-4b26-73ac-1160",
+          "id": "1486-a113-6d9e-0581",
+          "name": "Hot-Shot Lasgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a0d2-51a0-60db-7500",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e9e3-aa31-d522-caac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be4e-87d9-3bb2-4ecd",
+          "id": "03a5-c10d-677e-f1dd",
+          "name": "Hot-shot Laspistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "id": "ea01-1640-608a-9d95",
+      "name": "Tempestus Scion w/ Medi-pack",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "3acf-a0e0-1945-43c0",
+          "name": "Tempestus Scion"
+        }
+      ]
+    }
+  ]
+}

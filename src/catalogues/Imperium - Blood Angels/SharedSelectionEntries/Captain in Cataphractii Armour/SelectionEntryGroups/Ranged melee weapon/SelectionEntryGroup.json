@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Ranged/melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0502-e584-499c-11d4",
+      "constraints": [
+        {
+          "id": "f2c7-6087-51cc-ee03",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1432-c4df-7b99-4ec8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cee8-090d-90bb-a7c6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "0502-e584-499c-11d4",
+          "name": "Combi-bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7ddf-83e8-5105-ce4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c713-8c0d-64b9-ce2f",
+          "id": "555d-5dbc-d21b-424d",
+          "name": "Terminator combi-weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "cc2d-9716-adf4-fd74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4071-f5e2-ec86-a309",
+          "id": "5c99-55d7-fc20-35c4",
+          "name": "Terminator melee weapons"
+        }
+      ],
+      "id": "30b0-5501-d658-86a4",
+      "name": "Ranged/melee weapon"
+    }
+  ]
+}

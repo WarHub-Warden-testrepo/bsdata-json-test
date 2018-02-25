@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Exocrine",
+    "prevIdentifier": "Carnifexes"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 216.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "0316-aa04-569a-9ce2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "7f5d-9d62-4d01-baef",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "a8a9-e83d-2595-5d23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "dc14-1326-eed8-0393",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d2e9-75e3-101f-c50c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d94a-4440-d781-aef4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c045-e3db-568a-7ed0",
+          "id": "f82e-bd5c-1116-e04b",
+          "name": "Bio-plasmic Cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a742-aeec-9693-3bf7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e71a-65ed-9b09-0864",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "178d-3d9c-81ba-e703",
+          "id": "9b86-ddd6-d1bb-c104",
+          "name": "Powerful Limbs"
+        }
+      ],
+      "id": "a886-3ba1-c505-1200",
+      "name": "Exocrine",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "0432-c142-5df4-81ad",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "6515-364e-86c7-5f9f",
+          "id": "4fb1-457f-6db5-ff61",
+          "name": "Death Throes"
+        },
+        {
+          "targetId": "fe93-768f-dcee-d94c",
+          "id": "4f9f-41ba-cc1b-0062",
+          "name": "Weapon Beast"
+        }
+      ]
+    }
+  ]
+}

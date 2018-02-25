@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bd8a-8d2b-2c8a-9e21",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "e3ff-05ab-9170-122c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "01bf-bf90-2c86-bec3",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "642f-e0f7-df2d-56ca",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ce6d-1059-ef8a-1a35",
+      "name": "Weapon Options"
+    }
+  ]
+}

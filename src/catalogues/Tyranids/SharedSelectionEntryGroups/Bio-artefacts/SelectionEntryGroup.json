@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Bio-artefacts",
+    "prevIdentifier": "Hive Mind Discipline"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0d95-8055-8296-a513",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9f11-27d2-85f4-1bfe",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "6bd6-d28a-87ce-355e",
+      "name": "Bio-artefacts",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "9f11-27d2-85f4-1bfe",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c832-2f4e-ee51-f481",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "9f11-27d2-85f4-1bfe",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c70d-fb73-b3fc-e301",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "9f11-27d2-85f4-1bfe",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "6e93-50ba-cbf3-f88f",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

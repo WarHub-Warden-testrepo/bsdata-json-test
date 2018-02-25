@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Get Around Behind Them!",
+    "prevIdentifier": "Pound Them to Dust!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "9d63-858c-c12d-0763",
+      "profileTypeName": "Tank Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "44e8-96d0-417b-2cd3",
+          "value": "The ordered model can move up to 6\" in this phase, either before or after it shoots, as if it were the Movement phase. This does not affect how far the vehicle has moved for the purposes of determining how many times it can fire its turret weapon (as described in the Grinding Advance ability above)."
+        }
+      ],
+      "id": "4436-26d8-43b4-5d18",
+      "name": "Get Around Behind Them!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "f438-7180-aba6-e906",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

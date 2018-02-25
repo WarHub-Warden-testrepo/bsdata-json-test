@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant",
+    "prevIdentifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f996-dcd0-572a-6d10",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cffa-b549-1832-9601",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2858-2292-f2a1-419b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fa1e-bbe8-19ed-6033",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "82d5-b0e0-a3c4-e664",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "71d7-db80-9e5a-787d",
+      "name": "Veteran Sergeant"
+    }
+  ]
+}

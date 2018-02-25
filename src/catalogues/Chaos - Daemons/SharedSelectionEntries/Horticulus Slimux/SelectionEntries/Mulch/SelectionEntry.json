@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Mulch",
+    "prevIdentifier": "Lopping Shears"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9482-86b7-e543-59f7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "87a7-2fe2-16e2-9749",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "30dc-087b-31a9-4da0",
+      "name": "Mulch"
+    }
+  ]
+}

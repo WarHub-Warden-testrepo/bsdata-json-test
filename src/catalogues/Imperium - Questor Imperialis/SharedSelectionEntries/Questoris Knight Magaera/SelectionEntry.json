@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "identifier": "Questoris Knight Magaera",
+    "prevIdentifier": "Cerastus Knight-Lancer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 440.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 28.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "e031-b660-1fde-dd82",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "72d5-7333-e9e8-ce66",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "57ae-08ec-2a74-cbae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "f99b-cd02-7cb3-96e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "aee3-f59c-57e9-be74",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "0907-cfb0-839f-d58d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6c94-baa1-537a-ea86",
+          "id": "4338-8466-1b0d-7e38",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d322-e983-8efc-f342",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d1b9-9f2e-618c-ad64",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "54d9-467c-b0e9-9ad2",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "620a-2d8f-12f2-9e37",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2698-26ba-bd83-c9de",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "90d6-7f09-d628-c8f1",
+          "id": "c1c8-e7ce-215b-060d",
+          "name": "Lightning cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f935-2810-e5e9-2af6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "43dc-1e3a-7b98-f1c4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c184-1f36-aca4-f303",
+          "id": "39e0-04ba-888c-d131",
+          "name": "Phased plasma-fusil"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0cd5-9a90-546f-084c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "fc7a-811b-73b1-551e",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "cb39-be83-4f60-a6f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "b29c-ba32-0ade-32b0",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "7482-3322-2c2c-56c2",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "a3e0-d3af-585c-0b96",
+      "name": "Questoris Knight Magaera",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "100",
+      "infoLinks": [
+        {
+          "targetId": "470a-c049-a1f0-ac18",
+          "id": "26ec-7b8e-d71b-5c6b",
+          "name": "Questoris Knight Magaera"
+        },
+        {
+          "targetId": "c2ec-9728-e39b-11df",
+          "id": "80dc-11d2-af1b-4b82",
+          "name": "Ionic Flare Shield"
+        },
+        {
+          "targetId": "77eb-2a36-2c78-02d7",
+          "id": "6cb7-3681-bd9d-c399",
+          "name": "Explodes (Unstable Reactor)"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "d199-96e2-14d6-b5cf",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "ff7c-7bd8-29c2-61a2",
+          "name": "Knight Titan"
+        },
+        {
+          "targetId": "3db7-ad30-051c-f1c6",
+          "id": "692f-5a8a-a946-b917",
+          "name": "Empyreal Preysight"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two lascannons",
+    "prevIdentifier": "Two heavy flamers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "34ac-8b4e-0425-a831",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7ee1-d823-adbd-a3ee",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "023e-8898-bad8-19b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2963-a604-60c0-889f",
+          "id": "459f-697a-960d-2668",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "f574-fbf8-747b-db37",
+      "name": "Two lascannons"
+    }
+  ]
+}

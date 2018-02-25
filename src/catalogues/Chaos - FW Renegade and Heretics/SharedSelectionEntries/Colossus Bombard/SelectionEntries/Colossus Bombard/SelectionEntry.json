@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Colossus Bombard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "149e-6e14-1b37-c03b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "071e-faf6-bb68-7f42",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "c5a8-1a00-7bb4-a3b8",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "1edf-8631-7209-6a23",
+          "id": "e3ef-5f49-6af9-bbda",
+          "name": "Hull Weapon"
+        }
+      ],
+      "id": "ad46-3243-d5d8-4159",
+      "name": "Colossus Bombard",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "34e3-edd2-cabd-e0b5",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "11b8-e6b8-27c1-92b0",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

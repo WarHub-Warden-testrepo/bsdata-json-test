@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Vindicator",
+    "prevIdentifier": "Whirlwind"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "af74-8873-0872-d9cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "8fe4-4d54-6f5b-525a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "3f5d-539b-06f6-d668",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "c374-c400-ad42-8d49",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "7e04-eb47-8026-6c03",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "638d-3292-b61c-0795",
+          "id": "dc4c-e10f-4780-8c80",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6bca-58cc-e68f-a11b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "2a8d-070e-989a-a6db",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f1ef-118b-cc7e-6d04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "7d3f-871e-8d11-0a90",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1eca-ce5e-a274-b6bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0d8b-d891-eaed-1c02",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "4cc2-4956-790f-e500",
+          "name": "Demolisher cannon"
+        }
+      ],
+      "id": "5a0f-867d-1d0f-4d3c",
+      "name": "Vindicator",
+      "infoLinks": [
+        {
+          "targetId": "32e3-9382-e126-2a1c",
+          "id": "e85d-0a9d-d10c-628d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "47c7-d8a6-4ad9-e3c6",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

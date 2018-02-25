@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Marauder With Autogun",
+    "prevIdentifier": "Marauder Chief"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "893f-677e-dce2-3826",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "25cd-00b5-7fb0-377a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "136b-d695-8dac-18af",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2aec-14e0-1e3f-2d14",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1497-92eb-fce8-da87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a2ab-ad37-feee-243e",
+          "id": "e81d-3ba3-adb8-5db1",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "31d5-15f1-ed2b-3076",
+      "name": "Marauder With Autogun",
+      "infoLinks": [
+        {
+          "targetId": "fcde-3e6a-e240-1157",
+          "id": "9b5e-d2f0-85f2-fd28",
+          "name": "Autogun"
+        }
+      ]
+    }
+  ]
+}

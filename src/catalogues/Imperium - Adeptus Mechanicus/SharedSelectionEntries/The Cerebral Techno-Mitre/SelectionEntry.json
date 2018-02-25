@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "The Cerebral Techno-Mitre",
+    "prevIdentifier": "The Skull of Elder Nikola"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c79c-0e17-0c1d-1353",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "48d7-6846-a27a-25fa",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5d3f-2ee9-8d9c-919f",
+      "name": "The Cerebral Techno-Mitre",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "0895-13ad-3ba1-0952",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "dcc1-31fb-7003-ba0a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

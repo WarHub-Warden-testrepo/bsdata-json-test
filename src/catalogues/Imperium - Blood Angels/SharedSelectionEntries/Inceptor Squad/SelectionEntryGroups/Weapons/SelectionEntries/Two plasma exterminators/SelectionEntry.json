@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Two plasma exterminators",
+    "prevIdentifier": "Two assault bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2787-ab6a-412c-e963",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8888-f1d7-f794-51e3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d233-2b02-eb22-7a60",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b68-6f66-3be1-95b3",
+          "id": "3607-e7a5-5013-f5e2",
+          "name": "Plasma exterminator",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "17"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "1951-0f67-9897-2627",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "68fa-720b-d2d6-f473",
+      "name": "Two plasma exterminators"
+    }
+  ]
+}

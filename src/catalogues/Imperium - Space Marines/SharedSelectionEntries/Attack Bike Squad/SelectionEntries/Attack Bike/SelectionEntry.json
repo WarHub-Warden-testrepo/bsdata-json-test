@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Attack Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0fb3-f2af-53e9-a092",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "dcbf-84b1-af82-d121",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0ea0-c9da-907b-ee8e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "efbe-ea75-85db-46a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "521c-71b7-7ddd-9dff",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ba6d-5c50-3155-1b57",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "9781-9d24-2864-a9b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c535-910a-ab44-9de8",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d711-9eb7-b9a2-0a6f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d66d-7597-cd1b-1a9a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a11f-8f20-5d2c-079a",
+          "id": "7286-b734-2b0a-5487",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "168b-66dd-2d74-d60b",
+      "name": "Attack Bike",
+      "infoLinks": [
+        {
+          "targetId": "a59d-dcf2-38a7-c570",
+          "id": "5cb9-5fa8-effb-eb5d",
+          "name": "Attack Bike"
+        }
+      ]
+    }
+  ]
+}

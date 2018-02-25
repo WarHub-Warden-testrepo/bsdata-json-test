@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Malcador Annihilator",
+    "prevIdentifier": "Macharius Vulcan"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "04a5-a568-2be0-740e",
+          "id": "b004-c251-2b0a-c4fa",
+          "name": "Stat Damage (Malcador)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b377-0a28-fe4c-80f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "fa97-a605-7d6f-9f04",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "7945-ea6e-0835-b4b9",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "22a5-8d1e-4c88-cc2b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2b5d-418b-5769-9f26",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "8db7-6fce-a80b-a165",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "89ac-4e4c-2377-45f0",
+      "name": "Malcador Annihilator",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5ac8-171a-1268-47f5",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "e519-9694-6fbe-2bab",
+          "id": "c6cb-95a5-ddeb-796e",
+          "name": "Explodes (Malcador)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Arena Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3471-c16d-d9fe-d435",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "d846-6314-26be-ee79",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8dcd-9fab-a37b-6462",
+          "id": "42b1-8449-4906-7584",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c9e6-b1a7-d025-f51f",
+      "name": "Arena Champion"
+    }
+  ]
+}

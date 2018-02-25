@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Drone Sentry Turret w/ 2x Burst cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0b5b-1e6f-179c-b009",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cc7a-9920-c537-6be4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "05bb-d073-5db2-3e7d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "4f2f-10d3-893a-88f9",
+          "name": "Burst cannon"
+        }
+      ],
+      "id": "bd14-4b44-9869-2ff1",
+      "name": "Drone Sentry Turret w/ 2x Burst cannon",
+      "infoLinks": [
+        {
+          "targetId": "cd30-4c13-3d5d-7a06",
+          "id": "2c0f-d8e6-d6fc-f511",
+          "name": "Drone Sentry Turret"
+        }
+      ]
+    }
+  ]
+}

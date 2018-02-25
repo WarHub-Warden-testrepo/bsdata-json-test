@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Chaos Cultists",
+    "prevIdentifier": "Abaddon the Despoiler"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "ab47-0f82-4a8e-46f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "803d-fb75-f2ff-b095",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e18b-a952-545c-8c08",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2d39-3392-2c8a-fde4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "b389-3b94-e25f-9176",
+          "name": "Mark of Chaos"
+        }
+      ],
+      "id": "b9a9-557f-f8fb-4377",
+      "name": "Chaos Cultists",
+      "page": "",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "b9a9-557f-f8fb-4377",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "b9a9-557f-f8fb-4377",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "The Santic Halo",
+    "prevIdentifier": "The Fist of Vengeance"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8355-0e4c-e451-b91d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "39e4-54a9-ec1e-a4b8",
+      "name": "The Santic Halo",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "8352-7f67-7e2b-3b4f",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "1ceb-4568-edeb-e155",
+                      "type": 3,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    },
+                    {
+                      "childId": "ef59-b971-acfe-2119",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

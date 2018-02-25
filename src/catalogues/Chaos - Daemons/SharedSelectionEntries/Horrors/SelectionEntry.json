@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "identifier": "Horrors",
+    "prevIdentifier": "Fateskimmer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "3b2b-3c73-1bc7-b6cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4407-2aa1-2a62-c1dc",
+          "id": "3e28-795c-5910-bf33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bee7-fdaf-4125-29e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "8a5a-7536-b830-9336",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "09cd-5221-aebc-01a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "6078-b51b-de0a-6efd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "09a0-5a51-f5f4-19fe",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9159-28cd-cd0b-7db8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "11db-39df-f53b-d823",
+          "id": "3876-db24-c2bc-9956",
+          "name": "Instrument of Chaos",
+          "modifiers": [
+            {
+              "field": "9159-28cd-cd0b-7db8",
+              "value": "1",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "68b2-2202-4e74-e836",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "model",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 10.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "9159-28cd-cd0b-7db8",
+              "value": "2",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "68b2-2202-4e74-e836",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 2.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "model",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 20.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "9159-28cd-cd0b-7db8",
+              "value": "3",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "68b2-2202-4e74-e836",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 3.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "model",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "f871-ce62-9895-c5a0",
+                      "value": 30.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b8d1-e720-8634-a25e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0711-50e3-9ead-bcf5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "11fb-74b9-a7a9-63a7",
+          "name": "Smite"
+        }
+      ],
+      "id": "f871-ce62-9895-c5a0",
+      "name": "Horrors",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "1881-38f5-6c08-c919",
+          "name": "Daemonic Ritual"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "f871-ce62-9895-c5a0",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "f871-ce62-9895-c5a0",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

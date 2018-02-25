@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Hydras"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8aa1-6968-5958-ff81",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "8b0a-ee1b-d1f0-9221",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d1d0-ddf9-55bb-08aa",
+          "id": "07ea-b8c4-1dfc-de23",
+          "name": "Vehicle Equipment List",
+          "book": "Codex: Astra Militarum",
+          "page": "85"
+        },
+        {
+          "type": 1,
+          "targetId": "1edf-8631-7209-6a23",
+          "id": "d47f-29f8-43b4-8c8e",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "7fd2-ace3-8028-7377",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "2063-6854-f29a-e8f2",
+      "name": "Hydras",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ac84-a4d0-3a58-2a83",
+          "id": "1228-dc6d-a981-27eb",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "44a0-4532-69a9-8dae",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "cd84-5e0e-a7c3-90c0",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

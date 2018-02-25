@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Acrobatic",
+    "prevIdentifier": "War Shout"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f07e-aae5-074e-640f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3971-379e-985e-03cc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "025e-590f-a8cf-fcca",
+      "name": "Acrobatic"
+    }
+  ]
+}

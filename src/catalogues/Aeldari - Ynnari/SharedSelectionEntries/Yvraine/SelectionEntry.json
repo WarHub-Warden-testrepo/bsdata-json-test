@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Yvraine"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 132.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e93d-e013-8db7-fa6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c9d5-81eb-d052-bb5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "f7aa-a5a4-05ff-437a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ebb3-4f37-6e57-7a8e",
+          "id": "902f-2aab-be6a-9ae5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "0ba5-3aee-c576-29a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e3e6-25ca-d31a-e0e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "08f0-4237-8806-17d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8df-4b67-2b52-4472",
+          "id": "476c-a3d5-2a3c-38fd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "dcfb-d185-a9d0-86c3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "600a-1ef8-edcb-a47a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f93-a621-fdeb-0426",
+          "id": "a88a-c96a-12bf-346f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dff8-38d1-1a34-96af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ed6f-4e06-964b-581a",
+          "name": "Warlord"
+        }
+      ],
+      "id": "1409-e740-c7c9-3758",
+      "name": "Yvraine",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3678-7a8e-d610-0393",
+          "id": "419d-a71f-f4c0-51a8",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "1f94-44d1-6182-7854",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

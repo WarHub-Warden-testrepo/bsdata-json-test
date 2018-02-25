@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two fragstorm grenade launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8618-8592-c318-1f42",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5091-4b18-ebe1-65c0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8bd6-f9b7-6a6d-37a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e4c9-be77-2c22-f2f1",
+          "id": "97e7-58db-432c-9d8a",
+          "name": "Fragstorm grenade launcher"
+        }
+      ],
+      "id": "35b5-1283-eb35-b14f",
+      "name": "Two fragstorm grenade launchers"
+    }
+  ]
+}

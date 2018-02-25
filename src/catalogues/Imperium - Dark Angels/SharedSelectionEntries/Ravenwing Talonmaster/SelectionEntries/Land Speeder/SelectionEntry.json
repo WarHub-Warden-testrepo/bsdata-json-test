@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Land Speeder",
+    "prevIdentifier": "Talonmaster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2013-21aa-2379-2d60",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "64e9-9b82-81f3-6e54",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "28a0-8f09-9975-e57f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "57c7-bdfc-b960-969a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "0e53-0060-7e2c-5492",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7eb6-d740-f649-7bf0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "57e3-458e-d5fc-2e23",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "ce69-a136-9298-ab08",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "da1a-afd9-b158-e26a",
+      "name": "Land Speeder"
+    }
+  ]
+}

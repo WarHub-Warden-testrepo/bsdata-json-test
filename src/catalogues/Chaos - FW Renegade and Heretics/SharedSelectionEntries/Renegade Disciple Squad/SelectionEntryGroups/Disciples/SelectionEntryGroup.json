@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Disciples"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0cdf-b804-12e2-8823",
+      "constraints": [
+        {
+          "id": "d330-d845-7bb7-5a52",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "d691-a59c-fa02-920a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 14.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "1ed4-0131-3d2c-9e60",
+      "name": "Disciples",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "d330-d845-7bb7-5a52",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1dac-1430-9ffe-9b66",
+              "type": 2,
+              "field": "selections",
+              "scope": "478b-40b6-b779-32f7",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "d691-a59c-fa02-920a",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1dac-1430-9ffe-9b66",
+              "type": 2,
+              "field": "selections",
+              "scope": "478b-40b6-b779-32f7",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Guardsmen w/ Special Weapon",
+    "prevIdentifier": "Guardsmen"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5b3a-4322-89f6-c1f3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "8235-5fa6-4681-5fa5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9dad-2b93-3ae1-4e26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a3f7-70d3-608b-052a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6ee-92a0-4d0b-0e13",
+          "id": "6820-ec6c-7e2c-167b",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "459e-10a0-4172-02d2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1ea7-be68-605f-4bd7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "b616-3ba6-82da-5f5f",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "fa11-5290-7143-9a95",
+      "name": "Guardsmen w/ Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "c0ac-eaf8-9629-5062",
+          "id": "ddc9-9468-99b6-d727",
+          "name": "Guardsman"
+        }
+      ]
+    }
+  ]
+}

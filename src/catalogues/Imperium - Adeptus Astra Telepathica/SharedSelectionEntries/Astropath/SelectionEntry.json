@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Astropath",
+    "prevIdentifier": "Wyrdvane Psykers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4e73-491c-d01a-5318",
+          "id": "e09a-a140-d1f0-571a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0529-accb-b64c-d8a9",
+          "id": "c8ab-9360-bbb6-32b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "87fa-383b-929a-c9d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "1092-252d-d454-3e2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8a15-1501-474d-92db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5515-ea3c-ba23-a402",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "4ec5-ab38-e531-eb8d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0890-8723-7184-d191",
+          "id": "39c9-e96e-30c3-267d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ce65-7b55-e72a-fa9d",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "61ac-bb73-512f-21a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dd59-c8d7-84f3-3c67",
+          "id": "60d6-3280-28a9-da51",
+          "name": "Psykana Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "56b2-3a54-2fc5-21b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6369-eee8-89f7-d8a8",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "d32e-7048-96d0-5bbd",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5100-9b4f-5660-b8de",
+      "name": "Astropath",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "80af-9ba7-d28b-719f",
+          "id": "654e-a0a7-6da6-555f",
+          "name": "Astropath"
+        }
+      ]
+    }
+  ]
+}

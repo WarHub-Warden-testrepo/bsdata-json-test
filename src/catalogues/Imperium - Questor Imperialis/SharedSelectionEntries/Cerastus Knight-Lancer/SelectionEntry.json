@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "identifier": "Cerastus Knight-Lancer",
+    "prevIdentifier": "Cerastus Knight-Castigator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 420.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "9076-6130-8d05-b073",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "bc19-8d38-8d03-72a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "2afc-4466-5dc9-6804",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "3904-1c1c-63dd-eb86",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "0cd0-0a5f-b652-2659",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "916f-0036-6569-3267",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "55fe-2555-52b1-6c9d",
+          "id": "1b64-9a3e-ff41-8695",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a102-42c5-58d8-4d61",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9d50-e89b-d021-5dc0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "70af-1b89-01e5-e61f",
+          "name": "Titanic feet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dca3-fcdc-b84e-fe7b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "518a-7382-c2d7-a9be",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d891-dbab-0f48-d0b2",
+          "id": "fa35-bf9f-89f1-b735",
+          "name": "Shock blast"
+        },
+        {
+          "constraints": [
+            {
+              "id": "919a-9c4e-4863-5b83",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "73a0-6931-fd5c-9e88",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "577f-7d01-d772-e3d0",
+          "id": "06d3-2045-7909-ad41",
+          "name": "Cerastus shock lance"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cce-8ef0-7d29-055e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "815e-93e9-b09b-215f",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d8a-ae3a-412c-6bd3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "6138-bd5c-799d-15ba",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "e3a6-3cf2-26af-3016",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "5c38-afa3-7aed-7116",
+      "name": "Cerastus Knight-Lancer",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "99",
+      "infoLinks": [
+        {
+          "targetId": "ac6c-0f47-c1c8-4253",
+          "id": "24da-a22e-0cf2-19ef",
+          "name": "Cerastus Knight-Lancer"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "bb07-de8a-d7fa-cfba",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "383d-e9e6-b605-f6a9",
+          "id": "7f9e-eee9-57b8-1154",
+          "name": "Explodes",
+          "page": ""
+        },
+        {
+          "targetId": "eda1-ba88-7192-826e",
+          "id": "50a0-310c-565a-e0bc",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "869a-af45-3ca3-43a9",
+          "id": "7dca-1650-9b7d-b3b9",
+          "name": "Ion Gauntlet Shield"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "f0be-f5fa-9341-86e0",
+          "name": "Knight Titan"
+        }
+      ]
+    }
+  ]
+}

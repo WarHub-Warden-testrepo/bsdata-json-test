@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Meka-Dread",
+    "prevIdentifier": "Squiggoth"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 205.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "cc67-4232-8ad9-b820",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "c8d5-62a3-9743-62d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "6db3-d6e4-8b4e-3211",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "75ac-1516-768b-77fc",
+          "id": "a744-58d5-2717-3326",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "f58d-094c-0115-1135",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1a00-eeb1-4eb4-3e7c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a47-9f64-0913-48df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3b66-1d97-8b6d-3175",
+          "id": "7866-4ee8-b65d-9493",
+          "name": "Rippa Klaw"
+        }
+      ],
+      "id": "1254-ab58-4b43-66ab",
+      "name": "Meka-Dread",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "f03d-e28e-3bb3-9a4d",
+          "name": "'Ere We Go!"
+        },
+        {
+          "targetId": "56f0-3891-61a7-c830",
+          "id": "f0b7-6fd8-e29c-73a8",
+          "name": "Explodes (6+/6\"/D3)"
+        }
+      ]
+    }
+  ]
+}

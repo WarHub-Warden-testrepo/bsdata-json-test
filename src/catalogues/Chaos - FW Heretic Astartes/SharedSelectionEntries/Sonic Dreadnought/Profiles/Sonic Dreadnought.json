@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Sonic Dreadnought"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "800f-21d0-4387-c943",
+      "profileTypeName": "Unit",
+      "characteristics": [
+        {
+          "name": "M",
+          "characteristicTypeId": "0bdf-a96e-9e38-7779",
+          "value": "8\""
+        },
+        {
+          "name": "WS",
+          "characteristicTypeId": "e7f0-1278-0250-df0c",
+          "value": "3+"
+        },
+        {
+          "name": "BS",
+          "characteristicTypeId": "381b-eb28-74c3-df5f",
+          "value": "3+"
+        },
+        {
+          "name": "S",
+          "characteristicTypeId": "2218-aa3c-265f-2939",
+          "value": "6"
+        },
+        {
+          "name": "T",
+          "characteristicTypeId": "9c9f-9774-a358-3a39",
+          "value": "7"
+        },
+        {
+          "name": "W",
+          "characteristicTypeId": "f330-5e6e-4110-0978",
+          "value": "8"
+        },
+        {
+          "name": "A",
+          "characteristicTypeId": "13fc-b29b-31f2-ab9f",
+          "value": "4"
+        },
+        {
+          "name": "Ld",
+          "characteristicTypeId": "00ca-f8b8-876d-b705",
+          "value": "8"
+        },
+        {
+          "name": "Save",
+          "characteristicTypeId": "c0df-df94-abd7-e8d3",
+          "value": "3+"
+        }
+      ],
+      "id": "2e73-c1a9-b5f9-de35",
+      "name": "Sonic Dreadnought",
+      "page": "",
+      "modifiers": [
+        {
+          "field": "13fc-b29b-31f2-ab9f",
+          "value": "5",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "0fb7-cd07-ecfc-1db8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3672-0dd5-d396-dc4b",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "0fb7-cd07-ecfc-1db8",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "3672-0dd5-d396-dc4b",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "dc36-13de-3194-d92c",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "3672-0dd5-d396-dc4b",
+                          "value": 1.0,
+                          "shared": true
+                        },
+                        {
+                          "childId": "9dae-54fd-c8bf-1d8d",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "3672-0dd5-d396-dc4b",
+                          "value": 1.0,
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

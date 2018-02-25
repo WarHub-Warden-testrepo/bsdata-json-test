@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Reiver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "18d4-09c6-0a7b-6692",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e986-00bc-65ee-6094",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d97b-2487-751b-9e51",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "019c-37b5-d67f-91e9",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8102-8107-3f67-8a10",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3683-dc05-452f-d07d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d7c8-7c82-9b35-d31f",
+          "id": "db64-4a07-2929-d14e",
+          "name": "Shock Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c261-0fb4-c81e-d150",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "225d-0136-a058-4776",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e4cc-d26c-05a8-9eac",
+          "id": "60ef-d70e-96da-041e",
+          "name": "Heavy Bolt Pistol"
+        }
+      ],
+      "id": "f06f-4e72-57a2-df3e",
+      "name": "Reiver"
+    }
+  ]
+}

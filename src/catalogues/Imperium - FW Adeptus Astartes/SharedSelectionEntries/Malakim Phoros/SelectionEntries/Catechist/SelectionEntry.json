@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Catechist",
+    "prevIdentifier": "Glaive of Lamentation"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c922-bcf0-1dc6-5c54",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9630-73fd-78a2-66aa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8cdb-ff5f-f124-48c6",
+      "name": "Catechist"
+    }
+  ]
+}

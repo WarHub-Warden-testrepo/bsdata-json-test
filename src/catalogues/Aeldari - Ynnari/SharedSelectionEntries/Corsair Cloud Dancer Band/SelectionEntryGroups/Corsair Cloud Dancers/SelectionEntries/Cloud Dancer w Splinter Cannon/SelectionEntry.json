@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Cloud Dancer w/ Splinter Cannon",
+    "prevIdentifier": "Cloud Dancer w/ Dark Lance"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "6cbf-608a-7d8c-5042",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ccc8-108f-4709-697e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8a90-d988-a52c-83c3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4257-839c-622b-5e60",
+          "id": "2a32-f746-ad26-9775",
+          "name": "Splinter Cannon"
+        }
+      ],
+      "id": "001b-9be6-44d1-1ef0",
+      "name": "Cloud Dancer w/ Splinter Cannon",
+      "book": "IA - Index Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "targetId": "cd6a-1758-3586-c7bf",
+          "id": "23cd-fc38-43ed-1353",
+          "name": "Corsair Cloud Dancer"
+        }
+      ]
+    }
+  ]
+}

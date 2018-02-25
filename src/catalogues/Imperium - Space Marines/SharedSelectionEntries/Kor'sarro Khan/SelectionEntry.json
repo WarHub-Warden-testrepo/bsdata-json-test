@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "Kor'sarro Khan",
+    "prevIdentifier": "Vulkan He'stan"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "49e0-7650-c2f2-eba2",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6973-b3c7-55e7-60d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "46f9-993a-c9d2-5343",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4bc8-f25c-c7ca-5b6b",
+          "id": "1771-dac5-239c-04e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8352-7f67-7e2b-3b4f",
+          "id": "6eef-c0b9-b997-ed9e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "0e63-fb12-09e0-d848",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d5ca-2a13-4e72-72ba",
+          "id": "afd8-e96f-9aac-15a3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "990e-6c59-c405-3c02",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5adf-18b0-9408-4a38",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "adda-bf4f-23c6-c99f",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9cb3-efd9-318b-e44f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "15d9-f562-fdb3-cb50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "82d5-5bc3-5b2e-c497",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "35dd-eae8-a571-ae6d",
+      "name": "Kor'sarro Khan",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c5f8-76b5-0e11-5fc2",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "9b2b-7c27-671b-94a6",
+          "name": "Rites of Battle"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "26bf-8a1e-768e-670e",
+          "name": "Iron Halo"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "1c0c-5eaf-a88d-ff3c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

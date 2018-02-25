@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "446d-4289-2150-249c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "a4b5-5d43-3dab-3fdd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "70ca-989e-5ee6-828b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3e1e-1062-4250-17c6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "d5e6-5ebe-7e81-8c01",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cac-eb3d-0954-3617",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8dd1-9b8a-6445-099b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "445d-71f2-7494-23ab",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "4ea0-9503-5092-9ade",
+      "name": "Intercessor"
+    }
+  ]
+}

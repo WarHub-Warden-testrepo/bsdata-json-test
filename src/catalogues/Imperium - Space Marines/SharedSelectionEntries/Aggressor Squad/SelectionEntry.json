@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Aggressor Squad",
+    "prevIdentifier": "Flamestorm Gauntlets"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9df3-8bf8-a894-15bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f392-2fd4-9b99-d433",
+          "id": "b187-e350-15f5-f3be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "23a0-37e8-2e84-1296",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "000b-fedb-6053-13d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "82df-13db-9e7b-15a3",
+          "id": "5b15-5778-b904-339d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "3c71-45f7-b3e5-bcd9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0f7e-ce51-f92d-0138",
+      "name": "Aggressor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "0a10-20f1-336c-8756",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "e053-6f79-a7d3-3792",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "f214-ecfb-ec13-7e73",
+              "type": 1,
+              "field": "selections",
+              "scope": "0f7e-ce51-f92d-0138",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

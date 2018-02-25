@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Genestealers",
+    "prevIdentifier": "Gargoyles"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "4447-3c6e-b750-b8ad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "074b-d965-5fb1-7ec8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "00d9-8ae1-fdf0-323c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df7c-355d-38a6-261f",
+          "id": "87f6-0bca-afc3-ddc1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "ae77-f796-459f-28df",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "593d-594c-e42d-02f5",
+      "name": "Genestealers",
+      "infoLinks": [
+        {
+          "targetId": "91dd-d2c6-4db5-3bf1",
+          "id": "0472-7b0f-db60-fc6b",
+          "name": "Lightning Reflexes"
+        },
+        {
+          "targetId": "bc40-384b-8bf8-f27e",
+          "id": "954a-6ac1-cf6b-b91d",
+          "name": "Swift and Deadly",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "29c0-c68e-5bdc-9b99",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "593d-594c-e42d-02f5",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "593d-594c-e42d-02f5",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "593d-594c-e42d-02f5",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "593d-594c-e42d-02f5",
+              "value": 16.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

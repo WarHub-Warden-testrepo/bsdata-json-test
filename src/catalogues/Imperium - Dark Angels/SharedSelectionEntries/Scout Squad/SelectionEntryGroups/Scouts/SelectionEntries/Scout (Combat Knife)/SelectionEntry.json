@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Scout (Combat Knife)",
+    "prevIdentifier": "Scout (Boltgun)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "31f7-fee3-6534-5da8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "524c-c291-c069-0880",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4d63-dae8-3236-0a64",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d3c0-0759-f387-630f",
+          "id": "0b12-ef83-0b42-4470",
+          "name": "Combat knife"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ca39-9840-ed7c-45ac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4e9a-609e-7ea7-3f65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "5bc0-efeb-37d0-1409",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "5ea4-3f68-00f3-a142",
+      "name": "Scout (Combat Knife)"
+    }
+  ]
+}

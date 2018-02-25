@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Hellblaster Squad",
+    "prevIdentifier": "Centurion Devastator Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f613-1881-623d-fa8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "13ac-0a73-2640-cc7a",
+          "id": "5752-c4c1-5239-99a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f324-0dcf-3211-0ec7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a004-7e45-a6de-e458",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "eec5-f70e-8c11-240c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "ac7e-23cf-be74-f957",
+      "name": "Hellblaster Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "bd1c-8b44-9744-6a67",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "1059-924a-0add-63f3",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "d54d-ae3f-5bbf-c95c",
+              "type": 1,
+              "field": "selections",
+              "scope": "ac7e-23cf-be74-f957",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

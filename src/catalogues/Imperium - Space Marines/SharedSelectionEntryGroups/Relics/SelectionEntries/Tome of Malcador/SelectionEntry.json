@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Tome of Malcador",
+    "prevIdentifier": "The Burning Blade"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7ec1-64a5-1603-84bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "545e-73cd-e350-97c3",
+      "name": "Tome of Malcador",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "e691-aad7-d21c-1023",
+              "type": 7,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

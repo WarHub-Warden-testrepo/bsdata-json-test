@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Dreadnought",
+    "prevIdentifier": "Devastator Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9c7b-4573-3321-2def",
+          "id": "3d70-2145-67df-a3fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "72e2-a5b6-d2a1-442b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "6af6-9f68-7a91-a059",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "01f2-112d-ba4b-23d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "0a3e-87d2-70d7-3f86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ad98-b746-3f8d-39e1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9b96-dc8c-9bbd-897e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f199-cb55-15ad-0dc4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e0d0-c252-65bb-c06e",
+          "id": "f19c-6432-2e56-00bb",
+          "name": "Dreadnought heavy weapons",
+          "book": ""
+        }
+      ],
+      "id": "5aef-7a01-5b7c-047f",
+      "name": "Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "740d-c1de-b4b9-027b",
+          "id": "ceff-94c0-9d3e-dcdd",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "91af-d9c5-7547-8e17",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

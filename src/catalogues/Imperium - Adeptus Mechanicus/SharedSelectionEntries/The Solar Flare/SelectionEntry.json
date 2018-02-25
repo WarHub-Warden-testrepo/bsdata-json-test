@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "The Solar Flare",
+    "prevIdentifier": "The Red Axe"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad2a-fea7-d405-4feb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "95ce-3b2d-ad30-adbb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "66e3-838a-45fa-9c3d",
+      "name": "The Solar Flare",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "64e9-33fc-5b2b-13eb",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

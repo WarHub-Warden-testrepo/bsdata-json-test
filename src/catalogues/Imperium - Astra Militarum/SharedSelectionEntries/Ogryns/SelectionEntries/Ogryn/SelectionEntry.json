@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Ogryn"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "da8a-726c-896b-dd0d",
+          "id": "d077-80f2-3fe6-40ff",
+          "name": "Frag Bombs"
+        },
+        {
+          "targetId": "a071-553a-862a-2bba",
+          "id": "4aa1-bd15-dbd5-b2f2",
+          "name": "Ripper Gun"
+        }
+      ],
+      "id": "e402-94ec-8757-93d2",
+      "name": "Ogryn",
+      "page": "0"
+    }
+  ]
+}

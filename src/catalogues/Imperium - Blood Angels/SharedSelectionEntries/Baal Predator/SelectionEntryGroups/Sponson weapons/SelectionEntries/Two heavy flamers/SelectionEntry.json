@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two heavy flamers",
+    "prevIdentifier": "Two heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9100-e9dd-5dea-d079",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1789-80fa-2419-b491",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ac86-b8fd-8c02-5c94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "07b4-dc13-b7cf-f337",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "2743-9c32-e5ce-75f4",
+      "name": "Two heavy flamers"
+    }
+  ]
+}

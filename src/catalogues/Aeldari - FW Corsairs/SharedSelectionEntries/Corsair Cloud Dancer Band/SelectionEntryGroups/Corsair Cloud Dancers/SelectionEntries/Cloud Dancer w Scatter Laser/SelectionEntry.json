@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Cloud Dancer w/ Scatter Laser",
+    "prevIdentifier": "Cloud Dancer w/ Twin Shuriken Catapult"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "ee43-c518-1691-4ca5",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3fb9-b263-9c18-e25f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c4d-6007-2782-1788",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3725-493d-89a4-75b1",
+          "id": "4285-1089-9743-02ad",
+          "name": "Scatter Laser"
+        }
+      ],
+      "id": "7240-f1da-b1c1-3d89",
+      "name": "Cloud Dancer w/ Scatter Laser",
+      "book": "IA - Index Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "targetId": "cd6a-1758-3586-c7bf",
+          "id": "cd04-9665-b36a-ca55",
+          "name": "Corsair Cloud Dancer"
+        }
+      ]
+    }
+  ]
+}

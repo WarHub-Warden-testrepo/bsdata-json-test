@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Blood Claw"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "34b8-6e71-f533-517c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3e6e-9521-9407-c176",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "275c-4518-557a-9752",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6afb-58a2-4156-4765",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7ac6-eb48-532e-6e5c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "bdae-50d4-3859-c063",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8fb3-b11e-c0bc-f47b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d41d-109b-71f1-2e8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1cf1-4492-ec35-4771",
+          "id": "fe65-0fd4-2e1b-1b25",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "e0aa-536b-2fc6-c2d0",
+      "name": "Blood Claw",
+      "infoLinks": [
+        {
+          "targetId": "3929-077e-c130-e6c7",
+          "id": "1cff-47e6-a6d9-bfba",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

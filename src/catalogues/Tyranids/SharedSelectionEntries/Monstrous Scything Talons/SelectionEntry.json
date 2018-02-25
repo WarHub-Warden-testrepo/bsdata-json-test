@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Monstrous Scything Talons",
+    "prevIdentifier": "Monstrous Crushing Claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9e93-d748-8848-f907",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "086e-c796-ac9a-a766",
+      "name": "Monstrous Scything Talons",
+      "infoLinks": [
+        {
+          "targetId": "50eb-e431-8604-7297",
+          "id": "83a1-893c-080d-1374",
+          "name": "Monstrous Scything Talons"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "d482-6830-b5c2-bb33",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "points",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "add7-3535-a4cd-9ba5",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "9e93-d748-8848-f907",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "92b0-89f7-d021-e23e",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c500-3538-0be8-e390",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

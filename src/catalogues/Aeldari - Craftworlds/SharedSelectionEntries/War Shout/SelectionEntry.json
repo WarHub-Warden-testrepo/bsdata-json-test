@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "War Shout",
+    "prevIdentifier": "Defence Tactics"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8d1e-2cbd-336c-efa9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "040b-215c-42e2-e0a4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d500-032f-3861-2d64",
+      "name": "War Shout"
+    }
+  ]
+}

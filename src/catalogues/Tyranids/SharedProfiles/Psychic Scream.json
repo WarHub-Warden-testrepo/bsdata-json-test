@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Psychic Scream",
+    "prevIdentifier": "Instinctive Behaviour"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "ae70-4738-0161-bec0",
+      "profileTypeName": "Psychic Power",
+      "characteristics": [
+        {
+          "name": "Warp Charge",
+          "characteristicTypeId": "5ffd-b800-c317-532a",
+          "value": "5"
+        },
+        {
+          "name": "Range",
+          "characteristicTypeId": "fd64-cbc4-94de-24cc",
+          "value": "18\""
+        },
+        {
+          "name": "Details",
+          "characteristicTypeId": "ad96-dfa4-b4ed-656d",
+          "value": "The nearest enemy unit within 18\" suffers D3 mortal wounds. In addition, if that unit is a PSYKER, roll two dice. If the result is higher than their Leadership characteristic, randomly select one of their psychic powers. They can no longer use that psychic power."
+        }
+      ],
+      "id": "80e2-63ea-dc79-e5c7",
+      "name": "Psychic Scream",
+      "book": "Codex: Tyranids",
+      "page": "121"
+    }
+  ]
+}

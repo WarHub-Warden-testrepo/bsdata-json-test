@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "TX4 Piranha w/ FB",
+    "prevIdentifier": "TX4 Piranha w/ BC & 1x SM"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1a67-38ca-75e6-6c87",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "7369-849e-b488-db98",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "5cff-104a-d45a-fd1f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ecec-1daa-958c-014b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "2c7c-1c3a-d5ea-7d93",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f1b0-5495-bd46-6b59",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4cda-f95a-390b-e40a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f77-b2e1-a28e-d467",
+          "id": "da6b-96de-7ead-a4ed",
+          "name": "MV1 Gun Drone"
+        },
+        {
+          "constraints": [
+            {
+              "id": "45bd-c2fe-953c-4bf4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4298-4895-387c-d574",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a665-e79f-977e-37f7",
+          "id": "b31a-9a4c-a0ba-1577",
+          "name": "Fusion blaster"
+        }
+      ],
+      "id": "c9f3-feb9-b476-e92f",
+      "name": "TX4 Piranha w/ FB",
+      "infoLinks": [
+        {
+          "targetId": "a609-e97d-7eca-8415",
+          "id": "7f84-fa33-d799-d2aa",
+          "name": "TX4 Piranha"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Space Marine Sergeant",
+    "prevIdentifier": "Assault Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "89a0-2bcc-7e35-f52a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d62e-3ecb-46f6-4b07",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "d838-1a9f-60dd-f567",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6ee9-14d9-886c-8a0a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e269-cf98-f497-4833",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6fd2-2277-b45b-f2cb",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0a55-a8bd-a9ff-6090",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "2030-fa7f-acab-e75c",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "a648-ad2f-fbdf-b180",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "510a-162c-558b-6e18",
+      "name": "Space Marine Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "cdb4-e266-8c8b-b51c",
+          "id": "be68-a8da-b92d-41b2",
+          "name": "Space Marine Sergeant"
+        },
+        {
+          "targetId": "aa0e-f564-34f8-b5a9",
+          "id": "4877-023a-ab26-32f3",
+          "name": "Signum",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "2f9d-9cfa-2d72-dbfe",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

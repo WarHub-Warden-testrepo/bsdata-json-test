@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Ranged weapon",
+    "prevIdentifier": "Close combat weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c5e9-f889-0af0-52db",
+      "constraints": [
+        {
+          "id": "426f-929e-61d1-59c4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "093c-a7df-71b1-1f96",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9316-cfda-1275-9d2e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "8dde-3d60-2ed4-1951",
+          "id": "c5e9-f889-0af0-52db",
+          "name": "Dreadnought inferno cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ef31-418a-f55f-1552",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4572-20b8-fea6-4041",
+          "id": "b7c0-0f7b-fce6-fd3f",
+          "name": "Multi-melta"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a151-1929-9e39-0239",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b870-99d7-df15-97da",
+          "id": "25d7-61b9-5eea-707d",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5713-88b0-74c4-6255",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de8a-cbde-aecc-c877",
+          "id": "8a38-7516-8ed6-3aa6",
+          "name": "Twin autocannon"
+        }
+      ],
+      "id": "a51e-6535-448f-2a1a",
+      "name": "Ranged weapon"
+    }
+  ]
+}

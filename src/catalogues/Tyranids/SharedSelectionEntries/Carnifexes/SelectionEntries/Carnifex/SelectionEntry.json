@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Carnifex"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 67.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5f54-4476-302e-0d47",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "185a-41dd-8974-ae58",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d3ea-3f82-d453-c945",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "51fb-9c36-9ba7-bb4a",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "050e-7b73-0231-9bd0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "5eab-000f-f15d-190f",
+          "name": "Adrenal Glands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0da2-5dae-c635-2605",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0af1-5d39-8da1-53c0",
+          "id": "2938-c4fd-9d80-a696",
+          "name": "Chitin Thorns"
+        }
+      ],
+      "id": "ea64-43e5-1c8c-968c",
+      "name": "Carnifex"
+    }
+  ]
+}

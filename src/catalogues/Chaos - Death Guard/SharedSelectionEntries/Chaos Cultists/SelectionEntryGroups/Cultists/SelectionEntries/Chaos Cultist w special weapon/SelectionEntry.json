@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Chaos Cultist w/ special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "67fb-9b07-883c-25e3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "4c67-ed33-d92a-7a53",
+      "name": "Chaos Cultist w/ special weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "67fb-9b07-883c-25e3",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "605b-3c14-2a67-f8e4",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

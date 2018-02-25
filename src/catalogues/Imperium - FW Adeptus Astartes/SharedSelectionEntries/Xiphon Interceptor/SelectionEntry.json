@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "identifier": "Xiphon Interceptor",
+    "prevIdentifier": "Relic Javelin Attack Speeder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "803d-8de3-6303-ae51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "d758-f005-8748-1b64",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "e0b0-fd07-07ea-fa81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e463-c640-6bf2-8ad8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1a05-0c68-4763-8877",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb73-62a0-bbd5-36da",
+          "id": "495b-a2d9-6f85-d358",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "dd3b-d121-0ca8-ca70",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1bd6-1fe0-dd87-382b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ae23-9646-4477-c192",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b870-99d7-df15-97da",
+          "id": "731f-8655-b381-84c8",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ecd8-f14f-eb8c-5813",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "942e-1e40-36dd-7d02",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "130d-3c78-e769-c691",
+          "id": "aa26-e5b5-af77-fbc8",
+          "name": "Xiphon missile battery"
+        }
+      ],
+      "id": "1327-c39f-b3aa-63c5",
+      "name": "Xiphon Interceptor",
+      "infoLinks": [
+        {
+          "targetId": "a492-f31a-43a5-a8e2",
+          "id": "d2d8-71f2-fc6d-fb99",
+          "name": "Xiphon Interceptor"
+        },
+        {
+          "targetId": "fd93-c4d6-1fc9-4962",
+          "id": "bdd0-d12e-3027-e37d",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "7bd8-1f08-6aa1-e9b5",
+          "id": "73d6-4e8e-c93d-313e",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "814d-7e63-7729-0951",
+          "id": "62c3-ddf0-673a-78ea",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "6f45-8ece-1ff4-6a44",
+          "id": "f563-f243-2a82-1d4d",
+          "name": "Teminal targeting"
+        },
+        {
+          "targetId": "8bfe-dcbd-8160-daa4",
+          "id": "bc9c-a9da-ddbf-2ebc",
+          "name": "Skyborn Predator"
+        }
+      ]
+    }
+  ]
+}

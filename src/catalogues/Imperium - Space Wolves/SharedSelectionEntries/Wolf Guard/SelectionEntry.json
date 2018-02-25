@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard",
+    "prevIdentifier": "Wolf Guard in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c4f9-bfac-a78d-e382",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1369-abac-8ab7-bb1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "aaf4-c73d-7433-1da2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4e6a-3961-1018-b52e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "2f35-eed0-fa9d-572e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "0ea8-9aea-a6e1-8588",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2855-11a9-da72-a33c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "30a0-3051-6b4d-442f",
+          "id": "e96a-c219-d078-5e15",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "ad37-e26a-6cab-8c1b",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ad37-e26a-6cab-8c1b",
+      "name": "Wolf Guard",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "f1b0-0433-1885-7684",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "ad37-e26a-6cab-8c1b",
+              "value": 5.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

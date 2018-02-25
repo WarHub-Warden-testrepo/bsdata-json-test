@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Breacher Charge",
+    "prevIdentifier": "Frag Grenades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4c4f-7737-31f3-4098",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f1e2-96a9-3dfc-c7d7",
+      "name": "Breacher Charge"
+    }
+  ]
+}

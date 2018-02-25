@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "5: Nemesis Lord",
+    "prevIdentifier": "4: First to the Fray"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f2b6-2ecb-3795-93f4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ea2e-d2fc-3405-313c",
+      "name": "5: Nemesis Lord",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "92eb-aba6-a177-dad3",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "e7b9-75a0-5700-eb0e",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c122-d85d-f519-81ae",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c701-7188-c97c-cce6",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

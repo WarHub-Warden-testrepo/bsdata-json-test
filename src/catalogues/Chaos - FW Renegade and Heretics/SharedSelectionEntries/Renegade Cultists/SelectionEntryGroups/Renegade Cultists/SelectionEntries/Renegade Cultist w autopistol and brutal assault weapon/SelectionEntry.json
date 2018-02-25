@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Renegade Cultist w/ autopistol and brutal assault weapon",
+    "prevIdentifier": "Renegade Cultist w/ special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bc13-9bfa-bcce-c87f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "34ef-156f-f6a2-8941",
+          "id": "fd33-b2bd-9cd2-bc2d",
+          "name": "Brutal assault weapon"
+        }
+      ],
+      "id": "735c-a933-6475-34e5",
+      "name": "Renegade Cultist w/ autopistol and brutal assault weapon"
+    }
+  ]
+}

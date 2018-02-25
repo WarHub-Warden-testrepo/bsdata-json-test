@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Plasma gun",
+    "prevIdentifier": "Master-crafted boltgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e5d5-dd87-21f8-396c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "94a0-0756-fd47-4c66",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ee0a-dac0-7607-3e33",
+      "name": "Plasma gun"
+    }
+  ]
+}

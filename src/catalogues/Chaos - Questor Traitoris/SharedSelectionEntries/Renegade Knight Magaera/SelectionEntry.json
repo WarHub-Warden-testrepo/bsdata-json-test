@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Renegade Knight Magaera",
+    "prevIdentifier": "Renegade Knight Atropos"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 28.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 440.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "5b59-eb3b-a743-974a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "bc2f-d220-8a12-8fa8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "2859-9bde-d0c2-16eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "a888-5ed3-09cb-8cc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2663-fe63-14ce-fd31",
+          "id": "9af7-472c-62a7-0865",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8bb8-3494-8bd6-c330",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8c36-38d4-e096-92f5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "71d1-47ba-a904-6baa",
+          "id": "14a7-82dc-7a8b-2cbe",
+          "name": "Lightning cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "472f-e085-fd3a-e643",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7402-1b1a-c16b-365a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3db7-9e03-af78-f5fe",
+          "id": "c842-3dd7-a179-5f3d",
+          "name": "Ectoplasma fusil"
+        }
+      ],
+      "id": "f140-7a44-d508-5b7e",
+      "name": "Renegade Knight Magaera",
+      "infoLinks": [
+        {
+          "targetId": "aacf-4749-0487-6949",
+          "id": "899e-107e-e577-fb1a",
+          "name": "Infernal Autosimulacra"
+        },
+        {
+          "targetId": "90be-819c-d4e7-d65a",
+          "id": "1e8e-d016-3e8b-d625",
+          "name": "Infernal Knight Titan"
+        },
+        {
+          "targetId": "6992-df69-b9bb-ea8d",
+          "id": "12e4-2ec1-eb4b-e8f3",
+          "name": "Infernal Veil"
+        },
+        {
+          "targetId": "6023-11c8-544d-663b",
+          "id": "24d8-5eb8-c073-d8af",
+          "name": "Explodes (Unstable Reactor)"
+        }
+      ]
+    }
+  ]
+}

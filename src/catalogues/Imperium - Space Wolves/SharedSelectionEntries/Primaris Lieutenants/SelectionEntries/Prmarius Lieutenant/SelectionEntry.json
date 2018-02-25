@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Prmarius Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b305-d1c3-3af2-1647",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8a8f-4dbd-f677-eafc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5f51-ffb9-fd89-7464",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "dfd0-3711-b17e-7a77",
+          "name": "Warlord"
+        }
+      ],
+      "id": "56bc-fbab-0728-6bfa",
+      "name": "Prmarius Lieutenant"
+    }
+  ]
+}

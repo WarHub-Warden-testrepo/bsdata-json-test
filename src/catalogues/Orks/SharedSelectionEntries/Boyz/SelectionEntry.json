@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Boyz",
+    "prevIdentifier": "Boss Nob"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1684-73bb-15f2-2dd3",
+          "id": "3e5c-b234-d453-d5db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "37a0-2425-a581-3efc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "dfc8-7bf1-9c37-850f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "c643-a794-1fff-3ae2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "28d4-976a-ed63-1c53",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "4923-2dbf-7fd5-8828",
+      "name": "Boyz",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "0f38-96d7-87ef-f672",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "3481-9224-485c-4662",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4923-2dbf-7fd5-8828",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4923-2dbf-7fd5-8828",
+              "value": 20.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

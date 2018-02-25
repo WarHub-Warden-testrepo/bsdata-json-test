@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Scout Bike Squad",
+    "prevIdentifier": "Skyspear missile launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e4f7-0826-7a44-c46d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bba0-95e4-2401-f202",
+          "id": "25b5-d23e-2540-8066",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "7e46-bbf3-8af2-f362",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "9a9c-07d7-ad44-6790",
+      "name": "Scout Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9073-8901-c671-539d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "4c19-60b3-368c-3ac2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8b15-e6fa-a990-b4bf",
+          "id": "89de-55a4-9fba-245d",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "9a9c-07d7-ad44-6790",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "9a9c-07d7-ad44-6790",
+              "value": 7.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

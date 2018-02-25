@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Payback"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5481-25cf-80da-9ae1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7b0f-7d99-2a30-30ed",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c202-51e3-cbe8-8ca0",
+      "name": "Payback"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Splinter pods",
+    "prevIdentifier": "Splinter pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "8d74-941c-17b9-91ee",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "151c-4f7f-4560-e51c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6ccf-c7c5-dd85-45f4",
+      "name": "Splinter pods"
+    }
+  ]
+}

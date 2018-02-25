@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Heavy Bolter"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "342d-b66e-bdeb-a538",
+      "constraints": [
+        {
+          "id": "ce44-818f-48a9-48c9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d1ed-4061-9d34-669a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1156-34b7-5e8d-e18d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8321-0831-717d-96d9",
+          "id": "9112-8602-0edf-19be",
+          "name": "Multi-laser",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "96ba-18bd-319f-8de7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "9fcf-10d3-e900-cc25",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "622d-384e-6e83-416f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "342d-b66e-bdeb-a538",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "cb0f-9c44-c92a-5404",
+      "name": "Heavy Bolter"
+    }
+  ]
+}

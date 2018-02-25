@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Nightfire Missile Array",
+    "prevIdentifier": "Phoenix Missile Array"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d4c7-8ce4-efd6-19d1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9bde-cd2b-9745-1fda",
+      "name": "Nightfire Missile Array"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Hover Drone"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3b15-0868-d1b6-5159",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "e99d-161e-7cb3-e97c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "5ebb-0b87-cffa-6247",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c3a1-65e3-0f4d-410c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6989-76b9-26fb-e8a0",
+      "name": "Hover Drone"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Aggressor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "9c12-4cbb-12a8-9e77",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "00c8-46a4-cc64-0945",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "id": "a5b6-d64b-205c-021e",
+      "name": "Aggressor",
+      "infoLinks": [
+        {
+          "targetId": "7f68-38f5-efb4-16c1",
+          "id": "5c0c-03fa-ee9e-594f",
+          "name": "Aggressor"
+        }
+      ]
+    }
+  ]
+}

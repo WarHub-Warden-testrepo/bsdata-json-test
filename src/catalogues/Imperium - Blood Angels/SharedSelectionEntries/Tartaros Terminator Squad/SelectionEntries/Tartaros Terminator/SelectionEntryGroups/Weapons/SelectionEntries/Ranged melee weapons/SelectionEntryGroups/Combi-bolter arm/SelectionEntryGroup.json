@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "Combi-bolter arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "be7a-d109-939e-3ff5",
+      "constraints": [
+        {
+          "id": "5203-85f3-b383-7e00",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f33b-60eb-d4e8-59c9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d81c-4a36-fba9-7039",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "be7a-d109-939e-3ff5",
+          "name": "Combi-bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d6a4-dc9d-f2d9-88de",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "765f-f623-5a83-b7e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "e044-89c5-b266-854b",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "3ec7-824e-9089-aa43",
+          "name": "Heavy flamer",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "765f-f623-5a83-b7e6",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "765f-f623-5a83-b7e6",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "5ab4-1ee7-95ad-7e15",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e7af-5b0b-7f94-0f03",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1fb8-43b9-dc34-3408",
+              "type": 1,
+              "field": "selections",
+              "scope": "e044-89c5-b266-854b",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "7721-feea-1e63-3006",
+          "name": "Reaper autocannon",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "1fb8-43b9-dc34-3408",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "1fb8-43b9-dc34-3408",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "18bc-b335-29c2-2ae2",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b94b-97cf-5d27-66d9",
+      "name": "Combi-bolter arm"
+    }
+  ]
+}

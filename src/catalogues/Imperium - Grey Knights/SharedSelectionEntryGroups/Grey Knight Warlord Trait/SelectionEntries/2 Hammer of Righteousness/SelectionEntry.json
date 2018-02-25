@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "2: Hammer of Righteousness",
+    "prevIdentifier": "1: Daemon Slayer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "357f-438f-9095-349b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8ca0-3e04-4b82-f1f0",
+      "name": "2: Hammer of Righteousness",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "92eb-aba6-a177-dad3",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "e7b9-75a0-5700-eb0e",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c701-7188-c97c-cce6",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

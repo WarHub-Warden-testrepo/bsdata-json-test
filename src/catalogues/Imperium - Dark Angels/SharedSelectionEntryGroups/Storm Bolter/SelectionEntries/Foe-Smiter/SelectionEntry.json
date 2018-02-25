@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Foe-Smiter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d5f0-351c-ec41-c09c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7d52-db0c-c6c7-c561",
+          "id": "6a18-01ae-53a8-e57d",
+          "name": "Relic"
+        }
+      ],
+      "id": "7a17-a3f8-25d2-30b6",
+      "name": "Foe-Smiter",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

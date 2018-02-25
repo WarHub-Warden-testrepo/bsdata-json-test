@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Vengeance Weapon Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bcb0-cd68-20e2-6858",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "ec31-9fc8-8dc9-469b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1d04-c4e5-2664-4ee4",
+      "name": "Vengeance Weapon Battery"
+    }
+  ]
+}

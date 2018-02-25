@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Acolyte Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b40a-997c-2c44-8bd3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "6004-375c-4fbf-3e0e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a01-adbf-531c-19d2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1c88-a532-dfa9-af4b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "d205-2e0d-47e7-61cd",
+          "name": "Blasting Charges"
+        },
+        {
+          "constraints": [
+            {
+              "id": "615e-6fe5-da68-290c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9b16-22bf-e0a6-1666",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7210-2eea-c54a-c7d5",
+          "id": "a880-1f6d-0837-61c9",
+          "name": "Rending Claw"
+        }
+      ],
+      "id": "59ac-aef4-2437-6cf0",
+      "name": "Acolyte Leader"
+    }
+  ]
+}

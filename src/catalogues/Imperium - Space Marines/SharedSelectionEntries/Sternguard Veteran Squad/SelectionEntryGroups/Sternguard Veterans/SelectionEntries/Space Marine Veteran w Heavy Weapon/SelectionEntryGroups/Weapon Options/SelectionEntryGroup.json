@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "676b-2e74-4fb9-494c",
+      "constraints": [
+        {
+          "id": "02be-ac2d-147d-4d61",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "578f-2462-eb04-d232",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3494-a127-9cbb-a415",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ab36-135b-264e-2dd6",
+          "id": "676b-2e74-4fb9-494c",
+          "name": "Special issue boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8f6b-5291-5078-2594",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "0dcc-dbe3-c0d1-c9a2",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8911-e597-a2c0-ccce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "026f-f4dc-9e33-cd9d",
+          "id": "b488-e28f-6d15-cd33",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "86f7-6f8a-1f09-0664",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "54d3-859c-f469-4f0c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d7a-536e-048f-bc4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "994d-506b-f0ac-3f64",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "b2cb-03d0-3de9-e8cb",
+      "name": "Weapon Options"
+    }
+  ]
+}

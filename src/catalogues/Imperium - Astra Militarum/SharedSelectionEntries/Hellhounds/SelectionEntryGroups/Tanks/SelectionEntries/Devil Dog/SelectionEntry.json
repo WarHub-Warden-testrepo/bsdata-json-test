@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Devil Dog",
+    "prevIdentifier": "Bane Wolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 73.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e631-be29-b2ad-eb05",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "35c3-52e7-1ac4-04f2",
+          "id": "3b86-972f-4d93-e2c4",
+          "name": "Hellhound Hull Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b9ec-d389-4f18-1a21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b1a7-556c-14f0-8271",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "8aaf-a0bd-5afc-002c",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "c1d4-0bfa-1d3b-55b6",
+          "name": "Vehicle Equipment List"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "23ed-588e-184f-bbaf",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "233a-6d74-265e-9600",
+      "name": "Devil Dog",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "bd48e6cb-2610-1525-abcc-200af38774a2",
+          "id": "0c49-1bd6-62c3-a5f0",
+          "name": "Hellhound"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "9f12-9de1-abbc-a105",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "c573-42df-f356-0dc6",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0c39-ee9f-3988-b4c4",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

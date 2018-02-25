@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Fallen",
+    "prevIdentifier": "Cypher"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "125e-9e1c-d984-dbd6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "88b5-fb82-373b-6711",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ff0a-288b-9516-9fdd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "213e-db54-e4bf-4bb0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "ca0c-1278-8f0d-1691",
+      "name": "Fallen",
+      "page": "",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "86ce-0f86-d99a-2b5e",
+              "type": 1,
+              "field": "selections",
+              "scope": "ca0c-1278-8f0d-1691",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

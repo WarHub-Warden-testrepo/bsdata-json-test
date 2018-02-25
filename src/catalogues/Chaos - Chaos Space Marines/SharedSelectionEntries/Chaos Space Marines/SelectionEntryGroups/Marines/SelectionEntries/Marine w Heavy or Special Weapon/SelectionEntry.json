@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Marine w/ Heavy or Special Weapon",
+    "prevIdentifier": "Marine w/ Boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "be18-d9ac-4df5-485e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "317c-aed2-a061-dd01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1f72-fa0b-f027-b83a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "7e05-8409-a822-0a7d",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "34ee-3726-87dd-5c39",
+      "name": "Marine w/ Heavy or Special Weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "be18-d9ac-4df5-485e",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "7b61-1289-ed7e-24c1",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "be18-d9ac-4df5-485e",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "7fd9-f2cd-9698-9def",
+              "type": 2,
+              "field": "selections",
+              "scope": "7b61-1289-ed7e-24c1",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Marine w/ heavy weapon",
+          "conditions": [
+            {
+              "childId": "5861-4fa9-dda8-a299",
+              "type": 2,
+              "field": "selections",
+              "scope": "34ee-3726-87dd-5c39",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Marine w/ special weapon",
+          "conditions": [
+            {
+              "childId": "03a3-2c6a-81f8-0b1b",
+              "type": 2,
+              "field": "selections",
+              "scope": "34ee-3726-87dd-5c39",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

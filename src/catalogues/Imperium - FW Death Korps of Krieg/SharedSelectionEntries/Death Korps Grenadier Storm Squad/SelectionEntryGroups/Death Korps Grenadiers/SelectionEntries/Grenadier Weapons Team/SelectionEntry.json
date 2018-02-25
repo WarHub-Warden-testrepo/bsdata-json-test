@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Grenadier Weapons Team",
+    "prevIdentifier": "Grenadier Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f3a8-0bb0-356a-85dd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "acee-d235-8397-bfaa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "31fa-4f24-d73f-393f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "9aef-4b85-2383-e11c",
+          "name": "Heavy flamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a047-812c-5acd-be7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "3d00-b4eb-37b6-b407",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "6fc4-27dc-15ca-cdca",
+          "id": "52f1-95e3-0494-ca06",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1ba7-9fc2-e867-619b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "3350-e8ad-170e-0cd9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f85b-be9d-3697-7507",
+          "id": "c66e-cdb8-dc12-240b",
+          "name": "Hot-Shot Lasgun"
+        }
+      ],
+      "id": "fd7c-bd77-1e2e-f88d",
+      "name": "Grenadier Weapons Team"
+    }
+  ]
+}

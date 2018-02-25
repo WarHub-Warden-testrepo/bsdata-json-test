@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Salamander Command Vehicle",
+    "prevIdentifier": "Hydra Battery"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "3085-bd58-7e7f-f541",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc83-b442-61cd-ebb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "af90-5e51-fba9-8dba",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "01d4-5b63-f2ba-09a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d786-eeda-4421-b83a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "9710-f116-91cf-4c63",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "8257-825f-57a1-a580",
+      "name": "Salamander Command Vehicle",
+      "infoLinks": [
+        {
+          "targetId": "6338-ae1c-93c9-2e89",
+          "id": "4951-0cea-fb89-954f",
+          "name": "Scout Vehicle"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2e97-46e9-c289-e4b4",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "fdf7-ec35-ff99-8c8c",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

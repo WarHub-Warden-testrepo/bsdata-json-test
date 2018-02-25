@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons",
+    "prevIdentifier": "Terminator Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8224-421f-aabf-e248",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "703f-ab28-b402-5eea",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "7822-4fce-e0ae-5828",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "5946-129c-373c-607e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f1d0-444d-5ce0-cb3a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "93e3-9597-70dc-86c6",
+          "name": "Combi-bolter",
+          "modifiers": [
+            {
+              "field": "f1d0-444d-5ce0-cb3a",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "69b2-dbe4-baff-0709",
+      "name": "Combi-weapons"
+    }
+  ]
+}

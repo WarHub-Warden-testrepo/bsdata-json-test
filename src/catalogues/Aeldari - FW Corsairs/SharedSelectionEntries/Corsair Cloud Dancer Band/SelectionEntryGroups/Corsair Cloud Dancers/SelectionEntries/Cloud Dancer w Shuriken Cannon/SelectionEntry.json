@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Cloud Dancer w/ Shuriken Cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "bf2d-ae6a-3dc5-2e91",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2862-b2bc-c445-3900",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a797-8134-6eee-011e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64d6-6994-d3e8-6e09",
+          "id": "77b0-d513-364c-92d6",
+          "name": "Shuriken Cannon"
+        }
+      ],
+      "id": "ccd1-9915-0d71-a3af",
+      "name": "Cloud Dancer w/ Shuriken Cannon",
+      "book": "IA - Index Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "targetId": "cd6a-1758-3586-c7bf",
+          "id": "2957-48bf-865b-41cf",
+          "name": "Corsair Cloud Dancer"
+        }
+      ]
+    }
+  ]
+}

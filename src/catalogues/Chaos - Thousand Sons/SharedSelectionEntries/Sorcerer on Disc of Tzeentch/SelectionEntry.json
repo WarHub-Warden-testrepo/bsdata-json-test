@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "identifier": "Sorcerer on Disc of Tzeentch",
+    "prevIdentifier": "Sorcerer in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "0ae8-47f3-aadf-bddd"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "fbd2-50fd-3eaa-d8a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "efbe-908f-fee6-5830",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "f006-dc23-933f-f7c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e7dc-fd8b-8e8f-14d2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "4895-2ef0-ef6b-826f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "f159-3522-d54c-e91b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "a5c8-15a1-7dc5-1a92",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "c434-3ee8-7691-b2f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "6753-5cc2-af6d-9742",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "68f9-33bb-bd2b-c777",
+          "id": "55cc-d2ac-d145-4c16",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "709a-1ee4-6a93-6450",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e22-2cbe-623d-fdc9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "43bf-aa98-f675-338a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a00e-ff0a-4860-24aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b590-c267-1fea-ff40",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "52e1-4e80-3b33-4b99",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2972-98ec-f82f-fbd4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cca1-01a1-45fa-e054",
+          "id": "e83e-7705-3026-8a82",
+          "name": "Dark Hereticus Discipline",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "2972-98ec-f82f-fbd4",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "6e59-e3c2-836b-3a01",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "c766-a2c3-4ac9-fbbb",
+          "id": "71cb-e1d2-d790-27c2",
+          "name": "Relic"
+        },
+        {
+          "type": 1,
+          "targetId": "18b9-a369-20ee-a31b",
+          "id": "e52e-6d1b-9d9a-878d",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e090-ff73-45f0-a5fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9aed-5e2d-8d51-5f31",
+          "id": "1d01-dca0-2739-2036",
+          "name": "Warlord"
+        }
+      ],
+      "id": "b855-577a-d427-2e12",
+      "name": "Sorcerer on Disc of Tzeentch",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "27a8-c34a-7a70-904e",
+          "id": "7232-cf00-a9c1-8364",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "5d58-ea78-c523-b0c7",
+          "id": "8d53-700c-faaa-fbd2",
+          "name": "Favour of Tzeentch"
+        }
+      ]
+    }
+  ]
+}

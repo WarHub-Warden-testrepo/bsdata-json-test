@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Two Lascannons",
+    "prevIdentifier": "Land Raider Excelsior"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f6bc-1276-d66d-9ab8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "f428-2833-fd0c-e0ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "0bd0-1dd2-a5ed-f52b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "074d-5e0c-a684-31fa",
+      "name": "Two Lascannons"
+    }
+  ]
+}

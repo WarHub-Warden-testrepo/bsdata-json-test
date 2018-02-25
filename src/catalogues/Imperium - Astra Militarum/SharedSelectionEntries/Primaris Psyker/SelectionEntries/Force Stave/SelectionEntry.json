@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Force Stave"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8c8d-4e64-a100-be30",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "69a3-0e0b-4248-4d11",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "162d-a235-7295-b4f8",
+      "name": "Force Stave",
+      "book": "Codex: Astra Militarum",
+      "page": "92"
+    }
+  ]
+}

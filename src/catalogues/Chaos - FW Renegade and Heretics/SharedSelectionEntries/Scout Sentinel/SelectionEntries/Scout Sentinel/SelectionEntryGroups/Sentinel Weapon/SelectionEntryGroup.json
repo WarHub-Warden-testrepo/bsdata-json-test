@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Sentinel Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "895d-9fb4-7f63-e034",
+      "constraints": [
+        {
+          "id": "0e73-121c-567a-e3c8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9d52-8896-0edf-5ab1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6172-33e9-d6ad-87b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b28-881d-fadb-960d",
+          "id": "3ad2-bbee-9f93-4902",
+          "name": "Autocannon"
+        }
+      ],
+      "id": "1ee6-b885-3076-7d31",
+      "name": "Sentinel Weapon"
+    }
+  ]
+}

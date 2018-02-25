@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Storm Bolter",
+    "prevIdentifier": "Nemesis Dreadknight"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "3a22-6124-3ea4-197d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c733-1968-ae05-6fa4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "fded-edb8-1d1e-99a5",
+      "name": "Storm Bolter",
+      "infoLinks": [
+        {
+          "targetId": "505e-a5aa-edab-6d5b",
+          "id": "f69c-aca7-7af0-704a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

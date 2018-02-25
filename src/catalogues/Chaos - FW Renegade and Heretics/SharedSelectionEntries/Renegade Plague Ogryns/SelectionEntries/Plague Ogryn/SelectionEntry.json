@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Plague Ogryn"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6de3-cec5-4240-397c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "3099-3966-3af0-2671",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "23f6-e24a-9319-e886",
+      "name": "Plague Ogryn",
+      "infoLinks": [
+        {
+          "targetId": "6386-f77c-96a5-b693",
+          "id": "c7d0-70e0-9355-4bba",
+          "name": "Avalanche of Muscle"
+        }
+      ]
+    }
+  ]
+}

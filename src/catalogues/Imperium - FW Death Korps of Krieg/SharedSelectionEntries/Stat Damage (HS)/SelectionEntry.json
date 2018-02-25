@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (HS)",
+    "prevIdentifier": "Heavy Mortar Battery"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3a00-42ac-6b76-369d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3bcf-4cd1-52c0-3839",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "da25-46a9-4472-2e07",
+      "name": "Stat Damage (HS)"
+    }
+  ]
+}

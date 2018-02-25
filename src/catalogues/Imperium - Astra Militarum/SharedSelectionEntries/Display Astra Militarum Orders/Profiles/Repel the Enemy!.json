@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Repel the Enemy!",
+    "prevIdentifier": "Fire on My Command!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "Until the end of the phase, the ordered unit can fire any of its weapons while it is within 1\" of the enemy, regardless of the weapon’s type. If they do so, they must target enemy units within 1\", even if friendly units are within 1\" of these units."
+        }
+      ],
+      "id": "38f3-8b61-06e0-4db6",
+      "name": "Repel the Enemy!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ebf3-00d7-204b-30d8",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

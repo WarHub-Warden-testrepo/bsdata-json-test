@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Gretchin",
+    "prevIdentifier": "Boyz"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "6092-210b-fa07-3903",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "deba-30fd-43bb-9692",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0b2c-1505-90c2-24ed",
+          "id": "958a-1404-4947-6ed1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7712-19e5-cdf9-7175",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "0cb6-66dc-3904-2f9d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "96ec-51fe-cd61-b2c1",
+      "name": "Gretchin",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "96ec-51fe-cd61-b2c1",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "96ec-51fe-cd61-b2c1",
+              "value": 20.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

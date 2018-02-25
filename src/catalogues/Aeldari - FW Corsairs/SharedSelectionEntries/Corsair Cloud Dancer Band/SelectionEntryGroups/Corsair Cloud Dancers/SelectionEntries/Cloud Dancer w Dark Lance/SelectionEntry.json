@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Cloud Dancer w/ Dark Lance",
+    "prevIdentifier": "Cloud Dancer w/ Scatter Laser"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "7446-2ce4-940c-98e2",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9990-32d2-fc08-d8a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5148-d379-9739-eed0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cf05-ec56-3a36-d520",
+          "id": "72be-5751-4dfb-f125",
+          "name": "Dark Lance"
+        }
+      ],
+      "id": "281f-5a6b-d729-4c1d",
+      "name": "Cloud Dancer w/ Dark Lance",
+      "book": "IA - Index Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "targetId": "cd6a-1758-3586-c7bf",
+          "id": "ab15-2f71-b1b8-e3d7",
+          "name": "Corsair Cloud Dancer"
+        }
+      ]
+    }
+  ]
+}

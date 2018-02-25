@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Battle Leader in Terminator Armour",
+    "prevIdentifier": "Wolf Guard Battle Leader on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 92.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0f04-e4c4-ad10-e8d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "919e-5c23-7fe2-47a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "3675-c21b-0564-c98a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6351-69d6-365b-58c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bff5-e72a-3f53-2d9e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "0961-6aaf-d1ec-c6d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "5473-dc0b-3496-0a7c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "bff4-bb7a-4514-278e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "db1d-c5fb-fd8d-143d",
+          "id": "7568-818c-c077-1f09",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "4367-495f-f4ab-6c33",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0f89-ae71-a031-8969",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "9eec-7b1f-8fdd-27ff",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0838-bdbe-d251-40cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ab2e-5e5c-e843-4131",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0fe9-858f-3e39-e61f",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "6f3c-2b99-908a-ce87",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "0fe9-858f-3e39-e61f",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "d3ef-9d2f-74f6-3056",
+      "name": "Wolf Guard Battle Leader in Terminator Armour",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "44de-a6a9-a383-be9f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2309-42e2-c5fe-be1c",
+          "id": "8d67-265a-7bc2-73e6",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "5\""
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "5"
+            },
+            {
+              "field": "c0df-df94-abd7-e8d3",
+              "value": "2+"
+            }
+          ]
+        },
+        {
+          "targetId": "838b-671f-4a04-4167",
+          "id": "208c-9934-2d35-5458",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "588e-2d8e-7485-24fe",
+          "id": "e628-0eb3-c6a0-e6ba",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "6040-e1e4-3aba-78c3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Daemonic extras"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6103-239a-9f78-9a01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "11db-39df-f53b-d823",
+          "id": "f07a-8229-6752-0587",
+          "name": "Instrument of Chaos",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "6103-239a-9f78-9a01",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8874-2702-63d8-23df",
+      "name": "Daemonic extras"
+    }
+  ]
+}

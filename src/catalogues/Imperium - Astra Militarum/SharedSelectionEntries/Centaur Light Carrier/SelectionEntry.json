@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Centaur Light Carrier",
+    "prevIdentifier": "Atlas Recovery Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8644-2999-8db0-9521",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "7d6e-c63d-b0b3-1311",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "ca23-ca01-ab45-920c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "dd1d-9b0b-9ebc-1ca3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfa3-5fcd-af10-5520",
+          "id": "139b-5932-ccd4-6445",
+          "name": "Heavy stubber",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "id": "bf72-f767-adb8-0447",
+      "name": "Centaur Light Carrier",
+      "infoLinks": [
+        {
+          "targetId": "69cd-7f66-0f86-718b",
+          "id": "5845-4434-5ce0-526d",
+          "name": "Artillery Tractor"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0d12-fdd5-8c8a-5333",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "6841-5624-4587-b7e6",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

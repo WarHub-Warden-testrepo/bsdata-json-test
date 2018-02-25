@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Medi-pack",
+    "prevIdentifier": "Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "65b0-a263-3584-4ed4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d9e8-3c1e-3421-6e0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9ab9-b200-22b4-07af",
+          "id": "0504-77e7-a52a-dbb0",
+          "name": "Medi-pack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fbdc-824f-c363-afba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ce88-15c2-c916-2945",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "8868-feb3-aac8-cb71",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "78c2-3770-f0f6-fc06",
+      "name": "Veteran w/ Medi-pack",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "9a85-39de-7fcd-e8b3",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

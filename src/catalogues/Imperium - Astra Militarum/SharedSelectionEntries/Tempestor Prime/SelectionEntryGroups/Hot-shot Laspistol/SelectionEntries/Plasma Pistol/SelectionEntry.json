@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Plasma Pistol",
+    "prevIdentifier": "Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "efbe-cdb9-9df9-0d21",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c946-08bd-40bc-08db",
+      "name": "Plasma Pistol",
+      "infoLinks": [
+        {
+          "targetId": "ff12-161a-ca85-339f",
+          "id": "ac1b-8d3b-0292-4fb6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5779-2931-fe17-2b27",
+          "id": "e616-598c-dd06-03dd",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

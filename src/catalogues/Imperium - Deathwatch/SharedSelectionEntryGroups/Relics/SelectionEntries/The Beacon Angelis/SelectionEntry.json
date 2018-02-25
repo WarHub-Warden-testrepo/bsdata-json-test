@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "The Beacon Angelis"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "85ff-a2ee-b7c3-420a",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "9090-41d5-c790-ab27",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "449c-9202-d1b0-368c",
+      "name": "The Beacon Angelis"
+    }
+  ]
+}

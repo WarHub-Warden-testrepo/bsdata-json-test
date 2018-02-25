@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Corvex"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d4d5-f5fb-3105-5e5b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d99f-7925-6565-c443",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e264-903b-36e0-8c13",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9f70-9cc8-8248-8574",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb15-db61-5d4f-b65e",
+          "id": "6516-87d3-8556-7811",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6c07-658c-afb0-4e68",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "20ab-6daa-2091-2fc9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9a11-29c8-e37f-9c37",
+          "id": "dd51-37c8-6643-3eb7",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "c67c-a343-e0ea-02b5",
+      "name": "Corvex"
+    }
+  ]
+}

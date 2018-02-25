@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Armament",
+    "prevIdentifier": "Pistols"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "207e-dcc1-b904-681e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ba4d-3776-d087-312f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce59-8ed4-4497-8a53",
+          "id": "2550-96a1-0c0a-a73f",
+          "name": "Astartes shotgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7ae0-079e-5e6c-a444",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2c86-e216-a3a8-f5ad",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "13e8-4016-46b5-4c3e",
+          "name": "Boltgun",
+          "modifiers": [
+            {
+              "field": "2c86-e216-a3a8-f5ad",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0cfe-d854-26e2-98bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc0b-c19f-0b71-081e",
+          "id": "9be9-8586-0128-92f7",
+          "name": "Combat knife"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d19-cee3-d96f-7933",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ba62-f2c3-d7bb-4f5d",
+          "id": "595b-8cf2-d010-4139",
+          "name": "Sniper rifle"
+        }
+      ],
+      "id": "d872-5645-04bd-683b",
+      "name": "Armament"
+    }
+  ]
+}

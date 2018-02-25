@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "identifier": "Boss Zagstruk",
+    "prevIdentifier": "Kaptin Badrukk"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 88.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c933-f342-7ea1-a134",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ce45-2029-278f-80fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "871f-61fb-c829-19ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b16b-dbea-3f06-5ba3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a072-c147-ec7d-6830",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9fa0-c3f9-45ee-f598",
+          "id": "9f99-0c98-7aea-9d76",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ec81-3194-7f8e-d2d1",
+          "id": "8aee-f83b-0cd5-872c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "612f-cf35-90b1-954c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "9754-dd83-c18e-3849",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8f60-0af0-2b92-80a8",
+          "id": "c56d-7ea6-0333-c271",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "72cf-1884-7505-f860",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8eba-2c34-bb56-1411",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d13b-ad69-e6a2-d485",
+          "id": "eed2-e1ac-aa96-253d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fd7d-b303-0b97-551b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2a48-d8e5-fcd3-f76f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c4df-c43d-08a6-18ab",
+          "id": "e515-e0c6-10ca-dcbf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9fd4-f7b9-2963-f8cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fed3-40f3-279a-2061",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "8536-b5e9-4b57-15a1",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "f6ae-b8c8-c71b-1f30",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c2ce-6759-e009-8c11",
+          "id": "a554-d9ab-5bf0-a1d8",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "0d18-8bfc-b6ac-920e",
+      "name": "Boss Zagstruk",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "d78f-1203-f4de-dddc",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "ac64-abb6-e299-d78c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Poison Blades",
+    "prevIdentifier": "Phase Sword"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "4d4a171a-d572-a868-dfa8-12aeb849da38",
+      "name": "Poison Blades"
+    }
+  ]
+}

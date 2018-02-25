@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Boss Nob",
+    "prevIdentifier": "Warbiker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 27.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "13c7-a998-a1d5-b026",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "17db-b7f6-7c97-f77b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cfd4-2cb3-242c-711d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "05e2-68b4-e81a-609b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de10-70b3-ab64-990c",
+          "id": "8d31-c909-5937-339f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aaa6-62d4-fcac-7264",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "637c-6abb-83c8-af96",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "7655-7753-a216-649d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8684-f400-5f0c-321e",
+      "name": "Boss Nob"
+    }
+  ]
+}

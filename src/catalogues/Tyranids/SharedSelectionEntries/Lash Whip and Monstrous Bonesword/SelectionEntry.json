@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Lash Whip and Monstrous Bonesword",
+    "prevIdentifier": "Lash Whip and Bonesword"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dd58-2491-ce18-7c69",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "eda8-1541-116e-f6aa",
+      "name": "Lash Whip and Monstrous Bonesword",
+      "infoLinks": [
+        {
+          "targetId": "bce8-e4ba-2bb1-ae19",
+          "id": "25b2-44cc-a0ce-7ef4",
+          "name": "Lash Whip and Monstrous Bonesword"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "dd58-2491-ce18-7c69",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "acbe-148d-e7d1-85bb",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "591b-c551-1088-230b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Heavies"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3b46-c48b-0024-c04c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "94c1-f2ab-16e7-7803",
+      "name": "Heavies",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "3b46-c48b-0024-c04c",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c77e-9434-5b70-27c0",
+              "type": 4,
+              "field": "selections",
+              "scope": "b423-c93c-6df1-6b78",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

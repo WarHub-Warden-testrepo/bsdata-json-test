@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "identifier": "Relic Sicaran Punisher Assault Tank",
+    "prevIdentifier": "Relic Sicaran Venator Tank Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 155.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "89a8-fa04-2ebb-a863",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "3178-6dfc-4590-56b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "10a4-accf-f3b5-fc20",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8df7-f15b-ede6-4442",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "f0cc-1a90-024f-f3d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "96f2-9329-d16d-c52d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1cc3-35b1-0035-a4cd",
+          "id": "8098-96de-b0cf-85bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "27cb-b34c-e534-2cf9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "d4e5-cf97-a8c2-c4f3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b4b6-d539-db3d-a9e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "6601-c580-a1fe-5ac9",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cea2-11f9-21a7-1171",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "c463-6293-3987-ec3e",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "941c-fe26-c47b-22c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4ce6-96c4-5d22-e69f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "36ea-c8fe-9716-5e27",
+          "id": "2838-fe63-c5d3-4756",
+          "name": "Punisher rotary cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dce9-4319-ae53-6d74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5808-6238-40ba-5cdc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4138-56bd-4131-f4da",
+          "id": "4a1d-3c28-0724-a672",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "0260-ed3e-73b7-b490",
+      "name": "Relic Sicaran Punisher Assault Tank",
+      "infoLinks": [
+        {
+          "targetId": "57e6-d12a-bfd8-d51e",
+          "id": "6452-f97b-0d43-432d",
+          "name": "Relic Sicaran Punisher"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "6c1b-8884-7212-c70b",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "acb4-ab51-12fd-e65c",
+          "id": "c5c7-0b0f-36b8-5e69",
+          "name": "Rolling Thunder"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "6ead-cd63-ecbe-498c",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "89a8-fa04-2ebb-a863",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "89a8-fa04-2ebb-a863",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "89a8-fa04-2ebb-a863",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Power Sword"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "1811-6e4e-dbac-79d4",
+      "constraints": [
+        {
+          "id": "003a-0a0b-9fdc-b707",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "96fa-65c1-4d77-b6da",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0b58-1d7e-6e05-718c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "1811-6e4e-dbac-79d4",
+          "name": "Power sword"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e555-e56d-7181-6d9f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "1c89-a757-6566-ed9c",
+          "name": "Space Wolves Terminator Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1be8-730e-18aa-fb4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "7304-a5e7-4370-fc67",
+          "name": "Storm shield"
+        }
+      ],
+      "id": "0c5f-bade-c38b-9ed5",
+      "name": "Power Sword",
+      "modifiers": [
+        {
+          "field": "96fa-65c1-4d77-b6da",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "003a-0a0b-9fdc-b707",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

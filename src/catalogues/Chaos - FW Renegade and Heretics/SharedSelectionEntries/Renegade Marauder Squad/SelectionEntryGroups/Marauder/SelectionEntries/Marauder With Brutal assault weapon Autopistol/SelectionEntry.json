@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Marauder With Brutal assault weapon/Autopistol",
+    "prevIdentifier": "Marauder With Brutal assault weapon/Laspistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cbf2-4cb0-edb0-9690",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5b0e-5129-a3a4-e961",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "40cb-a109-bf12-99b7",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9cd0-480a-4069-eaab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8d93-493a-35db-bdb2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a2ab-ad37-feee-243e",
+          "id": "088c-acd7-788f-07df",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "736b-e1de-f3de-b361",
+      "name": "Marauder With Brutal assault weapon/Autopistol",
+      "infoLinks": [
+        {
+          "targetId": "2481-001b-00f9-501b",
+          "id": "1e30-897a-b12a-e48f",
+          "name": "Autopistol"
+        }
+      ]
+    }
+  ]
+}

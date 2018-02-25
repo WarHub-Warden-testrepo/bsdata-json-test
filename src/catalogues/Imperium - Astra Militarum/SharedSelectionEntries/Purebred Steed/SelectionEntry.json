@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Purebred Steed",
+    "prevIdentifier": "Vulture Gunship"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "c8c4-2f1a-aa45-5625",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d96b-95b1-1a6a-e9a7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ea30-2a64-825b-2826",
+      "name": "Purebred Steed"
+    }
+  ]
+}

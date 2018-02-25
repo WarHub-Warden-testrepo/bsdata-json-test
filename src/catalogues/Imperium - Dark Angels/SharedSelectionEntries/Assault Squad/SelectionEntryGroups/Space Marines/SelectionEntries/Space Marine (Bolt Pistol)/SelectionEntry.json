@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Bolt Pistol)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2f73-4e7a-a708-ae1d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "94e5-4ff9-dde4-4d96",
+          "id": "b79f-ad7a-3280-e6cd",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2fa0-2444-23e3-3ce8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c9cf-1aab-d3b1-9850",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "137f-a1e8-cc25-c4c0",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cf5-30bb-d6bf-52b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1ae2-dfd6-e447-45d7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "6dfd-fade-d73c-b9da",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "85e0-67d1-809d-8c85",
+      "name": "Space Marine (Bolt Pistol)"
+    }
+  ]
+}

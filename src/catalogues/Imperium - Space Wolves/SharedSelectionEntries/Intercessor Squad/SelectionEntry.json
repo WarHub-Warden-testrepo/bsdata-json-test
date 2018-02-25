@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Intercessor Squad",
+    "prevIdentifier": "Assault Plasma Incinerator"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0833-8a2d-65ed-c15c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eaed-3964-68ad-28c0",
+          "id": "7b52-4c96-b89c-606f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "3ed7-5a3b-a914-4e55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9f99-5504-9a68-81da",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "9f49-f731-d6eb-b5a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "4340-b9f4-3db8-40a6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "52bc-6c53-2af0-b8b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2d3c-f7e3-3eb6-c4e9",
+          "id": "e4a6-00d5-d1d7-c968",
+          "name": "Auxiliary Grenade Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "52bc-6c53-2af0-b8b9",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "4ea0-9503-5092-9ade",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "d940-8055-fa69-deaf",
+                  "value": 9.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "d940-8055-fa69-deaf",
+      "name": "Intercessor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5699-a42d-67f5-ca56",
+          "name": "And They Shall Know No Fear"
+        }
+      ]
+    }
+  ]
+}

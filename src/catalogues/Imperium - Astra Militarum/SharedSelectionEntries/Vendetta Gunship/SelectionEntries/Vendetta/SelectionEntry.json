@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Vendetta"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "be2d-e061-e0f7-c0fb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "db8d-9810-7e7d-c1ec",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dbb7-9387-ce1f-cb85",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "89ca-11b2-2431-da4c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "36cc-b7ac-8577-e551",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2180-777c-8828-2a23",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e46-5d57-1671-d4d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eeba-99b4-1642-534d",
+          "id": "c9dd-f475-cb7c-73a8",
+          "name": "Stat Damage (Gunships)"
+        }
+      ],
+      "id": "66ed-226a-f7d0-e905",
+      "name": "Vendetta",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "63a8-b23f-a97a-b2e2",
+          "id": "045d-2dd5-39eb-603c",
+          "name": "Transport: Gunship"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "39a3-520b-0320-2eca",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "b12a-de61-3621-3a96",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "c4f9-48e3-4bdc-737f",
+          "id": "f366-429d-dc10-2ab0",
+          "name": "Grav Chute Insertion"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "6128-cdbe-7ef8-62b5",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "58a0-655e-33dc-9329",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "6883-ee29-d9cd-8684",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "1d5e-a2f5-22bd-d726",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Primus Redoubt",
+    "prevIdentifier": "Imperial Fortress Walls"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 300.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9df5-bb14-9326-4108",
+          "id": "bc36-9846-ece5-031e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "b85c-8243-cea6-36bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "2dfc-a412-bf2f-7b65",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "240e-8d2a-9fdc-864f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "6b81-b9e9-a4c1-4e49",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f945-c820-e0a8-a343",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "32ef-5dde-0a92-aef5",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "b801-d1d1-7c34-facf",
+      "name": "Primus Redoubt",
+      "infoLinks": [
+        {
+          "targetId": "8830-2c9e-ad7e-e57d",
+          "id": "4231-88a3-9766-c5ab",
+          "name": "Immobile"
+        }
+      ]
+    }
+  ]
+}

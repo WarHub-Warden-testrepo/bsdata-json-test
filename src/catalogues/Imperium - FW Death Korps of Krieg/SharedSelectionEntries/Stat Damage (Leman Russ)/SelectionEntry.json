@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Leman Russ)",
+    "prevIdentifier": "Hydras"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a56f-27db-4adc-daa2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b895-b18f-553f-b023",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "aff3-db41-0dc2-49ce",
+      "name": "Stat Damage (Leman Russ)"
+    }
+  ]
+}

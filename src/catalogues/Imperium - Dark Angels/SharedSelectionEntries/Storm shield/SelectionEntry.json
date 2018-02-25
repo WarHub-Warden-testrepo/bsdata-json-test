@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Storm shield",
+    "prevIdentifier": "Deathwing Knights"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "id": "205b-411d-c9da-9276",
+      "name": "Storm shield",
+      "infoLinks": [
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "b888-7c9d-5b6b-d707",
+          "name": "Storm shield"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

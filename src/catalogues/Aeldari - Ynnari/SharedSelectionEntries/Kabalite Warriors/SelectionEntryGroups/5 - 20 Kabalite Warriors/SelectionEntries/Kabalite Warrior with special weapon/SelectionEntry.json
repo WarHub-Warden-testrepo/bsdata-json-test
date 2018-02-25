@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Kabalite Warrior with special weapon",
+    "prevIdentifier": "Kabalite Warrior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "09cc-6a8b-8190-6071",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "2a34-6c77-4b23-4f43",
+      "name": "Kabalite Warrior with special weapon",
+      "page": "0",
+      "modifiers": [
+        {
+          "field": "09cc-6a8b-8190-6071",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 2,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 20.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ee83-74b2-83d1-aeae",
+      "constraints": [
+        {
+          "id": "25f4-193a-4604-95ce",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "6d76-6752-de50-e9bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "760a-f351-b6e2-f220",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "ee83-74b2-83d1-aeae",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "5d8c-7f59-e5a7-4261",
+          "name": "Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "9c86-47be-e702-bdd1",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d18e-61c8-e950-eafb",
+      "name": "Armament 1",
+      "modifiers": [
+        {
+          "field": "6d76-6752-de50-e9bc",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "f020-6907-6820-583a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "25f4-193a-4604-95ce",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "f020-6907-6820-583a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

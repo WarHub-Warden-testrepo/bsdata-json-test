@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Wyverns",
+    "prevIdentifier": "Sniper Rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "1cb4-f56d-681d-3ad7"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f408-595e-c2a2-172b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f94e-8221-c60c-c650",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "248f-a55d-30ec-18f0",
+          "name": "Stat Damage (HS)"
+        }
+      ],
+      "id": "bec1-4b85-0350-fe8a",
+      "name": "Wyverns",
+      "book": "Codex: Astra Militarum",
+      "page": "51",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "bfd4-8142-c979-7fc6",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "170f-a0da-84ea-ec48",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "75dc-944b-8d58-6c33",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

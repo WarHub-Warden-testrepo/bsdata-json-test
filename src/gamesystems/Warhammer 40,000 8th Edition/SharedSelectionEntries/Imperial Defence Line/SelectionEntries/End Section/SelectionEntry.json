@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "End Section"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a1fe-6f95-886e-3cae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "id": "a3b2-3b1f-05cb-0e2f",
+      "name": "End Section",
+      "modifiers": [
+        {
+          "field": "a1fe-6f95-886e-3cae",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "edb1-05ac-de01-c37b",
+              "type": 2,
+              "field": "selections",
+              "scope": "0f73-97f2-b832-f6d0",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

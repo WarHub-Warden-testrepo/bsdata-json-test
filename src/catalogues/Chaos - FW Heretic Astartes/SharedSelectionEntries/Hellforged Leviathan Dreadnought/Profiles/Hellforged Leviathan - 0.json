@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Hellforged Leviathan - 0"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "800f-21d0-4387-c943",
+      "profileTypeName": "Unit",
+      "characteristics": [
+        {
+          "name": "M",
+          "characteristicTypeId": "0bdf-a96e-9e38-7779",
+          "value": "*"
+        },
+        {
+          "name": "WS",
+          "characteristicTypeId": "e7f0-1278-0250-df0c",
+          "value": "*"
+        },
+        {
+          "name": "BS",
+          "characteristicTypeId": "381b-eb28-74c3-df5f",
+          "value": "*"
+        },
+        {
+          "name": "S",
+          "characteristicTypeId": "2218-aa3c-265f-2939",
+          "value": "8"
+        },
+        {
+          "name": "T",
+          "characteristicTypeId": "9c9f-9774-a358-3a39",
+          "value": "8"
+        },
+        {
+          "name": "W",
+          "characteristicTypeId": "f330-5e6e-4110-0978",
+          "value": "14"
+        },
+        {
+          "name": "A",
+          "characteristicTypeId": "13fc-b29b-31f2-ab9f",
+          "value": "4"
+        },
+        {
+          "name": "Ld",
+          "characteristicTypeId": "00ca-f8b8-876d-b705",
+          "value": "8"
+        },
+        {
+          "name": "Save",
+          "characteristicTypeId": "c0df-df94-abd7-e8d3",
+          "value": "2+"
+        }
+      ],
+      "id": "4a0b-1970-d01f-f45f",
+      "name": "Hellforged Leviathan",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "13fc-b29b-31f2-ab9f",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "c1d1-4102-c430-9840",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "ca57-f8f3-c560-50da",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                },
+                {
+                  "conditions": [
+                    {
+                      "childId": "c36a-56e7-7142-6669",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "ca57-f8f3-c560-50da",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                },
+                {
+                  "conditions": [
+                    {
+                      "childId": "b229-bcd2-f0e9-79fe",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "c36a-56e7-7142-6669",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                },
+                {
+                  "conditions": [
+                    {
+                      "childId": "b229-bcd2-f0e9-79fe",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "c1d1-4102-c430-9840",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "f6c4-89ad-891b-4beb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Two Twin Heavy Bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "844e-7c62-1a01-15f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ba32-72ec-94c2-f926",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "7b2f-04ce-fc29-31c6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b944-28c5-6d64-8172",
+      "name": "Two Twin Heavy Bolters"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Jump Pack",
+    "prevIdentifier": "Captain"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c482-44a1-dabd-60d4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "53da-072d-fb4a-3dd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "4620-5b1e-0b29-9d5b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "181e-0718-160e-2e75",
+      "name": "Jump Pack",
+      "infoLinks": [
+        {
+          "targetId": "d167-aae2-932c-cded",
+          "id": "4df1-a2a8-5d0b-a525",
+          "name": "Jump Pack Assault"
+        }
+      ]
+    }
+  ]
+}

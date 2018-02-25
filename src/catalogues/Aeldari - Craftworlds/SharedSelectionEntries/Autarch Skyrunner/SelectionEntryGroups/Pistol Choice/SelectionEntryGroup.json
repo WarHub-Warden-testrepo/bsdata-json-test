@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Pistol Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "aab4-5361-9399-1733",
+      "constraints": [
+        {
+          "id": "effc-85ca-c099-418c",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "4367-2797-9567-42d6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "aab4-5361-9399-1733",
+          "name": ""
+        },
+        {
+          "targetId": "ea36-2191-cc7a-d06e",
+          "id": "0c75-3e27-d973-2f0a",
+          "name": ""
+        }
+      ],
+      "id": "3efc-cda3-7538-7a0e",
+      "name": "Pistol Choice",
+      "modifiers": [
+        {
+          "field": "4367-2797-9567-42d6",
+          "value": "0",
+          "conditions": [
+            {
+              "childId": "cdbc-1607-808b-b28a",
+              "type": 2,
+              "field": "selections",
+              "scope": "7a74-f56b-28ad-cd55",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "identifier": "Knight Commander Pask",
+    "prevIdentifier": "Leman Russ Battle Tanks"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 177.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1921-4c8b-5c97-5136",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "68ad-2b95-bb15-c470",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b332-b046-7171-5059",
+          "id": "6434-e6e4-6a19-e5ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "b7ff-aff3-4ede-55c0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "75cb-8618-3dd4-0cfd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b850-d2fe-79fe-3e7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d050-c6d8-d6de-9b61",
+          "id": "e0b3-ab9c-5fb5-e0a1",
+          "name": "Stat Damage (Pask)"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "90c1-33ee-da55-b406",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "ef46-57fe-d88c-4f05",
+          "name": "Sponson Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "f878-d6c4-ca11-7a3f",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "225d-ad99-9b33-4d18",
+          "id": "766b-8fa5-004b-993b",
+          "name": "Commander"
+        },
+        {
+          "targetId": "61ed-ee78-e2e8-556c",
+          "id": "d4f4-54cf-0e83-ee61",
+          "name": "Tank Orders"
+        },
+        {
+          "constraints": [
+            {
+              "id": "191e-188d-39a8-9d21",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "5127-7da2-5e08-59b8",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1007-d3f8-6b94-d5d9",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "62da-ed0a-445a-9773",
+          "id": "bba1-a6d6-1a5d-77fb",
+          "name": "Superior Tactical Training",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "1007-d3f8-6b94-d5d9",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "483a-ffe8-5024-c337",
+      "name": "Knight Commander Pask",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "72ec-b619-0271-1533",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "6869-0731-48e5-f1a3",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "e056-62b7-d4e0-5319",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "2030-e00a-2786-edc9",
+          "name": "Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

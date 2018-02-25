@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "identifier": "TX4 Piranha w/ BC & 1x SM",
+    "prevIdentifier": "TX4 Piranha w/ BC"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1ee4-82b9-fc35-6ad3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a3f1-063d-60e7-af76",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "0cee-f2cf-f11f-1bae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "fa6e-b7de-977d-0aa8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "a663-0f3d-2f28-4c5c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aa70-dce4-dcae-4b5b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d735-a458-3622-0603",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f77-b2e1-a28e-d467",
+          "id": "16b3-a23b-c029-7978",
+          "name": "MV1 Gun Drone"
+        },
+        {
+          "constraints": [
+            {
+              "id": "94a1-5f4a-1c7e-05ac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "aa49-90e2-d5b4-8e4f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69a9-8c9e-7ab1-c4ae",
+          "id": "3b9c-7621-5cdb-2aab",
+          "name": "Seeker missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "066e-50ed-a05f-b862",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2307-4edd-4c73-5d79",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "aa54-0543-bbd3-9fc1",
+          "name": "Burst cannon"
+        }
+      ],
+      "id": "4a49-deb9-2e14-58a2",
+      "name": "TX4 Piranha w/ BC & 1x SM",
+      "infoLinks": [
+        {
+          "targetId": "a609-e97d-7eca-8415",
+          "id": "5446-425e-c7d4-3605",
+          "name": "TX4 Piranha"
+        }
+      ]
+    }
+  ]
+}

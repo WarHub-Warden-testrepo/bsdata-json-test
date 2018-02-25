@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Militarum Tempestus Scions",
+    "prevIdentifier": "Scout Sentinels"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "4662-12ab-2891-1ec9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "218e-c8a1-cea3-8377",
+          "id": "5e6c-f117-e451-3e78",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "42c3-450f-7ff7-311e",
+      "name": "Militarum Tempestus Scions",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "0a6c-a8e0-8fd8-b3f0",
+          "id": "10da-2bf8-49ac-1389",
+          "name": "Aerial Drop"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "42c3-450f-7ff7-311e",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

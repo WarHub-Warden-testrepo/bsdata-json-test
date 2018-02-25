@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Earthshaker Platform"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a42a-8aba-eddc-05d5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0234-dcc7-96fb-9960",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "1849-b26d-a1b8-166b",
+      "name": "Earthshaker Platform",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "8a51-4088-2906-c6e1",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "39c0-f986-386f-3e50",
+          "name": "Artillery Battery"
+        },
+        {
+          "targetId": "c408-8555-a6df-257f",
+          "id": "ade2-b617-91a2-391e",
+          "name": "Immobile"
+        }
+      ]
+    }
+  ]
+}

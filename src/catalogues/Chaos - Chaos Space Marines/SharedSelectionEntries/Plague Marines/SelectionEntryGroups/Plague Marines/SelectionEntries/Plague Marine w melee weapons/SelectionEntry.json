@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Plague Marine w/ melee weapons",
+    "prevIdentifier": "Plague Marine w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5edb-7673-5907-47a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b4c3-62ec-220e-7a21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "986e-f410-9c9a-a973",
+          "id": "3cac-9d43-dab3-b3fa",
+          "name": "Blight Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dbd1-3882-33cd-99a3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c800-e550-6504-471a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "d4b2-99a6-5c84-3e54",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "52e1-b002-cd73-3507",
+      "name": "Plague Marine w/ melee weapons"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Repentia Squad",
+    "prevIdentifier": "Penitent Engines"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "378e-24b8-86a0-a165",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "13e0-29cc-e885-0831",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "ae7d-c82c-069a-d5a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "77c2-d922-316c-402c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5eb6-7578-58c0-bf61",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "2ea3-4581-b3c9-fc2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad04-ce1e-bfa8-b690",
+          "id": "ac13-78c6-042f-fc23",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8e03-d6a9-2fa2-8bcb",
+      "name": "Repentia Squad",
+      "book": "Index: Imperium 2",
+      "page": "101",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "f3de-f46c-78cf-982a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "8304-d1a0-8697-e3d9"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "8e03-d6a9-2fa2-8bcb",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "8e03-d6a9-2fa2-8bcb",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

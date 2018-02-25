@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Krieg Combat Shotgun",
+    "prevIdentifier": "Hot-shot Laspistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "eb80-264e-205b-3c31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "65b6-f988-7c74-513c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f99b-d266-a2d5-9561",
+      "name": "Krieg Combat Shotgun",
+      "infoLinks": [
+        {
+          "targetId": "f985-58f8-3e74-48b7",
+          "id": "3fea-a207-ed28-6f05",
+          "name": "Krieg Combat Shotgun (carcass shot)"
+        },
+        {
+          "targetId": "a4e6-847f-0b8e-ef28",
+          "id": "f3d3-f065-e27a-0929",
+          "name": "Krieg Combat Shotgun (solid shot)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Repulsor",
+    "prevIdentifier": "Krakstrom Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 210.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f192-e188-04c5-e79e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "2465-b5f6-8e49-dae1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "236e-7ca9-dfdb-4d6d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c66f-0ec3-0a99-d5d1",
+          "id": "33f4-e1c1-f19d-f94e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "9010-1514-a8bc-311e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "771c-d451-6894-c9e1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "56f6-e8a4-1c17-9e35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e8c2-5a34-bfab-1472",
+          "id": "a3e2-9480-5214-4151",
+          "name": "Ironhail Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d1d1-ff3f-b25f-3163",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "686b-6369-81b2-80fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "12df-6953-e309-7b39",
+          "id": "5d9e-e41a-1b45-c4ba",
+          "name": "Krakstrom Grenade Launcher"
+        }
+      ],
+      "id": "8d47-6145-aaa7-b040",
+      "name": "Repulsor",
+      "infoLinks": [
+        {
+          "targetId": "3d5d-287b-d8b9-9399",
+          "id": "3e10-eed2-02bb-16a9",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "type": 1,
+          "targetId": "6f8e-9512-0008-d677",
+          "id": "d1f1-f786-87d6-1ede",
+          "name": "Explodes (6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

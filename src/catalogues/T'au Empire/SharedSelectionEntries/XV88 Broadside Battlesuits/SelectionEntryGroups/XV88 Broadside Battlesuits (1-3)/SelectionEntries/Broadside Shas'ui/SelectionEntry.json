@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Broadside Shas'ui"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "a00b-0131-37cb-9ed8",
+          "id": "8c43-218a-2a82-f8be",
+          "name": "Broadside main weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "169e-adf8-6767-a3f1",
+          "id": "fcf6-8d11-df81-a9ca",
+          "name": "Broadside secondary weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3eb4-646d-67c5-916e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "77b8-51f3-dba2-dc43",
+          "name": "Seeker missile"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9c9c-049b-d3fe-7bb3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "6a5e-402a-cd14-0f62",
+          "name": "Support systems"
+        }
+      ],
+      "id": "9eda-89a3-7004-443b",
+      "name": "Broadside Shas'ui",
+      "infoLinks": [
+        {
+          "targetId": "10ee-fb1c-9d5d-8229",
+          "id": "615e-f6db-24e4-2621",
+          "name": "Broadside Shas'ui"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Mace of Contagion and bubotic axe",
+    "prevIdentifier": "2nd Plague knife"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bea7-ee44-12bb-0d2d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2aee-fe1e-23c1-30b3",
+          "type": 1,
+          "field": "selections",
+          "scope": "bfbb-5f37-6875-a0ef",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "1500-7f72-5ae9-e472",
+      "name": "Mace of Contagion and bubotic axe"
+    }
+  ]
+}

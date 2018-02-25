@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "identifier": "Company Ancient",
+    "prevIdentifier": "Repulsor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 63.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c7ea-ea9e-63c2-26f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2d28-8fed-1b2d-1999",
+          "id": "f877-3f21-e679-b278",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8c22-0719-0420-873f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a92b-bf36-74b4-b39b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0eae-83d6-7bbb-cf14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a2e7-ec78-a186-1448",
+          "id": "eab8-8d4b-2b8f-7644",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "10e6-89ea-d729-f936",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "aafd-43b3-2697-2b78",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "759b-bdc4-6985-9a17",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2e3c-9532-dff7-7ea6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9c58-64b0-83ca-e442",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ebf9-fb8e-36da-9785",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ca16-5149-aeaa-0538",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1130-c3ac-0513-f36a",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "f704-0485-89dd-6b47",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "1130-c3ac-0513-f36a",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "595e-5a82-766f-56df",
+      "name": "Company Ancient",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1d06-c6d0-0207-0d07",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "32ce-c003-a48b-1aab",
+          "id": "3e36-3c10-edcb-89a6",
+          "name": "Astartes Banner"
+        }
+      ]
+    }
+  ]
+}

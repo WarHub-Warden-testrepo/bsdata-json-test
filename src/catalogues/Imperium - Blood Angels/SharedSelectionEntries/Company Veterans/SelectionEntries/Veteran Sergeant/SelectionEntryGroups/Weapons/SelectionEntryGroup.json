@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ceb1-9b65-c265-6b1f",
+      "constraints": [
+        {
+          "id": "40a0-abd2-4732-9d65",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3ab1-686f-ecfc-1227",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "5040-98cd-3b1c-47a2",
+          "id": "bb7f-364d-0af5-d4b5",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "363e-ff58-3689-11b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "c2ca-1b66-e27f-7366",
+          "name": "Storm shield"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7060-5220-bbd9-c9b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "ae38-b68c-d500-2775",
+          "name": "Melee weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "31e1-2271-1f2a-5979",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "fd01-4d17-a6ee-a344",
+          "id": "7336-a43c-47fa-7c10",
+          "name": "Pistols"
+        }
+      ],
+      "id": "a659-a643-235f-7bfc",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "3ab1-686f-ecfc-1227",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "ceb1-9b65-c265-6b1f",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

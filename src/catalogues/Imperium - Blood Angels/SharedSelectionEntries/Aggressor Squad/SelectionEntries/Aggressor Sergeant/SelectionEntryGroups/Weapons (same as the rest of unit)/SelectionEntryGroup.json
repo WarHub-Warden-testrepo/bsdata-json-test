@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Weapons (same as the rest of unit)"
+  },
+  "selectionEntryGroups": [
+    {
+      "collective": true,
+      "constraints": [
+        {
+          "id": "4caf-d1a8-35b3-2ce2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f2eb-18d0-ac1a-6798",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d9e3-69a8-eda7-2072",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "7b54-8090-d351-0252",
+          "id": "8b80-5f86-1308-77a7",
+          "name": "Flamestorm gauntlets",
+          "modifiers": [
+            {
+              "field": "d9e3-69a8-eda7-2072",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "7b54-8090-d351-0252",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "c13b-c189-2dad-99e5",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "cea0-b554-4aee-66b0",
+      "name": "Weapons (same as the rest of unit)"
+    }
+  ]
+}

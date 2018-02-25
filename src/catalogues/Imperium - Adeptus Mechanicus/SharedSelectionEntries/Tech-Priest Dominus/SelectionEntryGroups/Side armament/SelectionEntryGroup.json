@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Side armament",
+    "prevIdentifier": "Main armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "405d-f5ed-acf4-4d41",
+      "constraints": [
+        {
+          "id": "0330-6f7e-7dde-d72d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8cc0-899c-5b2b-a978",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "d590-f332-a5f8-210b",
+          "id": "405d-f5ed-acf4-4d41",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "e042-ad54-1c9f-36a3",
+          "id": "fe6b-fb6f-52f1-5303",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "145a-da77-303d-34f7",
+          "id": "6fd8-84b3-957b-5925",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "285c-cca2-da43-6fb5",
+      "name": "Side armament"
+    }
+  ]
+}

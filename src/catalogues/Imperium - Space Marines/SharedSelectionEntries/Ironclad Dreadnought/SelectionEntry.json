@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Ironclad Dreadnought",
+    "prevIdentifier": "Venerable Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "bb10-8a66-55b9-602a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "60c1-6120-e987-5ede",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3af2-20e3-c05c-3874",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad76-d653-9f96-093a",
+          "id": "fc5b-42a8-b03f-be86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b123-16c9-285a-fd51",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bd8c-a007-9bbd-b552",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9aa0-7e6f-532e-13da",
+          "id": "7e5f-e0f5-7458-61bb",
+          "name": "Ironclad Assault Launchers"
+        },
+        {
+          "constraints": [
+            {
+              "id": "460d-0b9c-c414-b158",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ff5a-6622-92d2-e071",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ddfd-70c4-fce9-b2ea",
+      "name": "Ironclad Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "961b-b930-4ae7-0128",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "9793-838f-254b-76bb",
+          "id": "1b92-d12a-557f-d5e3",
+          "name": "Explodes (3\"/D3)"
+        },
+        {
+          "targetId": "1746-efd2-91b6-61ea",
+          "id": "fccb-0fb1-f0c8-b496",
+          "name": "Wrecker"
+        }
+      ]
+    }
+  ]
+}

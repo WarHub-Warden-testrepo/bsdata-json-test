@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Ranged weapon",
+    "prevIdentifier": "Force weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d4cf-7353-8e06-edb0",
+      "constraints": [
+        {
+          "id": "51a2-3ac0-bdf8-f80f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a4ae-34ad-a375-06b0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8626-3132-4aa6-59fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "0031-d6d1-5a97-821f",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a699-e416-2574-cc01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd01-4d17-a6ee-a344",
+          "id": "2133-b30f-4dfe-dad3",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3906-cbc9-3750-5f7b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb30-a0c9-788b-eda1",
+          "id": "f99b-9db8-2ae0-f74d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1b12-f26a-141b-d975",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "d4cf-7353-8e06-edb0",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "7d28-ceb8-6994-80df",
+      "name": "Ranged weapon"
+    }
+  ]
+}

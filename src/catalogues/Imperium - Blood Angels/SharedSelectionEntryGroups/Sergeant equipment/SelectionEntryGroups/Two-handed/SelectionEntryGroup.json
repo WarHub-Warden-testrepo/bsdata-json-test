@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Two-handed",
+    "prevIdentifier": "One-handed"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8770-53a5-5d0a-1744",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "94f3-c3e1-4eda-5dde",
+          "name": "Boltgun"
+        },
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "a5e1-8cbd-2af7-a8e1",
+          "name": "Combi-flamer"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "3d06-a6bb-8833-b8cf",
+          "name": "Combi-melta"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "8169-d054-b11f-40b6",
+          "name": "Combi-plasma"
+        },
+        {
+          "targetId": "c027-24d6-7a3d-cf12",
+          "id": "2827-0ed9-1d1f-00cd",
+          "name": "Combi-grav"
+        },
+        {
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "eb45-1a98-482d-345b",
+          "name": "Storm bolter"
+        },
+        {
+          "targetId": "1f50-1645-5312-885a",
+          "id": "5f0d-f7b9-eb6c-1e86",
+          "name": "Lightning Claw (Pair)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e135-9b4d-e734-2f9e",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "9b1b-0bf1-1d6c-f500",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "a0c0-42ea-00e1-3299",
+      "name": "Two-handed"
+    }
+  ]
+}

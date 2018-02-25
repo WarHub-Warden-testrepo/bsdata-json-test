@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Chaos Cultists",
+    "prevIdentifier": "Magnus the Red"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "be25-3969-4351-30bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "981e-4993-08e5-a426",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a515-2334-a93a-fca1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "48dd-4715-444e-7c0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "68cf-8b9b-9eed-6e25",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "62dc-d5e9-b410-a496",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0c0a-3974-d2ae-7e7b",
+          "id": "8676-69de-d906-1688",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "94ba-3961-e217-214a",
+      "name": "Chaos Cultists",
+      "page": "",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "94ba-3961-e217-214a",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "94ba-3961-e217-214a",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Squad"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3b2b-395a-98ee-1a80",
+      "constraints": [
+        {
+          "id": "12fd-6873-e116-ca21",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "6cc5-4db8-3036-2dc5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6f8f-1fb9-600d-1b91",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "431c-d1ad-0212-1306",
+          "id": "24a7-cd55-86e5-c70e",
+          "name": "Deathwatch Vanguard Veteran",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1c4c-1682-1c21-19c2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ad2a-bcbe-d7d3-302a",
+          "id": "f457-89d9-de4b-1903",
+          "name": "Deathwatch Biker",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "765e-46e1-affc-2d57",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ca5-40fa-24f7-de58",
+          "id": "25f9-d99b-0ec1-0e93",
+          "name": "Deathwatch Biker w/ Teleport Homer",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7521-cab1-a26d-3b9d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c732-0370-25cb-24cd",
+          "id": "3e8a-53a5-ee19-0cf6",
+          "name": "Deathwatch Terminator w/ Heavy Weapon",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0c9b-9240-53ff-aad6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0fcf-b644-570d-388c",
+          "id": "d129-e043-c0fe-76c4",
+          "name": "Deathwatch Terminator",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "0c9b-9240-53ff-aad6",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "3e8a-53a5-ee19-0cf6",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "d82f-47c7-40a0-5ee0",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "3"
+            }
+          ]
+        }
+      ],
+      "id": "37e1-5c7a-38ae-1cf7",
+      "name": "Squad"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stronghold Assault Attacker",
+    "prevIdentifier": "Planetstrike Defender"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bb43-d058-689b-4008",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6d80-f955-1f1c-459e",
+      "name": "Stronghold Assault Attacker",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "76d3-0012-c152-b50d",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

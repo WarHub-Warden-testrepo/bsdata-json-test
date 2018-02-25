@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Mark of Tzeentch",
+    "prevIdentifier": "Mark of Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2af5-6d5b-6276-7851",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "d7f0-27b1-e534-59b8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "62eb-6ebb-5745-f557",
+      "name": "Mark of Tzeentch",
+      "infoLinks": [
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "5eb6-32c4-9377-2c62",
+          "name": "Ephemeral Form"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "2af5-6d5b-6276-7851",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

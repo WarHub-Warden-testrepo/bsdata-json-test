@@ -1,0 +1,2930 @@
+{
+  "meta": {},
+  "catalogues": [
+    {
+      "gamesystemId": "28ec-711c-d87f-3aeb",
+      "gamesystemRevision": 1,
+      "id": "422a-a40e-3f7c-e8b3",
+      "name": "Chaos - Daemons",
+      "book": "Codex: Chaos Daemons, Index: Chaos",
+      "revision": 29,
+      "battleScribeVersion": "2.01",
+      "authorName": "BSData team",
+      "authorContact": "@ilaunchbury",
+      "authorUrl": "http://battlescribedata.appspot.com/#/repo/wh40k",
+      "categoryEntries": [
+        {
+          "id": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "name": "HQ"
+        },
+        {
+          "id": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "name": "Elites"
+        },
+        {
+          "id": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "name": "Troops"
+        },
+        {
+          "id": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "name": "Heavy Support"
+        },
+        {
+          "id": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "name": "Fast Attack"
+        },
+        {
+          "id": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "name": "Lord of War"
+        },
+        {
+          "id": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "name": "Fortification"
+        },
+        {
+          "id": "dfc5-aa04-9546-1b4c",
+          "name": "Khorne"
+        },
+        {
+          "id": "0fb6-fcaf-b180-5dda",
+          "name": "Nurgle"
+        },
+        {
+          "id": "1da2-76db-f76f-6b6c",
+          "name": "Slaanesh"
+        },
+        {
+          "id": "012f-abfc-397b-3519",
+          "name": "Tzeentch"
+        },
+        {
+          "id": "0bc5-6451-5612-4a25",
+          "name": "Daemon"
+        },
+        {
+          "id": "c35d-97e7-5b2a-0a70",
+          "name": "Daemon Engine"
+        },
+        {
+          "id": "4407-2aa1-2a62-c1dc",
+          "name": "Horror"
+        },
+        {
+          "id": "0dbe-cdf5-8fa1-36da",
+          "name": "Flesh Hound"
+        },
+        {
+          "id": "c312-92b6-0817-2b0a",
+          "name": "Bloodthirster"
+        },
+        {
+          "id": "5280-7fb9-d4da-d2ff",
+          "name": "Bloodletter"
+        },
+        {
+          "id": "eb72-b7a9-1df1-04db",
+          "name": "Herald"
+        },
+        {
+          "id": "a722-4829-4004-3478",
+          "name": "Lord of Change"
+        },
+        {
+          "id": "94f2-7683-7ea3-85cd",
+          "name": "Flamer"
+        },
+        {
+          "id": "7b13-7a9e-19f8-a78a",
+          "name": "Nurglings"
+        },
+        {
+          "id": "ab84-97e0-111c-9ff0",
+          "name": "Plaguebearer"
+        },
+        {
+          "id": "31eb-b14e-89a2-73d1",
+          "name": "Daemonette"
+        },
+        {
+          "id": "3115-dc5c-b996-9b61",
+          "name": "The Tainted"
+        },
+        {
+          "id": "5cce-0985-a56e-9523",
+          "name": "Keeper of Secrets"
+        },
+        {
+          "id": "90b5-25de-6bb7-d3d6",
+          "name": "Daemon Prince of the Ruinstorm"
+        },
+        {
+          "id": "7ddd-cea9-a1c5-3230",
+          "name": "Death Guard"
+        },
+        {
+          "id": "9583-d5d8-59e2-1ecc",
+          "name": "Heretic Astartes"
+        },
+        {
+          "id": "f41d-932a-b375-bde2",
+          "name": "Herald of Khorne"
+        },
+        {
+          "id": "d8fa-3f19-2fbe-ad7e",
+          "name": "Herald of Nurgle"
+        },
+        {
+          "id": "4ad0-7149-cdc4-7426",
+          "name": "Herald of Slaanesh"
+        },
+        {
+          "id": "6988-9a68-df7e-5c0f",
+          "name": "Herald of Tzeentch"
+        },
+        {
+          "id": "f98e-1da1-7cce-ac21",
+          "name": "Great Unclean One"
+        },
+        {
+          "id": "761d-8f06-b39f-4bc7",
+          "name": "Daemon Prince"
+        },
+        {
+          "id": "53c3-b2cf-1554-c3da",
+          "name": "Exalted Flamer"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b91e-a5fc-d9d4-bf08",
+          "id": "8466-813b-f8f0-e78f",
+          "name": "Karanak",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e0dc-e385-fd96-6a19",
+          "id": "fcee-db0a-e790-4a4a",
+          "name": "Skarbrand",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "09e4-fd54-3f3a-418e",
+          "id": "ace4-52c1-6d4a-f49d",
+          "name": "Skulltaker",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b2cf-78a5-510c-f24b",
+          "id": "bfa2-a2d4-ad79-6fbf",
+          "name": "Bloodthirster of Insensate Rage",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6564-8cab-7d58-11ba",
+          "id": "5aed-1f03-f5d5-7d06",
+          "name": "Bloodthirster of Unfettered Fury",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1e16-ec82-4872-314a",
+          "id": "31f5-106a-dc86-b9ae",
+          "name": "Wrath of Khorne Bloodthirster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "2329-ec62-3a2f-2e14",
+          "id": "8b9b-3c38-3064-6ef7",
+          "name": "Bloodmaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "5bba-6f5d-fa59-220a",
+          "id": "2dd8-f2b0-9d03-e2a8",
+          "name": "Blood Throne",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "906e-54f9-a758-75d4",
+          "id": "0714-c2dc-6050-3627",
+          "name": "Skullmaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "253a-9e51-cf96-b0d5",
+          "id": "1a1c-1cb1-2e56-a07a",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "38ee-583c-b397-a057",
+          "id": "270a-1642-befe-9c32",
+          "name": "Be'lakor",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "f366-0842-dce1-6bc8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "2372-6e48-e202-af38",
+          "id": "fcaa-1c21-8fc8-2355",
+          "name": "Bloodletters",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "c703-ebae-c615-1221",
+          "id": "be03-0417-ddeb-c874",
+          "name": "Bloodcrushers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6c6c-e019-3c06-618d",
+          "id": "1fce-ee9e-744c-94b2",
+          "name": "Flesh Hounds",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ff28-d593-d4e7-5f1f",
+          "id": "2e69-0bec-5e1b-253f",
+          "name": "Skull Cannon",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d7b3-4646-66cb-e39e",
+          "id": "3d58-950d-1a66-4962",
+          "name": "The Changeling",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "491d-77f0-b95a-1fc7",
+          "id": "fcdb-0c43-cabe-b16b",
+          "name": "Kairos Fateweaver",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e3c6-21c6-1467-5b7c",
+          "id": "3367-3107-b0be-9b52",
+          "name": "The Blue Scribes",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "f871-ce62-9895-c5a0",
+          "id": "9d09-9772-c385-3817",
+          "name": "Horrors",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "896d-c258-d030-1a02",
+          "id": "746f-1a63-1885-8d4b",
+          "name": "Changecaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a701-df33-f613-4363",
+          "id": "9936-2bbb-b92b-4ce7",
+          "name": "Fateskimmer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b8e4-e229-b807-234c",
+          "id": "840e-4b27-7478-67df",
+          "name": "Fluxmaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7059-f18f-03b9-4ca2",
+          "id": "f4b2-3690-7135-a3e9",
+          "name": "Lord of Change",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "039e-81fd-d6ad-d181",
+          "id": "8a26-a64a-f0e7-e426",
+          "name": "Screamers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d290-d629-dd28-7a2f",
+          "id": "b108-7d02-2b0e-56af",
+          "name": "Flamers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "218b-8217-4f8b-505d",
+          "id": "7100-b941-dd86-798b",
+          "name": "Exalted Flamer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7c4b-874f-804e-2a9e",
+          "id": "ee2a-1867-7918-dce3",
+          "name": "Burning Chariot",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0e28-1f32-cab3-4af5",
+          "id": "4569-da37-b845-f5bb",
+          "name": "Great Unclean One",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "01f7-1cfc-11cf-7ffe",
+          "id": "4fc0-2d3b-1c88-d45e",
+          "name": "Plaguebearers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d03f-6b13-52ba-68e6",
+          "id": "e509-8bbd-7dc9-7798",
+          "name": "Nurglings",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ed41-24a6-5d39-832f",
+          "id": "24a4-c7df-1061-0e35",
+          "name": "Beasts of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "fdd7-df4b-5101-2439",
+          "id": "fb7b-f8f7-8413-3ca9",
+          "name": "Plague Drones",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1cf7-c768-d3f1-7908",
+          "id": "5737-a322-8529-9501",
+          "name": "The Masque of Slaanesh",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "884c-e873-9376-9f6f",
+          "id": "b3c7-4b66-8b03-4f54",
+          "name": "Keeper of Secrets",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1cae-f9aa-114a-bb1b",
+          "id": "649f-b708-4dc3-552e",
+          "name": "Herald of Slaanesh on Steed",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ef7c-bbb0-26d0-b6a9",
+          "id": "1362-4c9e-dd10-abed",
+          "name": "Herald of Slaanesh on Exalted Seeker Chariot",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "01d3-ea8c-6eeb-dac5",
+          "id": "f4ed-3564-2ba0-c3e3",
+          "name": "Herald of Slaanesh on Seeker Chariot",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "9ef0-97fb-4f02-1267",
+          "id": "ae83-380c-d194-b6c7",
+          "name": "Herald of Slaanesh",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b680-bf49-eb66-002c",
+          "id": "1438-38a4-32d0-a610",
+          "name": "Epidemius",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4210-2c2d-c518-630d",
+          "id": "3ae5-5535-1201-d577",
+          "name": "Poxbringer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8f28-bce0-a051-f427",
+          "id": "3afd-a757-97ae-e86a",
+          "name": "Daemonettes",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7922-d5d4-c20a-838c",
+          "id": "b966-2af0-d04d-5adb",
+          "name": "Seeker Chariot",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "2672-8419-33c0-5026",
+          "id": "b965-abab-0eb2-1a0a",
+          "name": "Seekers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7c21-20e8-600b-b303",
+          "id": "df3e-d896-4d8a-7a35",
+          "name": "Hellflayer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "873b-9587-1d22-02d6",
+          "id": "b41a-3925-17e7-a645",
+          "name": "Fiends of Slaanesh",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "dcac-d432-18ef-cb46",
+          "id": "7c4e-fba5-cda1-d41c",
+          "name": "Exalted Seeker Chariot",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "eeb3-98c8-2a90-78b2",
+          "id": "9220-5143-79d2-d627",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "bdff-094d-a84d-3159",
+          "id": "d383-bdb0-2be0-7e07",
+          "name": "Soul Grinder"
+        },
+        {
+          "targetId": "1675-e2ef-0839-d2a0",
+          "id": "e64d-7ef7-54fc-f5f3",
+          "name": "Aetaos'rau'keres",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "89c3-0e86-2dbe-9c4e",
+          "id": "7fa6-fe63-4ed6-11c2",
+          "name": "An'ggrath the Unbound",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "69ae-1376-ba37-b51e",
+          "id": "1c9b-fb34-b80c-c223",
+          "name": "Zarakynel",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "f9f2-faf7-822d-ccbc",
+          "id": "d9a2-108d-2cd5-44f0",
+          "name": "Samus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0335-3307-0f68-59fa",
+          "id": "5450-7990-1e63-4da4",
+          "name": "Uraka the Warfiend",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "4a74-3874-4059-d979",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b36b-da1c-afe1-29fc",
+          "id": "8512-3ba9-a3ab-f335",
+          "name": "Mamon Transfigured",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "89a3-50ea-79c2-7bee",
+          "id": "9bd9-bdd4-5063-e736",
+          "name": "Plague Toads of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "aab3-3fb8-0a9f-2f02",
+          "id": "844a-115e-3cfc-18ad",
+          "name": "Cor'bax Utterblight",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1bcb-ab63-2d0a-fb4f",
+          "id": "a577-c3db-9b7a-bf67",
+          "name": "Pox Riders of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b447-8f14-a746-9fb1",
+          "id": "3c29-bd27-f32a-f763",
+          "name": "Giant Chaos Spawn"
+        },
+        {
+          "targetId": "dc67-89df-1a53-d874",
+          "id": "e6c4-e29c-2736-42fa",
+          "name": "Spined Chaos Beast"
+        },
+        {
+          "targetId": "6dfb-7935-f82a-8c97",
+          "id": "8e5f-c944-f46e-4b68",
+          "name": "Scabeiathrax the Bloated",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1395-5005-33d3-ee55",
+          "id": "7f3e-cb28-f51a-54db",
+          "name": "Rotigus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "96c9-51c5-c93d-7205",
+          "id": "4605-f6b6-d6c8-4d8d",
+          "name": "Horticulus Slimux",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b61b-7759-0e36-7680",
+          "id": "5648-a873-9743-0508",
+          "name": "Sloppity Bilepiper",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0cad-1640-da64-a6e8",
+          "id": "3fca-730f-ee8e-2786",
+          "name": "Spoilpox Scrivener",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7ff2-55c1-7305-1b37",
+          "id": "19fc-9cca-26ce-797b",
+          "name": "Feculent Gnarlmaws",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+              "id": "2d0c-e92f-fe28-8d89",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "24aa-9785-f288-e07a",
+          "id": "26ee-47bc-1997-a2f9",
+          "name": "Chaos Allegiance"
+        },
+        {
+          "targetId": "9d72-13a5-2d3b-5ca1",
+          "id": "796f-5ab6-2469-0717",
+          "name": "Plague Hulk of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "c047-a750-7057-082f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "21b1-7fd4-e8d8-b28d",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "b65b-0d90-94ce-ffad",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "825e-be67-d23e-3e72",
+          "id": "1c6a-883a-4f48-8646",
+          "name": "Rewards of Chaos (1 Relic)"
+        },
+        {
+          "targetId": "9a8e-6f0d-36d2-7b97",
+          "id": "fbd9-1aff-f91c-db2d",
+          "name": "Rewards of Chaos (2 Relics)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "6: Lore Master",
+    "prevIdentifier": "5: Nemesis Lord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bc2a-a1df-11c5-3d0a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c242-0f91-54d8-3ab6",
+      "name": "6: Lore Master",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "e7b9-75a0-5700-eb0e",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c122-d85d-f519-81ae",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c701-7188-c97c-cce6",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Exalted Alluress",
+    "prevIdentifier": "Steeds of Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8aad-6c27-8a1b-e840",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8812-1556-e9a1-441f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cbea-e48d-4e03-ad92",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ace1-b1ea-aea8-6625",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "baf6-8447-86fb-e556",
+          "id": "d936-97cd-3d37-0cce",
+          "name": "Lashes of Torment"
+        },
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "da6c-9196-1d6e-15ba",
+          "name": "Piercing claws"
+        }
+      ],
+      "id": "1fba-0a0a-9ad5-541e",
+      "name": "Exalted Alluress"
+    }
+  ]
+}

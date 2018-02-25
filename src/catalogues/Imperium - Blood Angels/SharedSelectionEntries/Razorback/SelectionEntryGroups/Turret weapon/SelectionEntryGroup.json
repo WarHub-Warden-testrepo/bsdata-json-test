@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Turret weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "99c3-4810-50b9-c65c",
+      "constraints": [
+        {
+          "id": "3e82-9f41-9374-6828",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3dd0-0849-c49c-2af4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "987b-c181-b23b-f870",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "4106-8129-2605-4e2b",
+          "name": "Twin assault cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "daa2-a784-959e-d1cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "57e2-4693-3843-d547",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ac5e-a0b3-31d7-05fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "99c3-4810-50b9-c65c",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3820-3dfe-1af1-e91c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8d70-a6af-cbad-f08c",
+          "id": "dba0-9679-f373-6ecc",
+          "name": "Twin heavy flamer"
+        }
+      ],
+      "id": "8ed7-9908-b518-ae71",
+      "name": "Turret weapon"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two twin hellstrike launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "418d-3b29-e748-8318",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "84f6-775b-1d6a-4385",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "de6a-0296-eda8-ea2d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "16bf-0dc4-de9f-c83d",
+          "id": "5e3f-79d6-c037-4665",
+          "name": "Twin hellstrike launcher"
+        }
+      ],
+      "id": "fda5-f65d-a1f4-a8a2",
+      "name": "Two twin hellstrike launchers"
+    }
+  ]
+}

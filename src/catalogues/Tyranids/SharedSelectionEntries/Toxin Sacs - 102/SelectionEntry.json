@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "identifier": "Toxin Sacs - 102",
+    "prevIdentifier": "Adrenal Glands - 101"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "id": "8191-100c-b4d2-9879",
+      "name": "Toxin Sacs",
+      "infoLinks": [
+        {
+          "targetId": "b36f-7549-f9e1-336c",
+          "id": "f6c9-fa88-6613-5502",
+          "name": "Toxin Sacs"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "92ec-64fb-e5a7-65c1",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "aa6c-e3fd-b776-5770",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "f535-4e40-2b57-2bf7",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "0507-f341-5267-7cc5",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "22e8-edf3-fcd9-2fe2",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "0837-d880-49c7-01cf",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "points",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "07f0-7c6c-e476-a37f",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "points",
+          "value": "8",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "1864-f6fc-3f51-0c34",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "f628-1bb2-0620-3beb",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "points",
+          "value": "4",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "d482-6830-b5c2-bb33",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "d254-4969-7e67-32a9",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "3864-3330-0ae1-68cf",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "add7-3535-a4cd-9ba5",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "c4f3-a07b-eb36-3bf0",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "6903-a410-21cb-0dc5",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

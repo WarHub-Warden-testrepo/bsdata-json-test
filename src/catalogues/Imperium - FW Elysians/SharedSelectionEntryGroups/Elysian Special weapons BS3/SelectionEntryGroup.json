@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Elysian Special weapons BS3",
+    "prevIdentifier": "Elysian Special weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "cee2-7a0f-9025-5afa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9cb2-da0c-125d-8d76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "b703-7520-a2bd-0665",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f478-afaf-f52a-d237",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "e265-c50c-9720-cb15",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "183c-879f-4568-9bc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "3de8-d902-c311-6dab",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "id": "4c82-1b74-49d1-d127",
+      "name": "Elysian Special weapons BS3"
+    }
+  ]
+}

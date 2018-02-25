@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Plaguebearer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3b61-3e8b-064d-762a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 29.0,
+          "shared": true
+        },
+        {
+          "id": "050a-22e4-be9e-a53f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3579-f1a9-3e69-7867",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8164-5b9a-d917-52ea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5df1-ff58-ee19-6e21",
+          "id": "923c-b090-bd79-331c",
+          "name": "Plaguesword"
+        }
+      ],
+      "id": "1b58-8d3e-d92f-d660",
+      "name": "Plaguebearer"
+    }
+  ]
+}

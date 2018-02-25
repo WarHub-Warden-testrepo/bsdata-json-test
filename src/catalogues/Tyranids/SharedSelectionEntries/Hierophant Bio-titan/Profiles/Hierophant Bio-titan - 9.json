@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Hierophant Bio-titan - 9",
+    "prevIdentifier": "Titanic Monster"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "Tyranids, <Hive Fleet>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "Monster, Titanic, Hierophant Bio-titan"
+        }
+      ],
+      "id": "b45b-d17c-7722-1954",
+      "name": "Hierophant Bio-titan",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "ce6c-4765-4bb8-bd49",
+          "value": "Monster, Titanic, Transport, Hierophant Bio-titan",
+          "conditions": [
+            {
+              "childId": "69bd-9704-93a5-68d3",
+              "type": 4,
+              "field": "selections",
+              "scope": "8d05-bafd-ea07-c4af",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

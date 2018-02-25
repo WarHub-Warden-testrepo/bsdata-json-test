@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "identifier": "Tiger Shark AX-1-0",
+    "prevIdentifier": "Tiger Shark Fighter-bomber"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 255.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 30.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "f953-e685-ea22-f2e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "7405-4844-a13b-a7e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "819c-0eb2-dd68-2a59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e5e9-cea8-c831-1eca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "a6a9-e316-82c3-82f1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "14c1-ba37-745a-8d52",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "073e-698a-d4c6-09a2",
+          "name": "Seeker missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a68b-7484-454f-b603",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6643-0aa3-fa10-a2d8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b74-0d49-4217-1774",
+          "id": "a1bd-6d27-9d5d-1af8",
+          "name": "Missile pod"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e5ab-857e-421d-a38a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4515-b401-7efe-0652",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7cae-ee89-5f5c-34bf",
+          "id": "52d6-7497-d798-7d20",
+          "name": "Heavy rail cannon"
+        }
+      ],
+      "id": "7ba0-7cce-5ac3-b235",
+      "name": "Tiger Shark AX-1-0",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "85d1-88e7-ee43-1a63",
+          "name": "Airborne"
+        },
+        {
+          "type": 1,
+          "targetId": "e2ec-faa8-b909-beb7",
+          "id": "8add-ab06-5a86-4c9c",
+          "name": "Crash and Burn (Tiger Shark)"
+        },
+        {
+          "type": 1,
+          "targetId": "cad1-0d6e-b6d3-adee",
+          "id": "41ae-d8c7-0661-6f46",
+          "name": "Supersonic (Tiger Shark, Orca Dropship)"
+        },
+        {
+          "targetId": "21f7-9e0a-acd9-95d7",
+          "id": "e232-e5a9-0685-122c",
+          "name": "Tiger Shark Dispersion Field"
+        },
+        {
+          "targetId": "1551-deb4-6f41-7cd1",
+          "id": "8390-1469-1bed-4b2f",
+          "name": "Tiger Shark AX-1-0"
+        },
+        {
+          "targetId": "6b8c-47d1-3e08-11d7",
+          "id": "2b9e-50ef-7129-4cb7",
+          "name": "Tiger Shark 1"
+        },
+        {
+          "targetId": "3345-53d8-83fd-7aee",
+          "id": "52fb-28b5-5ff2-d442",
+          "name": "Tiger Shark 2"
+        },
+        {
+          "targetId": "8436-fc0c-9d3a-6a3e",
+          "id": "4ce6-0ed3-b653-f2a8",
+          "name": "Tiger Shark 3"
+        },
+        {
+          "targetId": "b2b2-3ee6-f6f0-cb42",
+          "id": "76f8-e387-c445-566b",
+          "name": "Titan Hunter"
+        },
+        {
+          "targetId": "4f49-8215-215c-5624",
+          "id": "c410-03ec-1d97-8558",
+          "name": "Hard to Hit (Tiger Shark AX-0-1)"
+        }
+      ]
+    }
+  ]
+}

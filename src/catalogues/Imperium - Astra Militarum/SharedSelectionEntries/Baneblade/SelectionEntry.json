@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "identifier": "Baneblade",
+    "prevIdentifier": "Banehammer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 28.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "727a-ef50-859e-62e2"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7188-16d4-dc4c-0027",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "21a1-456f-9860-ad9d",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3517-0620-944a-528b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0a75-0b66-5267-3170",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "48c6-07fe-38cd-4405",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b8d3-c21f-ef81-9660",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3874-e9e0-9d1c-d4c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "4df9-d522-69fa-e2e1",
+          "name": "Demolisher cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8673-5b53-8d35-d2f8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cd23-63c2-62f9-71cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "437b-2a51-c113-2848",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "994d-5fb3-4d2b-6a5d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f4ef-7acf-26ca-4daf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "36c1-e925-7dcc-a050",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "54f9-a43f-ea97-7dd9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6de-c462-b8ed-f7fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "c785-4bac-6508-dc77",
+          "name": "Stat Damage (Baneblade)"
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "a6f8-9e3c-56f1-2b22",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "49af-922a-2fa6-dc86",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "3ac6-8d6e-850e-6aee",
+      "name": "Baneblade",
+      "book": "War Zone Damocles: Mont'ka",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "f41d-1a49-d220-cad1",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "593a-6e6e-25c7-74f5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "69ec-b200-8e35-2ecd",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Plague Drones",
+    "prevIdentifier": "Beasts of Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "c723-7846-efac-3c68",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "5ddc-b8c6-dc8e-d03f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "801f-aed6-52f8-e449",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "4a87-9b9e-963b-7f28",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "06b4-5217-e3b6-58a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "b2ea-af37-f704-9f67",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "298b-b0c5-f440-177c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "11db-39df-f53b-d823",
+          "id": "e887-5c7c-bcff-7896",
+          "name": "Instrument of Chaos"
+        }
+      ],
+      "id": "fdd7-df4b-5101-2439",
+      "name": "Plague Drones",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "cee6-39ef-262e-7b94",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "c3e2-1aa8-f184-da0b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "0846-b73b-4e93-e046",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "fdd7-df4b-5101-2439",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "fdd7-df4b-5101-2439",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

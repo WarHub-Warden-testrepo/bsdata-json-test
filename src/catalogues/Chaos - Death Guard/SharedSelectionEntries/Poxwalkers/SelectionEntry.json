@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Poxwalkers",
+    "prevIdentifier": "Sorcerer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "5a2b-bc1c-806a-13f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7fa5-f9b7-2c44-880d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "0d11-174b-7b85-eab8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "cc7e-571f-732a-d46c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "4ebb-9605-ed47-488c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "714e-a98b-83c9-f67d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6676-37bc-5ed8-c56d",
+          "id": "643b-5052-b1e6-8b16",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "172a-9105-e028-28a8",
+      "name": "Poxwalkers",
+      "infoLinks": [
+        {
+          "targetId": "d147-d281-9501-00b9",
+          "id": "637c-6286-0fb5-ce17",
+          "name": "Mindless"
+        },
+        {
+          "targetId": "8f11-6c2b-25e0-d130",
+          "id": "eeb9-93c7-49aa-e063",
+          "name": "Disgustingly Resilient"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "172a-9105-e028-28a8",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

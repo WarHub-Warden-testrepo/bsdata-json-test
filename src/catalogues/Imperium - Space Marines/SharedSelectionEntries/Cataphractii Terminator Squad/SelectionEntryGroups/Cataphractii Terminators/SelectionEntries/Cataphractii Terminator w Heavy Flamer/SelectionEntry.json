@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Cataphractii Terminator w/Heavy Flamer",
+    "prevIdentifier": "Cataphractii Terminator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "abda-94d0-c138-a177",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0d3d-750b-f413-e3b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4999-325c-4750-66e7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "caa1-4f48-7937-3098",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7a50-a508-542f-b186",
+      "name": "Cataphractii Terminator w/Heavy Flamer",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "abda-94d0-c138-a177",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "638d-d2e0-3df5-67f4",
+              "type": 4,
+              "field": "selections",
+              "scope": "f928-d2b7-7b49-23fc",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

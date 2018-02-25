@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Keywords",
+    "prevIdentifier": "Cerastus Knight-Castigator 3"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "IMPERIUM, QUESTOR IMPERIALIS, <HOUSEHOLD>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "TITANIC, VEHICLE, CERASTUS KNIGHT-CASTIGATOR"
+        }
+      ],
+      "id": "a917-ed49-55bc-6487",
+      "name": "Keywords",
+      "modifiers": [
+        {
+          "type": 3,
+          "field": "ce6c-4765-4bb8-bd49",
+          "value": ", CHARACTER",
+          "conditions": [
+            {
+              "childId": "5973-c86d-b500-4a14",
+              "type": 2,
+              "field": "selections",
+              "scope": "052c-72c2-e88b-01a5",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

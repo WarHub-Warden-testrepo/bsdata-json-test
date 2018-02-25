@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Battle Sister Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "ad1d-fd0f-7563-84e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "a398-679a-9b8f-dc80",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "62c7-6893-210f-ea47",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "933a-d3a4-5868-be28",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "5cc4-28ea-250c-3a50",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a498-f9be-a561-7a62",
+          "id": "d4c7-3252-deef-d6bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "07b2-0910-670d-9807",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "87b3-cde1-38bf-a82e",
+      "name": "Battle Sister Squad",
+      "book": "Index: Imperium 2",
+      "page": "99",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "62ba-c2e2-cb10-f0a6"
+        },
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "2967-2608-2c05-e072",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "87b3-cde1-38bf-a82e",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "87b3-cde1-38bf-a82e",
+              "value": 11.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

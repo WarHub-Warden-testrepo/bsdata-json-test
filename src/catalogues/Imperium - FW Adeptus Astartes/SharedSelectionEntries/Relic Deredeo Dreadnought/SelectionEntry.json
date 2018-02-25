@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "identifier": "Relic Deredeo Dreadnought",
+    "prevIdentifier": "Relic Contemptor Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0fe0-b8c1-c31f-95e7",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "7032-d16c-b116-f7b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f770-0776-f207-8ac4",
+          "id": "8793-3f12-2e9b-6126",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ee0c-7b52-ba73-7773",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "432b-b666-3639-cf2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "186f-ec15-ace2-1b84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "89a5-be0f-61ca-9f16",
+          "id": "3151-b2b2-56b5-29d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9122-51a8-7b51-9e8b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "a7ec-bed6-beeb-2a2c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "4e8c-b25e-62f6-19f2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6827-21ac-bb87-2c55",
+      "name": "Relic Deredeo Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "2e19-08fb-ec1d-5930",
+          "id": "9075-74e8-8899-3f5d",
+          "name": "Relic Deredeo"
+        },
+        {
+          "targetId": "ea77-41b2-ccf4-a735",
+          "id": "45b8-7d88-f5f5-ba42",
+          "name": "Layered Atomantic Barriers"
+        },
+        {
+          "targetId": "52bc-6e5d-372c-313b",
+          "id": "9958-151b-00fc-0841",
+          "name": "Helical Targeting Array"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "ea1e-c4cc-593d-2e48",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "f467-8db4-5c7d-3ff5",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "0fe0-b8c1-c31f-95e7",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "0fe0-b8c1-c31f-95e7",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "0fe0-b8c1-c31f-95e7",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

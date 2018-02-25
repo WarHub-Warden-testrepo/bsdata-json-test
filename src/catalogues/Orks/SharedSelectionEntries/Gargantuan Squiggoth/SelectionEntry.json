@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Gargantuan Squiggoth",
+    "prevIdentifier": "Mega Klaw"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 21.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "3ca0-8d49-f2b7-bf90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "2a8d-2690-0f91-45b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "22b4-b4dc-b309-433c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "5f22-0fb1-3b80-b741",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "04af-05c0-5691-ffe6",
+          "id": "6874-0a64-c827-96ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "4c62-5491-046a-ede6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "eafc-cbdc-caf3-ad47",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a30a-e69e-63bd-f47b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6008-4737-d8e6-e63b",
+          "id": "3a82-6f00-88ef-27ec",
+          "name": "Big Shoota"
+        },
+        {
+          "constraints": [
+            {
+              "id": "57f4-e6f7-4126-928d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "798d-4422-386b-9460",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a4f1-6ccb-1c50-405b",
+          "id": "77af-2b9e-08bd-182b",
+          "name": "Twin Big Shoota"
+        }
+      ],
+      "id": "e8f4-86e5-a97d-2817",
+      "name": "Gargantuan Squiggoth"
+    }
+  ]
+}

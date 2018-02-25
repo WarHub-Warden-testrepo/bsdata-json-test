@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Nurglings",
+    "prevIdentifier": "Lord of Change"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "28d5-0c1e-0579-19ee"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "a4be-c199-2780-e9d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "e9c5-ec8a-2b26-8244",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7b13-7a9e-19f8-a78a",
+          "id": "a2c7-3690-26b2-f7a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7a53-eedc-8dbb-8505",
+          "id": "fc8a-764c-1a2d-ac7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "df8e-7b99-7612-6e02",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "d03f-6b13-52ba-68e6",
+      "name": "Nurglings",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "9d84-e8b3-d7f5-82ca",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "37de-4d5f-8290-9505",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "39d6-a8ae-b015-ee07",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "d03f-6b13-52ba-68e6",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "d03f-6b13-52ba-68e6",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

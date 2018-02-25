@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Relic",
+    "prevIdentifier": "Pater Cog-Tooth"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6c34-4c49-8895-51e8",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "1c87-96e0-5393-42f4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "f282-94b8-747a-b7f1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "b8c8-e91d-a869-dfdd",
+      "name": "Relic",
+      "modifiers": [
+        {
+          "field": "6c34-4c49-8895-51e8",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "8803-a6b9-42b0-0c21",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "6c34-4c49-8895-51e8",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "cdc6-137c-f002-39d6",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

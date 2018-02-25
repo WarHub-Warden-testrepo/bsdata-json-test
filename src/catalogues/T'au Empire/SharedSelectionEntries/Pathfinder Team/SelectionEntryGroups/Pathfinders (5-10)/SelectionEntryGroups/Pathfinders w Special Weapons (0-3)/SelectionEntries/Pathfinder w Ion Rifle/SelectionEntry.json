@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Pathfinder w/ Ion Rifle",
+    "prevIdentifier": "Pathfinder w/ Rail Rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0ab8-c244-9aa6-1b6e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "9fdb-89f2-0ee6-7986",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "b30f-a6b8-a16a-3b58",
+          "name": "Photon grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a293-82ea-2289-abce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1861-c4e9-a13e-9946",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca66-add8-ccfd-e90e",
+          "id": "f5a1-edc0-0cf2-6717",
+          "name": "Ion rifle"
+        }
+      ],
+      "id": "0339-93b6-2ace-eea9",
+      "name": "Pathfinder w/ Ion Rifle",
+      "infoLinks": [
+        {
+          "targetId": "8aee-6b1f-4ae3-024f",
+          "id": "116a-8a3a-fcb1-cfb8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

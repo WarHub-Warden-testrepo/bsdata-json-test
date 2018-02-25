@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Arco-Flagellants",
+    "prevIdentifier": "Mistress of Repentance"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "6e04-f443-5ef6-71e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f75c-e0bf-0241-d44e",
+          "id": "090a-fcf9-1f22-9bab",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "7d04-b95b-da38-1d7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "49db-6a62-1e1a-7042",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7656-7d2d-9f54-38c7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "cc15-b9f2-6b0e-3d5a",
+      "name": "Arco-Flagellants",
+      "book": "Index: Imperium 2",
+      "page": "93",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "2479a8f3-63b0-4d01-0a1f-673c73c5cb1f",
+          "id": "2416-35a7-9bdd-fc35",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "cc15-b9f2-6b0e-3d5a",
+              "value": 7.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "cc15-b9f2-6b0e-3d5a",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

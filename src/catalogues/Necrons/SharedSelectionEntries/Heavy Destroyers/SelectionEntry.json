@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Heavy Destroyers",
+    "prevIdentifier": "Destroyers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "7ee8-bc1e-5edb-7add",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "9ff7-e695-ae3f-6ede",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "2dbe-7c85-94a5-13f0",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "c35b-bfb6-1254-19d5",
+          "id": "f02b-9721-43eb-b977",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ce24-d5ad-2e66-28b9",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ec72-ce0b-848f-0be9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "3e85-2ffd-9690-57e9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f397-8cce-163b-9ff3",
+          "id": "d482-9fd5-b3ee-8c1f",
+          "name": "Heavy Destroyer",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "0c81-a7d9-3e6a-1382",
+      "name": "Heavy Destroyers",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "3f7b-a2f1-604f-25d2",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

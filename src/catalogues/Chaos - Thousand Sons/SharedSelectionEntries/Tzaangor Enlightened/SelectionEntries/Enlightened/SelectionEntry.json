@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Enlightened",
+    "prevIdentifier": "Aviarch"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c877-1e95-983a-3ee2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "a31e-5fdb-ebdc-dc8c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 8.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1545-63cb-4fa0-c355",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "386c-ffc0-b900-95b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5449-4067-6f1b-a596",
+          "id": "2db9-f887-2f05-9d36",
+          "name": "Blades on Disc of Tzeentch"
+        }
+      ],
+      "id": "1b52-d5fe-d6bd-67ac",
+      "name": "Enlightened"
+    }
+  ]
+}

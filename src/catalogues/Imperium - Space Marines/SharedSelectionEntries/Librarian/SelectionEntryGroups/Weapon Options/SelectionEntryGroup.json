@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "4117-0369-ac2c-ba8f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0e0a-f162-4692-ee0c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f68a-bbcf-96a3-d4cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "ee18-39c0-d63c-66a9",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "84d3-9e08-201a-fee2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "6f3b-3dee-bc02-3988",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "40c8-fe03-7471-9366",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "0551-fd96-9334-f6b8",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f4b8-9b54-0b75-10df",
+      "name": "Weapon Options"
+    }
+  ]
+}

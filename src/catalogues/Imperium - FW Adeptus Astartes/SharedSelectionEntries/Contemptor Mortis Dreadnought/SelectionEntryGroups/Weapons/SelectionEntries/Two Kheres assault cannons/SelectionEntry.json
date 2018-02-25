@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two Kheres assault cannons",
+    "prevIdentifier": "Two missile launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2440-c64c-3b06-d274",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dcd4-ef05-7f2c-dfaa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ee81-74c8-8ed0-7868",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2463-1a97-b3f4-f4c0",
+          "id": "e877-70e2-f7fe-74d7",
+          "name": "Kheres assault cannon"
+        }
+      ],
+      "id": "7401-8344-aac5-e69a",
+      "name": "Two Kheres assault cannons"
+    }
+  ]
+}

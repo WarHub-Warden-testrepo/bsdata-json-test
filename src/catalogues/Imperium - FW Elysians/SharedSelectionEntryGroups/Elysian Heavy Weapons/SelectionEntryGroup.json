@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Elysian Heavy Weapons",
+    "prevIdentifier": "Wing-mounted Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3733-7db0-7879-f565",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ba09-9e4b-fa71-9324",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "9123-818c-7a94-6036",
+          "name": "Missile launcher",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "02f1-5239-d840-146a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "fa33-643f-f7b2-ab4e",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "dc7f-ee0b-e028-5d0f",
+      "name": "Elysian Heavy Weapons"
+    }
+  ]
+}

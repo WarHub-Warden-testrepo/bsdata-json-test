@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Bikers",
+    "prevIdentifier": "Deathwatch Vanguard Veterans"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "10fc-b2c0-c471-984e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "45c7-6ecd-9727-3c97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9595-4dd8-3ee8-682d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "caae-01c8-587c-785a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "b0bf-a374-8aaf-12aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "4c39-e7a2-e010-e98e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "68bb-26aa-2358-7e34",
+      "name": "Deathwatch Bikers",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d26d-878d-5938-70b6",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "246c-0c7e-20fd-3e2c",
+          "name": "Special Issue Ammunition"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "68bb-26aa-2358-7e34",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

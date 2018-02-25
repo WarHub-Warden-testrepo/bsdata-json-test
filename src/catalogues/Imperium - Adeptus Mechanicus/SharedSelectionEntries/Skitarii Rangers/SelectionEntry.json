@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Skitarii Rangers",
+    "prevIdentifier": "Ranger Alpha"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "4e40-c883-62f5-3758",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "8e30-9520-5357-b5f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "1c15-7904-8f0c-1d23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "14d9-1de0-292e-74d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cdee-83f1-5387-56cc",
+          "id": "5e5b-faec-1969-eab0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a194-a798-12d3-1a7c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fd02-9eb5-a097-c282",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "45eb-9e21-ee55-0bc6",
+          "id": "9d9f-8869-13e1-b05a",
+          "name": "Ranger Alpha"
+        },
+        {
+          "type": 1,
+          "targetId": "2379-25fc-b920-bed3",
+          "id": "ef88-d086-7775-ef4b",
+          "name": "Skitarii Wargear"
+        }
+      ],
+      "id": "ba77-6fd9-7474-7095",
+      "name": "Skitarii Rangers",
+      "infoLinks": [
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "6c9b-ba19-9123-406b",
+          "name": ""
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "1ec7-b575-fb96-5b52",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "5ec2-817e-c2d8-bb63",
+              "type": 4,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

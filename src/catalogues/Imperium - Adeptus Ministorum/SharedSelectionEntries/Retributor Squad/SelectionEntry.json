@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Retributor Squad",
+    "prevIdentifier": "Repentia Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "10cb-d5d3-babf-d078",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "b4b5-b84f-b908-952b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "825e-669b-444a-2240",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1081-c313-178e-2796",
+          "id": "3d05-7639-72af-dd02",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "7bea-1da2-6368-2a2f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a032-faf3-6a30-d49d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "3a14-47c3-52c0-aafe",
+      "name": "Retributor Squad",
+      "book": "Index: Imperium 2",
+      "page": "101",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "414e-e898-118d-051a"
+        },
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "0ec8-2232-faea-4c32",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "3a14-47c3-52c0-aafe",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Two Particle Beamers",
+    "prevIdentifier": "Two Gauss Cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "511e-01f9-d769-c57d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f5a6-b8d3-c85d-afa0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6968-cac7-43ac-c6d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26ad-bf23-16f5-7f91",
+          "id": "a124-f365-75c2-4491",
+          "name": "Particle Beamer"
+        }
+      ],
+      "id": "91d5-edc4-18e0-c08a",
+      "name": "Two Particle Beamers",
+      "book": "IA: Xenos"
+    }
+  ]
+}

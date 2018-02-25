@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Power fist & Plasma Pistol",
+    "prevIdentifier": "Stalker Bolt Rifle & Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b62b-3264-9ba7-f9c4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c4e7-3bac-f1c4-9589",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "9906-4e2e-55b6-e46c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff34-0af2-51cd-0ed4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "38cd-ec22-1fd5-2e40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "b0f3-01a6-d3a0-a58f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "55d1-611a-8094-9f43",
+      "name": "Power fist & Plasma Pistol"
+    }
+  ]
+}

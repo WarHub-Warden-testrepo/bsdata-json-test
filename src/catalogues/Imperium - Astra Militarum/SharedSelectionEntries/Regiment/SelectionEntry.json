@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Regiment",
+    "prevIdentifier": "Stat Damage (Gunships)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4f6d-f02b-517e-0537",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "629f-f418-774e-01f9",
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c88a-dc37-4e0d-7756",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d95d-f704-08df-2cb5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afa1-3564-cfe2-602b",
+          "id": "3041-5432-850f-22dd",
+          "name": "Regiment "
+        }
+      ],
+      "id": "73fc-bc45-dbdd-417d",
+      "name": "Regiment"
+    }
+  ]
+}

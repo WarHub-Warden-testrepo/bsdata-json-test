@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Death Korps Grenadiers"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a839-f5f8-f199-09bd",
+      "constraints": [
+        {
+          "id": "6d66-4dc9-c929-c15d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "4980-0c67-e820-3f1c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "14c0-5047-42c4-cb73",
+      "name": "Death Korps Grenadiers",
+      "modifiers": [
+        {
+          "field": "6d66-4dc9-c929-c15d",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "fd7c-bd77-1e2e-f88d",
+              "type": 2,
+              "field": "selections",
+              "scope": "2c04-dd00-7363-64e9",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "4980-0c67-e820-3f1c",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "fd7c-bd77-1e2e-f88d",
+              "type": 2,
+              "field": "selections",
+              "scope": "2c04-dd00-7363-64e9",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

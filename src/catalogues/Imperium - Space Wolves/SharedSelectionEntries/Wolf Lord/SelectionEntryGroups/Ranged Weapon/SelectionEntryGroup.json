@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f801-7194-207c-9465",
+      "constraints": [
+        {
+          "id": "0cd0-9760-05d0-81e0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "175a-6df1-2612-33a3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "81a1-388a-ce03-83f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "f801-7194-207c-9465",
+          "name": "Master-crafted boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9dab-7060-34d4-053b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "058a-6e8f-7cad-395e",
+          "id": "bb93-6fa0-c1d0-acab",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0c16-2781-7e8d-0559",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "e93a-0386-55d9-22ce",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f424-1b12-836d-a7f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "6f87-c0c3-ccd7-49b7",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "460d-5091-b91c-9da0",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "0cd0-9760-05d0-81e0",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "175a-6df1-2612-33a3",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

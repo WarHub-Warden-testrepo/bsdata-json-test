@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6149-3c7e-4dd0-f1ab",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a8b6-dc25-61a2-a037",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cff0-8bdd-8700-9c57",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bdbb-35ea-9412-9039",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "b46e-3e14-9499-72ec",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7724-c718-e066-a8e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "ad4e-57a5-ac59-a25d",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "b0f9-d936-0d6d-85f0",
+      "name": "Renegade Militia Champion"
+    }
+  ]
+}

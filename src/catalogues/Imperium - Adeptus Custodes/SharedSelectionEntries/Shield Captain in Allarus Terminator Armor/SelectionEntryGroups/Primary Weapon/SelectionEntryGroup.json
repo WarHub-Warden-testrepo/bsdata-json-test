@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Primary Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "c256-e26a-eb43-70db",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "da2d-0ed3-4675-6441",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "17ea-c832-c4d5-b1cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "dc19-0e3c-be1e-df59",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "e823-268c-0bed-4c0a",
+          "id": "6e44-89fd-856d-5af2",
+          "name": "Guardian Spear",
+          "modifiers": [
+            {
+              "field": "dc19-0e3c-be1e-df59",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "32f8-490f-7174-56a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9154-524f-c1b0-2fff",
+          "id": "ed80-3811-7ccb-7a47",
+          "name": "Castellan Axe"
+        }
+      ],
+      "id": "d3e2-1605-57fa-1122",
+      "name": "Primary Weapon"
+    }
+  ]
+}

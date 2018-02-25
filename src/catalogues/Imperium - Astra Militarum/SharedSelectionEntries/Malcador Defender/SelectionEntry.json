@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Malcador Defender",
+    "prevIdentifier": "Malcador Annihilator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "04a5-a568-2be0-740e",
+          "id": "bc6a-7308-c82f-b404",
+          "name": "Stat Damage (Malcador)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "4a64-386b-87dc-cfe9",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "123c-37be-f0fd-449d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "199b-20b0-7da3-b3f4",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "878f-7b4b-a919-24dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f66-ddaa-386e-2645",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "2068-ba74-86b4-f096",
+          "name": "Demolisher cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5543-c010-2141-0d44",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            },
+            {
+              "id": "f7dd-85fd-6a8e-7390",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "e191-dbb7-3660-f542",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "e1d7-0ed5-988f-7439",
+      "name": "Malcador Defender",
+      "infoLinks": [
+        {
+          "targetId": "e519-9694-6fbe-2bab",
+          "id": "6c8e-ec2e-f476-5f5c",
+          "name": "Explodes (Malcador)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "3e61-7058-688c-f1e1",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

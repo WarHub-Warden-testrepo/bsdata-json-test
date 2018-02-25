@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Dominion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "04ab-b895-c4e7-930b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "236b-ba81-f734-017b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "4a5f-21be-ae31-fa97",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d982-f981-8a59-dab9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6ead-d9d8-e0f4-8550",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "896b-28f1-e64a-3eb4",
+          "id": "f711-db12-24a8-f4b3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f83c-71f7-b1d3-0c38",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "262a-e25f-a58d-d0d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "891b-ada8-b43b-149f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9911-da87-33e5-a2ca",
+      "name": "Dominion",
+      "infoLinks": [
+        {
+          "targetId": "5a1d-0cc8-e60c-0048",
+          "id": "f639-914e-40b0-3605",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

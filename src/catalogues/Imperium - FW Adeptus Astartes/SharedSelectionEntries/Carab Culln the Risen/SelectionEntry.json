@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "identifier": "Carab Culln the Risen",
+    "prevIdentifier": "Astraeus Super-heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 360.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b0e3-d224-a740-14f4",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "822b-8ce1-5c53-0886",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "154b-d598-f11d-7b6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "c7ae-b65c-892c-32eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4b4c-bf26-6395-3b2c",
+          "id": "8244-5b2d-bf0c-57f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d837-d4d2-65fc-f9d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c35f-f2a3-62dd-bd8d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f770-0776-f207-8ac4",
+          "id": "5568-4f1c-746b-e44c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eca3-1dbc-7164-5898",
+          "id": "6bdd-04df-8a33-2dba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "e0dc-3541-237c-d804",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "655f-e142-dfa9-11a4",
+          "id": "afde-f44e-45b0-644a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4d6d-9b71-3889-72b1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6a5e-e6b2-ab1c-1242",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "d900-7612-8054-1b20",
+          "name": "Twin assault cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5b1f-7f04-3972-da63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9c21-0865-31da-774c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb03-1d82-9351-4b29",
+          "id": "771a-9fc0-852a-0a62",
+          "name": "The Tarsus Scorpii"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d720-72a9-8837-0f72",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "189e-e806-9858-7a7f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "9d6a-6dc9-620f-d6c7",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6593-2488-345d-ab57",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2424-453e-bc6a-a753",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "1207-1f80-c824-cdfe",
+          "name": "Heavy flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "48f1-732c-876e-bd9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "adfc-f62f-76a8-070e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "91c8-003d-1d40-effd",
+          "name": "Hunter-killer missile",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "7e7e-7604-a530-e270",
+      "name": "Carab Culln the Risen",
+      "infoLinks": [
+        {
+          "targetId": "a610-5e86-a8c7-096e",
+          "id": "ed40-4589-6443-aaba",
+          "name": "Carab Culln the Risen"
+        },
+        {
+          "targetId": "4145-1e7b-ec35-0257",
+          "id": "3414-ec17-0b1c-e4ba",
+          "name": "Reinforced Atomantic Barriers"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "3f3e-b2d9-ce4f-3d32",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "44ff-bb4a-fe0d-3bf5",
+          "id": "bce7-e41b-ffc1-08b9",
+          "name": "Proud to Live, Proud to Die, Hard to Kill"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "3fba-f4eb-57b5-a5f9",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "b0e3-d224-a740-14f4",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a4f4-61b8-c186-661c",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "b0e3-d224-a740-14f4",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "b0e3-d224-a740-14f4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "655f-e142-dfa9-11a4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "b0e3-d224-a740-14f4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

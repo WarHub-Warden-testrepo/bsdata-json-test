@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Bullgryns"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fabd-67cb-befb-8f75",
+          "id": "e5d4-4cd7-8641-6af8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "dcf8-1050-7ef2-2cfe",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "adec-21fd-5ea9-1be3",
+      "name": "Bullgryns",
+      "book": "Codex: Astra Militarum",
+      "page": "44",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "11ec-3914-8daa-53bb",
+          "id": "e8c5-e2c4-dd3b-19e2",
+          "name": "Avalanche of Muscle"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "3ad1-7abf-2f63-65e3",
+              "type": 4,
+              "field": "selections",
+              "scope": "adec-21fd-5ea9-1be3",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "3ad1-7abf-2f63-65e3",
+              "type": 4,
+              "field": "selections",
+              "scope": "adec-21fd-5ea9-1be3",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

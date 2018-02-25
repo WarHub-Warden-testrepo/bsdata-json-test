@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6106-36ff-2074-eb1f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "400b-7a00-4c71-3bab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3a64-704c-8754-b42a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "3cad-2c4b-88d5-9af8",
+          "name": "Frag Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cb92-3546-0916-6d1f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "30f4-6b88-3f7e-7202",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4dbc-3c23-4b2b-4bfc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db34-a3e7-181b-c6b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6ee-92a0-4d0b-0e13",
+          "id": "cc99-c2dc-d780-575a",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "5b3e-ffd5-03be-adc3",
+      "name": "Guardsman",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c0ac-eaf8-9629-5062",
+          "id": "e12d-1f65-f9b0-ebbb",
+          "name": "Guardsman"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Injector pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "495f-645c-186d-9cd5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9004-13e8-967f-c92f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ebe9-f34d-71f1-387c",
+      "name": "Injector pistol"
+    }
+  ]
+}

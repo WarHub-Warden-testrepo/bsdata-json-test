@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Imperial Knights)",
+    "prevIdentifier": "Knight Crusader Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bbf1-5df8-bcd0-4f7a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7fcb-f39d-214d-f2b1",
+          "id": "3f54-f4f0-c725-9dd4",
+          "name": "Knight Seneschal"
+        }
+      ],
+      "id": "f6fa-d95f-4982-d41c",
+      "name": "Warlord Traits (Imperial Knights)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "96f2-3321-e974-f12a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

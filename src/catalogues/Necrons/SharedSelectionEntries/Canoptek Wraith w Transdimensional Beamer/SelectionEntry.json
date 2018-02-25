@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Canoptek Wraith w/ Transdimensional Beamer",
+    "prevIdentifier": "Canoptek Wraith w/ Particle Caster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 38.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "12b7-110d-09ba-63c3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c1c9-be4b-85f1-cd02",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6a4-0539-7267-45d1",
+          "id": "9409-0eb7-8406-0586",
+          "name": "Vicious Claws",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f4ba-2ccd-702d-df75",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ab8e-6d2a-30f8-4b06",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "101b-922f-4376-cc41",
+          "id": "e4fc-23c4-5e5c-82aa",
+          "name": "Transdimensional Beamer",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "e956-c4a3-2185-f7d5",
+      "name": "Canoptek Wraith w/ Transdimensional Beamer",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "targetId": "275a-1f20-a9a9-2880",
+          "id": "d0b0-0905-2e75-1ac5",
+          "name": "Wraith Form"
+        },
+        {
+          "targetId": "a227-cd49-6158-0edd",
+          "id": "9e9f-9e7c-113f-7a71",
+          "name": "Canoptek Wraith",
+          "book": ""
+        }
+      ]
+    }
+  ]
+}

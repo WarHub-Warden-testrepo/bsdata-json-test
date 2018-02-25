@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Myphitic Blight-hauler"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fe7e-6e15-1d34-ab39",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "bf61-9fc2-548a-155a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "47e7-06a8-48c2-c250",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d828-5c0e-2de2-d929",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "a183-5a17-07bc-6d9f",
+          "name": "Missile launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "643e-f606-556e-90b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "536b-3ab9-cfce-a376",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "18d6-323a-242e-1eb1",
+          "name": "Multi-melta"
+        }
+      ],
+      "id": "326d-bb03-d303-5d91",
+      "name": "Myphitic Blight-hauler"
+    }
+  ]
+}

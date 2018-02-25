@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Ravager",
+    "prevIdentifier": "Knight Seneschal"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d2e7-d576-7c1d-ac11",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "93cd-26ae-5b5c-ceca",
+      "name": "Ravager",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "2015-9482-0668-9843",
+          "id": "294f-816a-d1b8-8e70",
+          "name": "Ravager"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "96f2-3321-e974-f12a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

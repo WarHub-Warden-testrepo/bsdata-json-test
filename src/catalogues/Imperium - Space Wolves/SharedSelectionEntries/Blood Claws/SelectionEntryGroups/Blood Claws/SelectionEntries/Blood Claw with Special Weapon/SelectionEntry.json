@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Blood Claw with Special Weapon",
+    "prevIdentifier": "Blood Claw with Plasma Pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d62b-1527-7361-f5ec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "917e-6faf-ca4a-9eee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e423-6009-fd2a-9ddd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4932-5190-47e9-64ec",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a84d-4b26-383a-fb6f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4536-a85c-7aea-7ab7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "ee6f-9a6b-0ad3-7119",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7c9e-6a18-021a-dba6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6d0-c548-7f12-72e2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a587-859f-dd5f-5f23",
+          "id": "0190-aee0-e950-422f",
+          "name": "Space Wolves Special Weapons"
+        }
+      ],
+      "id": "8048-5715-6a3a-8c98",
+      "name": "Blood Claw with Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "3929-077e-c130-e6c7",
+          "id": "ac7a-0c17-9421-3c7c",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "d62b-1527-7361-f5ec",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "704b-5c8c-4726-f30b",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

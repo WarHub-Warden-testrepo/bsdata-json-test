@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "MV71 Sniper Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f64f-b8a8-3a82-52e8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "6091-e042-3cfa-cd08",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "09a7-f330-f56a-16f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "d312-6c68-fe73-e1a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "ee4e-bd93-315c-9951",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "b124-f060-a39c-507b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b435-e76e-227f-ee70",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "58a3-81e5-ba72-8e1d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b403-0d30-c20d-cb66",
+          "id": "41ea-f634-f0b4-8482",
+          "name": "Longshot pulse rifle"
+        }
+      ],
+      "id": "e3d3-bca6-a798-0a4e",
+      "name": "MV71 Sniper Drone",
+      "infoLinks": [
+        {
+          "targetId": "e81d-4c64-657a-56af",
+          "id": "cf21-f8cb-a317-35d4",
+          "name": "MV71 Sniper Drone"
+        },
+        {
+          "type": 1,
+          "targetId": "b80c-72c0-f503-00e1",
+          "id": "ea8a-616b-821a-4161",
+          "name": "Sniper Drone Stealth Field"
+        },
+        {
+          "type": 1,
+          "targetId": "9482-16e3-9287-b47f",
+          "id": "f0eb-6276-dde7-c870",
+          "name": "Saviour Protocols"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "db24-830b-1076-48d5",
+          "name": "For the Greater Good"
+        }
+      ]
+    }
+  ]
+}

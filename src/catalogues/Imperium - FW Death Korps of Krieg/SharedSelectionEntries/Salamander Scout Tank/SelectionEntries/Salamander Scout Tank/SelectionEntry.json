@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Salamander Scout Tank"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f6d8-f8d7-12f8-213d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f03f-3a04-dc77-5da1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ac12-50c6-e328-fb4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ee87-a49b-529f-cc7c",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "78b8-a99c-3bbc-5413",
+          "name": "Pintle Mount"
+        },
+        {
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "e57f-e973-66e6-3df1",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "1692-7551-db57-3ab4",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "e439-1b77-32d2-fef2",
+      "name": "Salamander Scout Tank",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "19ea-299e-5d2b-12ba",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "fde1-1a7b-6e32-ab7d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "5b7c-0cb7-898e-efc9",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

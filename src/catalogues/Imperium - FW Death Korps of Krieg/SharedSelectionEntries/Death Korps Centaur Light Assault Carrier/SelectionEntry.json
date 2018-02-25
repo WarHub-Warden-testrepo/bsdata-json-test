@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "identifier": "Death Korps Centaur Light Assault Carrier",
+    "prevIdentifier": "Death Korps Grenadier Storm Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "daac-a1d7-0954-bf84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "99ac-809d-7622-89ee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2ca4-9fc8-24ff-85c4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "10d2-7d6b-d948-dbdc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "960c-4776-5fb5-4c88",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "49ea-2113-b348-c75d",
+          "id": "a6a7-b17f-8607-759c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "ae2c-a820-94a3-d9c5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "82c8-c188-b2a4-d0fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5cd1-b624-ef75-ab53",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "4001-e8e7-8510-ab02",
+          "name": "Hunter-killer missile",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "90f2-55e2-62c5-198c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "5e3e-485e-68ef-687b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfa3-5fcd-af10-5520",
+          "id": "9b15-b94b-2107-28d6",
+          "name": "Heavy stubber",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "id": "0e76-48a0-90c7-f056",
+      "name": "Death Korps Centaur Light Assault Carrier",
+      "infoLinks": [
+        {
+          "targetId": "69cd-7f66-0f86-718b",
+          "id": "3ef2-542c-d7f8-2fcc",
+          "name": "Artillery Tractor"
+        },
+        {
+          "targetId": "4e80-6921-23dc-7d67",
+          "id": "635f-d3be-0b77-543b",
+          "name": "Assault Team Transport"
+        },
+        {
+          "targetId": "4b83-a75f-32f7-2941",
+          "id": "2866-e5a6-305f-3fd2",
+          "name": "Explodes (Centaur)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "a940-a2be-3c29-b3f8",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "ae5c-1d20-a4a4-53dc",
+          "id": "b52c-d6e2-fbb2-c3ba",
+          "name": "Transport (Centaur)"
+        },
+        {
+          "targetId": "13fd-dfde-e8a7-0ac9",
+          "id": "e5fb-3681-51b5-cc09",
+          "name": "Death Korps Centaur Light Assault Carrier"
+        }
+      ]
+    }
+  ]
+}

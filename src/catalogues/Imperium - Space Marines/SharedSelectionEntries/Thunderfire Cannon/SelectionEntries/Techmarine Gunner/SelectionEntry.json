@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Techmarine Gunner",
+    "prevIdentifier": "Thunderfire Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f3e9-8c28-270f-e50f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "7d3c-5969-1d9c-4e91",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5e98-f5c2-682b-6bde",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1a6c-6191-7646-a7ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d3d5-ffc9-757d-b014",
+          "id": "f9c0-de98-7391-fecb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ad1c-a7e5-debb-3b88",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "3131-0c0d-9eb2-b6a9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "5eb6-9cce-4e27-6252",
+          "id": "f630-c96b-219f-1bb9",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5600-4a9b-8975-eb7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "b80d-fb82-38a3-bd3a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "6547-d0b1-902e-815d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9906-614c-b10b-808a",
+      "name": "Techmarine Gunner"
+    }
+  ]
+}

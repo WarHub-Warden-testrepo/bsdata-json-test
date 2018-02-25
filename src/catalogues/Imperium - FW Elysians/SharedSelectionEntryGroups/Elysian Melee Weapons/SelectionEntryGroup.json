@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Elysian Melee Weapons",
+    "prevIdentifier": "Elysian Heavy Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "941b-48f0-01ed-f26e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6688-f169-c011-24a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "3ca3-3c6d-1054-2baa",
+          "name": "Power fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d5f6-93e0-b35e-9e96",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "e101-5e31-9d18-5ad3",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "id": "8951-19ee-4d4f-29a9",
+      "name": "Elysian Melee Weapons"
+    }
+  ]
+}

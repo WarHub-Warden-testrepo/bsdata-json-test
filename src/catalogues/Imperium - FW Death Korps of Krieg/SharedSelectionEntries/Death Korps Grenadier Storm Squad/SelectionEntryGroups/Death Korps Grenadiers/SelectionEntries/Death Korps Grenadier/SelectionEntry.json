@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Death Korps Grenadier"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "4d65-be77-0033-0acd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5c9b-e793-2fa4-d022",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d9b1-df19-4b6d-e158",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f85b-be9d-3697-7507",
+          "id": "7a6c-2d04-8206-a9cc",
+          "name": "Hot-Shot Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f693-ca5a-1e4b-85fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "44e0-abfd-0533-7c25",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "6fc4-27dc-15ca-cdca",
+          "id": "73ad-9300-a543-7056",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "a839-f5f8-f199-09bd",
+      "name": "Death Korps Grenadier",
+      "infoLinks": [
+        {
+          "targetId": "5dad-a672-e4af-1c9c",
+          "id": "6863-a820-3f13-833c",
+          "name": "Death Korps Grenadier"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "identifier": "Brother-Captain",
+    "prevIdentifier": "Grey Knight Justicar"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "83c5-d3a7-b4a1-8436",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "fe67-6682-1620-efe8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3eb2-c724-82cc-df0f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db0c-db54-ce0c-3e84",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6e9f-1798-d767-7367",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c384-f909-907c-e53a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9986-f9cc-8ad8-e829",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37bc-bbf1-18fd-7294",
+          "id": "293b-78b4-e2e3-6f80",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b951-43fc-fc99-e539",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d13d-090c-7420-c26a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1191-4e05-aba4-b4fc",
+          "id": "bc0a-bb1f-fd2b-7008",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "942d-b10a-8cc5-3854",
+          "id": "fca5-b18b-2b0c-2450",
+          "name": "Brother Captain Melee Weapons",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "0d9e-a687-c64e-9dc5",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "9bcf-6885-8feb-934b",
+          "name": "Sanctic Powers (1)"
+        },
+        {
+          "type": 1,
+          "targetId": "ae47-9014-02a8-8add",
+          "id": "3c1e-4ba7-22af-0a50",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c779-4f85-7bfa-aad3",
+          "id": "3a9d-11a3-7f4f-0e5a",
+          "name": "Grey Knight Relics"
+        },
+        {
+          "targetId": "2516-dd30-d80e-f79a",
+          "id": "1757-2792-13ae-afa5",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "87f6-76b7-a0d2-6b2c",
+          "id": "144b-83ab-b7d0-f298",
+          "name": "Grey Knight Warlord Trait"
+        }
+      ],
+      "id": "f4b7-6f8e-448d-9c3b",
+      "name": "Brother-Captain",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "191c-9909-f353-4013",
+          "id": "5227-621c-1e64-297a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d9d7-8d88-6297-3f24",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "da36-e07e-97b2-92cf",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "a29c-ad1e-441b-2167",
+          "id": "8121-0606-ef1f-48a6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "100e-a5f5-4af4-8c40",
+          "id": "9e94-85fa-d140-7733",
+          "name": "Psyker (Sanctic 1)"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "dd9c-1c65-e638-73e0",
+          "name": "Smite (Rites of Banishment)"
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "1cc3-e01f-3360-7b35",
+          "name": "Rites of Banishment"
+        }
+      ]
+    }
+  ]
+}

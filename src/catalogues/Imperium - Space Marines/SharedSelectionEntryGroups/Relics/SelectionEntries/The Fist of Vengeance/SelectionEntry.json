@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "The Fist of Vengeance",
+    "prevIdentifier": "Mantle of the Stormseer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8acf-3af8-9e96-158c",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "f7fd-4280-c7f7-496a",
+      "name": "The Fist of Vengeance",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "9183-353a-6fc0-3c23",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

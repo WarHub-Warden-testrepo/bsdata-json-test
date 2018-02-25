@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Penetrating blade",
+    "prevIdentifier": "Mane of barbs and hooks"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3d6e-e3e6-3e4a-d468",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "331c-b4d3-61bd-1aff",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6f86-0ee7-40e1-0b8b",
+      "name": "Penetrating blade"
+    }
+  ]
+}

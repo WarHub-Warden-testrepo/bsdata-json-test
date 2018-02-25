@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia Squad",
+    "prevIdentifier": "Renegade Cultists"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "id": "517d-ad0d-cf72-801f",
+      "name": "Renegade Militia Squad",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "b2ec-4b4c-5765-e692",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "0a1e-32d7-b4a2-ffca",
+          "name": "Chaos Covenant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "517d-ad0d-cf72-801f",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

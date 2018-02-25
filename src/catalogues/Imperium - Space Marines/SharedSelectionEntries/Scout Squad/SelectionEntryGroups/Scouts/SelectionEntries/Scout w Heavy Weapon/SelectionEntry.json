@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Scout w/Heavy Weapon",
+    "prevIdentifier": "Scout Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2c62-e427-ee04-3eeb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3d71-6e2a-2bb1-13ed",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cf3a-6136-8305-f3f5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ef58-47cb-763a-7fce",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4fbf-adf1-8cb4-5f28",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "df8b-0462-940a-1cb1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "9b33-ff1f-33d9-2331",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "54ae-9303-12b4-fc92",
+      "name": "Scout w/Heavy Weapon"
+    }
+  ]
+}

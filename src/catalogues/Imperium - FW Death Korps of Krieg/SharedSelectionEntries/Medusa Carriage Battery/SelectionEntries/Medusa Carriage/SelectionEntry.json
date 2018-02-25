@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Medusa Carriage"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "14f0-7e4b-a48c-59f0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "26d2-d36f-9777-0b73",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8ae4-8a8b-71fe-7018",
+      "name": "Medusa Carriage",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "cf9c-dfd8-a6c5-e2be",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Renegade Marauder Squad",
+    "prevIdentifier": "Renegade Disciple Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "id": "6255-2a76-09b9-3266",
+      "name": "Renegade Marauder Squad",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "6255-2a76-09b9-3266",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "533a-d400-2c05-ec9b",
+              "type": 1,
+              "field": "selections",
+              "scope": "6255-2a76-09b9-3266",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

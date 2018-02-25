@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "identifier": "Wolf Lord in Gravis Armor",
+    "prevIdentifier": "Wolf Lord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 102.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2060-1699-a6dc-7318",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "4364-a17e-d3b9-ae8f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a294-7095-f7fe-030c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3344-b122-f930-b865",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b9e9-58c1-fa20-e5e5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "82df-13db-9e7b-15a3",
+          "id": "5661-ce59-534b-8f23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "020a-3e52-16ff-a0ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "0153-5d6f-6a12-920d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "1be3-d78f-90d8-ac9a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9b5f-9c03-4420-9ab5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bc1a-21ca-c9b4-78d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7d93-d63c-bfba-c879",
+          "id": "ea8b-2ef1-831a-1815",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "832b-d27c-288f-5a2c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "83d1-161a-6cc3-5b06",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "689a-17db-7527-5cf8",
+          "id": "0882-2cf0-fa3c-eeea",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eda7-3a7d-6152-5a1f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "0dc5-d275-334c-18dd",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "629d-73b5-787d-9cf7",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "c705-0f06-a830-33af",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "629d-73b5-787d-9cf7",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "31fc-76b8-5f80-0baa",
+      "name": "Wolf Lord in Gravis Armor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d4bf-99f3-ba61-a27f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "295e-5506-a6ee-36e4",
+          "id": "fa26-a6d4-c548-7456",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0664-31c9-63b3-2a81",
+          "id": "956f-567b-fd66-a17f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

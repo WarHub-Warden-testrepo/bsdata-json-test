@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Relics",
+    "prevIdentifier": "Psychic Powers"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "baaa-574c-67ff-07f7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "22ce-8d9f-044b-0f0b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "ccd1-3759-0432-5c59",
+      "name": "Relics",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "22ce-8d9f-044b-0f0b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "afad-6465-5489-7fb9",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

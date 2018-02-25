@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "identifier": "Arkurian Pattern Stormblade",
+    "prevIdentifier": "Stygies Thunderer Seige Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 400.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 28.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "5b84-9daa-7928-01ad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5314-c1b8-3195-4d24",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "fbbb-7898-498e-b89d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "a500-f256-f375-6673",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a65f-d3c2-ae8d-3ac9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "013d-e9b7-df7e-e651",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "c8ec-6740-e88a-7182",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc4d-8b6d-e9cf-7f99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5723-9250-572c-c301",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "14c2-8f5a-1c64-ece0",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ed76-afb7-e89f-d8dc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0837-03a9-eb6b-35ca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "3181-0b44-8bad-a0c2",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f10f-290b-30fd-9faa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2cd2-5c7b-0f85-8e14",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "5dcf-5f5d-f212-320a",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "11f9-3815-570e-ca9b",
+          "name": "Baneblade Sponsons"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "0949-617d-cfe1-7ebb",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "dd1b-faed-2f1c-c9ba",
+      "name": "Arkurian Pattern Stormblade",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "134c-aa63-5177-a9de",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "f4e9-e73a-5a68-ac6d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "fb5a-3635-def1-2692",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

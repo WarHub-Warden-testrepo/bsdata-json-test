@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Astropath",
+    "prevIdentifier": "Display Astra Militarum Orders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1cc5-2910-59f8-c5e8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1fda-82ea-451c-b1e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "13fd-f96b-049d-7216",
+          "id": "bad6-23e9-a5a1-6f53",
+          "name": "Psykana Discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "900b-eaf3-be7f-d4cc",
+          "name": "Heirlooms of Conquest"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7ea1-4eb9-1b19-bdec",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "e9df-43d2-1bd9-0ef3",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "7ea1-4eb9-1b19-bdec",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "de71-fcde-b972-107f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "db57-5bf4-857d-dd99",
+          "name": "Warlord"
+        }
+      ],
+      "id": "4d87-d7b3-de46-aaae",
+      "name": "Astropath",
+      "book": "Codex: Astra Militarum",
+      "page": "102"
+    }
+  ]
+}

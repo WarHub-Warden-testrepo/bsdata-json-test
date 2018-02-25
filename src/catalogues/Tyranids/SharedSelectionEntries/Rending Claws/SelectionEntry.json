@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Rending Claws",
+    "prevIdentifier": "Toxin Sacs - 99"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7676-36f8-a802-9420",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "a50e-4043-d535-0f3a",
+      "name": "Rending Claws",
+      "infoLinks": [
+        {
+          "targetId": "0693-a634-e549-a0f7",
+          "id": "f450-599f-a903-4bcb",
+          "name": "Rending Claws"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "7676-36f8-a802-9420",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "b3c9-1518-d0bd-68a8",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "ad36-e646-f921-335f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

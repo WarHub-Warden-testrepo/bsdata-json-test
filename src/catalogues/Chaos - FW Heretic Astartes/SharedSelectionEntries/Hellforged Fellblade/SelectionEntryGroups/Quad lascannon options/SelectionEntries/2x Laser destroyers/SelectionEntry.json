@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "2x Laser destroyers",
+    "prevIdentifier": "2x Quad lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "104e-415d-0f86-8e85",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "49ee-9e72-1319-8859",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfa0-6528-60e2-2bc2",
+          "id": "d7a4-624c-08f9-6684",
+          "name": "Laser destroyer"
+        }
+      ],
+      "id": "6cb5-2bd8-4e40-cadb",
+      "name": "2x Laser destroyers"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Tzeentch",
+    "prevIdentifier": "Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1d44-9c96-fea6-5158",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "c75e-2cd2-cc4e-bcf3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "7e97-ced5-cb6b-f7f2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "72a3-d9de-16f3-2ce6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4cf2-ae18-9576-c59b",
+          "id": "ee38-de8c-cbdc-b0e5",
+          "name": "Tzeentch Discipline"
+        }
+      ],
+      "id": "7f89-6f90-969b-7fea",
+      "name": "Tzeentch",
+      "infoLinks": [
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "7b35-c183-eea9-7127",
+          "name": "Ephemeral Form"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "1d44-9c96-fea6-5158",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Auxilliary Choice",
+    "prevIdentifier": "Weapon Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "ad02-7be8-b642-e198",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c2e6-6d70-ac36-5c9c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be57-2aac-9278-31b8",
+          "id": "6d95-9cd2-442b-8e9f",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "constraints": [
+            {
+              "id": "53fb-6967-e265-b015",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a70e-4a5e-9ecc-de40",
+          "id": "37a9-b099-5c53-bfcf",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "a8fb-06a3-e5d5-699e",
+      "name": "Auxilliary Choice",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

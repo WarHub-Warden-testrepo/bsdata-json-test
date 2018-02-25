@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Mutant with Autopistol",
+    "prevIdentifier": "Mutant with Autogun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "097f-87fc-250d-7757",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e714-1a19-658b-e904",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "3f3f-5618-ad18-8b43",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "497d-3ecb-847b-ab0b",
+      "name": "Mutant with Autopistol",
+      "infoLinks": [
+        {
+          "targetId": "2481-001b-00f9-501b",
+          "id": "a6dd-6e8d-e901-2a8b",
+          "name": "Autopistol"
+        }
+      ]
+    }
+  ]
+}

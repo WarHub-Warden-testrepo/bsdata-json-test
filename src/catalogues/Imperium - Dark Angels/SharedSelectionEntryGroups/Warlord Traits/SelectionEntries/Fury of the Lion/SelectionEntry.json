@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Fury of the Lion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a3e1-23e4-5657-0624",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "cffa-9181-e30f-ba69",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c195-444d-cd7b-8cc2",
+      "name": "Fury of the Lion",
+      "modifiers": [
+        {
+          "field": "a3e1-23e4-5657-0624",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "892e-81b4-2047-a5ac",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

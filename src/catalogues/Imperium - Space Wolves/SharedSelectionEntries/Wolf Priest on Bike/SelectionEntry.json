@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "identifier": "Wolf Priest on Bike",
+    "prevIdentifier": "Wolf Priest in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5cdc-5aee-f3aa-bcf2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "83b2-8fe2-a43e-d85f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f410-3c7a-22b4-ead2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7760-5d99-42ef-5095",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "4ca0-b254-77f2-70f4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "fa70-2960-72ee-1c08",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb97-ab6a-dd79-137e",
+          "id": "12fe-576d-855a-402c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0e60-aafd-9e70-0f84",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8693-db71-75a2-5947",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c776-27f7-52ec-5146",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e36d-6729-b04a-ad05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "11c8-1616-97f4-7457",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "f76a-3e24-fc97-50ad",
+          "name": "Bike"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1541-fc4f-f2ae-936b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a6e7-c051-21b2-8301",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "40d7-ad8b-e516-08af",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2b26-ade7-4872-30c2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "60e4-07ae-92f9-fbab",
+          "id": "9bd1-19e8-b5bc-b92b",
+          "name": "Pistol or Combi Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6ca3-bcd7-6b1b-f4b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6833-6f79-a268-fece",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "08b4-b5bc-f1df-e091",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "4fc1-2071-74f4-7369",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "08b4-b5bc-f1df-e091",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ab40-f67f-acd0-66fc",
+      "name": "Wolf Priest on Bike",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7b30-e767-5c3d-08e3",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "34bf-85f7-a4c2-a494",
+          "id": "a094-05b1-a005-c8b2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a8fa-eddb-696f-b899",
+          "id": "bcda-8b6e-7a75-328d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "98aa-9a8e-dfae-98d9",
+          "id": "7ab8-a4af-b0cf-cc3e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fe04-1322-f3ce-33a5",
+          "id": "3fb5-6dca-a93e-32e6",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "14\""
+            },
+            {
+              "field": "9c9f-9774-a358-3a39",
+              "value": "5"
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "targetId": "08bd-845a-0d9f-82f6",
+          "id": "de3c-b75c-951a-17fb",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

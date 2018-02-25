@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "64cb-e831-2473-695a",
+      "constraints": [
+        {
+          "id": "57aa-c55d-b4e7-6ef6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "db73-a45d-7738-9a01",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ce62-9819-a9e3-9c41",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "82c0-bab6-7610-6ee8",
+          "id": "aa90-531d-78e3-a740",
+          "name": "Terminator Combi-Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "62f8-b4ad-03e0-5a85",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "64cb-e831-2473-695a",
+          "name": "Storm bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "16ca-1580-ce83-6834",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "f770-ab09-ff69-10cc",
+          "name": "Space Wolves Terminator Melee Weapons"
+        }
+      ],
+      "id": "40c5-fcb5-4968-1951",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "57aa-c55d-b4e7-6ef6",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "db73-a45d-7738-9a01",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

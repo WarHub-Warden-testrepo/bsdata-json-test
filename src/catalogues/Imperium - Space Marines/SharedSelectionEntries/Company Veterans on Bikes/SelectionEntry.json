@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Company Veterans on Bikes",
+    "prevIdentifier": "Company Veterans"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "dcc7-a875-6103-1cfb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "94a8-86a3-4b86-4855",
+          "id": "26be-03d3-5299-1d51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "242b-e82e-0642-b248",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "42f1-7a40-8207-3b37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "c99a-d35d-f7da-5157",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7510-80bd-46ea-1b7f",
+      "name": "Company Veterans on Bikes",
+      "infoLinks": [
+        {
+          "targetId": "bde4-2791-d683-a7ed",
+          "id": "6bec-213b-fb71-734d",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "447a-cc1a-fa6e-1785",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c027-2e84-7468-0607",
+          "id": "5ad9-8086-07ec-5521",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "cc1a-8b30-b83a-31d1",
+              "type": 4,
+              "field": "selections",
+              "scope": "7510-80bd-46ea-1b7f",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

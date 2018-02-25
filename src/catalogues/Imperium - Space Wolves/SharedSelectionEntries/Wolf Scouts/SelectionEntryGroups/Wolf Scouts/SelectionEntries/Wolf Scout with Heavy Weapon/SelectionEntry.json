@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Wolf Scout with Heavy Weapon",
+    "prevIdentifier": "Wolf Scout with Melee Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ede1-1d70-3ee2-c991",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2557-1e8f-fab0-0f7f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "639d-1ab6-00e4-3331",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "c976-6c27-6ed0-4c26",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8041-4375-1c28-791e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7d16-5fa9-2166-d4d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4bec-46a4-d1a0-bf10",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c216-faa2-386d-f709",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "144a-6106-84b3-83c8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3b05-ef75-01f0-ae88",
+          "id": "e390-b5f8-9607-dd1b",
+          "name": "Wolf Scout Heavy Weapon"
+        }
+      ],
+      "id": "0192-581c-7f7f-a5e7",
+      "name": "Wolf Scout with Heavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "6faa-5f0d-bd78-f2cc",
+          "id": "4cf7-870b-8c68-5cb2",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

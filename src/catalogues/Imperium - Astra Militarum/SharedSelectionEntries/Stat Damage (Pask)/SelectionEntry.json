@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Pask)",
+    "prevIdentifier": "Stat Damage (Leman Russ Commander)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7b99-390d-be52-c8a3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ee25-d128-68f5-61a5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d050-c6d8-d6de-9b61",
+      "name": "Stat Damage (Pask)"
+    }
+  ]
+}

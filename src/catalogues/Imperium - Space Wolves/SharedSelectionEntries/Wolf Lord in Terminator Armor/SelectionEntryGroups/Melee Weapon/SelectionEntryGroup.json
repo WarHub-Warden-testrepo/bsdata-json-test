@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "921b-cf55-83d1-8f7a",
+      "constraints": [
+        {
+          "id": "8862-a527-e1fc-c2a2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "6fcf-e844-825b-e526",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a3b8-8c8e-0688-86fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "e2dc-1000-5c16-5211",
+          "name": "Space Wolves Terminator Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f354-5d1e-da61-8f89",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "921b-cf55-83d1-8f7a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3992-31fa-8e51-e764",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "a85c-de5e-09f6-bf29",
+          "name": "Relic blade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6574-35cb-d4f2-f414",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "432c-42bf-e374-db69",
+          "name": "Chainfist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "046e-cc69-6fee-4052",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "17bc-30b3-22b0-a7da",
+          "name": "Storm shield"
+        }
+      ],
+      "id": "dd0e-d6dc-810f-b01a",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "8862-a527-e1fc-c2a2",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "6fcf-e844-825b-e526",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

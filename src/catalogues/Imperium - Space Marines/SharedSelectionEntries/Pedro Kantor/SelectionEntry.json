@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "identifier": "Pedro Kantor",
+    "prevIdentifier": "Captain Lysander"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 170.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2bd5-7ce0-5e23-b684",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7dbf-fe75-1337-8efe",
+          "id": "dc3f-f44b-f108-b171",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "bd88-0dd4-4513-46cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8b34-9248-2ca6-1d29",
+          "id": "e9df-0858-d30c-8b92",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6f83-951d-f0ca-df9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "00f5-f1ad-ba68-a24b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4a2f-f9cf-96e3-2671",
+          "id": "fc03-04d9-c57a-38cc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bf7d-7943-cde8-91af",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b421-4ece-b6ed-a034",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "294e-4839-20b7-d57b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8bfe-f744-dce1-4ac0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b43f-4d0d-c4e9-9f24",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "a785-b9a7-b837-9aed",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "4ccc-4280-979f-5363",
+      "name": "Pedro Kantor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "697b-ee20-d815-536f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "427d-f48b-64f4-f800",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fdb4-b1a5-3c97-6400",
+          "id": "9fb5-645b-ce3d-6321",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "9183-353a-6fc0-3c23",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

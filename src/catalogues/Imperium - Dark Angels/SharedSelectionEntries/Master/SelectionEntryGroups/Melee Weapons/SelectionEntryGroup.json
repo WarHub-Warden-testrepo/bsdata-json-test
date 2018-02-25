@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Melee Weapons",
+    "prevIdentifier": "Ranged/Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "067c-7bac-7602-061c",
+      "constraints": [
+        {
+          "id": "5922-1d2c-2acd-ca46",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "e86c-767d-dea4-edb3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1095-ec87-29db-9886",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "9e0f-0742-6690-bff5",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c39a-67a4-de81-a1cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "0702-31e1-35d9-94f2",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1c11-ec2b-b989-0287",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "7e25-640c-add2-c631",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2d63-ffc0-efd4-3c50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "067c-7bac-7602-061c",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "18df-ea48-5c67-796b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "4a4d-10d2-1332-f981",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "54bf-7f97-1635-8b2b",
+      "name": "Melee Weapons"
+    }
+  ]
+}

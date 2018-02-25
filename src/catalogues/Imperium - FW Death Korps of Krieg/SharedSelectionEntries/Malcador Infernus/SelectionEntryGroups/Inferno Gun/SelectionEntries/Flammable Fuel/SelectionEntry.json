@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "identifier": "Flammable Fuel"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c83f-c934-eaf9-72b1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "dfd8-5920-3f28-c30e",
+      "name": "Flammable Fuel"
+    }
+  ]
+}

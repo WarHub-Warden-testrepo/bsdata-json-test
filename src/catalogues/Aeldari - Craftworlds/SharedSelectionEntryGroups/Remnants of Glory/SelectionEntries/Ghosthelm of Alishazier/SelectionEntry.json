@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Ghosthelm of Alishazier",
+    "prevIdentifier": "The Novalance of Saim-Hann"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4fbf-4947-5f9c-97d3",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "3971-242e-c539-b538",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "cdcd-8c6a-cc25-6475",
+      "name": "Ghosthelm of Alishazier",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "e691-aad7-d21c-1023",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "3a2d-86ee-fd38-bb34",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

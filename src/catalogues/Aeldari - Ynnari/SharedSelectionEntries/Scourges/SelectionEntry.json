@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Scourges",
+    "prevIdentifier": "Scissorhand"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "da83-9562-dfe4-0823",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "2764-62db-3460-3603",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "34d6-1d1a-a88c-467c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1a2e-0551-a46c-2c97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "344c-58ec-250a-aa48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1ac5-97d4-4672-c325",
+          "id": "8338-a516-dd1c-43c0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "ac7a-8b7f-4e94-ac7f",
+      "name": "Scourges",
+      "book": "",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "6800-2cc1-7f42-9e1d",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "c1e5-da97-07de-50d8",
+              "type": 1,
+              "field": "selections",
+              "scope": "ac7a-8b7f-4e94-ac7f",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

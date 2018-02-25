@@ -1,0 +1,1186 @@
+{
+  "meta": {},
+  "catalogues": [
+    {
+      "gamesystemId": "28ec-711c-d87f-3aeb",
+      "gamesystemRevision": 1,
+      "id": "cb54-c035-5759-7697",
+      "name": "Chaos - Chaos Space Marines",
+      "book": "",
+      "revision": 44,
+      "battleScribeVersion": "2.01",
+      "authorName": "BSData team",
+      "authorUrl": "http://battlescribedata.appspot.com/#/repo/wh40k",
+      "categoryEntries": [
+        {
+          "id": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "name": "HQ"
+        },
+        {
+          "id": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "name": "Elites"
+        },
+        {
+          "id": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "name": "Troops"
+        },
+        {
+          "id": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "name": "Heavy Support"
+        },
+        {
+          "id": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "name": "Fast Attack"
+        },
+        {
+          "id": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "name": "Lord of War"
+        },
+        {
+          "id": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "name": "Fortification"
+        },
+        {
+          "id": "ca10-a5dd-f54f-0ed5",
+          "name": "Heretic Astartes"
+        },
+        {
+          "id": "dfc5-aa04-9546-1b4c",
+          "name": "Khorne"
+        },
+        {
+          "id": "0fb6-fcaf-b180-5dda",
+          "name": "Nurgle"
+        },
+        {
+          "id": "1da2-76db-f76f-6b6c",
+          "name": "Slaanesh"
+        },
+        {
+          "id": "012f-abfc-397b-3519",
+          "name": "Tzeentch"
+        },
+        {
+          "id": "8308-6393-0ce1-4bf9",
+          "name": "Death Guard"
+        },
+        {
+          "id": "5723-c15a-5882-1f57",
+          "name": "Thousand Sons"
+        },
+        {
+          "id": "0bc5-6451-5612-4a25",
+          "name": "Daemon"
+        },
+        {
+          "id": "c35d-97e7-5b2a-0a70",
+          "name": "Daemon Engine"
+        },
+        {
+          "id": "5bd5-2b7c-e518-0514",
+          "name": "World Eater"
+        },
+        {
+          "id": "4407-2aa1-2a62-c1dc",
+          "name": "Horror"
+        },
+        {
+          "id": "1f29-4695-dfe7-e893",
+          "name": "Black Legion"
+        },
+        {
+          "id": "dba9-7a7f-1310-3028",
+          "name": "Red Corsairs"
+        },
+        {
+          "id": "eb55-bd6b-3e75-d505",
+          "name": "Chaos Lord"
+        },
+        {
+          "id": "36b8-cf23-7648-ece9",
+          "name": "Terminator"
+        },
+        {
+          "id": "b2b6-8e4a-9c74-cc37",
+          "name": "<Legion>"
+        },
+        {
+          "id": "a61a-08c8-c7f7-9f78",
+          "name": "<Mark of Chaos>"
+        },
+        {
+          "id": "5570-810f-53f4-5a91",
+          "name": "Cult of Destruction"
+        },
+        {
+          "id": "649f-80f9-0d71-64c3",
+          "name": "Emperor's Children"
+        },
+        {
+          "id": "5280-7fb9-d4da-d2ff",
+          "name": "Bloodletter"
+        },
+        {
+          "id": "31eb-b14e-89a2-73d1",
+          "name": "Daemonette"
+        },
+        {
+          "id": "ab84-97e0-111c-9ff0",
+          "name": "Plaguebearer"
+        },
+        {
+          "id": "2398-1be3-3391-6984",
+          "name": "Crimson Slaughter"
+        },
+        {
+          "id": "4796-e195-faf7-d932",
+          "name": "Exalted Champion"
+        },
+        {
+          "id": "b36f-fae2-eca4-6d1f",
+          "name": "Warpsmith"
+        },
+        {
+          "id": "1e3f-0a7b-0c8f-84db",
+          "name": "Alpha Legion",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "9b8a-fb30-b445-3049",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "860d-2aae-803c-0164",
+          "name": "The Faithless"
+        },
+        {
+          "id": "beba-2a39-78f4-33f3",
+          "name": "Skulltakers"
+        }
+      ],
+      "entryLinks": [
+        {
+          "categoryLinks": [
+            {
+              "targetId": "b2b6-8e4a-9c74-cc37",
+              "id": "7f0d-a3f3-55f3-bf19",
+              "name": "New CategoryLink"
+            },
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "cc20-1634-4c97-fc43",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "bfbb-5f37-6875-a0ef",
+          "id": "8543-16f7-e443-661a",
+          "name": "Plague Marines",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "66b4-7e29-c38b-2ab8",
+          "id": "8d04-1842-4c3f-0d5f",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "2c93-74cb-4b9d-42c2",
+          "id": "c9f0-4eee-3bb3-6625",
+          "name": "Abaddon the Despoiler",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "37cd-2830-725b-a321",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "07c3-8ec0-bfc9-8f99",
+          "id": "5e96-e2f2-d660-966b",
+          "name": "Obliterators"
+        },
+        {
+          "targetId": "f7d5-82fa-df6a-b9e2",
+          "id": "fd84-53ad-ec89-50aa",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "0d77-1f37-3b32-c978",
+          "id": "0c61-92af-76ea-52e3",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f674-7e58-a07c-e270",
+          "id": "3a53-7fbf-dc3d-6fd4",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "08ed-5bd1-f1e7-6419",
+          "id": "fd33-1a52-ab66-469f",
+          "name": "Kharn the Betrayer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "d538-6e8e-ca02-d957",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "b2b6-8e4a-9c74-cc37",
+              "id": "a9fe-3184-81df-be76",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "d990-6016-2e27-d72f",
+          "id": "c242-7873-f9e0-ac64",
+          "name": "Khorne Berzerkers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a11b-ffca-8c56-de0e",
+          "id": "6497-6d2c-a59c-70c3",
+          "name": "Huron Blackheart",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "3a87-ca84-c18e-2a1d",
+          "id": "ac20-87c7-74cc-6ea1",
+          "name": "Fabius Bile"
+        },
+        {
+          "targetId": "598f-3cba-b8c5-e748",
+          "id": "be67-2a91-ee0e-fa69",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "e7d3-6be5-3af7-070e",
+          "id": "a005-54c8-cba0-7d38",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f204-7d1a-1079-7786",
+          "id": "d3d9-001f-1df5-125b",
+          "name": "Chaos Lord on Juggernaut of Khorne",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "51f6-1db1-3e75-3d4b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "feaf-b130-b3be-3c87",
+          "id": "5211-c849-b071-7849",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "967b-647e-7fec-3469",
+          "id": "f13e-7e37-3b0a-7fec",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "0ff9-35ab-76ea-6b5f",
+          "id": "a51d-80ea-1207-e7c8",
+          "name": "Chaos Lord on Disc of Tzeentch",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e9b8-3691-eed5-b0c7",
+          "id": "6a1e-6f99-2cc7-861c",
+          "name": "Chaos Lord on Palanquin of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b9bd-0d0b-0e11-71c6",
+          "id": "4640-dc70-f854-8aa9",
+          "name": "Chaos Lord on Steed of Slaanesh",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d630-2b65-3996-c1a3",
+          "id": "90e9-a050-5bb2-5325",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c5a2-5d3b-99c9-7b99",
+          "id": "6e4d-426c-9064-c9aa",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "4445-6367-dac4-307a",
+          "id": "246d-4492-6b23-0013",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "9832-6438-ea96-d6d6",
+          "id": "0c6a-c6e7-46c7-afa0",
+          "name": "Sorcerer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b68e-1630-e8bb-590f",
+          "id": "1deb-906c-01a7-9cfd",
+          "name": "Sorcerer on Bike",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b855-577a-d427-2e12",
+          "id": "96c2-f0fb-8039-47f8",
+          "name": "Sorcerer on Disc of Tzeentch",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "70e8-f4bc-63dd-25cc",
+          "id": "dc51-1943-fe5f-543e",
+          "name": "Sorcerer on Palanquin of Nurgle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "3b29-0002-5307-268d",
+          "id": "3def-a25a-8d9a-4ccb",
+          "name": "Sorcerer on Steed of Slaanesh",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "35e1-54d6-7565-dd03",
+          "id": "8122-270e-02ff-0560",
+          "name": "Sorcerer with Jump Pack",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "313d-d939-4be9-9e48",
+          "id": "a0bd-98c4-cba7-b313",
+          "name": "Sorcerer in Terminator Armour",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "b7d7-400d-c0df-c78c",
+          "id": "1ea9-b982-6f0a-4fae",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "a374-0611-5092-b88b",
+          "id": "51be-47e8-f4e5-2ba2",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "0ef1-079d-c3b9-4bd0",
+          "id": "c443-2e47-adae-fc4d",
+          "name": "Khorne Lord of Skulls",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "51f6-1db1-3e75-3d4b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "67df-ff04-b483-f1c3",
+          "id": "d35b-e538-397f-6632",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5f6a-5432-b9a3-cc77",
+          "id": "4c77-3306-fb1f-4839",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "9765-6363-9d49-b571",
+          "id": "ee13-2f6c-97ea-1b3b",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7b61-1289-ed7e-24c1",
+          "id": "5788-03bd-91f7-2d7c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "b9a9-557f-f8fb-4377",
+          "id": "68a1-ca29-c0ee-362e",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "8a3b-80c7-0cf3-e044",
+          "id": "faf1-cd04-687a-b9d1",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "62f4-742a-7149-3b31",
+          "id": "d675-b8e3-cda1-9f2d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "429c-a1b7-b65a-0358",
+          "id": "7768-6caf-fd27-612c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5cae-15dc-4a5d-0b9b",
+          "id": "65d2-4d61-d7fc-f838",
+          "name": "Helbrute"
+        },
+        {
+          "targetId": "a008-7caa-0650-327c",
+          "id": "f693-9d05-eddf-152c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5827-0f87-428a-2bdf",
+          "id": "a74d-c969-b911-786b",
+          "name": "Mutilators"
+        },
+        {
+          "categoryLinks": [
+            {
+              "targetId": "b2b6-8e4a-9c74-cc37",
+              "id": "35bd-1db6-c13f-4f44",
+              "name": "New CategoryLink"
+            },
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "bb91-37b3-8bc0-58f3",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "b0d5-1a19-e2b9-d5bc",
+          "id": "b67b-c78a-4727-d0da",
+          "name": "Noise Marines",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "d12b-2736-a1dd-affd",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "bf56-7051-d9a1-621b",
+          "id": "fe2c-74fa-3e6d-016f",
+          "name": "Rubric Marines",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "51f6-1db1-3e75-3d4b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ac6d-d083-8ae2-dc18",
+          "id": "1b52-a169-526b-0e5a",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7231-0686-8eea-1aed",
+          "id": "9422-221e-3025-d613",
+          "name": "Chaos Bikers"
+        },
+        {
+          "targetId": "350d-676c-02cd-7ac2",
+          "id": "1f03-de36-f852-6843",
+          "name": "Raptors"
+        },
+        {
+          "targetId": "512a-769d-0ce6-3e5c",
+          "id": "dce2-1807-a792-8bec",
+          "name": "Chaos Spawn"
+        },
+        {
+          "targetId": "5e4e-743a-611e-3fb6",
+          "id": "b274-5d64-8f94-408c",
+          "name": "Legion"
+        },
+        {
+          "targetId": "04e3-0faf-a637-97f9",
+          "id": "5d60-16a5-e284-5b01",
+          "name": "Cypher"
+        },
+        {
+          "targetId": "ca0c-1278-8f0d-1691",
+          "id": "138e-be8a-45eb-e994",
+          "name": "Fallen"
+        },
+        {
+          "targetId": "d3e7-290d-f3e8-6a14",
+          "id": "ed30-3ce1-b203-4f61",
+          "name": "Lucius the Eternal",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "51f6-1db1-3e75-3d4b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4d4c-d7a0-0056-7af1",
+          "id": "d026-a600-c6c5-755d",
+          "name": "Chaos Bastion"
+        },
+        {
+          "targetId": "9f4a-9156-265b-266e",
+          "id": "e4d2-7747-15b8-289f",
+          "name": "Exalted Champion"
+        },
+        {
+          "targetId": "36f0-3b3d-1a2a-bd29",
+          "id": "c8f9-c4b4-c825-0d88",
+          "name": "Vrosh Tattersoul",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "29e1-7a0e-ccc0-1c01",
+          "id": "52c7-e08e-51cd-83bf",
+          "name": "Kranon the Relentless",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "551b-c441-ba4d-f592",
+          "id": "1bc2-fe41-3034-01dc",
+          "name": "Draznicht's Ravagers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+              "id": "3f27-84c5-82ac-397a",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "5bd5-2b7c-e518-0514",
+              "id": "5b64-4e6f-7b5f-64e5",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "d990-6016-2e27-d72f",
+          "id": "34d4-ea4c-866d-1346",
+          "name": "Khorne Berzerkers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "targetId": "649f-80f9-0d71-64c3",
+              "id": "954a-5dd6-4ab3-a07e",
+              "name": "New CategoryLink"
+            },
+            {
+              "isPrimary": true,
+              "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+              "id": "9dd9-5ca8-6058-660a",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "b0d5-1a19-e2b9-d5bc",
+          "id": "e435-a8fc-769c-dd22",
+          "name": "Noise Marines",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "51f6-1db1-3e75-3d4b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "2a93-2d7d-1bf9-7d8e",
+          "id": "3ad8-b9e2-9b64-66b9",
+          "name": "Chaos Hellwright"
+        },
+        {
+          "targetId": "212c-c85f-1e56-03f5",
+          "id": "f516-fc43-cbc2-406e",
+          "name": "Chaos Hellwright on Dark Abeyant"
+        },
+        {
+          "categoryLinks": [
+            {
+              "targetId": "1e3f-0a7b-0c8f-84db",
+              "id": "8f7e-3361-4693-dfa5",
+              "name": "New CategoryLink"
+            },
+            {
+              "isPrimary": true,
+              "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+              "id": "9d0d-c18b-9c8b-2504",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "59a1-57e1-044a-8ac3",
+          "id": "1acb-f0bb-6b70-43db",
+          "name": "Lord Arkos",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "9b8a-fb30-b445-3049",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+              "id": "65bc-fc39-f24d-5021",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "860d-2aae-803c-0164",
+              "id": "8507-8263-0690-293e",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "59a1-57e1-044a-8ac3",
+          "id": "8170-b0cf-4f45-ad51",
+          "name": "Lord Arkos",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6ddd-4fed-a759-ed5b",
+          "id": "4af9-ff5a-d874-c1e0",
+          "name": "Zhufor the Impaler",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c4a9-5a33-d824-bcf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0b83-3a3f-078a-8a13",
+          "id": "5d49-ee7c-f1a6-e58d",
+          "name": "Gifts of Chaos (1 Relic)"
+        },
+        {
+          "targetId": "a59c-245b-0fff-5543",
+          "id": "1d3d-61f7-50f0-1936",
+          "name": "Gifts of Chaos (2 Relics)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Fallen w/Plasma Pistol",
+    "prevIdentifier": "Fallen w/Lightning Claws"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "df10-bef3-ee08-c6bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e392-54c4-a1fd-d7f4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "1266-d55d-c798-a237",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d0c9-d3d6-3552-599c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1b74-a43b-fadc-a5eb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "9da2-87cb-0db7-1232",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "cf33-e39a-f212-45d0",
+      "name": "Fallen w/Plasma Pistol"
+    }
+  ]
+}

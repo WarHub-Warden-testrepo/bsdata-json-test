@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "identifier": "Death Company",
+    "prevIdentifier": "Terminator Ancient"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "a381-713d-d229-ef2f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "e5cb-cc40-ed7d-c613",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "7424-6ea7-624e-a732",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b011-7906-1d21-91b1",
+          "id": "7de4-de73-3810-f022",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "7e97-24c2-90d3-f5fd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3131-c486-0bcd-d6a1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "32e4-e8aa-ac71-c4db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "470a-3469-fda3-b953",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "d3a3-483e-c3fd-81fa",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "b420-bd15-adb5-f6e1",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "d3a3-483e-c3fd-81fa",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "b420-bd15-adb5-f6e1",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "3",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "b420-bd15-adb5-f6e1",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b420-bd15-adb5-f6e1",
+      "name": "Death Company",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "f20f-9e1a-80d5-a7fb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8d72-906f-dbea-c860",
+          "id": "295a-7350-26f7-bef3",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "d3a3-483e-c3fd-81fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "b420-bd15-adb5-f6e1",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "d3a3-483e-c3fd-81fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "b420-bd15-adb5-f6e1",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

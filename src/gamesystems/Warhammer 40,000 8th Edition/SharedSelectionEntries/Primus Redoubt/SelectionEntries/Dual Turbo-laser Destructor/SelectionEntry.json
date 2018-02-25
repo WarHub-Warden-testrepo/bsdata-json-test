@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Dual Turbo-laser Destructor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b62f-357c-6080-23b4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "db4c-b408-1839-18b0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "279b-3e86-f8f2-3cd6",
+      "name": "Dual Turbo-laser Destructor"
+    }
+  ]
+}

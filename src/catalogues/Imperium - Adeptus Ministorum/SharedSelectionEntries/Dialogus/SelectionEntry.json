@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Dialogus",
+    "prevIdentifier": "Imagifier"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "78b4-a6bc-98c2-56fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "a236-4864-88c9-8e22",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ffb8-9dcf-6f72-a1e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8a05-66df-88c7-f7f6",
+          "id": "9ff8-ab01-2597-e97a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e1a3-def3-5c8c-94e7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "310c-bf38-8c3a-c82a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0ae2-3e44-6b15-8e3d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "277b-a7b7-458f-f5c2",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "aeb0-4fff-921c-2daf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "7d92-df44-95a9-e247",
+          "name": "Warlord"
+        }
+      ],
+      "id": "c456-37fc-f55a-84a2",
+      "name": "Dialogus",
+      "book": "Index: Imperium 2",
+      "page": "98"
+    }
+  ]
+}

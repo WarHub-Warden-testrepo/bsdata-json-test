@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Incubi",
+    "prevIdentifier": "Hellions"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "2957-805f-e04d-229a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "80cf-1973-e617-b42a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "8806-9bd9-09ff-6e0d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d761-28f0-9834-c0b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2081-49f0-1e15-a9f3",
+          "id": "0c98-4381-e365-486f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0a1e-abbc-c986-0b6c",
+      "name": "Incubi",
+      "book": "",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "083b-38c2-5fb9-701c",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "4962-0228-8ffe-026c",
+              "type": 1,
+              "field": "selections",
+              "scope": "0a1e-abbc-c986-0b6c",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "identifier": "Death Korps Death Rider Commissar",
+    "prevIdentifier": "Death Korps Death Rider Command Squadron"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "c03f-24fb-1d36-d33e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "77e2-f15f-efae-66af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "1691-24db-6df0-e998",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e13f-bd3a-7d6c-fd8c",
+          "id": "1888-3391-6249-e4d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "c96a-cf41-9b55-c84a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e492-77d5-9f2d-9a85",
+          "id": "598f-d7f7-1cc9-133d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "85e6-7055-d5b9-3314",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "cddf-945e-1335-e681",
+          "id": "395d-5f9d-472a-0bcb",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2a3b-dc61-5c12-3f2f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d4a3-b927-33d7-3e99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d68-427b-eaa0-0b04",
+          "id": "1081-463b-d30f-b65d",
+          "name": "Krieg Steed"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "c0d0-09f9-5856-348e",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b5dd-2343-e9de-1b2b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "bd1e-9488-12e2-95b3",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "d2f9-4425-d7e7-b236",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "caf8-b980-9d26-7243",
+      "name": "Death Korps Death Rider Commissar",
+      "infoLinks": [
+        {
+          "targetId": "803b-a0ef-0f0b-e1ae",
+          "id": "e25a-3b81-a131-e17e",
+          "name": "Death Korps Death Rider Commissar"
+        },
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "87ee-eead-4777-7b24",
+          "name": "Cult of Sacrifice"
+        },
+        {
+          "targetId": "9a6d-4b71-af76-d004",
+          "id": "2c1e-f723-9b59-8788",
+          "name": "Augmented Mount"
+        },
+        {
+          "targetId": "23c0-ed20-f49f-7bcf",
+          "id": "3de3-960f-9cd4-a693",
+          "name": "Warstrider"
+        },
+        {
+          "targetId": "8df4-ee60-d5c2-d061",
+          "id": "4fc7-cac1-c114-5e33",
+          "name": "Aura of Discipline"
+        },
+        {
+          "targetId": "f298-7c8a-ac18-501d",
+          "id": "c1bb-5684-6497-6c1f",
+          "name": "Summary Execution"
+        }
+      ]
+    }
+  ]
+}

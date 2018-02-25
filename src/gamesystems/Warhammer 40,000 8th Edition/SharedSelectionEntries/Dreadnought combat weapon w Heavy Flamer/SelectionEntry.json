@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Dreadnought combat weapon w/Heavy Flamer",
+    "prevIdentifier": "Dreadnought combat weapon w/Storm Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c062-d49e-c2bb-42b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "20eb-206d-9a9b-cb7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "7d67-9ea9-8556-f509",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "1720-3d63-ee7e-b95e",
+      "name": "Dreadnought combat weapon w/Heavy Flamer",
+      "infoLinks": [
+        {
+          "targetId": "3b26-3098-155f-0e58",
+          "id": "aba2-ecb0-2ab6-32f7",
+          "name": "Dreadnought combat weapon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "ad76-d653-9f96-093a",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

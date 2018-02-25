@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "identifier": "Inquisitor Greyfax",
+    "prevIdentifier": "Jokaero Weaponsmith"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b28b-0c01-1c42-0c0d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f62e-4435-c6f2-eeac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b597-3786-61cf-9458",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "9a3e-097e-8a54-6e3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "78cc-daf7-1448-610f",
+          "id": "5dd6-ccb5-122f-6393",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9d23-57b8-72c2-d750",
+          "id": "0145-bbed-179e-e33e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "1838-6957-d140-887d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5478-ea9e-9696-d171",
+          "id": "a2b4-0144-8e25-9456",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "615e-e261-41ab-1375",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4f58-a3d3-de68-152b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "88df-7f59-d683-6557",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "809c-0d19-bb12-fe94",
+          "id": "44d0-0eda-7f7f-af5c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "914c-0969-ea1a-5173",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "55a1-89a2-553f-595d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4922-4056-3456-2d48",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3116-6584-cfb6-ea0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e9b2-dd16-99c2-50d5",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "abc3-fa40-1bf3-dc28",
+          "id": "760a-c0e8-008d-1b6e",
+          "name": "Telethesia Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9e15-c410-c406-1a04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2458-6402-7192-743d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "72d8-6f7e-559e-c392",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "63dd-0600-c0b1-3299",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d728-c592-a3b6-2a76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "a19c-28d7-e0e5-1383",
+          "name": "Warlord"
+        }
+      ],
+      "id": "9d0c-6df4-8f5d-5a34",
+      "name": "Inquisitor Greyfax",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "2a88-87cf-9490-46de",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "3dec-967b-c8fd-af29",
+          "id": "c0b4-2712-b80b-f3d6",
+          "name": "Quarry - Hereticus"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "b777-54b2-ccb0-3db1",
+          "name": "Unquestionable Wisdom"
+        }
+      ]
+    }
+  ]
+}

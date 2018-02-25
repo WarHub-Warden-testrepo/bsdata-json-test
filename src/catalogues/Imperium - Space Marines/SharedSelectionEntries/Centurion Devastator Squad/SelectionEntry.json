@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Centurion Devastator Squad",
+    "prevIdentifier": "Devastator Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2a28-19db-61bb-9646",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dfb-e12d-32c6-1b0f",
+          "id": "00dc-02eb-32f2-4357",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5b19-b97f-7745-56c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7e04-75de-9141-992b",
+          "id": "d014-e830-6b7a-f781",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e5e3-8a3a-6963-e8e8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c7a9-cbea-2263-acdc",
+      "name": "Centurion Devastator Squad",
+      "infoLinks": [
+        {
+          "targetId": "eaa4-a232-92f4-c25a",
+          "id": "488e-c77d-a44d-a004",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6bae-b80d-f3e9-f0fb",
+          "id": "0453-2a26-02ed-1260",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ae19-8709-8e9e-1674",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "66eb-ddf5-9810-3026",
+          "id": "1823-26cd-7cec-055b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "4ac8-d213-14ce-52b2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4efb-930d-c2f0-25da",
+          "id": "10bd-466f-75f4-375d",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "19",
+          "conditions": [
+            {
+              "childId": "fb5b-3546-7908-393b",
+              "type": 4,
+              "field": "selections",
+              "scope": "c7a9-cbea-2263-acdc",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

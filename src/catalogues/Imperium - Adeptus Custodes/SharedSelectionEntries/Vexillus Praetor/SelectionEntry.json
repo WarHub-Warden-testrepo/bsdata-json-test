@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Vexillus Praetor",
+    "prevIdentifier": "Shield-Captain on Dawneagle Jetbike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "66c1-374f-78cb-e83f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "7b89-10e9-acbd-7309",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1635-2164-04d9-d8c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "25e0-b474-0e17-2b8c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4212-e881-9e8f-eb03",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "3e05-98fd-381a-e500",
+          "name": "Misericordia"
+        },
+        {
+          "type": 1,
+          "targetId": "35fc-bb34-950d-cce4",
+          "id": "6f2e-948e-873a-2cac",
+          "name": "Custodes Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "78fd-0afc-36c0-f72b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2471-0b95-738c-edd9",
+          "id": "dbc6-bea7-199a-604c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "9cb6-59c5-6934-31ed",
+          "id": "32d0-2bb4-39e5-8657",
+          "name": "Warlord Trait"
+        }
+      ],
+      "id": "bd21-a20e-fd11-2047",
+      "name": "Vexillus Praetor",
+      "infoLinks": [
+        {
+          "targetId": "55b4-45f6-4fff-93d8",
+          "id": "2d53-0f65-fe15-b9fd",
+          "name": "Aegis of The Emperor"
+        },
+        {
+          "targetId": "1d12-f594-8091-feb9",
+          "id": "1b1a-d38d-2af4-c3ce",
+          "name": "Custodes Vexilla"
+        }
+      ]
+    }
+  ]
+}

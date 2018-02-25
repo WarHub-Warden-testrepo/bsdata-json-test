@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Kommando W/ 'Eavy Weapon",
+    "prevIdentifier": "Kommando"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c821-1eb9-e0fc-906f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "fe57-477e-5eab-b5f9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "905f-a711-0867-92dd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d67-d2df-eefb-e410",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c025-0c89-05db-fccb",
+          "id": "919c-e4c5-7a99-4785",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8945-e2c6-cece-13fd",
+      "name": "Kommando W/ 'Eavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "196e-c57d-35ed-3755",
+          "id": "e35b-5979-13be-16ad",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

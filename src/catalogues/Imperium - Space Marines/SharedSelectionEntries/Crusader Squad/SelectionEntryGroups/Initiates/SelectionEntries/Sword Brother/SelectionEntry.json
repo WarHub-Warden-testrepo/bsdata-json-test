@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Sword Brother",
+    "prevIdentifier": "Initiate"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1ae2-5b83-5cf1-12ca",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "750b-549e-d3c7-f651",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ff80-71c7-43e1-3c0c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3d8c-9623-f724-b77b",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7f4d-7375-4208-9332",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8bb9-bf09-80a3-3789",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f11e-6eca-c706-dff0",
+          "id": "624c-f4ae-653a-4359",
+          "name": "Sgt Equipment"
+        }
+      ],
+      "id": "ed1c-c27c-b6ec-9121",
+      "name": "Sword Brother",
+      "infoLinks": [
+        {
+          "targetId": "acef-29ce-37c1-f52d",
+          "id": "f872-f81c-ce78-c104",
+          "name": "Sword Brother"
+        }
+      ]
+    }
+  ]
+}

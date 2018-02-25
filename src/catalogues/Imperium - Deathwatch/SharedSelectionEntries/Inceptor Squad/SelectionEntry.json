@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Inceptor Squad",
+    "prevIdentifier": "Master-crafted stalker bolt rifle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c0e4-52c3-1b8c-a446",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "21c0-75ec-6ae4-9342",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "c99d-7c3b-62f6-157a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "0668-1308-96ee-0ef3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e3fd-dacf-31f5-9c2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8c4f-c48d-c2a7-4228",
+          "id": "6bfb-1ffc-11a5-8f66",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "60b9-e1dc-e237-25ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "90f0-6ff0-18b9-a715",
+          "id": "9fda-afe2-9710-322a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "fc95-d586-e6e2-920e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7fac-0e2d-2d88-4f28",
+      "name": "Inceptor Squad",
+      "infoLinks": [
+        {
+          "targetId": "1baf-0fae-82e1-da51",
+          "id": "5c96-2437-be00-c0ad",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "e20c-7d23-7a58-ceaa",
+          "name": "And They Shall Know No Fear"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "5cbc-e6c3-3c93-7d6d",
+              "type": 1,
+              "field": "selections",
+              "scope": "7fac-0e2d-2d88-4f28",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

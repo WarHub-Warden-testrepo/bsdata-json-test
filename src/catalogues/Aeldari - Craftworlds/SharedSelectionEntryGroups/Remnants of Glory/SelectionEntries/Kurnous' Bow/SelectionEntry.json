@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Kurnous' Bow"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b0e1-fd0c-2a3f-1d7f",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "e6a5-a154-9205-f0b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "cdbc-1607-808b-b28a",
+      "name": "Kurnous' Bow",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "463b-fd2c-9d94-7d89",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e554-ea88-ace6-b9ee",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

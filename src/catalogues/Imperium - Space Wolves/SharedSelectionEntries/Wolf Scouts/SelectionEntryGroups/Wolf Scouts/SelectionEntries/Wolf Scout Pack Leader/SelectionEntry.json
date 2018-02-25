@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Wolf Scout Pack Leader",
+    "prevIdentifier": "Wolf Scout"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4aad-ab46-e605-4062",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f3ab-bd66-7ca8-30fc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c52c-749a-883f-585d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0452-b6a7-52ba-52a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "05f3-dbb9-84dc-b309",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c3da-c314-f48d-e043",
+      "name": "Wolf Scout Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "7a14-40fc-648d-c5da",
+          "id": "f678-281f-592d-ebe4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

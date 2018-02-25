@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Macro-Scalpel",
+    "prevIdentifier": "Chain-Flails"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1f0b-012e-10f8-c035",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "df29-4087-0d31-352a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c83b-6818-4207-7621",
+      "name": "Macro-Scalpel"
+    }
+  ]
+}

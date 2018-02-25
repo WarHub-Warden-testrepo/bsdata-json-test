@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Deathspitter with Slimer Maggots",
+    "prevIdentifier": "Deathspitter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f52-1123-f51b-fb45",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "5e67-78b4-1c50-05bd",
+      "name": "Deathspitter with Slimer Maggots",
+      "infoLinks": [
+        {
+          "targetId": "c1cd-1f39-699b-cf5a",
+          "id": "2ee5-bc16-c832-a3e2",
+          "name": "Deathspitter with Slimer Maggots"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "0f52-1123-f51b-fb45",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3949-786e-c9fd-140f",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

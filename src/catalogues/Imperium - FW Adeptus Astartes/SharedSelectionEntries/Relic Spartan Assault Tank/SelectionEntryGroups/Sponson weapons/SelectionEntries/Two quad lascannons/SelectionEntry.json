@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two quad lascannons",
+    "prevIdentifier": "Two laser destroyers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6574-a41f-973d-0e76",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "da46-de0d-7b0d-9003",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c402-bd00-6ea4-1a99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c348-59cd-3d31-5d27",
+          "id": "7084-c7d2-368d-a768",
+          "name": "Quad lascannon"
+        }
+      ],
+      "id": "161e-2e70-c981-1feb",
+      "name": "Two quad lascannons"
+    }
+  ]
+}

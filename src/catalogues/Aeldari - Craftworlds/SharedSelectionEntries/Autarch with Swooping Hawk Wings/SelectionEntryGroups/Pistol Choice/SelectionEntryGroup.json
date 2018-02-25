@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Pistol Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4d3b-facd-a676-b181",
+      "constraints": [
+        {
+          "id": "67ef-4580-a966-0ac4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "daba-a5a2-a70c-f13b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "7b3a-7791-7880-1516",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8da2-32bc-e7ca-23b1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ea36-2191-cc7a-d06e",
+          "id": "4d3b-facd-a676-b181",
+          "name": "Fusion Pistol",
+          "modifiers": [
+            {
+              "field": "8da2-32bc-e7ca-23b1",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "3270-a2af-fbdd-56e4",
+      "name": "Pistol Choice",
+      "modifiers": [
+        {
+          "field": "daba-a5a2-a70c-f13b",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "cdbc-1607-808b-b28a",
+              "type": 2,
+              "field": "selections",
+              "scope": "2989-8d08-72fc-9556",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "67ef-4580-a966-0ac4",
+          "value": "0.0"
+        }
+      ]
+    }
+  ]
+}

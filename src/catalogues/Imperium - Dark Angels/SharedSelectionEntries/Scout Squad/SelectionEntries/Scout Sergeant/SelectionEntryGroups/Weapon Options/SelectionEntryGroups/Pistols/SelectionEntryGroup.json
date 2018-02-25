@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Pistols"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "32c5-168a-0e85-9175",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8d20-a66a-1c88-9956",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a4d7-373a-5221-bbbe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "72ed-43d1-8eba-2b19",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "8d20-a66a-1c88-9956",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ac47-7f44-c68e-24fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b66-cac7-e582-a518",
+          "id": "0aab-4b46-e4a6-04bc",
+          "name": "Grav-pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "26ff-b9f4-84ca-6389",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "0748-3e18-f82e-9c7a",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "e26d-d57e-8711-2bc7",
+      "name": "Pistols"
+    }
+  ]
+}

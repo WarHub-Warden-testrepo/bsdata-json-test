@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "identifier": "Wolf Lord on Thunderwolf",
+    "prevIdentifier": "Logan Grimnar on Stormrider"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 108.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "062f-7ed3-5ad2-ae2f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "6849-af7a-def5-d46f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9119-0903-bb7e-3f69",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "107e-6ae5-429a-7333",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "93de-bd73-4dc3-5fcc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b46d-3b8e-d997-933e",
+          "id": "f495-1115-82bf-d4e4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "648d-2441-d27d-e8f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "41de-e0fa-107d-6f3d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2900-17cd-6f38-b43c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "857a-476a-299c-bd4d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6b0-fdca-ccd1-57d7",
+          "id": "c8b1-60b6-86a3-0c6d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1fbf-48c9-b5a3-8419",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "79ea-8bcd-6690-294b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "54d8-0b32-96af-df6c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "59d2-223e-6dbc-1a7d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "e418-e6c4-7b24-d60e",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f921-559a-39ce-552d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "d049-c2ca-2270-778c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bc67-271e-77dc-dd3e",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "cb15-9f32-ddff-34d6",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "bc67-271e-77dc-dd3e",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e905-6c75-013b-af55",
+      "name": "Wolf Lord on Thunderwolf",
+      "infoLinks": [
+        {
+          "targetId": "b195-7f25-449e-1303",
+          "id": "8b91-63c5-bf11-d4e8",
+          "name": "Wolf Lord on Thunderwolf"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "6062-0b8d-32b4-78fa",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0664-31c9-63b3-2a81",
+          "id": "5235-150b-5c4f-cfde",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "18d0-7cd5-e05c-698f",
+          "id": "0d2e-b93d-caa0-6080",
+          "name": "Belt of Russ"
+        }
+      ]
+    }
+  ]
+}

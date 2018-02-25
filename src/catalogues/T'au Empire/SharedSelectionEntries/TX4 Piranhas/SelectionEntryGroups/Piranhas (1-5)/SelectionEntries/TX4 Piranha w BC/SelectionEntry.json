@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "TX4 Piranha w/ BC"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a60d-4db4-ca3a-396a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8122-8f5f-55d9-2981",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "51a5-a8a6-1e9e-b887",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "becb-2a34-1e0d-ff9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "5537-2168-e39d-7e72",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "af82-24ea-ff21-36e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8e0f-d43e-379c-e61e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f77-b2e1-a28e-d467",
+          "id": "e294-4894-b80c-14ca",
+          "name": "MV1 Gun Drone"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fd70-79a0-a116-f300",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1014-1a59-3901-7215",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "e541-7ce2-5cc1-4f73",
+          "name": "Burst cannon"
+        }
+      ],
+      "id": "d568-4db7-0ccd-346c",
+      "name": "TX4 Piranha w/ BC",
+      "infoLinks": [
+        {
+          "targetId": "a609-e97d-7eca-8415",
+          "id": "4952-2077-2ba6-bfa9",
+          "name": "TX4 Piranha"
+        }
+      ]
+    }
+  ]
+}

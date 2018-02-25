@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "identifier": "Rune Priest in Terminator Armour",
+    "prevIdentifier": "Jump Pack - 40"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 120.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f11d-1b83-5adc-0b10",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "14c8-0b46-6a8c-223c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ee39-5d6d-4fa0-a02b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5b66-efa2-2f02-ea09",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bc88-5845-9ec6-97d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "bfa0-dfef-cdee-a590",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "c166-d92c-43c9-8ddd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4dc6-527c-7af1-df8d",
+          "id": "0aa7-cb51-b997-0ee9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "1beb-699c-e718-8fe1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1589-31d0-5d78-7fdf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3e66-3e07-0d1e-74b7",
+          "id": "dfdc-7677-5b6c-39b3",
+          "name": "Psychic hood"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7275-0430-be73-f1ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "47ef-bdce-f759-f18d",
+          "id": "71cb-2084-2864-3464",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "8ae5-0b71-8a1b-a889",
+          "id": "b80a-1e87-da23-d9b1",
+          "name": "Tempestas Discipline"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "43de-05c1-6435-092b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "628f-42fc-a6f3-28bb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82c0-bab6-7610-6ee8",
+          "id": "21d6-0632-16f8-9c30",
+          "name": "Terminator Combi-Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aa0c-14f9-59d1-f4c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1a99-1fee-4020-4ccb",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "50f3-41b4-4f3f-f5f2",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "c812-592f-0f7f-1a24",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "50f3-41b4-4f3f-f5f2",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "de8d-e89b-e5e5-59e0",
+      "name": "Rune Priest in Terminator Armour",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "4723-7bfe-d46f-d79d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c171-85ad-03fa-1868",
+          "id": "41fa-e12c-fd4b-266c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "588e-2d8e-7485-24fe",
+          "id": "a61e-55bc-6345-f097",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "47ef-bdce-f759-f18d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "de8d-e89b-e5e5-59e0",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "2558-f7f8-127c-0264",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

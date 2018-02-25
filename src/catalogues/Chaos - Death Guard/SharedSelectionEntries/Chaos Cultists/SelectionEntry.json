@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Chaos Cultists",
+    "prevIdentifier": "Malignant Plaguecaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "c5b4-7982-b90a-a800",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "9c70-9cd8-ec8b-96fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ff67-f6bd-85c7-1eed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "986a-3b43-3685-755f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "0873-b89a-27f3-618d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "4da1-08cc-efd1-0464",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7c95-4704-2fe5-93bc",
+          "id": "e07c-8cca-019d-438c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "605b-3c14-2a67-f8e4",
+      "name": "Chaos Cultists",
+      "page": "",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "605b-3c14-2a67-f8e4",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "605b-3c14-2a67-f8e4",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

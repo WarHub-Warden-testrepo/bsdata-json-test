@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Heavy Rock Drill",
+    "prevIdentifier": "Heavy Rock Cutter"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+      "profileTypeName": "Weapon",
+      "characteristics": [
+        {
+          "name": "Range",
+          "characteristicTypeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+          "value": "Melee"
+        },
+        {
+          "name": "Type",
+          "characteristicTypeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+          "value": "Melee"
+        },
+        {
+          "name": "S",
+          "characteristicTypeId": "59b1-319e-ec13-d466",
+          "value": "x2"
+        },
+        {
+          "name": "AP",
+          "characteristicTypeId": "75aa-a838-b675-6484",
+          "value": "-3"
+        },
+        {
+          "name": "D",
+          "characteristicTypeId": "ae8a-3137-d65b-4ca7",
+          "value": "1"
+        },
+        {
+          "name": "Abilities",
+          "characteristicTypeId": "837d-5e63-aeb7-1410",
+          "value": "Roll a D6 each time a model suffers damage from this weapon; on a 2+ the model suffers a mortal wound and you can roll another D6. This time, the model suffers a mortal wound on a 3+. Keep rolling a D6 increasing the score required to cause a mortal wound by 1 each time, until the model is slain or the roll is failed."
+        }
+      ],
+      "id": "0016-826e-559b-140b",
+      "name": "Heavy Rock Drill",
+      "book": "Index: Xenos 2",
+      "page": "144"
+    }
+  ]
+}

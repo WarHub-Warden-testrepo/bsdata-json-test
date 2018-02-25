@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Centurion Sergeant",
+    "prevIdentifier": "Centurion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5e0a-348b-cc50-79e1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d191-b09b-f250-224b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3e65-6472-9017-9c2a",
+      "name": "Centurion Sergeant"
+    }
+  ]
+}

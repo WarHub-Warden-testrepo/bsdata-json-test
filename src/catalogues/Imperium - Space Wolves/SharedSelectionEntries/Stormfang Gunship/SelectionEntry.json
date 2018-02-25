@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "identifier": "Stormfang Gunship",
+    "prevIdentifier": "Wolf Guard on Bikes"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 175.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "095e-9a4d-96fd-ac32",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "ac8b-7cdc-136b-325b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "81ef-c23f-2f31-23ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2e96-0927-6b57-a237",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d757-ced7-3efb-8941",
+          "id": "5d3d-650f-7eff-584e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1af2-2f1f-6de4-ef81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "f4ee-258e-eb06-4a63",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "1398-aec0-ff9b-5014",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "066e-b4a8-94ad-49a7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f33d-6c14-d4b6-96d3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e227-7749-748a-486a",
+          "id": "dec2-206f-89ae-f1cc",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "177a-a455-4eb6-228f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a19a-af2d-7085-720a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b4ff-de73-7434-bfdc",
+          "id": "cd1c-7043-ce9f-9d1c",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Weapons"
+            }
+          ]
+        }
+      ],
+      "id": "21d4-cfac-544c-1bf5",
+      "name": "Stormfang Gunship",
+      "infoLinks": [
+        {
+          "targetId": "7d0b-aeb9-ed62-d3f9",
+          "id": "05e3-2c6d-033f-2226",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d190-f338-ac13-9523",
+          "id": "6eda-83f1-e6b8-8fee",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f7bd-5dbe-c817-84f8",
+          "id": "183d-e94e-354e-ed1e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b850-255d-c18f-722a",
+          "id": "df01-9495-8f85-4e06",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e8ad-baab-6472-e61c",
+          "id": "4271-746a-d4f1-f6ff",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e91-db47-a782-de78",
+          "id": "b6c9-3414-6c8f-9aa4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3d5d-287b-d8b9-9399",
+          "id": "3142-0874-97f1-c95a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e4e1-09af-93b7-8e2e",
+          "id": "e907-30d0-4bb5-8310",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "24d6-d367-0a52-c0c6",
+          "id": "117f-312e-2d25-5d37",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8c93-381f-db6f-5cf8",
+          "id": "32a3-4eed-482a-c56b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a55a-8ca8-470e-5b5d",
+          "id": "d61a-aa24-5a6b-a491",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Transport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

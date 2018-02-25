@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "de8b-2c8b-9f6a-ad3f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1dd1-c95b-27c3-e0b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4b26-acac-02da-f48e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0f1c-2e94-4dcd-1d4f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "2b5d-6f4e-a8fc-305b",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "02e9-1a1a-77c9-3369",
+      "name": "Space Marine Veteran",
+      "infoLinks": [
+        {
+          "targetId": "ead1-fe37-8e36-5369",
+          "id": "67a7-9ce5-eb82-d037",
+          "name": "Space Marine Veteran",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "b18a-4f3e-5cd7-43d7",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "6888-a8e0-771a-60c8",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

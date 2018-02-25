@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Manreaper"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "c783-20a2-6dcc-76c1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e10f-5845-c9a6-1d84",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "bfd9-540e-9b54-6723",
+      "name": "Manreaper"
+    }
+  ]
+}

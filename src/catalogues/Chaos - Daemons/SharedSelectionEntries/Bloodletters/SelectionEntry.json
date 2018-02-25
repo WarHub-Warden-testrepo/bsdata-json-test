@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Bloodletters",
+    "prevIdentifier": "Bloodcrushers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "ebcb-6ac6-ed49-326d"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "fddf-b9a0-1952-7f63",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0b57-ece8-b05a-5484",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "e8f5-b56d-3ae4-48eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5280-7fb9-d4da-d2ff",
+          "id": "35d5-6270-472c-ae33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2160-f9bb-512f-d876",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2372-6e48-e202-af38",
+      "name": "Bloodletters",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "28a5-3485-17aa-939f",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "8db0-515f-4a0c-ecdb",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "096b-d7af-1c4b-a65e",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "2372-6e48-e202-af38",
+              "value": 10.0,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2372-6e48-e202-af38",
+              "value": 9.0,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Painboy",
+    "prevIdentifier": "Grot Orderly"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "a13d-5877-e340-789a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "ffc2-2d77-c2c4-cf07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "ff11-373f-20bc-3069",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6447-3aae-2e53-0d13",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e281-f76f-053c-026e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7fa5-fda7-c9a6-5f51",
+          "id": "4ecc-7dad-e11a-a22e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8a87-75d4-4716-b576",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1228-3bad-65e7-7add",
+          "id": "5970-b0a2-e387-7824",
+          "name": "Grot Orderly"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c40-204c-b755-e35c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "471c-a925-e28c-446e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2112-88e2-79ed-88b8",
+          "id": "5d19-6671-c7bf-1754",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c2ce-6759-e009-8c11",
+          "id": "fc95-5c63-0d64-307c",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1234-e26a-3837-a0ea",
+          "name": "Warlord"
+        }
+      ],
+      "id": "f654-3f0e-3775-807c",
+      "name": "Painboy",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "e94c-6488-6b49-3613",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "2da8-789e-da11-c0cb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b5ee-945a-576f-ad0a",
+          "id": "d67b-c7be-b15b-12ae",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

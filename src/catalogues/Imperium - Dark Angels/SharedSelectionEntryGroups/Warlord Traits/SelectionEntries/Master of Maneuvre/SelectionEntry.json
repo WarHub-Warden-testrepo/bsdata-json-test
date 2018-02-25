@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Master of Maneuvre",
+    "prevIdentifier": "Huntsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f4be-4bb0-94cc-7547",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "e0c6-b72e-19e2-6072",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "00db-bb6b-7911-b540",
+      "name": "Master of Maneuvre",
+      "modifiers": [
+        {
+          "field": "f4be-4bb0-94cc-7547",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c086-ffb6-0621-accb",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "1eca-e59b-cd4e-d3d6",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

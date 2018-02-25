@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "identifier": "Autarch",
+    "prevIdentifier": "Maugan Ra"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "4147-6f89-6d0e-12b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "0312-3592-67a8-9789",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "17dc-822d-3028-f351",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f3a-0e93-5211-1a55",
+          "id": "5de1-84ac-ff26-0314",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5409-1e11-4eea-a739",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a460-8e2e-94ea-8372",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b726-fb14-55d2-2e0d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "72bf-ba76-500f-ef62",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "18c0-c25c-bb83-14dd",
+          "id": "6ce9-4f2b-de4e-d48f",
+          "name": "Autarch Equipment"
+        },
+        {
+          "type": 1,
+          "targetId": "8348-0a64-ff87-dac5",
+          "id": "0492-4eae-97ce-f29e",
+          "name": "Autarch Weapons"
+        },
+        {
+          "targetId": "d607-4875-b868-1932",
+          "id": "2fb2-f2c6-a8a9-e910",
+          "name": "Forceshield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "76aa-fb08-d84a-ee8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fd9f-e84a-b7fb-7e6c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "e3e1-9713-133c-d033",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "86ef-1686-d8f0-2fa5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "528d-4802-390f-b229",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6520-99c7-fe83-2de8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "117e-52b7-5157-0ba9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "053c-d658-4f19-a234",
+          "id": "ffc1-2692-1897-0b5e",
+          "name": "Star Glaive"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "7ed8-e669-3f42-38bf",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "5a71-7827-b512-b168",
+      "name": "Autarch",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "a1ba-19a1-b2cb-6f53",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

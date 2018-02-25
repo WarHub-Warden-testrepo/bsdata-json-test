@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "identifier": "Iron Priest on Bike",
+    "prevIdentifier": "Iron Priest"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3de1-e925-3564-cfc6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "bdf2-8618-da9b-b729",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "69cd-ad6b-6f7e-8540",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8757-e6d9-9a2d-46b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "766b-5215-896e-d2e9",
+          "id": "30a7-52f2-c5ca-256f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "5bb7-4dc1-800b-3ff6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "cecf-591b-3988-957b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6980-b61e-a8c6-1168",
+          "id": "5034-3f60-5073-f212",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0678-557c-7c1b-2a8b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0063-ff37-5ad1-b93d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "a2f6-7029-a8b8-0543",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ac7-dd8d-7194-c781",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e45-63ef-87ac-1716",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8aec-604f-2c51-5272",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5913-9c4e-7f5f-2eda",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a2da-034c-fdba-80ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "ee7e-7ace-1dee-985a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6361-3651-506a-57bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "9952-0313-8ce2-4383",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "88ca-2f13-90b0-1659",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "6dbe-9592-8f4f-df90",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "88ca-2f13-90b0-1659",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "12fe-980e-4843-70a1",
+      "name": "Iron Priest on Bike",
+      "infoLinks": [
+        {
+          "targetId": "a7d5-d07f-266a-8653",
+          "id": "c257-1e84-c6f3-9890",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "14\""
+            },
+            {
+              "field": "9c9f-9774-a358-3a39",
+              "value": "5"
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "targetId": "232c-6fc9-5c8b-36a5",
+          "id": "d478-6f0e-afe1-cece",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "703b-b94f-c071-b424",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

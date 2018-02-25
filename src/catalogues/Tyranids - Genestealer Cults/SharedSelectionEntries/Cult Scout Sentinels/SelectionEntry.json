@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Cult Scout Sentinels",
+    "prevIdentifier": "Familiar"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "e318-00fe-9196-46f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "d08e-0daf-cae7-f168",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "1d48-fb40-7215-e975",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "891f-7bb5-ddaa-2d9b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "26bd-a844-711b-bdf6",
+      "name": "Cult Scout Sentinels",
+      "infoLinks": [
+        {
+          "targetId": "9420-2013-27d9-c8cd",
+          "id": "a5fe-91cf-e11d-f26d",
+          "name": "Explodes (Sentinel)"
+        },
+        {
+          "targetId": "eb65-363e-41a8-5cf5",
+          "id": "5ad6-9873-7fc0-d4ca",
+          "name": "Smoke Launchers"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "26bd-a844-711b-bdf6",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "26bd-a844-711b-bdf6",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

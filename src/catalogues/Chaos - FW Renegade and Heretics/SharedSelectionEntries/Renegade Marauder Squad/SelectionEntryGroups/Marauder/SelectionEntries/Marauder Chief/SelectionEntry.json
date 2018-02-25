@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Marauder Chief"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad63-4c08-784b-dfab",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "210c-5888-78cb-6873",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "271a-ec03-44c5-f4ac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "460c-75a3-c9cc-5878",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "df24-ee08-5e10-641c",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3279-b502-67ee-d1c9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "727d-66a9-89a4-3754",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "e830-d9e7-6cbb-cd4b",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "90f3-c2a6-a422-8331",
+      "name": "Marauder Chief"
+    }
+  ]
+}

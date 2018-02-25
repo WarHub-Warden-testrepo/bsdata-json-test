@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Reaver w/ Spar-glaive",
+    "prevIdentifier": "Reaver w/ Shardcarbine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "34e9-ea88-dd6b-4a8d",
+          "id": "4ab3-c146-bfb2-c9b3",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "08e9-cff3-5a58-6cbd",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "40b6-f193-1a86-c23b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b845-007d-ddab-f3ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5f13-17bf-66c9-46d9",
+          "id": "2be4-42ca-2bd3-0d7b",
+          "name": "Spar-glaive"
+        }
+      ],
+      "id": "d87d-1a3b-1d6f-c52b",
+      "name": "Reaver w/ Spar-glaive",
+      "book": "IA - Index Xenos",
+      "page": "78",
+      "infoLinks": [
+        {
+          "targetId": "46d2-7afa-7bb7-af2b",
+          "id": "3c26-0245-5821-e727",
+          "name": "Corsair Reaver"
+        }
+      ]
+    }
+  ]
+}

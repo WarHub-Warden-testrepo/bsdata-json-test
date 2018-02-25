@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Pistols",
+    "prevIdentifier": "Combi-weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "60b7-00a9-f2a0-3690",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e793-b09c-5eac-0c63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "0aa7-3c72-7023-c79d",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "e793-b09c-5eac-0c63",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "6d8f-3f4a-542a-37cd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "db0f-25b1-9272-6855",
+      "name": "Pistols",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "60b7-00a9-f2a0-3690",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2ee9-69f0-7be2-4e98",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "60b7-00a9-f2a0-3690",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "2ee9-69f0-7be2-4e98",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "6a1e-6f99-2cc7-861c",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "e7d3-6be5-3af7-070e",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

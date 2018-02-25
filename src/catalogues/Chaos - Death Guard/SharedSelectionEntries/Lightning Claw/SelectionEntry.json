@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Lightning Claw",
+    "prevIdentifier": "Tallyman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "b785-15f0-966e-73c4",
+      "name": "Lightning Claw",
+      "infoLinks": [
+        {
+          "targetId": "7584-238f-3174-4529",
+          "id": "7030-3181-964e-4390",
+          "name": "Lightning claw"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "b785-15f0-966e-73c4",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Markerlight + Target Lock"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d539-4cac-043b-6926",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "1e57-3c63-b427-9ce5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3c32-5272-ce83-4b29",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cd2d-ace3-9eb2-1b89",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca6b-6ce9-0f0f-8c1b",
+          "id": "d4fd-f9e7-c95c-be29",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3acc-c558-824e-667e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d33-8398-1267-cec5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "68c1-f411-03c4-400c",
+          "id": "e58c-202e-a99d-41be",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f723-25b0-87b8-70bd",
+      "name": "Markerlight + Target Lock"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Malcador Infernus",
+    "prevIdentifier": "Malcador Heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 312.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "04a5-a568-2be0-740e",
+          "id": "34a9-25ba-1b5f-db5d",
+          "name": "Stat Damage (Malcador)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "f6ea-8703-733d-6b61",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab43-d4dd-2d1d-30e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "846d-7bf7-3bcf-81e5",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "a4e4-00cf-afd1-be77",
+      "name": "Malcador Infernus",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5f02-eef0-35ef-3899",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

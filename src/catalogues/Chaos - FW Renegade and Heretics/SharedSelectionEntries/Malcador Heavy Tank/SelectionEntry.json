@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Malcador Heavy Tank",
+    "prevIdentifier": "Twin heavy bolter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 190.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "afda-9b2c-70d7-a20f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "4e20-d338-bac7-8c44",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "2074-8bbb-d253-595c",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "1a11-2819-6d6f-de2f",
+      "name": "Malcador Heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "76d2-f347-70db-7cc5",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "bd7e-dbcd-048f-4332",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Hormagaunts",
+    "prevIdentifier": "Hive Tyrant"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "c5e8-73cf-9152-426e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "6399-716e-0670-89c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "74fa-5291-a01f-3a24",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4fc2-41c4-51b0-e3f5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0843-c3c5-0340-2a53",
+      "name": "Hormagaunts",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "7b14-ff12-7b70-e6fd",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "0843-c3c5-0340-2a53",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "0843-c3c5-0340-2a53",
+              "value": 21.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

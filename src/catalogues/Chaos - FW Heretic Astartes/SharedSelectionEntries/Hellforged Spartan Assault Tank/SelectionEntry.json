@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Hellforged Spartan Assault Tank",
+    "prevIdentifier": "Malignatas beam laser"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 21.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 300.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "9f2e-7eca-5916-070d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2d14-e33b-04ec-3ea4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "5f26-cff3-58e3-dc10",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5aa4-d82d-38db-6dcd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "8880-4455-0250-ac48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "75d7-64b7-7f5b-e537",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "7410-57a7-8402-7c93",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "d283-b1fc-7d8f-b91c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "a7bb-5f25-90b5-c345",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "04d3-02bd-a2fb-166b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6fcd-6c4e-62eb-bf4e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c040-43db-512e-6620",
+          "id": "9e7f-1852-e6c0-dfe9",
+          "name": "Infernal hunger"
+        }
+      ],
+      "id": "eb46-865e-8ccf-a439",
+      "name": "Hellforged Spartan Assault Tank",
+      "book": "",
+      "page": "19",
+      "infoLinks": [
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "0b15-54a2-b741-8fca",
+          "name": "Machina Malifica"
+        },
+        {
+          "targetId": "9adf-09bc-1635-b650",
+          "id": "795a-2e97-6f44-0737",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

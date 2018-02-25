@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Weapon Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "2f8c-978d-8c99-1ee0",
+      "constraints": [
+        {
+          "id": "a95d-417d-f40e-9e35",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b1cc-65fb-a28b-6ee5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9192-d2a5-2003-6af6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "271c-1bd0-bb90-cc69",
+          "id": "2f8c-978d-8c99-1ee0",
+          "name": "Tesla Destructor"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5155-7e5c-3679-8288",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6165-097c-4e61-75da",
+          "id": "008a-099a-2429-c856",
+          "name": "Gauss Exterminator"
+        }
+      ],
+      "id": "109b-bc9c-47b8-7d9e",
+      "name": "Weapon Choice"
+    }
+  ]
+}

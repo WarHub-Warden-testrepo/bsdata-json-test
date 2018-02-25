@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Boss Nob",
+    "prevIdentifier": "Stormboy"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b9a0-9b33-d3ff-5a64",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "2b25-f636-4f6e-8ab4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4d1b-4121-91e0-581b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4f5e-bb8e-27de-f5d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "1ffc-5d9c-bb9e-9e36",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6192-d02e-3e9e-6f3a",
+      "name": "Boss Nob"
+    }
+  ]
+}

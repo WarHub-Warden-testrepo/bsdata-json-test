@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Tartaros Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9951-fb39-792f-d493",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5e68-3e84-f888-ba6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f293-770f-1a8b-d5ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b73b-3105-af3a-542e",
+              "type": 1,
+              "field": "selections",
+              "scope": "e044-89c5-b266-854b",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "da6e-c398-3417-328d",
+          "name": "Grenade harness",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "b73b-3105-af3a-542e",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8b62-c762-5241-b4cd",
+      "name": "Tartaros Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "a6c0-d093-2681-5674",
+          "id": "6e2d-4f04-6751-01bc",
+          "name": "Tartaros Sergeant"
+        }
+      ]
+    }
+  ]
+}

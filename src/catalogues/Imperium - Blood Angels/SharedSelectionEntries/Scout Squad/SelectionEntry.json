@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Scout Squad",
+    "prevIdentifier": "Scout Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "6cec-8e9d-285b-bf5a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "78e6-f21a-cb9c-d043",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "80c5-60c6-7cd2-c8de",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f8c0-cee5-6c4b-371d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3365-ed66-444c-2451",
+          "id": "1be0-9b7e-b840-c75f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9e49-83ed-f3b4-2c16",
+          "id": "70f2-fbf7-d2d1-6dc9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "0415-4f64-a089-3eb2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "76e4-ef9b-a5fc-8864",
+      "name": "Scout Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1570-469c-da1e-4cb2",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "7d16-8f31-c8ac-339b",
+          "id": "c1c5-f67c-f4b6-37c6",
+          "name": "Concealed Positions"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "7368-3677-f327-b4b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "76e4-ef9b-a5fc-8864",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "identifier": "Huron Blackheart",
+    "prevIdentifier": "Heldrake"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "f20e-72ca-e886-3e0b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a11b-ffca-8c56-de0e-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d9d3-16e4-1224-4a3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb55-bd6b-3e75-d505",
+          "id": "83eb-1ffc-c3a2-bd2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5b50-9441-3228-a7b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "5ddb-80c0-f8fb-b6d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b489-2d43-1808-3d98",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "5bde-4efb-5933-49fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dba9-7a7f-1310-3028",
+          "id": "47ba-1ea1-3386-df89",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "17d9-4e4d-f151-003c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d2eb-c251-c617-4314",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "86a4-f97e-d67a-b3e0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a38e-8820-413c-d972",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e3df-2988-8a9f-361f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "69db-8632-3db6-0f07",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "245a-0251-7030-1b78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "f858-e118-651d-eb1a",
+          "name": "Dark Hereticus discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa52-8559-fe02-27cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "22b5-c414-b09c-ea75",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "959e-3dcc-2a70-b7e4",
+          "name": "Smite"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d0f0-e363-19f4-c0cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "795f-33c3-f39e-e7e3",
+          "name": "Warlord"
+        }
+      ],
+      "id": "a11b-ffca-8c56-de0e",
+      "name": "Huron Blackheart",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "c237-7aca-a961-6c59",
+          "id": "22a0-1c59-9db2-fe37",
+          "name": "Sigil of Corruption"
+        },
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "c07d-7c47-1471-a006",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "6862-b0e9-3af0-00f4",
+          "id": "950d-0c62-87cb-58e3",
+          "name": "Eternal Vendetta",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "a11b-ffca-8c56-de0e",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "f20e-72ca-e886-3e0b",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c4a9-5a33-d824-bcf8",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Transport"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0d74-dd72-e26c-b20e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ba23-619b-add5-0be6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a833-ff2e-7cdd-fabb",
+      "name": "Transport"
+    }
+  ]
+}

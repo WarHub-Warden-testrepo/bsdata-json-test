@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Bike Squad",
+    "prevIdentifier": "Scout Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4f27-ccb5-879f-fd42",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6af8-39a6-ba71-1abb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3784-ed40-3442-5260",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "f152-a000-1622-69ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cacc-940d-5be5-0940",
+          "id": "3376-e235-e9d0-badb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a0f4-1ef1-00a6-b9a7",
+      "name": "Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "233f-fe2c-1e37-530a",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "c027-2e84-7468-0607",
+          "id": "6041-ea27-eb81-06c1",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "5409-d1de-7c79-f12f",
+              "type": 1,
+              "field": "selections",
+              "scope": "a0f4-1ef1-00a6-b9a7",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "5409-d1de-7c79-f12f",
+              "type": 1,
+              "field": "selections",
+              "scope": "a0f4-1ef1-00a6-b9a7",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "d958-53c6-ab69-979b",
+              "type": 1,
+              "field": "selections",
+              "scope": "a0f4-1ef1-00a6-b9a7",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

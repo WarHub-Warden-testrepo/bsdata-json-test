@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Tartaros Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3802-2b8d-9425-cc4f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "893d-f184-4b57-e4de",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "95ab-2f5c-6d15-6e51",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "36f0-a1af-dba2-bc57",
+              "type": 1,
+              "field": "selections",
+              "scope": "e03c-a941-a096-325e",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "08ec-51a8-fe17-31b8",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "36f0-a1af-dba2-bc57",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e03c-a941-a096-325e",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "36f0-a1af-dba2-bc57",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "c300-04a5-d4eb-3f53",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e03c-a941-a096-325e",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "6fce-bb31-106c-1b93",
+      "name": "Tartaros Terminator"
+    }
+  ]
+}

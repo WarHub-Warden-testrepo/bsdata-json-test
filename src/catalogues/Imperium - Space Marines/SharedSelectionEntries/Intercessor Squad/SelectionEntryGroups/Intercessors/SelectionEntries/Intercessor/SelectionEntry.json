@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "61f6-2245-1a4b-eb50",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5798-9a14-bf7e-6867",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5afc-5f26-f964-83d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "29fd-bb80-c44d-7348",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0124-21b3-a8f2-ab07",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "28fd-e184-e0d0-1ba0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6e52-3bfe-512f-3a71",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "1df9-f4b9-0610-1c20",
+      "name": "Intercessor"
+    }
+  ]
+}

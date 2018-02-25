@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Distort Fields"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "35f9-5c4a-d1f5-50a8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c3f5-631a-756c-89f9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c46e-dacd-3614-58fd",
+      "name": "Distort Fields"
+    }
+  ]
+}

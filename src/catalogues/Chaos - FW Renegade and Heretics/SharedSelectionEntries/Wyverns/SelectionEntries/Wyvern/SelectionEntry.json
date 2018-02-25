@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Wyvern"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e04a-b150-5c24-4e25",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "d72e-dc7a-0f23-f5c1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "8d51-f329-670d-3760",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "d1d0-ddf9-55bb-08aa",
+          "id": "7476-789e-8d8e-f7cb",
+          "name": "Vehicle Equipment List",
+          "book": "Codex: Astra Militarum",
+          "page": "85"
+        },
+        {
+          "type": 1,
+          "targetId": "1edf-8631-7209-6a23",
+          "id": "a427-6db0-1b6c-c15c",
+          "name": "Hull Weapon"
+        }
+      ],
+      "id": "f14d-d21d-8119-5109",
+      "name": "Wyvern",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "ac84-a4d0-3a58-2a83",
+          "id": "7f0d-c00a-98a6-6535",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "873b-fd31-105e-7416",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "b316-d4cd-bf21-8979",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

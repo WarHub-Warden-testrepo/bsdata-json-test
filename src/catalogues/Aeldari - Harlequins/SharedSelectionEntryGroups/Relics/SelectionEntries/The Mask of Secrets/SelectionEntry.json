@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "The Mask of Secrets"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f055-0820-94aa-69bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a165-5237-8515-7f7b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "99f6-1974-eb7b-e772",
+      "name": "The Mask of Secrets",
+      "book": "Chapter Approved 2017",
+      "page": "93"
+    }
+  ]
+}

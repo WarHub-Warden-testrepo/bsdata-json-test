@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "identifier": "Reiver Squad",
+    "prevIdentifier": "Onslaught Gatling Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5a74-67ec-c62a-d86a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "f653-8edd-d273-1733",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8b4d-ba2a-266e-9a99",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0ffb-9d70-7802-e5e0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2f6a-0e3a-b51d-5ced",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "90f0-6ff0-18b9-a715",
+          "id": "1031-3767-6d52-49a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "73e1-4931-1a94-f870",
+          "id": "df57-b97c-b064-d56e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0a6a-6ab7-115e-61c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8381-6a23-fb5e-69d6",
+          "id": "cc6e-b989-c955-e091",
+          "name": "Grapnel Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "e5ed-26fe-cc43-3bcc",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "b670-1e0a-cfb3-53a9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6f77-e4c8-40f7-6142",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed0-82b8-71c2-20de",
+          "id": "68d3-300d-408e-436a",
+          "name": "Grav Chutes",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "e5ed-26fe-cc43-3bcc",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "b670-1e0a-cfb3-53a9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b670-1e0a-cfb3-53a9",
+      "name": "Reiver Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "a67f-b9b3-9123-2561",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "1baf-0fae-82e1-da51",
+          "id": "2ab5-7306-4012-5d2d",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "e5ed-26fe-cc43-3bcc",
+              "type": 1,
+              "field": "selections",
+              "scope": "b670-1e0a-cfb3-53a9",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Lord Commissar",
+    "prevIdentifier": "Lord Castellan Creed"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2d53-c39f-c97d-5735-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "5988-2982-1dde-215b",
+          "id": "5011-5e0a-93b0-056e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "e243-4b64-73c0-2473",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "71da-decd-f98a-9364",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e075-3cd6-2d3e-8af6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6774-7417-fb25-420a",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d11c-6882-66bd-839e",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "8137-0c83-4f6d-84e9",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "d11c-6882-66bd-839e",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "2d53-c39f-c97d-5735",
+      "name": "Lord Commissar",
+      "book": "Codex: Astra Militarum",
+      "page": "33",
+      "infoLinks": [
+        {
+          "targetId": "74b0-e2c2-29bf-2997",
+          "id": "0b67-d57b-cfda-fac6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f5f1-324f-5ba1-c4ae",
+          "id": "304a-7c82-61fc-d95c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "783d-d067-2d7f-d2a1",
+          "id": "0f65-8a0e-8ae2-373f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

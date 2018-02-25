@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ee0d-871d-cece-c291",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "37db-b3ab-863a-04c1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "dc7f-ee0b-e028-5d0f",
+          "id": "fe64-9c3d-2dbe-34ec",
+          "name": "Elysian Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "30fa-1777-cbca-09e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "74bc-61a8-768b-dd34",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "5959-70f3-d758-a4ff",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "406d-0e11-bddf-7bc9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "18ff-8644-a9b4-b278",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "7ebf-9211-2381-baa8",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "b914-53f4-2623-a653",
+      "name": "Heavy Weapon Team",
+      "page": "0"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Psychic Powers",
+    "prevIdentifier": "Pistol Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "e7ba-e337-5ddd-e517",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "cca1-01a1-45fa-e054",
+          "id": "4cb5-98b8-6ddc-bcfe",
+          "name": "Dark Hereticus Discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "c42c-eae2-fe69-732d",
+          "name": "Discipline of Change"
+        }
+      ],
+      "id": "fdbd-2d62-4d9b-bac1",
+      "name": "Psychic Powers",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e7ba-e337-5ddd-e517",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "6e59-e3c2-836b-3a01",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

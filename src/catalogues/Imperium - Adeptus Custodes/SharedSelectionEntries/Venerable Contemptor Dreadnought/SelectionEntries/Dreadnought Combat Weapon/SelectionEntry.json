@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Dreadnought Combat Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fea5-5c69-ad03-e671",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b10e-61c5-2008-9c2f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "b1cb-19ca-2881-28b2",
+      "name": "Dreadnought Combat Weapon",
+      "infoLinks": [
+        {
+          "targetId": "3b26-3098-155f-0e58",
+          "id": "4d52-a0aa-bd8a-cd69",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

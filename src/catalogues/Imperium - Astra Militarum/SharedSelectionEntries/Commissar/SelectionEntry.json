@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Commissar",
+    "prevIdentifier": "Bullgryns"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5d9c650e-5d0d-3490-f151-8161623ea294-ff36a6f3-19bf-4f48-8956-adacfd28fe74"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "49f9-677b-c882-8eca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5988-2982-1dde-215b",
+          "id": "58f9-fcf6-405b-10c6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "1cae-6aa8-364b-3464",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3c1e-d072-7ef2-75c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ef81-3bca-f771-a5fe",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e9c1-18c2-0bde-1886",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "3ea8-65c5-f73a-d251",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "e9c1-18c2-0bde-1886",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5d9c650e-5d0d-3490-f151-8161623ea294",
+      "name": "Commissar",
+      "book": "Codex: Astra Militarum",
+      "page": "33",
+      "infoLinks": [
+        {
+          "targetId": "74b0-e2c2-29bf-2997",
+          "id": "54bd-bc54-1c97-ecc2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f5f1-324f-5ba1-c4ae",
+          "id": "c61c-558a-9732-4a8f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

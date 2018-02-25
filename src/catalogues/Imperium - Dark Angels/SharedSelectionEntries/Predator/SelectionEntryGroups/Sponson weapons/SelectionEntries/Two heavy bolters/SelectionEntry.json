@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Two heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f824-3520-3074-717b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd33-61e8-2482-46c2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "127b-b417-c1b1-6356",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "f7bc-324a-fa9f-e627",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7748-a6ee-7cdc-478d",
+      "name": "Two heavy bolters"
+    }
+  ]
+}

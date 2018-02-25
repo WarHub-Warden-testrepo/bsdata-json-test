@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "identifier": "Support systems",
+    "prevIdentifier": "Ranged weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "30b2-e542-8c50-af04",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "1ecb-b855-58b9-b976",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c2d0-bc01-030c-ecf9",
+          "id": "f94f-31c6-b1de-0abd",
+          "name": "Shield generator",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "686a-7d0d-b533-2053",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bade-5696-1d4d-3f86",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bcc6-5ed3-90de-f2ea",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "d499-1777-f570-3dd9",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d6a2-d070-e45c-f732",
+          "id": "8777-75dd-e130-f572",
+          "name": "Advanced targeting system"
+        },
+        {
+          "targetId": "37b2-6c11-d0b8-cd39",
+          "id": "d17a-348d-9b3d-c0ce",
+          "name": "Counterfire defence system"
+        },
+        {
+          "targetId": "1e6a-b88e-8437-8cb6",
+          "id": "555c-65a6-6604-7bac",
+          "name": "Drone controller"
+        },
+        {
+          "targetId": "3ff5-ce63-c9f8-b39e",
+          "id": "5378-eb6e-6024-e5e4",
+          "name": "Early warning override"
+        },
+        {
+          "targetId": "5b40-39b3-bafb-e260",
+          "id": "588c-aeaf-4bd9-e380",
+          "name": "Multi-tracker",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "bade-5696-1d4d-3f86",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "686a-7d0d-b533-2053",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bcc6-5ed3-90de-f2ea",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0aa8-115f-69be-9f71",
+          "id": "8818-28fe-27a3-ab36",
+          "name": "Stimulant injector"
+        },
+        {
+          "targetId": "68c1-f411-03c4-400c",
+          "id": "b60b-87d7-2ef1-64da",
+          "name": "Target lock",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "686a-7d0d-b533-2053",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bade-5696-1d4d-3f86",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "725a-82bb-106e-d3d9",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bcc6-5ed3-90de-f2ea",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "902f-866b-9c2b-14bf",
+          "id": "9c6d-5018-e3c4-4070",
+          "name": "Velocity tracker",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "686a-7d0d-b533-2053",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bade-5696-1d4d-3f86",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "725a-82bb-106e-d3d9",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    },
+                    {
+                      "childId": "bcc6-5ed3-90de-f2ea",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "26e2-51af-9251-652e",
+      "name": "Support systems"
+    }
+  ]
+}

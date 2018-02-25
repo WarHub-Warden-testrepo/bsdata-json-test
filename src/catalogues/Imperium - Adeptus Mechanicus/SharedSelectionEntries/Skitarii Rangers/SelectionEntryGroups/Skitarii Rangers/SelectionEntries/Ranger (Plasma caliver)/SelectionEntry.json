@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Ranger (Plasma caliver)",
+    "prevIdentifier": "Ranger (Transuranic Arquebus)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "027f-3e6d-f2c1-33a0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f0bd-b4ec-3c26-bcc3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9def-25f1-bc11-56e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88c6-b649-aaeb-697d",
+          "id": "94bf-83a3-83e9-d7cd",
+          "name": "Plasma caliver"
+        }
+      ],
+      "id": "a2c2-8360-caaf-71e9",
+      "name": "Ranger (Plasma caliver)",
+      "infoLinks": [
+        {
+          "targetId": "195a-45af-3c65-5785",
+          "id": "d1f1-56a9-1566-4853",
+          "name": "Skitarii Ranger"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "027f-3e6d-f2c1-33a0",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "5ec2-817e-c2d8-bb63",
+              "type": 4,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "027f-3e6d-f2c1-33a0",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "678a-124b-83c1-e04a",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "027f-3e6d-f2c1-33a0",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "5899-dec4-7136-a1b9",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

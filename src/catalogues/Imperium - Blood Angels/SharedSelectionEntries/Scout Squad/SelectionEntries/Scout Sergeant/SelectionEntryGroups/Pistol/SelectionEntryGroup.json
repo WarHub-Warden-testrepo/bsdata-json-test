@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Pistol",
+    "prevIdentifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a349-656b-1383-640a",
+      "constraints": [
+        {
+          "id": "4774-205f-ba0a-e793",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "95c8-c7d2-46c9-59ea",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e70d-c28c-c352-8156",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "a349-656b-1383-640a",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "21fc-e1cb-f8cf-450d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5040-98cd-3b1c-47a2",
+          "id": "cf74-52d1-50d7-1bf6",
+          "name": "Sergeant equipment"
+        }
+      ],
+      "id": "55bc-1959-a1b8-93be",
+      "name": "Pistol"
+    }
+  ]
+}

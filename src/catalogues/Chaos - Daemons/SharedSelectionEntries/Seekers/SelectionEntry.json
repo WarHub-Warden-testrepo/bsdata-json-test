@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Seekers",
+    "prevIdentifier": "Seeker Chariot"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "ae6c-840b-7bb6-6667"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "35e0-9263-5509-e7cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "ba75-4fbd-f3d3-e05b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "3a00-965e-0db4-f0b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "abf0-09e1-11f1-72a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31eb-b14e-89a2-73d1",
+          "id": "9e20-a472-1b2d-75a3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4000-671a-2fe3-75bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 19.0,
+              "shared": true
+            },
+            {
+              "id": "2eb8-cac7-11a1-18ec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3ff1-7a64-c44b-3e20",
+          "id": "82e7-4403-a875-cd71",
+          "name": "Seeker"
+        }
+      ],
+      "id": "2672-8419-33c0-5026",
+      "name": "Seekers",
+      "page": "0",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "8d8d-1868-6888-7217",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "a5c2-dd59-7533-4dd8",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "879f-7b47-bc3b-f770",
+          "id": "c168-9313-bdf3-5a39",
+          "name": "Quicksilver Swiftness"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2672-8419-33c0-5026",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "16",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2672-8419-33c0-5026",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "20",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2672-8419-33c0-5026",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

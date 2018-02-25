@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "identifier": "Inquisitor Karamazov",
+    "prevIdentifier": "Inquisitor Coteaz"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6ef4-d3ea-dee1-e2d8",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "25dd-e9e7-15ed-417f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "252e-a489-bc26-caa4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8405-19dd-bf6a-0304",
+          "id": "0997-58cf-40fe-dfe3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "3a12-88ba-c89c-50cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "78cc-daf7-1448-610f",
+          "id": "91ef-65a0-ba26-792e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "81c7-acc7-a65f-f6dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e162-a27d-df30-3ea9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9d23-57b8-72c2-d750",
+          "id": "6796-0252-fd96-0ec4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "879a-813c-2d46-2443",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5f95-16d1-37e7-f420",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "42dc-1cc4-f53e-929e",
+          "name": "Warlord"
+        }
+      ],
+      "id": "59d5-160c-f21d-6e49",
+      "name": "Inquisitor Karamazov",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "3dec-967b-c8fd-af29",
+          "id": "224a-f7fa-57e5-73fd",
+          "name": "Quarry - Hereticus"
+        },
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "70c5-3548-0730-3e97",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "a5c6-57fb-a789-3dec",
+          "name": "Unquestionable Wisdom"
+        },
+        {
+          "targetId": "429a-6af1-4e37-1330",
+          "id": "3ca3-06c6-df7c-fa95",
+          "name": "Iron Will"
+        }
+      ]
+    }
+  ]
+}

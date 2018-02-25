@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Twin Heavy Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6aba-95a5-ed1f-59f4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cf3e-b160-4eda-6ef1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c045-0e77-3d43-5b31",
+      "name": "Twin Heavy Bolter",
+      "infoLinks": [
+        {
+          "targetId": "e2b0-b9f1-6c38-584c",
+          "id": "8bdd-fb11-bf26-de84",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Ironstrider Ballistarii",
+    "prevIdentifier": "Ironstrider Ballistarius"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "2237-ff86-9a14-f011",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "43ae-1eed-ec1d-03bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "9b5e-df54-4553-7fef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "85b2-25f3-5798-37ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "92e3-2e36-6705-bda0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cdee-83f1-5387-56cc",
+          "id": "d752-6eec-819f-19bc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3830-89d5-2a8c-a333",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "a9c1-1eee-110d-fa87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "e6bb-9709-ba04-631d",
+          "id": "81a7-0dbb-8ce7-d3f8",
+          "name": "Ironstrider Ballistarius"
+        }
+      ],
+      "id": "bd87-5ad4-01bf-3025",
+      "name": "Ironstrider Ballistarii",
+      "infoLinks": [
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "0102-0bf9-4bad-5912",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "9a87-44e5-f4b4-8e5e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5598-d415-3456-e531",
+          "id": "04a6-a9a1-53c3-1bef",
+          "name": "Explodes "
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

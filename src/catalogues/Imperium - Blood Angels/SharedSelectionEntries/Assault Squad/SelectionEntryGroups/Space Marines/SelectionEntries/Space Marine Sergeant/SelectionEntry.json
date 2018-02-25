@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ab26-9ae7-a5a3-7944",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5621-f45f-b3d3-8bc5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2a92-5830-aca2-6389",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2792-c0fb-d72e-cee4",
+          "id": "b8cc-856a-2543-aece",
+          "name": "Combat shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aff6-51b1-73d6-c365",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "c1fa-3a74-8547-bb48",
+          "name": "Melta bombs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a46f-a329-58c0-6b55",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6dc8-e565-3141-ad51",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "00e3-248c-1bb2-127a",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "f7de-2f60-f5ad-b3f5",
+      "name": "Space Marine Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "3051-055d-2641-1142",
+          "id": "1a6f-f808-1df5-479c",
+          "name": "Space Marine Sergeant",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "e695-5fd9-c147-477f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

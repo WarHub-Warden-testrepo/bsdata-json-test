@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Shotgun",
+    "prevIdentifier": "Veteran W/ Heavy Flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "23a1-1a71-a892-7838",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bda7-3db8-f171-dad6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "42e8-8a00-b14f-1c66",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0c10-2808-861b-5a07",
+          "id": "de6a-7294-8032-9ae5",
+          "name": "Shotgun"
+        }
+      ],
+      "id": "d4c4-02c8-21dc-0abc",
+      "name": "Veteran w/ Shotgun",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "0c82-7a61-548e-4936",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Beast Unit",
+    "prevIdentifier": "Court of the Archon"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d88b-2e76-5fe3-f56e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "c8ef-150f-2357-98b0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "4cc1-8463-9dac-18ad",
+      "name": "Beast Unit",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "d88b-2e76-5fe3-f56e",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "fc0e-9baa-f757-8eb3",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

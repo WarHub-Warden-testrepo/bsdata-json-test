@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Heavy Bolter)",
+    "prevIdentifier": "Space Marine (Lascannon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ca72-e67d-a484-0486",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "447d-f437-07b5-b6c0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f5a6-291a-54be-1e6e",
+          "id": "4a2e-abd6-a6b2-3282",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "4514-61f0-4039-82a3",
+      "name": "Space Marine (Heavy Bolter)",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "5d84-d590-34d6-3118",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

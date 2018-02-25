@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8695-3076-ca0c-b7de",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a779-701d-0cda-a3e5",
+      "name": "Renegade Militia Weapon Team",
+      "modifiers": [
+        {
+          "field": "8695-3076-ca0c-b7de",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "517d-ad0d-cf72-801f",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

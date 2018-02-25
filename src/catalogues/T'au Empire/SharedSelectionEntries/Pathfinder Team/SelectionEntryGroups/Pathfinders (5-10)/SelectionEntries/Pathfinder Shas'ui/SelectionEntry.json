@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "identifier": "Pathfinder Shas'ui",
+    "prevIdentifier": "Pathfinder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0666-9c31-5cb8-d714",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1229-550f-42ec-9fdd",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "73db-668e-aef6-84cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dc01-7fd4-03f2-f59f",
+          "id": "32ff-4cd7-efac-dce1",
+          "name": "Pulse pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "14e4-6aa3-4803-52e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "44bf-3d2b-9cb6-df02",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca6b-6ce9-0f0f-8c1b",
+          "id": "e376-2329-2df0-ba0a",
+          "name": "Markerlight"
+        },
+        {
+          "constraints": [
+            {
+              "id": "99c2-d61c-4b85-4d74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ec05-d024-3a0f-5a6a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "7f5a-5196-508a-e161",
+          "name": "Photon grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fac6-4b17-14f0-a472",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d6d2-10fe-ae4e-ad19",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb97-7f88-6b4b-67b6",
+          "id": "aa24-e5c1-8639-ffc7",
+          "name": "Pulse carbine"
+        }
+      ],
+      "id": "e304-4287-3521-213a",
+      "name": "Pathfinder Shas'ui",
+      "infoLinks": [
+        {
+          "targetId": "7481-4ec7-1a4e-4a89",
+          "id": "110c-574a-27ba-8bcf",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

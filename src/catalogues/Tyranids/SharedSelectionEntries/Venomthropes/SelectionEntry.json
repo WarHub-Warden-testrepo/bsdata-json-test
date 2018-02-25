@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Venomthropes",
+    "prevIdentifier": "Tyrant Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "6adf-032b-56b9-e030",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "4548-2163-73c8-b0ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "abab-50f6-2c28-a252",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "ec73-bf8d-2338-af5a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "305e-2960-58f5-57a8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "90b8-1695-18c9-1512",
+      "name": "Venomthropes",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "6dfb-93f5-2b78-07cb",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "90b8-1695-18c9-1512",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

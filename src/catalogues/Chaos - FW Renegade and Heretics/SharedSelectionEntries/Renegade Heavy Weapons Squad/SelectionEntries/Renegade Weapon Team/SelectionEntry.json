@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Renegade Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6fe4-5987-32ce-7d19",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "c3a8-1a05-8fad-dd3a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "40d3-ec24-06df-eb63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b0a4-b53d-a705-55c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "2084-942e-dcc7-b199",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "39f3-48ff-08f7-cb95",
+      "name": "Renegade Weapon Team"
+    }
+  ]
+}

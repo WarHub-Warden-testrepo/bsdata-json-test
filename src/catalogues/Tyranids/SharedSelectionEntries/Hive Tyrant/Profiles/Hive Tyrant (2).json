@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Hive Tyrant (2)",
+    "prevIdentifier": "Hive Tyrant (3)"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "1d35-9cf8-74f1-32c4",
+      "profileTypeName": "Stat Damage - M, WS & BS",
+      "characteristics": [
+        {
+          "name": "Remaining W",
+          "characteristicTypeId": "b727-51df-e04a-19d7",
+          "value": "4-6"
+        },
+        {
+          "name": "Movement",
+          "characteristicTypeId": "d77f-9965-665b-2d01",
+          "value": "7\""
+        },
+        {
+          "name": "WS",
+          "characteristicTypeId": "a29c-7b92-a163-2f4f",
+          "value": "3+"
+        },
+        {
+          "name": "BS",
+          "characteristicTypeId": "dad3-29bb-36d1-1a83",
+          "value": "3+"
+        }
+      ],
+      "id": "abf8-a139-9944-84c6",
+      "name": "Hive Tyrant (2)",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ff28-18da-271b-f347",
+              "type": 4,
+              "field": "selections",
+              "scope": "add7-3535-a4cd-9ba5",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

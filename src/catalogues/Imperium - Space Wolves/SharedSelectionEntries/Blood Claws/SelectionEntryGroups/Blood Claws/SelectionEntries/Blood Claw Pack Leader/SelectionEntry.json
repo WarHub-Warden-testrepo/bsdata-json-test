@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Blood Claw Pack Leader",
+    "prevIdentifier": "Blood Claw"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6aaf-8f5f-76c8-cbfa",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0702-7bac-c4bc-ef09",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "768f-06bc-f347-a1a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "228d-beac-76be-9f77",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "8cd6-144e-04d2-7d84",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "192b-39d9-2c3d-da3f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c567-eda7-902b-e260",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9089-1a44-6d85-e7da",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ef81-8f33-c453-8ea0",
+      "name": "Blood Claw Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "2288-7e30-484e-90fc",
+          "id": "fb4f-7a2d-72eb-d49b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

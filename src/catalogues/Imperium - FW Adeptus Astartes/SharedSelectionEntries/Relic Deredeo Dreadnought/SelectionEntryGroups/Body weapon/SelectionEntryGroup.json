@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Body weapon",
+    "prevIdentifier": "Arms weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5d6c-f719-71f3-507d",
+      "constraints": [
+        {
+          "id": "0201-07dc-557d-38fe",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8386-9518-da46-522e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5847-2e43-fe1d-633a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c2d4-fdf7-7bae-33ad",
+          "id": "5d6c-f719-71f3-507d",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "51bf-0ad7-6c86-85da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd6e-b6c1-3472-e269",
+          "id": "f590-a565-be23-fc3e",
+          "name": "Twin heavy flamer"
+        }
+      ],
+      "id": "1c92-2153-6f74-3191",
+      "name": "Body weapon"
+    }
+  ]
+}

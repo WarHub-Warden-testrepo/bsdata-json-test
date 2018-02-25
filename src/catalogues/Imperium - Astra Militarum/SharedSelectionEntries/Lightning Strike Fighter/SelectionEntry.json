@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Lightning Strike Fighter",
+    "prevIdentifier": "Cyclops Demolition Vehicle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d7fd-88e4-6bfe-aa4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9d93-343c-78c5-3047",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "e067-3f1a-6aff-0d1e",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "7ae8-c0e1-5305-4e16",
+      "name": "Lightning Strike Fighter",
+      "infoLinks": [
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "3e57-1881-2601-6a9b",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "4067-b94d-c195-d939",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "82c4-8371-18e1-ea52",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "840b-6b8f-df56-8496",
+          "name": "Crash and Burn"
+        }
+      ]
+    }
+  ]
+}

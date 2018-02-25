@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits  (Codex: Blood Angels)",
+    "prevIdentifier": "Warlord Traits"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "a57e-2b6c-ea27-791b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2ec6-a5f9-9dc1-93e5",
+          "id": "adfd-adc7-f21e-b462",
+          "name": "1. Speed of the Primarch"
+        },
+        {
+          "targetId": "73a7-1838-fbc4-b242",
+          "id": "0197-b805-4623-c2aa",
+          "name": "Artisan of War"
+        },
+        {
+          "targetId": "58d2-aee8-1337-a246",
+          "id": "b95f-82e6-0367-e166",
+          "name": "3. Soulwarden"
+        },
+        {
+          "targetId": "f000-3a97-306f-1264",
+          "id": "782e-7ed6-d187-62d4",
+          "name": "4. Heroic Bearing"
+        },
+        {
+          "targetId": "1d05-f4aa-e4ff-548f",
+          "id": "a91f-5a72-77eb-6547",
+          "name": "Gift of Foresight"
+        },
+        {
+          "targetId": "5aac-e94d-2bcf-c1d1",
+          "id": "5c74-7a9a-96d0-a897",
+          "name": "6. Selfless Valour"
+        }
+      ],
+      "id": "f754-c641-2e0a-5e90",
+      "name": "Warlord Traits  (Codex: Blood Angels)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "fe32-ce90-4d6d-1883",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

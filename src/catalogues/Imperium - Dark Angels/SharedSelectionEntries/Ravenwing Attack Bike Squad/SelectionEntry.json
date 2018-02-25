@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Attack Bike Squad",
+    "prevIdentifier": "Ravenwing Attack Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a623-e40a-6628-be55",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c830-0da8-993f-8560",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5388-a671-66a8-6bc0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0b95-eb8c-65ad-ba62",
+          "id": "7a65-9386-72fa-ca3b",
+          "name": "Ravenwing Attack Bike"
+        }
+      ],
+      "id": "9708-ae44-dfd5-4b22",
+      "name": "Ravenwing Attack Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "e2ab-b546-3843-a77e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "06c3-2dd6-551a-5ea1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "ed09-d545-0c5f-9985",
+          "name": "Turbo-Boost"
+        }
+      ]
+    }
+  ]
+}

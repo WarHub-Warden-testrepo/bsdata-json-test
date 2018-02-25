@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Da Beast",
+    "prevIdentifier": "Da Pain Klaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "926b-00a8-03f6-06db",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "820a-437b-8216-4e17",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2b0d-5fa1-ce2a-59f0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1e42-5c85-239d-475f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6008-4737-d8e6-e63b",
+          "id": "c542-ed2f-b5fa-e470",
+          "name": "Big Shoota"
+        }
+      ],
+      "id": "cbb9-9ca4-cd38-bcf7",
+      "name": "Da Beast"
+    }
+  ]
+}

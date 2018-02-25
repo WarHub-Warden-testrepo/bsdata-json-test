@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "identifier": "Battalion Detachment +3CP",
+    "prevIdentifier": "Patrol Detachment"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "0e1f-72c2-388e-0869",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9fdc-aad8-04dc-bf45",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "9d84-0125-d23f-786e",
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "dc98-c3a9-900b-5345",
+          "name": "HQ"
+        },
+        {
+          "constraints": [
+            {
+              "id": "058b-2417-368a-4d3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "b397-7bc5-a7ef-0345",
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "661b-1f7f-2072-c68b",
+          "name": "Troops"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4137-b9ab-7541-4fab",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "a2eb-3d38-65c9-7f8c",
+          "name": "Elites"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bfea-6d49-c363-b5da",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "bdc2-a72f-6142-ad2a",
+          "name": "Fast Attack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ef09-021e-4bc9-4715",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "4aa4-d6f8-2d17-3d40",
+          "name": "Heavy Support"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b188-b223-0281-a60d",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "9d2e-2da7-d87a-594e",
+          "name": "Flyer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dd16-f9e4-6928-db00",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "461e-243a-a521-ed54",
+          "name": "Dedicated Transport",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "dd16-f9e4-6928-db00",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "e888-1504-aa61-95ff",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "70a3-5965-8dfd-0dff",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "564e-55d5-79bc-a4d7",
+      "name": "Battalion Detachment +3CP"
+    }
+  ]
+}

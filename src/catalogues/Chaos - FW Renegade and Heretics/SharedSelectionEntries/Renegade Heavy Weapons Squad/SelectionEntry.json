@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Renegade Heavy Weapons Squad",
+    "prevIdentifier": "Renegade Plague Ogryns"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "8a62-9d87-e2ab-cb57",
+      "name": "Renegade Heavy Weapons Squad",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "4e6e-4266-9935-f684",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "16c4-43c1-23ac-b8ef",
+          "name": "Chaos Covenant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "8a62-9d87-e2ab-cb57",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

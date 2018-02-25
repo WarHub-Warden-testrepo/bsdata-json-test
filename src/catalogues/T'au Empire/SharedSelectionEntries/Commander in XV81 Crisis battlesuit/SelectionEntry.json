@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "identifier": "Commander in XV81 Crisis battlesuit",
+    "prevIdentifier": "Shas'o R'alai"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 76.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "078d-978a-958b-a6e9",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "e78f-68d9-b6e3-a9b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "ac67-1fca-7b58-1c9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3664-e22a-a4b3-9470",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c3de-c209-3d31-a93f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "075d-a2fb-97ba-49f4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ec83-c135-373b-cb7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "7432-96c7-f6dc-7f60",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "257e-82d7-82b7-4434",
+          "id": "e83d-55bb-a9c0-6604",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606",
+          "id": "9844-4950-cef4-4661",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "cf81-ae91-468b-98af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "aea3-5816-917f-8758",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9a4-f226-9e5d-49b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4021-ae66-0bb9-20da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2153-5782-dad5-ef5e",
+          "id": "f7b3-6bff-e49d-cbbf",
+          "name": "Smart missile system"
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "2e5d-c3d2-898e-e036",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ba9a-a43c-7240-db74",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "9aa7-098e-c65f-5f18",
+          "id": "7612-35fe-262e-3b92",
+          "name": "Puretide Engram Neurochip"
+        }
+      ],
+      "id": "0765-f022-920e-12eb",
+      "name": "Commander in XV81 Crisis battlesuit",
+      "book": "IAI: Xenos",
+      "page": "42",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "df96-ac77-ab85-3ca9",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "02f2-adda-f001-b312",
+          "id": "95f9-385b-2f0b-d957",
+          "name": "Master of War"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "35f6-6c7b-31df-b4bb",
+          "name": "Manta Strike"
+        },
+        {
+          "targetId": "8461-c4ff-7f28-6c31",
+          "id": "f7e6-0569-fc8c-9d3f",
+          "name": "Commander in XV81 Crisis battlesuit"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "aea3-5816-917f-8758",
+              "type": 4,
+              "field": "selections",
+              "scope": "0765-f022-920e-12eb",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

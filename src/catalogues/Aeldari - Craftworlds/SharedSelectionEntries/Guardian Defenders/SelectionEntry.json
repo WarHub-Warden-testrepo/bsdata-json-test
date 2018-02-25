@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Guardian Defenders",
+    "prevIdentifier": "Spiritseer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "c472-bb01-7d0b-8743",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "d8aa-5ab3-e2e0-96c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "8c77-0097-177a-98b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6e32-5dcc-91f4-328b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "6c27-4dd6-e15d-aee2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "77ed-f39c-0344-0984",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0341-e29a-e0ec-acd4",
+      "name": "Guardian Defenders",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "e336-16ea-3426-4865",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "e26c-f5d4-3840-38ee",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "c758-aaf5-4754-8653",
+              "type": 1,
+              "field": "selections",
+              "scope": "0341-e29a-e0ec-acd4",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

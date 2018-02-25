@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "2 Autocannon",
+    "prevIdentifier": "Two Missile Launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a1f8-d25a-7760-4939",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f87d-8a59-debc-fbe1",
+      "name": "2 Autocannon",
+      "infoLinks": [
+        {
+          "targetId": "fa99-0671-b31a-22d7",
+          "id": "e522-7c3e-b243-137f",
+          "name": "Autocannon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "30"
+        }
+      ]
+    }
+  ]
+}

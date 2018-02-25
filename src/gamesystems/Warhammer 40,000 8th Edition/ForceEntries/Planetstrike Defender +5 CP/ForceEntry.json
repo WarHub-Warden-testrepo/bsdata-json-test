@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "identifier": "Planetstrike Defender +5 CP",
+    "prevIdentifier": "Planetstrike Attacker +5 CP"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "0b64-fa2c-fe0a-f9de",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7881-e2a1-efe3-ec8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "aa5c-ef89-d9dc-c8ef",
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7d81-8310-6094-cf8d",
+          "name": "HQ"
+        },
+        {
+          "constraints": [
+            {
+              "id": "79c3-96c1-d10f-343d",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "a53f-10de-0d0b-210a",
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "38fb-adc3-e7fd-8c60",
+          "name": "Troops"
+        },
+        {
+          "constraints": [
+            {
+              "id": "feab-fb5a-e238-40c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "014c-9365-320c-f41e",
+          "name": "Elites"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4644-c976-dedb-dfc0",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "3a52-1f6c-9ff8-c340",
+          "name": "Fast Attack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cf16-4bce-3c83-2736",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "4cf4-226b-660e-a0aa",
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "8590-a401-cb74-b5b3",
+          "name": "Heavy Support"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7199-bb08-0039-d29b",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "dee8-6d46-4f0e-52ad",
+          "name": "Flyer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ee38-3431-abb2-9e62",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "e868-759d-d0b4-de3e",
+          "name": "Dedicated Transport",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "ee38-3431-abb2-9e62",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "e888-1504-aa61-95ff",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "3c3b-27e3-c0b7-b3ee",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "810f-6b53-1e3b-fe9d",
+      "name": "Planetstrike Defender +5 CP",
+      "book": "Chapter Approved 2017",
+      "page": "34"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Astra Militarum Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8ee2-d4a0-45fb-7b15",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "496b-1188-c3d7-d250",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "1c76-a43e-7328-4eb7",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a991-3ccf-3a02-1d93",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "22e2-9553-9bb5-1ffe",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2a89-d628-93e9-66f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "9794-4968-d936-5639",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "id": "75f5-9e60-2f4d-cd89",
+      "name": "Astra Militarum Special Weapons"
+    }
+  ]
+}

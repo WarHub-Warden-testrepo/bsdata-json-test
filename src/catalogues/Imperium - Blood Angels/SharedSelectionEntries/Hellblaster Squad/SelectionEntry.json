@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Hellblaster Squad",
+    "prevIdentifier": "Drop Pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "a52b-b134-61b3-e051",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "a896-415a-1797-d3a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "ec7d-64df-2c33-c5c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "8d29-b08b-2300-6dbf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3594-8c93-395d-5389",
+          "id": "15b3-db48-d857-cc56",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7b11-b8a6-e7dc-fbf6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df09-a39a-dd33-89f7",
+          "id": "6a3f-fdfe-f00a-d9ae",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "bba6-c012-3bfb-8cf4",
+      "name": "Hellblaster Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "897c-c368-94cc-7fc3",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "9df5-1319-f610-c730",
+              "type": 1,
+              "field": "selections",
+              "scope": "bba6-c012-3bfb-8cf4",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Relentless March",
+    "prevIdentifier": "Dogma: Shroud Protocols"
+  },
+  "rules": [
+    {
+      "description": "If a unit with this Dogma Advances, it can ignore the penalty for firing Assault weapons and treats all Rapid Fire weapons it is armed with as Assault weapons until the end of the turn.",
+      "id": "abce-c0d7-146c-27a7",
+      "name": "Dogma: Relentless March",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "398f-cf30-2355-c34f",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

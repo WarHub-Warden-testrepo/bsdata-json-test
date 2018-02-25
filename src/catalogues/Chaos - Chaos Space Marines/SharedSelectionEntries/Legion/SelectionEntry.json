@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Legion",
+    "prevIdentifier": "Rubric Marines"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7c88-0747-313c-da1f",
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "128b-9eeb-e2a9-6323",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "e4af-f3b9-d921-e50b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "3c82-3712-f5d1-daca",
+          "id": "922b-abe3-887e-ff59",
+          "name": "Legion"
+        }
+      ],
+      "id": "5e4e-743a-611e-3fb6",
+      "name": "Legion"
+    }
+  ]
+}

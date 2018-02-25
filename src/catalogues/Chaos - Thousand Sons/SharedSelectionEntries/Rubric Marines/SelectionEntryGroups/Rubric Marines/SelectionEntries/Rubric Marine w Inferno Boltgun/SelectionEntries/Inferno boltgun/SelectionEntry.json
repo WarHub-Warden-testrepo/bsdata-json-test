@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Inferno boltgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "279b-2fb9-66ef-b364",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "33ec-295a-bde7-9c46",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d783-25cb-ae60-0860",
+      "name": "Inferno boltgun"
+    }
+  ]
+}

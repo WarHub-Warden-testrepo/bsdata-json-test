@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant",
+    "prevIdentifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cdab-e47e-77d8-f657",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4af8-eb11-e2e7-fde4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fb1c-93d0-4c9b-a498",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e913-aac8-0d67-8c2a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5863-77ec-8d49-d429",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "673b-8a4d-165c-153c",
+      "name": "Veteran Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "5b4c-3b1f-69d8-a84c",
+          "id": "b3c1-28ce-97b6-0ad7",
+          "name": "Veteran Sergeant"
+        }
+      ]
+    }
+  ]
+}

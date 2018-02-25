@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Monstrous Rending Claws",
+    "prevIdentifier": "Monstrous Boneswords"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4401-9d9e-2fdc-8f95",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "ad36-e646-f921-335f",
+      "name": "Monstrous Rending Claws",
+      "infoLinks": [
+        {
+          "targetId": "b391-f574-987c-6398",
+          "id": "3535-853f-9d2d-a907",
+          "name": "Monstrous Rending Claws"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "4401-9d9e-2fdc-8f95",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "b3c9-1518-d0bd-68a8",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "a50e-4043-d535-0f3a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

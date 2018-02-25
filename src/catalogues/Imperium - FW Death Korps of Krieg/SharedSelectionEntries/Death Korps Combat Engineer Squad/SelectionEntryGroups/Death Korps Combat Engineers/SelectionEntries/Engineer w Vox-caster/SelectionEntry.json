@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Engineer w/Vox-caster",
+    "prevIdentifier": "Combat Engineers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d423-2a63-73ae-b2b1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dc40-eecc-3107-053a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "930a-6c2b-c229-6c4a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fedb-9b46-7668-7a55",
+          "id": "30fb-162f-c3e7-01e2",
+          "name": "Death Korps Vox-caster"
+        },
+        {
+          "targetId": "f99b-d266-a2d5-9561",
+          "id": "de9e-7c5d-e8b0-d27b",
+          "name": "Krieg Combat Shotgun"
+        },
+        {
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "ce6a-8f4a-f751-36d2",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d6ec-85d8-c958-b467",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e562-31f0-9b24-7fc6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "79fd-e5d8-eb7b-78e1",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "dea1-6721-7d62-651b",
+      "name": "Engineer w/Vox-caster",
+      "infoLinks": [
+        {
+          "targetId": "549d-0922-9d7f-5283",
+          "id": "5b3a-6186-ae34-55c3",
+          "name": "Death Korps Engineer"
+        }
+      ]
+    }
+  ]
+}

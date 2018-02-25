@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Swiftclaw Pack Leader",
+    "prevIdentifier": "Swiftclaw"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 23.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "88d4-5e50-7ac0-555b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "06b3-f693-ef11-c84d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bcde-5a5e-daa7-7bf6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4466-c616-2cb2-4b6d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "731f-206f-6ffe-45f5",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6b2d-9032-3bb8-fefe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6c72-8b2d-caa4-f263",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6b9b-b4f9-5dfb-f122",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d416-f719-7aad-b139",
+      "name": "Swiftclaw Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "89ae-a42f-695f-9eb9",
+          "id": "ae74-5814-05a2-d71c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

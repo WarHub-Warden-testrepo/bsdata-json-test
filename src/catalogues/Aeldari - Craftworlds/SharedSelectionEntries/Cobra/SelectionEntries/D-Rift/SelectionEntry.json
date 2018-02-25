@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "D-Rift",
+    "prevIdentifier": "Distort Fields"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "559d-bfc8-933c-43eb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c33c-6ac5-b704-071b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f444-1c87-0b35-608d",
+      "name": "D-Rift"
+    }
+  ]
+}

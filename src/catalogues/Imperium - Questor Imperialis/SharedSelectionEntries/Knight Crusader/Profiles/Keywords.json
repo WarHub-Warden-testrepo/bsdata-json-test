@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Keywords",
+    "prevIdentifier": "Knight Crusader 3"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "IMPERIUM, QUESTOR IMPERIALIS / QUESTOR MECHANICUS, <HOUSEHOLD>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "TITANIC, VEHICLE, KNIGHT CRUSADER"
+        }
+      ],
+      "id": "e086-1abc-fdc6-7a10",
+      "name": "Keywords",
+      "modifiers": [
+        {
+          "type": 3,
+          "field": "ce6c-4765-4bb8-bd49",
+          "value": ", CHARACTER",
+          "conditions": [
+            {
+              "childId": "5973-c86d-b500-4a14",
+              "type": 2,
+              "field": "selections",
+              "scope": "bce6-bc24-a327-fc1c",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

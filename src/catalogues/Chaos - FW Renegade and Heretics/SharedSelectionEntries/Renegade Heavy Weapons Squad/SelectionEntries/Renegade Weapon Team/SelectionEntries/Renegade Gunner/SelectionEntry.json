@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Renegade Gunner"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9d70-9470-afb0-afdc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "77da-1042-15f4-3009",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "4801-7a66-89b0-167d",
+      "name": "Renegade Gunner"
+    }
+  ]
+}

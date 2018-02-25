@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Warlord",
+    "prevIdentifier": "Heavy Plasma Incinerator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6d3f-441b-ee90-4d4d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1bdc-f877-a03b-a6b7",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "25ab-3c66-3dc4-0e00",
+          "id": "7352-7717-889e-9a6e",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ed3b-0996-efb2-d25a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3435-2474-78fe-7507",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "e79b-be60-30d6-e251",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7a97-bfd8-a34b-5c04",
+      "name": "Warlord"
+    }
+  ]
+}

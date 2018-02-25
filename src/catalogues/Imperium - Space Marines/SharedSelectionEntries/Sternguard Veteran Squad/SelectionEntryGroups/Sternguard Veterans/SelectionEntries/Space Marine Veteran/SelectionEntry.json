@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5d7f-e899-ee2c-6493",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "30ae-c4cb-de3b-221a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fe65-af27-6ffd-c8e2",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3cb3-0c8e-48db-14a8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "709e-10b7-4405-37eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "ed55-9bad-a8f4-15db",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "2c8f-f6ae-5fc8-dc83",
+      "name": "Space Marine Veteran"
+    }
+  ]
+}

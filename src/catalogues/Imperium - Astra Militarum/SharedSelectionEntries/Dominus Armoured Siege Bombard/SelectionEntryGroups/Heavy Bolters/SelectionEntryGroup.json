@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Heavy Bolters"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "98ae-8e50-ed4e-8914",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "6a22-a2ba-8885-8b4b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1bb9-3335-0148-070c",
+          "id": "5b93-94dd-3037-3f53",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            },
+            {
+              "field": "3381-7ea0-4afa-fb49",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "targetId": "4100-1e42-1e80-3ccc",
+          "id": "31e6-3721-4ad4-3459",
+          "name": "Heavy Bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            },
+            {
+              "field": "0919-53a7-9ab6-341b",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e828-55f2-1242-41a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "ab0b-5438-11bd-53a5",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "targetId": "31a0-886c-d78c-e6dc",
+          "id": "64b0-824e-51e9-3b19",
+          "name": "Heavy Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            },
+            {
+              "field": "5ee1-83ca-cde5-e7f0",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "id": "05bc-d8a5-c7d1-222d",
+      "name": "Heavy Bolters"
+    }
+  ]
+}

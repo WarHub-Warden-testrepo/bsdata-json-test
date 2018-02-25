@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Hot-shot Lasgun",
+    "prevIdentifier": "Heavy Weapons Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "8503fbf4-c4d5-a440-ff24-a933853eef67",
+      "name": "Hot-shot Lasgun",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f520-ae1d-d755-7ab9",
+          "id": "b5e6-2a63-3add-29e4",
+          "name": "Hot-shot Lasgun"
+        }
+      ]
+    }
+  ]
+}

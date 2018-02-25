@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Watch Master Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e3b7-52c0-9672-60db",
+      "constraints": [
+        {
+          "id": "9d21-d90f-87d1-69e5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ab13-2915-3145-c882",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dfb9-c718-28c2-b2d8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "e3b7-52c0-9672-60db",
+          "name": "Lasgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "329f-b813-3ef4-2183",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "410c-a331-d1e0-0a7a",
+          "id": "2fcd-8d6f-b629-46ff",
+          "name": "DKOK Melee Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c65e-f6a6-959e-9803",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b74-9bd4-e59d-2ea3",
+          "id": "b05a-af3e-4d5e-e693",
+          "name": "DKOK Ranged Weapons"
+        }
+      ],
+      "id": "e103-13a8-6469-aa5e",
+      "name": "Watch Master Weapons",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "ab13-2915-3145-c882",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "e103-13a8-6469-aa5e",
+              "type": 2,
+              "field": "selections",
+              "scope": "00b3-34c4-aff2-7176",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

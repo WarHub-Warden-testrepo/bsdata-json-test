@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Guardsmen"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "72399f12-2ec9-f9f0-24b9-387a462021bf",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "id": "19a0e1ac-6ddf-1317-33c2-873ad21ea2f1",
+      "name": "Guardsmen",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "maxSelections",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "13c6-2598-83e6-61e9",
+              "type": 2,
+              "field": "selections",
+              "scope": "2df54b12-1848-0cde-11ca-2aaebb9acaec",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "minSelections",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "13c6-2598-83e6-61e9",
+              "type": 2,
+              "field": "selections",
+              "scope": "2df54b12-1848-0cde-11ca-2aaebb9acaec",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

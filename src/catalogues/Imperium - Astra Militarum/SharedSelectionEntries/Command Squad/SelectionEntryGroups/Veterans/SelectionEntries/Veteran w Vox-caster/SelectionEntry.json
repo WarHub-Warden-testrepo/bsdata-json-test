@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6e92-34de-a5a7-8f46",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d1e-140b-046c-1ac0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5563-fe60-717b-e5b6",
+          "id": "9f8d-1e61-2921-5954",
+          "name": "Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "72ed-8bb2-97a7-b28e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e92d-f2e8-214a-c61f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "c785-af3d-f916-2f90",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "b7c2-c124-ca64-8902",
+      "name": "Veteran w/ Vox-caster",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "897e-ccd9-bcc8-0a42",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

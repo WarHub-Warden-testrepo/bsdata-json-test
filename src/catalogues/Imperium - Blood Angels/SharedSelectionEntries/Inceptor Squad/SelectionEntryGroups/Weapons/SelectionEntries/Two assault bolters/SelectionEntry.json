@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Two assault bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "065a-58ba-30db-6822",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "43c3-ea86-82a5-ebb4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8025-c747-3455-8d17",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e6b0-ca4c-c256-cdb0",
+          "id": "54cd-ac62-b129-d3e0",
+          "name": "Assault bolter",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "10"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "1951-0f67-9897-2627",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3606-52fe-ef6e-ba48",
+      "name": "Two assault bolters"
+    }
+  ]
+}

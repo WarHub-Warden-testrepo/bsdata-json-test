@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Main Armament",
+    "prevIdentifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3dfe-41e1-2fa2-7a29",
+      "constraints": [
+        {
+          "id": "ccb6-d324-7ffc-806e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "dc82-bafa-633a-9873",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2127-e2dd-db3e-c3cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f2f6-ed05-f2a9-f46f",
+          "id": "3dfe-41e1-2fa2-7a29",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a64f-2918-34d6-2def",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f2a-d7f9-7991-a78e",
+          "id": "dbe9-733e-fdfa-dd0b",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ddc8-819a-c20c-04f5",
+          "id": "4297-76d2-549f-4e1a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ef22-27bf-be21-5774",
+      "name": "Main Armament"
+    }
+  ]
+}

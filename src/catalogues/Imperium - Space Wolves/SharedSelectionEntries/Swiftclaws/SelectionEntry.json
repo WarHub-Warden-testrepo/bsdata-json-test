@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Swiftclaws",
+    "prevIdentifier": "Swiftclaw Attack Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "203f-8de5-15f6-8129",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f6b7-873b-d96c-67f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "fc62-47d4-42af-6012",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "1c39-9a4e-003f-56af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7ea1-82d2-2ce3-e18f",
+          "id": "34ac-a5ae-88f0-f0a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df33-f304-72e0-f7d7",
+          "id": "e9ac-38ce-1da5-0fe1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "0e67-8b6e-956b-9319",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6bae-1af7-4dd5-b579",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "581b-c5df-810f-b02c",
+          "id": "2910-54ba-df64-82f4",
+          "name": "Swiftclaw Attack Bike"
+        }
+      ],
+      "id": "6da5-427a-c084-739d",
+      "name": "Swiftclaws",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "dcf2-9e47-3ae0-1a4d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "64ca-25e1-36eb-875c",
+          "id": "fae5-a433-8b08-633a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2fba-a6ae-ad9e-3421",
+          "id": "69af-7b39-d085-bed3",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "44bc-b944-b804-6e3b",
+              "type": 4,
+              "field": "selections",
+              "scope": "6da5-427a-c084-739d",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "44bc-b944-b804-6e3b",
+              "type": 4,
+              "field": "selections",
+              "scope": "6da5-427a-c084-739d",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

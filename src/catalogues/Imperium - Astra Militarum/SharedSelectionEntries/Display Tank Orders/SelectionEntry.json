@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Display Tank Orders",
+    "prevIdentifier": "Regiment"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "42a6-a683-7634-add6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "61ed-ee78-e2e8-556c",
+      "name": "Display Tank Orders"
+    }
+  ]
+}

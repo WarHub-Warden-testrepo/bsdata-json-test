@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Bolt pistol and boltgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "11a3-82f3-8999-b063",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f6e8-d114-f38f-68f6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "97a0-619f-362f-5f95",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "4d68-6a29-198f-c44e",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5dc1-4968-2819-f522",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3cb2-5445-47a7-5686",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "f2d8-ef68-a11f-2ac8",
+          "name": "Boltgun"
+        }
+      ],
+      "id": "ff22-7b3f-c6bf-0afd",
+      "name": "Bolt pistol and boltgun"
+    }
+  ]
+}

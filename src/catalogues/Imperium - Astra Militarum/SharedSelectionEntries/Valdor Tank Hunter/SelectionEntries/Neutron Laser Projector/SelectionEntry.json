@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Neutron Laser Projector"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c1b9-8c0b-2091-acd0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "edcc-aa12-9551-8033",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "7255-1a69-8ef1-10d6",
+      "name": "Neutron Laser Projector"
+    }
+  ]
+}

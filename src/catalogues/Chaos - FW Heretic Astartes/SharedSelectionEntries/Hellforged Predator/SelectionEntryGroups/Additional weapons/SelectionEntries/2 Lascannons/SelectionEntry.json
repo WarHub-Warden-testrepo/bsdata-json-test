@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "2 Lascannons",
+    "prevIdentifier": "2 Heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2caa-648a-7d46-d82c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "ac3e-e702-43a1-5659",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "60ad-9d66-7880-a45c",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "67dc-8b89-6ab6-b3b6",
+      "name": "2 Lascannons"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Helliarch",
+    "prevIdentifier": "Hellion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e465-b5d2-a691-9e9e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9b6a-94a8-95e2-901e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6ccf-c7c5-dd85-45f4",
+          "id": "a240-db50-618c-6f92",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "4448-243b-2379-2c73",
+          "id": "c377-1b87-ee3a-d852",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f006-ee54-c14d-c9a6",
+      "name": "Helliarch",
+      "page": "0"
+    }
+  ]
+}

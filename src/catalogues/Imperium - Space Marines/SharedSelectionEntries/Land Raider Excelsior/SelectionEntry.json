@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Land Raider Excelsior",
+    "prevIdentifier": "Land Raider Redeemer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 300.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9e8c-539c-68a1-d343",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "82e7-4801-1033-c19e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0366-7ccd-2513-2a38",
+          "id": "e43f-61b1-75aa-e770",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "180b-6b69-4235-fded",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "430c-33ee-c51d-5e24",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c4d0-cd7e-285f-5101",
+          "id": "35ff-4619-f8d6-247b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f790-c4f9-6fdc-192d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f0f0-a237-0935-0b20",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a948-c387-1485-d656",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2f3b-2b38-8060-efc7",
+          "id": "3c3a-d355-d7d7-505b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e380-f99e-ebaa-df8c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1da4-820a-cc8a-2044",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "3268-66e5-7bde-fc0e",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1bf2-8db1-fc7f-085e",
+      "name": "Land Raider Excelsior",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6f8e-9512-0008-d677",
+          "id": "10a2-abd6-f805-2fd1",
+          "name": "Explodes (6\"/D6)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "8b35-0e40-e38a-9964",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "4b31-7acf-0d2a-4973",
+          "id": "7dc3-599a-5b5a-fa89",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

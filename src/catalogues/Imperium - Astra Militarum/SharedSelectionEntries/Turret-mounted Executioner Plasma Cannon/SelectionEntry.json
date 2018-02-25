@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Turret-mounted Executioner Plasma Cannon",
+    "prevIdentifier": "Turret-mounted Exterminator Autocannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ae13-7193-7d94-0af8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "2c05-6f24-f346-211e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "3a4b-c307-894e-3e63",
+      "name": "Turret-mounted Executioner Plasma Cannon",
+      "page": "0"
+    }
+  ]
+}

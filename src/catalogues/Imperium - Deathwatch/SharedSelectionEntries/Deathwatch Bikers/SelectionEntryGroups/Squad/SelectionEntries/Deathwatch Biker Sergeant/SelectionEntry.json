@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Biker Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4244-0a6f-cb61-6e09",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "753e-34ce-6740-64df",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4ae4-b2a4-c35d-a552",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1f81-b0b6-0f3c-a3bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "82ff-5dd2-8875-f52c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5063-cb21-92da-1c24",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e941-304b-5fcb-9b8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6261-f291-c47b-5e95",
+          "id": "e444-8bbd-d1b3-9dc1",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "c51d-2b9c-240b-a83c",
+      "name": "Deathwatch Biker Sergeant"
+    }
+  ]
+}

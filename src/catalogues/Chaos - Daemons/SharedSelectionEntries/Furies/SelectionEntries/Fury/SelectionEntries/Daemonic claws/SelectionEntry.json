@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Daemonic claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "d4e3-4174-8de8-da73",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0ebd-0c61-b1e9-c8f3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "605c-af76-0a15-749e",
+      "name": "Daemonic claws"
+    }
+  ]
+}

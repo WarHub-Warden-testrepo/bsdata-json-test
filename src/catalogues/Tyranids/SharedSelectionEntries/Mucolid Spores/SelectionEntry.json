@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Mucolid Spores",
+    "prevIdentifier": "Mawloc"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "309d-b01d-c5f7-eac9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "5c4f-9053-d2dc-5dd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "fa25-0eac-b057-8707",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "0ad6-af88-22f7-6197",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "9773-03e8-68e5-8ea1",
+      "name": "Mucolid Spores",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "d1da-8c6c-1ae7-4a71",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "fcc8-7f26-c77a-041a",
+          "id": "4000-fbb8-8e11-bb48",
+          "name": "Float Down"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "5ae1-3cf4-6bf3-3f76",
+          "name": "Living Bombs"
+        },
+        {
+          "targetId": "90c1-637d-0a42-dcf4",
+          "id": "d38d-eb0e-4242-491a",
+          "name": "Floating Death (Mucolid Spore)"
+        },
+        {
+          "targetId": "2a1e-edeb-49e2-0d1a",
+          "id": "7aa5-9cc7-68e5-9972",
+          "name": "Mucolid Spores"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "9773-03e8-68e5-8ea1",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "9773-03e8-68e5-8ea1",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

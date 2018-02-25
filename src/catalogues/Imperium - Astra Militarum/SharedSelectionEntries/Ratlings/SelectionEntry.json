@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Ratlings",
+    "prevIdentifier": "Veterans"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "a5588f57-f940-7386-1228-60b81efbd251-638d74c6-bd97-4de5-b65a-6aaa24e9f4b2"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "d87d-be8c-4d3e-01fe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fabd-67cb-befb-8f75",
+          "id": "5000-20a3-8c27-ea66",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a5588f57-f940-7386-1228-60b81efbd251",
+      "name": "Ratlings",
+      "book": "Codex: Astra Militarum",
+      "page": "43",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "a5588f57-f940-7386-1228-60b81efbd251",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

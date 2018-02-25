@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Devastator Squad",
+    "prevIdentifier": "Stormtalon Gunship"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2385-ed74-c638-4a89",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6e07-61fe-30e8-e093",
+          "id": "c474-bfc4-a640-cde1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "57a9-7400-6c7d-c0aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "16e6-1fe1-e0a8-80e8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a60f-c03f-ebe1-fa2c",
+      "name": "Devastator Squad",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "657c-2e23-d319-9dfe",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cdb4-e266-8c8b-b51c",
+          "id": "abf4-20b5-0181-17ab",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "804d-534d-7167-07d3",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "004a-8a3e-0338-e465",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "06e9-cf5a-6396-b114",
+          "id": "60ba-de35-8ebd-75fb",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "06f2-6ce7-3c52-a6bc",
+              "type": 4,
+              "field": "selections",
+              "scope": "a60f-c03f-ebe1-fa2c",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

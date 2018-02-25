@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Meganob w/ Saws",
+    "prevIdentifier": "Meganob W/ PK"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "5f69-10a0-cc82-82e2",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0c7b-fa48-5718-6882",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "598b-5d91-7bd7-e966",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0572-1c5b-45dc-ceed",
+          "id": "0ecd-0926-bac5-c052",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "90dc-635e-f0e5-8309",
+      "name": "Meganob w/ Saws"
+    }
+  ]
+}

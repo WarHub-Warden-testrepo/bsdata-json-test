@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "identifier": "Magus",
+    "prevIdentifier": "Webber"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 73.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e402-b47e-c474-0205",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3fb0-74e3-7154-4dd5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "fadf-7d0b-bf2d-01dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "c477-2389-cea4-67ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f46f-6aab-3c5c-4a23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "3726-696e-298a-2ae1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c8cf-cbfb-9097-c370",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5e78-2954-cb06-38a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "5ae9-fbc4-9be9-4f9a",
+          "name": "Autopistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dce0-91de-c8b6-8cf6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3f81-7a76-3037-dc9b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "b3e3-f8a8-12eb-d6a1",
+          "name": "Force stave",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "794a-b16a-1e27-855f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c927-bf87-e0fa-9891",
+          "id": "1986-4612-79c6-7af9",
+          "name": "Familiar"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "87ff-67ef-0021-16d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3160-b9d2-66a2-3a30",
+          "id": "ad9e-d51b-dc28-a395",
+          "name": "Psychic Powers"
+        },
+        {
+          "type": 1,
+          "targetId": "ccd1-3759-0432-5c59",
+          "id": "88bf-14e7-fd0b-f91f",
+          "name": "Relics"
+        },
+        {
+          "type": 1,
+          "targetId": "3c5c-af51-2d54-8cbf",
+          "id": "e388-e03d-3b05-3da6",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3419-d659-c209-da90",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afad-6465-5489-7fb9",
+          "id": "8c25-fdab-4f04-0632",
+          "name": "Warlord"
+        }
+      ],
+      "id": "b315-890f-0f70-717f",
+      "name": "Magus",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e624-3023-b8b4-18fa",
+          "id": "68e1-f05d-5ff6-565d",
+          "name": "Cult Ambush"
+        },
+        {
+          "type": 1,
+          "targetId": "83cc-a64d-d8bd-7a4a",
+          "id": "c420-535d-6d0a-8c35",
+          "name": "Unquestioning Loyalty"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c927-bf87-e0fa-9891",
+              "type": 4,
+              "field": "selections",
+              "scope": "b315-890f-0f70-717f",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

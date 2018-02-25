@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Hellblade",
+    "prevIdentifier": "Instrument of Chaos"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "02ea-84e6-cf03-d720",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbea-9415-a9de-bfa5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1149-defa-2309-3f97",
+      "name": "Hellblade"
+    }
+  ]
+}

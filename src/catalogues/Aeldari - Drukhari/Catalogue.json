@@ -1,0 +1,1372 @@
+{
+  "meta": {},
+  "catalogues": [
+    {
+      "gamesystemId": "28ec-711c-d87f-3aeb",
+      "gamesystemRevision": 1,
+      "id": "e0a4-2172-4397-e39a",
+      "name": "Aeldari - Drukhari",
+      "book": "Index: Xenos 1",
+      "revision": 18,
+      "battleScribeVersion": "2.01",
+      "categoryEntries": [
+        {
+          "id": "dd05-8f0e-b393-b91f",
+          "name": "Archon"
+        },
+        {
+          "id": "4d1f-6a82-9ae1-3b0a",
+          "name": "Beastmaster"
+        },
+        {
+          "id": "d639-aa51-1f9c-5ad9",
+          "name": "Clawed Fiends"
+        },
+        {
+          "id": "0dc7-1e5d-7726-d333",
+          "name": "Drazhar"
+        },
+        {
+          "id": "c3cc-22d9-1014-b496",
+          "name": "Faction: <Haemonculus Coven>"
+        },
+        {
+          "id": "53ad-d29f-5f37-2a82",
+          "name": "Faction: <Kabal>"
+        },
+        {
+          "id": "99c9-6127-f78b-1f66",
+          "name": "Faction: <Wych Cult>"
+        },
+        {
+          "id": "6a01-e1fc-d03d-8390",
+          "name": "Faction: Aeldari"
+        },
+        {
+          "id": "bd42-0139-0789-e05b",
+          "name": "Faction: Drukhari"
+        },
+        {
+          "id": "2081-49f0-1e15-a9f3",
+          "name": "Faction: Incubi"
+        },
+        {
+          "id": "f16a-5e3b-9a49-2b42",
+          "name": "Faction: Prophets of Flesh"
+        },
+        {
+          "id": "4c47-af86-571d-3176",
+          "name": "Faction: Wych Cult of Strife"
+        },
+        {
+          "id": "1579-ae66-e2f8-cb10",
+          "name": "Grotesques"
+        },
+        {
+          "id": "8fca-4ed9-4326-8a23",
+          "name": "Haemonculus"
+        },
+        {
+          "id": "79fd-018b-040b-0e2c",
+          "name": "Hekatrix Bloodbrides"
+        },
+        {
+          "id": "b15b-abaf-9eda-f855",
+          "name": "Hellions"
+        },
+        {
+          "id": "ff85-9ee3-28cb-691b",
+          "name": "Kabalite Trueborn"
+        },
+        {
+          "id": "a6a2-680c-c64c-587a",
+          "name": "Kabalite Warriors"
+        },
+        {
+          "id": "c3c8-70fb-2431-5e26",
+          "name": "Khymerae"
+        },
+        {
+          "id": "02f0-bbac-fa6c-3649",
+          "name": "Lelith Hesperax"
+        },
+        {
+          "id": "ddbc-68f0-64a4-9d04",
+          "name": "Lhamaean"
+        },
+        {
+          "id": "a565-a5b4-4e95-2786",
+          "name": "Mandrakes"
+        },
+        {
+          "id": "8c44-0452-c143-f9b0",
+          "name": "Medusae"
+        },
+        {
+          "id": "5b3b-1811-147a-8aa0",
+          "name": "New CategoryEntry"
+        },
+        {
+          "id": "465b-6b54-c2bf-cdd3",
+          "name": "Raider"
+        },
+        {
+          "id": "a9c2-0a4b-4e13-c1c3",
+          "name": "Razorwing Flocks"
+        },
+        {
+          "id": "4ee8-ef24-8efb-948e",
+          "name": "Reavers"
+        },
+        {
+          "id": "1ac5-97d4-4672-c325",
+          "name": "Scourges"
+        },
+        {
+          "id": "c9a9-0a9a-8be9-1474",
+          "name": "Sslyth"
+        },
+        {
+          "id": "3583-0c0b-f37a-5faa",
+          "name": "Succubus"
+        },
+        {
+          "id": "d1dc-6993-2368-3809",
+          "name": "Talos"
+        },
+        {
+          "id": "c562-0478-2bfa-f12c",
+          "name": "Ur-Ghul"
+        },
+        {
+          "id": "be89-e5a2-cf0e-c91c",
+          "name": "Urien Rakarth"
+        },
+        {
+          "id": "2f02-a00c-0e9e-39fc",
+          "name": "Venom"
+        },
+        {
+          "id": "93aa-d8fa-b826-9fbc",
+          "name": "Wracks"
+        },
+        {
+          "id": "5b68-0855-2fb2-1f69",
+          "name": "Wyches"
+        },
+        {
+          "id": "98b7-d351-e823-fc09",
+          "name": "Cronos"
+        },
+        {
+          "id": "8447-1ad0-d85e-4d5a",
+          "name": "Reaper"
+        },
+        {
+          "id": "db6a-df50-9c8f-2c52",
+          "name": "Tantalus"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "3ea9-f42c-d816-b91a",
+          "id": "9cf3-09b4-05fe-4ec9",
+          "name": "Archon",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "bcaa-5a3b-de61-6f41",
+          "id": "b9b4-b3d6-589c-b694",
+          "name": "Haemonculus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "40a0-6ba1-e19a-1c60",
+          "id": "3737-f109-c934-f294",
+          "name": "Kabalite Warriors",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8738-a567-5340-4450",
+          "id": "a1e5-0c0b-9a3d-e559",
+          "name": "Mandrakes",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "3e2d-5776-f732-c4cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ac3c-0072-8a03-fe04",
+          "id": "18ba-aad0-87a8-7d9c",
+          "name": "Raider",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4f27-1486-dd47-0b85",
+          "id": "60d4-e96e-6fd7-8fb5",
+          "name": "Ravager",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "829b-aac7-d866-01ca",
+          "id": "3d78-c3e1-34ca-d8aa",
+          "name": "Razorwing Jetfighter",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4da6-8b2a-acaf-d1fe",
+          "id": "84ee-7b90-0df7-1ae9",
+          "name": "Reavers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "f82e-71e9-d0fd-dad8",
+          "id": "f66d-c5d1-f9e0-da53",
+          "name": "Succubus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a74d-d706-214e-86a0",
+          "id": "1d17-8ba3-ae88-b38b",
+          "name": "Venom",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "870e-ddec-7fd6-366a",
+          "id": "fd41-cc95-81b9-9bf4",
+          "name": "Wracks",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+              "id": "5a07-ace6-4a26-2796",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "71d4-0f50-7358-6977",
+          "id": "128d-6405-60ed-027e",
+          "name": "Clawed Fiends",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "3e2d-5776-f732-c4cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8a61-8b56-4ce5-893f",
+          "id": "fc0e-9baa-f757-8eb3",
+          "name": "Beastmaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e640-d16e-aafa-7d7c",
+          "id": "0157-8573-e847-f1ac",
+          "name": "Drazhar",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5695-d3a0-4113-daf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1924-94b3-98a7-eb5d",
+          "id": "12e5-faa7-4331-ea43",
+          "name": "Cronos",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6897-8b55-f703-7d4e",
+          "id": "d4fe-914e-5c9d-768b",
+          "name": "Grotesques",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "1a60-f7ac-212f-41be",
+          "id": "d8f4-094c-5682-f01f",
+          "name": "Hekatrix Bloodbrides",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "2bd3-2b66-0d6e-ff43",
+          "id": "4589-43e5-9ffc-6778",
+          "name": "Hellions",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0a1e-abbc-c986-0b6c",
+          "id": "6b86-6fc3-7c27-7969",
+          "name": "Incubi",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5695-d3a0-4113-daf8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+              "id": "b24f-fc67-72b1-dc1a",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "2064-05c4-c968-9878",
+          "id": "3add-6343-4ffe-cf37",
+          "name": "Razorwing Flocks",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "3e2d-5776-f732-c4cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4d2d-8f34-03e5-91ca",
+          "id": "af9a-1103-5c2c-8a54",
+          "name": "Lelith Hesperax",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8435-5bf3-35df-85a7",
+          "id": "c6b1-f56a-453d-2856",
+          "name": "Kabalite Trueborn",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "5e30-53f7-95e9-47ac",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "510d-bf5b-e8e9-e11e",
+          "id": "2609-854c-9f1d-bf57",
+          "name": "Lhamean",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "f258-0bb9-2b43-beca",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "c246-31e5-b596-f056",
+          "id": "d0ee-db41-7fc3-3781",
+          "name": "Medusae",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "fd03-ebf0-2d7e-ab85",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0a99-77cf-5c94-2440",
+          "id": "87a7-cff3-b9f7-4529",
+          "name": "Sslyth",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "3166-b10d-e54e-f46d",
+          "id": "d4f0-83f2-ff11-6047",
+          "name": "Talos",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "id": "baaa-1c31-8f26-d1f2",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "2e0f-b736-567e-2447",
+          "id": "7961-2040-90a2-ed11",
+          "name": "Ur-Ghul",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "afb9-7509-4ba6-c415",
+          "id": "14de-f068-353e-c62d",
+          "name": "Urien Rakarth",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "eb16-edc2-adda-2952",
+          "id": "7721-a0f0-e495-731b",
+          "name": "Voidraven",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "287c-0434-786c-9ba1",
+          "id": "1b87-3f42-1264-083c",
+          "name": "Wyches",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+              "id": "a720-5c9c-dd16-b636",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "dbee-fddd-850a-9571",
+          "id": "06e7-3800-d3aa-ccf2",
+          "name": "Khymerae",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "3e2d-5776-f732-c4cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ac7a-8b7f-4e94-ac7f",
+          "id": "ed3c-d93e-2e1b-f25d",
+          "name": "Scourges",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "3e2d-5776-f732-c4cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "65cd-a17c-d556-3734",
+          "id": "31cf-4b10-5cf6-2f3d",
+          "name": "Court of the Archon"
+        },
+        {
+          "targetId": "4cc1-8463-9dac-18ad",
+          "id": "c12c-0ab6-1601-58e3",
+          "name": "Beast Unit"
+        },
+        {
+          "categoryLinks": [
+            {
+              "targetId": "c3cc-22d9-1014-b496",
+              "id": "c0cc-bf5e-1253-aa98",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "53ad-d29f-5f37-2a82",
+              "id": "7fa6-43c8-2e59-1cb8",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "99c9-6127-f78b-1f66",
+              "id": "9eae-7f41-38ee-638f",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "6a01-e1fc-d03d-8390",
+              "id": "6889-b125-417c-3ca5",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "bd42-0139-0789-e05b",
+              "id": "e378-2a88-c878-ef42",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "db6a-df50-9c8f-2c52",
+              "id": "9607-9809-0cad-330b",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "6cc4-1b62-8e8a-05cd",
+              "id": "f1b4-a0e7-bca2-5915",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "c8fd-783f-3230-493e",
+              "id": "dbd8-7d4a-4ced-bbde",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "3117-16d8-fcef-4f56",
+              "id": "e20d-9da3-84da-14aa",
+              "name": "New CategoryLink"
+            },
+            {
+              "isPrimary": true,
+              "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+              "id": "745e-b218-d169-380c",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "f0f3-5144-6b79-b79a",
+          "id": "810b-7974-b371-df3f",
+          "name": "Tantalus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7553-e71e-0216-8610",
+          "id": "bd21-a09a-0f62-f392",
+          "name": "Reaper",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1fb5-0a1a-5b61-828b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "922c-5981-23f9-a644",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "7570-39f9-f8de-989d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "5a4f-0726-fe08-2164",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+              "id": "621f-f2a3-018a-e89a",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "922c-5981-23f9-a644",
+          "id": "eace-f80c-2ce8-3a3a",
+          "name": "Faction Keyword Filter"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Razorback",
+    "prevIdentifier": "Predator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "6134-cde0-1428-8d19",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "5d97-a653-63ee-a44c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "139f-9540-1e95-ef37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "6f2c-940e-e324-2eaf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "261f-2223-ca35-a7a8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a3e9-c4cd-270b-0598",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "0cb5-bdd2-e1c1-f5aa",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "73fa-2509-809f-72b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "318a-ebf5-9250-7f8f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "52be-ab2b-f6a4-cc4d",
+      "name": "Razorback",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "5b8d-8619-f59e-72e6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0d1f-c3ab-1181-cb6d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Hellblaster Squad",
+    "prevIdentifier": "Bolt rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0d75-975b-fe03-34e4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "4b20-0d77-3e48-e0c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "3e69-2134-fe78-def1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "f520-f5ef-a701-efb1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c314-3e8c-08bc-7cc4",
+          "id": "8c91-40d8-50ce-99ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8d82-6473-51de-f66e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "f4da-5cf0-20ee-4133",
+      "name": "Hellblaster Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5583-2075-1da6-2b40",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "c23b-97da-ecbd-147a",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "0489-f0d7-cd59-d698",
+              "type": 4,
+              "field": "selections",
+              "scope": "f4da-5cf0-20ee-4133",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

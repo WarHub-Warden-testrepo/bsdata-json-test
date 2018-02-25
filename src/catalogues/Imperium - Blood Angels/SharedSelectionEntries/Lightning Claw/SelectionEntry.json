@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Lightning Claw",
+    "prevIdentifier": "Gabriel Seth"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "4fd6-1688-d86c-3510",
+      "name": "Lightning Claw",
+      "infoLinks": [
+        {
+          "targetId": "7584-238f-3174-4529",
+          "id": "cc96-9feb-e809-b8a3",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "4fd6-1688-d86c-3510",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

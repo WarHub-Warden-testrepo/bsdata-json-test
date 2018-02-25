@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Phoenix",
+    "prevIdentifier": "Vampire Raider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 183.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "2e05-cf40-36d6-dbaa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "6df2-5343-a17f-dd48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "e04a-9eb8-1ff8-b683",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "586d-f060-df66-bbc5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1ecf-3bc5-1260-be66",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e6ce-8426-c595-9021",
+          "id": "716d-02a2-d0cf-3f28",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "23fe-7169-24e6-5c79",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "81ce-79b0-a70a-df2c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "bfeb-d4dd-ccde-8c88",
+          "id": "0afa-ae67-0de4-0df1",
+          "name": "Wings of Khaine"
+        },
+        {
+          "targetId": "2ab7-98b2-8f06-70fb",
+          "id": "033a-0dc9-6d73-4bae",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "135b-297b-3037-ed79",
+          "id": "f1d7-af2c-fa6d-ee23",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "6e84-c080-9e45-a2b3",
+          "id": "890e-4d99-145f-e360",
+          "name": "Crash and Burn"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d80-ddda-37de-e9bb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aecb-52ac-c92a-181e",
+          "id": "5c30-1510-510c-57e2",
+          "name": "Crystal Targeting Matrix"
+        },
+        {
+          "constraints": [
+            {
+              "id": "66d9-01f0-6289-4d45",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d354-d1ec-f4d2-971a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "adfb-2d8c-93c9-ed3a",
+          "id": "1559-2e12-6098-aba4",
+          "name": "Twin Shuriken Cannon"
+        }
+      ],
+      "id": "0296-0f1b-7ff5-3ef0",
+      "name": "Phoenix",
+      "book": "IA - Index: Xenos",
+      "page": "70"
+    }
+  ]
+}

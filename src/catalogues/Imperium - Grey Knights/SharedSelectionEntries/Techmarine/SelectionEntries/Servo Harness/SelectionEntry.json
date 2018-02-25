@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Servo Harness"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 28.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "161d-1e28-083e-622e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "49f1-8375-7cc5-e9b5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "66bb-806b-efb9-1e34",
+      "name": "Servo Harness",
+      "infoLinks": [
+        {
+          "targetId": "cdc3-3459-a28c-a9cf",
+          "id": "4fe7-23dd-de2c-6bbb",
+          "name": "Flamer"
+        },
+        {
+          "targetId": "9112-c49a-ee46-0f81",
+          "id": "9b0e-43d0-8ae4-49ea",
+          "name": "Servo-arm"
+        },
+        {
+          "targetId": "614c-c09f-c4b4-504f",
+          "id": "a152-3d41-1c04-b659",
+          "name": "Plasma cutter, Standard"
+        },
+        {
+          "targetId": "7eea-38c1-0f2c-ce0f",
+          "id": "224a-4087-e008-ae1f",
+          "name": "Plasma cutter, Supercharge"
+        }
+      ]
+    }
+  ]
+}

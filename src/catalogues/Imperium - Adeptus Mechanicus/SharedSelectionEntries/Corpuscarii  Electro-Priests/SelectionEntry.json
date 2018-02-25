@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Corpuscarii  Electro-Priests",
+    "prevIdentifier": "Fulgurite Electro-Priests"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "674b-f1a3-f475-f350",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "c173-6510-d0f7-fb96",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "9110-9f93-1c36-fa5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6bb8-fe7f-7918-bf8f",
+          "id": "10ec-336a-b50e-8cb2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "691d-f035-d7cb-5745",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2049-b333-f23d-b0f9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "22ea-c36e-56c5-6236",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 20.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "5f4b-ee14-bd1c-8531",
+          "id": "a042-a36d-d2f8-4ed3",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8be1-4ebb-3371-d572",
+      "name": "Corpuscarii  Electro-Priests",
+      "infoLinks": [
+        {
+          "targetId": "4e54-00df-5980-5f86",
+          "id": "941c-6e4f-ebf6-3180",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fcc4-da6a-c4fa-5903",
+          "id": "88cf-f106-c04c-885f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "c887-1de4-599f-112d",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "a042-a36d-d2f8-4ed3",
+              "type": 1,
+              "field": "selections",
+              "scope": "8be1-4ebb-3371-d572",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "a042-a36d-d2f8-4ed3",
+              "type": 1,
+              "field": "selections",
+              "scope": "8be1-4ebb-3371-d572",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "a042-a36d-d2f8-4ed3",
+              "type": 1,
+              "field": "selections",
+              "scope": "8be1-4ebb-3371-d572",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

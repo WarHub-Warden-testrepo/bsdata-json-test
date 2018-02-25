@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Shuriken Pistol Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "6ff6-209e-2034-b77d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "62e5-febc-ce68-45be",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4823-9452-ab09-c0e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "cf05-3284-0e95-0f47",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2579-4977-921b-7109",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d16c-9cee-0721-4b76",
+          "id": "9df7-be62-6757-c5e7",
+          "name": "Scorpion's Claw"
+        }
+      ],
+      "id": "2b9e-1ac2-9cb7-5a21",
+      "name": "Shuriken Pistol Options",
+      "modifiers": [
+        {
+          "field": "6ff6-209e-2034-b77d",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a56f-c3ee-c9a7-66ad",
+              "type": 2,
+              "field": "selections",
+              "scope": "50e8-22bd-0182-8f79",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "62e5-febc-ce68-45be",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a56f-c3ee-c9a7-66ad",
+              "type": 2,
+              "field": "selections",
+              "scope": "50e8-22bd-0182-8f79",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

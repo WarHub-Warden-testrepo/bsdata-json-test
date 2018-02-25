@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "identifier": "Assault Squad",
+    "prevIdentifier": "Cyclone missile launcher and storm bolter"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fc6b-6bf8-74da-2e34",
+          "id": "3aa1-8533-1267-a1b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "4d57-ace7-1a4a-24dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "d3ce-b8b9-f629-a2a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "8ce6-8205-0696-e814",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "777d-e370-3d81-1924",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a813-d3b9-9795-8b3b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb9d-2b67-64b0-800f",
+          "id": "d8af-d1fe-f311-e21c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50f1-c3ea-9d66-6446",
+          "id": "8f47-92f0-0e1d-49eb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2d99-b578-a8d1-7ecb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "e695-5fd9-c147-477f",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 5.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "3",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c7d0-e0cd-fb06-f271",
+      "name": "Assault Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8a5e-8893-3467-baf8",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "c7d0-e0cd-fb06-f271",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

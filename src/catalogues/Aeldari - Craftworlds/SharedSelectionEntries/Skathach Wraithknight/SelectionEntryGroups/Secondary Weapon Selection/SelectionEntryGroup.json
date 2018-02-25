@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Secondary Weapon Selection",
+    "prevIdentifier": "Main Weapon Selection"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "70d5-cccc-cef0-1f21",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9bf8-4358-81f7-8931",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3725-493d-89a4-75b1",
+          "id": "9d9f-6187-bded-aeec",
+          "name": "Scatter Laser"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c72f-2aa5-eea5-1c50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64d6-6994-d3e8-6e09",
+          "id": "c0c7-079b-c4c1-34b1",
+          "name": "Shuriken Cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ba77-69f4-1518-5d98",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c628-671e-285b-b6bf",
+          "id": "244d-6051-f978-5bf4",
+          "name": "Starcannon"
+        }
+      ],
+      "id": "7968-631d-486c-0c87",
+      "name": "Secondary Weapon Selection"
+    }
+  ]
+}

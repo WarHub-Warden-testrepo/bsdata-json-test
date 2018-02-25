@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Wolf claw",
+    "prevIdentifier": "Trueclaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "306f-99be-7b1a-8977",
+      "name": "Wolf claw",
+      "infoLinks": [
+        {
+          "targetId": "958f-d250-8357-b90b",
+          "id": "3ff1-0825-0e29-4b31",
+          "name": "Wolf claw"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "306f-99be-7b1a-8977",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

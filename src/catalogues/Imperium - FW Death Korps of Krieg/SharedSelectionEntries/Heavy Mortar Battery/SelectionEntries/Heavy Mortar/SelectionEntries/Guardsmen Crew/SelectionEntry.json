@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Guardsmen Crew",
+    "prevIdentifier": "Heavy Mortar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3daa-62a3-1700-6cf1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "48a0-dd11-2f2e-3f35",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "04e1-40c4-1498-7e16",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b6b4-bdbc-6522-cd91",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "22db-8eb8-26eb-0a4c",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d981-11ec-958b-848a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1f8a-572e-d729-12aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "9e7a-1643-883e-4c1d",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "12c2-2163-abcf-e001",
+      "name": "Guardsmen Crew",
+      "infoLinks": [
+        {
+          "targetId": "efac-a40e-8d33-0bb5",
+          "id": "24e8-983d-8a42-af1a",
+          "name": "Guardsmen Crew"
+        }
+      ]
+    }
+  ]
+}

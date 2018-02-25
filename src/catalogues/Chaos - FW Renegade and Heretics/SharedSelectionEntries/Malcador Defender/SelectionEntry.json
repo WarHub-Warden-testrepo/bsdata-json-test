@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Malcador Defender",
+    "prevIdentifier": "Malcador Heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8650-a92f-239c-1df7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e703-e566-1b99-a7df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9ab6-cc34-0231-a055",
+          "id": "2c59-4af9-9422-73b2",
+          "name": "Demolisher Siege Cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b7e3-0e26-288a-64a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0
+            },
+            {
+              "id": "7bd4-4ce4-c73c-0b10",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0
+            }
+          ],
+          "targetId": "0c5c-2a4f-0e90-8aaa",
+          "id": "c9a9-832a-4b7a-fa06",
+          "name": "Heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1e99-8312-9b56-7ebb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a8b5-c410-76db-378f",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "aed6-de3b-7bd0-f858",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "4c6a-39ff-25ee-cc18",
+      "name": "Malcador Defender",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d15c-f64f-5b25-5cb4",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "94a1-1575-4501-0dd0",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "2e96-df54-e0ec-1896",
+          "id": "283b-7611-90c9-0e87",
+          "name": "Lumbering Advance"
+        }
+      ]
+    }
+  ]
+}

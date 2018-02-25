@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Power Sword",
+    "prevIdentifier": "Warlord Traits"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "aa95-5cee-dd2f-de60",
+      "constraints": [
+        {
+          "id": "d0b6-4f93-c2f0-8bd3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b3a0-6f3e-c0f7-0a9b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "aa95-5cee-dd2f-de60",
+          "name": "Power sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3fe7-d3fd-494d-401c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "077c-3b4b-1310-a7f2",
+          "id": "8434-b106-f5bb-59ae",
+          "name": "Heavenfall Blade",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ef18-746a-369f-43a4",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ddc8-819a-c20c-04f5",
+      "name": "Power Sword"
+    }
+  ]
+}

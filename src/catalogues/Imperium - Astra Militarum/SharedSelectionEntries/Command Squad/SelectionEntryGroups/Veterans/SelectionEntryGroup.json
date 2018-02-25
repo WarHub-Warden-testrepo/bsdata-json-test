@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Veterans"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bed8-7cc9-14f1-b59f",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "id": "3838-4743-dbd9-5e6f",
+      "name": "Veterans",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "maxSelections",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f8ec-59eb-d97b-8e09",
+              "type": 2,
+              "field": "selections",
+              "scope": "daea-3f4e-25c6-0ec8",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "minSelections",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f8ec-59eb-d97b-8e09",
+              "type": 2,
+              "field": "selections",
+              "scope": "daea-3f4e-25c6-0ec8",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

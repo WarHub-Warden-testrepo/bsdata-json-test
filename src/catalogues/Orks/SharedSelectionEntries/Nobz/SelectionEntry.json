@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Nobz",
+    "prevIdentifier": "Runtherd"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "baa0-dfb5-35f5-b8c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "eac2-a155-8221-ba81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "1951-8ba5-277a-1c6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c46b-8b0a-b004-1503",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2592-330f-3727-4018",
+          "id": "0c36-ef0a-6179-c3d7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6705-18fc-e28f-3706",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "a253-7f1e-40fb-a73d",
+          "id": "d223-2f12-42f4-347c",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "6705-18fc-e28f-3706",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 5.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b4f7-fe86-812e-602c",
+      "name": "Nobz",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "ce9b-2238-9802-de3d",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "97f1-1b89-0847-aded",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3202-2878-7cb1-93a2",
+          "id": "43e7-ca42-c248-f0ac",
+          "name": "Keepin' Order"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "b4f7-fe86-812e-602c",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

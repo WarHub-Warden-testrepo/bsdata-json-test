@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Regimental Standard",
+    "prevIdentifier": "Veteran w/ Medi-pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3d22-7c0e-a22d-b359",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dcd2-93a4-d610-5762",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "55d9-cfbf-f223-01ef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "1eb6-587f-6797-c70e",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "87cb-8170-871c-760d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "964d-1a2f-03d2-1932",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "1d7d-7b92-0009-15c6",
+      "name": "Veteran w/ Regimental Standard",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "a42c-095e-2cc8-9326",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

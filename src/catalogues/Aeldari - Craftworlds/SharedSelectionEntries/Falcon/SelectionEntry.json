@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Falcon",
+    "prevIdentifier": "Support Weapons"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "8996-5e05-87fc-c4d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "e1d1-f3e0-7e63-62c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "35ca-bed4-4cdf-b888",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "16f7-899b-fe14-7af1",
+          "id": "d1cf-8e03-e3fd-e9a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8159-327d-6a7a-e8b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "e410-ab85-89e0-6784",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "0df8-a552-12a6-037e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "2196-046a-2e18-696a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "9603-9f82-d484-cd83",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9a0f-8764-2d96-eaa8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5caa-8cfd-f32e-d9f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "42b9-bdee-2ac5-4e43",
+          "name": "Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e272-6d52-48df-1320",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "27ff-9eea-6c4b-9dc9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dad1-94de-6142-c468",
+          "id": "9444-94e0-d1b4-0c32",
+          "name": "Pulse Laser"
+        },
+        {
+          "type": 1,
+          "targetId": "08cb-f659-5cf0-db75",
+          "id": "1c3c-8062-e958-d496",
+          "name": ""
+        },
+        {
+          "targetId": "1c73-6268-eb22-c189",
+          "id": "a13c-470e-837e-f436",
+          "name": "Hover Tank"
+        },
+        {
+          "targetId": "09a6-da4f-7b98-a3d4",
+          "id": "f0ff-b930-5697-b3ba",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6307-5f9d-2ddb-68e6",
+      "name": "Falcon"
+    }
+  ]
+}

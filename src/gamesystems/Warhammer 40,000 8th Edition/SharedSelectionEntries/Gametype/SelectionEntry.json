@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Gametype",
+    "prevIdentifier": "3. Tenacious Survivor"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1cf3-6923-9f59-8fbf",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "f625-0e92-d7c2-ba05",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "bf09-85b2-c097-1071",
+      "name": "Gametype"
+    }
+  ]
+}

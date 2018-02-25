@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Fortification Network",
+    "prevIdentifier": "Super-Heavy Auxiliary Detachment"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "4cf2-55de-1de3-bdfd",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "26f5-481b-d941-b4ca",
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "0214-a689-7537-aafa",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "4fb0-8ba2-1ea6-973e",
+          "name": "Fortification"
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "663d-4540-136a-98c1",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "dcee-07fa-ec14-7dec",
+      "name": "Fortification Network"
+    }
+  ]
+}

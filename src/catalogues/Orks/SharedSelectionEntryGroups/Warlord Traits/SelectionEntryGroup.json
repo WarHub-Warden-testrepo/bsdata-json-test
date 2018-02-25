@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Choppy Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "84b5-e7e1-1873-7cb8",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "a8f3-34c5-1693-8046",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "c2ce-6759-e009-8c11",
+      "name": "Warlord Traits",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

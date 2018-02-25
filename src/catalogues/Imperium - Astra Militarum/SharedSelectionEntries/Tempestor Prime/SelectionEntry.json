@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "identifier": "Tempestor Prime",
+    "prevIdentifier": "Turret-mounted Demolisher Siege Cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "218e-c8a1-cea3-8377",
+          "id": "6f94-c473-1e50-5c18",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e477-9f01-1185-fc0d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1dd5-fad8-8f71-6522",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7d5e-83e9-7d43-0b75",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "targetId": "7d8c-221c-99c5-97d2",
+          "id": "5004-39f9-d15e-5f6e",
+          "name": "Astra Militarum Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "a970-a8e3-1012-cb29",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc28-9a9c-e246-b191",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "144e-6efe-9f92-ad71",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "833e-1a2d-bf61-f6f1",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "f4a8-a34d-d80b-377a",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ef81-3bca-f771-a5fe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "833e-1a2d-bf61-f6f1",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "247a-bbd1-f1b3-46c7",
+      "name": "Tempestor Prime",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "0a6c-a8e0-8fd8-b3f0",
+          "id": "04a0-2aa2-f9ca-bcb2",
+          "name": "Aerial Drop"
+        },
+        {
+          "targetId": "2ff26b94-8048-d15d-c541-fd4da0f49571",
+          "id": "8122-957b-f109-eae1",
+          "name": "Voice of Command"
+        }
+      ]
+    }
+  ]
+}

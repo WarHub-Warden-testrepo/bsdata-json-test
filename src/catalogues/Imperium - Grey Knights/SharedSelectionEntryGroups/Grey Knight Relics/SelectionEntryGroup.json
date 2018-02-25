@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Grey Knight Relics",
+    "prevIdentifier": "Grey Knight Warlord Trait"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "d518-8eb0-df1e-15b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "fabd-ffad-5620-3496",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "c779-4f85-7bfa-aad3",
+      "name": "Grey Knight Relics",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "1757-2792-13ae-afa5",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Repulsor",
+    "prevIdentifier": "Auto launchers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 210.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6af0-84ea-5f29-5980",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "afe2-a42d-898e-7bd7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb9d-2b67-64b0-800f",
+          "id": "e0ba-a22a-460c-fca6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "8f38-057f-059d-2d13",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "167a-be4d-9a67-7f2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50f1-c3ea-9d66-6446",
+          "id": "ce45-db9f-d7ca-b5d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "ace8-6178-f1e4-b710",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "131b-e1b4-298a-9aa8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9a76-a72d-0374-8fe1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f78b-3f42-00f0-7bd4",
+          "id": "1ac3-a64d-c713-7a15",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "98f0-aef4-69b7-0cf0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5bc6-ed8c-1f90-f42c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f4fd-1d1e-f451-ee2f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "b27c-388f-d48d-61eb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82b1-3c85-1849-9dde",
+          "id": "3001-26df-d683-ba9a",
+          "name": "Krakstorm grenade launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8139-9544-6ae8-7847",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "638b-550a-fa85-14c3",
+          "id": "6fa7-48f6-3cd0-6cb5",
+          "name": "Ironhail heavy stubber"
+        }
+      ],
+      "id": "c849-22c1-e91a-c96f",
+      "name": "Repulsor",
+      "infoLinks": [
+        {
+          "targetId": "4b4e-1b7c-7064-0661",
+          "id": "28ce-153f-4d3e-bba0",
+          "name": "Repulsor Field"
+        },
+        {
+          "targetId": "57e5-275a-d5e4-eb61",
+          "id": "8e21-abaf-17c8-373c",
+          "name": "Repulsor"
+        },
+        {
+          "targetId": "0ef5-ff2c-a7f7-8da3",
+          "id": "c1e0-bb16-337c-c590",
+          "name": "Hover Tank"
+        },
+        {
+          "targetId": "ea77-db2e-e94b-1dc8",
+          "id": "52db-6697-975b-2996",
+          "name": "Power of the Machine Spirit"
+        }
+      ]
+    }
+  ]
+}

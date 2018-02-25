@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Space Marine Biker Veteran",
+    "prevIdentifier": "Veteran Biker Sergreant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7a9c-56a2-561c-7d56",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c002-7c23-3d5c-2409",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d4bc-daa1-ef5b-473a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4d18-8d5e-971f-9b4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c1be-adf6-72fa-b66b",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d7f2-7786-a5bc-ffb9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dc1e-92a2-2c17-a312",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "6b5d-e149-775c-5acc",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "cc1a-8b30-b83a-31d1",
+      "name": "Space Marine Biker Veteran"
+    }
+  ]
+}

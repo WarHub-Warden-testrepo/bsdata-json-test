@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Long Fangs",
+    "prevIdentifier": "Swiftclaw Attack Bikes"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9cbb-6e78-7ea6-47c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0f69-b677-5e0f-c95d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "f482-1f68-6964-81dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5dfa-53d0-d1bf-4a72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c97-f835-1fbd-0945",
+          "id": "5f52-7ac2-105b-dd2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "dec9-7757-0ed4-d3e7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6fdb-3701-0b68-8dea",
+      "name": "Long Fangs",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "637d-3b55-7d5d-1c95",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "444a-e8c5-98a1-ad04",
+          "id": "4b10-d2b9-5697-99ff",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c6ae-23d4-7867-080f",
+          "id": "3a5d-bbf6-4950-8943",
+          "name": "Mixed Unit"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f5f5-ad7b-dd08-a068",
+              "type": 4,
+              "field": "selections",
+              "scope": "6fdb-3701-0b68-8dea",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

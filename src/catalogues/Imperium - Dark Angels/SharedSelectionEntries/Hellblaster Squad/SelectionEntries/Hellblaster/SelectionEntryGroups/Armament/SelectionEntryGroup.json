@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "collective": true,
+      "constraints": [
+        {
+          "id": "d919-4330-4755-fddb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "b2cc-19b3-fe2c-5342",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "044d-3ebc-44cc-3cec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "483d-e95f-9094-1553",
+          "id": "4c6d-8c6e-8a65-2533",
+          "name": "Assault plasma incinerator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2991-25ce-f728-41e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c71a-6c02-da91-295e",
+          "id": "8f3d-29e5-08c0-fb1f",
+          "name": "Plasma incinerator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e036-0ac9-da52-c994",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e7c2-c74c-9760-4ae9",
+          "id": "3c5d-440e-fc58-6f33",
+          "name": "Heavy Plasma Incinerator"
+        }
+      ],
+      "id": "0b23-c3a1-9e16-1645",
+      "name": "Armament"
+    }
+  ]
+}

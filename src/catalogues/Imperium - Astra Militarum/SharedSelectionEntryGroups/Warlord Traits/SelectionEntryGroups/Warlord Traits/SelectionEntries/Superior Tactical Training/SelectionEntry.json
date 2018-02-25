@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Superior Tactical Training",
+    "prevIdentifier": "Honoured Duellist"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c9d5-7388-713f-eeeb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7b5d-c27c-10fd-0274",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "62da-ed0a-445a-9773",
+      "name": "Superior Tactical Training",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "aaa4-a667-76d0-c779",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

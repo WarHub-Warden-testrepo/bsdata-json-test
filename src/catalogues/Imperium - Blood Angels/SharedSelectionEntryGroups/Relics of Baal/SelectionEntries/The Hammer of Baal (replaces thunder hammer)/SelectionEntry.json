@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "The Hammer of Baal (replaces thunder hammer)",
+    "prevIdentifier": "The Veritas Vitae"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4069-e64a-fc86-0b62",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "6a97-fdbf-7751-f19d",
+      "name": "The Hammer of Baal (replaces thunder hammer)",
+      "infoLinks": [
+        {
+          "targetId": "46f2-9ac2-a4df-4508",
+          "id": "d69d-5693-1b42-b87a",
+          "name": "The Hammer of Baal"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "9c7b-4573-3321-2def",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

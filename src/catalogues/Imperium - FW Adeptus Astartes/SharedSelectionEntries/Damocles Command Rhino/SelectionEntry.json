@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "identifier": "Damocles Command Rhino",
+    "prevIdentifier": "Sokar Pattern Stormbird"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 120.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "397c-a73c-e209-6d6b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0c15-360b-5416-6eb4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ef11-f366-f115-3e4b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "063d-2bc1-4ed7-510b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f7b7-b222-fbd3-484b",
+          "id": "f440-9400-0804-04a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "295a-f04c-8285-757d",
+          "id": "4e89-356f-2617-1c90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "3e41-cb45-a8ed-048e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "47e1-5523-f670-9ff8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "63bf-6929-4743-d5bb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ac8e-c669-661c-4fee",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "45b8-4cb5-8a2f-c19a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "76f7-a20d-5763-23ff",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e0ad-33b8-af33-fb80",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "a635-9855-e313-4330",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "7f53-6376-cd1f-8356",
+      "name": "Damocles Command Rhino",
+      "infoLinks": [
+        {
+          "targetId": "bc22-f28f-4c97-6844",
+          "id": "c2e2-c728-5ae3-694e",
+          "name": "Damocles"
+        },
+        {
+          "targetId": "2271-8e53-9988-9bdd",
+          "id": "68b3-6af6-e85a-e299",
+          "name": "Self-repair"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "eed5-41f3-4eee-4227",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "a7d5-c06e-be1f-ae76",
+          "id": "89b0-88bd-d15f-e3a7",
+          "name": "Orbital Strike Augur"
+        },
+        {
+          "targetId": "f7b6-f361-c33f-380b",
+          "id": "6b07-fda7-588f-3721",
+          "name": "Command Interface Unit"
+        }
+      ]
+    }
+  ]
+}

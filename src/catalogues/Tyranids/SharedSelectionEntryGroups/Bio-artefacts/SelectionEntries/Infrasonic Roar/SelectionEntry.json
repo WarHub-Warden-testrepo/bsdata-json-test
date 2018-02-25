@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Infrasonic Roar",
+    "prevIdentifier": "The Norn Crown"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0733-fedc-86f9-d898",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "7604-aeae-261b-ed20",
+      "name": "Infrasonic Roar",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "3b77-decb-d468-6bcc",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "1e74-63b9-9478-0dc8",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "6ee0-91dd-71bf-d44f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

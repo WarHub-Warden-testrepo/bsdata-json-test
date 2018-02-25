@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Plasma exterminators",
+    "prevIdentifier": "Assault Bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd40-c6dc-ff67-9595",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4ca6-3714-91c4-429b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b568-fae3-fb1c-62ee",
+          "id": "3d4b-39b5-971e-6a64",
+          "name": "Plasma Exterminator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "70bc-0516-df21-bbb8",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "103b-63dc-840a-6dd7",
+      "name": "Plasma exterminators"
+    }
+  ]
+}

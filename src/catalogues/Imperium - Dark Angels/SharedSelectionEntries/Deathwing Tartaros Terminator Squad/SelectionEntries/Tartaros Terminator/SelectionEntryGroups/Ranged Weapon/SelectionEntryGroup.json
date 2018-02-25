@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c396-cc1b-254b-59f9",
+      "constraints": [
+        {
+          "id": "7cd5-4805-e6bc-bb0b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4bf8-ce7d-c9ae-f51d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1158-26ef-f85e-13b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "e03c-a941-a096-325e",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "ee6a-075f-26bc-d0fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "78cd-b926-8e71-9ef6",
+          "id": "8a57-34ff-f24d-c7d9",
+          "name": "Terminator Heavy Weapons",
+          "modifiers": [
+            {
+              "field": "1158-26ef-f85e-13b2",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e03c-a941-a096-325e",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "29d9-f96d-7f31-9408",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "c396-cc1b-254b-59f9",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "c00f-031c-5f13-704c",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "4bf8-ce7d-c9ae-f51d",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "09d0-3948-77b0-73dc",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "6fce-bb31-106c-1b93",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "2576-7882-1cf1-8338",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "6fce-bb31-106c-1b93",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "7cd5-4805-e6bc-bb0b",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "2576-7882-1cf1-8338",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "6fce-bb31-106c-1b93",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "09d0-3948-77b0-73dc",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "6fce-bb31-106c-1b93",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

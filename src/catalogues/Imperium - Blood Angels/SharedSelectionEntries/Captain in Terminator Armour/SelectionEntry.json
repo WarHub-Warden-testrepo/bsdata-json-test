@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Captain in Terminator Armour",
+    "prevIdentifier": "Captain in Gravis Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 105.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9956-5c97-2c81-da80",
+          "id": "07a2-e6ff-9236-42fd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "fcd7-7ed0-210a-b290",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "a7f7-4515-3ee4-dde6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "821e-8ea4-3926-bc90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "eed9-fd58-c45c-f54c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "fb61-78b1-c851-9c7a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "23bb-4caf-c002-4135",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2378-fd9b-5213-6a6c",
+          "id": "5b4a-f97e-f7d2-84f0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9f8f-9978-b997-7edd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f79f-74ef-e0a3-f967",
+          "id": "5e82-35a9-7654-36a8",
+          "name": "Wrist-mounted grenade launcher",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "f122-3720-fa32-4215",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e647-bdc2-88ae-7c96",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6bf5-575f-43e7-3029",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "7f8e-4a09-990f-63ff",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "90e2-6e59-4147-4696",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "6558-6cae-9da4-b062",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "e647-bdc2-88ae-7c96",
+      "name": "Captain in Terminator Armour",
+      "infoLinks": [
+        {
+          "targetId": "e1e2-ff52-023c-cf8d",
+          "id": "9e8c-1ceb-866e-4d25",
+          "name": "Captain in Terminator Armour"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "238a-4b69-49fd-1b20",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8742-48fe-7dfc-a1c0",
+          "id": "8253-bb83-99f4-b029",
+          "name": "Iron Halo"
+        },
+        {
+          "targetId": "cf04-2c83-f5e1-9fb4",
+          "id": "c85c-146d-8339-b9bc",
+          "name": "Rites of Battle"
+        },
+        {
+          "targetId": "4243-5016-c4d9-2b6b",
+          "id": "be8d-ac66-344e-1e46",
+          "name": "Teleport Strike"
+        }
+      ]
+    }
+  ]
+}

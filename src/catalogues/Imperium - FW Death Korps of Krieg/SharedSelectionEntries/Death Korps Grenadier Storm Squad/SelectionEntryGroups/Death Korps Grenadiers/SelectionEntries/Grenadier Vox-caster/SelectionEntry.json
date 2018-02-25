@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Grenadier Vox-caster",
+    "prevIdentifier": "Grenadier w/Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "941a-9d93-0a02-ae41",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0dc4-00ae-4fbb-2626",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9670-a8f8-b964-3627",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fedb-9b46-7668-7a55",
+          "id": "d5e5-3ab9-089d-9aa3",
+          "name": "Death Korps Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "06e0-99f6-c59b-81f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "126d-a862-207e-6355",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5188-4b26-73ac-1160",
+          "id": "c54f-c018-1e7a-9519",
+          "name": "Hot-Shot Lasgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d66a-5ae4-d5e1-c8af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "9556-b0c5-c93c-7ac0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "6fc4-27dc-15ca-cdca",
+          "id": "dea7-a2dc-a828-e959",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "ae5f-55b8-c41d-c193",
+      "name": "Grenadier Vox-caster",
+      "infoLinks": [
+        {
+          "targetId": "5dad-a672-e4af-1c9c",
+          "id": "0416-a341-bac7-8048",
+          "name": "Death Korps Grenadier"
+        }
+      ]
+    }
+  ]
+}

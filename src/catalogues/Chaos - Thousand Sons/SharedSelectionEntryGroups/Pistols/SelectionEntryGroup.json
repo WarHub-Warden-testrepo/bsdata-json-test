@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Pistols",
+    "prevIdentifier": "Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "ab85-5973-ed13-106a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9bc0-5f71-48a0-3045",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "2b15-d2a0-c333-1d00",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "9bc0-5f71-48a0-3045",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "60ae-3389-0f83-8853",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ce84-10ca-568c-5c48",
+      "name": "Pistols"
+    }
+  ]
+}

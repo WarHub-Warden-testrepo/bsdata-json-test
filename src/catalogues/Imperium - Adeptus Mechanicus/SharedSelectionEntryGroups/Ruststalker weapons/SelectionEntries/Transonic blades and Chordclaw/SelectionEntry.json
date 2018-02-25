@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Transonic blades and Chordclaw",
+    "prevIdentifier": "Transonic Blades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d877-a90f-6114-cf7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4c1f-184e-7e35-238f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e3e7-466d-b088-2c3a",
+          "id": "ba11-5e03-98fa-5f23",
+          "name": "Chordclaw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2012-d5f2-5ec2-76b5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "02d5-4400-32ef-c0dd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b696-67aa-c975-0a60",
+          "id": "4003-1706-96ce-a4f9",
+          "name": "Transonic blades"
+        }
+      ],
+      "id": "ec52-de49-13f2-0317",
+      "name": "Transonic blades and Chordclaw",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "70c1-ed78-9472-5068",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

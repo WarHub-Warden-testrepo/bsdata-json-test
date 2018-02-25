@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Close Combat Weapon",
+    "prevIdentifier": "Clonefield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1d63-e629-464b-3c0e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "3534-afea-95ca-a1f7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "7c4c-8637-e2d8-8c4a",
+      "name": "Close Combat Weapon"
+    }
+  ]
+}

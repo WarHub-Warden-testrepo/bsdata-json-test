@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Deathwing Knight"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3cda-098d-12d0-e8ae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "4f37-c2bb-cfa7-959a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "df5e-9ecc-d4f3-6cdb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "6ee5-6940-35b0-1b76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "205b-411d-c9da-9276",
+          "id": "a154-1834-4a06-0148",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "id": "adea-12f9-a5d2-2bf3",
+      "name": "Deathwing Knight"
+    }
+  ]
+}

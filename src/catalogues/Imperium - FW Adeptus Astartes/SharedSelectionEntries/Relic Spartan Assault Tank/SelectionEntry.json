@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "identifier": "Relic Spartan Assault Tank",
+    "prevIdentifier": "Relic Sicaran Punisher Assault Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 23.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 320.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d8ff-7a39-2265-d026",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9254-2c10-9165-e9f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9bf6-eb63-d7b8-666d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "b457-6a50-7a79-3704",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "8b7f-0b45-0a58-cdfb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "23c1-45a6-0cfe-0715",
+          "id": "5146-b038-659d-2343",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "df9f-9ed3-c3a6-64e0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d35d-99ef-4941-6624",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "686a-f8d7-0158-82b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3216-79af-660b-7711",
+          "id": "f5df-6a11-8b8c-8d24",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "147e-c9ff-6dbc-8d86",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "19c8-5d71-8a77-b14b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0d8b-2e28-b922-6871",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f7d-ca3a-ce3b-b714",
+          "id": "f69f-04b3-220b-c4eb",
+          "name": "Crushing tracks"
+        }
+      ],
+      "id": "251c-52c6-b76e-f737",
+      "name": "Relic Spartan Assault Tank",
+      "infoLinks": [
+        {
+          "targetId": "77af-dffe-da83-20b5",
+          "id": "0a51-e642-607d-12bc",
+          "name": "Relic Spartan"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "7aa5-2920-6339-1be8",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "7794-d1b3-d47c-3e2e",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "2fe7-c29a-da8a-ab83",
+          "id": "ab16-56ac-c315-43ac",
+          "name": "Steel Behemoth"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "e6f6-2e55-b383-fa18",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "d8ff-7a39-2265-d026",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "d8ff-7a39-2265-d026",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c888f08a-6cea-4a01-8126-d374a9231554",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "d8ff-7a39-2265-d026",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "d8ff-7a39-2265-d026",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

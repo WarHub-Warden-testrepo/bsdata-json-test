@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Seismic hammer and meltagun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0761-ded4-ada1-7fa3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "db60-ec34-9f14-2e7d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "08e0-ce5d-793a-2e8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "94e9-16c1-cb55-3203",
+          "id": "ea21-bf4e-d324-8834",
+          "name": "Seismic hammer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b74e-f3b5-dd37-6789",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4b0a-b553-e767-6ae3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fdac-c560-87da-c09e",
+          "id": "910f-f594-c3fe-ac8d",
+          "name": "Meltagun"
+        }
+      ],
+      "id": "0999-fbd2-83fd-bb29",
+      "name": "Seismic hammer and meltagun"
+    }
+  ]
+}

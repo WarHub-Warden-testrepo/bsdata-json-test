@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "4. Mind Eater",
+    "prevIdentifier": "3. Synaptic Lynchpin"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f784-237e-527d-a0f1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9248-5937-3434-37a5",
+      "name": "4. Mind Eater",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Trait: Mind Eater"
+        },
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "d83b-acf3-2677-40e1",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "6bad-120f-afa0-1745",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "5a85-738f-f138-2640",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

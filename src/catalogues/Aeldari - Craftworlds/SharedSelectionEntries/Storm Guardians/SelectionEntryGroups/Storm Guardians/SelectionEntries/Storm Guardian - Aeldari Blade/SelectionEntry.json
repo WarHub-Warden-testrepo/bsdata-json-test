@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Storm Guardian - Aeldari Blade"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "266c-f676-9ac2-2072",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 24.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dd46-aa5e-30ee-abf0",
+          "id": "e59d-b47e-fbaa-dba7",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d8f0-2da2-1ced-e11c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9733-0500-9d3e-e684",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "611e-a075-73cc-6b8e",
+          "id": "3621-063c-40a5-e682",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "a97d-59b3-a652-21f3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e9f2-1eec-9fdf-9849",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "5620-fb2b-2450-c7d0",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "321f-508e-09b9-4e83",
+      "name": "Storm Guardian - Aeldari Blade"
+    }
+  ]
+}

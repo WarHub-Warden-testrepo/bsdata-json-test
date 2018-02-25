@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Wyvern"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1967-b1a1-f90e-b92b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "662e-fce7-acb9-f43e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "5950-09b2-3b06-e200",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "5314-c9db-5999-76b3",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "82b8-e172-d136-17e3",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "d528-ad5f-b219-42b1",
+      "name": "Wyvern",
+      "page": "0"
+    }
+  ]
+}

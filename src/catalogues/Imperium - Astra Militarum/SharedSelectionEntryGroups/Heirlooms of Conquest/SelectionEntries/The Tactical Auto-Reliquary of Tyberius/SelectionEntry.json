@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "The Tactical Auto-Reliquary of Tyberius",
+    "prevIdentifier": "Order of the Iron Star of Mordian"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "392a-f8bf-e3f1-a985",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "95a1-8a79-8233-b584",
+      "name": "The Tactical Auto-Reliquary of Tyberius",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "3984-854b-4603-be64",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

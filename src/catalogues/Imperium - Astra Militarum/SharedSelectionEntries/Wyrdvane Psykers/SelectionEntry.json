@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Wyrdvane Psykers",
+    "prevIdentifier": "Primaris Psyker"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3a20-41fa-d5b5-7520",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1f00-02bf-c6da-27cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "13fd-f96b-049d-7216",
+          "id": "6729-3ff4-c2c3-7c08",
+          "name": "Psykana Discipline"
+        }
+      ],
+      "id": "c415-d380-7760-f44f",
+      "name": "Wyrdvane Psykers",
+      "book": "Codex: Astra Militarum",
+      "page": "101",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f901-d7d5-f293-fde8",
+              "type": 1,
+              "field": "selections",
+              "scope": "c415-d380-7760-f44f",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f901-d7d5-f293-fde8",
+              "type": 1,
+              "field": "selections",
+              "scope": "c415-d380-7760-f44f",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

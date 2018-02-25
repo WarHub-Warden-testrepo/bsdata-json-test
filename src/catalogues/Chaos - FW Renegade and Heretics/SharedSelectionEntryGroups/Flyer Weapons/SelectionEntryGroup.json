@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Flyer Weapons",
+    "prevIdentifier": "Wing-mounted Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "e52e-8c20-cb90-66b2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3b35-b133-59b1-32b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3ab2-1ce5-8adf-ae39",
+          "id": "40a1-8315-bdae-6515",
+          "name": "Twin Multi-laser"
+        },
+        {
+          "targetId": "c66a-8fbf-bcfc-0bc8",
+          "id": "c381-a04e-7cfa-e998",
+          "name": "Twin autocannon"
+        }
+      ],
+      "id": "6c34-41c8-4651-a728",
+      "name": "Flyer Weapons"
+    }
+  ]
+}

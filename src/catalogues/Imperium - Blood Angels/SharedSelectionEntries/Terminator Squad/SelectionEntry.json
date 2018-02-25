@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Terminator Squad",
+    "prevIdentifier": "Terminator Assault Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "29ec-6443-06a6-ea7f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "c323-bbf7-fc72-99db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "8629-bdb3-b5d8-6a1a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "add7-7893-6512-a27f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2cf9-1001-7e7a-8422",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2378-fd9b-5213-6a6c",
+          "id": "ce01-1139-18dd-e843",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c007-b7ad-975f-9250",
+          "id": "5da7-a609-e91f-3c43",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9af6-abc4-8066-8ddb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8389-43e9-4ab8-bd3e",
+          "id": "3b37-96fc-38b2-4987",
+          "name": "Teleport homer"
+        }
+      ],
+      "id": "aea3-bdce-c085-7e5f",
+      "name": "Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "43ff-e818-7158-b3f0",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5263-7a0c-08ad-f754",
+          "id": "e5c9-eb22-6a96-bbeb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4243-5016-c4d9-2b6b",
+          "id": "e784-db5d-0877-6dac",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "13a0-0677-b759-ffb3",
+              "type": 1,
+              "field": "selections",
+              "scope": "aea3-bdce-c085-7e5f",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

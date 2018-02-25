@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Servitor (multi-melta)",
+    "prevIdentifier": "Servitor (Plasma Cannon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5540-1f44-78e9-d7a5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "62f3-5ce0-dc45-e0f7",
+          "id": "0706-48e0-cd55-80ad",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9b47-e4cb-ec09-8047",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "af68-ff84-1050-d4fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fb94-0f13-899f-f26c",
+          "id": "a40a-02eb-55f4-c84e",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "69d4-f824-8f40-7bc4",
+      "name": "Servitor (multi-melta)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "5540-1f44-78e9-d7a5",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "84e5-1384-d482-6db4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "0a91-d903-beb0-c6bb",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "5540-1f44-78e9-d7a5",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "d0b1-6453-2333-93c2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "0a91-d903-beb0-c6bb",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

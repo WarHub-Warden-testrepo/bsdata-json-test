@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran W/ Heavy Flamer",
+    "prevIdentifier": "Veteran Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ea54-3b17-dddb-21ce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0056-2478-ecc7-462c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "567c-08b7-f41b-1037",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "ff8b-2723-4925-a431",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "36df-6677-023a-8a72",
+      "name": "Veteran W/ Heavy Flamer",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "9a64-2a49-7850-db73",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

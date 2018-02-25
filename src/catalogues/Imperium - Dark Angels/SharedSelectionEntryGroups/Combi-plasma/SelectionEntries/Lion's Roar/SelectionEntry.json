@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Lion's Roar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "06bb-d7fa-8ded-09c5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7d52-db0c-c6c7-c561",
+          "id": "52dc-7138-65e9-80b7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "96cb-d176-c338-ea20",
+      "name": "Lion's Roar",
+      "infoLinks": [
+        {
+          "targetId": "3d4b-95ea-f860-dd22",
+          "id": "21d7-a994-73db-b991",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

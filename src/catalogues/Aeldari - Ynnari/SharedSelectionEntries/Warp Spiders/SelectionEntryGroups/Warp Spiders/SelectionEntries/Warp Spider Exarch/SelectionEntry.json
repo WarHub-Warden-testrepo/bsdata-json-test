@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Warp Spider Exarch",
+    "prevIdentifier": "Warp Spider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cd3e-2988-06af-b638",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5ac6-715c-45ea-1fd7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cc48-eb70-80fc-3e35",
+          "id": "3866-bfab-e258-a536",
+          "name": ""
+        }
+      ],
+      "id": "af06-053b-59eb-944d",
+      "name": "Warp Spider Exarch"
+    }
+  ]
+}

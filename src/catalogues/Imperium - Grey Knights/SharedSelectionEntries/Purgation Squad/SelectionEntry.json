@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Purgation Squad",
+    "prevIdentifier": "Purgator Justicar"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "cd6e-15a8-f854-b46e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "ef22-5ee7-d619-934d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "6bd8-6afd-e89b-55bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "75ba-b1d4-d311-308f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c0fd-6fce-518f-1ec2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "23af-f022-6e74-150d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "92ac-3367-a3ac-cd32",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64dc-131d-20be-6199",
+          "id": "0590-9810-cf09-ad4e",
+          "name": "Purgator Justicar"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "952d-fb34-f0dd-5327",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "45ea-60a2-7f7e-06c7",
+      "name": "Purgation Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1c9e-be11-e866-c515",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "a2fb-c30d-07ba-d193",
+          "name": "Daemon Hunters"
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "1b5f-0581-086f-7895",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "3b97-ae87-bf4b-7ea7",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "c89f-ff34-66db-239d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "e396-cf42-a7b4-a7c3",
+          "name": "Smite (Rites of Banishment)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "e25c-9b4b-78d9-e6f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "45ea-60a2-7f7e-06c7",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

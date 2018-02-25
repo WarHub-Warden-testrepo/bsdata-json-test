@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Hydra"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fa34-3ca7-9902-89c2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "8ce0-774e-265d-b975",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "de34-d6da-9bed-e895",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "737b-44d0-de39-4380",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "7ad2-bd23-dd7c-cecb",
+          "name": "Chimera Hull Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2335-7d51-088c-3273",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4792-acfb-d1f3-b2a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "dd79-1fda-83e2-d681",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "69eb-741e-dbb3-c2c0",
+          "id": "8cea-a3a4-ad90-745b",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "9888-2551-19f7-49ce",
+      "name": "Hydra",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "a545-ceb5-6900-c81e",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "48e7-0cf0-82a3-26ef",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "a512-f859-525e-c9bf",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

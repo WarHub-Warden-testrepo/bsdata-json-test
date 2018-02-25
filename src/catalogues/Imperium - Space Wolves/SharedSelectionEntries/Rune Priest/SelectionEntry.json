@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "identifier": "Rune Priest",
+    "prevIdentifier": "Harald Deathwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 88.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9684-f35d-4142-252b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8fdc-38ff-0da2-b904",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "92ac-cf8e-4db2-1158",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0bbf-b8d9-7612-fa46",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e7a3-04b5-1d44-9796",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "851f-0f55-ab02-8c5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "f5bc-70e0-3bcc-e782",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4dc6-527c-7af1-df8d",
+          "id": "111e-f2f1-0031-5c8a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "90c1-b75e-b0d7-ea20",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7138-874a-6439-87d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ab33-92da-0ff1-c6fd",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d554-c7b5-7f67-7496",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3e66-3e07-0d1e-74b7",
+          "id": "8afc-a205-c1d3-2e87",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c41-f436-f57e-ede2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f6f-22ba-bdb3-b39d",
+          "id": "174a-294e-05c6-8419",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d58-d9fe-51f6-0516",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "3117-16d8-fcef-4f56",
+              "id": "91a3-94bb-0f0a-8a84",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "f627-f23e-a3b4-dc2c",
+              "id": "f4b2-9dc3-77d4-c8af",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "30a0-3051-6b4d-442f",
+          "id": "6c8d-8826-6c6b-5963",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "24"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "57aa-5aaf-f15f-4a0f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "60e4-07ae-92f9-fbab",
+          "id": "9239-b2d2-34ed-f07f",
+          "name": "Pistol or Combi Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff95-0a94-da0a-7edf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5dce-835f-34af-6a64",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "a9c9-ee5b-ef51-560e",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "targetId": "8ae5-0b71-8a1b-a889",
+          "id": "b870-7b81-304c-ebe5",
+          "name": "Tempestas Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f3e6-3fe6-269b-afba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "20b9-a654-bf59-6ed6",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3676-a859-c332-e5ba",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "e520-f560-5b9b-395d",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "3676-a859-c332-e5ba",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "a9b1-b841-859b-5776",
+      "name": "Rune Priest",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7feb-f4a9-eb7b-ce47",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "625e-310a-9518-5717",
+          "id": "ef5c-c48f-81e7-f0a8",
+          "name": "Rune Priest",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "30a0-3051-6b4d-442f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "a9b1-b841-859b-5776",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

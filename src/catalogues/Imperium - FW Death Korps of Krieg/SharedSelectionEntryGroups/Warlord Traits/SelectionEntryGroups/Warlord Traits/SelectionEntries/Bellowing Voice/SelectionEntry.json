@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Bellowing Voice",
+    "prevIdentifier": "Draconian Disiplinarian"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e8c3-4c53-07bc-ac42",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d1c1-cc57-bace-3f03",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f083-20a8-f7d6-b5b6",
+      "name": "Bellowing Voice"
+    }
+  ]
+}

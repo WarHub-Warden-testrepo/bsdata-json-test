@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Cypher",
+    "prevIdentifier": "Psycannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "465e-a4ba-e33c-81e0",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e417-c49b-e501-d6df",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2730-a382-afce-541a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9166-463c-b44c-5492",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2826-472d-cafc-621a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e12c-dd25-cbab-a30d",
+          "id": "458a-f2a2-be73-cc43",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5b3b-438e-1bfe-b812",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1a07-8468-f9da-0be0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f219-e745-c90f-d0a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a55e-c5ec-5df2-5d7e",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "04e3-0faf-a637-97f9",
+      "name": "Cypher",
+      "page": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Fire Warrior w/ Pulse Rifle",
+    "prevIdentifier": "Fire Warrior Shas'ui"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "33f7-ae1c-2b20-1232",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b586-22bc-9df2-f1a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c2d-4a72-cd43-7b11",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b137-5a29-f03a-ad3e",
+          "id": "7aef-e463-164d-6891",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "93cc-c755-a368-811a",
+      "name": "Fire Warrior w/ Pulse Rifle",
+      "infoLinks": [
+        {
+          "targetId": "3639-b7af-f942-49c8",
+          "id": "043d-2018-b3d6-193b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

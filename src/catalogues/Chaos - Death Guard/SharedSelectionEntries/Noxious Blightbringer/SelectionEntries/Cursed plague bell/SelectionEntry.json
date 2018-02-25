@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Cursed plague bell"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "aa69-b37d-0125-4ec2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c1a1-b7d7-a8d0-a4b6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "91ae-ee1c-8628-0693",
+      "name": "Cursed plague bell"
+    }
+  ]
+}

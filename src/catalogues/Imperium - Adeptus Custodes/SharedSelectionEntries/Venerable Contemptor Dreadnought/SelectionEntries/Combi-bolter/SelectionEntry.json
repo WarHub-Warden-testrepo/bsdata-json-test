@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Combi-bolter",
+    "prevIdentifier": "Dreadnought Combat Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ec18-02eb-f6bf-87d6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbc5-4aae-cffd-3467",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5141-27f9-73a2-7cba",
+      "name": "Combi-bolter",
+      "infoLinks": [
+        {
+          "targetId": "0655-6c08-6402-46bf",
+          "id": "b2fb-83f0-5a07-858f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

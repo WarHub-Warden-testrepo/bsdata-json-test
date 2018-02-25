@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Adrenal Glands - 101",
+    "prevIdentifier": "Rending Claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "id": "b9ad-3827-329a-0e6e",
+      "name": "Adrenal Glands",
+      "infoLinks": [
+        {
+          "targetId": "2a37-1b16-c528-b30f",
+          "id": "e75e-342b-23aa-23ef",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "3b77-decb-d468-6bcc",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

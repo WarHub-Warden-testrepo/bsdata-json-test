@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "identifier": "Vortimer Pattern Land Raider Redeemer",
+    "prevIdentifier": "Heavy psycannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 255.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8b00-eacc-8a9b-7bcb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "79a9-2fca-fdf0-9699",
+          "id": "a067-a5f0-b975-8603",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3099-4bb3-af23-358e",
+          "id": "181b-d4ae-0e9c-aab8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "3d44-03f2-482d-4e9a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "02cb-5760-1a9b-db2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "5ddb-24ca-8f7d-f110",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ed3a-5a1a-9b60-ab37",
+          "id": "6f2e-7bb8-ee13-8327",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a7a-a259-863f-982b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fcf0-26a6-f12c-40ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69da-4af0-445d-3e00",
+          "id": "8fcb-6d37-44b6-14f7",
+          "name": "Twin psycannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "58c1-10ce-1299-d5eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "2e08-bc5c-b539-5744",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4878-305f-9f9a-8ad2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "3ce9-e2fd-b3c0-6d0c",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b6e9-1cd4-1684-e60c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "f4b5-7a69-98a1-fd83",
+          "name": "Multi-melta"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d7e0-8c1e-bc22-ef1f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c792-e8fd-d751-edd7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f09b-e29b-c7e0-c9e1",
+          "id": "0f51-57d7-9a6f-262c",
+          "name": "Flamestorm cannon"
+        }
+      ],
+      "id": "3217-a7cd-f0ed-2876",
+      "name": "Vortimer Pattern Land Raider Redeemer",
+      "book": "Imperial Armour: Forces of the Adeptus Astartes",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "eea5-b8c0-cfc6-1cef",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "75f4-89e6-fc18-2369",
+          "id": "bffd-4c93-219e-6b54",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "type": 1,
+          "targetId": "0d43-9cb7-e979-9451",
+          "id": "9912-a7e6-5fb6-02ab",
+          "name": "Psyk-out Assault Launchers"
+        }
+      ]
+    }
+  ]
+}

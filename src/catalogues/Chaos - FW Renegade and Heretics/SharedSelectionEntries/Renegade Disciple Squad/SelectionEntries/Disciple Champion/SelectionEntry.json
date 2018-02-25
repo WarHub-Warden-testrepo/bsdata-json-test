@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Disciple Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5d51-b9c4-b5df-6ae5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c21c-8cbf-a2d6-0739",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "08ab-f1d0-f2a1-8caa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "047b-7c8b-d1a0-cb90",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "1bea-6c2c-9c25-ade7",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "f461-4976-d62a-afd1",
+      "name": "Disciple Champion"
+    }
+  ]
+}

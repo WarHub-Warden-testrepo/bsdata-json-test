@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Implosion missile"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3c65-6afc-8939-d8d2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "2713-ff53-5411-2b97",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a6be-d724-9255-202b",
+      "name": "Implosion missile"
+    }
+  ]
+}

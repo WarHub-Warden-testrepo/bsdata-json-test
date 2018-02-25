@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Skulltaker",
+    "prevIdentifier": "Skull Cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 84.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b0a6-d583-d5ca-83b1",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "b41d-6bbc-ef27-f758",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5280-7fb9-d4da-d2ff",
+          "id": "645e-ae97-beec-2243",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "276c-0a29-7477-17ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "3300-e81b-a917-ac51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "a2bc-10c1-22dd-9208",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "002b-e5c1-a0a6-e814",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "347d-c144-cc2a-9750",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f41d-932a-b375-bde2",
+          "id": "b416-8d0c-d543-d16b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0c19-287c-5633-1aa2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "f70e-20d8-d497-df2f",
+          "name": "Warlord"
+        }
+      ],
+      "id": "09e4-fd54-3f3a-418e",
+      "name": "Skulltaker",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "0738-0ed9-66d5-e29f",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "40c7-7052-b68a-289a",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "f20a-d4b6-5169-cabc",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "targetId": "bcb1-5bef-c1f8-1063",
+          "id": "9d47-d152-5664-9b34",
+          "name": "Devastating Blow",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "09e4-fd54-3f3a-418e",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

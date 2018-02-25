@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two storm bolters",
+    "prevIdentifier": "Two fragstorm grenade launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8186-3312-c3cb-d568",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1ae6-5eac-27f5-c06c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d273-a9d2-c1e4-49d7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "d0f7-8f4b-e5d1-f3cc",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "635c-63ea-4a99-5714",
+      "name": "Two storm bolters"
+    }
+  ]
+}

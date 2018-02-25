@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Kabalite Trueborn",
+    "prevIdentifier": "Incubi"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "d5c3-c7bb-0ffa-3dfa",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8435-5bf3-35df-85a7",
+      "name": "Kabalite Trueborn",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "9134-ead4-3f50-bfad",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "ba50-ee78-f161-7361",
+          "name": "Power from Pain"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "b302-be5a-6afe-401b",
+              "type": 1,
+              "field": "selections",
+              "scope": "8435-5bf3-35df-85a7",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "b302-be5a-6afe-401b",
+              "type": 1,
+              "field": "selections",
+              "scope": "8435-5bf3-35df-85a7",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "b302-be5a-6afe-401b",
+              "type": 1,
+              "field": "selections",
+              "scope": "8435-5bf3-35df-85a7",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "XV107 R'varna Battlesuit",
+    "prevIdentifier": "XV109 Y'vahra Battlesuit"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 429.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "9a99-aa0b-9c5b-02a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "bf1b-84cf-bd83-4b87",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "42f7-1f21-7389-1ae2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "8ff5-6d88-82ff-a6f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "553c-00e7-ba1b-c85e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c444-5b96-9f5e-505a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1de7-b80e-a648-702e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3563-9596-a8c8-13d1",
+          "id": "c386-c141-a368-d1af",
+          "name": "Pulse submunitions cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "68d1-c4cc-31dc-af9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b40-39b3-bafb-e260",
+          "id": "f532-b987-b47a-f27c",
+          "name": "Multi-tracker"
+        }
+      ],
+      "id": "74dc-28f8-5c0f-02e9",
+      "name": "XV107 R'varna Battlesuit",
+      "book": "IAI: Xenos",
+      "page": "46",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "6c10-a745-c100-5e28",
+          "name": "For the Greater Good"
+        },
+        {
+          "targetId": "9806-9e00-f565-73ac",
+          "id": "c318-74b0-865e-94ed",
+          "name": "XV107 R'varna Battlesuit"
+        },
+        {
+          "targetId": "e35e-c4f5-fc94-78f6",
+          "id": "31b6-6b57-10fe-2aba",
+          "name": "R'varna Shield Generator"
+        },
+        {
+          "targetId": "b082-fce1-4d3b-3b6b",
+          "id": "e24e-f79a-382d-fe82",
+          "name": "XV107 R'varna Battlesuit 1"
+        },
+        {
+          "targetId": "143d-d080-9296-e02f",
+          "id": "fa3d-21da-06f7-53c7",
+          "name": "Nova Reactor (R'varna class)"
+        },
+        {
+          "targetId": "3587-f54e-9888-4383",
+          "id": "8790-640c-8942-000b",
+          "name": "XV107 R'varna Battlesuit 2"
+        },
+        {
+          "targetId": "b9ec-90e5-731f-6091",
+          "id": "1a95-c77e-0834-9aca",
+          "name": "XV107 R'varna Battlesuit 3"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "084f-8527-8fb1-071f",
+              "type": 4,
+              "field": "selections",
+              "scope": "74dc-28f8-5c0f-02e9",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

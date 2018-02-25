@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Blazing Star of Vaul",
+    "prevIdentifier": "Ghosthelm of Alishazier"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "179b-a63d-ef4e-98a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "da24-0abc-ca81-7427",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c917-b428-fb5f-6ece",
+      "name": "Blazing Star of Vaul",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "463b-fd2c-9d94-7d89",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e554-ea88-ace6-b9ee",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

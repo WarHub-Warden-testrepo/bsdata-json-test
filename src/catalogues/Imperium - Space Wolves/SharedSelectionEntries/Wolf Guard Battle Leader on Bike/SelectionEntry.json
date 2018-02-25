@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Battle Leader on Bike",
+    "prevIdentifier": "Wolf Guard Battle Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4632-f65d-9639-2653",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3a3e-2643-0aa6-7bdc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e1f1-589f-4a3e-5342",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9efe-1e03-c138-99d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "524b-e6de-5f29-cd8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "1d76-9bec-d31e-c7c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "704d-1a3a-dc5c-c231",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "db1d-c5fb-fd8d-143d",
+          "id": "e929-f174-a8e5-b26d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "33f0-5549-afc2-1407",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "71a0-6b7c-2cb6-a038",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f9cc-a1fe-46b3-81c5",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6298-f4dc-f430-7122",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f0d1-0f78-fe5b-f860",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "929e-7eb7-757a-7a39",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5fdb-4eea-15c6-5882",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "6517-ea63-af09-4a4c",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "38d8-03c7-a669-8107",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ece0-1a67-55b3-c0a4",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "89ed-dffd-7663-6db4",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "8a2c-bc45-945a-9a76",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "89ed-dffd-7663-6db4",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e536-d35b-e2ba-4db0",
+      "name": "Wolf Guard Battle Leader on Bike",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7b04-f39d-2a19-c14f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2309-42e2-c5fe-be1c",
+          "id": "8be2-4733-c006-658d",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "14\""
+            },
+            {
+              "field": "9c9f-9774-a358-3a39",
+              "value": "5"
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "targetId": "838b-671f-4a04-4167",
+          "id": "f38b-6715-e079-4b2e",
+          "name": "Huskarl to the Jarl"
+        }
+      ]
+    }
+  ]
+}

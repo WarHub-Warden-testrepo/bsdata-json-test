@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "2 Lascannon & Twin Heavy Bolter Sponsons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "68e6-910c-0478-f89d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1f88-6db6-74c5-d687",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d444-8d37-e0e4-3d28",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "1ba7-d01e-fd56-f37f",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc9c-2ef5-0439-0e85",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "27c7-cf06-a949-14a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "0412-3279-2804-2aaa",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        }
+      ],
+      "id": "a1c1-5168-2a46-688d",
+      "name": "2 Lascannon & Twin Heavy Bolter Sponsons"
+    }
+  ]
+}

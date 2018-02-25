@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Fire Warrior w/ Pulse Carbine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "20d1-670f-793e-1314",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bccd-6817-9bba-36f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9d79-be8c-a280-bcc7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb97-7f88-6b4b-67b6",
+          "id": "caf8-c30c-6304-8428",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "df99-49a5-029d-f924",
+      "name": "Fire Warrior w/ Pulse Carbine",
+      "infoLinks": [
+        {
+          "targetId": "3639-b7af-f942-49c8",
+          "id": "b42d-969a-6f77-1b65",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

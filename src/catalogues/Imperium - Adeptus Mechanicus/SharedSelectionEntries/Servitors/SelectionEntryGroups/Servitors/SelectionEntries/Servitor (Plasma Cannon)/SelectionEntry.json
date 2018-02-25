@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Servitor (Plasma Cannon)",
+    "prevIdentifier": "Servitor (servo arm)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cc26-3637-6e95-8821",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8842-f09c-e656-2141",
+          "id": "cfa8-7a92-0df2-4630",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9e1f-3bf6-70b8-a0cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ef7d-2cfd-cb26-c364",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18c6-66b7-5953-7651",
+          "id": "69c1-813d-ed7c-59b9",
+          "name": "REPLACE WITH PLASMA CANNON ONCE IN GST"
+        }
+      ],
+      "id": "c778-6830-7ad3-73af",
+      "name": "Servitor (Plasma Cannon)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "cc26-3637-6e95-8821",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "22bb-efa2-c290-c8b1",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "cc26-3637-6e95-8821",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "9f86-470a-af37-5000",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

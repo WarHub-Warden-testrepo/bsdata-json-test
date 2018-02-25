@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Squiggoth",
+    "prevIdentifier": "Grot Mega-Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "42fc-8550-37bb-ae01",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "76c0-cf2f-af9c-242b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "f4d3-6aa9-2d0f-aa8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "7eb7-73cc-5472-a07b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "130b-3e03-665a-9e73",
+          "id": "f795-1070-44d9-c6d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "aba2-d774-3e88-aca3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2bbe-6b36-cd5e-d716",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bc14-433b-7f81-5e1f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "945e-f882-56b2-3f7e",
+          "id": "6879-7ecb-c51c-1bfc",
+          "name": "Gorin' Horns"
+        }
+      ],
+      "id": "e6c8-1855-9421-3cc4",
+      "name": "Squiggoth"
+    }
+  ]
+}

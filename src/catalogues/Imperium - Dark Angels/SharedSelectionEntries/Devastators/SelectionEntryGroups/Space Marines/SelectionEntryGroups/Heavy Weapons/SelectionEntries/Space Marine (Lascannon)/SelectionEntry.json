@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Lascannon)",
+    "prevIdentifier": "Space Marine (Multi-melta)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fba0-d4bf-b8bb-5196",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a39a-3e0e-9638-9013",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3e4d-ab6d-981e-e7be",
+          "id": "7d05-234f-8c9d-b7a7",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "7094-261b-e7bd-258f",
+      "name": "Space Marine (Lascannon)",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "cda9-62a0-1ce0-eada",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

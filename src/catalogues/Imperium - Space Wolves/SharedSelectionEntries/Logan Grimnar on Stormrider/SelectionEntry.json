@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "identifier": "Logan Grimnar on Stormrider",
+    "prevIdentifier": "The Axe Morkai"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 230.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7afa-d7ea-b00f-59d0",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "92b0-3a15-ace4-51a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "00e5-0a40-b67b-6a8b",
+          "id": "dcdf-e499-4210-5bd6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3b29-99ba-551f-2562",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e531-6b7c-92e2-113d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "277e-0e4e-e93e-53bf",
+          "id": "e1cd-3117-7e7d-5644",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "e689-5757-2296-874d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "cc1f-4a0f-7b52-47d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e272-8625-39e2-ad5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "39ba-82a5-a309-f73f",
+          "id": "b410-2218-d186-a3ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "594b-b4f0-ca09-3a2a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d1b4-1b84-d749-0900",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6628-efa2-1ae1-007b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "8ca2-d233-caa6-3ebd",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "edde-789c-7f66-2923",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f5b-504a-7614-50c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4beb-c2ca-88d4-acaf",
+          "id": "6e0f-a8e3-8abc-49b3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c108-aa61-7deb-09b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "f7cd-e02a-6012-5902",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "17be-bd0a-e7cc-fc01",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "73d0-2aee-853f-d414",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "17be-bd0a-e7cc-fc01",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "793e-fa9d-b5ad-3b8e",
+      "name": "Logan Grimnar on Stormrider",
+      "infoLinks": [
+        {
+          "targetId": "3548-22dc-e873-c892",
+          "id": "7ddc-1bf0-b7d2-cf2e",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "0eb9-5389-4749-b806",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c525-6f7a-7c5b-887f",
+          "id": "d40e-ca18-d1f3-939f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2972-3c4c-b8ba-6b01",
+          "id": "14b7-6e22-a984-5071",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "18d0-7cd5-e05c-698f",
+          "id": "340c-f805-5391-0638",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4c71-1a2a-12f2-f58a",
+          "id": "91d9-3553-16f3-fc14",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "579f-d299-3046-eac3",
+          "id": "b73d-e049-7114-37a9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cb17-0ef6-a770-d8cc",
+          "id": "27f5-76d8-d05f-c362",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1c29-415b-762f-25cd",
+          "id": "7b6a-c5e6-23d6-c017",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "7afa-d7ea-b00f-59d0",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3f45-b00c-544d-8e9e",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

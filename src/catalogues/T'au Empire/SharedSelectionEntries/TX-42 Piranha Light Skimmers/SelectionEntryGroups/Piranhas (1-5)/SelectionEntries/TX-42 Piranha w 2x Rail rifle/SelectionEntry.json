@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "TX-42 Piranha w/ 2x Rail rifle",
+    "prevIdentifier": "TX-42 Piranha w/ 2x Plasma rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "92d2-f6aa-c3b8-5387",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "164b-ae60-b25f-2449",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ebc5-c5a5-66c8-b72f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bb4-d3c0-16bf-0d66",
+          "id": "e190-fbd6-1a51-ab24",
+          "name": "Rail rifle"
+        }
+      ],
+      "id": "45ec-3a5a-d0a4-713b",
+      "name": "TX-42 Piranha w/ 2x Rail rifle",
+      "infoLinks": [
+        {
+          "targetId": "7da1-2e20-2715-38ca",
+          "id": "40a3-7b98-1847-4d2f",
+          "name": "TX-42 Piranha"
+        }
+      ]
+    }
+  ]
+}

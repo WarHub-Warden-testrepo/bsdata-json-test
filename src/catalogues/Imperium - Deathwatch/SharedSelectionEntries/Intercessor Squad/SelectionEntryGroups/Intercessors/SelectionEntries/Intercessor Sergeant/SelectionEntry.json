@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Intercessor Sergeant",
+    "prevIdentifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e50f-d5a2-9acc-7dce",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "07e5-f1c3-b76c-f7dd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dd4b-61df-3865-c0c8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6dc-63c7-a3c8-9618",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "956c-bf7e-57aa-7712",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "24f1-1eaf-cb1e-e561",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "061a-d004-7f95-e7b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "31db-812b-bb7d-b8a9",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "9d7d-701e-a1f7-f059",
+      "name": "Intercessor Sergeant"
+    }
+  ]
+}

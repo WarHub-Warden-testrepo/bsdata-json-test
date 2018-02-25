@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Goliath Truck",
+    "prevIdentifier": "Goliath Rockgrinder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 66.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "0d95-63af-970d-2b95",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "a5f2-e145-1ad7-1491",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "3e9b-bd33-a865-ecba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "6e4c-5d42-5a24-7ff6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "eb9b-ea2e-eafc-d945",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "11ee-242c-837e-b05b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d8e1-d880-18b2-e478",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6ebe-58fe-449f-121d",
+          "id": "82e8-00a7-29a0-1412",
+          "name": "Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "efeb-5f04-8c7a-3134",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a91b-b250-03c1-be5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c86b-ee60-46b5-c901",
+          "id": "e5bd-f9af-4c74-a4e9",
+          "name": "Twin Autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "339b-f469-2efe-4572",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "429e-11b6-4d44-4bc3",
+          "id": "b47e-f01a-8230-8f0d",
+          "name": "Cache of Demolition Charges"
+        }
+      ],
+      "id": "f2f6-a9c4-9244-7984",
+      "name": "Goliath Truck",
+      "infoLinks": [
+        {
+          "targetId": "85e0-86c8-dc67-9be5",
+          "id": "1d3d-7887-d174-fae7",
+          "name": "Open-topped"
+        },
+        {
+          "targetId": "7f8e-7d4a-13a0-e8ab",
+          "id": "cac8-3535-04c0-631d",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "3611-cf4f-35bb-4f1d",
+          "id": "dd9a-b9f2-27ac-8969",
+          "name": "Rugged Construction"
+        }
+      ]
+    }
+  ]
+}

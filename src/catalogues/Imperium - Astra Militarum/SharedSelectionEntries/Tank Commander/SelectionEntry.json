@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "identifier": "Tank Commander",
+    "prevIdentifier": "Taurox"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 167.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "8f18-688d-d51d-4924",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "08b7-5de8-261a-8f81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "1e9d-8443-6495-8684",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "1ee5-f435-079e-ce42",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e0fa-8320-dd5d-5b03",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dccb-7194-05d6-9725",
+          "id": "ab8e-b355-e62f-69e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "935b-1502-0bb5-6fb7",
+          "id": "d131-2641-9243-8948",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b77f-a968-1faa-ac48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dd6e-7055-ca6b-b711",
+          "id": "5e2b-5a29-94e4-22f9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "569b-f8df-20b0-23d2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1817-d3d3-5682-fd79",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a764-82f0-2cd1-0465",
+          "id": "c31a-08c7-0f60-9c18",
+          "name": "Stat Damage (Leman Russ Commander)"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "a514-4eef-183c-1d6a",
+          "name": "Sponson Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "08be-66c7-dec3-ecd7",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "a11f-39be-c0fe-6dd9",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "225d-ad99-9b33-4d18",
+          "id": "708b-6c98-d20e-378e",
+          "name": "Commander"
+        },
+        {
+          "targetId": "61ed-ee78-e2e8-556c",
+          "id": "22ba-efc8-5212-e585",
+          "name": "Tank Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "923a-605d-7a94-0b49",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c218-f41e-58b7-a50d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "c9f8-5189-343e-a73c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "81ef-ae29-833a-637c",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "f607-c042-f7f5-57a2",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ef81-3bca-f771-a5fe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "81ef-ae29-833a-637c",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "da34-52b0-53cc-1128",
+      "name": "Tank Commander",
+      "book": "Codex: Astra Militarum",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "d48c-63af-9b13-1596",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "b044-d1c9-31f4-7f9c",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "8bed-58c5-de0d-f0cd",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "1ed2-d754-c163-41af",
+          "name": "Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Slaanesh)",
+    "prevIdentifier": "Warlord Traits (Nurgle)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5e66-8340-b242-6353",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "948a-7015-bc6b-9a97",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "4cd3-5238-9d71-fc2a",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "a671-d25a-4ef4-3e5d",
+      "name": "Warlord Traits (Slaanesh)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Traits"
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

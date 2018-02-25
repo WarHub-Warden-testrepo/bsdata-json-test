@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Disarming Strike",
+    "prevIdentifier": "Silent Death"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c853-3c75-9ef9-9053",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f18a-ff96-87d8-0520",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "67de-4986-49cb-289d",
+      "name": "Disarming Strike"
+    }
+  ]
+}

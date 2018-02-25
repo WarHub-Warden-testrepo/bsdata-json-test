@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Twin Multi-Laser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7fa3-9397-2421-b471",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d7e4-4104-0a02-8491",
+      "name": "Twin Multi-Laser",
+      "infoLinks": [
+        {
+          "targetId": "92be-1bfc-f355-f214",
+          "id": "baec-637c-c256-88de",
+          "name": "Multi-laser",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": "Twin"
+            },
+            {
+              "field": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+              "value": "Heavy 6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

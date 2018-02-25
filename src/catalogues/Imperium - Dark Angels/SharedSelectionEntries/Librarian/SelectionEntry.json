@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Librarian",
+    "prevIdentifier": "Master in Gravis Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 88.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "40d8-76b1-dbd0-c55b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9ffa-55e0-500d-7a08",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "a6d3-b585-a085-7c12",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "27d2-2998-2f52-84cf",
+          "id": "046c-45f7-2866-c270",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "b11d-8c21-04ab-a8d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "621a-db57-605d-deb8",
+          "id": "841a-3bcf-074a-f9fb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "28f5-71f2-3cf9-f0ef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0bca-5768-157c-260f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "12b3-a996-8124-9a83",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "9cc1-7740-4a7e-9045",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "24"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "edd9-59c0-8f74-3b36",
+          "id": "a48b-47b2-2cae-af54",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "0ee1-d5d7-e393-69da",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "e729-2ec7-3aad-1abb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e0af-48b6-0d42-6525",
+      "name": "Librarian",
+      "infoLinks": [
+        {
+          "targetId": "8b5e-cf89-dccf-ba25",
+          "id": "d47c-4398-8b60-ff6d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "088a-84a8-d61d-5efa",
+          "name": "Inner Circle"
+        }
+      ]
+    }
+  ]
+}

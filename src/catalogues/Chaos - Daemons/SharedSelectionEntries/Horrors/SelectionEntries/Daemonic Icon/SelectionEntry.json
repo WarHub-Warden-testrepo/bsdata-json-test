@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Daemonic Icon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "56b4-ca47-c32c-9eb3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "f926-a709-f317-0847",
+      "name": "Daemonic Icon",
+      "modifiers": [
+        {
+          "field": "56b4-ca47-c32c-9eb3",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 10.0,
+                  "shared": true
+                },
+                {
+                  "childId": "68b2-2202-4e74-e836",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "56b4-ca47-c32c-9eb3",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 20.0,
+                  "shared": true
+                },
+                {
+                  "childId": "68b2-2202-4e74-e836",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "56b4-ca47-c32c-9eb3",
+          "value": "3",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 30.0,
+                  "shared": true
+                },
+                {
+                  "childId": "68b2-2202-4e74-e836",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f871-ce62-9895-c5a0",
+                  "value": 3.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

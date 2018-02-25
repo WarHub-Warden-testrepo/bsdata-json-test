@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Cataphractii Terminator",
+    "prevIdentifier": "Cataphractii Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e15e-31b9-ec53-7ab5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "ed16-0ba6-e59f-24d4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "b539-c8a3-f3a4-2f8a",
+      "name": "Cataphractii Terminator",
+      "infoLinks": [
+        {
+          "targetId": "e834-3e76-82c6-77fa",
+          "id": "af15-e73d-b8f8-d23a",
+          "name": "Cataphractii Terminator"
+        }
+      ]
+    }
+  ]
+}

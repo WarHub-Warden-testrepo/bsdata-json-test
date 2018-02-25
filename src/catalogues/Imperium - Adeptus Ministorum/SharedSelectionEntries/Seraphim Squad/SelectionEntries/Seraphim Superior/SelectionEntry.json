@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Seraphim Superior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3285-248a-78c8-5028",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "728d-8b9a-1fb2-4fac",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "621d-ba6c-0e44-ed35",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2194-c434-8187-0e12",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "8eae-b603-d7f5-e4c9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6364-2cd1-a177-09e6",
+      "name": "Seraphim Superior"
+    }
+  ]
+}

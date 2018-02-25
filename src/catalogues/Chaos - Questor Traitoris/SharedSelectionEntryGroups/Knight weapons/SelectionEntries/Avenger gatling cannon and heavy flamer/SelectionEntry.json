@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Avenger gatling cannon and heavy flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b22d-961b-5e40-b8c4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aa88-f7ed-2c20-586e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f39-a1b8-c2a7-83f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "0ca0-2ef1-d817-352b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3ca3-0f99-25ed-6ed4",
+      "name": "Avenger gatling cannon and heavy flamer"
+    }
+  ]
+}

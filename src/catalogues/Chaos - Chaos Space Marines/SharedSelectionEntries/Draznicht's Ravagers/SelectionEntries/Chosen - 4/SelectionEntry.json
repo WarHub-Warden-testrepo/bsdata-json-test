@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Chosen - 4",
+    "prevIdentifier": "Chosen - 3"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "872e-f545-5328-070d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2610-cb7a-e9e7-6adb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4428-5da2-4185-aaf0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "85ef-52b1-dd4c-d6fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "0cce-3c59-c71d-b05b",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "16c2-90fb-87ee-bf3c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cf9b-e574-32f9-475f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "d4c3-93d4-8d7e-f24e",
+          "name": "Power axe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c567-c0d3-b0c8-8f97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4592-0a27-fd48-6fa6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0719-5a49-a2d0-b662",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "18e1-6b29-d07f-fd11",
+      "name": "Chosen"
+    }
+  ]
+}

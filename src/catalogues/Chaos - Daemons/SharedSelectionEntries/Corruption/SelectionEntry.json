@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Corruption",
+    "prevIdentifier": "Rewards of Chaos (2 Relics)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "cbf0-f2b6-3ab2-ba0e",
+      "name": "Corruption",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "6e8e-eada-8511-4401",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "5df1-ff58-ee19-6e21",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "a102-5ef0-9005-cbea",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "12e4-31cd-65ba-5f0a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

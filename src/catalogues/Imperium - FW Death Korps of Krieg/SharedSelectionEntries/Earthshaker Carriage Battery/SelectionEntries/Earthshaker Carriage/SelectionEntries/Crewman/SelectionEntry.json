@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Crewman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2c28-43cd-3ed7-9519",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "bd1a-be78-3ad2-8c2d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "fd87-854b-d284-184a",
+          "id": "4393-9238-7c3d-b06c",
+          "name": "Lasgun"
+        },
+        {
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "f7ea-45a7-b986-7973",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "0491-da62-796f-3fcb",
+      "name": "Crewman",
+      "infoLinks": [
+        {
+          "targetId": "efac-a40e-8d33-0bb5",
+          "id": "c792-43db-d2d2-89ae",
+          "name": "Guardsmen Crew"
+        }
+      ]
+    }
+  ]
+}

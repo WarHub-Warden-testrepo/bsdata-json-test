@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Armament 2",
+    "prevIdentifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "63bb-fd44-5bac-f11e",
+      "constraints": [
+        {
+          "id": "baf3-c42e-b2ec-6596",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "74c9-8d93-bdd4-dbb6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "331c-e274-c0c5-c964",
+          "id": "5502-eae1-f79d-7092",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e39d-62ac-496b-6b1b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "63bb-fd44-5bac-f11e",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a362-f57d-76f3-9c44",
+      "name": "Armament 2"
+    }
+  ]
+}

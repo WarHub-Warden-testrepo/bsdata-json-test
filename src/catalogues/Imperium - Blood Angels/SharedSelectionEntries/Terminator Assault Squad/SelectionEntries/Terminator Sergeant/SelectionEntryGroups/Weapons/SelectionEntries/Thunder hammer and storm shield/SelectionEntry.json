@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Thunder hammer and storm shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b553-73c7-3a7a-e155",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "28de-c3fb-84a3-b635",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "256a-43cf-af81-7e95",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "31e8-2004-8e88-1bd1",
+          "name": "Thunder hammer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5a1b-24cd-dea7-8d00",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8924-f6b1-2a54-59e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "8614-cb70-e3b3-89a6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2db8-282f-d159-0513",
+      "name": "Thunder hammer and storm shield"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Reiver Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b1a9-45ba-6397-851a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8369-debc-473d-4fce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4885-ff17-ff25-e4b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6505-c489-b8d1-93c3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9a52-a2c7-20c3-f9af",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "85a6-1469-1f5a-d0e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8ace-e6ad-9873-6f9d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3886-2db3-98dc-3d43",
+          "id": "3d0e-e797-e3b1-4dea",
+          "name": "Shock grenades"
+        }
+      ],
+      "id": "69ef-3c6f-c301-c874",
+      "name": "Reiver Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "698a-c716-2f41-a6e5",
+          "id": "4adc-cc61-4029-4fcc",
+          "name": "Reiver Sergeant"
+        }
+      ]
+    }
+  ]
+}

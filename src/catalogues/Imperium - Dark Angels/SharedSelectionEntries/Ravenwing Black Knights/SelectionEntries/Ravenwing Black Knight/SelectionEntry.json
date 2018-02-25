@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Black Knight"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4395-22bb-3cfe-9174",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        },
+        {
+          "id": "4064-111b-a382-0b25",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "84fe-f60d-9f1e-1764",
+          "id": "c3eb-a8eb-f4d5-dd36",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f3d6-2cc1-a87c-cb12",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8e96-2b9a-25e7-b56d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "b4ba-d923-3ff9-e27f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0e05-8004-6f11-6b45",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "36bb-3fe5-8b87-ac78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e7e3-68d3-0b07-bb83",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a8ed-5a9f-e477-4910",
+      "name": "Ravenwing Black Knight",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "4395-22bb-3cfe-9174",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "4724-0b43-76a6-4456",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "4064-111b-a382-0b25",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "4724-0b43-76a6-4456",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

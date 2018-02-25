@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Contemptor Dreadnought",
+    "prevIdentifier": "Scout Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 98.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9256-0b0f-b284-7e6b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "04b3-7247-269e-6de0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "a869-5624-fe55-fe95",
+          "id": "4cfa-efe9-03d1-def9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2be9-3445-6a61-e667",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "e181-6c08-db64-19a3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "dd0d-0e80-a0af-2266",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "484c-8965-80df-17b1",
+      "name": "Contemptor Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "46be-1fa1-5c68-1642",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "targetId": "9182-b000-d9d0-3ec3",
+          "id": "fcaf-a56b-86a2-ab75",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

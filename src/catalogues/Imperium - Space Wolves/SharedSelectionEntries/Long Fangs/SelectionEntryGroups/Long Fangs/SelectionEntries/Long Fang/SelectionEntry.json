@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Long Fang"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9667-7aef-322e-e0d9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8596-b7db-f154-0b27",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5517-24cc-89c2-7825",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "5eb4-fc8f-1778-2e33",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "66ae-36e9-b04d-9e45",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ef3a-b165-d2c1-4ed5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "de0f-3900-d11f-dc61",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a7bd-da11-af13-bf8b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "83e2-fa8f-c114-5d13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "80f1-da3f-e853-04f9",
+          "id": "12ef-8b9b-e2e5-0a09",
+          "name": "Long Fang Weapon"
+        }
+      ],
+      "id": "d938-a581-932f-a578",
+      "name": "Long Fang",
+      "infoLinks": [
+        {
+          "targetId": "e71c-76cd-ba2e-649c",
+          "id": "dc2c-2dc4-5bb4-8ed3",
+          "name": "Long Fang"
+        }
+      ]
+    }
+  ]
+}

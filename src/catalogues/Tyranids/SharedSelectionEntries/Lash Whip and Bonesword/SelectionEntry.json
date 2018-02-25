@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Lash Whip and Bonesword",
+    "prevIdentifier": "Grasping Talons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "25ab-642d-ac96-acd8",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "591b-c551-1088-230b",
+      "name": "Lash Whip and Bonesword",
+      "infoLinks": [
+        {
+          "targetId": "09d5-7601-82df-77c8",
+          "id": "b97d-3597-60fb-9624",
+          "name": "Lash Whip and Bonesword"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "25ab-642d-ac96-acd8",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "acbe-148d-e7d1-85bb",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "eda8-1541-116e-f6aa",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

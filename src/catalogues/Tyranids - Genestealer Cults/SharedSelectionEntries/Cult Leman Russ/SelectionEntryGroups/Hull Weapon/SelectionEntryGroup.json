@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Hull Weapon",
+    "prevIdentifier": "Turret Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5a43-19db-f6b4-af15",
+      "constraints": [
+        {
+          "id": "5fb9-6a31-aeb5-93dc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cb6f-58d6-0092-9ff5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "778f-017e-aa20-74c1",
+          "id": "5a43-19db-f6b4-af15",
+          "name": "Heavy Bolter"
+        },
+        {
+          "targetId": "db1e-7ae4-bd03-21ca",
+          "id": "5d38-16dd-8fa9-e895",
+          "name": "Lascannon"
+        },
+        {
+          "targetId": "bd55-83d6-4b00-5f2f",
+          "id": "dda1-5838-48b1-55d7",
+          "name": "Heavy Flamer"
+        }
+      ],
+      "id": "da2c-965f-c497-965c",
+      "name": "Hull Weapon"
+    }
+  ]
+}

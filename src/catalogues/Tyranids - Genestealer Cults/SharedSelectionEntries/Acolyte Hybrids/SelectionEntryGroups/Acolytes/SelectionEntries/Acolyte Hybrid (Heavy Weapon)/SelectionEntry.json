@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Acolyte Hybrid (Heavy Weapon)",
+    "prevIdentifier": "Acolyte Hybrid (Hand Flamer)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5d5c-892e-03f2-0eae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ebab-2e1b-eb7a-3eb6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "49ae-b2c8-7be0-9dab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "e9df-d81d-99d8-0ccc",
+          "name": "Blasting Charges"
+        }
+      ],
+      "id": "9637-2f0e-d676-1688",
+      "name": "Acolyte Hybrid (Heavy Weapon)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "5d5c-892e-03f2-0eae",
+          "value": "2",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "4d55-d44b-8084-5f59",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

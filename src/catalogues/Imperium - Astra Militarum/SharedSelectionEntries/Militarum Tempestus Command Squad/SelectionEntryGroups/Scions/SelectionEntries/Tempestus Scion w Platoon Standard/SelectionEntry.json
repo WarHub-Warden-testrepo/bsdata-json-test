@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Tempestus Scion w/ Platoon Standard",
+    "prevIdentifier": "Tempestus Scion w/ Medi-pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c42f-618c-d757-765d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d2cf-ae5e-a877-ff23",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "91f7-4d7f-4fad-bd05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5188-4b26-73ac-1160",
+          "id": "27c8-c7e8-0513-4574",
+          "name": "Hot-Shot Lasgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4222-23a6-597e-530d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "771d-cbea-c999-6ef1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "347e-b81d-4307-3e00",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "1bac-9d4e-aeec-10a3",
+      "name": "Tempestus Scion w/ Platoon Standard",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "78b1-1537-120f-8a2b",
+          "name": "Tempestus Scion"
+        }
+      ]
+    }
+  ]
+}

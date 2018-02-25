@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Termagants",
+    "prevIdentifier": "Sporocyst"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "705e-30a0-3084-0095",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "e844-df5a-49fd-c180",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "afbe-02b3-4e79-5a5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "a1d5-1e26-07f0-a9ef",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ef1f-5ba0-acc8-00ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "5aad-ab67-9561-aaac",
+          "name": "Adrenal Glands",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "2e2b-aedb-e20b-9c8b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "221c-c983-a29c-21b8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "3468-350d-b093-4f73",
+          "name": "Toxin Sacs",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "2e2b-aedb-e20b-9c8b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "2e2b-aedb-e20b-9c8b",
+      "name": "Termagants",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "c6e3-fe23-15be-c661",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "d1fe-35b9-7009-518f",
+          "id": "91f1-22c4-9ef7-5be1",
+          "name": "Hail of Living Ammunition"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2e2b-aedb-e20b-9c8b",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2e2b-aedb-e20b-9c8b",
+              "value": 21.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

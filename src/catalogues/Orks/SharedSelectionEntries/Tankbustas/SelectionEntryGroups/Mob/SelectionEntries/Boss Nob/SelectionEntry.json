@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Boss Nob",
+    "prevIdentifier": "Tankbusta"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e20f-e060-20e6-0b03",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "9ddc-c86e-d2c3-77e1",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "e100-780a-3387-20a5",
+          "id": "d432-abad-649b-e7f9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "85b6-cb9a-0d78-52cd",
+      "name": "Boss Nob"
+    }
+  ]
+}

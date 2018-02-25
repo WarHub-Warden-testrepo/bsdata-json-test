@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Terminators",
+    "prevIdentifier": "Deathwatch Teleport Homer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "31a5-85f7-6924-fc59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "3718-7517-4836-24dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ff20-cd27-fac3-6c2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8fec-d8b1-7a4f-5737",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5168-cd4a-613a-e54a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b86e-a36b-2bfb-9401",
+          "id": "f8b3-817b-c85f-e3b1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2e20-75c9-c6de-83a8",
+      "name": "Deathwatch Terminators",
+      "infoLinks": [
+        {
+          "targetId": "daa1-9682-4f79-bdc3",
+          "id": "856c-af3b-7d1c-e7b0",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c4ca-bbdc-7e5e-7ae1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0cd3-5fb0-83ba-2475",
+          "id": "9d4a-47ac-d945-460d",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2e20-75c9-c6de-83a8",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

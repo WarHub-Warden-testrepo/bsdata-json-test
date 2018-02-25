@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Land Speeder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "732b-ed9a-997e-d24e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5481-42c7-59b6-d2a6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "c21f-277c-1f5e-4016",
+      "name": "Land Speeder",
+      "infoLinks": [
+        {
+          "targetId": "7f9e-dafe-298f-d26f",
+          "id": "f469-c612-760e-c6a3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

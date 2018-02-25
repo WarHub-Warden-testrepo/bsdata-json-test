@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Flayed One",
+    "prevIdentifier": "Flayed Ones"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7b9a-d76f-6733-cac5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2738-8b31-9caa-8916",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2bfe-b24d-b4bb-4233",
+          "id": "57c3-5d9b-9e0b-5042",
+          "name": "Flayer Claws",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "8d81-d6ab-e943-b42e",
+      "name": "Flayed One",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "a3df-b816-d5bb-170b",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Voidweaver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 68.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "56c4-03aa-9ce8-b0de",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0d61-4b3e-48f5-9776",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "674a-d2f8-7ee9-099f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "29b8-2150-1329-f8b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c791-d8b1-80d1-d707",
+          "id": "e740-314a-4682-4d63",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "59e1-b3a2-a0d0-3cc7",
+      "name": "Voidweaver",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "73"
+    }
+  ]
+}

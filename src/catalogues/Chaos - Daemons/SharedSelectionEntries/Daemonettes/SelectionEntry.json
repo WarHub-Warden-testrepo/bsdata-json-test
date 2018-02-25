@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Daemonettes",
+    "prevIdentifier": "Herald of Slaanesh on Exalted Seeker Chariot"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "9290-9fb9-0822-7ee6"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8d91-ccc1-530d-89b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "369f-f3e1-76b6-38b6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31eb-b14e-89a2-73d1",
+          "id": "7849-1c9d-58cd-3bca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "3ce2-63c5-4e6d-c6c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "3cb7-dc4e-75e3-52fd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8f28-bce0-a051-f427",
+      "name": "Daemonettes",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "879f-7b47-bc3b-f770",
+          "id": "afcf-085f-ddcb-6044",
+          "name": "Quicksilver Swiftness"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "fdd0-9816-7f37-104b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "2c04-5613-3f85-1e03",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "8f28-bce0-a051-f427",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "8f28-bce0-a051-f427",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

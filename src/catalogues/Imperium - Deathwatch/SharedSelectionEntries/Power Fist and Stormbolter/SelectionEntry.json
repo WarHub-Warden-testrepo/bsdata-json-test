@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Power Fist and Stormbolter",
+    "prevIdentifier": "Combat Shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0b5a-6644-e56b-2245",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bfc9-ed91-ec9d-b940",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "8c7c-1316-a240-f140",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cdc0-edc9-8a61-2aa4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3efb-af57-9471-b17e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "a2a0-0777-517c-fe9a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3a8b-a393-f5ed-8e82",
+      "name": "Power Fist and Stormbolter"
+    }
+  ]
+}

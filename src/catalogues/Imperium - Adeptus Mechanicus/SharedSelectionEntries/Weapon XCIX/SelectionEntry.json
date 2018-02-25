@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Weapon XCIX",
+    "prevIdentifier": "The Omnissiah's Hand"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6634-bc5e-7bbd-0e31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "dd38-cca7-54b4-0ae8",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "646a-757f-57dc-daf1",
+      "name": "Weapon XCIX",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "846e-f164-06a4-0e3e",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

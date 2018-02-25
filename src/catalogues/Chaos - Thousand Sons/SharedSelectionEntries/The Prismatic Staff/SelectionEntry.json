@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "The Prismatic Staff",
+    "prevIdentifier": "Coruscator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "02e6-b80c-07bb-afdb",
+      "name": "The Prismatic Staff",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "6f9a-c4fe-3132-d011",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

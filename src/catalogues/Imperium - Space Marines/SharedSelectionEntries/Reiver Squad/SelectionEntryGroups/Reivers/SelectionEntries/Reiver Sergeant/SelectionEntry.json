@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Reiver Sergeant",
+    "prevIdentifier": "Reiver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6b56-80d4-40c9-e5d6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9931-2bef-a1f6-2a29",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "843b-06e4-6a9e-cbd5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "49ad-f462-a14b-8bf5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f45e-5895-9ee4-55f7",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "332c-9fd5-aab7-1ae7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a66a-034a-59dd-96a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d7c8-7c82-9b35-d31f",
+          "id": "eecf-4402-60bf-1e8e",
+          "name": "Shock Grenades"
+        }
+      ],
+      "id": "40aa-a0ea-2fed-ae2c",
+      "name": "Reiver Sergeant"
+    }
+  ]
+}

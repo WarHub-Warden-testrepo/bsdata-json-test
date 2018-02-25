@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "DS8 Tactical Support Turret w/ SMS",
+    "prevIdentifier": "DS8 Tactical Support Turret w/ Missile pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6443-fa1d-5a3e-6763",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e7b0-7530-02e7-5df9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2153-5782-dad5-ef5e",
+          "id": "ffb8-d862-6f31-91c1",
+          "name": "Smart missile system",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "78c4-606a-148f-378a",
+      "name": "DS8 Tactical Support Turret w/ SMS",
+      "infoLinks": [
+        {
+          "targetId": "e259-39ca-7631-73c9",
+          "id": "2d9e-30f4-7d72-7804",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "f128-49d4-8a08-55d2",
+          "id": "568a-64f5-7788-332a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Servo-arm"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "7899-3f87-9d56-ca9a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "abde-03b9-f7c0-b684",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8118-c3ba-29e0-f7cb",
+      "name": "Servo-arm",
+      "infoLinks": [
+        {
+          "targetId": "9112-c49a-ee46-0f81",
+          "id": "0213-4e83-54a5-fd0e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

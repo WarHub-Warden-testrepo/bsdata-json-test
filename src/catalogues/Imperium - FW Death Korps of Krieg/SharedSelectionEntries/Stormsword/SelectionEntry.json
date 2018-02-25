@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "identifier": "Stormsword",
+    "prevIdentifier": "Stat Damage (Baneblade)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 25.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "43b1-27e6-3c0d-cb69",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "3650-3b0d-3d25-10bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "57ee-1375-e89d-10a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "0420-4b00-6fda-f329",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0422-75f2-7cc6-c337",
+          "id": "ffff-7a3f-bcc7-7738",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "7be6-9ca5-8350-cde5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "60c6-6e87-81c5-33af",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9d9e-d451-7424-02c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "fb74-7053-9fb9-2400",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "003f-7828-34bb-24a3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4fd5-5875-717a-4e99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "44bb-3e6f-8bd7-617a",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5d89-1e1b-b537-a340",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "998f-e93f-924b-e7df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "ec4e-4afe-c089-89d3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b537-ae2a-e089-727d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9066-cc39-0d72-4e5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "efd5-a8ce-a7aa-89c1",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "9d4a-9ec5-a1bc-2c0b",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "7679-e768-f692-02dd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "569e-366a-f551-4512",
+      "name": "Stormsword",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "2b5d-5819-a3e9-c72a",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "96be-524d-abb0-e2d9",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "abdf-340e-828c-58fb",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

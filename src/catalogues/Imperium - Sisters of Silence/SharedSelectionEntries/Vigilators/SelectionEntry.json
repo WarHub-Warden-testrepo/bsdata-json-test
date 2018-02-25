@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Vigilators",
+    "prevIdentifier": "Null-Maiden Rhino"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "be18-af79-8c70-633f",
+          "id": "38f0-b724-6879-0a39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8bcf-a0bd-54ad-9531",
+          "id": "616c-35f4-7a49-214f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dd65-0ed5-6aa3-0f9f",
+          "id": "c74d-4d78-fa63-8fd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e041-4fb0-b7e2-4455",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7392-e278-494b-8b66",
+      "name": "Vigilators",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "68d7-b6a1-b037-6183",
+          "id": "a9ef-ca40-f4eb-ad2b",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "bbdc-1bda-2f32-9369",
+          "id": "43b1-e243-98ca-7093",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7392-e278-494b-8b66",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

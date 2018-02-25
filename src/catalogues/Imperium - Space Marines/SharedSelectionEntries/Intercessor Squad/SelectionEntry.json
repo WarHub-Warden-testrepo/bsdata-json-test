@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Intercessor Squad",
+    "prevIdentifier": "Scout Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "d10b-8698-02fb-f185",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6760-4e3e-3cd8-ba94",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e24f-6e96-8c3c-139c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eaed-3964-68ad-28c0",
+          "id": "34b1-28b8-c354-6a91",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "83a5-246b-09dd-6049",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "170e-207f-e128-5991",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2d4e-d81a-1451-69e4",
+          "id": "643d-5148-8f77-4859",
+          "name": "Auxiliary Grenade Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "170e-207f-e128-5991",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "318d-3021-2155-ab53",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e89e-4431-97de-4b38",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e89e-4431-97de-4b38",
+      "name": "Intercessor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c130-4f91-6010-0c70",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "281a-5031-452a-08a4",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "318d-3021-2155-ab53",
+              "type": 1,
+              "field": "selections",
+              "scope": "e89e-4431-97de-4b38",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

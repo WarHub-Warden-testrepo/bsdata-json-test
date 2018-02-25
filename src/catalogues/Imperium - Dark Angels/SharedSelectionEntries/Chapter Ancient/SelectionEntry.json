@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Chapter Ancient",
+    "prevIdentifier": "Relic"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a330-5edb-94ee-0303",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2d28-8fed-1b2d-1999",
+          "id": "ee33-62cf-4b3b-e9b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f973-6093-7d9e-1888",
+          "id": "74eb-f93a-cd0b-0425",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "2d49-9609-bf14-cd70",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "6b89-df32-45f5-c913",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "91f4-8970-18a4-80b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "53f8-0a67-8d8e-9a68",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d4d2-5750-c6e4-e2d2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd77-0abd-93a6-8083",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6adf-4bc5-2975-517f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "a352-8151-df4a-fc7e",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "769f-7a12-b6de-25cb",
+      "name": "Chapter Ancient",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "61f9-2cb3-abd0-68a1",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "6586-5d43-b320-83cf",
+          "id": "1e0a-55cf-c929-2683",
+          "name": "Astartes Banner"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "0278-bdbf-ece1-2b72",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

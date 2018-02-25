@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Terminator Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 32.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a4b6-24e0-221b-1690",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbaf-bde5-0364-8e8a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f0a5-e343-16f4-c4bd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3758-7715-4120-8720",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "86ae-c55d-24aa-d61e",
+          "id": "eb32-c0b5-f82f-008d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2af3-4078-2cd3-5627",
+      "name": "Deathwatch Terminator Sergeant"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "identifier": "Vanguard Alpha",
+    "prevIdentifier": "Skitarii Vanguards"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0c21-887a-4749-4227",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f4e9-fdfc-d210-f161",
+          "id": "d4fa-1bda-d085-0235",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a59a-cd3c-42ed-ae5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a079-fbc2-add4-aea8",
+          "id": "0b97-47be-02ad-49eb",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9001-a1a0-2d85-b75c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8546-a7bb-fd85-0493",
+          "id": "8fa1-a046-6aee-da35",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "adcb-e3ef-6fed-5bcd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "0542-6e2e-6026-e4f9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82df-dd27-dc34-d2db",
+          "id": "1290-d840-e270-f23b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "adcb-e3ef-6fed-5bcd",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "8fa1-a046-6aee-da35",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8093-c442-c24c-a018",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "0542-6e2e-6026-e4f9",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "8fa1-a046-6aee-da35",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8093-c442-c24c-a018",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8093-c442-c24c-a018",
+      "name": "Vanguard Alpha"
+    }
+  ]
+}

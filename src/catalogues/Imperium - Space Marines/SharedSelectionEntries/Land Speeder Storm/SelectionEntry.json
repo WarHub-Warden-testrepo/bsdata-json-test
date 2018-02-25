@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Land Speeder Storm",
+    "prevIdentifier": "Attack Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "602e-d132-113b-c0e0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a583-9f88-1bc8-4f7a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f4ac-7766-b308-64cb",
+          "id": "f368-b676-7f6a-664b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fa73-0726-e32f-7c04",
+          "id": "18ce-6670-64e0-440f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bba0-95e4-2401-f202",
+          "id": "aedd-fc6c-7bca-ecfe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "0813-ee2a-d978-3df6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b46a-0a0e-f53d-3089",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1ea9-b86c-a78c-c7e2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ca2f-eac9-6c9c-ff0d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f311-73b1-daf6-fe04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3846-568f-f410-946e",
+          "id": "49e6-37fc-40f4-b8e7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "0213-79bc-add0-1b5d",
+      "name": "Land Speeder Storm",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "ed48-ff69-f33b-792f",
+          "id": "dafc-8037-bb04-c92b",
+          "name": "Explodes (3\"/1)"
+        },
+        {
+          "type": 1,
+          "targetId": "60db-65f7-ca20-7874",
+          "id": "0442-600c-8694-4eb9",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

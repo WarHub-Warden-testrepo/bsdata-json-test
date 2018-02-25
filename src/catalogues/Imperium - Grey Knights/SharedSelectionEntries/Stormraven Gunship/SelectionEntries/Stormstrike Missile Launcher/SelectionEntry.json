@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Stormstrike Missile Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0a67-6a4a-a420-97f0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "0fcc-24fa-b053-6577",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "b8b3-8b46-3d65-d551",
+      "name": "Stormstrike Missile Launcher",
+      "infoLinks": [
+        {
+          "targetId": "f465-e051-3946-f328",
+          "id": "33e9-7e44-6887-ee33",
+          "name": "Stormstrike missile launcher"
+        }
+      ]
+    }
+  ]
+}

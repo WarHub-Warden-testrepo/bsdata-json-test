@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Gargoyles",
+    "prevIdentifier": "Exocrine"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "7f25-7c0b-43b2-c3c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "42bf-fdc6-a5ed-6bd3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "2237-3bed-3f59-75ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e0b1-0c4f-f243-49c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "94cf-a23f-4eae-2547",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "21fc-05c5-6fd6-2d0a",
+      "name": "Gargoyles",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "da0e-87c1-64ea-a2d1",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "d1fe-35b9-7009-518f",
+          "id": "5b05-b639-9448-41da",
+          "name": "Hail of Living Ammunition"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "21fc-05c5-6fd6-2d0a",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "21fc-05c5-6fd6-2d0a",
+              "value": 21.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

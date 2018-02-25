@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "identifier": "Karandras",
+    "prevIdentifier": "Jain Zar"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "17c8-c7e3-a87e-1d2f",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "3bad-7643-ad10-caf6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "dc0c-fdfc-c05a-b3b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "01c3-6e9d-e30c-4bd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ca75-d871-b7e1-f10a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f0a8-98a1-434d-823e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "cbc3-4a09-4c84-b664",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cd5a-b254-0a72-ab15",
+          "id": "b649-1ac5-4269-70c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "01d2-89d9-3841-314d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0426-196f-471c-301c",
+          "id": "6b3f-bfec-a3f3-e7bf",
+          "name": "Shadow Strike"
+        },
+        {
+          "constraints": [
+            {
+              "id": "63c2-350e-4ebc-eba5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ebb6-2742-bc8a-a4bc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d16c-9cee-0721-4b76",
+          "id": "0c3b-143c-fe9a-8360",
+          "name": "Scorpion's Claw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7d35-f69e-add1-7ee0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a92d-f91d-776a-1176",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7be9-5ef2-05ac-fb47",
+          "id": "b314-e474-24e2-c53b",
+          "name": "Scorpion Chainsword",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ba9e-0ceb-0639-9a14",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9ce4-f866-0c1a-eb30",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "0b97-ebee-556f-0749",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eb8e-c579-d836-b754",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "9ba5-a83a-25d6-0a0a",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e1c5-1f9b-caf0-0629",
+      "name": "Karandras",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "62e2-77b1-f2b8-9fb7",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

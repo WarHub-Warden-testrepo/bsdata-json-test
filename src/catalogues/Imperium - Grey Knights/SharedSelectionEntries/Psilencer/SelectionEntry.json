@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Psilencer",
+    "prevIdentifier": "Incinerator - 13"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "11be-2bc6-677b-97a9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4f6d-7e5b-d7b6-4ea5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "94c1-7cb5-a934-687a",
+      "name": "Psilencer",
+      "infoLinks": [
+        {
+          "targetId": "f7d8-8d94-0a86-534b",
+          "id": "d621-acd4-5387-cd9c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

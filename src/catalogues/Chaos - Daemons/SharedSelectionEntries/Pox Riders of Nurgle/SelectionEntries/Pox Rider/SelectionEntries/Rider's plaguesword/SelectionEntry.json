@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Rider's plaguesword",
+    "prevIdentifier": "Yawning maw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "f3f6-1e6d-f9e4-bf0f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2d38-bb39-6fbd-8d77",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f8c4-7edc-14ae-164e",
+      "name": "Rider's plaguesword"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9008-d965-0631-1c5c",
+      "constraints": [
+        {
+          "id": "3e81-a506-aebd-3e57",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "7246-8f44-8180-987a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "9008-d965-0631-1c5c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5aaf-d2e4-ec59-0407",
+          "id": "d9c5-9795-1f57-44e4",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "250a-10f2-a1c6-36ff",
+          "id": "086a-d03d-b438-9bef",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5009-bd38-e283-cc28",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "7246-8f44-8180-987a",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "e0ad-aabb-0997-8ffb",
+              "type": 2,
+              "field": "selections",
+              "scope": "5c4e-ab09-769e-4f57",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "3e81-a506-aebd-3e57",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "e0ad-aabb-0997-8ffb",
+              "type": 2,
+              "field": "selections",
+              "scope": "5c4e-ab09-769e-4f57",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

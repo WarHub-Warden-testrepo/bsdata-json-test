@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Flicker Jump",
+    "prevIdentifier": "Warp Jump Generator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "084a-3fcf-58bc-0131",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e6a5-183c-c349-fea4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "47e8-f643-52e2-0c83",
+      "name": "Flicker Jump"
+    }
+  ]
+}

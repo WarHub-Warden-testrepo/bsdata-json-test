@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Shield",
+    "prevIdentifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6b13-dca2-643e-00d6",
+      "constraints": [
+        {
+          "id": "2e00-cb83-119e-73ec",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3c75-01b2-5037-2ba4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "bbab-887e-68bb-1d06",
+          "id": "6b13-dca2-643e-00d6",
+          "name": "Slabshield"
+        },
+        {
+          "targetId": "461c-d400-3574-1662",
+          "id": "79ec-d2e4-646d-d073",
+          "name": "Brute Shield"
+        }
+      ],
+      "id": "41ae-01b5-24bb-a68c",
+      "name": "Shield"
+    }
+  ]
+}

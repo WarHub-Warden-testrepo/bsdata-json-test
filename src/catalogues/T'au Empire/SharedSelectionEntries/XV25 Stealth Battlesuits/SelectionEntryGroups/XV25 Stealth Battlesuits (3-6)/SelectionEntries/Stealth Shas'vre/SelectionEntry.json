@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Stealth Shas'vre"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dd8f-62cc-dfb5-5bfc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1a91-aeb0-bd9c-fd70",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "c211-a72b-510e-73fe",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a0a8-acc6-79a2-ca0b",
+      "name": "Stealth Shas'vre",
+      "infoLinks": [
+        {
+          "targetId": "6ce3-39d2-44f2-75f2",
+          "id": "7106-1b11-c64d-0aac",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

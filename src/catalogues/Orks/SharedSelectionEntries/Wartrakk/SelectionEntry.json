@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Wartrakk",
+    "prevIdentifier": "Warbikers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "ee8e-0fce-e95e-cd38",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "4d85-d597-e289-1a5e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4734-57b3-b6bf-3c74",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "602a-ef1c-0fa0-1e8d",
+          "id": "f328-7936-ac6a-bba9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "a29e-5ffc-0b5f-8dae",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "98a5-e209-f687-1ee6",
+      "name": "Wartrakk",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "9987-3fa8-8d6c-e961",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "da75-e6c4-f328-f6d6",
+          "name": "'Ere We Go!"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "98a5-e209-f687-1ee6",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "98a5-e209-f687-1ee6",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

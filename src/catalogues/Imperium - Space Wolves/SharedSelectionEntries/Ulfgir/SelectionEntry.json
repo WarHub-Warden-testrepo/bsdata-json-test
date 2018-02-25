@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Ulfgir",
+    "prevIdentifier": "Svangir"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a7c6-cae5-3e5c-309a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3a48-ca5a-5e19-f67a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "04b5-0989-1321-6d4c",
+          "id": "3ea0-237d-e828-797c",
+          "name": "Teeth and claws"
+        }
+      ],
+      "id": "63ec-0e60-3828-fcb8",
+      "name": "Ulfgir",
+      "infoLinks": [
+        {
+          "targetId": "37c2-7be2-b415-7c2f",
+          "id": "006d-0cf4-16ff-d7ab",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

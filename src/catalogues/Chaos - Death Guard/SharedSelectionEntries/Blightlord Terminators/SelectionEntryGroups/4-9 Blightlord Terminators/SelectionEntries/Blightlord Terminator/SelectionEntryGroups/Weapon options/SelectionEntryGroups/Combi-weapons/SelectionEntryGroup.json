@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons",
+    "prevIdentifier": "Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ba4c-6321-3e83-46ba",
+      "constraints": [
+        {
+          "id": "b82a-911f-d48f-04be",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "9941-388c-433e-c572",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "a147-685b-7d77-63c3",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "b09a-3cef-564b-1a93",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a08c-1233-fb99-bdc5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "ba4c-6321-3e83-46ba",
+          "name": "Combi-bolter",
+          "modifiers": [
+            {
+              "field": "a08c-1233-fb99-bdc5",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "18a7-841a-3ead-9841",
+      "name": "Combi-weapons",
+      "modifiers": [
+        {
+          "field": "b82a-911f-d48f-04be",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3148-fdbf-082f-92ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "1d3d-6728-a654-8774",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

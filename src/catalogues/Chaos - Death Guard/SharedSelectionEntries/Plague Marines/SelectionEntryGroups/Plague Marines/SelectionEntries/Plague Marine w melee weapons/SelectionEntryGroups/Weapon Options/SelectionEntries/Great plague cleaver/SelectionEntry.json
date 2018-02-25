@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Great plague cleaver",
+    "prevIdentifier": "Mace of Contagion and bubotic axe"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f9e-e1ac-053f-ca6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5bc3-d4aa-2364-f763",
+          "type": 1,
+          "field": "selections",
+          "scope": "4124-8ae3-177a-4767",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "d80e-9e85-5652-20c6",
+      "name": "Great plague cleaver",
+      "infoLinks": [
+        {
+          "targetId": "b62d-7cc2-1b2a-ca61",
+          "id": "72f3-9589-086a-abdd",
+          "name": "Plague knife"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "5bc3-d4aa-2364-f763",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "5f1f-bfbd-b009-f6b9",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

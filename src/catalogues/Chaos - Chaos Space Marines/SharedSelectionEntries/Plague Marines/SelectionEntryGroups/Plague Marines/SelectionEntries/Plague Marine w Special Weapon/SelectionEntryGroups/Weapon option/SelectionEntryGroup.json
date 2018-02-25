@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Weapon option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "fb4a-eb1f-97ca-029d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "53f9-fae3-fc85-3d73",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "338f-488f-a108-e9e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "9798-693c-e0c7-5e38",
+          "name": "Meltagun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5728-4342-3a6e-c84d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "696b-84e5-7bc8-87ce",
+          "name": "Plasma gun"
+        }
+      ],
+      "id": "475c-ad11-7fe2-1ef1",
+      "name": "Weapon option"
+    }
+  ]
+}

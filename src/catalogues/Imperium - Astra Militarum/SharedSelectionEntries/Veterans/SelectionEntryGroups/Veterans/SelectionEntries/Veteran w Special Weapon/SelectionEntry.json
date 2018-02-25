@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Special Weapon",
+    "prevIdentifier": "Veteran w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1f1b-c054-f3f8-f0b0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "b146-ea4c-c9d2-b16a",
+          "id": "60f0-cbc2-12a0-33eb",
+          "name": "Astra Militarum Special Weapons BS3"
+        }
+      ],
+      "id": "55ed-660f-f475-4cee",
+      "name": "Veteran w/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "9141-2538-b8f2-4ae0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

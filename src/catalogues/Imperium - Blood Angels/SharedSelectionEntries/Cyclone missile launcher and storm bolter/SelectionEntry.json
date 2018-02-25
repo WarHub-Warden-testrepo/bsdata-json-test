@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Cyclone missile launcher and storm bolter",
+    "prevIdentifier": "Hand flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e56e-98ba-2432-c735",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a9a5-18db-9159-3757",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "25b3-79f7-73cd-9321",
+          "id": "844e-882f-c3c4-b83c",
+          "name": "Cyclone missile launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff48-981a-a4e5-8ecc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6985-72fb-d301-f23a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "d107-123a-679f-989c",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "3594-71ee-de15-4824",
+      "name": "Cyclone missile launcher and storm bolter"
+    }
+  ]
+}

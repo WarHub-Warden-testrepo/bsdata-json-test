@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/ bolt pistol and chainsword",
+    "prevIdentifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d3a-004a-16bd-041b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c0e6-e6ed-c6e6-f57a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8b48-9984-c4af-8294",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "39b8-1a77-061a-b2f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b374-40b5-fc4d-ddc7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "290e-ce4c-2564-f93a",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2000-2f2b-f803-e0f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3264-eb27-4f23-852b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "3e6d-992b-c7d6-73d2",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "0592-8b72-6c1b-eab8",
+      "name": "Space Marine w/ bolt pistol and chainsword",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "2282-8332-5454-3e04",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "e695-5fd9-c147-477f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Plaguebringer",
+    "prevIdentifier": "Plague Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bdb3-e0d9-b7cd-60d7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1aed-b079-01db-76f2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "65d8-e4e8-ae1f-6d58",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5df1-ff58-ee19-6e21",
+          "id": "42ab-db61-3cce-3396",
+          "name": "Plaguesword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e27a-8074-bdc3-e3d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d448-5b04-0452-935e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1c11-40ea-0b64-3f29",
+          "id": "e750-1c7b-afb9-33c4",
+          "name": "Rot Fly"
+        },
+        {
+          "targetId": "11a3-3f4d-d159-6484",
+          "id": "fa86-4a53-18de-1ac6",
+          "name": "Death's heads"
+        }
+      ],
+      "id": "b1c0-8263-6a0e-c4ac",
+      "name": "Plaguebringer"
+    }
+  ]
+}

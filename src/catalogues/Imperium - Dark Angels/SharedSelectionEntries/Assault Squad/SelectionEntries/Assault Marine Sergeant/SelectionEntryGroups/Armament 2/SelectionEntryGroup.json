@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Armament 2",
+    "prevIdentifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e8b9-b1aa-3bd5-d654",
+      "constraints": [
+        {
+          "id": "b176-d57c-58b0-54b9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "33f7-20bc-55f9-fbc0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9624-e840-bc9e-5f32",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "e8b9-b1aa-3bd5-d654",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "3da7-0020-d36c-6f40",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "affa-0535-e800-ed2d",
+      "name": "Armament 2",
+      "modifiers": [
+        {
+          "field": "b176-d57c-58b0-54b9",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "f020-6907-6820-583a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "33f7-20bc-55f9-fbc0",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "f020-6907-6820-583a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

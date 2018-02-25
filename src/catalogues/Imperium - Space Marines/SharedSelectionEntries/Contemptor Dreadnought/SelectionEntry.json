@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Contemptor Dreadnought",
+    "prevIdentifier": "Ironclad Assault Launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 98.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "787b-6793-208a-03dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a0a5-d5b2-6fb8-61cb",
+          "id": "4084-0026-d916-59cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "caef-ecef-4b2f-6b59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c8fd-d77c-db7d-8ce3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d68a-a403-3b11-7ee8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0f12-18fd-2001-cad1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "ee16-ab25-966e-44bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "a869-5624-fe55-fe95",
+          "id": "d79d-1604-55ff-e7b4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c397-97f3-5f8f-a9d1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "e4e1-b71b-ea7f-b83b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "3ef3-5b25-7f17-9616",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5912-3f43-75c1-f85c",
+      "name": "Contemptor Dreadnought",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e115-d729-ce93-fcb7",
+          "id": "fd7d-e6b4-7e28-3485",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "targetId": "9182-b000-d9d0-3ec3",
+          "id": "e8d5-9d72-7ff7-447b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Chaos Space Marine Crew"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9ece-0659-5ad4-ada5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "7efe-7751-d7c8-63ea",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9cd2-71f0-3e6c-e7b4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2d87-d9c8-450a-3433",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f61c-3958-2e4e-cad2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "4aa0-4a00-7dc4-2792",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6511-33bc-350b-9d78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6091-1b69-eb7b-b0f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "ffcd-073d-3f16-4c26",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "3964-2c63-6524-bf94",
+      "name": "Chaos Space Marine Crew"
+    }
+  ]
+}

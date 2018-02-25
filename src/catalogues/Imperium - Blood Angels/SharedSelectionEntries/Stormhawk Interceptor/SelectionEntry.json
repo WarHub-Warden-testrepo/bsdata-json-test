@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Stormhawk Interceptor",
+    "prevIdentifier": "Land Speeder Storm"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "6363-295a-b44a-70af",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "efe6-2235-633d-b462",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "2a39-285f-4306-03c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "224e-7661-2dfc-e34b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "9e8c-e45a-bf8a-7203",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4342-d48b-274b-2af0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8104-d542-d9d5-ae7f",
+          "id": "7fb0-018b-e903-edf3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3ad2-0ee9-96a9-93d4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6fd7-ee24-e0a6-6201",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "51b0-3d46-5af4-683e",
+          "id": "3933-c9d8-009a-27bd",
+          "name": "Assault cannon"
+        }
+      ],
+      "id": "e6a8-900d-944a-f32d",
+      "name": "Stormhawk Interceptor",
+      "infoLinks": [
+        {
+          "targetId": "7738-1e58-d25e-ed32",
+          "id": "ddd3-449d-d8f1-ddbc",
+          "name": "Stormhawk Interceptor"
+        },
+        {
+          "targetId": "5612-a7b4-ed49-63e2",
+          "id": "be74-1367-7cf8-c98c",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "05fe-231e-bd86-86e4",
+          "id": "70a1-a2f9-6256-94d8",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "c5ca-67fb-3f1a-5a0b",
+          "id": "1944-e6ac-7ab1-6cc6",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "c129-a8e6-9cca-e132",
+          "id": "3fc6-b828-5ff9-4a74",
+          "name": "Infernum Halo-launcher"
+        },
+        {
+          "targetId": "e5e9-776c-a573-ec03",
+          "id": "8dc0-35a4-7101-38bc",
+          "name": "Interceptor"
+        }
+      ]
+    }
+  ]
+}

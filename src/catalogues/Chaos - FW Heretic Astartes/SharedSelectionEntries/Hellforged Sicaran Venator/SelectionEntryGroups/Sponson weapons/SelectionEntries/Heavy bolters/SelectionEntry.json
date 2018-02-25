@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7c48-dca4-5444-7dcd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "e258-ab36-ea98-c253",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "6599-5c2e-9628-f566",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "f4f4-b7e2-c86b-9072",
+      "name": "Heavy bolters"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "The Murder Sword",
+    "prevIdentifier": "The Eye of Night"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "38c8-affb-024d-008a",
+      "name": "The Murder Sword",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "bc9e-551d-9afb-78d5",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

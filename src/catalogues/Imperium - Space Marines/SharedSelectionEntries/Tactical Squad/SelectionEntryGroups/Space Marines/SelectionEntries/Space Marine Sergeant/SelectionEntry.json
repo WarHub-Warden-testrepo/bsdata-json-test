@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Space Marine Sergeant",
+    "prevIdentifier": "Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "625b-1cd9-1b22-7835",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8b36-219c-35db-5ff9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8092-e555-7611-9fb8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "312c-3e63-d4fd-bbe9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "bd47-0a4c-b21d-dd8c",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1532-f8f4-b8e3-e484",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1f97-a455-d437-4d9a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f11e-6eca-c706-dff0",
+          "id": "bff0-6acb-14d5-fdff",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6459-6e81-faa3-db3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "51fd-9109-8cff-a1b9",
+          "name": "Melta bombs"
+        }
+      ],
+      "id": "695e-d0f4-247b-9c16",
+      "name": "Space Marine Sergeant"
+    }
+  ]
+}

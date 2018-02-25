@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Tempestor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c6d2-1f76-bdeb-6303",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "50f9-6fa5-e1d9-6556",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "602b-dcde-2fc4-8d54",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fb52-592d-4366-500d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "63cf-4a10-35a2-4f2c",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "622c-b121-409a-837e",
+      "name": "Tempestor",
+      "page": "0"
+    }
+  ]
+}

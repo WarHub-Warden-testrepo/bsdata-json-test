@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "identifier": "Land Raider Prometheus",
+    "prevIdentifier": "Land Raider Helios"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 290.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "537e-3eaf-3fad-64b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6940-2296-c582-2fdf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "032d-817e-0a25-a9b5",
+          "id": "02f7-6043-e510-fc5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "07c5-df87-f7cb-e961",
+          "id": "fbcf-e96c-5915-054c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "dc62-f014-ad2c-7a46",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "fe79-88e9-407d-852f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "ad50-ff4e-2ad7-b133",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "8ed8-4ae6-5f58-3ef5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f0d8-1818-adc4-aa89",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "1bf3-7bbe-f234-c885",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "140d-4027-2d0a-6223",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "ca88-d087-5cd7-0fb1",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8697-372f-3958-99e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4572-20b8-fea6-4041",
+          "id": "5ada-7363-aaa5-9f02",
+          "name": "Multi-melta"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cda0-9a9b-33e3-ebdd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "363b-e08a-b701-3009",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5384-cbe9-534a-fe06",
+          "id": "80dc-30e8-ba82-f092",
+          "name": "Quad heavy bolter"
+        }
+      ],
+      "id": "63f2-ec41-a54f-9c67",
+      "name": "Land Raider Prometheus",
+      "infoLinks": [
+        {
+          "targetId": "24b2-f93d-91b9-ccac",
+          "id": "5966-89f7-59b2-f3ef",
+          "name": "Land Raider Prometheus"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "72ef-af95-2acf-c2b7",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "8cef-6169-f197-f048",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "297c-9dd8-f7bc-86df",
+          "id": "c748-c720-3823-0311",
+          "name": "Battle Auspex"
+        },
+        {
+          "targetId": "11a3-5870-dd26-3ff5",
+          "id": "8a1a-3592-4685-a012",
+          "name": "Command Relay"
+        }
+      ]
+    }
+  ]
+}

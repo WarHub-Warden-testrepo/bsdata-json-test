@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Brilliant Stragegist",
+    "prevIdentifier": "Courage of the First Legion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2fd0-3b39-240a-b7c4",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "5976-8015-3c1d-8855",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "af8b-69fa-5da4-d914",
+      "name": "Brilliant Stragegist",
+      "modifiers": [
+        {
+          "field": "2fd0-3b39-240a-b7c4",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "e178-fe8e-6928-48c2",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

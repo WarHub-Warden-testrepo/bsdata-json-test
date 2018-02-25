@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Exorcist",
+    "prevIdentifier": "Dominion Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "0887-1018-2e85-53d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "c3b1-d45f-d6b3-4020",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "cae0-afcf-2133-df31",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6c47-3f2b-e345-3800",
+          "id": "cd86-c32d-8b8b-a640",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "18e5-3b1b-c032-facc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "df3a-da43-468b-2034",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "1665-05e2-acdd-7c44",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "19fb-a84d-a70b-e711",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "7b57-a36f-c544-efef",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a89b-bb71-d31c-e80b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8fdc-b73f-b163-07f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f400-0f26-b0ef-5c56",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "9272-c5a7-3c3f-7a80",
+          "id": "be0c-5b93-9087-0a52",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "2c1c-4fcd-f444-497f",
+      "name": "Exorcist",
+      "book": "Index: Imperium 2",
+      "page": "103",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "684b-9514-9256-2f8d"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "e890-2930-065b-2c53",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "772c-28e3-686e-8a93",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

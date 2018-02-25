@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Bike",
+    "prevIdentifier": "Rune Priest on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bb53-7899-6325-bfcc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ce3f-928d-27aa-468d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "d309-0090-5320-b501",
+          "name": "Twin boltgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "2ebb-7fc3-93ed-4f8e",
+      "name": "Bike",
+      "infoLinks": [
+        {
+          "targetId": "9c5a-1c67-ba18-6c1f",
+          "id": "c354-3b65-6cc7-3f9f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

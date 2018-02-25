@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Valdor Tank Hunter",
+    "prevIdentifier": "Praetor Armoured Assault Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 370.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "f2d6-4f52-283c-b2c1",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c456-427f-235a-d4c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "abb6-9f41-ad95-68db",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "b758-ec7d-fe17-c1a4",
+      "name": "Valdor Tank Hunter",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "ddf1-1928-f6f3-410b",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "1b9f-ee08-06a8-b1e1",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

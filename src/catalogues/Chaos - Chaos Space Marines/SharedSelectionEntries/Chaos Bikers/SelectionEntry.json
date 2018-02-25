@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "identifier": "Chaos Bikers",
+    "prevIdentifier": "Chaos Spawn"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "19e6-6333-b68c-8c49",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "f323-15f6-e748-7047",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "6837-4645-9a7c-bd4b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "1a5d-62a2-6aab-504c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "1902-7644-23f4-a7ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7d87-f7bf-99bb-00ea",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "2aa9-62ae-f614-76ce",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "61b7-8c87-b197-3887",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "c672-8cdc-f359-ae4b",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "34a8-8285-a3c2-f4e6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7231-0686-8eea-1aed",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b096-ebc0-97a8-7a41",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "9ec4-ec4a-b810-db1c",
+          "name": "Icon of Flame",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "57d0-d6cb-db5a-2142",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7231-0686-8eea-1aed",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "082e-c42f-8245-4746",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eab4-cf83-7555-b8c3",
+          "id": "fcbe-916d-f05b-fe70",
+          "name": "Icon of Vengeance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfe4-7311-dbd5-c9e1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7231-0686-8eea-1aed",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1a84-def9-9e83-03d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4925-fdaf-aee3-c408",
+          "id": "4060-18f5-1c29-7683",
+          "name": "Icon of Wrath",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c919-21bc-48b7-0423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7231-0686-8eea-1aed",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "72e3-b528-e16c-6ae4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b82-0948-eac4-b35f",
+          "id": "744a-a052-89db-3477",
+          "name": "Icon of Excess",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "81f9-01f6-e82e-7eec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7231-0686-8eea-1aed",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7231-0686-8eea-1aed",
+      "name": "Chaos Bikers",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "135a-84a3-29ce-1889",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "3923-a411-2e7b-dc9c",
+          "id": "f8cb-b9a0-602f-c5bf",
+          "name": "Turbo-boost"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "7231-0686-8eea-1aed",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7231-0686-8eea-1aed",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

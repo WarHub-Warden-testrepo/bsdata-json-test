@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "identifier": "Librarian",
+    "prevIdentifier": "Land Speeders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 88.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "a23f-c20e-179f-a920",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "4360-8ea1-00cf-afae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "d52f-16a2-3727-caa9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "8744-1513-5c96-6199",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e608-b5b4-55ec-b715",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8ca4-0997-11c1-7dc7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d10-0420-b210-b091",
+          "id": "34e5-9400-06a7-876d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "0696-dd13-5b1b-bf0c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6d16-3bab-7ec0-d51c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "ccb6-d181-564b-fe28",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "24"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8119-1b8e-4b56-6bca",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "594e-9e52-b861-5405",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b386-7bba-aa61-749d",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3071-8338-1de7-52e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "e21e-a870-2fa2-e2f9",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "1bab-97c6-1462-ab64",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "5fd3-8b28-71cc-d6bb",
+          "name": "Relics of Baal"
+        },
+        {
+          "constraints": [
+            {
+              "id": "130a-90d7-4cc3-bfe9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d0c3-1e11-a05f-a066",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "d8a1-9510-9dd6-c996",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7e54-123c-d61a-1064",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4827-f579-85b6-064b",
+          "id": "9a6c-1945-383c-09fb",
+          "name": "Sanguinary Disipline"
+        }
+      ],
+      "id": "c4f5-febb-7acd-bbd2",
+      "name": "Librarian",
+      "infoLinks": [
+        {
+          "targetId": "6d98-73bf-a256-3dd6",
+          "id": "ddbb-a25c-6e34-c53e",
+          "name": "Librarian",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "ccb6-d181-564b-fe28",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c4f5-febb-7acd-bbd2",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c601-154a-7d84-133a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1994-f6f7-58af-6fca",
+          "id": "4f7e-c88f-5003-ce4a",
+          "name": "Psychic Hood"
+        }
+      ]
+    }
+  ]
+}

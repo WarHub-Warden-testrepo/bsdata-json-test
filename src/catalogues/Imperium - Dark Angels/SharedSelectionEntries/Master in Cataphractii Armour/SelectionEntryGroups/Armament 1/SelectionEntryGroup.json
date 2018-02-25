@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Armament 1",
+    "prevIdentifier": "Armament 2"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "955c-032e-d99d-44aa",
+      "constraints": [
+        {
+          "id": "42ff-984d-28d1-1f57",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "f8fa-8e87-b3ed-2631",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f6ff-c658-ba92-dd54",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "554a-4c06-6d28-a87c",
+          "id": "ec1c-14cb-0e17-312f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "93c8-8eec-905c-e176",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "955c-032e-d99d-44aa",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2fab-7a38-d746-5db3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "ab0e-84f3-b033-3aec",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ddc8-819a-c20c-04f5",
+          "id": "aa35-804e-9f30-5240",
+          "name": "Power Sword"
+        }
+      ],
+      "id": "61ba-1c87-23ca-457c",
+      "name": "Armament 1"
+    }
+  ]
+}

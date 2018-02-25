@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "identifier": "Mad Dok Grotsnik",
+    "prevIdentifier": "Boss Zagstruk"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6686-8a03-9af2-53d3",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9eee-7b86-3832-4d0d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "4859-ec98-5b01-22b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "044b-7577-963a-0a1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f07c-87d3-2c8d-eb7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7fa5-fda7-c9a6-5f51",
+          "id": "7743-da73-716c-4d86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e49c-659e-7270-8159",
+          "id": "a174-accd-a895-45ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "38c8-dbcf-febf-2188",
+          "id": "7aa4-fac6-9a69-1ddd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d593-fcf6-8f6a-03de",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "85a1-c3ad-e9bd-db58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2112-88e2-79ed-88b8",
+          "id": "6899-4651-a07a-b0c2",
+          "name": "'Urty Syringe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "782d-63d3-e17f-a413",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fd92-dc9f-f212-9cba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe00-451f-6735-6fd9",
+          "id": "e271-99e8-24c1-a1cb",
+          "name": "Power Klaw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a052-f51c-05dc-e45d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3490-ab5f-2925-78fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d13b-ad69-e6a2-d485",
+          "id": "57bb-92f9-97e5-5b9f",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6dfe-e3df-ad40-fa88",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c2ce-6759-e009-8c11",
+          "id": "b0ce-e406-7d72-eb80",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "9037-5d51-7e69-51aa",
+      "name": "Mad Dok Grotsnik",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "6795-dd28-b156-fcec",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "84aa-9cb0-02af-78c6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b5ee-945a-576f-ad0a",
+          "id": "0814-fef5-2dde-cf1c",
+          "name": "Dok's Tools"
+        }
+      ]
+    }
+  ]
+}

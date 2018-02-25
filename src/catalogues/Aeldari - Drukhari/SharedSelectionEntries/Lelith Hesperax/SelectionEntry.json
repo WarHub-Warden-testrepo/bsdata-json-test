@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "identifier": "Lelith Hesperax",
+    "prevIdentifier": "Kabalite Trueborn"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "65be-8137-264b-c14b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9355-7d5a-f75c-4d96",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f30e-a003-4b58-ea72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f1c2-b2b2-97e4-8185",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "4b6a-828b-6256-322e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "501a-5191-580f-0b59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4c47-af86-571d-3176",
+          "id": "1e8b-7c08-91d3-d2bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e62f-addb-b3f6-5713",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "7de1-3715-26ec-4ef8",
+          "id": "8e67-bf70-0635-9793",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "constraints": [
+            {
+              "id": "76dc-3ba8-123e-817f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "8c34-bb03-11d7-0488",
+          "name": "Warlord"
+        }
+      ],
+      "id": "4d2d-8f34-03e5-91ca",
+      "name": "Lelith Hesperax",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "937f-fbc6-b056-5802",
+          "name": "Combat Drugs"
+        },
+        {
+          "targetId": "43d0-fa61-a437-7911",
+          "id": "a15b-b440-db30-4589",
+          "name": "No Escape"
+        },
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "d7e5-a203-9f92-4f1b",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "5f33-2f00-d2e2-c549",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "b13e-1e01-28ca-16c2",
+          "name": "Combat Drugs"
+        }
+      ]
+    }
+  ]
+}

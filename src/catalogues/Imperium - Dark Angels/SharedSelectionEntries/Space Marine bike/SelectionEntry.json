@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Space Marine bike",
+    "prevIdentifier": "Interrogator-Chaplain on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "72d8-e7fc-8dbe-4f81",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "52aa-8207-5143-70a9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fd25-75e1-7be8-bdad",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8760-bab5-5165-8a76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "c27f-258d-886c-ad32",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1895-aed1-30e4-117b",
+      "name": "Space Marine bike"
+    }
+  ]
+}

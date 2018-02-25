@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Heavy Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "ad55-71d0-692a-70c6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "08d3-c213-690f-988b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5737-f109-70da-838e",
+      "name": "Heavy Bolter",
+      "infoLinks": [
+        {
+          "targetId": "e2b0-b9f1-6c38-584c",
+          "id": "3713-e256-02fb-de90",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

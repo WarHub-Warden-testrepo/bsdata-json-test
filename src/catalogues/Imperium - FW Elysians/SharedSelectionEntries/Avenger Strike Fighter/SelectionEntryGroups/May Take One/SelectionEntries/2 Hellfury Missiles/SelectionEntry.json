@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "2 Hellfury Missiles",
+    "prevIdentifier": "2 Hellstrike Missiles"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f178-4370-8e1d-ed26",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d73d-7f0e-6831-76ff",
+      "name": "2 Hellfury Missiles",
+      "infoLinks": [
+        {
+          "targetId": "c506-bf8a-d143-2f18",
+          "id": "8e58-8b8a-295e-f538",
+          "name": "Hellfury Missiles"
+        }
+      ]
+    }
+  ]
+}

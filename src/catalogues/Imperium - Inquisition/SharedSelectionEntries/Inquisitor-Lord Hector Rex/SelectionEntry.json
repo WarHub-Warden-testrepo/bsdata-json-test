@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "Inquisitor-Lord Hector Rex",
+    "prevIdentifier": "Ordo Malleus Inquisitor in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b987-87ce-53d9-eb7d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b45c-1322-1b19-77a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d40f-6ae4-4511-eb03",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "d96f-4fe2-c380-9c4b",
+          "name": "Storm shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f458-8ee4-d86d-d92d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "64d8-a169-784a-0a26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "7ced-00ee-1432-bfb3",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "daf9-6356-e6c8-2ce9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "650b-8c0a-27e0-27af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "17ce-9140-2985-49b6",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "3307-676c-2c68-75a5",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3b16-b004-0cb3-d06e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ca1c-4125-4670-01c6",
+          "name": "Warlord"
+        }
+      ],
+      "id": "f34a-e3be-53b1-d783",
+      "name": "Inquisitor-Lord Hector Rex",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "c915-d753-61b8-94e0",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "58e3-3f5b-2a4c-024b",
+          "name": "Unquestionable Wisdom"
+        },
+        {
+          "targetId": "5086-d3c4-7238-d42f",
+          "id": "141f-d755-1c09-f44e",
+          "name": "Quarry - Malleus"
+        }
+      ]
+    }
+  ]
+}

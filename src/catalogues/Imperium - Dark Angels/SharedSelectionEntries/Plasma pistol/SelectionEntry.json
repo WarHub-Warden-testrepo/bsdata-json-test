@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Plasma pistol",
+    "prevIdentifier": "Eviscerator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "ce99-9154-bc8d-d5b9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "df8e-5f42-0526-7f68",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "562f-09e1-a5c4-9965",
+      "name": "Plasma pistol",
+      "infoLinks": [
+        {
+          "targetId": "ff12-161a-ca85-339f",
+          "id": "b6cc-5a0e-53ad-cf8d",
+          "name": "Plasma pistol"
+        },
+        {
+          "targetId": "5779-2931-fe17-2b27",
+          "id": "fe57-eaa1-19b2-b674",
+          "name": "Plasma pistol"
+        }
+      ]
+    }
+  ]
+}

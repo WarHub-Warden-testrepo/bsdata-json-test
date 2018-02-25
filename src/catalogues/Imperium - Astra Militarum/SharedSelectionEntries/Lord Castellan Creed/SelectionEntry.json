@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "identifier": "Lord Castellan Creed",
+    "prevIdentifier": "Infantry Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b332-b046-7171-5059",
+          "id": "9793-377c-5611-9b30",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "8d57-5bbd-8cf2-2b32",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "df0d-d8ae-9131-df7e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be4e-87d9-3bb2-4ecd",
+          "id": "62a0-179f-a49b-6ca4",
+          "name": "Hot-shot Laspistol",
+          "modifiers": [
+            {
+              "field": "0271-e6fd-1e21-c8f0",
+              "value": "2"
+            },
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ff3-c881-58e3-d4a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "803b-fc6b-59ed-c7ea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "1a43-2c1a-abe0-23e8",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "7d8c-221c-99c5-97d2",
+          "id": "dd4e-261c-2af5-660b",
+          "name": "Astra Militarum Orders"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e5f6-97ff-fb4c-5390",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6970-ecd5-a140-886a",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "369b-c784-afa9-e250",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "62da-ed0a-445a-9773",
+          "id": "43d2-8511-f0a8-6b93",
+          "name": "Superior Tactical Training",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "369b-c784-afa9-e250",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "dcb74f5d-1308-fbaa-205f-3ad8fbde5b04",
+      "name": "Lord Castellan Creed",
+      "book": "Codex: Astra Militarum",
+      "page": "56",
+      "infoLinks": [
+        {
+          "targetId": "2ff26b94-8048-d15d-c541-fd4da0f49571",
+          "id": "a5d0-d68b-1032-e0d8",
+          "name": "Voice of Command"
+        },
+        {
+          "targetId": "783d-d067-2d7f-d2a1",
+          "id": "9a39-e3c6-5910-4295",
+          "name": "Refractor Field"
+        }
+      ]
+    }
+  ]
+}

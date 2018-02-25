@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Off-Hand",
+    "prevIdentifier": "Ranged Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "15bc-258a-2708-0f2b",
+      "constraints": [
+        {
+          "id": "6bcc-5339-fe72-9a9d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "21c9-e5a7-0ca2-74dd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b2c2-86a8-13e9-6290",
+          "id": "c2df-7002-7839-9c73",
+          "name": "Nemesis Daemon Greathammer"
+        },
+        {
+          "targetId": "58fb-9127-cea0-b46a",
+          "id": "b9e0-3989-648e-dfe9",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c97e-2928-fc16-ddc3",
+          "id": "15bc-258a-2708-0f2b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "id": "45c2-57da-fe5d-d94a",
+      "name": "Off-Hand"
+    }
+  ]
+}

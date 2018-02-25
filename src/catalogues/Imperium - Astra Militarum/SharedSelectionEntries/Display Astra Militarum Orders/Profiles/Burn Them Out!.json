@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Burn Them Out!",
+    "prevIdentifier": "Fix Bayonets!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "You can re-roll the dice when determining the number of attacks the ordered unit can make with flamers and heavy flamers until the end of the phase. In addition, units targeted by models from the ordered unit with these weapons do not gain any bonus to their saving throws for being in cover this phase."
+        }
+      ],
+      "id": "1fc5-6747-f312-2d0c",
+      "name": "Burn Them Out!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "e728-c8e8-d03b-13b0",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

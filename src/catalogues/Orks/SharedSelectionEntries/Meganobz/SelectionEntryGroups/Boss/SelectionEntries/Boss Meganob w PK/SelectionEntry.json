@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Boss Meganob w/ PK"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "088c-8c82-81fa-6b1f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "423a-2744-63b4-83db",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6095-ea18-7bd5-82f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe00-451f-6735-6fd9",
+          "id": "44ca-04e9-871b-8104",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "24d7-2d05-fcf7-f383",
+      "name": "Boss Meganob w/ PK"
+    }
+  ]
+}

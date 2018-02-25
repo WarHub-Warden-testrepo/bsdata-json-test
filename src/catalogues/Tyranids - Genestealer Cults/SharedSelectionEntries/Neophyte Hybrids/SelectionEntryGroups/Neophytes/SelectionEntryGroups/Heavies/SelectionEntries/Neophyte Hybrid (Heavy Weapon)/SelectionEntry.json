@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Neophyte Hybrid (Heavy Weapon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d0d7-f354-a186-2c01",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "802b-c802-8e19-c856",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8429-55b7-2ca6-9b59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "306c-3f25-1e56-5962",
+          "name": "Autopistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "09f7-0869-faf6-777a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "05e6-060c-67b5-d5c4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "536a-a998-35c7-f701",
+          "name": "Blasting Charges"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "00ce-17e5-8fd9-6d29",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "52f2-3cc1-af48-daaa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ec93-7a8b-1a76-3f89",
+          "id": "43f6-2eac-9d3f-06f0",
+          "name": "Heavy Mining Weapons"
+        }
+      ],
+      "id": "e16d-cb9c-4c0f-f9d7",
+      "name": "Neophyte Hybrid (Heavy Weapon)"
+    }
+  ]
+}

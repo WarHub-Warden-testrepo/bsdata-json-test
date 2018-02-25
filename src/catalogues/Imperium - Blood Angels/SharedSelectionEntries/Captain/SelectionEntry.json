@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "identifier": "Captain",
+    "prevIdentifier": "Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9956-5c97-2c81-da80",
+          "id": "02ea-20bf-b8eb-5885",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "b9de-45ef-72e0-f964",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "5a3f-3f09-0ec5-6e6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "4eab-aa18-2142-dd04",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "f9b9-deef-ad56-678a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "0864-c5b0-4b72-037f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6fcc-0abf-43be-070d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "87a5-900a-4c89-1ac5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "7d8f-7139-1c69-f42e",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "19"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2d7c-f26a-4400-3cb8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6a01-b1e4-69cc-63fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "26db-3522-557c-48e4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c70-7b75-9694-98cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5340-d08b-d8a1-8c7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "16e4-4c79-59c5-fe32",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3be0-d1b0-442e-01ca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "9f3b-493e-783e-fadd",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "c8db-8689-a9d7-d2bd",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "ea90-b132-e186-6e59",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "9f27-58db-52b5-048a",
+      "name": "Captain",
+      "infoLinks": [
+        {
+          "targetId": "f744-bb2b-2d23-ad8b",
+          "id": "86bc-de60-85d0-18db",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "8eda-5cb2-0c31-56da",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "9f27-58db-52b5-048a",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8b92-6623-7ddb-d6ea",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cf04-2c83-f5e1-9fb4",
+          "id": "e8a0-b612-2700-aab6",
+          "name": "Rites of Battle"
+        },
+        {
+          "targetId": "8742-48fe-7dfc-a1c0",
+          "id": "b533-de24-2081-3956",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

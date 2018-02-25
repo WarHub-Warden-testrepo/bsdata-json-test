@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Tactical Squad",
+    "prevIdentifier": "Company Veterans on Bikes"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6004-449b-15a0-5408",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "03b5-9714-cf8d-9410",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4fed-17a3-03f7-e2f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "184c-80ee-9ce9-c547",
+          "id": "f275-3abd-f1e4-feb6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8699-3820-0f9d-7bbc",
+      "name": "Tactical Squad",
+      "infoLinks": [
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "24a1-e910-2cc4-a25c",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b2e0-400c-b96f-a081",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cdb4-e266-8c8b-b51c",
+          "id": "d2a3-b661-28d4-cbbd",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "42e1-ab0a-11af-a044",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "9021-d405-33fa-fcf1",
+              "type": 4,
+              "field": "selections",
+              "scope": "8699-3820-0f9d-7bbc",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

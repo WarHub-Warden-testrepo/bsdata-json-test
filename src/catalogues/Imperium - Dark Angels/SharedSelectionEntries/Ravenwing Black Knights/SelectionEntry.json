@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Black Knights",
+    "prevIdentifier": "Blade of Caliban"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "6feb-325f-b1e5-bc10",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "694b-e6b7-a740-8c14",
+          "id": "aa03-9fa3-568c-d6c6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "627f-f83c-f280-b681",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8a34-ed74-0ed1-3b29",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "48cd-1d70-3743-8292",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "160f-939d-71f8-d55e",
+          "id": "a898-14fe-67a1-78fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "57d7-05be-35d5-e117",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5db6-09fd-b607-e027",
+      "name": "Ravenwing Black Knights",
+      "infoLinks": [
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "4a3c-12f9-3724-4f3f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "5b17-1b02-9ac9-d687",
+          "name": "Inner Circle"
+        },
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "c6a5-830d-4a7a-aeca",
+          "name": "Turbo-Boost"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "24",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "childId": "model",
+              "type": 5,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

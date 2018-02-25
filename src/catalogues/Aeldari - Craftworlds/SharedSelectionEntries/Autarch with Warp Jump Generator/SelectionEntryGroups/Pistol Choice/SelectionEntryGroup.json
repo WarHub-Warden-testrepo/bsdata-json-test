@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Pistol Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "980f-bf93-04db-753d",
+      "constraints": [
+        {
+          "id": "a6a7-11ad-8020-ff0a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5c04-ea27-f591-18e2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "980f-bf93-04db-753d",
+          "name": ""
+        },
+        {
+          "targetId": "ea36-2191-cc7a-d06e",
+          "id": "657b-19b9-f2a1-4758",
+          "name": ""
+        }
+      ],
+      "id": "ac04-c115-2cf3-7bcc",
+      "name": "Pistol Choice",
+      "modifiers": [
+        {
+          "field": "a6a7-11ad-8020-ff0a",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "cdbc-1607-808b-b28a",
+              "type": 2,
+              "field": "selections",
+              "scope": "df35-8ec6-91e0-ae46",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "5c04-ea27-f591-18e2",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "cdbc-1607-808b-b28a",
+              "type": 2,
+              "field": "selections",
+              "scope": "df35-8ec6-91e0-ae46",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

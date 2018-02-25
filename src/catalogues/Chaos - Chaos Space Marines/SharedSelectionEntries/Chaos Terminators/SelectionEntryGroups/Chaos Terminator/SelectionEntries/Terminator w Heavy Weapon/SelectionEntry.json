@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Terminator w/ Heavy Weapon",
+    "prevIdentifier": "Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 31.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "348b-53c4-39df-f2ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "8a3b-80c7-0cf3-e044",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2363-e755-22ce-c747",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0ff7-0ea3-ef04-171b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2607-d554-732e-c0b0",
+          "id": "f6d7-7ce5-eb85-c8ac",
+          "name": "Terminator Melee Weapons"
+        }
+      ],
+      "id": "50e5-a7e8-686b-ef1d",
+      "name": "Terminator w/ Heavy Weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "348b-53c4-39df-f2ff",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 2,
+              "field": "selections",
+              "scope": "8a3b-80c7-0cf3-e044",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

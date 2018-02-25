@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Twin Battle Cannon",
+    "prevIdentifier": "Stormhammer Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c6fc-9627-c123-84a4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a4c2-f274-9ee1-d293",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "98f9-8e19-67e6-f4e5",
+      "name": "Twin Battle Cannon"
+    }
+  ]
+}

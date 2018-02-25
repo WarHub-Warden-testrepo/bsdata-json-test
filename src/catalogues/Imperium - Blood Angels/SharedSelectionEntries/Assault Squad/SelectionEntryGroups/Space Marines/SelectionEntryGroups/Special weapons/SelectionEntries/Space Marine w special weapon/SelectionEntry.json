@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/ special weapon",
+    "prevIdentifier": "Space Marine w/ special pistol and chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2fdc-d4fe-3877-9a5c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "de3c-d972-ff4b-49ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "de7a-2430-0393-f1a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5b42-fcc3-0a70-ce46",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "2551-2a44-8b25-3d88",
+      "name": "Space Marine w/ special weapon",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "d9d2-fc01-a51a-6b25",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "e695-5fd9-c147-477f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

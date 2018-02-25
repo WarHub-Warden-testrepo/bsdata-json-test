@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "cad0-72b5-8e07-f47e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "258b-21c5-3cb8-7ce2",
+          "name": "Combi-flamer"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "f5ba-8e12-5e32-f5b0",
+          "name": "Combi-melta"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "15b6-e16b-2636-35e4",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "082c-9397-0c1c-dd36",
+          "id": "4866-65f0-225b-2d06",
+          "name": "Combi-bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2568-a2c8-b216-00f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5ea8-7585-5eb3-a29c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b493-4d6f-efcc-a068",
+          "id": "df49-ef39-1b48-6dfb",
+          "name": "Inferno Combi-bolter",
+          "modifiers": [
+            {
+              "field": "5ea8-7585-5eb3-a29c",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "538f-be07-488a-fadf",
+      "name": "Combi-weapons"
+    }
+  ]
+}

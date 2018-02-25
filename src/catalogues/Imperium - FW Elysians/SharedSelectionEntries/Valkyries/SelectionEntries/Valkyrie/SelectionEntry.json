@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Valkyrie"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b824-af92-d007-7410",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "be50-8b59-c8aa-8ea0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "08d1-89fb-dc8f-b6ef",
+          "id": "2446-17f5-4741-5fc8",
+          "name": "Wing-mounted Weapons"
+        }
+      ],
+      "id": "53b8-6ee2-e014-df85",
+      "name": "Valkyrie",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "a100-911e-3074-eaad",
+          "id": "b397-8285-5867-8760",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "495f-b9ca-a89f-18a8",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "3c7f-093d-a638-4598",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "b126-3434-f10f-c14a",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "f03c-75c0-34ef-e4e6",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "af97-909f-b8f1-0d5f",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "c4f9-48e3-4bdc-737f",
+          "id": "2cfe-05b9-f66d-c3d3",
+          "name": "Grav Chute Insertion"
+        }
+      ]
+    }
+  ]
+}

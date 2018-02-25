@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Warlock Conclave",
+    "prevIdentifier": "Farseer Skyrunner"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "d8bc-3fe4-74fb-d3fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "523e-9726-59e0-371c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "07ea-e0d0-4682-541d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7999-17dc-55e5-4aa4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ef90-0a75-36ac-499f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "c758-1a45-c564-d4fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "dee9-d339-079f-dd86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad11-9f19-a519-ad42",
+          "id": "3f7f-60a3-7f8b-565d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8537-bbde-aa0f-bf4d",
+          "id": "b961-ef97-d0db-1bf7",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9834-fbda-a577-97b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "462e-9aa3-df41-fdb1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "b23d-beb3-77eb-f9bb",
+          "name": "Runes of Battle"
+        },
+        {
+          "targetId": "bd8d-4b22-4f11-b5d7",
+          "id": "8e50-54d8-f706-ba2c",
+          "name": "Smite (Destructor - Conclave)"
+        }
+      ],
+      "id": "c9fe-debd-d9f2-9274",
+      "name": "Warlock Conclave",
+      "infoLinks": [
+        {
+          "targetId": "1b0a-49d4-c8f5-a018",
+          "id": "ee41-8383-765f-5685",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "2fb7-cef2-9769-d71b",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

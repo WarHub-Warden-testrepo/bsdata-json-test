@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Skyreaver w/ Shuriken Catapult",
+    "prevIdentifier": "Skyreaver w/ Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "256c-66da-1f25-d338",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "8acb-bc33-d86e-ec9f",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5feb-da52-6662-b920",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ebb1-22d0-1ae9-3f3e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d13-3a9a-37d6-1735",
+          "id": "690f-26aa-16bf-314a",
+          "name": "Shuriken Catapult"
+        }
+      ],
+      "id": "a2a3-76f8-4fbc-2255",
+      "name": "Skyreaver w/ Shuriken Catapult",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "infoLinks": [
+        {
+          "targetId": "f40d-f42e-3dfe-5a03",
+          "id": "8f78-7a87-59b7-539b",
+          "name": "Corsair Skyreaver"
+        }
+      ]
+    }
+  ]
+}

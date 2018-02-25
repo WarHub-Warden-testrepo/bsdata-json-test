@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Psyk-Out Grenades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "bbd2-6b3c-4e42-1fbf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "effa-31a2-b6c3-6c4b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "be18-b7df-8e93-61a5",
+      "name": "Psyk-Out Grenades"
+    }
+  ]
+}

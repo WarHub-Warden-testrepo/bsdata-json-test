@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Drazhar",
+    "prevIdentifier": "Cronos"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "67fa-0a7f-9e14-655f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "a057-1386-cf0d-e69d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cd2a-d84b-1f55-7143",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9d31-efe5-32d3-4d49",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dc7-1e5d-7726-d333",
+          "id": "8262-3a47-42d6-7db3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "1cde-09c5-de61-961a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "fce1-bba4-a7e4-8a9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2081-49f0-1e15-a9f3",
+          "id": "a8f0-fc0f-d95c-849c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6d09-5335-d81a-4fa6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "810a-a7de-8d6e-58b7",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "7de1-3715-26ec-4ef8",
+          "id": "6642-6614-10fe-8930",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "e640-d16e-aafa-7d7c",
+      "name": "Drazhar",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "6e35-3855-b799-e3dd",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "a5f0-0309-c66e-1519",
+          "name": "Power from Pain"
+        }
+      ]
+    }
+  ]
+}

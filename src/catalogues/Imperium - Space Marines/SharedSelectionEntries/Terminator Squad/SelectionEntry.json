@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Terminator Squad",
+    "prevIdentifier": "Teleport Homer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "97df-5dc2-ad70-6f92",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "04db-3b2d-c914-6c1f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0437-d653-f076-6f5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5f51-d31f-585b-453b",
+          "id": "a339-0068-b660-dc39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "cc93-41ea-71da-e01c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3cb4-85d7-f3d8-966c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6c0-225a-9bc0-9fb3",
+          "id": "07f1-256e-443f-467f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7b2e-47fe-ee40-8b35",
+      "name": "Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9472-1bb6-0032-943e",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "7da1-a941-7981-def1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "3bca-158d-1644-2f4a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8338-b768-e496-e97b",
+          "id": "0369-c09d-9f81-9a79",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b08d-e2be-c4d2-d661",
+          "id": "f3f9-264b-a759-6c3c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2920-476f-389d-36a3",
+          "id": "2782-8232-0f2e-9f6e",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "2714-e64c-1ccf-b0b3",
+              "type": 4,
+              "field": "selections",
+              "scope": "7b2e-47fe-ee40-8b35",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

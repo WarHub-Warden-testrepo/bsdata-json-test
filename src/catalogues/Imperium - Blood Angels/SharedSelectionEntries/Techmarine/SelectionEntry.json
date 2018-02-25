@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Techmarine",
+    "prevIdentifier": "Tactical Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "765e-d50b-d1b7-164a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "78f7-1f56-f92d-9e44",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "897a-b97f-f27e-383f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "9873-cf41-750a-1dee",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "4db2-16b4-0aee-3377",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3825-c085-d46e-8cd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3a70-ce9d-090a-2f3d",
+          "id": "8d3f-5c44-4bcd-5bdf",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "22cd-3047-51bf-da65",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "69af-6d13-91f8-af7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0fb0-1a09-76b8-79d4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a050-d007-cff0-979a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "54e1-3104-8613-98df",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "5a76-313c-e03c-8a6d",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "ba00-7fea-d251-897b",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "7588-23e3-1728-c3e2",
+      "name": "Techmarine",
+      "infoLinks": [
+        {
+          "targetId": "3c6f-1cf6-5985-bcf0",
+          "id": "11cf-c764-bbe5-e835",
+          "name": "Techmarine",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "b97e-89a9-af00-220f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "314e-6c13-0097-da90",
+          "id": "8002-8e3e-6a3c-be13",
+          "name": "Blessing of the Omnissiah"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "fdcd-1cca-a2b2-26ec",
+          "name": "And They Shall Know No Fear"
+        }
+      ]
+    }
+  ]
+}

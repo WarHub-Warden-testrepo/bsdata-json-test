@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Expert Hunter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac78-37e4-0bca-4c24",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4891-b38e-25a5-f2a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "bb9f-de4c-62e6-f10a",
+      "name": "Expert Hunter"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "2478-42a1-a65c-973f",
+      "constraints": [
+        {
+          "id": "4e78-968f-52a9-c3d5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "391a-fb7e-5f50-b749",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9745-cce1-3455-a691",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "cbaf-7fb5-e66d-fea0",
+          "name": "Thunder hammer"
+        }
+      ],
+      "id": "84f7-8214-511e-6c67",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "4e78-968f-52a9-c3d5",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "cbaf-7fb5-e66d-fea0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "2478-42a1-a65c-973f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "391a-fb7e-5f50-b749",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "cbaf-7fb5-e66d-fea0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "2478-42a1-a65c-973f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

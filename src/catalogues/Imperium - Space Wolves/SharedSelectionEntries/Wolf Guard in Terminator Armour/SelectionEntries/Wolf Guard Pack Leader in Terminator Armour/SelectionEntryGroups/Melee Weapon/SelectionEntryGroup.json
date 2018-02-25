@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5c9c-1058-d18d-3897",
+      "constraints": [
+        {
+          "id": "a42a-2b50-d514-eb35",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1452-07b3-57ef-cd04",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7127-9dec-b41e-51a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "5c9c-1058-d18d-3897",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4e81-65f6-1268-2191",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "89f4-a260-47be-d0fd",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "642d-9785-e790-0069",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "38c6-9c17-0528-8afc",
+          "name": "Storm shield"
+        }
+      ],
+      "id": "ade4-5427-6b99-c669",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "1452-07b3-57ef-cd04",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "a42a-2b50-d514-eb35",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

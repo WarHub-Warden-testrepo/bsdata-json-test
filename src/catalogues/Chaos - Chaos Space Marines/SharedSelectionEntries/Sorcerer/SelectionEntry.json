@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "identifier": "Sorcerer",
+    "prevIdentifier": "Plague Marines"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "9832-6438-ea96-d6d6-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "4eef-8b35-be56-81c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "59b2-7d5a-ea80-98ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "bb96-7721-84e4-3163",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "434e-8c97-839d-5e87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8cea-3ce7-f9b6-ef56",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e23b-6d34-74a6-f585",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "b481-3301-f02b-5ab1",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eafb-bb02-f012-b602",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "84fe-d1f1-1850-804c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "e691-aad7-d21c-1023",
+              "id": "b259-9204-8c12-7ec8",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "ef7b-6b12-187e-aa18",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e1b3-dcc5-7459-4b5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "8452-ce4b-8d4d-5116",
+          "name": "Dark Hereticus discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "5876-fcc5-8283-1aca",
+          "id": "d9ef-00ac-1dbb-b6ba",
+          "name": "Artefacts of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0437-6283-eb1a-e8e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "d78c-545a-b632-1f38",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "b34c-6c4b-d22c-25b5",
+          "id": "9f24-9454-d1bf-3a59",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "9832-6438-ea96-d6d6",
+      "name": "Sorcerer",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "e3a5-1035-6513-5ead",
+          "name": "Death to the False Emperor"
+        }
+      ]
+    }
+  ]
+}

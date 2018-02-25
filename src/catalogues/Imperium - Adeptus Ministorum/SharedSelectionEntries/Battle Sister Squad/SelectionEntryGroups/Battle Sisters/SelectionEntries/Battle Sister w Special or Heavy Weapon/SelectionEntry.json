@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Battle Sister w/ Special or Heavy Weapon",
+    "prevIdentifier": "Battle Sister w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2013-297a-59fa-07b0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5513-0a85-959a-5a88",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e16b-d049-0dc5-8764",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "9be0-76f3-fa77-5db9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "880b-755c-f75a-0f56",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "431d-fed6-8828-bfd7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "807e-c0eb-623c-c728",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3dff-b761-7f4d-71e0",
+      "name": "Battle Sister w/ Special or Heavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "7741-694d-c4f9-c1bb",
+          "id": "d0ff-19e0-e834-7f0b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

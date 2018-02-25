@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Raveners",
+    "prevIdentifier": "Pyrovores"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "6baa-0216-2d14-97c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "cbec-f8a0-ec34-e1d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "b418-89ef-a394-8c81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f337-a354-082c-b698",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "eda6-2686-5153-3ac8",
+      "name": "Raveners",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "6e7b-be17-d1e9-2fdb",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "a08a-d545-b128-7054",
+          "id": "ac45-1a41-fa38-5abc",
+          "name": "Death from Below"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "eda6-2686-5153-3ac8",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "eda6-2686-5153-3ac8",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two Tesla Cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eb42-e5b7-51a0-4a28",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1e86-95ad-499d-e509",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1109-b6b8-0650-d9fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ccbb-dfbb-6c04-0d6d",
+          "id": "9da1-409e-6a15-c93a",
+          "name": "Tesla Cannon"
+        }
+      ],
+      "id": "cd2f-ece6-23e5-e4d6",
+      "name": "Two Tesla Cannons",
+      "book": "IA: Xenos"
+    }
+  ]
+}

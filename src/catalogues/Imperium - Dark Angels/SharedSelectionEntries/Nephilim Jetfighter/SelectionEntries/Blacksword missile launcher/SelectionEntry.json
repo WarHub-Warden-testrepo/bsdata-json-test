@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Blacksword missile launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8620-630a-9942-144d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "9be3-b21d-ddc0-d768",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "d67e-00a8-72e4-769a",
+      "name": "Blacksword missile launcher"
+    }
+  ]
+}

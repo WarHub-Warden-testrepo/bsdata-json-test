@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Roboute Guilliman",
+    "prevIdentifier": "**Chapter Selection**"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 385.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e77e-8716-cb63-8297",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1a13-5836-1ace-7bf4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3e9b-f74a-db36-cf6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9acd-0e4d-0a28-ce15",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "d0b6-b1ec-ba24-42d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "af7e-1958-b540-f599",
+          "id": "aa15-a778-589c-ff73",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "d90a-f493-959c-1d9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "298f-d173-2159-919f",
+          "id": "b48a-3349-e86a-2323",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5957-3335-71f8-0f2a",
+      "name": "Roboute Guilliman",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "167a-8c9f-aa8b-449b",
+          "name": "And They Shall Know No Fear"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

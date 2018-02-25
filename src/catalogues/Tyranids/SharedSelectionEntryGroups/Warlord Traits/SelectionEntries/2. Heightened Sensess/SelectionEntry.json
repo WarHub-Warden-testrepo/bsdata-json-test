@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "2. Heightened Sensess",
+    "prevIdentifier": "1. Alien Cunning"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "39a6-8f13-314b-3849",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "942d-cb3d-b245-1450",
+      "name": "2. Heightened Sensess",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Trait: Heightened Sensess"
+        },
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "d83b-acf3-2677-40e1",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "0e09-72a3-df36-ebd8",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                },
+                {
+                  "childId": "5a85-738f-f138-2640",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

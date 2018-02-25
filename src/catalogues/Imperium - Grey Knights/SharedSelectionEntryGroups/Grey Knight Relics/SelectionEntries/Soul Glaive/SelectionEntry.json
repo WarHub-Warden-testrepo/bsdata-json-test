@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Soul Glaive",
+    "prevIdentifier": "Desroyer of Crys'yllx"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8015-fc18-9911-8836",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ae17-2bd9-ce66-b029",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "0d9e-a687-c64e-9dc5",
+      "name": "Soul Glaive",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "ccf1-d2e9-ffb2-18b3",
+          "id": "e8da-54e3-583c-04d8",
+          "name": "Sould Glaive"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "f4b7-6f8e-448d-9c3b",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "ae77-bbb6-8a07-c24b",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "6ad2-bcea-a5bd-6da8",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

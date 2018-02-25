@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Primaris Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "01f0-cc35-ecfc-5c96",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "6bbe-8dc9-efc3-9e93",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "076c-4ba4-895a-8871",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "74ed-16ff-30cb-0059",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "67fe-16ec-05f5-dfc9",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7d7f-7afa-cfa4-395b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "aee5-9aa3-d645-9f6c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c530-3118-bb40-aed3",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "af7d-c3f3-7ab2-4de0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "ac31-45a8-91bf-5c72",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "1e1d-e366-a823-75d2",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "43a8-3895-ac02-0d1e",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "f1be-48db-6eb9-d054",
+      "name": "Primaris Lieutenant",
+      "infoLinks": [
+        {
+          "targetId": "a198-3cfe-0a3e-4952",
+          "id": "a5ed-d5a9-1a56-fa9f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

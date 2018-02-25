@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Aspiring Sorcerer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "20d8-73a8-6938-82bc",
+          "id": "a375-47de-f437-13c7",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c3f8-c80c-ba75-30a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "6b2d-9819-4141-b07b",
+          "name": "Discipline of Change"
+        }
+      ],
+      "id": "d642-1927-cfeb-c527",
+      "name": "Aspiring Sorcerer",
+      "page": ""
+    }
+  ]
+}

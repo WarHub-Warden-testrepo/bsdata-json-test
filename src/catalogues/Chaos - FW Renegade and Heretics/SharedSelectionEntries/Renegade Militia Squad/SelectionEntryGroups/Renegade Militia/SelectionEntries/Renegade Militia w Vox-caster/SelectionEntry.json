@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia w/ Vox-caster",
+    "prevIdentifier": "Renegade Militia w/ Chaos Sigil"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2b86-aa79-7f19-4398",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c45e-4561-c83b-cd4d",
+          "id": "240f-4bc6-ff53-55b0",
+          "name": "Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "99ba-d08a-60c1-1a5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "444a-43ff-5d10-1e37",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "5fb1-2e09-bbba-24ec",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "3404-2c0d-fcf3-faae",
+      "name": "Renegade Militia w/ Vox-caster"
+    }
+  ]
+}

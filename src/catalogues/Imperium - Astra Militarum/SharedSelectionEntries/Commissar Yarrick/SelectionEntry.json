@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "identifier": "Commissar Yarrick",
+    "prevIdentifier": "Commissar"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "1fe0e11a-5174-b4e9-842e-b254870ae161-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "5988-2982-1dde-215b",
+          "id": "2869-b28c-734e-c152",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "62ae-6f9f-8785-1fbe",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b40a-d0c6-f635-c9f7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "2d88-608d-70f3-2a37",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "019f-8be8-ddb3-fa14",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "739e-e78e-d844-71f1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "d0cb-400b-9fcc-337c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "b238-74f6-2685-82a8",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3e11-28ab-af84-283f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "71f0-5b07-f016-2fc5",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9b55-96ce-c4ce-ef3d",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "c88e-8828-206c-8e39",
+          "id": "2eda-fdd2-f7af-51e1",
+          "name": "Master of Command",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "9b55-96ce-c4ce-ef3d",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1fe0e11a-5174-b4e9-842e-b254870ae161",
+      "name": "Commissar Yarrick",
+      "book": "Codex: Astra Militarum",
+      "page": "55",
+      "infoLinks": [
+        {
+          "targetId": "f5f1-324f-5ba1-c4ae",
+          "id": "6281-38b4-5c39-a1dd",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "74b0-e2c2-29bf-2997",
+          "id": "d03c-9b87-a0f8-16b0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

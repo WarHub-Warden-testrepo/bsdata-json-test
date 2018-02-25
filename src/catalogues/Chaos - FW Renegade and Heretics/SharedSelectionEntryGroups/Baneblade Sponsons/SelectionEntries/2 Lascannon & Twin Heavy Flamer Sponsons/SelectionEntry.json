@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "2 Lascannon & Twin Heavy Flamer Sponsons",
+    "prevIdentifier": "2 Lascannon & Twin Heavy Bolter Sponsons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0160-0256-c87f-695c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2845-e42c-28c4-766d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2e9b-7cd3-f2c8-58a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "c7f4-e1dc-4759-efc6",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e6dc-cb95-e2d9-f0c1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "06bb-b4bf-24eb-1632",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8d70-a6af-cbad-f08c",
+          "id": "1ea9-8dd4-2df6-9294",
+          "name": "Twin heavy flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "30"
+            }
+          ]
+        }
+      ],
+      "id": "3464-113b-1b5a-2721",
+      "name": "2 Lascannon & Twin Heavy Flamer Sponsons"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Intercessor Squad",
+    "prevIdentifier": "Inceptor Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "dcc9-3d4b-32d8-2448",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "42c7-5f87-251a-99ae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "0a4b-5316-204a-ca07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f8a1-1ee0-76ee-8d79",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b1ac-97e4-2595-6c51",
+          "id": "ee9a-d955-8654-0a4b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df09-a39a-dd33-89f7",
+          "id": "7f0a-d10a-98a2-6a14",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "2b85-917d-16cd-da73",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "19a2-8dde-625d-faa5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "acfe-6890-a697-b534",
+          "id": "8b9c-0fe9-0ee6-03fc",
+          "name": "Auxiliary grenade launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "19a2-8dde-625d-faa5",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "35f1-7e44-9fe6-645f",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "35f1-7e44-9fe6-645f",
+      "name": "Intercessor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "2b34-04cb-5b06-772f",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "35f1-7e44-9fe6-645f",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

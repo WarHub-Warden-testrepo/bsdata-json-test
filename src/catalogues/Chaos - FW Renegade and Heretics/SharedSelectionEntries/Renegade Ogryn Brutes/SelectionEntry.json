@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Renegade Ogryn Brutes",
+    "prevIdentifier": "Renegade Ogryn Beast Handlers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "21dc-2976-757a-6155",
+      "name": "Renegade Ogryn Brutes",
+      "infoLinks": [
+        {
+          "targetId": "dfbb-346d-f8f4-b5aa",
+          "id": "9167-d278-c1c5-644b",
+          "name": "Combat Stimms"
+        },
+        {
+          "targetId": "6386-f77c-96a5-b693",
+          "id": "c57b-f479-0276-db3a",
+          "name": "Avalanche of muscle"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "0915-2d5e-4cf4-a240",
+          "name": "Chaos Covenant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "21dc-2976-757a-6155",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "model",
+                  "field": "selections",
+                  "scope": "21dc-2976-757a-6155",
+                  "value": 9.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "18",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "21dc-2976-757a-6155",
+              "value": 8.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

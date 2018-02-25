@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stasis Bomb",
+    "prevIdentifier": "Hellfire Extremis"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9478-28ca-3026-cca6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cf30-49ce-bdf0-f1e2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a1b2-57a4-38fb-117c",
+      "name": "Stasis Bomb"
+    }
+  ]
+}

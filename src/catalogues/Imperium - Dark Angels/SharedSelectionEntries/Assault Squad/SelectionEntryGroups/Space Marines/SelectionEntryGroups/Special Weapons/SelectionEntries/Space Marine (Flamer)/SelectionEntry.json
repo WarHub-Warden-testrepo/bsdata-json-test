@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Flamer)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "df35-32dc-2e4e-1786",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "30e9-12c6-83fd-8775",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "78b4-ca59-86d9-bdd5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f5a2-adfb-3b13-7843",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "130b-c6e3-caaa-246f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "790c-a702-dce5-98d2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "749f-0de8-be0f-245b",
+          "id": "71c4-7ff6-df20-441a",
+          "name": "Flamer"
+        }
+      ],
+      "id": "fb24-339a-c487-c018",
+      "name": "Space Marine (Flamer)"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Purestrain Genestealers",
+    "prevIdentifier": "Primus"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "9bbe-17c0-e953-8726",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "37a6-1049-dc3b-e2c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "44bd-c4f4-2e6e-06f8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df7c-355d-38a6-261f",
+          "id": "2f6f-1148-9a16-772f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2f25-6152-17e0-74d2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bc80-15b2-dd24-53e1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "ae23-eb4c-1596-4e87",
+          "id": "1a5b-5715-7d79-7808",
+          "name": "Purestrain Talons",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "bc80-15b2-dd24-53e1",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "f13e-b01e-b464-2d07",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f13e-b01e-b464-2d07",
+      "name": "Purestrain Genestealers",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e624-3023-b8b4-18fa",
+          "id": "86c3-9182-85c1-96e0",
+          "name": "Cult Ambush"
+        },
+        {
+          "type": 1,
+          "targetId": "83cc-a64d-d8bd-7a4a",
+          "id": "ece6-4538-2744-e7b7",
+          "name": "Unquestioning Loyalty"
+        },
+        {
+          "targetId": "0e98-6c7e-d9a4-281f",
+          "id": "ae33-b05b-ca24-61db",
+          "name": "Lightning Reflexes"
+        },
+        {
+          "targetId": "f7e7-e08f-beb4-d58c",
+          "id": "9da2-aeb5-ad3c-a292",
+          "name": "Swift and Deadly"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "f13e-b01e-b464-2d07",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "f13e-b01e-b464-2d07",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "f13e-b01e-b464-2d07",
+              "value": 16.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

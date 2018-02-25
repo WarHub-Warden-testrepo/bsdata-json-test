@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "identifier": "Scout Biker Sergeant",
+    "prevIdentifier": "Scout Biker"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 23.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ccd7-5a0e-abe4-06a2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8eb9-319c-4b4f-3bf6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "53e3-548f-de8a-c6b5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "77a8-d08b-5144-376a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce59-8ed4-4497-8a53",
+          "id": "82d6-454a-8adf-e4c9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e6e4-c81e-ff17-ce3a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bb89-67c2-ef7a-e5e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc0b-c19f-0b71-081e",
+          "id": "5562-345d-022e-5ede",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ea9b-1d9f-4af6-f9d1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b26-ac66-a1c5-00a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ed79-efd4-3210-4474",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d34a-0cfb-46d2-d2cf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c83-3412-2b50-9512",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "16d4-1916-249a-34d9",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "edcf-f606-4ccb-c4cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "2d0b-60b6-2226-eb49",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f11e-6eca-c706-dff0",
+          "id": "8754-6f52-83c3-ee5a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a60b-2881-e86e-7249",
+      "name": "Scout Biker Sergeant"
+    }
+  ]
+}

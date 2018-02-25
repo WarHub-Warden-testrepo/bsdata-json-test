@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Power Lance and Stormbolter",
+    "prevIdentifier": "Power Axe and Stormbolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d5b3-1717-dad8-3ca8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f5e6-788d-5f33-3f6a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ba8d-691a-6178-1a60",
+          "id": "c84d-e952-758c-9925",
+          "name": "Power lance"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab72-6d76-f8d9-4cbf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4e46-cc78-86c1-87d2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "b51a-c83a-9b83-7a24",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4470-1dd0-e17b-db61",
+      "name": "Power Lance and Stormbolter"
+    }
+  ]
+}

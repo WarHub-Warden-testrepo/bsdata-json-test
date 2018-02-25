@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Two Heavy Bolters",
+    "prevIdentifier": "Land Speeders"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ca91-451e-c807-40fa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "695e-e540-593a-a9e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "12f5-1b07-f83c-8b96",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "584a-6098-3259-2249",
+      "name": "Two Heavy Bolters"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Leman Russ Commander)",
+    "prevIdentifier": "Purebred Steed"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f9ec-403e-c3fe-09e5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c304-3693-5fea-87ae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a764-82f0-2cd1-0465",
+      "name": "Stat Damage (Leman Russ Commander)"
+    }
+  ]
+}

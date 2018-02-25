@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Grey Hunter with Special Weapon",
+    "prevIdentifier": "Grey Hunter Pack Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2f4e-36bc-573a-d1d1",
+          "type": 1,
+          "field": "selections",
+          "scope": "2e39-6ee4-1903-7c95",
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7dd6-ba03-9c75-2eef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f56a-2f88-6873-4c85",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "85b5-80f9-e188-14d5",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bcc5-1d79-e244-4478",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "d24d-e633-d99f-e3da",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5588-437f-7ee1-8f58",
+          "id": "651c-5e50-2328-d5c7",
+          "name": "Grey Hunter Special Weapon"
+        }
+      ],
+      "id": "97b4-a43a-9131-9a88",
+      "name": "Grey Hunter with Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "199b-812b-edfd-4493",
+          "id": "8a81-f186-6fb3-cd33",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "2f4e-36bc-573a-d1d1",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

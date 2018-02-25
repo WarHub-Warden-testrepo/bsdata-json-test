@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Termagant (Strangleweb)",
+    "prevIdentifier": "Termagant (Spike Rifle)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1160-fdf1-3d1c-6f79",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1d4d-f8b6-5f99-0e62",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "591c-d93b-4a9d-cfd8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-883f-105f-a3a5",
+          "id": "f853-68c8-d89b-5dbf",
+          "name": "Strangleweb"
+        }
+      ],
+      "id": "128c-1160-dad5-c800",
+      "name": "Termagant (Strangleweb)",
+      "infoLinks": [
+        {
+          "targetId": "3e97-1173-dc2a-49e6",
+          "id": "4b72-72b5-d991-ef76",
+          "name": "Termagant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "1160-fdf1-3d1c-6f79",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "2e2b-aedb-e20b-9c8b",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

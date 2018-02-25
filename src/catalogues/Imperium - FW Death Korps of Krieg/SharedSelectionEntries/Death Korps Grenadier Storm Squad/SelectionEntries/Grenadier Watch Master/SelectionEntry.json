@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Grenadier Watch Master"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4aec-0f7b-af9e-d66a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1a38-60bb-3b53-1617",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0cda-c3a6-4414-b341",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "734e-6c26-a756-e90b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6fc4-27dc-15ca-cdca",
+          "id": "48ad-66a6-cae3-0f8e",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "1e0b-ae53-c261-43a7",
+      "name": "Grenadier Watch Master",
+      "infoLinks": [
+        {
+          "targetId": "247c-6fbb-e335-5787",
+          "id": "d0f8-7c8c-7964-60cf",
+          "name": "Death Korps Grenadier Watch Master"
+        }
+      ]
+    }
+  ]
+}

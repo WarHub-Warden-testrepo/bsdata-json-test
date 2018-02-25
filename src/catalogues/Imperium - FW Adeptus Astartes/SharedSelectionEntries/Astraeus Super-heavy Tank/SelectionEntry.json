@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "identifier": "Astraeus Super-heavy Tank",
+    "prevIdentifier": "Enhanced repulsor field"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 500.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 36.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2e0f-34d8-ca38-e9b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8ea7-d979-5397-f908",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "b2b9-4934-17d8-9542",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cc19-e755-de8e-b69d",
+          "id": "4a24-18f3-d09f-e68a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "406b-237a-405e-1a55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "0b0c-c9e6-5ae0-4e20",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "2ef1-bbdf-b9ab-b1aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "2812-fc3d-90d3-97c6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1ab4-6cc4-9b88-c1d5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "18c4-d467-de07-3132",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "6764-00a1-75bd-1710",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "780f-4ab9-b425-8893",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4696-a16f-a5d1-cc13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4cff-1095-1afe-4a69",
+          "id": "0575-5ded-3e95-27f8",
+          "name": "Ironhail heavy stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3497-6227-c3b8-557f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2d74-f6d9-c5f1-580a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8be0-42aa-adfc-3719",
+          "id": "f0bd-4806-2479-d5a1",
+          "name": "Enhanced repulsor field"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8459-3b7a-e1be-03e0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9a36-1432-8270-be13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "43d7-2e40-870c-4d4b",
+          "id": "5e55-5226-0482-83ab",
+          "name": "Twin macro-accelerator cannon"
+        }
+      ],
+      "id": "2faf-85ff-2008-1a28",
+      "name": "Astraeus Super-heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "0b59-f388-743e-b9ef",
+          "id": "fa40-ebec-d4c1-c38e",
+          "name": "Astraeus Super-heavy Tank"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "be43-a211-cae4-45a9",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "f4db-15ae-5964-cca7",
+          "id": "21c0-4ac4-c8d4-048f",
+          "name": "Hover Tank"
+        },
+        {
+          "targetId": "0a4b-38ea-38f1-c7a9",
+          "id": "81a5-1f42-5e06-544a",
+          "name": "Steel Behemoth (Astraeus)"
+        },
+        {
+          "targetId": "8b27-d7c7-3509-8101",
+          "id": "129a-7a4f-8b2a-fd98",
+          "name": "Void Shields",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "21befb24-fc85-4f52-a745-64b2e48f8228",
+              "value": " Note that void shield saves may not be taken against mortal wounds inflicted by this model's plasma eradicators."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

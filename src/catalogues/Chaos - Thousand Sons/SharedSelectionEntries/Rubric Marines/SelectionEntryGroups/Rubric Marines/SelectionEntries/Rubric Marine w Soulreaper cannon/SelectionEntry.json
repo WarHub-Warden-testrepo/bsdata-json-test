@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Rubric Marine w/ Soulreaper cannon",
+    "prevIdentifier": "Rubric Marine w/ Warpflamer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e6a9-abe4-0708-efe3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fc1a-77ec-670b-76f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1eed-7182-e0b4-b7db",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "17f3-ad76-ce7f-49d3",
+          "id": "b0da-c965-90cb-f063",
+          "name": "Soulreaper cannon"
+        }
+      ],
+      "id": "3e5d-37fc-eb05-caf5",
+      "name": "Rubric Marine w/ Soulreaper cannon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e6a9-abe4-0708-efe3",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "7142-e365-1c12-efd6",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Noise Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "16b8-5766-0040-b7af",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "76b1-eb9e-0e34-3818",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6c28-8ce6-3dee-a488",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b404-8999-4851-53b0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "878f-b23c-b2cd-4a18",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "bbb0-94d7-d83a-bf45",
+          "id": "edfa-e5e0-8c15-8502",
+          "name": "Doom siren"
+        },
+        {
+          "type": 1,
+          "targetId": "711c-ecf3-754c-4a93",
+          "id": "2c59-199d-f706-0a15",
+          "name": "Noise Champion Equipment"
+        }
+      ],
+      "id": "e87b-9cae-23f5-f2c1",
+      "name": "Noise Champion"
+    }
+  ]
+}

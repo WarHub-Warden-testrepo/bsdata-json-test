@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9456-7816-30a7-20d0",
+      "constraints": [
+        {
+          "id": "3cad-cc0d-4aee-b3dd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "48ab-eac9-cff8-4765",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8a38-f36c-a43e-82ac",
+          "id": "d0ef-fd7f-8902-80fd",
+          "name": "Voidblade and Particle Caster",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "8bc0-df6f-0e3f-7410",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "targetId": "1835-4643-2a63-9af0",
+          "id": "9456-7816-30a7-20d0",
+          "name": "Rod of Covenant",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "8bc0-df6f-0e3f-7410",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "id": "1556-4790-289a-c003",
+      "name": "Unit Weapon Choice",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

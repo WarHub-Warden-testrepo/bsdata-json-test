@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Astra Militarum Special Weapons BS3",
+    "prevIdentifier": "Vehicle Equipment List"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "551b-c19e-e786-d384",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "52bb-f482-1876-6e0a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ba62-f2c3-d7bb-4f5d",
+          "id": "1afb-ccfa-8116-81af",
+          "name": "Sniper rifle",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0b5d-d308-ec6f-a81a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "2baa-ceea-fe76-86b0",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "caaa-1f7a-13bc-d4d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "d18e-48fb-9684-a538",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ce7-d3e1-eb8a-8146",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "a0b8-151e-01b1-a457",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        }
+      ],
+      "id": "b146-ea4c-c9d2-b16a",
+      "name": "Astra Militarum Special Weapons BS3"
+    }
+  ]
+}

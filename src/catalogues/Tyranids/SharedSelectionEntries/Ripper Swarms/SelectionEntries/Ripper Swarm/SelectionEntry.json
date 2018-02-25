@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Ripper Swarm"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3601-6226-cf24-ddc9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "a50a-cc9c-8769-7af0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5b9e-9d47-755b-98a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5159-bd0b-0488-80f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2634-0525-7b04-6f89",
+          "id": "0d89-2b23-9e9a-0e16",
+          "name": "Claws and Teeth"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e81f-1ef8-6848-d2fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8017-6992-ddd7-5882",
+          "id": "4842-2c75-021c-1e27",
+          "name": "Spinemaws"
+        }
+      ],
+      "id": "397f-bf6e-d858-b3fb",
+      "name": "Ripper Swarm"
+    }
+  ]
+}

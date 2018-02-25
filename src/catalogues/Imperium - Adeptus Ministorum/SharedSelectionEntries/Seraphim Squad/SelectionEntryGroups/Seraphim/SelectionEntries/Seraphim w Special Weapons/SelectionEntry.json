@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Seraphim w/ Special Weapons",
+    "prevIdentifier": "Seraphim"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f6c6-d912-863e-f2cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0619-c3ce-8c8e-eb15",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "51b3-97b8-3fd6-436a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "7074-4a9c-f463-ce22",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3aca-cfb9-0e62-2966",
+      "name": "Seraphim w/ Special Weapons",
+      "infoLinks": [
+        {
+          "targetId": "4aaa-e064-7638-e719",
+          "id": "a477-ac75-1ae8-6234",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

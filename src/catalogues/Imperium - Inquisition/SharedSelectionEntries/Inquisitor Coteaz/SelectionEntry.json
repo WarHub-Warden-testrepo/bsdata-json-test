@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "identifier": "Inquisitor Coteaz"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c570-6ec4-75aa-f263",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5059-cde9-f8e3-3b01",
+          "id": "5a42-f92d-926c-e7a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a2cc-ead2-1e6f-97ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "78fe-242a-501d-6381",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7a38-4709-e11d-34be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "006b-eeb2-9485-614c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "fdc7-9575-cc10-0b4a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "dd71-7591-b029-169d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6370-55c4-5013-14f8",
+          "id": "4f84-8503-bdae-c924",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd0d-0359-ae24-e95e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "0c41-d8d4-440a-4444",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "4b37-36d4-6b79-4a4e",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b9f2-bc2c-555a-ffbf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a87-9341-5df5-b34e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "abc3-fa40-1bf3-dc28",
+          "id": "924e-be44-66a6-d098",
+          "name": "Telethesia Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e1d5-aa31-ff09-9cd7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0d21-5e23-00c6-d109",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "fa86-55eb-b2e7-7aee",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a76b-879e-d9ec-90ac",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d5c-5256-8325-8449",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "780e-9b39-8711-c82d",
+          "name": "Warlord"
+        }
+      ],
+      "id": "81d1-1b5f-e97c-35ba",
+      "name": "Inquisitor Coteaz",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "e9af-ddb6-eabf-9207",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "5086-d3c4-7238-d42f",
+          "id": "1b53-dfd9-a2c7-4185",
+          "name": "Quarry - Malleus"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "6b57-de5f-04b8-8c96",
+          "name": "Unquestionable Wisdom"
+        }
+      ]
+    }
+  ]
+}

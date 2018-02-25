@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Land Raider Crusader",
+    "prevIdentifier": "Land Raider Redeemer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 244.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8aba-fa1e-0af8-8b50",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "d9e7-ede4-0e03-e271",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ca31-8e25-f7f9-ec99",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "8eb4-6f1b-1c27-22da",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50d8-02ec-0b7d-be00",
+          "id": "5cd2-b11d-1555-0ecb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c763-9743-9208-c7ff",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6a77-8d38-6198-4d63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "231b-949c-394e-111a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "af6a-9301-c154-422b",
+          "name": "Twin assault cannon"
+        }
+      ],
+      "id": "dab0-6f58-e737-09e1",
+      "name": "Land Raider Crusader",
+      "infoLinks": [
+        {
+          "targetId": "9e55-78af-ff73-24d6",
+          "id": "24b7-e00d-fd47-9025",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "a0b4-0a2a-33a0-a429",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "1725-a3a3-f01e-b910",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a3b8-74b3-06b9-db2c",
+          "id": "1124-c57c-e422-3191",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

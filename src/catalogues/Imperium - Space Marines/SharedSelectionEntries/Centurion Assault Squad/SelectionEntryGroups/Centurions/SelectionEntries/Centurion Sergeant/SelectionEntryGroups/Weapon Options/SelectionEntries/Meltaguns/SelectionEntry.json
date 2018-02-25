@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Meltaguns",
+    "prevIdentifier": "Flamers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "61ff-a8b2-ff16-0bc0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1015-a837-b0fc-1f73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "7235-ce31-772c-cc26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "3f84-3089-695f-c651",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "389e-503c-3214-70f6",
+      "name": "Meltaguns"
+    }
+  ]
+}

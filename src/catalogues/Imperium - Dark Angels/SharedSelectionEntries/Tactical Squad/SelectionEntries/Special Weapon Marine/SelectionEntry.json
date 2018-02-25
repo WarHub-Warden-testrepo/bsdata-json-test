@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Special Weapon Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a5c2-da30-7e1e-c651",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d33d-af25-1ece-cd77",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e9cc-c883-b60a-0d8b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "6bb7-3845-ac80-8c58",
+          "name": "Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc55-43a9-20f2-48e8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f75e-c90b-62c7-09a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c675-dfae-e27b-6d56",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d293-6e85-ee38-a1a7",
+      "name": "Special Weapon Marine",
+      "modifiers": [
+        {
+          "field": "a5c2-da30-7e1e-c651",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "d2e2-751d-1b0e-fb29",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "8433-c6ab-8636-6a38",
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 7.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

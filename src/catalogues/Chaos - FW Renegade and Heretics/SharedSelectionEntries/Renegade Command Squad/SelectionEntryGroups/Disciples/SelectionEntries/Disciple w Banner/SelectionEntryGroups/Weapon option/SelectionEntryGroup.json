@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Weapon option",
+    "prevIdentifier": "Banner Selection"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "847d-c3da-e9c9-86b8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9719-764a-58b4-c7dd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "2ae2-8328-0c82-106f",
+          "name": "Autogun"
+        },
+        {
+          "targetId": "fd87-854b-d284-184a",
+          "id": "b31b-43fd-8f6c-67f4",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "593c-7ce6-c6ac-29c7",
+      "name": "Weapon option"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Acolyte Hybrids",
+    "prevIdentifier": "Aberrants"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "0831-a89d-0a4a-41a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "5c9e-7fc3-4388-ae68",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "23bd-81d6-bed5-5d78",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "15fc-9b93-0ae9-3461",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6f05-1f3f-cd2e-c3e8",
+          "id": "085d-1d94-7e3a-4509",
+          "name": "Cult Icon"
+        }
+      ],
+      "id": "4d55-d44b-8084-5f59",
+      "name": "Acolyte Hybrids",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e624-3023-b8b4-18fa",
+          "id": "2bff-8d74-af0a-d343",
+          "name": "Cult Ambush"
+        },
+        {
+          "type": 1,
+          "targetId": "83cc-a64d-d8bd-7a4a",
+          "id": "e50e-ac9d-6d06-96b0",
+          "name": "Unquestioning Loyalty"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4d55-d44b-8084-5f59",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4d55-d44b-8084-5f59",
+              "value": 16.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4d55-d44b-8084-5f59",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

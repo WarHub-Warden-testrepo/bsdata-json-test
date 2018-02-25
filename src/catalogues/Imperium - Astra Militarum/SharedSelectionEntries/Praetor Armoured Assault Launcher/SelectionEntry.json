@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Praetor Armoured Assault Launcher",
+    "prevIdentifier": "Marauder Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "4ae9-9f83-2d4f-b101",
+          "id": "33b3-5f98-d409-d6cd",
+          "name": "Stat Damage (Light Mach)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "33f1-a5fe-1cec-27ab",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a07f-f955-ad09-d18f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "2799-e694-22a9-884d",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "60f9-43c8-b0d6-0d4b",
+      "name": "Praetor Armoured Assault Launcher",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d47e-a03b-1126-7e16",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "fbc7-15d7-7a43-92cf",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "821a-39c4-c3f9-62cb",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

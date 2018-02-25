@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Battlewagon",
+    "prevIdentifier": "Smasha Gun"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 161.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "2ccf-e99c-0540-ba64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "a580-ac95-e36f-f767",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "cb8a-6165-d907-9048",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c5a8-a8c5-8b04-edb0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5ed3-1da6-32fe-c3a2",
+          "id": "6114-28d9-1b62-4cbf",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "ba20-8570-c748-3e8a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afdc-8903-044a-a42e",
+          "id": "5ea9-5b86-1ec0-79b7",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "af12-82f7-5fcc-5e5e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "44ac-f70b-3b79-6eb8",
+          "id": "65de-ab03-07e2-d7ec",
+          "name": "Killkannon"
+        }
+      ],
+      "id": "f0b4-c759-e809-424e",
+      "name": "Battlewagon",
+      "infoLinks": [
+        {
+          "targetId": "c284-5882-8566-317a",
+          "id": "ffd6-3e84-e63b-9d91",
+          "name": "Open-Topped",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "b428-b799-c9c5-cab9",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f0b4-c759-e809-424e",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4984-fddb-b1ad-d7a3",
+          "id": "8dd5-501d-52f6-337c",
+          "name": "Mobile Fortress"
+        },
+        {
+          "targetId": "8159-a610-444f-d93c",
+          "id": "c774-e7fe-822b-4111",
+          "name": "Explodes (6+/6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

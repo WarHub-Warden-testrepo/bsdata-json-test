@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Reiver Squad",
+    "prevIdentifier": "Grav Chutes"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "27a2-9926-20e0-d7a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2e34-1168-5a38-c67c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4bd4-04cf-8a6b-3d7a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "8615-473e-0a4d-c28c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1932-effa-b590-5127",
+          "id": "7efc-bcd8-160e-9a77",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "23a3-6a82-450c-0b64",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5974-060f-1f15-99c5",
+          "id": "2763-aedd-bacb-2a13",
+          "name": "Grapnel Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "b06d-d430-79d9-9ac8",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "b26a-aeb1-c8b1-5dc4",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "262c-c18e-843c-fc56",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0093-b98e-176b-b326",
+          "id": "5757-3e06-4262-60a4",
+          "name": "Grav Chutes",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "b06d-d430-79d9-9ac8",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "b26a-aeb1-c8b1-5dc4",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b26a-aeb1-c8b1-5dc4",
+      "name": "Reiver Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "352e-142a-576e-b61f",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "1eb0-ec1c-8216-4779",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "b06d-d430-79d9-9ac8",
+              "type": 1,
+              "field": "selections",
+              "scope": "b26a-aeb1-c8b1-5dc4",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Blood Claws",
+    "prevIdentifier": "Claw of the Jackalwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "fa03-21c5-8f98-a693",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5d59-6866-a9de-50b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f298-03b9-718e-8ef4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "35aa-08c4-07fa-2234",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "18b3-76cd-68d1-b519",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0f1b-0f2c-ecf3-6b13",
+          "id": "4081-031e-7dbc-fac6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "e01c-9852-c7d9-21fc",
+          "id": "61fe-8c8e-739a-3369",
+          "name": "Wolf Guard Pack Leader"
+        }
+      ],
+      "id": "1ad9-fced-ea9d-a5a4",
+      "name": "Blood Claws",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "839f-e94c-7d82-7396",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2fba-a6ae-ad9e-3421",
+          "id": "4dc0-a307-2d20-27b4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "64ca-25e1-36eb-875c",
+          "id": "f14a-44cc-2310-2c39",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c6ae-23d4-7867-080f",
+          "id": "6e51-73f3-591b-0d26",
+          "name": "Mixed Unit"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "704b-5c8c-4726-f30b",
+              "type": 4,
+              "field": "selections",
+              "scope": "1ad9-fced-ea9d-a5a4",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "704b-5c8c-4726-f30b",
+              "type": 4,
+              "field": "selections",
+              "scope": "1ad9-fced-ea9d-a5a4",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

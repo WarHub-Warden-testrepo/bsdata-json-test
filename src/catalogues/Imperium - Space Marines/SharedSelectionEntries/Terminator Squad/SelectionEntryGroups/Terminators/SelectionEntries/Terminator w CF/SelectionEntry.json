@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Terminator w/CF",
+    "prevIdentifier": "Terminator Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eedc-3fa1-e107-9de2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aa70-a3a0-0d4d-a27c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1a1f-928e-a60a-7588",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8d51-2073-1990-b915",
+          "id": "d3d7-760a-ad21-3a9b",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5e1d-80d1-c09a-11be",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "4ae9-c323-c626-0972",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d9b3-4b4e-714e-b467",
+          "id": "58fe-f5f4-6b29-a1e7",
+          "name": "Chainfist"
+        }
+      ],
+      "id": "860c-e3ad-2c8d-f3d0",
+      "name": "Terminator w/CF"
+    }
+  ]
+}

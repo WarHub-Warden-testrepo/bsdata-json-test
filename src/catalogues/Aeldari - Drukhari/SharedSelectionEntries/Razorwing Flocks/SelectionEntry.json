@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Razorwing Flocks",
+    "prevIdentifier": "Sslyth"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "18e0-0ad5-d539-f44b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "7fce-44d6-1e81-d51e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "5661-986b-1502-665f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a9c2-0a4b-4e13-c1c3",
+          "id": "4ca7-90ff-ad91-4ae9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8e80-1357-fe84-bb20",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2064-05c4-c968-9878",
+      "name": "Razorwing Flocks",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b3da-8fc1-3247-3f47",
+              "type": 1,
+              "field": "selections",
+              "scope": "2064-05c4-c968-9878",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "b3da-8fc1-3247-3f47",
+              "type": 1,
+              "field": "selections",
+              "scope": "2064-05c4-c968-9878",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

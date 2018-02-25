@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Chaos Cultist w/ autopistol and brutal assault weapon",
+    "prevIdentifier": "Chaos Cultist w/ special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "432d-0fa9-879f-ec64",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b26c-9e69-51a0-2fbf",
+          "id": "f7d8-0867-c740-7925",
+          "name": "Brutal assault weapon"
+        }
+      ],
+      "id": "1d7d-fd1a-264d-0691",
+      "name": "Chaos Cultist w/ autopistol and brutal assault weapon"
+    }
+  ]
+}

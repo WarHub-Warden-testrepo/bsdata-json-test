@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Lightning Assault",
+    "prevIdentifier": "Explodes (Hornet)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d93b-2262-529b-48d2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "601b-b28c-4867-5ad3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3de9-4cbb-3c3a-613c",
+      "name": "Lightning Assault"
+    }
+  ]
+}

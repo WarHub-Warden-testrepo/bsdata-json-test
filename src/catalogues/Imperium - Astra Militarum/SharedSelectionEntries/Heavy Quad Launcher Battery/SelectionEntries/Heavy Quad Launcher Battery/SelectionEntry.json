@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Heavy Quad Launcher Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7532-accb-fbc2-7252",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5382-a0e4-6fa8-0171",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7cd1-f4ba-2390-1c00",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "f4a1-8bac-00c7-8024",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70eb-d2d7-5172-ec78",
+          "id": "66f8-f978-2bb3-367f",
+          "name": "Guardsmen Crew"
+        }
+      ],
+      "id": "4b6a-1023-9fc5-96f2",
+      "name": "Heavy Quad Launcher Battery",
+      "infoLinks": [
+        {
+          "targetId": "3fe6-0898-b98b-5a2b",
+          "id": "41e6-34b4-fd53-da11",
+          "name": "Artillery"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "5282-3211-bd1f-5258",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "c521-ff6e-1ded-1ea0",
+          "name": "Artillery Battery"
+        }
+      ]
+    }
+  ]
+}

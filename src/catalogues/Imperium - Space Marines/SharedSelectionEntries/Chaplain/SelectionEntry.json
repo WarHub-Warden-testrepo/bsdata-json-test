@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "identifier": "Chaplain",
+    "prevIdentifier": "Servitors"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 72.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e4b3-8723-50df-f554",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "4528-aed3-607d-1bef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0faa-2929-c625-2a76",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f4d4-9229-cb07-476f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3f5-f3b2-bdbb-4742",
+          "id": "b518-f32b-4eb8-dd88",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e533-4128-86bd-d2dc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6eb-83ed-7c45-47af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "6446-7cd7-baa5-4934",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "7f51-5273-481a-1c9b",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6825-3c92-e667-5c46",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dda5-e43c-08e3-3193",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4b37-1b67-f176-07bd",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "1c41-daa4-cd57-5cf5",
+          "name": "Relics"
+        }
+      ],
+      "id": "400e-bbea-4690-6942",
+      "name": "Chaplain",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5325-e2fb-fe8a-16a9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9287-78a9-f594-c601",
+          "id": "03a8-d4ea-8c30-f91a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3f26-e8cb-ea53-e656",
+          "id": "da57-a745-22f0-50a8",
+          "name": "Spiritual Leaders"
+        },
+        {
+          "targetId": "b355-bd49-c5a5-805f",
+          "id": "40ba-637d-b8c3-ca47",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

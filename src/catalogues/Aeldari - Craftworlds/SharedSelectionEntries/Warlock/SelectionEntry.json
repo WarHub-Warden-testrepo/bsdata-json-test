@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "identifier": "Warlock",
+    "prevIdentifier": "Warlock Conclave"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "40de-39ae-1168-c9f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "1522-ddf0-0947-74e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "a710-25df-676e-bd17",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ad0c-6a9c-4306-a9e0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7944-e61e-564d-30e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fec1-ef8a-d809-5286",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "e200-cda8-d466-77a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "fe61-21dd-44d7-83a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3422-62ae-2c7f-ad67",
+          "id": "c74b-cb58-e24a-03d1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afbb-a355-ff30-9cd6",
+          "id": "7858-696c-5e9e-c623",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "558f-f3bb-37ab-fcc5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7afd-781c-81a8-d22b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "8fd8-72d8-de2b-ffd6",
+          "name": "Shuriken Pistol",
+          "modifiers": [
+            {
+              "field": "558f-f3bb-37ab-fcc5",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "cdbc-1607-808b-b28a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "1262-6fb1-b88d-e00e",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "7afd-781c-81a8-d22b",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "cdbc-1607-808b-b28a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "1262-6fb1-b88d-e00e",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "9867-5b0d-72a1-6b11",
+          "id": "485d-aa15-cc48-dca9",
+          "name": "Psyker"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f576-12b5-5ec1-9b2e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f1fd-22a6-9e98-10fc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "6dc4-de05-7f59-50ca",
+          "name": ""
+        },
+        {
+          "targetId": "3edd-ab08-9a5c-ef11",
+          "id": "7350-a788-6918-503a",
+          "name": "Smite (Destructor)"
+        },
+        {
+          "type": 1,
+          "targetId": "c99a-b105-9c5a-91fe",
+          "id": "2338-db79-b0cf-aabb",
+          "name": "Remnants of Glory"
+        },
+        {
+          "constraints": [
+            {
+              "id": "25a5-ef97-1c80-9148",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1149-bb03-04da-eecd",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "e6f7-ecba-3c5d-4547",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "type": 1,
+          "targetId": "3b0b-35d5-d59d-d953",
+          "id": "820a-3869-8b7a-6c25",
+          "name": "Witch Weapon Option"
+        }
+      ],
+      "id": "1262-6fb1-b88d-e00e",
+      "name": "Warlock",
+      "infoLinks": [
+        {
+          "targetId": "1b0a-49d4-c8f5-a018",
+          "id": "9bec-3d40-71b2-1813",
+          "name": "Warlock"
+        },
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "8e58-8a55-99e7-a450",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "399f-04b3-4ff4-906b",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

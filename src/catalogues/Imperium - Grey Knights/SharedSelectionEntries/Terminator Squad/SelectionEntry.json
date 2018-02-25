@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "identifier": "Terminator Squad",
+    "prevIdentifier": "Interceptor Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "dec6-b27a-7019-2821",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "0b10-a6e7-d545-02d2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "21ff-fd51-4331-029f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "c1a3-7e42-4410-e721",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2821-762a-49dc-5a17",
+          "id": "560a-de8b-7adc-5631",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "5446-d7f8-b11a-c647",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c382-a970-0ec4-7e01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d3d2-93b9-70f5-9336",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "274a-16e9-8f59-d07a",
+          "id": "f11e-7f48-d884-ea76",
+          "name": "Grey Knight Terminator Justicar"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "fe73-55ed-2356-50d6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b7af-7b03-7dfa-e4b5",
+      "name": "Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8d60-ea30-08e4-2a5a",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "9544-0831-307d-a05e",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "eab6-ce15-10ec-91ec",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "a29c-ad1e-441b-2167",
+          "id": "3649-dd17-0c97-7090",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "0e77-aec9-1540-eaa4",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "b6bb-8129-1b30-4d52",
+          "id": "5a08-2e0b-2137-e178",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "cfc0-0a4e-cbef-9915",
+          "name": "Psyker (Sanctic 1 Squad)"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "2dee-b8b4-f4bd-2eb8",
+          "name": "Smite (Rites of Banishment)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "3e77-8d42-8182-6af1",
+              "type": 1,
+              "field": "selections",
+              "scope": "b7af-7b03-7dfa-e4b5",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

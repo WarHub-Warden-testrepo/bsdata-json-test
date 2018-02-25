@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d57d-df4b-ec50-efc1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "540b-2063-d15b-334e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0340-9ea8-4530-64d1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ddba-0d2c-67a7-27b5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "0a08-cae2-b29f-fb31",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e73c-97fb-6430-a5e2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "866f-85ad-19dd-0d89",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fc6e-b1bc-564c-13a3",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f42c-2cd6-0e72-fb1d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "befe-4b70-0f6f-2efb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "82b7-611d-67e7-f4b5",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "9e9f-8c75-3651-a54d",
+      "name": "Space Marine"
+    }
+  ]
+}

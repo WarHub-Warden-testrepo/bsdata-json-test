@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Stealth Shas'ui w/ Counterfire defence system",
+    "prevIdentifier": "Stealth Shas'ui w/ Advanced targeting system"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6369-3ed9-695f-c2c7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8c1d-3f65-9067-91a7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "04c8-ef3c-9e61-9d66",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "af78-f762-b5b3-c2d2",
+          "name": "Burst cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7c5a-c12e-e739-be44",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2b49-4a92-a00a-83d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aebf-fbc6-63f7-fc5e",
+          "id": "e1cf-3523-68a1-ebd5",
+          "name": "Counterfire defence system"
+        }
+      ],
+      "id": "b8d7-c5bb-bc4f-1c28",
+      "name": "Stealth Shas'ui w/ Counterfire defence system",
+      "infoLinks": [
+        {
+          "targetId": "2721-d55e-c098-be60",
+          "id": "f998-2cce-b1f6-d9eb",
+          "name": "Stealth Shas'ui"
+        }
+      ]
+    }
+  ]
+}

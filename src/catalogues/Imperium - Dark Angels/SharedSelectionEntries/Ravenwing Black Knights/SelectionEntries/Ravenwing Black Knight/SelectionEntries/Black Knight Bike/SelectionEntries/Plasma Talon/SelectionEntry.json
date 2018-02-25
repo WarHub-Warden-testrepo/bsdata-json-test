@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Plasma Talon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "182d-f69e-59fc-a871",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "8807-21e9-d46c-1236",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8888-daed-451b-e010",
+      "name": "Plasma Talon"
+    }
+  ]
+}

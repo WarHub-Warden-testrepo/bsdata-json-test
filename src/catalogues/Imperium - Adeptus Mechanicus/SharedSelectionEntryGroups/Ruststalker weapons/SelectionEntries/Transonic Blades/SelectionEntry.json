@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Transonic Blades",
+    "prevIdentifier": "Transonic Razor and Chordclaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9340-cc23-8e29-c376",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "08bb-4b67-fd39-4e27",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b696-67aa-c975-0a60",
+          "id": "6240-fb27-e003-3c62",
+          "name": "Transonic blades"
+        }
+      ],
+      "id": "ed37-a7b5-13d9-6e7f",
+      "name": "Transonic Blades",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "70c1-ed78-9472-5068",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

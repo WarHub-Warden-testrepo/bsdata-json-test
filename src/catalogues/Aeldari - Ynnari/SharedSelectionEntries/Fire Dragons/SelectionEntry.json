@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Fire Dragons",
+    "prevIdentifier": "Striking Scorpions"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "e92f-13bf-6158-ba9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "9855-c3f3-02ff-91e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "cecd-251f-04d3-f037",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "ae4f-6c42-d398-9a4e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6f88-4356-4c08-1043",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "265f-c42d-4f62-a52d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "950d-dd7c-6f0d-1ac9",
+          "id": "96a7-ccf7-c4c0-e760",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1861-9e22-2610-0647",
+          "id": "b2e7-2a80-94fe-b1c1",
+          "name": ""
+        }
+      ],
+      "id": "e378-ec37-7c47-a3b6",
+      "name": "Fire Dragons",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "9d59-ccb1-35c4-c8b6",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "540e-b0c6-65b8-1dd0",
+              "type": 1,
+              "field": "selections",
+              "scope": "e378-ec37-7c47-a3b6",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

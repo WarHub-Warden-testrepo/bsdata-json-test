@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Bile spurt",
+    "prevIdentifier": "Gnashing maw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c085-742a-f10c-950e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "95de-9e47-5064-be8e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "74a2-b7ee-117d-1aae",
+      "name": "Bile spurt"
+    }
+  ]
+}

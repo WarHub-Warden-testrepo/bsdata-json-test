@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "identifier": "Sorcerous Arcana",
+    "prevIdentifier": "Terminator Sorcerer Weapon options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5933-02a7-59f2-73c1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "894b-9b8c-94c9-d825",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a172-cab0-499a-8a4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "1e0a-9283-e7bf-e66b",
+          "id": "88f5-7f56-e0b8-db77",
+          "name": "Coruscator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4479-16a1-4c3b-1e4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "02e6-b80c-07bb-afdb",
+          "id": "5275-573a-c9b3-c317",
+          "name": "The Prismatic Staff"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0028-8998-fd00-700b",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "e410-31c2-9009-37f7",
+          "id": "1ae6-8a8f-80dc-7d7e",
+          "name": "Seer's Bane"
+        }
+      ],
+      "id": "c766-a2c3-4ac9-fbbb",
+      "name": "Sorcerous Arcana",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "894b-9b8c-94c9-d825",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "9aed-5e2d-8d51-5f31",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "894b-9b8c-94c9-d825",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1b20-1c27-6f89-ddbe",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "894b-9b8c-94c9-d825",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "28f9-4d6e-4f32-3322",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "9aed-5e2d-8d51-5f31",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "70ef-1331-88c8-d921",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "e035-0a3d-52b6-9435",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

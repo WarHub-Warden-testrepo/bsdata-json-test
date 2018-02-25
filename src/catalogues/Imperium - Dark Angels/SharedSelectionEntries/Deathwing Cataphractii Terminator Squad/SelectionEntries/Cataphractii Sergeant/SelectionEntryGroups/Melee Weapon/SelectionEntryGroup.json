@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4fa2-615f-2b97-ec1b",
+      "constraints": [
+        {
+          "id": "c061-040d-c19a-f396",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "4092-93c7-29d8-6000",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "eb23-088e-e84a-fe5e",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "4fa2-615f-2b97-ec1b",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "fc63-c854-171d-0fb1",
+          "name": "Lightning Claw (Pair)"
+        },
+        {
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "c2eb-5df6-757b-6d48",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "bc4f-d261-98e4-e12e",
+      "name": "Melee Weapon"
+    }
+  ]
+}

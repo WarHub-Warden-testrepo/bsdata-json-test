@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Heavy Mortar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "74c1-da50-e9fa-3452",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "edcc-0604-b88a-efa6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "97fe-9d03-3c48-50ba",
+      "name": "Heavy Mortar"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Spinefists",
+    "prevIdentifier": "Spike Rifle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "42fd-353d-bc2a-ef69",
+      "name": "Spinefists",
+      "infoLinks": [
+        {
+          "targetId": "369b-bd36-14b2-e698",
+          "id": "ba6e-7bdf-8ed7-3326",
+          "name": "Spinefists"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "cebe-cea0-677f-2f76",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "6903-a410-21cb-0dc5",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "points",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "3864-3330-0ae1-68cf",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

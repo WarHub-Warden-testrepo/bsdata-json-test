@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Cataphractii Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5269-3958-8474-05f9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "701d-67be-50d3-17e1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c8b3-3388-6cff-4848",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "aa00-00a4-105d-a8ed",
+          "name": "Grenade harness"
+        }
+      ],
+      "id": "a783-0e49-272d-0b39",
+      "name": "Cataphractii Sergeant"
+    }
+  ]
+}

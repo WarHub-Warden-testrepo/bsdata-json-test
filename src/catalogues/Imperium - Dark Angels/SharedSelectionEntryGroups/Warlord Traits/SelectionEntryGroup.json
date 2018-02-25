@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Sergeant Equipment"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "ee04-4c4b-82c3-69ab",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0a08-19f3-eb09-41dd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "da87-0e19-5f77-ac37",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6fc9-acfe-e68e-a69e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "1c79-9c18-cb19-0f47",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "cf45-1254-e471-b1e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "8466-286e-752e-3f6b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "25ab-3c66-3dc4-0e00",
+      "name": "Warlord Traits"
+    }
+  ]
+}

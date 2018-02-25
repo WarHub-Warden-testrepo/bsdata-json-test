@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (CA)",
+    "prevIdentifier": "Warlord Traits (BRB)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0260-30d2-6345-8535",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f673-3d9b-bb1b-377f",
+      "name": "Warlord Traits (CA)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "f361-b6f6-93fd-2250",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "76d3-0012-c152-b50d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Mandrakes",
+    "prevIdentifier": "Kabalite Warriors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5f8b-55e6-e0ad-01fd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "9af9-ae12-8b5f-af9f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "e908-e22b-d976-e346",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6b79-7cf6-838f-3ebf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a565-a5b4-4e95-2786",
+          "id": "c15c-8ea7-146a-29ca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8738-a567-5340-4450",
+      "name": "Mandrakes",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "e8f1-7db4-58fa-19bb",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "81ab-95a8-7577-3e14",
+          "name": "Power from Pain"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "edda-8b71-dcbe-752d",
+              "type": 1,
+              "field": "selections",
+              "scope": "8738-a567-5340-4450",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

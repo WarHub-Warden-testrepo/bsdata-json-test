@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Scarab Occult Sorcerer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 33.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1fcd-838d-a073-b438",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "a342-8e2c-0814-6305",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "34e5-6d46-a019-c2fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "63b0-8f4b-6c21-8b58",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "4a96-0462-e44b-951e",
+          "name": "Force stave"
+        },
+        {
+          "targetId": "20d8-73a8-6938-82bc",
+          "id": "eee2-848c-cfeb-f04a",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4d7d-a6d6-454b-cd64",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "f5d4-1587-c8a5-4bb6",
+          "name": "Discipline of Change"
+        }
+      ],
+      "id": "00a3-d61e-841d-a700",
+      "name": "Scarab Occult Sorcerer",
+      "page": "0"
+    }
+  ]
+}

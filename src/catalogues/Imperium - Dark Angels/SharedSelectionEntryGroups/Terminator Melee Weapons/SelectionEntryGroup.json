@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Terminator Melee Weapons",
+    "prevIdentifier": "Heavy Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "targetId": "90de-7b01-e401-888b",
+          "id": "62eb-4b6a-f70c-561d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "2126-25eb-cf0e-52aa",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "6622-a984-3ce7-2f65",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "cbcd-4e34-3124-4c23",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15",
+              "conditions": [
+                {
+                  "childId": "ef18-746a-369f-43a4",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "554a-4c06-6d28-a87c",
+      "name": "Terminator Melee Weapons"
+    }
+  ]
+}

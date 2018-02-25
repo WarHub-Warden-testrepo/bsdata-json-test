@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Raptor Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "83bb-aaac-6798-f9cd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "78d1-8871-d5bb-3e92",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a387-7185-8e66-57e1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3fe1-c571-2db0-de19",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ec3b-fba3-7422-9cec",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "5b48-1826-d51e-ae56",
+          "id": "5ce5-af2e-909f-eb7f",
+          "name": "Melee Champion Equipment"
+        }
+      ],
+      "id": "d4a0-d7d9-64b4-3969",
+      "name": "Raptor Champion"
+    }
+  ]
+}

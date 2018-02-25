@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Inceptor Sergeant",
+    "prevIdentifier": "Inceptor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3e93-9c1f-d61b-6000",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f324-1fce-1b31-8188",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "10fd-4eb8-7b2e-1564",
+      "name": "Inceptor Sergeant"
+    }
+  ]
+}

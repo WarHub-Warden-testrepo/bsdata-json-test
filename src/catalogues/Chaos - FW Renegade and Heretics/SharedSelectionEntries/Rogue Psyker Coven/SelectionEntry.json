@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Rogue Psyker Coven",
+    "prevIdentifier": "Malefic Lord"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "51db-00a6-67e7-ce83",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b0c6-77b4-6266-91b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c1b8-d929-1aac-fb81",
+          "id": "c730-58fd-b3ac-f5c1",
+          "name": "RENEGADES AND HERETICS DISCIPLINE"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a1ae-6ba9-e662-b53a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2fc7-92ca-bd9f-9a35",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "2a06-d61b-697c-605e",
+          "name": "Smite"
+        }
+      ],
+      "id": "cc2b-c20c-6216-b16f",
+      "name": "Rogue Psyker Coven",
+      "infoLinks": [
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "a2c1-696a-6658-e78e",
+          "name": "Chaos Covenant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "identifier": "Autarch with Swooping Hawk Wings",
+    "prevIdentifier": "Autarch"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "5ef0-6eed-dba1-2ae5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "97b2-2578-6e38-63be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "e283-edea-e9d9-eb35",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f3a-0e93-5211-1a55",
+          "id": "53e2-735a-5297-f4ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8752-8e16-dd57-7726",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "5f25-7d2a-81e1-a48a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "beba-f0bf-6cd7-e718",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0674-7438-6a85-5fdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "a796-2f7a-b5cb-515a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "c8d2-04e5-9ca6-83ec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8348-0a64-ff87-dac5",
+          "id": "22f5-3bbc-fdec-5869",
+          "name": "Autarch Weapons (Index)",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "0fa7-27d6-5bdc-4547",
+              "value": "1",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "48f0-8873-677e-6bf9",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "9faf-68f6-df10-e4ae",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "5648-412c-e8b0-fdcd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "18c0-c25c-bb83-14dd",
+          "id": "3c3c-1183-58e5-8d64",
+          "name": "Autarch Equipment (Index)"
+        },
+        {
+          "targetId": "d607-4875-b868-1932",
+          "id": "2aab-84be-e04b-c546",
+          "name": "Forceshield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "96d6-4ff7-fcba-c419",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "542f-cdac-e7e3-b287",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "c7aa-65f7-4dd8-bf00",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "96d6-4ff7-fcba-c419",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "22f5-3bbc-fdec-5869",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 2.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "5648-412c-e8b0-fdcd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "9faf-68f6-df10-e4ae",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "48f0-8873-677e-6bf9",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "542f-cdac-e7e3-b287",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "9faf-68f6-df10-e4ae",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "48f0-8873-677e-6bf9",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "5648-412c-e8b0-fdcd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "22f5-3bbc-fdec-5869",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2989-8d08-72fc-9556",
+                      "value": 2.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "c99a-b105-9c5a-91fe",
+          "id": "9930-1641-c67a-ebcf",
+          "name": "Remnants of Glory"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4b2e-3719-c20a-07ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d9a8-a85b-9df9-bcd0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "5c32-c3a1-9fe4-9b35",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1e86-2700-0448-f06e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "709c-4a62-6c6e-4410",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "9320-450f-7034-b817",
+          "id": "623d-3423-dd0c-f3be",
+          "name": "Mandiblasters",
+          "modifiers": [
+            {
+              "field": "709c-4a62-6c6e-4410",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "3c3c-1183-58e5-8d64",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2989-8d08-72fc-9556",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "field": "1e86-2700-0448-f06e",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "3c3c-1183-58e5-8d64",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2989-8d08-72fc-9556",
+                  "value": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ccad-2c72-29a5-a4c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2e98-a7c9-d011-524e",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "7fa0-3760-859e-8531",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "2989-8d08-72fc-9556",
+      "name": "Autarch with Swooping Hawk Wings",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "2522-9c0f-60a4-9e87",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "a745-2ca7-aa2c-dfcf",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

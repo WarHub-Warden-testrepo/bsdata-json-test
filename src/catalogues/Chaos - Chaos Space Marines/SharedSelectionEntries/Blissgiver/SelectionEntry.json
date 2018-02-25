@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Blissgiver",
+    "prevIdentifier": "Claws of the Black Hunt"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "ca57-0c8d-105e-8a95",
+      "name": "Blissgiver",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "0334-f487-8229-0c1a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Dominus Armoured Siege Bombard",
+    "prevIdentifier": "Stat Damage (Light Mach)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 600.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "4ae9-9f83-2d4f-b101",
+          "id": "9b6e-7f36-a55c-668c",
+          "name": "Stat Damage (Light Mach)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d98d-e2b7-6e80-af4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ccc7-74d2-d0b0-714b",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "779f-ccfd-affc-f946",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "5ece-cfc4-9c03-9135",
+      "name": "Dominus Armoured Siege Bombard",
+      "infoLinks": [
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "e35e-67d0-9248-a4a3",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "b6bf-1a0e-6127-deee",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "ac2f-e3bc-43da-218e",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

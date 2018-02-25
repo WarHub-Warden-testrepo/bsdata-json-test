@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Splinter pods",
+    "prevIdentifier": "Hellglaive"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "573b-14de-d91c-499c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a0fd-dc49-65f5-ce31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a223-4f40-3b42-230c",
+      "name": "Splinter pods"
+    }
+  ]
+}

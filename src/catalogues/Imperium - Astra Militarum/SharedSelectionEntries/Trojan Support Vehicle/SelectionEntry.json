@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Trojan Support Vehicle",
+    "prevIdentifier": "Gryphonne Pattern Chimera"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d262-9dbb-a1d0-761f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "7ae4-48c6-102d-45a2",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "942f-e1b8-9b71-91e4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d3ba-a91c-5999-e64b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7828-2d3f-2c9a-0587",
+          "id": "7139-bd17-317e-2f37",
+          "name": "Stat Damage (Chimera)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "8eb5-cce5-d825-521f",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "d371-e8ef-f672-2705",
+          "name": "Hull Weapon"
+        }
+      ],
+      "id": "366c-cdc1-20e0-4209",
+      "name": "Trojan Support Vehicle",
+      "book": "Codex: Astra Militarum",
+      "page": "40",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "07da-5199-77cf-9c41",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "4e69-9563-aa6e-811b",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

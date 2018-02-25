@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Explodes",
+    "prevIdentifier": "Blade Wind"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c990-e259-747a-5747",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1a00-3dba-77c1-8514",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "343c-1200-8874-0be8",
+      "name": "Explodes"
+    }
+  ]
+}

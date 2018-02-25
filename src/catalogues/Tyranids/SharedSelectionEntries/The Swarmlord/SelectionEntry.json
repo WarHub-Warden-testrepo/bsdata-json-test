@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "identifier": "The Swarmlord",
+    "prevIdentifier": "The Red Terror"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 300.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "619d-7d97-6dae-26e7",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "7644-d3f1-2f26-aeb4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "c286-0632-b44f-60af",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "5f3d-20ee-7165-7b6e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "2121-a6a4-9ba7-c39a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "de15-ce29-4690-9f51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "e987-2d98-4e90-4c16",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9c32-eba0-ea9e-1e0d",
+          "id": "21b3-e322-eb27-c4bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7b29-b270-99fe-4de7",
+          "id": "89e7-06df-27b6-1b4e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7007-8bdd-76fb-6a60",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ef89-94d6-ace7-725d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "73d5-dcb1-c0a2-b103",
+          "id": "3f13-3ebb-d133-471d",
+          "name": "Prehensile Pincer Tail",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1c20-8554-5e12-b9ec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c2f7-de12-e2e1-bb33",
+          "id": "43b6-ed50-f239-0f65",
+          "name": "Hive Mind Discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "25a0-b547-6079-03a1",
+          "id": "c951-2a06-e4be-f430",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2637-275d-c2e3-e676",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c832-2f4e-ee51-f481",
+          "id": "35a8-c369-2d9f-bd05",
+          "name": "Warlord"
+        }
+      ],
+      "id": "5a85-738f-f138-2640",
+      "name": "The Swarmlord",
+      "infoLinks": [
+        {
+          "targetId": "1f08-bd8f-43a3-ce1b",
+          "id": "b857-44f2-9d90-3386",
+          "name": "Synapse"
+        },
+        {
+          "targetId": "f587-afe6-7bbe-4eac",
+          "id": "68ea-b0b9-2c06-8c35",
+          "name": "Shadow in the Warp"
+        },
+        {
+          "targetId": "691e-2c1e-9556-14ef",
+          "id": "948c-d835-34f3-fac5",
+          "name": "The Will of the Hive Mind"
+        },
+        {
+          "targetId": "4df2-766b-6931-c259",
+          "id": "d864-e770-6e88-1abe",
+          "name": "Psychic Barrier"
+        },
+        {
+          "targetId": "6515-364e-86c7-5f9f",
+          "id": "e67a-9753-47c9-6316",
+          "name": "Death Throes"
+        }
+      ]
+    }
+  ]
+}

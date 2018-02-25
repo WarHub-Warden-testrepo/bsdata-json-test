@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Spore Node"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1fd6-4e39-2eca-2e7c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c773-c79c-6b57-1248",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "203b-9328-25e9-1ff5",
+      "name": "Spore Node"
+    }
+  ]
+}

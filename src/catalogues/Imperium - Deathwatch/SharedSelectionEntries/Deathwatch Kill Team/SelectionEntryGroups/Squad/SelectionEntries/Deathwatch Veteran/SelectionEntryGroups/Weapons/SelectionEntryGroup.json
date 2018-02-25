@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bf2e-e2fc-f23a-5af5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "42fc-3379-ce0a-65b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ccae-c3ab-8082-67d0",
+          "id": "f419-7433-c556-6b68",
+          "name": "DW Vet List",
+          "modifiers": [
+            {
+              "field": "bf2e-e2fc-f23a-5af5",
+              "value": "0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "3f4a-220e-cb17-f1fd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "3b2b-395a-98ee-1a80",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "604a-d595-9ec7-8ce0",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "3b2b-395a-98ee-1a80",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "field": "42fc-3379-ce0a-65b8",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "3f4a-220e-cb17-f1fd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "3b2b-395a-98ee-1a80",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "604a-d595-9ec7-8ce0",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "3b2b-395a-98ee-1a80",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9782-d401-aa85-3d7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "01b8-d93a-d3b6-f3e8",
+          "id": "3f4a-220e-cb17-f1fd",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "9782-d401-aa85-3d7e",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "604a-d595-9ec7-8ce0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3b2b-395a-98ee-1a80",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "296b-305d-03c9-ec33",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "604a-d595-9ec7-8ce0",
+          "name": "",
+          "modifiers": [
+            {
+              "field": "296b-305d-03c9-ec33",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "3f4a-220e-cb17-f1fd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3b2b-395a-98ee-1a80",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "fe6e-1d01-de4b-cc6e",
+      "name": "Weapons"
+    }
+  ]
+}

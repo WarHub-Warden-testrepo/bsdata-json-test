@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons",
+    "prevIdentifier": "Melee weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "563e-aaf7-033b-e034",
+      "constraints": [
+        {
+          "id": "38d8-b233-33e4-7729",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "089e-8e71-d25f-9603",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "563e-aaf7-033b-e034",
+          "name": "Combi-bolter",
+          "modifiers": [
+            {
+              "field": "089e-8e71-d25f-9603",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "98ed-62ce-7b36-bb53",
+          "name": "Combi-flamer"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "ac1e-df53-19d8-38a2",
+          "name": "Combi-melta"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "a763-df18-ab19-26c7",
+          "name": "Combi-plasma"
+        }
+      ],
+      "id": "b012-7617-0c13-5cc2",
+      "name": "Combi-weapons"
+    }
+  ]
+}

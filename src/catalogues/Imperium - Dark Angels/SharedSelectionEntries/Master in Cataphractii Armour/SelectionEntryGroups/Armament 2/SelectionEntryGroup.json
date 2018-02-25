@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Armament 2"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "59e8-d5b6-9dbd-ce2f",
+      "constraints": [
+        {
+          "id": "bb51-160c-62dd-de3a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "4358-2b94-5c9b-06d4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d6e0-7aa6-a8dc-9eb5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "99c2-5d36-15a6-7629",
+          "id": "08fa-35fa-5aa5-0d85",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b8bf-f3f7-bb28-01ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "554a-4c06-6d28-a87c",
+          "id": "21ca-1921-5d6c-77a8",
+          "name": "Terminator Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0be0-3806-0fb4-5dee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "59e8-d5b6-9dbd-ce2f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "42a0-28cb-266d-45dc",
+      "name": "Armament 2"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Thornback"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fc68-1c7d-b117-f50a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e832-ebdf-a3e5-5f42",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c369-36f3-6ab6-73d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "771e-403d-42de-20d2",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a31f-9876-834d-cb7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "184b-964d-0509-8ad6",
+          "name": "Adrenal Glands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d1ef-5a52-09fa-39ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1104-b06e-4294-fcf8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0af1-5d39-8da1-53c0",
+          "id": "e376-6163-bc82-b508",
+          "name": "Chitin Thorns"
+        },
+        {
+          "constraints": [
+            {
+              "id": "db79-309f-251a-bdc0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd3c-0d6f-c0b5-3e03",
+          "id": "4952-ba78-3af5-e917",
+          "name": "Enhanced Senses"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2fa7-49e0-8f6f-873e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c3f4-9aab-7e7f-2f46",
+          "id": "cbe8-3414-acd4-b573",
+          "name": "Thresher Scythe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "20bf-2c06-87b1-80a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8a16-fcf0-8e16-083b",
+          "id": "a775-0e45-55d3-963f",
+          "name": "Spine Banks"
+        }
+      ],
+      "id": "9e28-9912-f037-5cb0",
+      "name": "Thornback"
+    }
+  ]
+}

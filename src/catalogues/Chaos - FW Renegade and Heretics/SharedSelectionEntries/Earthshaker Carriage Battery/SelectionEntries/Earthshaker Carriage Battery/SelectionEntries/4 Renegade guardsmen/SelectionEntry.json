@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "4 Renegade guardsmen"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8244-9133-f0fc-8619",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "94c7-9a71-d7d4-3d60",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f701-1fb7-0e19-19c7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4f74-b785-4940-97e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "4773-d4c6-d71e-80f2",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a8de-43eb-b39d-024e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4567-5067-120e-64d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "f50e-0def-d870-cf71",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "7ece-c19f-d074-a43e",
+      "name": "4 Renegade guardsmen",
+      "infoLinks": [
+        {
+          "targetId": "1509-5631-e1f4-4926",
+          "id": "d0db-3f88-4cf3-3ea1",
+          "name": "Renegade Guardsmen"
+        }
+      ]
+    }
+  ]
+}

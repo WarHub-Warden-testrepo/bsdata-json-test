@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Main weapon",
+    "prevIdentifier": "Additional wargear"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d9c0-fe3b-2c58-c464",
+      "constraints": [
+        {
+          "id": "6e35-603c-e803-0064",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d1f0-97c7-af15-45bf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d862-e816-950b-2c4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d26e-ac12-df6a-c050",
+          "id": "d9c0-fe3b-2c58-c464",
+          "name": "Thunderhawk heavy cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "446e-dfa3-9fde-254a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c009-2be5-6505-b1e9",
+          "id": "41bb-224c-d713-061a",
+          "name": "Turbo-laser destructor"
+        }
+      ],
+      "id": "c054-f839-ec14-e310",
+      "name": "Main weapon"
+    }
+  ]
+}

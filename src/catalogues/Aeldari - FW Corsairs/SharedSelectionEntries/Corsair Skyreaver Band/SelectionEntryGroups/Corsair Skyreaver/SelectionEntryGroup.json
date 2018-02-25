@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Corsair Skyreaver"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9e4b-1d87-7e23-d6a3",
+      "constraints": [
+        {
+          "id": "5253-640d-d604-1b33",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "5cfb-c83f-af61-356a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "id": "e98b-2fd5-8e88-8fe9",
+      "name": "Corsair Skyreaver",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "modifiers": [
+        {
+          "field": "5253-640d-d604-1b33",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "5cb6-be08-6203-832f",
+              "type": 2,
+              "field": "selections",
+              "scope": "114e-c5b5-810c-5212",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "5cfb-c83f-af61-356a",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "5cb6-be08-6203-832f",
+              "type": 2,
+              "field": "selections",
+              "scope": "114e-c5b5-810c-5212",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

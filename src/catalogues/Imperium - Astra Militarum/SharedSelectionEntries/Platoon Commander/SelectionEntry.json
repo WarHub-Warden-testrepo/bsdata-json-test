@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "identifier": "Platoon Commander",
+    "prevIdentifier": "Officer of the Fleet"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c103-815b-0ca2-0147",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e5f6-0485-4121-67bc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "001c-0d7d-b463-a412",
+          "name": "Frag grenade"
+        },
+        {
+          "targetId": "7d8c-221c-99c5-97d2",
+          "id": "ba28-3204-5740-fb2b",
+          "name": "Astra Militarum Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "6a1e-9526-8a64-7ea5",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8986-dd41-706d-7e56",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "b3e1-8892-5000-dd59",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4412-fedd-0274-8117",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "3e47-60ec-3984-07e5",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ef81-3bca-f771-a5fe",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "4412-fedd-0274-8117",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7ead-7f42-5da5-dc30",
+      "name": "Platoon Commander",
+      "book": "Codex: Imperial Guard",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "783d-d067-2d7f-d2a1",
+          "id": "c708-efdf-3b01-ab57",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "2ff26b94-8048-d15d-c541-fd4da0f49571",
+          "id": "baa9-9317-a2b3-6a65",
+          "name": "Voice of Command"
+        }
+      ]
+    }
+  ]
+}

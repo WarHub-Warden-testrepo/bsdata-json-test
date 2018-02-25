@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Dire Avenger"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e0c0-90c3-c75d-ffd0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7123-8328-ac3f-ed02",
+          "id": "c160-043a-6bb8-8f04",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "1798-fc1f-323e-71b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4b73-986f-dad8-e197",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "a273-181b-5e70-38cd",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "1f27-1dbc-28cf-3ddb",
+      "name": "Dire Avenger"
+    }
+  ]
+}

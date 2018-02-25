@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Commander",
+    "prevIdentifier": "Homing beacon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 76.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "3c4a-474d-7442-b65b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "f708-e922-7270-d0a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "b864-2051-e623-c1af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "d0e7-314e-d058-919b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "fc24-03a1-ee3f-9239",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2da2-7759-965a-d4f5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "d0c8-450c-56c1-f02a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "257e-82d7-82b7-4434",
+          "id": "5576-9182-5af7-6272",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5d44-e869-71d2-eefd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "5d6f-c05a-2e0d-5081",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "5a5b-a810-6f32-4580",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "d712-4df3-6e04-da6d",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "9aa7-098e-c65f-5f18",
+          "id": "8e93-794b-d39a-0ab4",
+          "name": "Puretide Engram Neurochip"
+        }
+      ],
+      "id": "6fb8-4192-c165-de64",
+      "name": "Commander",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "a379-f9e7-595b-b4c8",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "02f2-adda-f001-b312",
+          "id": "b2ec-25a8-eeac-1ee9",
+          "name": "Master of War"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "1118-c74b-0e9b-8f03",
+          "name": "Manta Strike"
+        },
+        {
+          "targetId": "769e-d928-78d8-e6d1",
+          "id": "7e25-70a4-6482-e5d4",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "5d6f-c05a-2e0d-5081",
+              "type": 4,
+              "field": "selections",
+              "scope": "6fb8-4192-c165-de64",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Wraithblades",
+    "prevIdentifier": "Wraithguard"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "f52d-d0f0-2520-3c32",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "b6b6-e588-acf9-85bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "19e8-66c0-d90d-6e02",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "facc-5744-dbed-3cd4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c775-779e-e0e8-f80e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9a3e-947f-26da-d343",
+          "id": "1876-fcfb-9cac-4444",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9cdb-59a0-c8cb-911e",
+          "id": "06eb-6a1b-0153-f634",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "0559-c97d-6e3e-af0c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "7359-06de-dc19-9e5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "3afa-a8c8-50db-1572",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "28c6-e3f2-6f1f-6caa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7b67-47ef-18da-46dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9a3e-947f-26da-d343",
+          "id": "4af6-f61e-c6bf-bc50",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "be4f-b265-1ffd-36cd",
+          "id": "8974-4a02-0ed2-dcce",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "b9d9-4824-8c54-182a",
+      "name": "Wraithblades",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "20",
+          "conditions": [
+            {
+              "childId": "50d5-2a7b-1989-88ab",
+              "type": 1,
+              "field": "selections",
+              "scope": "b9d9-4824-8c54-182a",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

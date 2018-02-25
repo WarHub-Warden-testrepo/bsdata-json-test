@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Helbrute"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "800f-21d0-4387-c943",
+      "profileTypeName": "Unit",
+      "characteristics": [
+        {
+          "name": "M",
+          "characteristicTypeId": "0bdf-a96e-9e38-7779",
+          "value": "8\""
+        },
+        {
+          "name": "WS",
+          "characteristicTypeId": "e7f0-1278-0250-df0c",
+          "value": "3+"
+        },
+        {
+          "name": "BS",
+          "characteristicTypeId": "381b-eb28-74c3-df5f",
+          "value": "3+"
+        },
+        {
+          "name": "S",
+          "characteristicTypeId": "2218-aa3c-265f-2939",
+          "value": "6"
+        },
+        {
+          "name": "T",
+          "characteristicTypeId": "9c9f-9774-a358-3a39",
+          "value": "7"
+        },
+        {
+          "name": "W",
+          "characteristicTypeId": "f330-5e6e-4110-0978",
+          "value": "8"
+        },
+        {
+          "name": "A",
+          "characteristicTypeId": "13fc-b29b-31f2-ab9f",
+          "value": "4"
+        },
+        {
+          "name": "Ld",
+          "characteristicTypeId": "00ca-f8b8-876d-b705",
+          "value": "8"
+        },
+        {
+          "name": "Save",
+          "characteristicTypeId": "c0df-df94-abd7-e8d3",
+          "value": "3+"
+        }
+      ],
+      "id": "2a55-7dba-abd6-aa47",
+      "name": "Helbrute",
+      "page": "",
+      "modifiers": [
+        {
+          "field": "13fc-b29b-31f2-ab9f",
+          "value": "5",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "e7d1-b66c-5df9-928f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "e7d1-b66c-5df9-928f",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "5cae-15dc-4a5d-0b9b",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "840e-6586-1162-9d68",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "5cae-15dc-4a5d-0b9b",
+                          "value": 1.0,
+                          "shared": true
+                        },
+                        {
+                          "childId": "ce8d-9406-bcf1-fdae",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "5cae-15dc-4a5d-0b9b",
+                          "value": 1.0,
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

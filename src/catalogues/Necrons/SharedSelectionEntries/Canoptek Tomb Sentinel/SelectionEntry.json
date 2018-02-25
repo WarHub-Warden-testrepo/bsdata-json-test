@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Canoptek Tomb Sentinel",
+    "prevIdentifier": "Tomb Citadel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 180.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ea34-00a7-7652-9c98",
+          "id": "7901-384c-4d31-6121",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "f4f6-0fde-0326-f8d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "accb-e3d8-1193-10cc",
+          "id": "3a25-a632-29e8-19eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "7919-353a-2a16-f513",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "4348-9daa-b13d-7709",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d654-de53-6604-5870",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9d56-9349-09a7-6b27",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8642-6edd-7d6d-93f8",
+          "id": "63a7-73b5-2321-ccf6",
+          "name": "Automaton Claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "317a-4c51-ba5f-41e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a1fd-103a-3e70-45b1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8354-5cda-a639-c2af",
+          "id": "71eb-2ac9-1ff5-1358",
+          "name": "Exile Cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "299e-b2fe-de4a-c427",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e683-6baa-e13b-9375",
+          "id": "e5d2-a7df-fff1-9c21",
+          "name": "Gloom Prism"
+        }
+      ],
+      "id": "f821-cc14-9ff6-8a92",
+      "name": "Canoptek Tomb Sentinel",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "targetId": "0755-e243-a334-31b8",
+          "id": "2975-e41d-f583-2bae",
+          "name": "Phasic Tunnelling"
+        }
+      ]
+    }
+  ]
+}

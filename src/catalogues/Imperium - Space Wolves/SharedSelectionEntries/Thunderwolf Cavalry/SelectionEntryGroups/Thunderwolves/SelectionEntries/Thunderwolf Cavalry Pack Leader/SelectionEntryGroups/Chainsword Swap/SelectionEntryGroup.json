@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Chainsword Swap",
+    "prevIdentifier": "Bolt Pistol Swap"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "55b3-56a9-d0c3-8cfb",
+      "constraints": [
+        {
+          "id": "7d5e-2ced-c09d-f668",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "3c14-27b2-d4a3-28e5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5d0e-c17b-7c89-6115",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "c27b-5477-7c1a-c273",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "101e-0567-6443-e8b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "9845-4ce6-21bc-05f8",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2456-cb64-8ae6-c51e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "55b3-56a9-d0c3-8cfb",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "c8f4-cdce-0bcb-af79",
+      "name": "Chainsword Swap"
+    }
+  ]
+}

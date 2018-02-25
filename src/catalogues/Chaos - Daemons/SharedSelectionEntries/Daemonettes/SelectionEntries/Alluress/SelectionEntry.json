@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Alluress",
+    "prevIdentifier": "Daemonette"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6de7-244b-f5a2-15ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e959-8c2d-c290-0ae5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "6c70-e5e7-50ff-5367",
+          "name": "Piercing claws"
+        }
+      ],
+      "id": "f3f8-fcb5-ff46-5c63",
+      "name": "Alluress"
+    }
+  ]
+}

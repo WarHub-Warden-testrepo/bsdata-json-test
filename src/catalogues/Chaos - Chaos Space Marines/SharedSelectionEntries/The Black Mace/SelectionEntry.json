@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "The Black Mace",
+    "prevIdentifier": "Talisman of Burning Blood"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "7b70-3124-ac94-5695",
+      "name": "The Black Mace",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "6ea7-1195-7144-438e",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

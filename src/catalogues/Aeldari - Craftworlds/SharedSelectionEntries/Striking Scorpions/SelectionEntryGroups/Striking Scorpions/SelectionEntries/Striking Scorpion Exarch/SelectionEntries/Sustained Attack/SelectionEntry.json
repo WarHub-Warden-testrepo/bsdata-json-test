@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Sustained Attack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "08f8-e847-7c2c-1155",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "274c-a2fd-8c7a-b830",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0823-3315-b22d-af47",
+      "name": "Sustained Attack"
+    }
+  ]
+}

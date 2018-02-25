@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "identifier": "Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "58bb-54df-fc1c-39ae",
+      "constraints": [
+        {
+          "id": "b964-5240-23b6-d55b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "319c-0980-7ca4-cebd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "daad-e412-5f29-0969",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "58bb-54df-fc1c-39ae",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bc90-8b1c-fa86-a5b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "75c3-4f99-1a63-7a0d",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bb55-f40d-cd1f-335d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "af71-a8f4-41bd-496c",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7041-75d0-03dc-7db3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "d305-7eb7-f776-8e3a",
+          "name": "Storm shield"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d202-f3ad-9f88-cbf4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "8870-f39e-7123-9c9d",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "8b3a-5cce-a5c1-683a",
+      "name": "Boltgun",
+      "modifiers": [
+        {
+          "field": "319c-0980-7ca4-cebd",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "f658-9d4e-0ed1-3364",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "b964-5240-23b6-d55b",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "f658-9d4e-0ed1-3364",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

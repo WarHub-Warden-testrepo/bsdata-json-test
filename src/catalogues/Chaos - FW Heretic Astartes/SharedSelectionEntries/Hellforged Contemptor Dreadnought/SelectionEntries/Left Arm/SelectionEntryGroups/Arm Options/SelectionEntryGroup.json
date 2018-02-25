@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Arm Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "29bf-9ce8-1c57-b810",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "3c00-3b25-8d14-1458",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "c140-ed48-eabb-4579",
+      "name": "Arm Options",
+      "modifiers": [
+        {
+          "field": "29bf-9ce8-1c57-b810",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "9a51-2243-4ecf-7c02",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "3c00-3b25-8d14-1458",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "9a51-2243-4ecf-7c02",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

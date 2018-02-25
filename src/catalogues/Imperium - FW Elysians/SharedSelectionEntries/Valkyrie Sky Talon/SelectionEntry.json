@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Valkyrie Sky Talon",
+    "prevIdentifier": "Elysian Heavy Weapon Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6aa2-b91f-2291-23c2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e1a1-e56d-9fdb-46bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "7ac2-4481-7650-17c1",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "7432-3006-e603-8ed9",
+          "id": "8d3f-90bb-1755-49ee",
+          "name": "Wing-mounted Weapons Sky Talon"
+        }
+      ],
+      "id": "787c-9abf-77a1-abb2",
+      "name": "Valkyrie Sky Talon",
+      "infoLinks": [
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "e329-8468-6ee4-325f",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "7287-ca89-f267-a6d8",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "1d74-a902-74f9-8fed",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "6e0e-67ca-ac42-8a39",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "776e-279b-0e99-daef",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "c4f9-48e3-4bdc-737f",
+          "id": "f7a4-8a15-93d4-ddbc",
+          "name": "Grav Chute Insertion"
+        }
+      ]
+    }
+  ]
+}

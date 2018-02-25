@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Show Spore Mine Rules",
+    "prevIdentifier": "Show Mucolid Spore Rules"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "635b-4061-c578-3846",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8104-3776-34b1-7c85",
+      "name": "Show Spore Mine Rules",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "5292-7a8d-f70d-ba0e",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "42f0-2778-940d-6cca",
+          "name": "Living Bombs",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": "(Spore Mine)"
+            },
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "52ea-1173-ae84-1da8",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "4fe0-a701-3f44-b703",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "19af-ab35-5929-e624",
+          "id": "85fc-6505-25de-b1d2",
+          "name": "Spore Mine"
+        },
+        {
+          "targetId": "339f-b2b7-bd45-91f9",
+          "id": "739f-9d86-ad47-cb29",
+          "name": "Floating Death (Spore Mine)"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "9fb9-e36f-ba84-26e1",
+          "name": "Living Bombs",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "52ea-1173-ae84-1da8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "4fe0-a701-3f44-b703",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": "(Mucolid Spore / Spore Mine)"
+            }
+          ]
+        },
+        {
+          "targetId": "e4d0-2ad3-2e0d-6559",
+          "id": "a666-9274-70a1-01b7",
+          "name": "Spore Mines"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Wolf Lord in Terminator Armor",
+    "prevIdentifier": "Wolf Lord on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "d554-0eb3-6cdc-f063",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "925c-9412-d5ac-6ee3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a04b-6f86-1304-df23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "fea8-64d3-02e8-6c4a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c9f5-d660-2716-53b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "900b-b87c-3d04-8fd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "d1d9-cae0-a4ea-1b38",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7132-ea06-46b2-d469",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "bb43-d786-422c-70dc",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bf8f-4f4f-9a98-1d46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "9c37-fca3-1736-297c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0b2f-dd7c-b9ba-fd2a",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "de4f-bb3e-62b1-ffe1",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "0b2f-dd7c-b9ba-fd2a",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3d55-0d0f-a20d-98e8",
+      "name": "Wolf Lord in Terminator Armor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8e6f-d901-6788-70ae",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "295e-5506-a6ee-36e4",
+          "id": "0a8d-276d-aa3f-e3e2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0664-31c9-63b3-2a81",
+          "id": "7d75-1c8c-673f-69e0",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "6c81-4694-a9da-7f39",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

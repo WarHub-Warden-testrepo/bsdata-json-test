@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Engineer with Special Weapon",
+    "prevIdentifier": "Engineer w/Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b4d8-8e19-2bc1-95dd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "531f-4711-cd17-8d70",
+          "id": "8a11-d181-9e8b-2b37",
+          "name": "DKOK Special Weapons BS3"
+        },
+        {
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "cda6-b687-4ad1-b39f",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dcbd-d7a5-588a-fbf0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "15ba-c7e7-c224-2ff1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4f18-af17-643e-eede",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "5b5c-75f3-69dd-9e1e",
+      "name": "Engineer with Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "549d-0922-9d7f-5283",
+          "id": "6a28-9c99-e509-2255",
+          "name": "Death Korps Engineer"
+        }
+      ]
+    }
+  ]
+}

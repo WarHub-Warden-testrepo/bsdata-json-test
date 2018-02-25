@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Kaptin"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 27.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "15bc-8cec-ada5-0bfd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "df1c-403d-8000-846e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "79c7-2371-3762-580f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1744-b5c2-315a-cb9f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dc8-66e8-eb75-aa8a",
+          "id": "639e-dd6c-1d64-99b4",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "6c2a-d580-d0e5-a861",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b3ce-3b37-1e52-1d84",
+      "name": "Kaptin"
+    }
+  ]
+}

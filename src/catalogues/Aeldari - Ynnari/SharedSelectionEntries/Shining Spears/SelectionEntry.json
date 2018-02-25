@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Shining Spears",
+    "prevIdentifier": "Warp Spiders"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "e2d1-34de-36df-698c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "0111-9108-c0e7-0d07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "39ce-022d-541a-4e89",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "9892-fef4-c187-7dc1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "48b4-1cdd-a9f8-3308",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "1275-6e9c-8269-c4d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "7e09-558c-d125-ddb2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a0e6-8e8a-b08e-d4a5",
+          "id": "27bd-c87b-e84c-b3bb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "08da-47e9-744b-f7d4",
+          "id": "8291-8c6e-bea5-18ae",
+          "name": ""
+        }
+      ],
+      "id": "3688-405f-fab9-af1c",
+      "name": "Shining Spears",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "0a9b-8c50-da8a-1914",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "b669-1b79-5916-fac8",
+              "type": 1,
+              "field": "selections",
+              "scope": "3688-405f-fab9-af1c",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "b669-1b79-5916-fac8",
+              "type": 1,
+              "field": "selections",
+              "scope": "3688-405f-fab9-af1c",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

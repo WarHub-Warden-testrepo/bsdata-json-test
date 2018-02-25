@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Armament",
+    "prevIdentifier": "Force Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d774-5daa-3441-3d65",
+      "constraints": [
+        {
+          "id": "320e-9a76-1384-b68f",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "fc7b-0e35-a342-3d94",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fcf1-8800-eca5-7320",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "fac6-fe95-a6ab-db4b",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "8e70-7be4-fa4e-0e7f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a499-4ff0-5fa4-8544",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "d774-5daa-3441-3d65",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6c59-565c-4c4f-b6f5",
+      "name": "Armament"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Hellforged Artefacts (Nurgle)",
+    "prevIdentifier": "Hellforged Artefacts (Tzeentch)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5a11-0a42-6e15-2d7b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "247d-5fd9-2604-4f39",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7325-0156-f4b4-456e",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "cbf0-f2b6-3ab2-ba0e",
+          "id": "7177-4eb4-219d-4668",
+          "name": "Corruption"
+        }
+      ],
+      "id": "f26d-0c7a-bb26-001e",
+      "name": "Hellforged Artefacts (Nurgle)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "825e-be67-d23e-3e72",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "9a8e-6f0d-36d2-7b97",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "247d-5fd9-2604-4f39",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "247d-5fd9-2604-4f39",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "825e-be67-d23e-3e72",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "247d-5fd9-2604-4f39",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "9a8e-6f0d-36d2-7b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

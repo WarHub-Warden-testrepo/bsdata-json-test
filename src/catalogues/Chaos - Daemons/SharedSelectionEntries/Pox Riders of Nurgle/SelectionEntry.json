@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Pox Riders of Nurgle",
+    "prevIdentifier": "Plague Toads of Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "c43e-7bb4-b604-1393",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "0a81-ad3f-3ca4-c9b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "cd47-c360-83d6-2179",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "d8df-9ae7-a6b6-dd41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "76b5-681b-3ea6-65ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "5409-09e6-23ce-7c8f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1bcb-ab63-2d0a-fb4f",
+      "name": "Pox Riders of Nurgle",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "69cf-f76c-7e7b-0600",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "9e68-4aa2-ba28-3549",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "83da-a20c-4c6b-cb06",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "1bcb-ab63-2d0a-fb4f",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "1bcb-ab63-2d0a-fb4f",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

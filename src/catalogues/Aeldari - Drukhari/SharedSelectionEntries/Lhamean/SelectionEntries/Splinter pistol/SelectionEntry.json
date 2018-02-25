@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Splinter pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "871c-9bfe-0131-a88d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "06dc-d8d4-3b60-d8ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "92cc-e8f1-e5e0-74f3",
+      "name": "Splinter pistol",
+      "infoLinks": [
+        {
+          "targetId": "e2ab-9db5-6aa2-51df",
+          "id": "8cd1-7272-698b-fb43",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

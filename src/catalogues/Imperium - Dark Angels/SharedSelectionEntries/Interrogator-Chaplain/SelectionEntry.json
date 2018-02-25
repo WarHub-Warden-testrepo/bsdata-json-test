@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "identifier": "Interrogator-Chaplain",
+    "prevIdentifier": "Raven Sword"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "35c8-df69-19d8-0c85",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7ef1-1e4a-991f-e7b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "6862-adf8-e5e2-4b34",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9683-49ab-ccf6-e523",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3a4a-f508-9466-4bd6",
+          "id": "0122-dee0-e176-fc9f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2a20-6cfa-e579-f0ca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8773-b239-22e9-bc81",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6049-dfd9-521f-335a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "ce8a-19a7-5c24-73fe",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "7859-7985-6b30-8bfc",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a59c-9edc-01eb-d8c6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d970-b04e-7fca-2945",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8cb9-37a9-cdd2-dc78",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "ad5d-4927-c6e9-3fc4",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "524b-bbf1-505f-8b50",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b522-207b-e408-8948",
+      "name": "Interrogator-Chaplain",
+      "infoLinks": [
+        {
+          "targetId": "9287-78a9-f594-c601",
+          "id": "7d05-0359-e921-4a01",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3f26-e8cb-ea53-e656",
+          "id": "a9d3-313f-6465-fbe5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b355-bd49-c5a5-805f",
+          "id": "ea49-519c-f8d8-5d19",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "d263-5f7e-7634-5585",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e711-c48f-713a-270a",
+          "id": "7e84-097c-659e-b5dc",
+          "name": "Aura of Dread"
+        }
+      ]
+    }
+  ]
+}

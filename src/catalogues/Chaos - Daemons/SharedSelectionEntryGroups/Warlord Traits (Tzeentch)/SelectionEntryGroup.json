@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Tzeentch)",
+    "prevIdentifier": "Warlord Traits (Khorne)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "9314-6645-21cf-4716",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "097e-8888-7d94-5397",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "16bf-3951-d165-23cc",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "9f49-1282-a871-d732",
+      "name": "Warlord Traits (Tzeentch)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Traits"
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

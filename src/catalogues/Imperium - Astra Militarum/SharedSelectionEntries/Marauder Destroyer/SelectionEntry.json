@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "identifier": "Marauder Destroyer",
+    "prevIdentifier": "Marauder Bomber"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 146.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6f8d-582d-9e5c-0508",
+          "id": "7cd4-9220-b6d2-a960",
+          "name": "Stat Damage (Marauder)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "51f7-9589-4fef-8b5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "bef3-43cd-a36c-4270",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afe0-3771-1982-92b4",
+          "id": "6f9e-fad9-1005-17b9",
+          "name": "Twin autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a9c-ba49-4802-b1a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f287-e0cb-04b9-11a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "b94f-995a-275e-7476",
+          "name": "Twin assault cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "44"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1fe3-2f30-d03e-d385",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "57e8-9399-06da-9153",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "7ad7-3116-2ef8-c98f",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        }
+      ],
+      "id": "40e8-3511-dfe2-53a4",
+      "name": "Marauder Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "b425-bf74-c138-5a0e",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "e666-852b-d64e-daa6",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "a144-7de9-b971-8882",
+          "name": "Hard to Hit"
+        }
+      ]
+    }
+  ]
+}

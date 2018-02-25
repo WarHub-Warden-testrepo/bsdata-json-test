@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Craftworld Attribute",
+    "prevIdentifier": "Plasma Grenades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "1d71-4b03-7153-f80d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "4c3a-dcc5-ca6c-5e7c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "6119-6901-710e-3dff",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "4ac1-9064-9148-b739",
+          "id": "683e-86d2-048d-4922",
+          "name": "Craftworld Attributes"
+        }
+      ],
+      "id": "d671-b181-714f-3831",
+      "name": "Craftworld Attribute",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

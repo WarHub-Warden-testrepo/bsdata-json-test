@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Chainsword and bolt pistol",
+    "prevIdentifier": "Berserker w/ plasma pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6c67-6dc0-93ba-1572",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "18c2-b0fa-9265-42c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7c88-fd81-ebe1-1821",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "60ad-b3ed-bfc9-1f1e",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7a2f-bd72-0fc1-8f4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "996b-f895-c473-23f6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "e972-592d-b633-f2c0",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9042-c38f-fdce-ac7b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "44c5-2662-9ab4-6aa2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "92cc-4df5-a57f-1516",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "c100-3391-888a-e55a",
+      "name": "Chainsword and bolt pistol"
+    }
+  ]
+}

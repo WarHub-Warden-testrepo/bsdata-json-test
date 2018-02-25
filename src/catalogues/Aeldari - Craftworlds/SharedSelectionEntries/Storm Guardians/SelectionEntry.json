@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Storm Guardians",
+    "prevIdentifier": "Guardian Defenders"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "5784-5719-359a-3dcf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "57b6-a2ce-7b43-1242",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "401e-6cc8-faf9-df57",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6c06-d3b5-ce59-db4c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c767-c3b1-2157-1371",
+          "id": "47d1-0f18-80bb-8959",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "098b-f596-3814-be1d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "e277-78ef-2590-9326",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "05b8-3755-7efa-00e3",
+      "name": "Storm Guardians",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "d0cd-dc8f-97c0-8510",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "16f3-c830-949b-e4b0",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "9ac0-5008-67f5-7acd",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "05b8-3755-7efa-00e3",
+                  "value": 8.0,
+                  "shared": true
+                },
+                {
+                  "childId": "9ac0-5008-67f5-7acd",
+                  "field": "selections",
+                  "scope": "05b8-3755-7efa-00e3",
+                  "value": 17.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "9ac0-5008-67f5-7acd",
+              "type": 1,
+              "field": "selections",
+              "scope": "05b8-3755-7efa-00e3",
+              "value": 16.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

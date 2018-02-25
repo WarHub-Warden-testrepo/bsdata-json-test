@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "identifier": "Cadre Fireblade",
+    "prevIdentifier": "Tidewall Shieldline"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 39.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "22f8-2c20-0538-ecbd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ab93-db29-eec2-e3a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ee68-7f48-2fcb-c8b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f343-4d64-c00b-a38a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "f61e-11d1-a938-d152",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "269c-cf7d-7850-4a15",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "76e0-7c74-7093-feff",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b137-5a29-f03a-ad3e",
+          "id": "c618-92b5-0bef-a428",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e4f8-2be3-3cf4-212e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "df49-b37b-22ee-b6da",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca6b-6ce9-0f0f-8c1b",
+          "id": "31db-81e5-9137-aa31",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f2a2-ecd1-9208-6723",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db88-33cb-8edd-8d93",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "864f-fa80-ef4d-df78",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d667-bc4a-4ac6-35bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "dd7e-cf85-27f9-35bd",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "dca2-9ff4-acd7-b523",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2300-eb83-d72e-e183",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "9aa7-098e-c65f-5f18",
+          "id": "701b-6112-3674-b04f",
+          "name": "Puretide Engram Neurochip"
+        }
+      ],
+      "id": "fc98-45a1-95bf-d267",
+      "name": "Cadre Fireblade",
+      "infoLinks": [
+        {
+          "targetId": "0ef2-2668-6edb-95a1",
+          "id": "b937-2d12-bb8d-beba",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "0120-74be-9a14-2602",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "50e6-fdbf-c3b7-5892",
+          "id": "2bd3-bd6b-d73e-2998",
+          "name": "Volley Fire"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "dd7e-cf85-27f9-35bd",
+              "type": 4,
+              "field": "selections",
+              "scope": "fc98-45a1-95bf-d267",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

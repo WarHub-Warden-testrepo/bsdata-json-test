@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Heavy Laser Destroyer Array"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b172-e167-6820-c191",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8874-7878-00a5-d005",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6977-1883-ecf8-3696",
+      "name": "Heavy Laser Destroyer Array"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "76cc-f24f-0a25-384e",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "1344-69cb-7cbc-4044",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d53b-80c8-ca72-8523",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "99c2-5d36-15a6-7629",
+          "id": "9da8-bd1d-7ae1-c57b",
+          "name": "Terminator Combi-Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a00-8f0b-d143-20ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "40ef-3d9f-09b7-ff86",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a21e-c23f-14b7-e4c7",
+      "name": "Armament"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Artemia Pattern Hellhound"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 73.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9c77-3bba-fbfb-742e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "0145-44ab-f9a4-22af",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "35c3-52e7-1ac4-04f2",
+          "id": "8b7b-2052-6405-9829",
+          "name": "Hellhound Hull Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "49a1-71ad-2e0c-2f0e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c4a6-d639-3e99-a205",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "89ad-4f0d-5a88-6610",
+          "name": "Stat Damage (HS)"
+        }
+      ],
+      "id": "bad2-a8b3-a7b1-c745",
+      "name": "Artemia Pattern Hellhound",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "bd48e6cb-2610-1525-abcc-200af38774a2",
+          "id": "b616-24c4-a933-a5e3",
+          "name": "Hellhound"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "aae6-6ffb-2cc5-cdbd",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "492d-12d7-2a71-c3b7",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

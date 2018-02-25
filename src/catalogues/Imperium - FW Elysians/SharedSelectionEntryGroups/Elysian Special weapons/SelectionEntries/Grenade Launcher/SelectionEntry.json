@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7da1-5988-b2d5-9c2b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d77b-8f24-90fc-d194",
+      "name": "Grenade Launcher"
+    }
+  ]
+}

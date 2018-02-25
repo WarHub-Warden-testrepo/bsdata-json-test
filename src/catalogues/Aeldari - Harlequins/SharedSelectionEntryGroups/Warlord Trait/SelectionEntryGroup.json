@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait",
+    "prevIdentifier": "Phantasmancy"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8785-7ef7-a22b-3e76",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2fee-ec06-8ff3-9386",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "cc41-36e9-4b4a-c906",
+          "name": "Warlord Traits (CA)"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "3f74-e10f-491b-0efd",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "targetId": "8ffa-cedb-4c0c-1b81",
+          "id": "25f2-03a2-67c1-67e1",
+          "name": "Luck of the Laughing God",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "2cb2-ebf2-3523-ad48",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "305c-7184-81fb-2bd3",
+      "name": "Warlord Trait",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

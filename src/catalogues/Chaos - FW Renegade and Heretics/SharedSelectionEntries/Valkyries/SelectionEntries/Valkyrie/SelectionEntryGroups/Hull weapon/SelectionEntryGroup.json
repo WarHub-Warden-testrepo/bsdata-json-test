@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Hull weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b06f-b8c3-4233-e7e9",
+      "constraints": [
+        {
+          "id": "1b93-a566-60af-cef5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "25fc-859c-26fc-89d7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7172-c495-0e7b-a724",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "7e6f-1e27-38cd-2bc8",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "id": "07b9-9991-d17f-fd15",
+      "name": "Hull weapon"
+    }
+  ]
+}

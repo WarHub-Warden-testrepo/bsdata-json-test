@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Pack Leader",
+    "prevIdentifier": "Wolf Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c163-cdf4-8197-0a95",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5163-a59d-fcf9-9d83",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "76b2-6a31-6c49-574e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0f0f-bb8a-2ac5-330e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a3ff-93b6-ecb8-2f45",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8d84-4cd0-daf1-5a83",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "7378-887c-df8c-c769",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "0f87-2443-9f57-eea5",
+      "name": "Wolf Guard Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "512b-f378-79d2-141a",
+          "id": "e3da-eb93-cf32-a177",
+          "name": "Wolf Guard",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "13fc-b29b-31f2-ab9f",
+              "value": "1"
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": " Pack Leader"
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "19",
+          "conditions": [
+            {
+              "childId": "e96a-c219-d078-5e15",
+              "type": 4,
+              "field": "selections",
+              "scope": "ad37-e26a-6cab-8c1b",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

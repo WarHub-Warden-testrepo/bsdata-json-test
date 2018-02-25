@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "identifier": "Commander in XV84 Crisis battlesuit",
+    "prevIdentifier": "DX-4 Technical Drones"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b841-5742-74ab-79bf",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "f90e-2a37-d962-f8f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "4117-5b1f-1e49-145e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "846d-b6e2-347b-e423",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "924c-ea00-dc44-f1f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "b1c2-e1b8-0953-361d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7a3b-0177-1e69-f62a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "d3d3-b745-4825-d5f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "257e-82d7-82b7-4434",
+          "id": "1367-4e15-7018-0647",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606",
+          "id": "e3c0-2a10-4b71-539f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "557c-d3e8-7f49-31dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "a617-ce21-3486-705d",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "249a-dd2c-490c-6227",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "68c1-f411-03c4-400c",
+          "id": "44b9-4f6e-8323-f0c3",
+          "name": "Target lock"
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "ca53-daa0-3dbf-e8ac",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "148b-14d5-2d85-464d",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "9aa7-098e-c65f-5f18",
+          "id": "6f02-38ec-343f-6fe9",
+          "name": "Puretide Engram Neurochip"
+        }
+      ],
+      "id": "dc1b-1e31-f839-1622",
+      "name": "Commander in XV84 Crisis battlesuit",
+      "book": "IAI: Xenos",
+      "page": "43",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "45cd-1fa6-9962-6f33",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "02f2-adda-f001-b312",
+          "id": "1b93-3596-f9f6-96fa",
+          "name": "Master of War"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "a8ab-e21e-2b63-11ae",
+          "name": "Manta Strike"
+        },
+        {
+          "targetId": "8379-1442-7e74-1721",
+          "id": "c738-e62c-7b7b-7cf6",
+          "name": "Commander in XV84 Crisis battlesuit"
+        },
+        {
+          "targetId": "e7a7-ae9f-41eb-6246",
+          "id": "fa3f-9aaf-f818-e03b",
+          "name": "Networked Markerlight"
+        },
+        {
+          "type": 1,
+          "targetId": "df2f-c364-5cf6-d067",
+          "id": "34ba-7a05-0dbf-5dfc",
+          "name": "Markerlights"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a617-ce21-3486-705d",
+              "type": 4,
+              "field": "selections",
+              "scope": "dc1b-1e31-f839-1622",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

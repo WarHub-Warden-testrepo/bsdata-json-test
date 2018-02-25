@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Imperial Space Marine",
+    "prevIdentifier": "Intercessor Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "10e7-24ab-4a0d-4492",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9145-09f4-fe01-5925",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8ee1-1492-a4a1-cba7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "950e-d8f4-e019-ed79",
+          "id": "7414-055e-a9bb-2daa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "97bf-499f-b46d-c6dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "363c-954d-8a8a-9e23",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fb46-346b-7ac1-2586",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "53c8-7a11-e8ed-6133",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dc17-09cb-c84b-e837",
+          "id": "7f25-5320-b722-b653",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "86f4-9384-ae11-10f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c464-b7e3-8477-b2ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9728-3bce-75d9-803a",
+          "id": "b4ef-9770-e5e5-983d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1c16-dee0-7977-36f0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e215-4e1c-ca32-3381",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "896c-ef39-5c57-67f5",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "fde4-48fe-5b25-d8c3",
+      "name": "Imperial Space Marine",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "dd11-e640-eec3-26b4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

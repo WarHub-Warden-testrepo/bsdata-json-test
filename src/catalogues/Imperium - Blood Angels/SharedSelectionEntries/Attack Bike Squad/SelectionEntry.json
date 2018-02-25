@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Attack Bike Squad",
+    "prevIdentifier": "Jump Pack"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "aab4-b529-6c51-2b32",
+          "id": "381a-d7f1-dddb-3556",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "82ab-32de-e609-90c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "6f5f-5275-4902-c0f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "6043-e971-325a-d647",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "08df-972a-92c1-0b41",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "653c-140a-9f91-050b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "33a6-19ae-5e0c-d90c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c441-20fb-478f-23b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f4b4-0d1e-24b8-6b6b",
+          "id": "5a2e-02b4-cd7d-a947",
+          "name": "Attack Bike"
+        }
+      ],
+      "id": "1c3e-eb6f-1e80-d1bf",
+      "name": "Attack Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5df6-2b25-19c9-5d17",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "92b7-fdc2-cdd2-9217",
+          "id": "2739-0c9f-9d37-2f02",
+          "name": "Turbo-boost"
+        }
+      ]
+    }
+  ]
+}

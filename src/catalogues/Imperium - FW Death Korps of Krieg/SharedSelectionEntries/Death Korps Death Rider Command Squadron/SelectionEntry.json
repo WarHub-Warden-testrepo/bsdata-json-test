@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Death Korps Death Rider Command Squadron",
+    "prevIdentifier": "Death Korps Quartermaster Cadre"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "f36d-f90d-f994-deda",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "c70d-66d5-6ced-c4bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8901-2590-d291-a3ef",
+          "id": "74c4-de55-ab8d-0061",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8d68-8b92-20e2-f703",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "432a-0e7b-ca87-5a8f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "94c7-81b8-eaf7-02a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b0f4-ed88-c062-a821",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "82c9-1a89-3605-6bc3",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "d743-391b-bc0e-cc77",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "004d-cec4-23b9-8c2a",
+      "name": "Death Korps Death Rider Command Squadron",
+      "infoLinks": [
+        {
+          "targetId": "9a6d-4b71-af76-d004",
+          "id": "d6ea-d55f-fdab-0482",
+          "name": "Augmented Mount"
+        },
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "86b5-51e8-7126-6b9a",
+          "name": "The Cult of Sacrifice"
+        },
+        {
+          "targetId": "23c0-ed20-f49f-7bcf",
+          "id": "8501-c2f6-b42a-8a1a",
+          "name": "Warstrider"
+        },
+        {
+          "targetId": "5f8c-2a78-a020-84b6",
+          "id": "21ff-8d29-dbcd-a0fc",
+          "name": "Flanking Manoeuvres"
+        }
+      ]
+    }
+  ]
+}

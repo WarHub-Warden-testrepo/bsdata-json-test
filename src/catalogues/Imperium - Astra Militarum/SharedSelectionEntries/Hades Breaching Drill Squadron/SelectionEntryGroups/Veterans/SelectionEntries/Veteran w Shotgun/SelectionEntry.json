@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c81f-3534-bf64-7d2f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4ce5-69b5-010f-8f0c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a1fe-7de9-9c6a-f1dc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fb72-af07-b892-6208",
+          "id": "b234-68f5-7dfd-1469",
+          "name": "Shotgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3771-0d82-cb8c-7052",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "141f-695e-294a-a46e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5de8-906d-ea69-610a",
+          "id": "127d-20bf-0a9e-6928",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "e6d1-ee1a-95ab-6cda",
+      "name": "Veteran w/ Shotgun"
+    }
+  ]
+}

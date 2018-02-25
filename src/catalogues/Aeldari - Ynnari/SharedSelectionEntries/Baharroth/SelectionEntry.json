@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Baharroth",
+    "prevIdentifier": "Fuegan"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f729-66ae-51a4-b62b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "070d-4311-9da7-9ff0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "ebfd-b95f-a31b-0fa1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "3721-7ed6-9325-c707",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c91-b408-59c9-20cf",
+          "id": "92c6-9844-d404-d3aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c071-931e-e3c7-348b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "06de-effe-ad89-c60c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "4a56-d3a1-31db-43c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5c7e-075f-48a6-e704",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "fffe-d845-cc97-95bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "cf3b-9c42-0494-393c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "204b-beb4-b3c0-0f01",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "860e-c9de-bf2f-854a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f8a-78d1-2c40-f782",
+          "id": "9f86-de4a-bf4c-fcc5",
+          "name": "Hawk's Talon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "28f6-8494-b3e0-f1f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6bdd-d1ca-e051-fff3",
+          "name": "Warlord"
+        }
+      ],
+      "id": "2ad5-1873-d22c-c6e7",
+      "name": "Baharroth",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "1a84-14da-572d-620e",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

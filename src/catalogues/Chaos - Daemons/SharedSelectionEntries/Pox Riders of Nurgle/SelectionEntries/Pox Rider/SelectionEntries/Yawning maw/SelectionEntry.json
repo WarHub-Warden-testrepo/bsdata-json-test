@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Yawning maw",
+    "prevIdentifier": "Grasping tongue"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "a3e1-35fc-934b-668b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ebc8-26bf-4d61-92ee",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a476-4181-69f3-c13a",
+      "name": "Yawning maw"
+    }
+  ]
+}

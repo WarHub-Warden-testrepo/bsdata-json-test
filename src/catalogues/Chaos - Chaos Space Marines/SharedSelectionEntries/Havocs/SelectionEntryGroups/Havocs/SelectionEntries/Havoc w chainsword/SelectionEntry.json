@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Havoc w/ chainsword",
+    "prevIdentifier": "Havoc w/ boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b3af-f748-b619-11ab",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ff30-2c12-40f3-b45c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b366-ebb0-30b4-b36e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "cd4c-96b9-8ee6-d576",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d5c4-db19-b20c-7e5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "19a4-bc0b-9e15-3599",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "90bb-579c-2131-8346",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "289c-1438-b66b-984e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "634c-67c1-d128-114f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "daec-a317-151a-e831",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "1765-4976-d2e2-961e",
+      "name": "Havoc w/ chainsword"
+    }
+  ]
+}

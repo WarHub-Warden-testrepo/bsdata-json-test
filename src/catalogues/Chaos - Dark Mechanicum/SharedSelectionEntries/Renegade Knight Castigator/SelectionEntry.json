@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Renegade Knight Castigator",
+    "prevIdentifier": "Renegade Knight Lancer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 25.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "c6a9-1e94-7e13-22c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1ba2-7a6d-1528-0377",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "7d8d-0c0a-842c-6c53",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "bdbc-7b6f-e525-b392",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9961-3cf9-80ea-065c",
+          "id": "a6b1-18b4-c260-093a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ea87-9a79-c2ae-2dd1",
+          "id": "55f0-c34c-3485-5945",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bbdd-813f-94cd-7d24",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "66ab-dedf-2f5d-e01e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0868-897b-b283-300f",
+          "id": "df2a-3f9d-a7d0-7a56",
+          "name": "Castigator bolt cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "165e-6f7a-e529-fcad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9e2e-eb90-80d6-a49e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e322-2ffa-27e7-c6d4",
+          "id": "def6-e709-44a5-5eb1",
+          "name": "Tempest warblade"
+        },
+        {
+          "targetId": "3542-3016-1558-ae32",
+          "id": "bcda-44e4-e58f-0d9d",
+          "name": "Titanic feet"
+        }
+      ],
+      "id": "7298-33a5-8120-0221",
+      "name": "Renegade Knight Castigator",
+      "infoLinks": [
+        {
+          "targetId": "aacf-4749-0487-6949",
+          "id": "35ae-cf6f-5967-d04f",
+          "name": "Infernal Autosimulacra"
+        },
+        {
+          "targetId": "90be-819c-d4e7-d65a",
+          "id": "2a58-89a4-419c-0135",
+          "name": "Infernal Knight Titan"
+        },
+        {
+          "targetId": "977d-25bc-3918-a164",
+          "id": "46cf-0106-c1ad-235f",
+          "name": "Ion shield"
+        },
+        {
+          "targetId": "515b-18d5-06ec-62d7",
+          "id": "7f42-40f1-8fc3-17c6",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "46a6-02b3-66cb-71f7",
+          "id": "d333-935c-5c55-7d05",
+          "name": "Explodes (Knight)"
+        }
+      ]
+    }
+  ]
+}

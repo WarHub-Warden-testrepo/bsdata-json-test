@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Missile Launcher",
+    "prevIdentifier": "Twin Autocannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4504-c215-67d9-cbc5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0a28-43ee-597e-95e8",
+      "name": "Missile Launcher",
+      "infoLinks": [
+        {
+          "targetId": "603d-3e82-38f6-c5c3",
+          "id": "1617-c174-489f-7f08",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8161-3b0e-8048-0e83",
+          "id": "8932-04d1-03e5-0649",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

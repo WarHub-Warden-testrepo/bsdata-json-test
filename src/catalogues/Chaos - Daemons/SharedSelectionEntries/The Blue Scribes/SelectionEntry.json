@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "identifier": "The Blue Scribes",
+    "prevIdentifier": "The Changeling"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 86.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6e3f-5c95-905c-1f95",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "332a-732d-e108-f48b"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "1df1-e6fb-42cb-ebf7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "47a8-1fd6-2fae-ba87",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "5298-4821-4ab1-6bec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4407-2aa1-2a62-c1dc",
+          "id": "ef8f-af58-7858-4f8f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "95b2-b098-6af1-3d02",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "928b-9278-d1e2-1744",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "fb72-e34a-1f5f-8af6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7fba-e978-7f40-cdfa",
+          "id": "bb05-da00-593b-2592",
+          "name": "Disc of Tzeentch"
+        },
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "ad27-f8e2-dcfd-cfa1",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e3c6-21c6-1467-5b7c",
+      "name": "The Blue Scribes",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "da1c-9e81-e6a4-7113",
+          "name": "Ephemeral Form"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "ef86-cf0d-b6a6-5254",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "3937-82c4-935a-3265",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "52d1-0eca-e10c-eb6b",
+          "id": "870e-612d-82b1-f548",
+          "name": "Daemonspark",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e3c6-21c6-1467-5b7c",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

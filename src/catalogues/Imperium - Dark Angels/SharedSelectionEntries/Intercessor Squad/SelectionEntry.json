@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Intercessor Squad",
+    "prevIdentifier": "Scout Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e24f-6e96-8c3c-139c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eaed-3964-68ad-28c0",
+          "id": "34b1-28b8-c354-6a91",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "83a5-246b-09dd-6049",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2b23-ae61-5341-c63a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5f81-6f39-b049-f8c7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f608-a1a2-c729-4ef5",
+          "id": "08c7-1a32-cfd7-7080",
+          "name": "Auxiliary Grenade Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "5f81-6f39-b049-f8c7",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "62c4-e8fb-99d3-dd5e",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e89e-4431-97de-4b38",
+                  "value": 9.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e89e-4431-97de-4b38",
+      "name": "Intercessor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c130-4f91-6010-0c70",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "179c-4534-0b9c-eaf5",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "62c4-e8fb-99d3-dd5e",
+              "type": 4,
+              "field": "selections",
+              "scope": "e89e-4431-97de-4b38",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

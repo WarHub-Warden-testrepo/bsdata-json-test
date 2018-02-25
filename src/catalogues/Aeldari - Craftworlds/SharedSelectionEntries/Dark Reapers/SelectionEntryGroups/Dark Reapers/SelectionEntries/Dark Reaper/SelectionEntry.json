@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Dark Reaper"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a1c7-d405-3ea0-6adc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c3d2-5088-14c3-7b2f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d037-4a58-f31d-72e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5208-ff5e-55ff-4dea",
+          "id": "d849-b573-7171-dad9",
+          "name": ""
+        }
+      ],
+      "id": "a60c-a5ec-cf5b-0930",
+      "name": "Dark Reaper"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "9d52-475a-6312-33fc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "4964-0419-9b96-83e2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6836-0977-492b-0b1b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "ae12-57c1-6915-a8c5",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d647-6d47-155b-2c80",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "f136-168f-f04e-6401",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "91d3-a10a-ae14-b8c2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "dcfc-46b0-baa1-2b41",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "91d3-a10a-ae14-b8c2",
+              "value": "1",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditionGroups": [
+                    {
+                      "conditions": [
+                        {
+                          "childId": "aecb-575e-3237-a546",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "7c16-1429-b6d5-e6f1",
+                          "value": 2.0,
+                          "shared": true,
+                          "includeChildSelections": true,
+                          "includeChildForces": true
+                        },
+                        {
+                          "childId": "6300-c955-2591-f6e1",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "7c16-1429-b6d5-e6f1",
+                          "value": 10.0,
+                          "shared": true,
+                          "includeChildSelections": true,
+                          "includeChildForces": true
+                        }
+                      ]
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "childId": "aecb-575e-3237-a546",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "7c16-1429-b6d5-e6f1",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true,
+                          "includeChildForces": true
+                        },
+                        {
+                          "childId": "6300-c955-2591-f6e1",
+                          "field": "selections",
+                          "scope": "7c16-1429-b6d5-e6f1",
+                          "value": 10.0,
+                          "shared": true,
+                          "includeChildSelections": true,
+                          "includeChildForces": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "58d6-a857-549d-e930",
+      "name": "Weapon Options",
+      "modifiers": [
+        {
+          "field": "4964-0419-9b96-83e2",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "dcfc-46b0-baa1-2b41",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "9d52-475a-6312-33fc",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "dcfc-46b0-baa1-2b41",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

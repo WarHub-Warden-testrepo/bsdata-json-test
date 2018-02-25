@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Bunker Annex",
+    "prevIdentifier": "Tacticus Bunker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "69c1-d4d4-9836-c512",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "06c5-4320-4083-4d8a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "5e98-fb23-739b-4b91",
+      "name": "Bunker Annex",
+      "infoLinks": [
+        {
+          "targetId": "5c20-bbbd-23da-3602",
+          "id": "7d71-e8d7-70da-3537",
+          "name": "Bunker Annex"
+        },
+        {
+          "targetId": "02a4-6392-7114-50dd",
+          "id": "2294-2e9a-2259-9d93",
+          "name": "Immobile (Tarantulas)"
+        },
+        {
+          "targetId": "182f-2f9e-1857-00fc",
+          "id": "0b33-e0f6-b34b-9c4e",
+          "name": "Automated Weapons"
+        }
+      ]
+    }
+  ]
+}

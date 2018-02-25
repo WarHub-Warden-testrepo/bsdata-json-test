@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Rough Rider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "69a2-8347-2f51-8ad5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "32df-bd55-0bad-6f99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9c74-d181-d2ec-0ba6",
+          "id": "34a1-7d7e-8f01-ddad",
+          "name": "Laspistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9142-669b-87b5-2166",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bc19-3191-5255-338c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c725-c607-962e-eac3",
+          "id": "777b-262d-cf85-5e29",
+          "name": "Hunting Lance"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1695-d88e-aa7c-d9aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d116-b961-eb27-30a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de76-80c5-81db-c463",
+          "id": "ed10-d034-6701-0d55",
+          "name": "Chainsword"
+        },
+        {
+          "targetId": "ea30-2a64-825b-2826",
+          "id": "90c6-322c-7e4d-6c49",
+          "name": "Purebred Steed"
+        }
+      ],
+      "id": "ef82709c-ce25-5fbc-c3a2-3931b89eeaae",
+      "name": "Rough Rider",
+      "page": "0"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Master of Command",
+    "prevIdentifier": "Bellowing Voice"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1620-54c4-43cf-50f3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9c68-ff64-485e-e529",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c88e-8828-206c-8e39",
+      "name": "Master of Command"
+    }
+  ]
+}

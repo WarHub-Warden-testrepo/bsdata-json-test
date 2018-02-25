@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Hellblasters"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a7d3-b00a-7ac7-dbe2",
+      "constraints": [
+        {
+          "id": "b9f5-681c-4fea-5167",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "74ce-9eef-e3c4-aa89",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1264-1af5-8ab4-0afa",
+          "id": "a7d3-b00a-7ac7-dbe2",
+          "name": "Plasma incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "15",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "ac7e-23cf-be74-f957",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "75d3-50e0-5890-12b7",
+          "id": "a3df-7f89-b88d-a149",
+          "name": "Assault Plasma Incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "ac7e-23cf-be74-f957",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "5187-f03d-e5a4-3818",
+          "id": "1bf4-b929-2a99-32ea",
+          "name": "Heavy Plasma Incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "ac7e-23cf-be74-f957",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3381-9e37-c47e-4127",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Heavy bolt pistol arm",
+    "prevIdentifier": "Bolt carbine arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0969-4beb-4ab7-260f",
+      "constraints": [
+        {
+          "id": "d9eb-5d8d-3cb3-13af",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3183-392e-b9c4-5677",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5055-4143-6fde-8d3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6be3-c829-2ae0-79f6",
+          "id": "0969-4beb-4ab7-260f",
+          "name": "Heavy bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d71-3ebc-39f3-9d86",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c095-ca14-8b58-075b",
+              "type": 1,
+              "field": "selections",
+              "scope": "69ef-3c6f-c301-c874",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "bc0b-c19f-0b71-081e",
+          "id": "7d07-23c0-0946-7d13",
+          "name": "Combat knife"
+        }
+      ],
+      "id": "784a-c2bc-f8fb-3fe4",
+      "name": "Heavy bolt pistol arm"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "identifier": "Sorcerer with Jump Pack",
+    "prevIdentifier": "Sorcerer on Steed of Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 112.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "b8e7-a8fc-641d-e3c0"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "1146-002d-1b52-fd28",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "bdbd-7bd0-373f-d84c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "3145-996b-fdf8-9f10",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "42e8-0fca-d15a-db8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4f4d-2c2e-3d1b-6c7f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "6d08-3df7-41ed-cac1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "d0ee-4c2f-22d4-487b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "bb03-f8de-7527-d812",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d66b-a1c1-9b54-048b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b096-aea9-7408-d16d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d983-4af4-8f95-a1e6",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "4cb8-8df7-86e7-3399",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0200-dc09-4ba4-027e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8238-92c7-ebc3-b8ae",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "e691-aad7-d21c-1023",
+              "id": "bd2b-05a6-a740-74d7",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "6909-396c-9b18-f102",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1a67-d760-13a4-07e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "2fdd-a246-3db7-cccd",
+          "name": "Dark Hereticus discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "5876-fcc5-8283-1aca",
+          "id": "e717-e9c5-f2a9-4bbd",
+          "name": "Artefacts of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7c12-d6a1-5cb4-02b8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "dc64-fb3d-4683-f743",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "b34c-6c4b-d22c-25b5",
+          "id": "24ec-d05f-9b10-04f3",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "35e1-54d6-7565-dd03",
+      "name": "Sorcerer with Jump Pack",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "b394-4dae-b58d-112c",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "f0c9-8eea-7208-9da6",
+          "id": "4640-2f98-77b8-0cfe",
+          "name": "Jump Pack Assault"
+        }
+      ]
+    }
+  ]
+}

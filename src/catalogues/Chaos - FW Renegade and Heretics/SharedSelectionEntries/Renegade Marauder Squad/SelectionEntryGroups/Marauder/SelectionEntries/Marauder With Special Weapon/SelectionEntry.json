@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Marauder With Special Weapon",
+    "prevIdentifier": "Marauder With Brutal assault weapon/Autopistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "02b2-bde1-4e1b-b10c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1d6a-a3c1-77fe-21f6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eb8b-1369-797c-12dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "4663-2769-a227-3b3c",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e889-8027-ba6d-6a65",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d334-c9c3-bbfc-8db6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a2ab-ad37-feee-243e",
+          "id": "d138-c321-7433-d2df",
+          "name": "Krak grenade"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e58e-f94b-21ac-5140",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "07ce-5667-2552-ed8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c90d-f7ed-0405-0281",
+          "id": "2b4b-b84a-8c15-1214",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "febc-b799-91f1-daef",
+      "name": "Marauder With Special Weapon"
+    }
+  ]
+}

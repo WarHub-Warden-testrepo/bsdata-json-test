@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Malcador)",
+    "prevIdentifier": "Stat Damage (Macharius)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9b05-95ec-61ad-f866",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7681-2bc8-f9de-29d6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "04a5-a568-2be0-740e",
+      "name": "Stat Damage (Malcador)"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ae40-8fb0-0c64-3363",
+      "constraints": [
+        {
+          "id": "91eb-94fb-e994-ffa9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "dbc3-f3a7-ecc7-8188",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "eaa2-923d-94de-e48a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "ae40-8fb0-0c64-3363",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0f62-f538-428d-212b",
+              "type": 1,
+              "field": "selections",
+              "scope": "3a87-be52-f814-2950",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "e494-d18a-2230-3c82",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "ff72-e615-584d-1393",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "0f62-f538-428d-212b",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3a87-be52-f814-2950",
+                  "value": 10.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "90de-7b01-e401-888b",
+          "id": "4530-f461-1d39-7f5d",
+          "name": "Lightning Claw"
+        }
+      ],
+      "id": "4886-113d-34c8-2671",
+      "name": "Weapon",
+      "modifiers": [
+        {
+          "field": "91eb-94fb-e994-ffa9",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "8d5f-fdf5-6bf4-33ef",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "dbc3-f3a7-ecc7-8188",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "8d5f-fdf5-6bf4-33ef",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

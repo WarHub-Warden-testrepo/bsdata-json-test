@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Marine w/ Blastmaster",
+    "prevIdentifier": "Marine w/ Sonic blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "31bd-16d7-db20-2705",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "218b-1b80-7b49-7873",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "14cf-6fc4-29f2-03f9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7d34-49d2-ae34-1cee",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2c00-f027-5208-9c9c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "56bb-4b35-bac7-a664",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "1de5-d288-b2c4-2b92",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "9d86-8fb4-061f-571c",
+      "name": "Marine w/ Blastmaster",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "31bd-16d7-db20-2705",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "b0d5-1a19-e2b9-d5bc",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

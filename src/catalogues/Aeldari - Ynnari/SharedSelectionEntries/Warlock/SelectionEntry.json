@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "identifier": "Warlock",
+    "prevIdentifier": "Warlock Conclave"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "40de-39ae-1168-c9f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "1522-ddf0-0947-74e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "a710-25df-676e-bd17",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ad0c-6a9c-4306-a9e0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7944-e61e-564d-30e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fec1-ef8a-d809-5286",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "e200-cda8-d466-77a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "fe61-21dd-44d7-83a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3422-62ae-2c7f-ad67",
+          "id": "c74b-cb58-e24a-03d1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afbb-a355-ff30-9cd6",
+          "id": "7858-696c-5e9e-c623",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "558f-f3bb-37ab-fcc5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7afd-781c-81a8-d22b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "8fd8-72d8-de2b-ffd6",
+          "name": ""
+        },
+        {
+          "targetId": "9867-5b0d-72a1-6b11",
+          "id": "485d-aa15-cc48-dca9",
+          "name": "Psyker"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f576-12b5-5ec1-9b2e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f1fd-22a6-9e98-10fc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "6dc4-de05-7f59-50ca",
+          "name": ""
+        },
+        {
+          "targetId": "3edd-ab08-9a5c-ef11",
+          "id": "7350-a788-6918-503a",
+          "name": "Smite (Destructor)"
+        },
+        {
+          "type": 1,
+          "targetId": "3b0b-35d5-d59d-d953",
+          "id": "8327-bee0-5917-0c81",
+          "name": "Witch Weapon Option"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dda2-4ade-d13f-fd83",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "4763-4784-ba76-78a1",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "1170-c58b-6604-29a2",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "1262-6fb1-b88d-e00e",
+      "name": "Warlock",
+      "infoLinks": [
+        {
+          "targetId": "1b0a-49d4-c8f5-a018",
+          "id": "9bec-3d40-71b2-1813",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "1df5-7774-3d7e-afde",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

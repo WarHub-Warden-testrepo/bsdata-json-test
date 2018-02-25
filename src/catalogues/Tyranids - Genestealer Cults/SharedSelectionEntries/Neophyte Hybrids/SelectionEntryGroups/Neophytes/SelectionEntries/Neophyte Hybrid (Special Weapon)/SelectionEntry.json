@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Neophyte Hybrid (Special Weapon)",
+    "prevIdentifier": "Neophyte Hybrid (Lasgun)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0821-0949-286e-6a3f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "69f7-ff54-8017-0acd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4248-3d5a-b91c-8a84",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "4086-c3ec-7190-5acb",
+          "name": "Autopistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fc72-4bc0-e2f9-66b9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a9ae-f931-2959-b929",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "30ee-c43c-cc09-5163",
+          "name": "Blasting Charges"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "54f6-ae3e-a9e6-1bbf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "043e-033f-c9bd-e4cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "87b1-40a9-6106-ca5e",
+          "id": "5349-a342-6453-b617",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "79cf-c170-aab9-425d",
+      "name": "Neophyte Hybrid (Special Weapon)"
+    }
+  ]
+}

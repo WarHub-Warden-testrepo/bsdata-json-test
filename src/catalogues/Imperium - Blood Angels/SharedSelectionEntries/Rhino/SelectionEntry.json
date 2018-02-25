@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Rhino",
+    "prevIdentifier": "Razorback"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "86e0-e383-48a3-5b73",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "bf30-2ee4-bf26-db35",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "13b0-e794-78ba-c930",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4158-b2ef-37e9-f5f5",
+          "id": "ee58-48eb-aec0-cc34",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "65f7-848b-9371-2454",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "599b-dbee-f916-0e6f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "70f8-10c4-169f-259e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5f67-b6b1-31c2-bc79",
+          "id": "4839-e306-306a-6529",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f600-a50a-0330-a280",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a245-4ef1-799f-53bb",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d9cb-9e16-c520-9093",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "bcd3-e84f-d6f3-078e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "5d7e-1036-8ad7-d34d",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "c663-01df-6c43-0ef1",
+      "name": "Rhino",
+      "infoLinks": [
+        {
+          "targetId": "6e55-5deb-c20c-ae39",
+          "id": "e26a-4d62-96f5-4d12",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2a3c-47da-0345-e784",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2bad-87b0-7710-b6d8",
+          "id": "cfef-0206-aed8-a348",
+          "name": "Self-repair"
+        }
+      ]
+    }
+  ]
+}

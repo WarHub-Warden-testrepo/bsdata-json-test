@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Flamers",
+    "prevIdentifier": "Pair of Brimstone Horrors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "1e70-69d6-03d7-4c3d"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "1d20-f431-9787-5cbd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "2a91-283c-df24-04b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "effc-3686-5e6d-1c32",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "b3b0-d943-8ea7-7eca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "94f2-7683-7ea3-85cd",
+          "id": "b1a8-5e93-7c8a-4505",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "ac2e-aae4-7be6-777e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "d290-d629-dd28-7a2f",
+      "name": "Flamers",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "eebe-edc7-b9e6-5b26",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "f936-cec0-4ed1-14a4",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "b969-6a14-7bc0-ba1b",
+          "name": "Ephemeral Form"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "d290-d629-dd28-7a2f",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "d290-d629-dd28-7a2f",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

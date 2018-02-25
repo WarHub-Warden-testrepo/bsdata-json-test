@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "efbc-e867-59d3-fb09",
+      "constraints": [
+        {
+          "id": "85b6-4180-461a-99f3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "28a3-04c2-16a2-a86c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "148a-db93-d32b-25d3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c6b0-3f26-775c-7232",
+          "id": "1d51-b0e7-499f-527c",
+          "name": "Encarmine axe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a2c8-3d5d-bb0d-7125",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "537e-2cf9-80d7-1f5d",
+          "id": "efbc-e867-59d3-fb09",
+          "name": "Encarmine sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ed80-6152-1743-e9dc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "63f7-8346-5e72-9ae9",
+          "name": "Power fist"
+        }
+      ],
+      "id": "073b-2351-d960-3bf6",
+      "name": "Melee weapon"
+    }
+  ]
+}

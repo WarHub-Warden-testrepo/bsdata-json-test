@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Grey Hunter w/Plasma Pistol",
+    "prevIdentifier": "Grey Hunter with Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0b4f-e7bc-1e20-e00e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c16b-f0df-37ec-1f32",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6230-3489-d0d9-7979",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d648-0789-8d19-f274",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b849-a363-acc9-7be3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5e55-61b0-5e55-4882",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "7418-7385-64b3-22da",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7ee2-88e7-1260-41b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8159-dc9e-b5b3-ba6d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "9aa9-852e-18c5-d129",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "7c36-446f-9b97-299a",
+      "name": "Grey Hunter w/Plasma Pistol",
+      "infoLinks": [
+        {
+          "targetId": "199b-812b-edfd-4493",
+          "id": "abfc-0200-a5ef-7f59",
+          "name": "Grey Hunter"
+        }
+      ]
+    }
+  ]
+}

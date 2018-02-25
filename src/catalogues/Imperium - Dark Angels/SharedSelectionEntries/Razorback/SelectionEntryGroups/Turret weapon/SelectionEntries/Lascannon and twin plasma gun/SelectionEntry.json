@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Lascannon and twin plasma gun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6bf6-148e-d930-d25f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4771-27f3-fed7-80c6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d874-2a70-b2f0-6f58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "296f-c0f9-c511-5bf3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3d0c-84af-c1a8-4c75",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5e3a-0fbb-6a9b-9eae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f51-b8fa-86ce-7388",
+          "id": "cd87-bae3-8aee-587a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e0f2-877e-f9a1-008a",
+      "name": "Lascannon and twin plasma gun"
+    }
+  ]
+}

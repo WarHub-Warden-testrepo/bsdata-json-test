@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Grenadier w/Special Weapon",
+    "prevIdentifier": "Death Korps Grenadier"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b6b0-cf0e-2d9b-7bc1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "837d-a6f3-de6e-d8ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "a4c1-55e7-9272-f488",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "6fc4-27dc-15ca-cdca",
+          "id": "42c8-71dd-5e00-c3f3",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "e01c-d7c5-9c3e-32ec",
+          "id": "0d22-7f7f-484e-a7a5",
+          "name": "DKOK Grenadier Weapons BS3"
+        }
+      ],
+      "id": "0339-e9bc-54a3-5a6f",
+      "name": "Grenadier w/Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "5dad-a672-e4af-1c9c",
+          "id": "0945-e13d-9bcb-f8fa",
+          "name": "Death Korps Grenadier"
+        }
+      ]
+    }
+  ]
+}

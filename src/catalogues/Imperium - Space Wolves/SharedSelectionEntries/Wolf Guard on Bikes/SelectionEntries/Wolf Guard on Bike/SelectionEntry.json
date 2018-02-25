@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "39db-7fee-2a05-a0d5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        },
+        {
+          "id": "fb80-8ea2-719a-6acb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5af6-adc0-d638-020a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5048-033a-4fae-3f53",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "bc48-c131-5606-a3f0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3944-9f4d-63c9-f4c7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "945a-cc57-ebea-6b77",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "c71d-73cd-4c20-b07d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a172-1b92-c0ef-9df8",
+      "name": "Wolf Guard on Bike",
+      "infoLinks": [
+        {
+          "targetId": "7b6f-c5af-3cfe-1dc6",
+          "id": "d7d3-8d4b-f464-4845",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

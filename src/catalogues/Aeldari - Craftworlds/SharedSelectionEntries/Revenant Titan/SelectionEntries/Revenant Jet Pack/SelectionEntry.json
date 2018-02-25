@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Revenant Jet Pack",
+    "prevIdentifier": "Distort Fields"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0cda-0c2d-47d7-9bdf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9e50-88a3-adb9-1fa9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2b18-1b6f-ac94-7e44",
+      "name": "Revenant Jet Pack"
+    }
+  ]
+}

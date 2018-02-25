@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dominate",
+    "prevIdentifier": "Mental Fortitude"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f9ba-3163-9cca-5742",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3c34-59f0-d218-5839",
+      "name": "Dominate"
+    }
+  ]
+}

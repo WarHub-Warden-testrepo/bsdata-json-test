@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Battle Leader on Thunderwolf",
+    "prevIdentifier": "Wolf Guard Battle Leader in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 97.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1d84-6983-e77b-7b11",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d9c2-3e93-9940-6f94",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ea03-1aea-b53f-caa7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "dccd-6e9d-a9f2-11f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "984e-3eb9-a297-dcb8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "0a99-38cd-8569-3865",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "db1d-c5fb-fd8d-143d",
+          "id": "d421-ffbd-5a9d-d931",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8ad8-b50c-fddb-b434",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5336-b9e0-347b-bec6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4320-3d0a-c7dc-4b1a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d8a-c986-b57a-48c6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3f89-88b2-d1fa-30f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "b46d-3b8e-d997-933e",
+              "id": "2c73-2a0e-5419-1352",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "d6b0-fdca-ccd1-57d7",
+          "id": "0eed-3f03-0e31-a033",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "780d-165e-e0de-bcc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "a46d-c4c0-c14b-3b0b",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c62-15f0-c081-7e92",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "38df-1ef9-816d-d599",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "216f-9a28-b509-73df",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "b028-03ed-a49e-86c7",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "216f-9a28-b509-73df",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7d2e-4d18-7bb2-17e3",
+      "name": "Wolf Guard Battle Leader on Thunderwolf",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "2689-9258-bd58-23ba",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2309-42e2-c5fe-be1c",
+          "id": "e174-33a9-c324-263a",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "10\""
+            },
+            {
+              "field": "9c9f-9774-a358-3a39",
+              "value": "5"
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "targetId": "838b-671f-4a04-4167",
+          "id": "e490-9766-fc46-0c41",
+          "name": "Huskarl to the Jarl"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3cfc-3e0e-b09f-08b1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b9ef-bfbb-88ae-c34f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "b4e6-8e7a-5c67-e63d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "7052-3283-9e50-7172",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "9301-d00e-1f81-9900",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "401f-a05e-1d30-9204",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e68-e080-f023-0308",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e004-08c8-5069-2f43",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b16f-d802-3093-7487",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4fbd-bb1d-4623-33fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "5f69-2a2a-ebe8-85dc",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "98a2-de3f-1444-bef4",
+      "name": "Lieutenant"
+    }
+  ]
+}

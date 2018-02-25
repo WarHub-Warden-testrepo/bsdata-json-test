@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Ranger Long Rifle",
+    "prevIdentifier": "Pulse Laser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "29af-5ce3-3b43-061b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ab11-c978-3dbe-4576",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "e013-8937-3411-9eb9",
+      "name": "Ranger Long Rifle",
+      "infoLinks": [
+        {
+          "targetId": "176f-d6c6-dd4e-b856",
+          "id": "f326-23f9-4f41-869f",
+          "name": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Improvised weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "1e22-3f70-9135-191a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "296e-61e0-bb55-2873",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9dfb-be68-adbb-0a3e",
+      "name": "Improvised weapon"
+    }
+  ]
+}

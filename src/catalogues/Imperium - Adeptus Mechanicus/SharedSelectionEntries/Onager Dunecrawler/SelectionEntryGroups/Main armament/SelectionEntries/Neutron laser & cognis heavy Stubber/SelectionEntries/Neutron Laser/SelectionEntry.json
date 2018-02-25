@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Neutron Laser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eaf4-a74a-8a9b-336d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c90d-edaf-f1dc-c040",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3bf0-a206-cc2b-bc8e",
+      "name": "Neutron Laser"
+    }
+  ]
+}

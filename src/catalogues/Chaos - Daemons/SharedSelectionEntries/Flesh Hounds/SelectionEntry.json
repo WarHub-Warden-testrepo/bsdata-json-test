@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Flesh Hounds",
+    "prevIdentifier": "Flamers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "3b1e-82ca-f5ef-a426"
+        },
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "079a-bd03-b254-e5ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "4664-b604-169e-9c5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dbe-cdf5-8fa1-36da",
+          "id": "9abc-8f3b-bb2b-9938",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "3b4d-a0fb-db08-ab84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "49c1-bb86-3aaf-3399",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6c6c-e019-3c06-618d",
+      "name": "Flesh Hounds",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "b52a-2c16-7f39-15e9",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "71b7-f81e-8d07-1776",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "68c8-314e-4a0c-7f4c",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "6c6c-e019-3c06-618d",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "6c6c-e019-3c06-618d",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

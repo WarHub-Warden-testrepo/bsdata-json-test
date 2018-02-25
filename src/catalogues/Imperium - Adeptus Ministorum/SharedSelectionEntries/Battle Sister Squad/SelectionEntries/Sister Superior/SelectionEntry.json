@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Sister Superior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9ad9-d9ed-4e08-2a05",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9bde-dd81-d38b-3dc1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "00e2-a7cd-285b-bebb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e6b2-a64e-2793-62c3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "0181-c00e-c5f4-a4b4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "794a-087d-636d-cddd",
+          "id": "71c9-3613-887d-fea5",
+          "name": "Additional Melee Weapon"
+        }
+      ],
+      "id": "856a-b93c-7231-8410",
+      "name": "Sister Superior",
+      "book": "Index: Imperium 2",
+      "page": "99"
+    }
+  ]
+}

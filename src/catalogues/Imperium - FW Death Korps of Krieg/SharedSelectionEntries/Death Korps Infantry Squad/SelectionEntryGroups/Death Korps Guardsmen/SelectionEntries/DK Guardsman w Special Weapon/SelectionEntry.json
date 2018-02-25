@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "DK Guardsman w/Special Weapon",
+    "prevIdentifier": "Death Korps Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "317c-ff0b-eaa5-4996",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3f8e-d24c-dffd-2037",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0df8-380a-b086-1c64",
+          "id": "803a-185b-511e-70da",
+          "name": "DKOK Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aa6d-6f26-6ab4-63da",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "530c-78fa-72d2-eb12",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ce0b-4efc-9290-f607",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "3ada-7d84-8805-a9e1",
+      "name": "DK Guardsman w/Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "9fe8-46df-c068-50a1",
+          "id": "1229-7b90-9210-edd9",
+          "name": "Death Korps Guardsman"
+        }
+      ]
+    }
+  ]
+}

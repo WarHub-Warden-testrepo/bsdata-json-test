@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Chosen Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6fe6-1b60-6f96-2e0c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ad78-2516-304c-ccac",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "af47-f87d-ec05-5c84",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "feb7-de2e-6dff-d7d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "813a-a24a-5763-8a26",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "ad90-3560-ea09-82ef",
+          "id": "cdb6-dde7-f2b2-1507",
+          "name": "Ranged Champion Equipment",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Chosen Champion Equipment"
+            }
+          ]
+        }
+      ],
+      "id": "83b8-70b9-b2e2-61e5",
+      "name": "Chosen Champion"
+    }
+  ]
+}

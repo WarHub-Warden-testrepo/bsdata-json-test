@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Banner of Refining Flame",
+    "prevIdentifier": "Soul Glaive"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0af9-d72e-cd38-ea11",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "d3f6-46f2-d845-5c15",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6aaa-9a67-7049-8844",
+      "name": "Banner of Refining Flame",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "79e4-c23d-7939-80cb",
+          "id": "abb7-a7b8-7a4d-31e3",
+          "name": "Banner of Refining Flame"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "0db5-e1aa-6692-1f98",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "9790-e0f9-5343-81bc",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

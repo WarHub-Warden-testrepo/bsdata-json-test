@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "80d5-b981-9210-3b6f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "2ba6-694e-fb2d-2124",
+      "name": "Special Weapons",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "80d5-b981-9210-3b6f",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "1cae-1565-bf82-cd5f",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

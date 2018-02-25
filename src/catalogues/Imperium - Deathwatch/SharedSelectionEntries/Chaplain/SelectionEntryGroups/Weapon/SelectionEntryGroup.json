@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c8ec-0595-7d74-ebd4",
+      "constraints": [
+        {
+          "id": "421d-fdc7-c101-da22",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "44bf-3aac-3da4-6728",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c521-d5ca-15f8-2395",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ab90-f0c3-d1cd-8494",
+          "id": "c8ec-0595-7d74-ebd4",
+          "name": "Bolt Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0a3f-68cb-8359-812c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69ce-51e1-7d84-4eaf",
+          "id": "9570-04e2-0cc7-be6d",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "13ae-a02a-82dd-ea87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "7351-b60b-1ed4-5d3a",
+          "id": "09e9-2112-7815-69f7",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d37a-9dc4-9ad8-4d29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "9057-9993-438e-ee98",
+          "id": "8ba8-a0d9-f61b-8860",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "23ee-09f0-c282-678f",
+      "name": "Weapon"
+    }
+  ]
+}

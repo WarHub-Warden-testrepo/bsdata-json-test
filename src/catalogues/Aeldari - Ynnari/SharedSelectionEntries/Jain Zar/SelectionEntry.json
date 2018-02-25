@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Jain Zar",
+    "prevIdentifier": "Starcannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9e71-672a-fb84-8349",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "ae9e-fe04-195d-1a6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "3ebe-ef37-fef1-14b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "3f5e-39ea-e631-d26c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9eb8-7768-95d8-fa3b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "d699-d001-2aca-ce2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "dcc7-bbb5-a506-b2f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "e342-d534-4f51-62c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "884a-56b0-92e7-86e9",
+          "id": "59e1-fa16-0bee-1485",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "d500-032f-3861-2d64",
+          "id": "a022-311a-e045-b59e",
+          "name": "War Shout"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5edb-ffbb-21ff-68f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "4816-d2d6-b233-fbb1",
+          "name": "Warlord"
+        }
+      ],
+      "id": "a779-f1f8-6420-0794",
+      "name": "Jain Zar",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "f6df-4a27-c08a-a5c0",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

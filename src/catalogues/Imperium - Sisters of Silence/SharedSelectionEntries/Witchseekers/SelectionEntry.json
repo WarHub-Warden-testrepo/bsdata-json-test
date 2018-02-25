@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Witchseekers",
+    "prevIdentifier": "Vigilators"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "be18-af79-8c70-633f",
+          "id": "8c89-f96c-5b72-85f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8bcf-a0bd-54ad-9531",
+          "id": "60ea-5655-8bd0-c077",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8f2a-01c6-005f-1866",
+          "id": "700b-2bd8-f7cc-192b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fb71-aad1-4d43-d638",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7ce8-5cff-cc35-753d",
+      "name": "Witchseekers",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "68d7-b6a1-b037-6183",
+          "id": "7154-c494-e849-3c4a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "bbdc-1bda-2f32-9369",
+          "id": "8bf8-9b25-8580-5684",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7ce8-5cff-cc35-753d",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

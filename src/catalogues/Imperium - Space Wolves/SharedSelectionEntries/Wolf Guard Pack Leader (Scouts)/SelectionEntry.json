@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Pack Leader (Scouts)",
+    "prevIdentifier": "Wolf Claw (Pair)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5d82-aee0-b26a-eaa6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ec20-b08b-83d7-31aa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f03a-dfff-b9b8-5f19",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c8c8-9b57-5b96-197a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "50d2-36b2-b23a-d174",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "6b76-f0fd-29e1-d50a",
+      "name": "Wolf Guard Pack Leader (Scouts)",
+      "infoLinks": [
+        {
+          "targetId": "c9c4-df59-e823-b50a",
+          "id": "7378-7777-b574-555f",
+          "name": "Wolf Guard Pack Leader"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Two Gauss Blasters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3e70-c2bb-a4df-c09e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7add-385e-e9cd-5fdf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "acd5-ac71-c4e6-6f04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f8ac-cd96-8f08-c74b",
+          "id": "5d30-0d92-d072-2fad",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "3153-f77e-723c-883b",
+      "name": "Two Gauss Blasters",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

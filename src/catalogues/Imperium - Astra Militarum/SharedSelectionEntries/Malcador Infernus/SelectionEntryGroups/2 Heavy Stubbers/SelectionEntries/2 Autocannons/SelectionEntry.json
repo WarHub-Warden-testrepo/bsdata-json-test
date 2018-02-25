@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "2 Autocannons",
+    "prevIdentifier": "2 Lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "27ab-f5f0-30c1-6ce3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "94b4-f45f-d3f7-1fb7",
+      "name": "2 Autocannons",
+      "infoLinks": [
+        {
+          "targetId": "fa99-0671-b31a-22d7",
+          "id": "f078-f40e-ae12-0bfe",
+          "name": "Autocannon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "30"
+        }
+      ]
+    }
+  ]
+}

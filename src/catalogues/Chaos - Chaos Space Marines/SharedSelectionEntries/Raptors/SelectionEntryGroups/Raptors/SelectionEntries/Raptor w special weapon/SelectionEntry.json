@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Raptor w/ special weapon",
+    "prevIdentifier": "Raptor w/ plasma pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dae7-104a-e0a4-123b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9c4d-d36e-4959-f406",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "75af-b503-4783-e4c3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c8b8-9251-16b0-2900",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "29d9-eaa5-ae72-d849",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a44b-4b4d-46b5-d3a6",
+          "id": "31b8-9f75-babe-271d",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "0dad-680c-ae93-00c6",
+      "name": "Raptor w/ special weapon",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "dae7-104a-e0a4-123b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "0068-a64d-15c5-2b8d",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "350d-676c-02cd-7ac2",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

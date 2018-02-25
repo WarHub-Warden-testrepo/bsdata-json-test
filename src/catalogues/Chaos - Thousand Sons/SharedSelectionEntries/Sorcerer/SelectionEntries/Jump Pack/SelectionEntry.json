@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Jump Pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 24.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fc89-27ce-910c-5cd3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "1d38-b7f8-dccc-f64a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "d6c7-b9f2-f853-f006",
+      "name": "Jump Pack"
+    }
+  ]
+}

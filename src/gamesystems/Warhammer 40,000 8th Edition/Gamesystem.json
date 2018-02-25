@@ -1,0 +1,386 @@
+{
+  "meta": {},
+  "gamesystems": [
+    {
+      "id": "28ec-711c-d87f-3aeb",
+      "name": "Warhammer 40,000 8th Edition",
+      "revision": 38,
+      "battleScribeVersion": "2.01",
+      "authorName": "BSData Organisation",
+      "authorContact": "@BSData",
+      "authorUrl": "http://battlescribedata.appspot.com/#/repo/wh40k",
+      "costTypes": [
+        {
+          "id": "points",
+          "name": "pts"
+        },
+        {
+          "id": "e356-c769-5920-6e14",
+          "name": " PL",
+          "defaultCostLimit": -1.0
+        }
+      ],
+      "categoryEntries": [
+        {
+          "id": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "name": "No Force Org Slot"
+        },
+        {
+          "id": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "name": "HQ"
+        },
+        {
+          "id": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "name": "Elites"
+        },
+        {
+          "id": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "name": "Troops"
+        },
+        {
+          "id": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "name": "Fast Attack"
+        },
+        {
+          "id": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "name": "Heavy Support"
+        },
+        {
+          "id": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "name": "Lord of War"
+        },
+        {
+          "id": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "name": "Fortification"
+        },
+        {
+          "id": "2aa2-d9e3-bef6-09be",
+          "name": "Other"
+        },
+        {
+          "id": "ee338739-6edf-4620-a2cc-f38d5dd21606",
+          "name": "Legendary Unit"
+        },
+        {
+          "id": "3d52-fccf-10c0-3fae",
+          "name": "Infantry"
+        },
+        {
+          "id": "c8fd-783f-3230-493e",
+          "name": "Vehicle"
+        },
+        {
+          "id": "e691-aad7-d21c-1023",
+          "name": "Psyker"
+        },
+        {
+          "id": "6cc4-1b62-8e8a-05cd",
+          "name": "Transport",
+          "isHidden": true
+        },
+        {
+          "id": "e888-1504-aa61-95ff",
+          "name": "Flyer"
+        },
+        {
+          "id": "1b66-3f5f-6705-079a",
+          "name": "Dedicated Transport"
+        },
+        {
+          "id": "ef18-746a-369f-43a4",
+          "name": "Character"
+        },
+        {
+          "id": "3117-16d8-fcef-4f56",
+          "name": "Fly"
+        },
+        {
+          "id": "3b77-decb-d468-6bcc",
+          "name": "Monster"
+        },
+        {
+          "id": "ad01-caec-17d9-cb8d",
+          "name": "Cavalry"
+        },
+        {
+          "id": "f627-f23e-a3b4-dc2c",
+          "name": "Jump Pack"
+        },
+        {
+          "id": "1c6f-0311-3eba-3180",
+          "name": "Biker"
+        },
+        {
+          "id": "7892-58f7-e769-4d87",
+          "name": "Beast"
+        },
+        {
+          "id": "a089-247f-b684-db1c",
+          "name": "Chariot"
+        },
+        {
+          "id": "7a53-eedc-8dbb-8505",
+          "name": "Swarm"
+        },
+        {
+          "id": "ae37-74e2-8391-d0f8",
+          "name": "Artillery"
+        },
+        {
+          "id": "bdda-36f0-4f32-1639",
+          "name": "Titanic"
+        },
+        {
+          "id": "ad76-d653-9f96-093a",
+          "name": "Ironclad Dreadnought"
+        },
+        {
+          "id": "53cd-314c-599b-8616",
+          "name": "Building"
+        },
+        {
+          "id": "9df5-bb14-9326-4108",
+          "name": "Faction: Unaligned"
+        },
+        {
+          "id": "8172-12c9-8092-0756",
+          "name": "Wall of Martyrs"
+        },
+        {
+          "id": "84e2-9fa9-ebe6-1d18",
+          "name": "Imperium"
+        },
+        {
+          "id": "c7b7-edbc-bc14-6238",
+          "name": "Adeptus Astartes"
+        },
+        {
+          "id": "3263-4233-4344-6228",
+          "name": "Astra Militarum"
+        },
+        {
+          "id": "298f-d173-2159-919f",
+          "name": "Primarch"
+        },
+        {
+          "id": "e12c-dd25-cbab-a30d",
+          "name": "Fallen"
+        },
+        {
+          "id": "5cf1-acf2-ca3b-c2e5",
+          "name": "Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a991-ad91-7d5f-92d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "id": "ae09-117e-a6fa-316b",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "46df-b154-20ff-cce1-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "a505-05af-bd44-56b6",
+          "id": "46df-b154-20ff-cce1",
+          "name": "Aegis Defense Line"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "8117-a765-8d79-07a8-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "16d6-25c4-af92-4329",
+          "id": "8117-a765-8d79-07a8",
+          "name": "Aquila Strongpoint"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "c29f-1df8-f18e-ab3c-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            },
+            {
+              "targetId": "8172-12c9-8092-0756",
+              "id": "90f5-7b12-fac7-28b8",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "a172-78de-aaa6-2201",
+          "id": "c29f-1df8-f18e-ab3c",
+          "name": "Firestorm Redoubt"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "7c3e-a6e6-db7b-0c75-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "8300-7ced-aafd-2a27",
+          "id": "7c3e-a6e6-db7b-0c75",
+          "name": "Fortress of Redemption"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "812b-3a8b-59b1-89c7-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "55c6-268b-357f-d070",
+          "id": "812b-3a8b-59b1-89c7",
+          "name": "Imperial Bastion"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "39b9-0a8a-8b41-1630-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            },
+            {
+              "targetId": "8172-12c9-8092-0756",
+              "id": "d14f-6772-dac9-9cf1",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0116-c81b-1c0f-251c",
+          "id": "39b9-0a8a-8b41-1630",
+          "name": "Imperial Bunker"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "8b8d-e363-fe4f-6af3-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            },
+            {
+              "targetId": "8172-12c9-8092-0756",
+              "id": "1bb8-5b36-9eff-0d13",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0f73-97f2-b832-f6d0",
+          "id": "8b8d-e363-fe4f-6af3",
+          "name": "Imperial Defence Line"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "8c5d-2fb6-ad72-d364-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "47e8-03be-a35b-8329",
+          "id": "8c5d-2fb6-ad72-d364",
+          "name": "Plasma Obliterator"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "76fd-e440-28d8-9f29-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "5cdd-edbb-07c3-0ba5",
+          "id": "76fd-e440-28d8-9f29",
+          "name": "Skyshield Landing Pad"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "c636-e01d-2d8a-0af4-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            },
+            {
+              "targetId": "8172-12c9-8092-0756",
+              "id": "e2c0-267d-9059-79e2",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "04bf-6c22-19fb-4e46",
+          "id": "c636-e01d-2d8a-0af4",
+          "name": "Vengeance Weapon Batteries"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "fa72-798c-d3d3-e55a-d713cda3-5d0f-40d8-b621-69233263ec2a"
+            }
+          ],
+          "targetId": "bbd4-5f41-35d1-6c5f",
+          "id": "fa72-798c-d3d3-e55a",
+          "name": "Void Shield Generator"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "c48d-e8d1-ecce-c4b9",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "6267-6959-b9ec-4a6b",
+          "id": "1f10-5251-06b1-0d67",
+          "name": "Imperial Fortress Walls"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+              "id": "c2cd-8939-c65f-49b4",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "b801-d1d1-7c34-facf",
+          "id": "5bea-6a85-7227-9afd",
+          "name": "Primus Redoubt"
+        },
+        {
+          "categoryLinks": [
+            {
+              "isPrimary": true,
+              "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+              "id": "ab48-6dc1-4800-80b6",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "bf09-85b2-c097-1071",
+          "id": "4bcc-b0f4-b425-f38e",
+          "name": "Gametype"
+        }
+      ]
+    }
+  ]
+}

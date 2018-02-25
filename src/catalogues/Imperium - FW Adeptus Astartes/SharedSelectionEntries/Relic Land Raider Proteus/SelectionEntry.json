@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "identifier": "Relic Land Raider Proteus",
+    "prevIdentifier": "Infernum Pattern Razorback"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 264.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c97c-5d64-1fe1-fa7f",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1fcb-751f-6842-006d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "23da-a3ba-3adc-7624",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c369-2823-db59-d5e7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "eec8-bf80-cdb5-c066",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "82f4-11e6-0a03-ee77",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "07c5-df87-f7cb-e961",
+          "id": "f737-ba5a-2dab-ce71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1d86-68d7-a3a0-e8de",
+          "id": "9452-4eee-4545-250a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "394b-a2a1-50e0-1dd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6c4c-a416-b8cb-c380",
+          "id": "43d2-53fd-5090-a4d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "0ceb-07bb-5db0-db98",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "92b2-81be-f688-2c0f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "a466-3d26-2411-dd29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b870-99d7-df15-97da",
+          "id": "62ce-e95c-9714-2acc",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eea3-ea8a-0397-5378",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "b614-b498-f215-bfab",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b799-4b77-f587-6a3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "f762-7b80-2433-84ac",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "1c6e-951e-b7b2-d0b5",
+      "name": "Relic Land Raider Proteus",
+      "infoLinks": [
+        {
+          "targetId": "7057-5a6b-eb17-ade2",
+          "id": "acf2-be44-6893-2f77",
+          "name": "Land Raider Proteus"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "3d93-f741-e097-4cfa",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "a99e-4343-5cde-a71b",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "7d8a-b069-17a7-2864",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "c97c-5d64-1fe1-fa7f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "c97c-5d64-1fe1-fa7f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "6c4c-a416-b8cb-c380",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "c97c-5d64-1fe1-fa7f",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

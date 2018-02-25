@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "MV8 Missile Drone",
+    "prevIdentifier": "MV5 Stealth Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "4e0a-17d3-ba11-060b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "9b4c-6082-2fb8-fa84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "4eb2-8fe0-d522-139d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "dce0-7ddf-92fb-9816",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b5c3-0d48-bf27-e6f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ffb2-3353-4fa9-dae2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "115e-6b4c-762e-1289",
+          "id": "5a1e-8281-0b83-1b67",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "be79-b567-ab48-ebf5",
+      "name": "MV8 Missile Drone",
+      "infoLinks": [
+        {
+          "targetId": "7af6-10b9-d6d2-555a",
+          "id": "04b1-de31-5c2c-9b8a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9482-16e3-9287-b47f",
+          "id": "cd6f-8076-af09-8b5c",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "9619-a11d-231a-79bc",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Death Korps Combat Engineer Squad",
+    "prevIdentifier": "Death Korps Command Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "9abd-572d-51d5-900d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "b712-7732-5139-5107",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1719-c570-9388-a213",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d24b-c2a9-7b23-baf7",
+          "id": "be8b-94ab-55d5-636b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "b9bd-db77-1806-809f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "b2a7-0d09-b24c-ef65",
+      "name": "Death Korps Combat Engineer Squad",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "2874-3655-a766-4e88",
+          "name": "The Cult of Sacrifice"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "b2a7-0d09-b24c-ef65",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

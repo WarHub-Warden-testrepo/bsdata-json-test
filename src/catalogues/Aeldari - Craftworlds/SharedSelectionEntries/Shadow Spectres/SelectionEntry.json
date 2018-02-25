@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Shadow Spectres",
+    "prevIdentifier": "Wasp Assault Walkers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "4610-37e6-952f-0f39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "7c0d-670d-e4bb-93a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "bc41-d341-aa18-981d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "4897-520c-c8e2-8930",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "a423-21f1-b332-2ce0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "622a-ac23-74c0-b992",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c057-fadf-3d73-e251",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8fcf-1689-f668-c645",
+          "id": "96d8-d044-f0b6-2460",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0a13-6e29-c856-25ed",
+          "id": "7995-1627-beb6-404b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "6208-022a-ec92-2c4c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "367c-f42f-e2ef-9a4d",
+      "name": "Shadow Spectres",
+      "book": "IA - Index: Xenos",
+      "page": "62",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "2560-c613-0c37-10e3",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "c935-a8d1-1501-aa4d",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "400f-6d15-f091-93ef",
+              "type": 1,
+              "field": "selections",
+              "scope": "367c-f42f-e2ef-9a4d",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "19",
+          "conditions": [
+            {
+              "childId": "400f-6d15-f091-93ef",
+              "type": 1,
+              "field": "selections",
+              "scope": "367c-f42f-e2ef-9a4d",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

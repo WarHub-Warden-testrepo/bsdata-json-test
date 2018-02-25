@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Lynx Pulsar Option",
+    "prevIdentifier": "Secondary Weapon Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b329-6d4e-e921-b181",
+      "constraints": [
+        {
+          "id": "9457-0175-a4c1-8a0c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "de62-6957-82b9-c588",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "be4b-1cc3-211c-236f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "92e1-0aed-df2c-c48e",
+          "id": "9c57-6cb1-94f8-a114",
+          "name": "Sonic Lance"
+        }
+      ],
+      "id": "6e2f-608f-d3d0-fa7f",
+      "name": "Lynx Pulsar Option"
+    }
+  ]
+}

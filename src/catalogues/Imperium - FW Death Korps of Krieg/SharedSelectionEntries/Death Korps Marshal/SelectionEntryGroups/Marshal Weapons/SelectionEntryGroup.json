@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Marshal Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3522-274a-51c3-e1d2",
+      "constraints": [
+        {
+          "id": "4960-4fac-9710-9137",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1948-86a9-d7a3-e2a9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8f87-d06c-f653-a494",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "3522-274a-51c3-e1d2",
+          "name": "Laspistol"
+        },
+        {
+          "type": 1,
+          "targetId": "5b74-9bd4-e59d-2ea3",
+          "id": "8917-cacf-8b78-5ad9",
+          "name": "DKOK Ranged Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "410c-a331-d1e0-0a7a",
+          "id": "91d3-c369-e816-7875",
+          "name": "DKOK Melee Weapons"
+        }
+      ],
+      "id": "63cd-c483-f148-59bd",
+      "name": "Marshal Weapons",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "1948-86a9-d7a3-e2a9",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "63cd-c483-f148-59bd",
+              "type": 2,
+              "field": "selections",
+              "scope": "2c37-ae86-8a9f-24cc",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

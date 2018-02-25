@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Ratling"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "3370-f2d7-fbc3-b5e3",
+          "id": "0ddd-b262-72aa-2c36",
+          "name": "Sniper Rifle"
+        }
+      ],
+      "id": "26293591-6780-83c0-a47d-07162f86ff63",
+      "name": "Ratling",
+      "page": "0"
+    }
+  ]
+}

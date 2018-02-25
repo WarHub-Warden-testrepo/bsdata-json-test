@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "identifier": "Ulrik The Slayer",
+    "prevIdentifier": "Wolf Guard Battle Leader on Thunderwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "73b6-2ca8-1829-7199",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5473-995d-dfca-3189",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4536-2d8c-cfad-2fb6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "b34e-b603-e4a9-8a87",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "99c4-66c3-2778-fb7d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6140-ae00-fd3f-c723",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb97-ab6a-dd79-137e",
+          "id": "3458-23a8-28fa-89e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2e2c-e640-47a0-2813",
+          "id": "accc-9413-4483-50b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "82db-30fd-cd79-37bc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8996-d205-dd22-4d40",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5565-58d0-6569-fe54",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "96d1-00e1-8fe9-4bff",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "25e5-6df1-6ff9-e3d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f381-6812-3eed-5be8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "b195-3c91-aebb-2258",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "874d-efed-6a07-9a9f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ce0f-46af-3c49-766d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d050-dbff-8f8d-1f54",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2890-43af-161c-473e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2170-af59-39ef-8dbc",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1386-c16f-c661-1381",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "c351-73c8-1ebd-139d",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "1386-c16f-c661-1381",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c4b7-6864-7130-ae56",
+      "name": "Ulrik The Slayer",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b976-483a-7d58-19bb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "34bf-85f7-a4c2-a494",
+          "id": "7d0f-0536-3a58-76b9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "08bd-845a-0d9f-82f6",
+          "id": "5067-8067-43d0-3b4f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2261-f6eb-dde8-9cfc",
+          "id": "c817-c397-07c9-08eb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cc32-6aa5-ef4c-9267",
+          "id": "a3fa-030a-3bc8-af5e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0ecd-eae9-fbfa-b174",
+          "id": "8a96-6e5b-bf6d-c275",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "identifier": "Death Korps Quartermaster Revenant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 33.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad68-33ad-7c4a-f7de",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c6c2-c3c9-ac21-6abc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "a281-20ff-107a-5a27",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1ee7-3be7-715e-0e57",
+          "id": "adc5-e85a-87c9-cbff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5070-e2ca-5a11-d7a0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "27d5-d440-0f9d-28ee",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "a285-697a-6ad3-9fb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "410c-a331-d1e0-0a7a",
+          "id": "b56b-1929-9985-29f4",
+          "name": "DKOK Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "53db-3296-4415-baee",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "87a5-c1fa-4c22-25f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5488-ae19-5f43-27fc",
+          "id": "b4de-09e6-a326-6143",
+          "name": "Medi-pack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f16f-c369-7005-4de2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "81b5-59b4-134a-431d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b9af-5818-2c1e-bce6",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "65ef-776b-add3-9be2",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "7b3a-a476-6c15-8175",
+          "name": "Heirlooms of Conquest"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "0507-9588-2dd9-449e",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "51ef-ef20-e701-d335",
+      "name": "Death Korps Quartermaster Revenant"
+    }
+  ]
+}

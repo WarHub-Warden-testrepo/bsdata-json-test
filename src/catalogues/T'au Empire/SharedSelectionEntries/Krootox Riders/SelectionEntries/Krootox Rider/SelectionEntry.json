@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Krootox Rider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "21a4-cd42-302b-bb30",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "c9ef-96a0-c4e7-c7f1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7591-eb79-376b-21c1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "272d-9da1-319c-286c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a460-726c-1689-2134",
+          "id": "7461-c1f0-e011-a0eb",
+          "name": "Kroot gun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "95b6-6b1c-c160-f927",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b63c-cf79-b46a-1f3e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "34bf-aae8-911f-b0f1",
+          "id": "6480-e37a-22f7-f380",
+          "name": "Krootox fists"
+        }
+      ],
+      "id": "6f14-23a0-1a05-f84d",
+      "name": "Krootox Rider",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3ecf-bf1f-4e2b-869c",
+          "id": "5310-17d1-ff5d-3d2b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ae8c-d9bb-3fef-6c78",
+          "id": "f435-eb86-60c6-a540",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Psyker",
+    "prevIdentifier": "Choir of Minds"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "bc97-dea9-9e88-bb7d",
+      "profileTypeName": "Psyker",
+      "characteristics": [
+        {
+          "name": "Cast",
+          "characteristicTypeId": "5afb-9914-904b-d3b3",
+          "value": "This unit can attempt to manifest 1 psychic power in each friendly Psychic phase, and attempt to deny 1 psychic power in each enemy Psychic phase.  It knows the Smite power and 1 psychic powers from the Psykana discipline.  When Manifesting or denying a psychic power, first select a model in the unit - measure range, visibility, etc from this model.  If this unit suffers Perils of the Warp, it suffers D3 mortal wounds as described in the core rules, but units within 6\" only suffer damage if the perils of the Warp causes the last model in the manifesting unit to be slain."
+        },
+        {
+          "name": "Deny",
+          "characteristicTypeId": "b5ac-9c20-5d5a-6f9b"
+        },
+        {
+          "name": "Powers Known",
+          "characteristicTypeId": "69d7-b45e-00a2-7e46"
+        },
+        {
+          "name": "Other",
+          "characteristicTypeId": "c2e2-f115-0003-5d7b"
+        }
+      ],
+      "id": "c908-62cd-1d4a-d4e7",
+      "name": "Psyker"
+    }
+  ]
+}

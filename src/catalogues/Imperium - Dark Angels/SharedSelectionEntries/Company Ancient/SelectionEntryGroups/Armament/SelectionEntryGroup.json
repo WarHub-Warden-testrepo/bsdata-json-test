@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "46e7-6c09-25b4-2a89",
+      "constraints": [
+        {
+          "id": "316a-51e3-ba11-0608",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "b406-9679-31e6-d4e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "56a0-8522-dd87-f044",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "d069-ffb1-1002-0575",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3040-8f7d-b361-c641",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "7296-5571-07f9-f975",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "07ee-e52b-da85-346b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "0bdf-439d-190d-d538",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "01d1-e168-5a81-a1bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "5522-6dd6-b919-fdf3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a533-f166-8b20-67f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "46e7-6c09-25b4-2a89",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2340-57e5-838f-8b29",
+      "name": "Armament"
+    }
+  ]
+}

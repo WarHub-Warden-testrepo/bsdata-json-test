@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Tartaros Terminator Squad",
+    "prevIdentifier": "Cataphractii Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "b90a-8cac-13d3-27c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "637c-e40b-1024-bee9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "cd58-8d42-af94-2369",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "b4ea-7815-46d5-e7f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2ea6-e583-6da2-bcd2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "be45-9c54-783a-70b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4e96-6515-92bc-a7bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2378-fd9b-5213-6a6c",
+          "id": "898d-39e6-ea4f-5cd5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5730-2cee-102d-c71f",
+          "id": "5097-2150-2e52-1e6e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "e044-89c5-b266-854b",
+      "name": "Tartaros Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "90b5-1d50-945d-4f1b",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "e28b-6386-03ab-ad31",
+          "id": "100e-1874-1071-2db1",
+          "name": "Tartaros Armour"
+        },
+        {
+          "targetId": "4243-5016-c4d9-2b6b",
+          "id": "9eae-6564-2560-6a5a",
+          "name": "Teleport Strike"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "f00e-3664-264a-f090",
+              "type": 1,
+              "field": "selections",
+              "scope": "e044-89c5-b266-854b",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

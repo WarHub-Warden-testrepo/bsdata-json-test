@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "a7c4-c1a9-413d-a00f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "feae-94a2-7af9-91f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "4ab9-2ea2-1d5b-b488",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "56a7-7ece-3c39-37e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "346d-8b59-19df-7966",
+          "name": "Power sword"
+        }
+      ],
+      "id": "2db1-80ed-d6cc-55ba",
+      "name": "Melee weapon"
+    }
+  ]
+}

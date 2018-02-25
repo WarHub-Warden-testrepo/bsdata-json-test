@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Purifier (Falchion)",
+    "prevIdentifier": "Purifier (Daemon Hammer)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ed7b-5e5b-b2e0-6de8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "fded-edb8-1d1e-99a5",
+          "id": "0d72-b480-3bd6-d3fe",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "9beb-5ba2-8317-4b82",
+          "id": "9e82-5f58-5516-bc34",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Two Nemesis Falchions"
+            }
+          ]
+        }
+      ],
+      "id": "fb53-72e3-9e67-df90",
+      "name": "Purifier (Falchion)",
+      "infoLinks": [
+        {
+          "targetId": "0e74-2adc-df5c-ef69",
+          "id": "11e0-8295-111a-dcb5",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

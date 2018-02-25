@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Special Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "1019-5ba3-414a-5571",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3ab7-a80d-f473-a9d0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cff6-e679-8aee-88bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "883b-4977-a787-c604",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "13"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5d9f-4a8c-40ad-54b4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "3da6-c2d9-b312-9400",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a227-c623-749b-758f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "8154-9859-1386-fca9",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ba99-e005-3a2e-913c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "28a8-8a85-097c-6893",
+          "id": "192b-893a-6b68-ba4c",
+          "name": "Hot-shot Volley Gun"
+        }
+      ],
+      "id": "9912-fab5-8326-d650",
+      "name": "Special Weapon"
+    }
+  ]
+}

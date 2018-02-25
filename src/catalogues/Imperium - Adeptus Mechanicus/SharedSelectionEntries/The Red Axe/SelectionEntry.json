@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "The Red Axe",
+    "prevIdentifier": "The Omniscient Mask"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4c63-9c17-af86-88f9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "786f-71d6-4a29-9f82",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3228-797e-d677-6b7e",
+      "name": "The Red Axe",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "dfab-6c94-20f8-dd88",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

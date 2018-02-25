@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Battle Sister w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "21a6-7608-a352-094b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fd0f-094a-93de-29b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e6da-027a-c0cf-91ec",
+          "id": "a353-3470-8722-a409",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bb05-6d92-e316-d500",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d49-8621-0b4c-d57b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "fd2d-58af-6aee-fe1b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7661-dc35-577f-c13d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e13e-f57f-9dd7-fd07",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "5fa3-01b9-f446-ea60",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2088-e193-be44-bc02",
+      "name": "Battle Sister w/ Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "7741-694d-c4f9-c1bb",
+          "id": "b43c-d591-977d-a6d1",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

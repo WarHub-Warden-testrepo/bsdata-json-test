@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Combat Engineers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "dd23-5de4-17a7-72c2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f99b-d266-a2d5-9561",
+          "id": "bec2-15dd-88e7-917a",
+          "name": "Krieg Combat Shotgun"
+        },
+        {
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "2d8c-5ae7-e292-8303",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "19e7-ae86-3b0a-dba6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c4b6-b8bb-6506-eb28",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "dfb1-5fdc-23e0-7081",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "6935-e786-0355-0dff",
+      "name": "Combat Engineers",
+      "infoLinks": [
+        {
+          "targetId": "549d-0922-9d7f-5283",
+          "id": "f7d6-e1a1-fe6c-ccf3",
+          "name": "Death Korps Engineer"
+        }
+      ]
+    }
+  ]
+}

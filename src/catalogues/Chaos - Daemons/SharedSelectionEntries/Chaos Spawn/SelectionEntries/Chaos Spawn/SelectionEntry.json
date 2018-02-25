@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Chaos Spawn"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d570-8a3c-e0d5-9544",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "f94e-49e3-d1c3-b6a7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "93eb-e72a-fd89-27b7",
+      "name": "Chaos Spawn"
+    }
+  ]
+}

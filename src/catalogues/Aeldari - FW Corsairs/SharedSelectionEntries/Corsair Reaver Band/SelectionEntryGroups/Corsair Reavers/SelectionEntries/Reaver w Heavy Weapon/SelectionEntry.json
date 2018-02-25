@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Reaver w/ Heavy Weapon",
+    "prevIdentifier": "Reaver w/ Lasblaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9c88-bbfd-389c-6c31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "34e9-ea88-dd6b-4a8d",
+          "id": "c001-2e08-622f-1823",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "8789-28a2-b35d-4b06",
+          "name": "Brace of Pistols"
+        },
+        {
+          "type": 1,
+          "targetId": "e473-1b50-d178-a35e",
+          "id": "dc99-180d-40c2-aea7",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "6f3c-aca0-8a75-81eb",
+      "name": "Reaver w/ Heavy Weapon",
+      "book": "IA - Index Xenos",
+      "page": "78",
+      "infoLinks": [
+        {
+          "targetId": "46d2-7afa-7bb7-af2b",
+          "id": "0c6b-7665-56fd-a646",
+          "name": "Corsair Reaver"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "9c88-bbfd-389c-6c31",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "66f9-5be0-eb53-a804",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

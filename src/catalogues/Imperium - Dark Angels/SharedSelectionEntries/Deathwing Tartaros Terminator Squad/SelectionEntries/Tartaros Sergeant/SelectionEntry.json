@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Tartaros Sergeant",
+    "prevIdentifier": "Tartaros Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4370-def4-c41d-9283",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "38bd-444c-9f25-187e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2ca4-3de3-8ed6-f7dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "e03c-a941-a096-325e",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "4ef0-a2cd-96f5-7bc6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "196a-cf93-42eb-bb76",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "2ca4-3de3-8ed6-f7dd",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e03c-a941-a096-325e",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5c4e-ab09-769e-4f57",
+      "name": "Tartaros Sergeant"
+    }
+  ]
+}

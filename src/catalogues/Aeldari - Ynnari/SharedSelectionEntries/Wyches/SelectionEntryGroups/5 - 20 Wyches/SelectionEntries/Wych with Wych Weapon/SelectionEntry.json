@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Wych with Wych Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b1b9-5ea7-4f54-b084",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "9c81-008d-1dff-6846",
+      "name": "Wych with Wych Weapon",
+      "modifiers": [
+        {
+          "field": "b1b9-5ea7-4f54-b084",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "735d-24d2-301a-597e",
+              "type": 4,
+              "field": "selections",
+              "scope": "287c-0434-786c-9ba1",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

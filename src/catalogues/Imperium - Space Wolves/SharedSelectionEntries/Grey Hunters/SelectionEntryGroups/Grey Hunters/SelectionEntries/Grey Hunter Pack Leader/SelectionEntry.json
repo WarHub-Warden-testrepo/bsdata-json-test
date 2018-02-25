@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Grey Hunter Pack Leader",
+    "prevIdentifier": "Grey Hunter w/Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "58d6-c1d2-50dd-8441",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "35a9-977e-9ce9-fe2d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5fe5-4fab-f48c-e62c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e589-b6d7-9ca6-7ca6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c71-ae12-c34e-19ec",
+          "id": "3a69-2346-b11c-02bc",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "914d-77fa-ae00-6482",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0aaf-96c7-774a-e7f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "4ed3-fc42-f7d0-1a1f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e21b-07eb-c79c-3f5b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "243e-8898-f8b6-73bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7d79-0a6f-0f36-37fb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "fb81-0a14-4604-5ed5",
+      "name": "Grey Hunter Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "199b-812b-edfd-4493",
+          "id": "96ae-4219-1805-69eb",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "13fc-b29b-31f2-ab9f",
+              "value": "1"
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": " Pack Leader"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

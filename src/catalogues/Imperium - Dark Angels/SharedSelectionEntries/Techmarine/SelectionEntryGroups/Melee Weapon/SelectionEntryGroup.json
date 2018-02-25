@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon",
+    "prevIdentifier": "Servo-Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3af8-3891-fa4f-56e4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5670-9490-9b7d-8d4b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "756e-cb4c-c100-d63f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "8156-b815-fc77-101a",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "a960-affe-198c-b54d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d8b9-a81b-bb5b-9915",
+      "name": "Melee Weapon"
+    }
+  ]
+}

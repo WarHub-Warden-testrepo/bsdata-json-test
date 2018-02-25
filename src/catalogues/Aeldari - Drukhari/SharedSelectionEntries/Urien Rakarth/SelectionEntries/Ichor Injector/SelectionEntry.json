@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Ichor Injector",
+    "prevIdentifier": "Close Combat Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "064c-7acf-f5d0-0169",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "2f1d-86e4-0198-0c6f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "841e-6437-8173-9775",
+      "name": "Ichor Injector",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "b755-ac2a-2eaa-86dd",
+          "id": "fccd-a110-102e-5640",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

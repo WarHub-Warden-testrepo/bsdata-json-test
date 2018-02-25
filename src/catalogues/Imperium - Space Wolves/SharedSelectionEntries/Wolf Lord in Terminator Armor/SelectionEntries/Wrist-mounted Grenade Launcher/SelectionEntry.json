@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Wrist-mounted Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f7a-0fab-c37e-205b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "96d2-706c-0df8-9bfc",
+      "name": "Wrist-mounted Grenade Launcher",
+      "infoLinks": [
+        {
+          "targetId": "802b-8d1b-8b9f-41e2",
+          "id": "d772-8e5e-3bff-1c9e",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ce1d-62e3-6d0b-9174",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

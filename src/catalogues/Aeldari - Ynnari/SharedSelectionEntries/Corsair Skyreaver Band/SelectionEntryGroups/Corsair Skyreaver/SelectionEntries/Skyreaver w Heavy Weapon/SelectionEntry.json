@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Skyreaver w/ Heavy Weapon",
+    "prevIdentifier": "Skyreaver w/ Lasblaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b0cc-b065-8525-49e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "e41f-a744-7eef-426d",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "3859-74c1-2e4a-72c7",
+          "name": "Brace of Pistols"
+        },
+        {
+          "type": 1,
+          "targetId": "e473-1b50-d178-a35e",
+          "id": "3a78-2282-febf-84a0",
+          "name": "Skyreaver Heavy Weapons"
+        }
+      ],
+      "id": "45ee-d6dc-4c4c-43bb",
+      "name": "Skyreaver w/ Heavy Weapon",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "b0cc-b065-8525-49e4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "114e-c5b5-810c-5212",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

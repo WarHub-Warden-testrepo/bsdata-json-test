@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Chosen - 2",
+    "prevIdentifier": "Chosen - 1"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6e76-dc9f-3f77-08b3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b524-c608-ff88-0c20",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "621c-7b88-73d9-4755",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4ea6-2881-0dba-b1e4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "72f0-6262-b417-dd10",
+          "id": "62b4-3fe2-8dad-9c33",
+          "name": "Lightning Claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "393e-3183-0769-d709",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0194-704a-035d-6b79",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "39bf-8fae-5abb-59a2",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "0501-2870-cf9f-e27a",
+      "name": "Chosen"
+    }
+  ]
+}

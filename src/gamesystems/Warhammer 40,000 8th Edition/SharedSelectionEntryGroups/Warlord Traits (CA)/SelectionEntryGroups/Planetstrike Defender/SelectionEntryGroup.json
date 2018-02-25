@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Planetstrike Defender",
+    "prevIdentifier": "Planetstrike Attacker"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "fa63-efaa-e85d-cff3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "89d9-81aa-53be-4170",
+      "name": "Planetstrike Defender",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "f361-b6f6-93fd-2250",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

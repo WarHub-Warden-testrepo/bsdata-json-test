@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Sister Superior",
+    "prevIdentifier": "Sister of Silence"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "59b1-575c-7024-00bd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9488-fcf4-e233-62a3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6aab-d9a0-000f-7a21",
+      "name": "Sister Superior",
+      "infoLinks": [
+        {
+          "targetId": "a3b5-26be-117c-5dfa",
+          "id": "de36-cffd-bdd5-61e3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

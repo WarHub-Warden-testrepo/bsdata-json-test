@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Defensive Heavy Stubber",
+    "prevIdentifier": "Avenger Bolt Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1f24-c260-323d-5446",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2a42-ce16-188e-3748",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c643-2dad-a2d2-81aa",
+      "name": "Defensive Heavy Stubber",
+      "infoLinks": [
+        {
+          "targetId": "0031-0314-5b36-a220",
+          "id": "9f43-079f-3993-69c0",
+          "name": "Heavy stubber",
+          "modifiers": [
+            {
+              "field": "837d-5e63-aeb7-1410",
+              "value": "Add 1 to hit rolls made for this weapon against targets that can FLY"
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": "Defensive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

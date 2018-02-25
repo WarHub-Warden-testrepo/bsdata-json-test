@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Tartaros Terminator",
+    "prevIdentifier": "Tartaros Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e547-e0a5-9284-fdbb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "d959-db73-f0d6-b12c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1042-0fe1-3cf5-c52f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c5d-a0a8-e418-3003",
+              "type": 1,
+              "field": "selections",
+              "scope": "e044-89c5-b266-854b",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "1fd8-6515-36de-3d23",
+          "name": "Grenade harness",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "0c5d-a0a8-e418-3003",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e044-89c5-b266-854b",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f00e-3664-264a-f090",
+      "name": "Tartaros Terminator",
+      "infoLinks": [
+        {
+          "targetId": "7830-200d-5dc6-9209",
+          "id": "65df-18e2-dda2-644b",
+          "name": "Tartaros Terminator"
+        }
+      ]
+    }
+  ]
+}

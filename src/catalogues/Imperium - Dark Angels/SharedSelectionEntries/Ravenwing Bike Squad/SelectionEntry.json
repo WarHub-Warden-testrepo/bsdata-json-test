@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Bike Squad",
+    "prevIdentifier": "Ravenwing Champion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8d1d-89db-9c0c-5873",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "3b67-8bc5-92f1-7280",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "5083-4036-2e5d-4f9a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4fa0-fe81-5c73-b4b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "694b-e6b7-a740-8c14",
+          "id": "7e0e-3040-db6c-d60b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1810-3d3f-573a-17a6",
+          "id": "42d6-15ac-0061-93a4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "20f4-5b84-8ed4-da5a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0b95-eb8c-65ad-ba62",
+          "id": "b902-2187-33ed-6fae",
+          "name": "Ravenwing Attack Bike"
+        }
+      ],
+      "id": "037d-64b8-304c-3eed",
+      "name": "Ravenwing Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8905-555b-554d-7d9b",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "4173-1cb1-de44-9625",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "b09f-9acc-be11-b212",
+          "name": "Turbo-Boost"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "4c23-24af-6649-9c91",
+              "type": 4,
+              "field": "selections",
+              "scope": "037d-64b8-304c-3eed",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "4c23-24af-6649-9c91",
+              "type": 4,
+              "field": "selections",
+              "scope": "037d-64b8-304c-3eed",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

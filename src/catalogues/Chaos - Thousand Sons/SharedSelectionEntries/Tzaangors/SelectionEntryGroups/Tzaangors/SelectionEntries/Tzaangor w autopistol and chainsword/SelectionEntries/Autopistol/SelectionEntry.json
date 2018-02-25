@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Autopistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "eacf-f36b-5553-589e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "42c0-74fa-6b6e-28cd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "db72-dcf3-790d-59d8",
+      "name": "Autopistol",
+      "infoLinks": [
+        {
+          "targetId": "2481-001b-00f9-501b",
+          "id": "1331-964c-77e2-05c1",
+          "name": "Autopistol"
+        }
+      ]
+    }
+  ]
+}

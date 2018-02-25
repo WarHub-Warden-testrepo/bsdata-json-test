@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Canoptek Tomb Stalker",
+    "prevIdentifier": "Gauss Cannon - 103"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 165.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "1b1e-22d5-f3c1-3abf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "accb-e3d8-1193-10cc",
+          "id": "37a7-655d-3644-6724",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "dcb6-28b4-00b7-5765",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "09bc-7230-b214-406d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3f79-f5aa-7fb9-02e7",
+          "id": "5898-d793-2d85-7ed6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0239-e78c-dbde-e22c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ead4-fb37-4920-c125",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8642-6edd-7d6d-93f8",
+          "id": "850a-53f5-86f8-7205",
+          "name": "Automaton Claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1d83-44c0-7347-f862",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ada8-2cae-ce04-283b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f0ec-bf9a-a6b0-7c65",
+          "id": "92eb-c9eb-04eb-4a55",
+          "name": "Twin Gauss Slicers"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c8bb-7f2f-09ca-1acd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e683-6baa-e13b-9375",
+          "id": "4627-c947-4c95-8ab2",
+          "name": "Gloom Prism"
+        }
+      ],
+      "id": "5a06-48ea-87a1-7a42",
+      "name": "Canoptek Tomb Stalker",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "1296-222e-4205-0a78",
+          "name": "Living Metal"
+        },
+        {
+          "targetId": "0755-e243-a334-31b8",
+          "id": "b8ad-418d-37ee-908e",
+          "name": "Phasic Tunnelling"
+        }
+      ]
+    }
+  ]
+}

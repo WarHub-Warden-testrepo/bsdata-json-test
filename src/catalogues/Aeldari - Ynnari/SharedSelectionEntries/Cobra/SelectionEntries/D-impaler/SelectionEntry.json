@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "D-impaler",
+    "prevIdentifier": "D-Rift"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5e1b-dfbd-f3d5-18df",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f48d-8af0-4b26-584b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6e2e-7406-35f5-f4d0",
+      "name": "D-impaler"
+    }
+  ]
+}

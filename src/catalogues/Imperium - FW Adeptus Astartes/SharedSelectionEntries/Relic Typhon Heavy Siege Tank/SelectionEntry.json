@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "identifier": "Relic Typhon Heavy Siege Tank",
+    "prevIdentifier": "Relic Spartan Assault Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 27.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 720.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8957-1ba0-6979-6644",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "81ac-0e21-9267-c1fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5202-4979-a3d0-0ff5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "c947-1105-c362-865d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "895b-2aa7-dd17-00c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "40f8-a749-377e-620f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "f973-5f0e-a548-88d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8e50-f332-daa9-0ab0",
+          "id": "2c24-e05c-3e6c-639a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3216-79af-660b-7711",
+          "id": "e813-477a-d91e-9027",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "c955-f5f9-282e-bf16",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e142-86ce-1a7e-24d7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b5f4-4d36-de60-0384",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f7d-ca3a-ce3b-b714",
+          "id": "d147-79ac-8933-b62d",
+          "name": "Crushing tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7b98-1028-930c-dffb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "72d5-9883-e648-e748",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "078e-39fc-aa19-11d2",
+          "id": "9fe2-cd13-092a-094b",
+          "name": "Dreadhammer siege cannon"
+        }
+      ],
+      "id": "e2b1-8e57-c071-300a",
+      "name": "Relic Typhon Heavy Siege Tank",
+      "infoLinks": [
+        {
+          "targetId": "205c-d18b-1d7b-11f1",
+          "id": "8cd0-e114-8782-4817",
+          "name": "Relic Typhon"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "22ed-762d-1930-3259",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "6f8b-a8e0-9b90-49b9",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "2fe7-c29a-da8a-ab83",
+          "id": "b518-5ffa-2582-efa4",
+          "name": "Steel Behemoth"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "de18-4c95-e7d4-da8c",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "8957-1ba0-6979-6644",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "8957-1ba0-6979-6644",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "8957-1ba0-6979-6644",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c888f08a-6cea-4a01-8126-d374a9231554",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "8957-1ba0-6979-6644",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

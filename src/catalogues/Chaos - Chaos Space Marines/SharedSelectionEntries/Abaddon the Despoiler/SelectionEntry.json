@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "identifier": "Abaddon the Despoiler"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 240.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2d2e-ab54-2c1a-9d16",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "92a9-8e67-0acc-6fb9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "678f-2127-9430-a05e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "16d1-6961-2f13-3de9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "2221-2977-a03e-0edd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "de16-8747-df00-c8ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "f490-12a9-fa81-938e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1f29-4695-dfe7-e893",
+          "id": "1b39-7a06-4ea9-99ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb55-bd6b-3e75-d505",
+          "id": "021e-8610-0417-e36d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "31cd-3d0a-1fff-6397",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7fef-dddd-181f-6f18",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36b8-cf23-7648-ece9",
+          "id": "133d-bb56-c7de-6a62",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "210a-a888-29d6-b484",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f45e-3111-c294-5ddc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "feae-8926-f679-9e2f",
+          "name": "Warlord"
+        }
+      ],
+      "id": "2c93-74cb-4b9d-42c2",
+      "name": "Abaddon the Despoiler",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "e685-41fa-bce4-2e85",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "d4d3-93d9-8313-56c8",
+          "id": "797f-330b-d419-07e4",
+          "name": "Teleport Strike"
+        },
+        {
+          "targetId": "376e-a98c-ccd4-3248",
+          "id": "8b76-342b-98a4-f8bc",
+          "name": "First Among Traitors",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2c93-74cb-4b9d-42c2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "maxInRoster",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "37cd-2830-725b-a321",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

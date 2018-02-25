@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "identifier": "Logan Grimnar",
+    "prevIdentifier": "Wolf Standard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 190.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "76c2-c926-2104-d7bb",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2805-7800-bc10-9900",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "00e5-0a40-b67b-6a8b",
+          "id": "4c42-f28c-e6fc-9527",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7c1a-6fb4-e57b-b893",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2ad5-ac60-25a1-a5e5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a485-e6e5-d504-3ddd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "277e-0e4e-e93e-53bf",
+          "id": "7c22-6cad-f701-3ac5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "f9d2-d6db-a393-78bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "eecd-078c-b4f9-89e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "2ab5-1f08-100e-2969",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "17a9-9471-3edb-c22e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "82ca-3ca2-7092-4c65",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b0ff-c09f-1f4e-f525",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "6b2e-1ab9-6212-da1b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c818-e64c-9696-1b1b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2d1a-4b9d-d610-fb61",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4beb-c2ca-88d4-acaf",
+          "id": "62df-89be-ce84-eac4",
+          "name": "The Axe Morkai"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7d79-7fb9-f53b-4863",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2569-9060-4563-6555",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2927-6137-20a0-48a0",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "e432-c7d0-a7e2-20d0",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "2927-6137-20a0-48a0",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3f45-b00c-544d-8e9e",
+      "name": "Logan Grimnar",
+      "infoLinks": [
+        {
+          "targetId": "7069-fc30-01b8-23ea",
+          "id": "58dd-c8b2-2200-f554",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ca71-07f6-2957-2b92",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c525-6f7a-7c5b-887f",
+          "id": "ee2e-d077-2f02-6866",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2972-3c4c-b8ba-6b01",
+          "id": "31f6-f2ee-a0d8-ad78",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "18d0-7cd5-e05c-698f",
+          "id": "64d9-2a57-db57-3c21",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "26d4-8e59-da77-5453",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "76c2-c926-2104-d7bb",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "793e-fa9d-b5ad-3b8e",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

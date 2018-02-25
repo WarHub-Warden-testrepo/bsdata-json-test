@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Thunderbolt Heavy Fighter",
+    "prevIdentifier": "Tauros Venator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c1a5-bc4b-9c1e-25c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ed70-701a-b4b0-4af3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afe0-3771-1982-92b4",
+          "id": "afd4-435f-9e7a-baf6",
+          "name": "Twin autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fc9e-d8ed-b0ed-af45",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2b40-7ca9-7d68-1e15",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "94e5-31d8-7d5a-d34f",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "a948-b0a9-7b99-749d",
+      "name": "Thunderbolt Heavy Fighter",
+      "infoLinks": [
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "aed0-0373-09f4-2903",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "d4c8-156c-04e2-d055",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "aa7a-abc6-954c-43cd",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "0f40-092f-75e7-6f5a",
+          "name": "Hard to Hit"
+        }
+      ]
+    }
+  ]
+}

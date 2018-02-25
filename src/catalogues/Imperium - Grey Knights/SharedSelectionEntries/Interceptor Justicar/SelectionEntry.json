@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Interceptor Justicar",
+    "prevIdentifier": "Dreadknight teleporter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 23.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "2619-cbc9-7327-dc75",
+          "id": "87c2-3e82-8b3d-dbad",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c01f-0be5-f393-e280",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5df7-d88e-c22d-270c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "f2dc-8d25-f9c5-5ce9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5fa0-9f63-f93a-1ec1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ecb7-ff02-255d-9f58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "99fc-b208-44bc-571f",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a5dd-84f6-6bb8-210c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bdb7-b2a2-de09-ec8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37bc-bbf1-18fd-7294",
+          "id": "33df-26fd-62a1-5199",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "81a2-5c1f-69f7-ae05",
+      "name": "Interceptor Justicar"
+    }
+  ]
+}

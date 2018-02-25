@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Daemon",
+    "prevIdentifier": "Khaine Awakened"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a63d-52ec-a01f-6762",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d957-c59c-fb09-3902",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1fca-05f5-549d-96bb",
+      "name": "Daemon"
+    }
+  ]
+}

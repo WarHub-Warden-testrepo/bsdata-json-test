@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Skarbrand",
+    "prevIdentifier": "Screamers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 360.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "febf-9abb-078c-798f",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "bd65-b169-0f02-3c8e"
+        },
+        {
+          "targetId": "c312-92b6-0817-2b0a",
+          "id": "fb67-9870-b4ae-527e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5c04-e8bb-a279-cbea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "1b05-4f04-d4c3-3dc9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "8b3f-e0e9-181a-54ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2811-546e-97bc-669d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "cdd7-04f8-5889-4404",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e0dc-e385-fd96-6a19",
+      "name": "Skarbrand",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "d705-87cf-e755-dfe2",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "b8c2-a2b8-6c1a-7293",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "c2f0-5e3e-e1f2-9d4b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1420-58bf-7837-99bf",
+          "id": "49d7-3f75-459f-92f5",
+          "name": "Deathbringer"
+        },
+        {
+          "targetId": "d3d4-3509-1fec-a4e2",
+          "id": "0edc-76b1-5a65-1f00",
+          "name": "Rage Incarnate",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e0dc-e385-fd96-6a19",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

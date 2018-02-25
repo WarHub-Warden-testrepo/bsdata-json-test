@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Red in Cog and Claw",
+    "prevIdentifier": "Dogma: Glory of the Omnissiah"
+  },
+  "rules": [
+    {
+      "description": "You can re-roll wound rolls of 1 in the Fight phase for units with this dogma",
+      "id": "0250-4d47-9499-0c76",
+      "name": "Dogma: Red in Cog and Claw",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "846e-f164-06a4-0e3e",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

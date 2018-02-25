@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Primary Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "d0e0-b92e-976d-6913",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "d852-61e8-0dab-b417",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8882-9e19-6680-1529",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "70e6-faf2-3a17-94f8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "e823-268c-0bed-4c0a",
+          "id": "bafc-8d15-4554-b310",
+          "name": "Guardian Spear",
+          "modifiers": [
+            {
+              "field": "70e6-faf2-3a17-94f8",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2d56-9c22-5f05-fd8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "131b-ad6f-5a72-9664",
+          "id": "f588-a153-e308-38ab",
+          "name": "Sentinel Blade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e0bb-f88b-680f-2101",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9154-524f-c1b0-2fff",
+          "id": "e0b1-62c2-4667-d52e",
+          "name": "Castellan Axe"
+        }
+      ],
+      "id": "95e9-af1c-2e8a-358f",
+      "name": "Primary Weapon"
+    }
+  ]
+}

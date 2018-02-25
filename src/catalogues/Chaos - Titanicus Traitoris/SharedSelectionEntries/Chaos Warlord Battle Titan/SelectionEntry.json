@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "identifier": "Chaos Warlord Battle Titan",
+    "prevIdentifier": "Chaos Warhound Scout Titan"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 200.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6000.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "3612-893b-0987-2776",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "0308-7c3c-2c5c-9fe0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "6898-4570-fda8-4f63",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d309-f142-7fbb-b9a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bc10-1aed-9d8c-724b",
+          "id": "73ca-c870-fc77-83ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f367-b06c-c574-c7fe",
+          "id": "629b-b17f-00c0-a3d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5f88-bd69-1096-78b6",
+          "id": "ddc7-90ca-0023-9633",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "512e-2935-3305-3ac8",
+          "id": "7d78-d6e4-3162-5578",
+          "name": "Carapace mounted weapons",
+          "modifiers": [
+            {
+              "field": "6bea-5491-6d3f-ca88",
+              "value": "2"
+            },
+            {
+              "field": "5183-31b4-c4a3-e343",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9e10-b1c9-13fa-0c34",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a3e-b354-4491-a020",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bfc-dba5-5107-7075",
+          "id": "fdb5-98b3-1e4d-4b6c",
+          "name": "Greater titanic stride"
+        },
+        {
+          "constraints": [
+            {
+              "id": "12e8-4d71-0146-babb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "f013-3def-8ded-0a4a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "67f9-110f-ebce-f8a8",
+          "id": "dd2f-f329-5bb6-359e",
+          "name": "Ardex-defensor twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5fe3-4f57-8ab6-c979",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c057-c881-0138-8218",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "577d-f6f0-b174-15f0",
+          "id": "915d-7d5f-fad3-8975",
+          "name": "Ardex-defensor maulers"
+        }
+      ],
+      "id": "8819-eaf2-127e-efca",
+      "name": "Chaos Warlord Battle Titan",
+      "infoLinks": [
+        {
+          "targetId": "11a1-f0e0-d62f-b6d4",
+          "id": "9768-4c20-8733-b01c",
+          "name": "Icon of the Apocalypse"
+        },
+        {
+          "targetId": "a0ea-57a5-f34a-ad4b",
+          "id": "65fd-6905-e90f-1c89",
+          "name": "Infernal God-engine"
+        },
+        {
+          "targetId": "eba7-5f8d-c2a0-3165",
+          "id": "7bf8-91c3-64bc-119b",
+          "name": "Titan Void Shields"
+        },
+        {
+          "targetId": "c5b5-f67d-f06e-f72a",
+          "id": "f09c-210f-7dae-af41",
+          "name": "Titanic Gait"
+        },
+        {
+          "targetId": "9ff7-ac90-8912-3833",
+          "id": "d39a-78ff-0b12-1946",
+          "name": "Cataclysmic Explosion"
+        }
+      ]
+    }
+  ]
+}

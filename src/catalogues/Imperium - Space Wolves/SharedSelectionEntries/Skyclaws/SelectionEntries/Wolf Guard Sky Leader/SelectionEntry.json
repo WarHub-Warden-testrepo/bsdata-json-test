@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Sky Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "be7b-b5ec-6f88-27b1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e8a7-8c2d-2602-01d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "30a0-3051-6b4d-442f",
+          "id": "05a3-1a36-d9ad-29e2",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a940-5954-d6ec-f32e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "6461-f64a-1b1b-a900",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "06c4-5774-4f44-74da",
+      "name": "Wolf Guard Sky Leader",
+      "infoLinks": [
+        {
+          "targetId": "598b-b636-3ff4-9f4c",
+          "id": "8167-76fb-0513-93b4",
+          "name": "Wolf Guard Sky Leader"
+        }
+      ]
+    }
+  ]
+}

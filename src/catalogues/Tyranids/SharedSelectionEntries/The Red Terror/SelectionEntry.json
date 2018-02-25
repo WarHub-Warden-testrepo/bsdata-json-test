@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "identifier": "The Red Terror",
+    "prevIdentifier": "Old One Eye"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "08f7-2205-e8a3-d982",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "73c7-0258-d4e5-3cde",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "a1a7-cde5-366f-ab9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "91a3-6497-7aaf-47e7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "09b7-e664-3ce2-dd71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "137f-efb5-b719-a6df",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0d3d-7144-cb90-43d7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e7ad-959a-482a-82c3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "73d5-dcb1-c0a2-b103",
+          "id": "4a0c-7533-e91c-81e2",
+          "name": "Prehensile Pincer Tail",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f7fb-aa33-215f-5c6a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "0745-947c-2695-a9b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b06-87d5-7b1e-8d82",
+          "id": "b0a0-add6-a8e2-7476",
+          "name": "Scything Talons"
+        },
+        {
+          "type": 1,
+          "targetId": "25a0-b547-6079-03a1",
+          "id": "4689-725e-03d1-ca96",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f5f3-ef04-6f67-1109",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c832-2f4e-ee51-f481",
+          "id": "7305-dfa7-9e77-1956",
+          "name": "Warlord"
+        }
+      ],
+      "id": "6bad-120f-afa0-1745",
+      "name": "The Red Terror",
+      "infoLinks": [
+        {
+          "targetId": "a08a-d545-b128-7054",
+          "id": "c526-1149-3ecd-8ca4",
+          "name": "Death from Below"
+        }
+      ]
+    }
+  ]
+}

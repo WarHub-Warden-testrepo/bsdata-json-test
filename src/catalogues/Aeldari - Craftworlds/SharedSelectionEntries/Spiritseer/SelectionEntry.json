@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "identifier": "Spiritseer",
+    "prevIdentifier": "Warlock Skyrunner"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "892b-5114-cbb3-949f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "3d54-8590-0e64-e26a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "40d0-1563-e53c-ddcb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7deb-5414-fda0-a6aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "c8e9-9877-2174-a6f8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "954f-e138-bb36-1c05",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "0a58-287d-974d-e6cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9a3e-947f-26da-d343",
+          "id": "3963-9856-edfc-6b14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9045-5eb0-134b-2383",
+          "id": "3de1-a997-8c37-d122",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afbb-a355-ff30-9cd6",
+          "id": "d478-f244-11b5-352e",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "210b-d974-14f0-d192",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8d0e-c325-4cbe-c1b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "bf34-9b0b-c403-0250",
+          "name": "Shuriken Pistol",
+          "modifiers": [
+            {
+              "field": "210b-d974-14f0-d192",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "cdbc-1607-808b-b28a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "20a6-e29d-7a34-ddc4",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "8d0e-c325-4cbe-c1b7",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "cdbc-1607-808b-b28a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "20a6-e29d-7a34-ddc4",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "9802-e896-c1b0-2fae",
+          "id": "a7aa-6a47-3faf-7496",
+          "name": ""
+        },
+        {
+          "targetId": "9867-5b0d-72a1-6b11",
+          "id": "1f70-7550-3d81-2d80",
+          "name": "Psyker"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "41d8-19fa-8296-3c3f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5c6d-2f7a-306f-0cfd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "ca6a-c11f-1f8f-3483",
+          "name": "Runes of Battle"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a525-4dc8-a7fa-47ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "12f4-9728-93da-b15b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "8efb-a283-ab01-c3d2",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "c99a-b105-9c5a-91fe",
+          "id": "797d-818b-0670-5e8a",
+          "name": "Remnants of Glory"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0a60-a5fd-a7a1-7313",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "3d6a-1dba-1777-d807",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "5f6a-c5c5-c668-a25d",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "20a6-e29d-7a34-ddc4",
+      "name": "Spiritseer",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "6faa-a9d2-f2a3-6263",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "b4b2-515e-6b95-cdab",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Sydonian Dragoon",
+    "prevIdentifier": "Ironstrider Ballistarii"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 59.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e042-ad54-1c9f-36a3",
+          "id": "abe5-cf6c-7718-7c18",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd15-651c-7723-fea3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "36db-aa3d-9267-a4dd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a96c-4677-bbee-325d",
+          "id": "b551-4551-19b7-ddf0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "455e-0862-2ec9-d50f",
+      "name": "Sydonian Dragoon"
+    }
+  ]
+}

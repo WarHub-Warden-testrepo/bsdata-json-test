@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Weapon option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "b182-b109-fa1f-fa1c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "91c2-b278-b4c9-9ae4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "57cf-365a-0537-087f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "4c39-c058-7ab8-d746",
+          "name": "Heavy flamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fdc0-9cf2-3896-1304",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "ab4e-6d53-0d33-749f",
+          "name": "Reaper autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "b9ef-0a42-7d5d-69c5",
+      "name": "Weapon option"
+    }
+  ]
+}

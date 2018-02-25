@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Plague Toads of Nurgle",
+    "prevIdentifier": "Cor'bax Utterblight"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "3038-8bc6-bf25-23c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "4936-5f5b-c6b1-1504",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "f883-a81c-0c87-0247",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "c99e-f72d-c6f3-a8d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "6709-5c0f-6e2a-2c7d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "75b1-13ca-8057-abc0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "89a3-50ea-79c2-7bee",
+      "name": "Plague Toads of Nurgle",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "f542-6efa-f725-6055",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "ecd4-247d-9557-3c4f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "b957-d1bc-b5de-2f45",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "89a3-50ea-79c2-7bee",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "89a3-50ea-79c2-7bee",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Cyclops"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "587f-eac0-59ac-9571",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1c99-dc9d-dcbf-2818",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "26b5-44bb-6339-1312",
+      "name": "Cyclops",
+      "infoLinks": [
+        {
+          "targetId": "a100-911e-3074-eaad",
+          "id": "7bda-69e1-9668-4800",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

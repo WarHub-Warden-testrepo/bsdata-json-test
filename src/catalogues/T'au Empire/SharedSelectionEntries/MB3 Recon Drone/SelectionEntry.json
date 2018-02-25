@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "MB3 Recon Drone",
+    "prevIdentifier": "MV84 Shielded Missile Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "34b8-35d5-2c50-668b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b13f-d9e9-f374-2d8b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b97-30b9-f286-63f4",
+          "id": "9947-c084-3945-2dee",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "fb6f-e89d-1aff-1ce5",
+      "name": "MB3 Recon Drone",
+      "infoLinks": [
+        {
+          "targetId": "6b77-33d2-67f8-0b13",
+          "id": "9ab3-ee14-222d-c012",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9336-8c2a-c8f2-fbc2",
+          "id": "703e-dd11-7488-12d2",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9482-16e3-9287-b47f",
+          "id": "e559-88f8-2b67-5395",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Guardian Defender",
+    "prevIdentifier": "Guardian Heavy Weapons Platform"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b8ff-e968-5d18-254e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        },
+        {
+          "id": "12d9-aefb-0155-6da1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 20.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "807c-bd38-b733-6f2e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e343-7a13-e6aa-7f02",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d13-3a9a-37d6-1735",
+          "id": "52e5-2c4d-f31d-2306",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "d06e-fb7e-6da8-cd42",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "00ca-2353-23be-1440",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "82a6-613e-6c40-a7d1",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "c758-aaf5-4754-8653",
+      "name": "Guardian Defender"
+    }
+  ]
+}

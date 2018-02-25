@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "2x Quad lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6392-f339-52e4-57b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "04bc-4013-d2a8-be86",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32e5-f987-5d87-7a18",
+          "id": "ea51-8d60-1a67-f730",
+          "name": "Quad lascannon"
+        }
+      ],
+      "id": "b2f7-27e0-0d28-e404",
+      "name": "2x Quad lascannons"
+    }
+  ]
+}

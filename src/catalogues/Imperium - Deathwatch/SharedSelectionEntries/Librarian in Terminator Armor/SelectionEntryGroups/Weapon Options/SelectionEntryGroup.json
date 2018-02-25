@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Weapon Options",
+    "prevIdentifier": "Force Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c91a-148d-792f-b956",
+      "constraints": [
+        {
+          "id": "bc04-2cfa-eb28-1e50",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e989-4302-5c58-dde0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "070a-07af-5e3b-e53e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "c91a-148d-792f-b956",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e619-77d9-755e-60e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "72e5-f434-3f67-8ec0",
+          "id": "b2f2-d189-16a5-3cdd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7358-b49b-7311-35fd",
+      "name": "Weapon Options"
+    }
+  ]
+}

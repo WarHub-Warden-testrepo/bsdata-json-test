@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Praetor Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c954-0e7d-6eaa-00ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d51d-6383-9648-5661",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f93f-9fd8-8da7-84cf",
+      "name": "Praetor Launcher"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Two Tesla Carbines",
+    "prevIdentifier": "Two Gauss Blasters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5515-b07e-a9d9-4e71",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d931-24b2-a5a6-6312",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "646d-0845-c14c-8835",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aa3e-6628-f176-979f",
+          "id": "f66f-1de6-70d8-2ed1",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "5ad4-c0cd-4315-3f71",
+      "name": "Two Tesla Carbines",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

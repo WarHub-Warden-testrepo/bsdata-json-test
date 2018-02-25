@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Servo-harness"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2f35-d925-557c-68b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b7b6-906e-12f2-a18a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e154-91a5-9433-79e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "043a-eb59-dced-147c",
+          "name": "Servo-arm"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cae5-4a78-138b-e16d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7636-68be-ccce-c6e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d1e1-23e0-2777-dc7b",
+          "id": "35a5-0c8b-5efe-954d",
+          "name": "Plasma cutter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "377f-9f56-5e93-0e24",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "244e-f6a9-ab2d-6ed4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "b70a-7911-19e7-a1e0",
+          "name": "Flamer"
+        }
+      ],
+      "id": "859a-100b-1995-f1e3",
+      "name": "Servo-harness"
+    }
+  ]
+}

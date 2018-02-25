@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Off-Hand",
+    "prevIdentifier": "Ranged Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "95b6-7346-678c-cca4",
+      "constraints": [
+        {
+          "id": "f58c-624f-fab4-2508",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8b1f-fd4c-6350-30e5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b2c2-86a8-13e9-6290",
+          "id": "aba7-8529-fa63-e974",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "58fb-9127-cea0-b46a",
+          "id": "779e-8670-7192-7c9f",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c97e-2928-fc16-ddc3",
+          "id": "95b6-7346-678c-cca4",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "id": "d93f-f8e2-b043-d3a2",
+      "name": "Off-Hand"
+    }
+  ]
+}

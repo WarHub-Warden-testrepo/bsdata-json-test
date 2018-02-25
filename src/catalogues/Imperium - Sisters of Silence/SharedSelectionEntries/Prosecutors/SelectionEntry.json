@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Prosecutors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "be18-af79-8c70-633f",
+          "id": "d9f0-3c02-235a-9acc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8bcf-a0bd-54ad-9531",
+          "id": "ee8a-e910-3259-80b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4b0b-94bb-a2de-73d3",
+          "id": "a688-4a3a-6d72-a2a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bb9b-5682-8742-3c50",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "4e40-4bc6-5bbb-7b98",
+      "name": "Prosecutors",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "68d7-b6a1-b037-6183",
+          "id": "8231-f4e8-3a05-3261",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "bbdc-1bda-2f32-9369",
+          "id": "5b1e-3106-1b7d-7993",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4e40-4bc6-5bbb-7b98",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Land Speeder Storm",
+    "prevIdentifier": "Stormraven Gunship"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7bc0-9d6b-1f6d-43a2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "db59-b34f-b56d-78a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d51-c870-1931-532a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3846-568f-f410-946e",
+          "id": "d947-219a-e94c-bfb3",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ce25-8a2c-603c-fc8a",
+      "name": "Land Speeder Storm",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "60db-65f7-ca20-7874",
+          "id": "e451-ca3e-e28a-ce7d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9c08-fa9a-2661-4d4e",
+          "id": "6cd8-917a-962d-5166",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "identifier": "Relic Whirlwind Scorpius",
+    "prevIdentifier": "Whirlwind Hyperios"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 175.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c44c-f090-fcf9-af5f",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "27ff-27a3-37fe-6d86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7f73-a785-e0c2-c751",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6603-09b9-e772-b758",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "201a-083f-f12f-5dad",
+          "id": "15a0-2cef-1f5a-dfd7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "faac-3c8f-c5b6-c451",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "fa85-9299-cc67-df0d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "39ec-b84e-11ab-f5b2",
+          "id": "6784-5f46-c1df-d3f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "abbb-e142-7f9a-be79",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "5f61-22d3-6ecc-4194",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0ad4-e906-2b8c-38d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "cab5-cd27-5854-08dc",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b1d4-1e80-aebd-b979",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "1f7f-d8cc-b038-0719",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eec9-168e-8fb8-a3c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64b1-6742-fcfa-4b5a",
+          "id": "dd5b-7fda-6396-461f",
+          "name": "Scorpius multi-launcher"
+        }
+      ],
+      "id": "8a97-e37c-1e15-dbf7",
+      "name": "Relic Whirlwind Scorpius",
+      "infoLinks": [
+        {
+          "targetId": "9cc9-ce97-a38b-b95c",
+          "id": "23f6-e0ef-ad2c-864a",
+          "name": "Relic Whirlwind Scorpius"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "4177-4728-0675-d9d1",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "50c5-082b-fdd8-dd68",
+          "id": "a2a7-877a-8e8f-ac15",
+          "name": "Rocket Barrage"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "4f15-6177-60a1-ae61",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "c44c-f090-fcf9-af5f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "c44c-f090-fcf9-af5f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "c44c-f090-fcf9-af5f",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

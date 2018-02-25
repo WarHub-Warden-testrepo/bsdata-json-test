@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Skitarii Vanguards",
+    "prevIdentifier": "Skitarii Rangers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "3d90-b701-fe5a-d473",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "663c-0828-613d-b034",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3c55-5bc9-3dc3-a3ff",
+          "id": "65b7-c54a-de2f-cdd0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "0c74-006b-8b1b-6720",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cdee-83f1-5387-56cc",
+          "id": "73c3-39d6-37f1-57cb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9512-1413-b156-036d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8070-d387-7ec5-c16d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8093-c442-c24c-a018",
+          "id": "f9e7-a58f-ac3a-1f7a",
+          "name": "Vanguard Alpha"
+        },
+        {
+          "type": 1,
+          "targetId": "2379-25fc-b920-bed3",
+          "id": "1dcd-7ad3-4602-7ca4",
+          "name": "Skitarii Wargear"
+        }
+      ],
+      "id": "ed1e-bdea-6881-edd6",
+      "name": "Skitarii Vanguards",
+      "infoLinks": [
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "e81b-ba45-ada6-41bd",
+          "name": ""
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "e86b-dd4a-07ab-5714",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "11c1-26a0-89b3-138e",
+              "type": 4,
+              "field": "selections",
+              "scope": "ed1e-bdea-6881-edd6",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

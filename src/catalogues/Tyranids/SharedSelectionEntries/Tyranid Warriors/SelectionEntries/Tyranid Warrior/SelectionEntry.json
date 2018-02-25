@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Tyranid Warrior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac6d-1f1d-a5c0-f8ac",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "71e2-831b-aa14-14bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f72f-71bc-8503-a47e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "e755-3caa-e7ec-4829",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5792-bfe5-7583-62d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64fd-9b59-e4c3-a28a",
+          "id": "ac60-c502-4c1d-f7a1",
+          "name": "Flesh Hooks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5c66-84d3-8108-6792",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b9ad-3827-329a-0e6e",
+          "id": "855b-4f34-e7d5-ed49",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "id": "6903-a410-21cb-0dc5",
+      "name": "Tyranid Warrior"
+    }
+  ]
+}

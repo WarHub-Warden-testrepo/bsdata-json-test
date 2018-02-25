@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon",
+    "prevIdentifier": "Ranged Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "67c7-faa8-5cba-da83",
+      "constraints": [
+        {
+          "id": "2bb1-fb7c-ff25-c586",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "e85f-61b1-bbd2-6474",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a480-c3d2-050a-959b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "6544-ccb5-00e9-fee9",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b4f4-7017-b428-e132",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "67c7-faa8-5cba-da83",
+          "name": "Power sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "59a7-cca7-c886-869d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "518e-77e7-f8d4-aa88",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "fd0e-be0f-9d80-d1ef",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "e85f-61b1-bbd2-6474",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "2bb1-fb7c-ff25-c586",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Pintle Mount"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0b15-2b04-ebd9-e711",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "0704-837e-b040-8717",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7887-f0c0-7cfb-ebc2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "6fe9-6a78-2d47-9f3d",
+          "name": "Storm bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0e14-ad61-ab53-9533",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfa3-5fcd-af10-5520",
+          "id": "24e7-3655-7ba2-e50f",
+          "name": "Heavy stubber",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "4"
+            }
+          ]
+        }
+      ],
+      "id": "148d-8877-88dc-2f3f",
+      "name": "Pintle Mount"
+    }
+  ]
+}

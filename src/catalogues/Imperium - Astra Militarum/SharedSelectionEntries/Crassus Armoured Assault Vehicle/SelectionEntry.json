@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Crassus Armoured Assault Vehicle",
+    "prevIdentifier": "Arvus Lighter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9c11-0226-d8cf-3839",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "89a2-06b7-a57e-ac53",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "91f6-8681-ba18-200a",
+          "name": "Pintle Mount"
+        },
+        {
+          "targetId": "4ae9-9f83-2d4f-b101",
+          "id": "817c-56d2-f912-2153",
+          "name": "Stat Damage (Light Mach)"
+        }
+      ],
+      "id": "e537-1f64-03d4-4e45",
+      "name": "Crassus Armoured Assault Vehicle",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "add6-a095-748d-c101",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5fd8-9286-3892-699d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "3787-268f-ad7a-40fc",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

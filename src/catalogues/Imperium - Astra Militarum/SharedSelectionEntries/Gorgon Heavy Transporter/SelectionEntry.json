@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Gorgon Heavy Transporter",
+    "prevIdentifier": "Earthshaker Carriage Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "313a-0941-e488-41b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "c6da-d4b6-b725-36e4",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c9b2-9658-fd98-9194",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb78-2763-6922-6326",
+          "id": "bfce-64aa-7f6e-948c",
+          "name": "Twin Heavy Stubber",
+          "modifiers": [
+            {
+              "field": "ccd7-aa16-9f10-31f0",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "id": "066c-5ca9-3a9a-1c60",
+      "name": "Gorgon Heavy Transporter",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "99c1-dfb0-6320-23bb",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5476-0b3d-4699-1e76",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "567f-c69d-3d28-0301",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

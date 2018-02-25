@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Lasgun",
+    "prevIdentifier": "Hot-Shot Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "d650-6198-e442-a03c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0b74-7e13-6cde-11da",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ba5f-3a00-a55e-dc4f",
+      "name": "Lasgun",
+      "infoLinks": [
+        {
+          "targetId": "d174-eb55-aaa6-d032",
+          "id": "ad2a-3785-49ea-4c72",
+          "name": "Lasgun"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Crewman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b324-ac38-b2d6-3927",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "7b9c-efc0-1cb4-94ab",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6f74-2869-b1c4-d6d4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6928-26b6-5f29-8d43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "db1b-a86e-99d5-ebb4",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f5ca-d674-2dbc-2dd2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c152-c4bd-d50e-8ce0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "9123-8bb2-91dd-2fa7",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "f01e-54a4-a14a-f8b9",
+      "name": "Crewman",
+      "infoLinks": [
+        {
+          "targetId": "efac-a40e-8d33-0bb5",
+          "id": "9b8e-fe1a-add8-c7d0",
+          "name": "Guardsmen Crew"
+        }
+      ]
+    }
+  ]
+}

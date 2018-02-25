@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Fallen w/Special or Combi Weapon",
+    "prevIdentifier": "Fallen w/Melee Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "09d9-7722-31d8-c2c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2f6d-4b70-bc1e-2871",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "2cfa-e9b4-7aed-371e",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1706-f16e-f8b0-6145",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eaf5-c706-dd51-6aed",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "2f0a-ab29-9e06-6c7d",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "8dd9-89ef-f81f-303d",
+      "name": "Fallen w/Special or Combi Weapon",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Fallen w/ Special Weapon",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "cc80-cbf2-6187-ce3b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "4492-0cc4-eae8-515c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "1c63-faeb-85fb-502e",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Fallen w/ Combi Weapon",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "9040-321e-7b62-988c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "b758-41a1-5c86-384b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "dfdc-431e-72c3-79b2",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e11e-4e5d-d441-3d2f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8dd9-89ef-f81f-303d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

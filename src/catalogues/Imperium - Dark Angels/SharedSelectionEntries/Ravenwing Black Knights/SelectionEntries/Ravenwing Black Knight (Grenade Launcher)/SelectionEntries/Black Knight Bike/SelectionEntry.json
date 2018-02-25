@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Black Knight Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "2ff9-8047-f85a-ff44",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "c662-fb48-5cdd-cab5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "b829-2131-1e5b-b742",
+      "name": "Black Knight Bike",
+      "infoLinks": [
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "3ab5-d377-cc22-e0a1",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "identifier": "Shas'o R'alai",
+    "prevIdentifier": "Shas'o R'myr"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "521f-ebba-9c2d-6d4d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "205c-eb0d-1cf8-ec52",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "c720-840f-a761-9fc8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "56a7-5d9d-f8c1-69f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "3784-9686-2c38-aefa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "cb0b-7d5a-451c-c153",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "3744-6fa0-599d-d192",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "257e-82d7-82b7-4434",
+          "id": "6e9a-e096-7ec5-07f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5a50-8ff7-fba5-2d6e",
+          "id": "dfa5-2fba-8490-c0b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606",
+          "id": "8568-dd9e-9eeb-2dfe",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "80c5-88c4-b792-0c63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e6a-b88e-8437-8cb6",
+          "id": "e379-702c-bf01-4981",
+          "name": "Drone controller"
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "4948-1b2e-0251-3675",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "c746-0525-0455-31a0",
+          "name": "Warlord"
+        }
+      ],
+      "id": "95e2-fb7c-9a79-401c",
+      "name": "Shas'o R'alai",
+      "book": "IAI: Xenos",
+      "page": "41",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "a5e3-634f-b2cd-b1d1",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "02f2-adda-f001-b312",
+          "id": "05b7-0eea-95c3-edf9",
+          "name": "Master of War"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "3034-2231-4f88-939c",
+          "name": "Manta Strike"
+        },
+        {
+          "type": 1,
+          "targetId": "9b19-f096-5c9d-696d",
+          "id": "7dfc-0a07-61d5-14f2",
+          "name": "Drone Support"
+        },
+        {
+          "targetId": "c277-d471-37c8-1889",
+          "id": "84cc-fa7b-b684-20a0",
+          "name": "Shas'o R'alai"
+        },
+        {
+          "targetId": "8475-dd7a-b07a-64f6",
+          "id": "37b2-e102-396d-2018",
+          "name": "'Eclipse' Shield Generator"
+        },
+        {
+          "targetId": "464c-4f9d-8cf5-bbbf",
+          "id": "4638-6d83-71a2-23fa",
+          "name": "The Assassin"
+        },
+        {
+          "targetId": "4d28-cb60-b2b6-e1fc",
+          "id": "8bb3-3218-1e3e-7612",
+          "name": "Photon Casters"
+        }
+      ]
+    }
+  ]
+}

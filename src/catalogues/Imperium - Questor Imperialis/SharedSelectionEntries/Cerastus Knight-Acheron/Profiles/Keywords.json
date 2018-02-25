@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Keywords",
+    "prevIdentifier": "Cerastus Knight-Acheron 3"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "IMPERIUM, QUESTOR IMPERIALIS, <HOUSEHOLD>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "TITANIC, VEHICLE, CERASTUS KNIGHT-ACHERON"
+        }
+      ],
+      "id": "665c-5c1b-ebdc-b9ce",
+      "name": "Keywords",
+      "modifiers": [
+        {
+          "type": 3,
+          "field": "ce6c-4765-4bb8-bd49",
+          "value": ", CHARACTER",
+          "conditions": [
+            {
+              "childId": "5973-c86d-b500-4a14",
+              "type": 2,
+              "field": "selections",
+              "scope": "03ab-01e9-4319-e4fa",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

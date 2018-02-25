@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Battering Onslaught",
+    "prevIdentifier": "Crazed"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+      "profileTypeName": "Abilities",
+      "characteristics": [
+        {
+          "name": "Description",
+          "characteristicTypeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+          "value": "Add 1 to this model's Attacks characteristic if it is equipped with two melee weapons. This extra attack has been added to its profile."
+        }
+      ],
+      "id": "4189-3282-4281-e27c",
+      "name": "Battering Onslaught",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "0fb7-cd07-ecfc-1db8",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2cc8-0e93-7906-cdf0",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ],
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "0fb7-cd07-ecfc-1db8",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "2cc8-0e93-7906-cdf0",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ],
+                  "conditionGroups": [
+                    {
+                      "type": 1,
+                      "conditions": [
+                        {
+                          "childId": "6953-d88f-40ce-231f",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "2cc8-0e93-7906-cdf0",
+                          "value": 1.0,
+                          "shared": true
+                        },
+                        {
+                          "childId": "91ce-45ca-8f58-d9ff",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "2cc8-0e93-7906-cdf0",
+                          "value": 1.0,
+                          "shared": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

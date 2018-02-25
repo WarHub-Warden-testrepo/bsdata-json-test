@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Combat Engineer Watch Master"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2a84-ce60-05e3-d328",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9213-a304-3c06-449a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b680-ede4-8682-bb92",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "49db-3012-a7c7-42e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b8d4-09ff-0220-925e",
+          "id": "a976-3d13-e477-b543",
+          "name": "Melta Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1e16-2d41-8376-e95e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "adf6-3e5b-5e4b-e04d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "7317-7de1-160f-ce9a",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c49-0d33-a399-7795",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7176-fd5c-12ba-13b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "814e-04ee-3e88-244f",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "5d55-e37d-2704-44cc",
+      "name": "Combat Engineer Watch Master",
+      "infoLinks": [
+        {
+          "targetId": "a151-7366-ac5f-9cf1",
+          "id": "3fd9-be76-7883-6e80",
+          "name": "Death Korps Combat Engineer Watch Master"
+        }
+      ]
+    }
+  ]
+}

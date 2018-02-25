@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Scout (Shotgun)",
+    "prevIdentifier": "Heavy Weapon Scout"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6d60-de96-ec4c-1e2f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "838b-7a4d-e28e-7b45",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "66da-5114-df7c-7924",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b29-bc1f-cebc-3d95",
+          "id": "3aff-8dda-408a-a1ce",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4542-3b6d-2576-934b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ceae-7078-1bc2-107a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "8bed-2858-6b2b-3e0e",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "6f52-33b7-0b4a-cb13",
+      "name": "Scout (Shotgun)"
+    }
+  ]
+}

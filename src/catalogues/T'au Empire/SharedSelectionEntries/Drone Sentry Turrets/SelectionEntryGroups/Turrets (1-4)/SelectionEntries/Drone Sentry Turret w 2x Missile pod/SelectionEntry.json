@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Drone Sentry Turret w/ 2x Missile pod",
+    "prevIdentifier": "Drone Sentry Turret w/ 2x Burst cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6990-18b8-4f19-5b7e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1485-63ee-8f0e-36bc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4a2a-9c34-3fc5-8e51",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "115e-6b4c-762e-1289",
+          "id": "a15d-65ba-3db5-af77",
+          "name": "Missile pod"
+        }
+      ],
+      "id": "fcbf-ed03-5a73-ecf7",
+      "name": "Drone Sentry Turret w/ 2x Missile pod",
+      "infoLinks": [
+        {
+          "targetId": "cd30-4c13-3d5d-7a06",
+          "id": "bb1c-1e15-2bbd-b7d7",
+          "name": "Drone Sentry Turret"
+        }
+      ]
+    }
+  ]
+}

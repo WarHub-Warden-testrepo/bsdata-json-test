@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Incinerator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d1b4-5509-3c40-a898",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0457-74bb-0a1a-c911",
+      "name": "Incinerator",
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "20"
+        }
+      ]
+    }
+  ]
+}

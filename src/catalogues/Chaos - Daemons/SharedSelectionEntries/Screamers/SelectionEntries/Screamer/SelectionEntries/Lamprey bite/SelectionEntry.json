@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Lamprey bite"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "48f4-fc3e-54d0-63ba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c3f4-1cb1-ce8e-a7d3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "bd0b-fd08-04e0-09d6",
+      "name": "Lamprey bite",
+      "infoLinks": [
+        {
+          "targetId": "6087-fa8a-d778-8b5f",
+          "id": "82b7-3ffe-f1c8-a4ab",
+          "name": "Lamprey bite",
+          "modifiers": [
+            {
+              "field": "837d-5e63-aeb7-1410",
+              "value": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

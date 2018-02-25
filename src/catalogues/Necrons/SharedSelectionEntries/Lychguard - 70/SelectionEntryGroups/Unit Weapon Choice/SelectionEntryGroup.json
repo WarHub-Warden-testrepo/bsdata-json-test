@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a536-7b18-375b-6822",
+      "constraints": [
+        {
+          "id": "8369-20c7-a220-0c27",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8147-9b2e-e029-09cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "89a4-d59a-d509-14a6",
+          "id": "8029-0c30-7593-dca9",
+          "name": "Hyperphase Sword and Dispersion Shield",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "6299-dc56-da5d-5b0f",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "db75-f4e0-3df1-7701",
+          "id": "a536-7b18-375b-6822",
+          "name": "Warscythe",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "11",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "6299-dc56-da5d-5b0f",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "11"
+            }
+          ]
+        }
+      ],
+      "id": "ccb2-7c93-b6f6-70ab",
+      "name": "Unit Weapon Choice",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

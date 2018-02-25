@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e42f-a570-fba5-b0ac",
+      "constraints": [
+        {
+          "id": "1c59-1b37-1156-eb11",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8ef8-33b4-ad22-1a39",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2b76-6f6c-34c9-a505",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9f4d-d898-6bb7-ac8c",
+          "id": "273c-1dec-f08e-eabe",
+          "name": "Deathwatch Vanguard Equipment"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0f05-25f3-82a9-9204",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "01b8-d93a-d3b6-f3e8",
+          "id": "90a3-d4ba-ee2e-4a2c",
+          "name": "Heavy Thunder Hammer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2feb-2b07-1316-2fe1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "c011-49d2-f65e-95dd",
+          "name": "Lightning Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7233-5e5f-616e-c176",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4e36-53b0-1545-e3f3",
+          "id": "e42f-a570-fba5-b0ac",
+          "name": "Bolt Pistol And Chainsword"
+        }
+      ],
+      "id": "9d50-11c2-8d10-355e",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "1c59-1b37-1156-eb11",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "e42f-a570-fba5-b0ac",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                },
+                {
+                  "childId": "90a3-d4ba-ee2e-4a2c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                },
+                {
+                  "childId": "c011-49d2-f65e-95dd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "8ef8-33b4-ad22-1a39",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "c011-49d2-f65e-95dd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                },
+                {
+                  "childId": "90a3-d4ba-ee2e-4a2c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                },
+                {
+                  "childId": "e42f-a570-fba5-b0ac",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "431c-d1ad-0212-1306",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

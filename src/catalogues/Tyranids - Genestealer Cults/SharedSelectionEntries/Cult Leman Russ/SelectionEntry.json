@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Cult Leman Russ",
+    "prevIdentifier": "Cult Chimera"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 132.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "de93-ffbb-dc09-5738",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "4725-99d2-8060-953b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3bdf-4f63-fe50-1ea5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "f6c2-20cc-cea6-a8cc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2832-f3b6-6175-011f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "799b-3424-af4c-0958",
+          "id": "b71d-07f0-0af2-440c",
+          "name": "Hunter-killer Missile"
+        }
+      ],
+      "id": "f6f6-2f9e-c4e0-2998",
+      "name": "Cult Leman Russ",
+      "infoLinks": [
+        {
+          "targetId": "7f8e-7d4a-13a0-e8ab",
+          "id": "6644-7ae8-ad1d-5273",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "eb65-363e-41a8-5cf5",
+          "id": "dc1d-9994-b0fe-ace8",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

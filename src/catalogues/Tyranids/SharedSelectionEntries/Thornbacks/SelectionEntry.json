@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Thornbacks",
+    "prevIdentifier": "Extended Carapace"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "8af4-ca9a-0593-d94d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "ac96-fd4d-7652-89c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "1a09-a1e2-feeb-866c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d482-6830-b5c2-bb33",
+          "id": "4027-e08e-d029-d944",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6f2a-1546-df78-9521",
+      "name": "Thornbacks",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "dabc-b73c-2ba6-26b1",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "f6a4-e2dd-1a97-c642",
+          "id": "78a8-796b-0d5c-3e99",
+          "name": "Monstrous Brood"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "6f2a-1546-df78-9521",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "6f2a-1546-df78-9521",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

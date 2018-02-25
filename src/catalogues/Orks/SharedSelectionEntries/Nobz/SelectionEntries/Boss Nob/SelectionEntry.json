@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Boss Nob"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0204-276c-67ec-3ca0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "344a-fdac-6649-534b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "64b2-c0c8-ac39-fcb3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c8f6-b38b-637f-3c7c",
+          "id": "ef34-4362-2b17-da7d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "f6d4-35d9-7245-04cf",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8f83-b4ca-7280-1a38",
+      "name": "Boss Nob"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Pistols"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d0e3-b70a-3df8-5ad2",
+      "constraints": [
+        {
+          "id": "e099-6923-e457-3379",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "288b-b469-cf42-ae9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "d0e3-b70a-3df8-5ad2",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "288b-b469-cf42-ae9e",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "00f7-e2a3-9bca-606f",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "3fa1-01c7-6add-f739",
+      "name": "Pistols"
+    }
+  ]
+}

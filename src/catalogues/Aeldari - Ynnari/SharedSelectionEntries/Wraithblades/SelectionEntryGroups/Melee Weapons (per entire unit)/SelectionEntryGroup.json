@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Melee Weapons (per entire unit)"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "1182-744d-6e5d-7b7a",
+      "constraints": [
+        {
+          "id": "f2d7-757b-ff94-d1e7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbfa-8538-f105-4cc3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7853-c321-391e-c530",
+          "id": "1182-744d-6e5d-7b7a",
+          "name": "Ghostswords",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "6",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "6"
+            }
+          ]
+        }
+      ],
+      "id": "b933-1385-da44-58c0",
+      "name": "Melee Weapons (per entire unit)"
+    }
+  ]
+}

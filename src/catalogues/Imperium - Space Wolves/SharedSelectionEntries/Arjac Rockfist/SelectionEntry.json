@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "identifier": "Arjac Rockfist",
+    "prevIdentifier": "Bjorn the Fell-handed"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 145.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "5e9e-22ba-216c-6024",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "27c7-b274-1d43-7c64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "8879-c32f-2877-a601",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ea20-9df0-498e-1178",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6500-3b04-58c8-2df0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "14d8-d4ff-4c82-896e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "388a-b634-8d7d-f435",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "912a-5924-339a-e2d4",
+          "id": "0154-872a-10f3-9537",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e4d0-d6b5-264d-6665",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2cfa-bb51-4958-859e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f65d-f5db-6636-3e58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5d7d-2eff-644e-d107",
+          "id": "daa5-57e3-7f9f-28df",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "19cb-b06a-d5e4-d056",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6407-3106-838b-40cb",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0754-f75e-78d6-79b8",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "d1d0-79e2-62ab-d772",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "0754-f75e-78d6-79b8",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "46ac-17ff-2d85-f721",
+      "name": "Arjac Rockfist",
+      "infoLinks": [
+        {
+          "targetId": "c468-1b76-12ec-ecd3",
+          "id": "2913-0c30-8608-79d1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "737f-f43c-dc4a-c183",
+          "id": "f16e-20eb-479c-3edb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "0557-3243-4fe5-a74f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0a3f-af33-bc82-9f86",
+          "id": "cff6-1b2e-b0de-4bae",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "13b6-c6e8-875a-e215",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1652-d61f-7126-b658",
+          "id": "a620-ef94-2712-e43a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

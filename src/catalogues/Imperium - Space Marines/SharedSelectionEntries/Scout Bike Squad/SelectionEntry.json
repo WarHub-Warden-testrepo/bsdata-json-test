@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Scout Bike Squad",
+    "prevIdentifier": "Inceptor Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "cbb0-3b30-2004-94fe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3cc0-6707-6541-3f0c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f061-28ac-6309-1bb7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bba0-95e4-2401-f202",
+          "id": "9e62-f17c-a4fd-03ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4da5-d17d-69ac-454f",
+          "id": "1e88-a7f4-1bf4-29b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "03db-c51e-bd5c-b456",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1c9d-5baf-1410-2234",
+      "name": "Scout Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "f159-00fa-7a23-cdc8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c027-2e84-7468-0607",
+          "id": "2910-53b9-7204-07ee",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8b15-e6fa-a990-b4bf",
+          "id": "59d3-f290-fe06-abac",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "c256-3970-07e9-ce7d",
+              "type": 4,
+              "field": "selections",
+              "scope": "1c9d-5baf-1410-2234",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "c256-3970-07e9-ce7d",
+              "type": 4,
+              "field": "selections",
+              "scope": "1c9d-5baf-1410-2234",
+              "value": 7.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Predator",
+    "prevIdentifier": "Librarian on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "247e-1089-de66-a5d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "7c67-ae6d-ab4c-1720",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "9f27-1d3c-0fec-8575",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "5532-d2f2-7559-27d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4158-b2ef-37e9-f5f5",
+          "id": "10f8-f48a-cf57-b17e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1a15-3cd0-d803-a51d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "42c9-9a20-8824-2290",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "cd08-e013-4e21-1a47",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7559-e82f-22f7-a6c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "54b8-4c50-835b-cc69",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "68cc-6db3-b109-6cfa",
+      "name": "Predator",
+      "infoLinks": [
+        {
+          "targetId": "9174-5a72-d27c-140b",
+          "id": "e22f-b92a-ea47-1b45",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "c4ec-991a-90a8-4265",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

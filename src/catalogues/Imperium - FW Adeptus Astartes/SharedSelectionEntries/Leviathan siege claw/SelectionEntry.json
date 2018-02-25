@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Leviathan siege claw",
+    "prevIdentifier": "Indynabula array"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "f42a-6af7-6b1a-b785",
+      "name": "Leviathan siege claw",
+      "infoLinks": [
+        {
+          "targetId": "d95b-474a-c8c6-e351",
+          "id": "c3e6-6bff-0ddb-a258",
+          "name": "Leviathan siege claw"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "32.5",
+          "conditions": [
+            {
+              "childId": "f42a-6af7-6b1a-b785",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

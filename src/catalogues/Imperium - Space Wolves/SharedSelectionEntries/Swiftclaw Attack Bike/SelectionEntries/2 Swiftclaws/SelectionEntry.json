@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "2 Swiftclaws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c472-33d6-3ec6-9dd6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "026f-c7e4-1837-3a3f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b0c2-c653-e31e-98f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "660f-e2af-0bb6-8196",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c570-6b1e-425b-9f22",
+          "id": "e4ab-19b9-1e81-cf7b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b29f-fbf6-6bc7-09bd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d880-20cc-8d01-0748",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3f8e-3a18-fabd-8ba4",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "18b6-5d28-d7a5-aca5",
+      "name": "2 Swiftclaws"
+    }
+  ]
+}

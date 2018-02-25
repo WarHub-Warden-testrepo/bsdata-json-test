@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Skitarii Vanguard",
+    "prevIdentifier": "Vanguard Alpha"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "aa5f-31c1-87d2-65e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f4e9-fdfc-d210-f161",
+          "id": "dc94-259a-b7e8-a2fe",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "60e5-76e0-1fe3-5935",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "057e-32f8-9d01-d830",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82df-dd27-dc34-d2db",
+          "id": "e84c-6e82-d724-c0a4",
+          "name": "Radium Carbine"
+        }
+      ],
+      "id": "edf3-2fdc-a678-95e4",
+      "name": "Skitarii Vanguard",
+      "infoLinks": [
+        {
+          "targetId": "37dd-8f59-0638-7c2f",
+          "id": "d752-fa5c-2fde-3f9c",
+          "name": "Skitarii Vanguard"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two twin lascannons",
+    "prevIdentifier": "Two twin autocannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7c83-6065-a4fb-194f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3692-fd28-eff1-6948",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4b8b-03eb-3ae4-ca77",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b870-99d7-df15-97da",
+          "id": "70fa-f987-6550-2f36",
+          "name": "Twin lascannon"
+        }
+      ],
+      "id": "f01a-5016-a2a7-cff2",
+      "name": "Two twin lascannons"
+    }
+  ]
+}

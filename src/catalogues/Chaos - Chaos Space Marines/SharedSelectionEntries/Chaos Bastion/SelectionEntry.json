@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Chaos Bastion",
+    "prevIdentifier": "Combi-bolter - 67"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "58d3-004c-5c81-259f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "9d13-ce21-39df-0757",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d2a8-d085-bde4-b0ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "d0b4-46ae-1d07-f0c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "59f6-4388-a2ae-3c38",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6c75-6d8a-7295-c1ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0
+            },
+            {
+              "id": "e645-2d79-4897-9963",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "e7c2-61a8-dbdf-cd73",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "4d4c-d7a0-0056-7af1",
+      "name": "Chaos Bastion"
+    }
+  ]
+}

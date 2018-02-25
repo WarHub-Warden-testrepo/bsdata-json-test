@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "TX7 Fire Support Hammerhead Gunship",
+    "prevIdentifier": "TX7 Heavy Bombardment Hammerhead Gunship"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 117.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "063a-f97e-2294-4056",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "068c-ac19-16d6-acd0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "9ecd-4824-22a1-7de5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "3bd6-beca-643d-fbf4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "bfe6-f7cf-d8e3-17ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b60b-ab86-4a67-7218",
+          "id": "8e51-6b2f-6576-df6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b39e-5c98-fe33-7db9",
+          "id": "fe10-694b-7719-dab0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8a41-895b-6e2d-ffb9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "9725-8a34-5a5f-cbc1",
+          "name": "Seeker missile"
+        },
+        {
+          "type": 1,
+          "targetId": "062a-d930-f111-5583",
+          "id": "5db7-0f5a-05e6-387e",
+          "name": "Gunship sponsons"
+        }
+      ],
+      "id": "817b-efd4-8cf6-9a72",
+      "name": "TX7 Fire Support Hammerhead Gunship",
+      "book": "IAI: Xenos",
+      "page": "51",
+      "infoLinks": [
+        {
+          "targetId": "434d-c5fc-ee01-7a35",
+          "id": "1acd-dcb1-bea0-6aa4",
+          "name": "TX7 Hammerhead Gunship"
+        },
+        {
+          "type": 1,
+          "targetId": "7519-ce77-b8bd-879a",
+          "id": "f785-62df-3001-6fab",
+          "name": "Hover Tank"
+        },
+        {
+          "type": 1,
+          "targetId": "ed2c-4b7d-a3cb-0417",
+          "id": "4800-e003-8afc-2501",
+          "name": "Explodes"
+        },
+        {
+          "type": 1,
+          "targetId": "88bf-68bf-6590-1443",
+          "id": "5a3e-df64-a29a-819c",
+          "name": "Attached Drones (TX7 Hammerhead Gunship)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "4eb8-9427-afe6-de87",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d131-7588-dd98-7ef0",
+          "id": "0acf-6843-c198-7b40",
+          "name": "TX7 Hammerhead Gunship 1"
+        },
+        {
+          "targetId": "620c-5a2a-3934-15b0",
+          "id": "0e13-a8da-4256-4a7b",
+          "name": "TX7 Hammerhead Gunship 2"
+        },
+        {
+          "targetId": "c76a-b74d-0030-9a31",
+          "id": "59e3-e25b-e7ed-c490",
+          "name": "TX7 Hammerhead Gunship 3"
+        }
+      ]
+    }
+  ]
+}

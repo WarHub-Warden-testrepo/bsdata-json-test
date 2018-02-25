@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Vortimer Pattern Razorback",
+    "prevIdentifier": "Thunderhawk heavy cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "20ff-f37b-5b16-ba39",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "5695-3533-5227-9dce",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5f54-ad56-a036-640f",
+          "id": "7c30-0054-30b6-ce84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "79a9-2fca-fdf0-9699",
+          "id": "bc98-b71e-a74e-61b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9d88-c10f-a509-d631",
+          "id": "2855-1a9b-7cce-0c2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "63b4-a0b0-6be6-dfd6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fe9c-bfc5-d1ca-5a78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "e483-681a-888c-e9bf",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "380b-b55a-cd83-de38",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "4739-89ff-29c0-0c1d",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "febf-8984-8216-c19e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c470-a397-571d-0f31",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69da-4af0-445d-3e00",
+          "id": "0b6a-9103-c3ba-a738",
+          "name": "Twin psycannon"
+        }
+      ],
+      "id": "4a36-10ef-98c0-1b85",
+      "name": "Vortimer Pattern Razorback",
+      "book": "Imperial Armour: Forces of the Adeptus Astartes",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "af1d-c888-5164-58e5",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "6578-7ae6-7397-b7a2",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

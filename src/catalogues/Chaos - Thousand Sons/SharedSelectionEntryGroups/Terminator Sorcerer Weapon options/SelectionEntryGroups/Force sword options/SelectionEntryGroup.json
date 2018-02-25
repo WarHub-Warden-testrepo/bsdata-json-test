@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Force sword options",
+    "prevIdentifier": "Melee weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "4aff-53b5-5651-e36b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "5bc5-043d-3a13-92ce",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c888-feef-65d2-5fd5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d0a0-f56b-6db2-ca73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e7-1f9b-4c1c-aad9",
+          "id": "c7da-f4cc-3dc1-029d",
+          "name": "Force sword",
+          "modifiers": [
+            {
+              "field": "d0a0-f56b-6db2-ca73",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1723-b106-7e89-4be2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4a0e-0f13-63c2-9aae",
+          "id": "b7a5-7eb6-a8c3-33a1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b452-9bc4-99c1-97f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "920f-760e-7e40-4e91",
+          "name": "Force stave"
+        }
+      ],
+      "id": "d6ee-0e52-21df-0d20",
+      "name": "Force sword options"
+    }
+  ]
+}

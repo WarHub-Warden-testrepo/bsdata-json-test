@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "identifier": "Ordo Malleus Inquisitor in Terminator Armour",
+    "prevIdentifier": "Inquisitor Greyfax"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 91.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "78cc-daf7-1448-610f",
+          "id": "6937-96f8-7c8f-d6af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "a0ac-6438-40de-19d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fe04-542e-2ea4-f32b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a797-cf6c-7e76-1595",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3673-18cb-edb5-a4c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a53f-f841-4405-5660",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6370-55c4-5013-14f8",
+          "id": "c193-240f-c7c5-1461",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d6db-680a-bae6-4c88",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e54-3c42-285b-61df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "809c-0d19-bb12-fe94",
+          "id": "5a5a-e03e-561c-813c",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "e9dc-046e-a0f7-a2fd",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2058-db41-0df2-1d06",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "d937-eca9-978c-f001",
+          "name": "Warlord"
+        }
+      ],
+      "id": "ba53-1df7-404e-e9c9",
+      "name": "Ordo Malleus Inquisitor in Terminator Armour",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "6b6c-b8d5-f81e-6145",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "5086-d3c4-7238-d42f",
+          "id": "8a91-fcb1-1fad-c954",
+          "name": "Quarry - Malleus",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Quarry"
+            }
+          ]
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "ed5a-7eae-6816-ef55",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "429a-6af1-4e37-1330",
+          "id": "ffe3-f9e0-96f4-ecda",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "96eb-d0af-2f80-4423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ba53-1df7-404e-e9c9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

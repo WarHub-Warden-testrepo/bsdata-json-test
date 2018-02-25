@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Seraphim Squad",
+    "prevIdentifier": "Death Cult Assassins"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "1855-2951-04b3-a445",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "2ddb-47b1-c6be-0f3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "6b70-4809-c6cf-9c9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a69a-94af-9bb4-b32d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7039-5c12-650a-b531",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f4b2-d2d2-b348-acca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "faed-b330-06d4-494a",
+          "id": "6529-9204-4861-df74",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "a623-bfd9-50b3-acb5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7c58-20e2-8d14-645b",
+      "name": "Seraphim Squad",
+      "book": "Index: Imperium 2",
+      "page": "99",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "07f0-9d55-a0a1-d090",
+          "name": "A"
+        },
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "744a-6759-efcd-23aa",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1818-bb7f-35b9-e469",
+          "id": "8acc-09f1-960a-dd9b",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "7c58-20e2-8d14-645b",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

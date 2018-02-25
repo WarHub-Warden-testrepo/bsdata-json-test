@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "identifier": "Chaos Space Marines",
+    "prevIdentifier": "Smoke Launchers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "b5bf-6f43-f370-e3a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "e5d0-db31-44f3-83b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bdf1-be58-fae3-1ff8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "90e2-5b29-afa7-a041",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "9f75-73e0-470d-f874",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "3bdc-76f2-9847-cc62",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "fec0-4116-8958-cecb",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5def-c643-94b9-3531",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "4851-e576-4129-8f6b",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "34a8-8285-a3c2-f4e6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a5ba-979f-be55-9526",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b82-0948-eac4-b35f",
+          "id": "5e15-9710-ba3f-2387",
+          "name": "Icon of Excess",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "81f9-01f6-e82e-7eec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c3f6-8718-9486-0bef",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4925-fdaf-aee3-c408",
+          "id": "86dd-84f9-b820-133c",
+          "name": "Icon of Wrath",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c919-21bc-48b7-0423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f020-569b-3588-7173",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "f479-cc3e-8181-285a",
+          "name": "Icon of Flame",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "57d0-d6cb-db5a-2142",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6e79-1359-9ab5-73ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eab4-cf83-7555-b8c3",
+          "id": "4cf5-da6f-b8f9-48f7",
+          "name": "Icon of Vengeance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfe4-7311-dbd5-c9e1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7b61-1289-ed7e-24c1",
+      "name": "Chaos Space Marines",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "6817-74ab-c947-9d87",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7b61-1289-ed7e-24c1",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7b61-1289-ed7e-24c1",
+              "value": 15.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7b61-1289-ed7e-24c1",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

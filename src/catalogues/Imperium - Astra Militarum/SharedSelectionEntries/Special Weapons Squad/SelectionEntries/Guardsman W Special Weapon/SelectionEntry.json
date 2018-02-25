@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Guardsman W/ Special Weapon",
+    "prevIdentifier": "Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "19ff-172d-702c-6ea1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "4371-61be-2184-fa76",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "d494-5927-28c2-df30",
+      "name": "Guardsman W/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "3635-257d-26f1-26e8",
+          "id": "fc4b-3327-b877-cbe4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

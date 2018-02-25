@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Shotgun",
+    "prevIdentifier": "Veteran W/ Heavy Flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "585c-9bba-aed8-e12d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "30d7-fa43-8d3f-9c0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b6e5-4ccc-181d-06cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fb72-af07-b892-6208",
+          "id": "d02b-22c0-3b5b-b5ce",
+          "name": "Shotgun"
+        }
+      ],
+      "id": "4cee-7e98-f109-838e",
+      "name": "Veteran w/ Shotgun",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "cbb0-76d5-6722-db2c",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

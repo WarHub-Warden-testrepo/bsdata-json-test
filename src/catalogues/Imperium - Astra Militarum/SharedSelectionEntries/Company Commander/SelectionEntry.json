@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Company Commander",
+    "prevIdentifier": "Rough Riders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7660-57f0-2282-cd46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dfaa-e5a6-16d4-bb64",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "09dc-bbea-1285-241e",
+          "name": "Frag grenade"
+        },
+        {
+          "targetId": "7d8c-221c-99c5-97d2",
+          "id": "52b6-53f6-3ca6-06b1",
+          "name": "Astra Militarum Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "85f6-4431-64bc-b9ac",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9d1a-1aa3-b5ce-00da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "69b7-71e1-2fae-4820",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ed11-4214-2988-9a13",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d6e2-a400-a8db-d4f2",
+          "id": "7559-24f8-47bd-f27a",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "ed11-4214-2988-9a13",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "6fcd-b8db-9768-f07c",
+      "name": "Company Commander",
+      "book": "Codex: Imperial Guard",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "2ff26b94-8048-d15d-c541-fd4da0f49571",
+          "id": "edff-1b28-4cda-ecf4",
+          "name": "Voice of Command"
+        },
+        {
+          "targetId": "783d-d067-2d7f-d2a1",
+          "id": "b955-e375-647d-ccf2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f34c8090-4e32-bd27-df37-1b714a4288d2",
+          "id": "bec1-ec08-c7d7-134b",
+          "name": ""
+        }
+      ]
+    }
+  ]
+}

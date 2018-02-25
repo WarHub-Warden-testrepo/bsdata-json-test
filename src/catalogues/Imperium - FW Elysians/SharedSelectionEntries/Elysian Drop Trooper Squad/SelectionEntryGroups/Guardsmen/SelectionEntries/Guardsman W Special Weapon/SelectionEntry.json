@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Guardsman W/ Special Weapon",
+    "prevIdentifier": "Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "879c-20bf-0ea9-1cff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fc56-4451-00f9-4aa0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e9b-b31d-0bf3-d898",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "de9a-48b7-2947-87f2",
+          "name": "Frag Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9692-36d7-52be-43da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "8234-1b4d-9871-0e03",
+          "name": "Krak grenade"
+        },
+        {
+          "type": 1,
+          "targetId": "7835-492b-5a1f-df3b",
+          "id": "4b53-309d-d821-c98f",
+          "name": "Elysian Special weapons"
+        }
+      ],
+      "id": "efd1-3858-71ee-11e6",
+      "name": "Guardsman W/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c0ac-eaf8-9629-5062",
+          "id": "9094-a262-82bd-fdda",
+          "name": "Guardsman"
+        }
+      ]
+    }
+  ]
+}

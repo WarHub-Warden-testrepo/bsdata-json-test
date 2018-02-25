@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Weapon options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2151-1183-62a8-3dad",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "2f63-454a-645b-1d4d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "2dcd-70d1-b780-480d",
+          "id": "6443-602d-af32-857b",
+          "name": "Blightlord Terminator Melee Weapons"
+        }
+      ],
+      "id": "9b8f-0d94-3832-bfed",
+      "name": "Weapon options",
+      "modifiers": [
+        {
+          "field": "2151-1183-62a8-3dad",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "95b8-c56a-b52b-7d92",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "2f63-454a-645b-1d4d",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "95b8-c56a-b52b-7d92",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

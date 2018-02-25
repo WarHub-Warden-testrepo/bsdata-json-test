@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Player"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4f8b-1a8a-0b06-9234",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "9219-732d-de0d-2ee6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 12.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8e46-ed6e-158d-14c5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f9fa-b3d6-7285-8262",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f0f-7345-bc4f-9771",
+          "id": "aa46-0476-a387-d42e",
+          "name": "Prismatic Grenades"
+        }
+      ],
+      "id": "119a-a3b0-cc99-4f2e",
+      "name": "Player",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "69",
+      "infoLinks": [
+        {
+          "targetId": "86a8-5c65-d40b-d0a6",
+          "id": "11ae-eecd-c33b-9b03",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "74fb-ab0a-0ef5-ce0d",
+          "id": "8c5b-bf96-9fb8-014f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

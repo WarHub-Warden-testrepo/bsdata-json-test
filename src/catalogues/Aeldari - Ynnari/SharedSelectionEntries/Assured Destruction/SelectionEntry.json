@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Assured Destruction",
+    "prevIdentifier": "Shadow Strike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4a3c-f0b4-2ad1-a5a9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3aa1-352b-56ed-70e9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1861-9e22-2610-0647",
+      "name": "Assured Destruction"
+    }
+  ]
+}

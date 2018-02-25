@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "identifier": "XV88 Broadside Battlesuits",
+    "prevIdentifier": "XV8 Crisis Bodyguards"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "6f65-b64f-b15d-3522",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "a578-f5fc-6c85-fda4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "c562-d151-1194-0121",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "2d9c-3bdf-3044-a80a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a5ca-8661-74e0-89e3",
+      "name": "XV88 Broadside Battlesuits",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "941e-6b36-d214-298a",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "9193-3832-a36d-a5ca",
+          "name": "Bonding Knife Ritual"
+        },
+        {
+          "type": 1,
+          "targetId": "9b19-f096-5c9d-696d",
+          "id": "7b9b-851c-ed76-9857",
+          "name": "Drone Support"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "be79-b567-ab48-ebf5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "be79-b567-ab48-ebf5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "be79-b567-ab48-ebf5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "type": 4,
+              "field": "selections",
+              "scope": "a5ca-8661-74e0-89e3",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

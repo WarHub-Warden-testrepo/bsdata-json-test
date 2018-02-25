@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Tomb Blade",
+    "prevIdentifier": "Canoptek Scarabs"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 24.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e0df-6fbb-5092-d109",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5e08-27f7-3ae9-4cf0",
+          "id": "ba68-c14e-9274-7054",
+          "name": "Shieldvanes",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "ff80-1682-a708-e772",
+      "name": "Tomb Blade",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "9f59-c20a-aa4e-4e0e",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

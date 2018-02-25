@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Dreadnought",
+    "prevIdentifier": "Chaplain"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0e07-96eb-1558-526f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "1165-796f-0310-5afc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "396b-5c0d-df9b-45f6",
+          "id": "b94c-f05b-6e75-f1b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5e7d-af8c-c243-b581",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "2e02-e21a-1680-a1ee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c0df-58e4-581c-865c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "6a64-f8c8-acc2-9a35",
+          "id": "ce20-8b37-ba3b-8c58",
+          "name": "Dreadnought Arm Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f78a-d5ea-2e32-e353",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c9c8-d7d0-6706-b099",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2846-aada-ddb5-e3cb",
+          "id": "3129-5f4b-cba3-0485",
+          "name": "Dreadnought Heavy Weapons"
+        }
+      ],
+      "id": "4c82-ac11-b0ca-cbfd",
+      "name": "Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2600-01b5-0b37-536a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "6f8c-eab5-e827-e23b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

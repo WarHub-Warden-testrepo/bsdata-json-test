@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Storm shield - 116",
+    "prevIdentifier": "Combat shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "38b5-ef30-f87f-5275",
+      "name": "Storm shield",
+      "infoLinks": [
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "c84e-aca5-a769-ee7f",
+          "name": "Storm shield"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

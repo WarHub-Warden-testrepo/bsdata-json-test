@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "identifier": "Autarch",
+    "prevIdentifier": "Maugan Ra"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "4147-6f89-6d0e-12b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "0312-3592-67a8-9789",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "17dc-822d-3028-f351",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f3a-0e93-5211-1a55",
+          "id": "5de1-84ac-ff26-0314",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5409-1e11-4eea-a739",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "a460-8e2e-94ea-8372",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b726-fb14-55d2-2e0d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "72bf-ba76-500f-ef62",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "18c0-c25c-bb83-14dd",
+          "id": "6ce9-4f2b-de4e-d48f",
+          "name": "Autarch Equipment (Index)"
+        },
+        {
+          "type": 1,
+          "targetId": "8348-0a64-ff87-dac5",
+          "id": "0492-4eae-97ce-f29e",
+          "name": "Autarch Weapons (Index)",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "0fa7-27d6-5bdc-4547",
+              "value": "1",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "5648-412c-e8b0-fdcd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "5a71-7827-b512-b168",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "9faf-68f6-df10-e4ae",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "5a71-7827-b512-b168",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "48f0-8873-677e-6bf9",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "5a71-7827-b512-b168",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d607-4875-b868-1932",
+          "id": "2fb2-f2c6-a8a9-e910",
+          "name": "Forceshield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d18b-05d2-70a5-36db",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a734-4bd9-b261-7e3f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "053c-d658-4f19-a234",
+          "id": "c06e-0bca-64ef-20ea",
+          "name": "Star Glaive"
+        },
+        {
+          "type": 1,
+          "targetId": "c99a-b105-9c5a-91fe",
+          "id": "71ca-eb4b-a375-1d1e",
+          "name": "Remnants of Glory"
+        },
+        {
+          "constraints": [
+            {
+              "id": "542a-c3da-51bf-494e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9874-b492-7b52-f176",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "e3e1-9713-133c-d033",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "68d4-8f14-7deb-ad15",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "a4de-a86e-9948-6a75",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "eb26-ce65-b2d0-e8f9",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "5a71-7827-b512-b168",
+      "name": "Autarch",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "d3c7-738a-a9ac-5cbb",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "9891-db38-fa4c-6a0e",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

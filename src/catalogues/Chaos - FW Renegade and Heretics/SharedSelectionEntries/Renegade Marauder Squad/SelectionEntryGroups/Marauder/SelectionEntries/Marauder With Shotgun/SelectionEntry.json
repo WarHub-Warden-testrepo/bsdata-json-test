@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Marauder With Shotgun",
+    "prevIdentifier": "Marauder With Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "63ec-b01c-bbf4-094f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c6f-fff4-dfec-e273",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "f245-66ed-2496-633f",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c15-e0e0-8389-e37b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "276e-2809-612a-ca7d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a2ab-ad37-feee-243e",
+          "id": "c8bc-e3d4-4df0-9005",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "9cb3-72a5-b569-18a1",
+      "name": "Marauder With Shotgun",
+      "infoLinks": [
+        {
+          "targetId": "07cb-70d7-15c3-5117",
+          "id": "1396-3ba9-1116-3bcc",
+          "name": "Shotgun"
+        }
+      ]
+    }
+  ]
+}

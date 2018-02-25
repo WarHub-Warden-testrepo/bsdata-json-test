@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Storm Guardian - Power Sword (INDEX)",
+    "prevIdentifier": "Storm Guardian - Chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "57a5-c676-abfc-e1c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dd46-aa5e-30ee-abf0",
+          "id": "d0e8-2e51-c2b5-b305",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "be21-a1ed-9503-907f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f6ed-6bb5-cc1a-ddeb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1977-95e4-6f0b-3c77",
+          "id": "cc1b-d5da-801b-bf64",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "366e-c377-68d7-14b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d25-43f9-5bf2-923c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "126e-4ffd-721c-0876",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "e1dd-d487-bb29-8554",
+      "name": "Storm Guardian - Power Sword (INDEX)"
+    }
+  ]
+}

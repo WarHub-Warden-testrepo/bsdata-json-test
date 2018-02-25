@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "identifier": "Primaris Chaplain",
+    "prevIdentifier": "Absolver Bolt pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8e4f-25c8-8074-bb33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9aaa-624f-9d33-ea8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3f5-f3b2-bdbb-4742",
+          "id": "3b4e-4651-c40f-18df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "402f-e866-9423-4b93",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5bc3-f055-cfd4-3090",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "cab1-f3e7-03fe-4330",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d9c-ea8e-ecb5-ce62",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c98a-79eb-1d24-5b69",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e3ca-3122-6adc-1dd3",
+          "id": "c7b6-cd02-a664-eb4a",
+          "name": "Absolver Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f3a2-da7d-c9d9-d9a3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3028-e229-099a-24da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "1ef7-2d3a-78f7-2f0c",
+          "name": "Crozius arcanum"
+        },
+        {
+          "constraints": [
+            {
+              "id": "09b6-60fb-c859-de66",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d0e5-8187-680e-c1d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9874-480c-2257-8de4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4475-2d22-ce82-5ca6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "62d4-cf30-3a5c-3fc6",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6286-3df4-e2c6-0afc",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "52f8-c83b-9263-1e90",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "6286-3df4-e2c6-0afc",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8b5a-12d6-7def-a3e1",
+      "name": "Primaris Chaplain",
+      "infoLinks": [
+        {
+          "targetId": "ebe5-9a03-9a95-8317",
+          "id": "54a9-c830-fddf-48ee",
+          "name": "Litanies of Hate"
+        },
+        {
+          "targetId": "b9a2-0bae-358e-0b9b",
+          "id": "97cb-31f0-81dd-bb3c",
+          "name": "Spiritual Leaders"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1760-5c5a-38ef-a91b",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "1d0b-823c-e845-e5df",
+          "id": "a052-19c9-b598-e28b",
+          "name": "Rosarius"
+        }
+      ]
+    }
+  ]
+}

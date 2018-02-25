@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "DX-4 Technical Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5ad7-6594-a28a-1d7b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "598e-9693-f947-7e4f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "id": "b6b1-720c-b884-0016",
+      "name": "DX-4 Technical Drone",
+      "book": "IAI: Xenos",
+      "page": "42"
+    }
+  ]
+}

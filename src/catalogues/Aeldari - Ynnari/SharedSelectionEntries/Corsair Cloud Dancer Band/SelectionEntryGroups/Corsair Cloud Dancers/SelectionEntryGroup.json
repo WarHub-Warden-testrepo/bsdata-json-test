@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Corsair Cloud Dancers"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c522-17d6-7ee6-8b8d",
+      "constraints": [
+        {
+          "id": "6ab2-481a-0339-e22d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "2c19-9bdf-f19c-2b49",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "aac5-49ec-ebf6-95e6",
+      "name": "Corsair Cloud Dancers",
+      "modifiers": [
+        {
+          "field": "6ab2-481a-0339-e22d",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "114b-099c-c34c-c66a",
+              "type": 2,
+              "field": "selections",
+              "scope": "015f-f7be-c4be-1aff",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

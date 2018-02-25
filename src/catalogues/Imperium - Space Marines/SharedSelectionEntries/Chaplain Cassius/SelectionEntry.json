@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "identifier": "Chaplain Cassius",
+    "prevIdentifier": "Chief Librarian Tigurius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 98.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b520-a4c4-409e-97d2",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4562-e678-c03e-8edf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "743d-5c90-e771-707f",
+          "id": "98b8-6660-aa9d-51e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3f5-f3b2-bdbb-4742",
+          "id": "482b-c9ed-3182-3d1f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9131-9684-7f5a-40e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b17b-395d-086a-77b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3919-10f0-4961-925f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "fd96-bf52-9fd9-4f41",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f6ba-7797-77ac-7273",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ab44-8b0c-3bd2-53e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "f0e3-4753-790f-cce9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7b82-263c-6f12-84a4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "094b-5be6-c451-bb25",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "241e-a996-71f5-cc4e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "20cd-b861-e3b0-3129",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7136-392f-d7f2-c035",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "01f9-efd1-e996-7c1c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8644-bea3-ebd9-ab7a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "933b-d4d0-d1e5-a5d8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3e90-d7bd-23f3-e017",
+          "id": "a4a4-94d0-32b4-2447",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "81e2-2d01-89cc-c0f0",
+      "name": "Chaplain Cassius",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "17af-d433-4ec2-2e24",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b355-bd49-c5a5-805f",
+          "id": "aebc-a409-8ddd-cab2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9287-78a9-f594-c601",
+          "id": "6da0-9507-c72c-7854",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3f26-e8cb-ea53-e656",
+          "id": "97f4-54a9-2f34-cd29",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

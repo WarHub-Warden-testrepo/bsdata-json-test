@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Guardsmen"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fd5f-d1b3-510d-0cbe",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "8e8a-901a-154c-be28",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a47-06a5-ab9f-1ca2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d708-3900-d3d7-f618",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6ee-92a0-4d0b-0e13",
+          "id": "e4c1-264a-a153-1aaf",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6cc0-3373-61a2-ecac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7af9-fb3a-0e7a-4261",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "2c4b-bf1a-14df-45f6",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "12b1-0f29-ff09-7389",
+      "name": "Guardsmen",
+      "infoLinks": [
+        {
+          "targetId": "c0ac-eaf8-9629-5062",
+          "id": "1312-ed0f-63e1-fb8d",
+          "name": "Guardsman"
+        }
+      ]
+    }
+  ]
+}

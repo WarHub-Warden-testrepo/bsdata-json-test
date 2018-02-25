@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Missile Launcher",
+    "prevIdentifier": "Autocannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0715-c1a4-0782-8ca5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "8dce-b5d6-5597-c7eb",
+      "name": "Missile Launcher",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "603d-3e82-38f6-c5c3",
+          "id": "9902-6765-ac9f-f3d9",
+          "name": "Missile launcher, Frag missile"
+        },
+        {
+          "targetId": "8161-3b0e-8048-0e83",
+          "id": "c7c2-ef42-8300-f575",
+          "name": "Missile launcher, Krak missile"
+        }
+      ]
+    }
+  ]
+}

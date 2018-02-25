@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "770e-8303-c64b-6490",
+      "constraints": [
+        {
+          "id": "5b6b-db63-354d-cf87",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5aab-8920-743d-b083",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1b92-0a42-78d5-7cf6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e730-b801-5c8e-9dfe",
+          "id": "770e-8303-c64b-6490",
+          "name": "Devourer"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1ca8-6cd0-411f-303e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cd23-77c8-2669-4196",
+          "id": "1ac1-7f34-b47c-369f",
+          "name": "Basic Bio-weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9d5a-aaf1-2b5f-8948",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "02e8-9e2b-554f-6ee2",
+              "type": 1,
+              "field": "selections",
+              "scope": "8ffc-a0f3-766e-8ae4",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b799-1f85-a8cc-cef0",
+          "id": "a4f2-e090-7fe5-a888",
+          "name": "Basic Bio-cannons",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "02e8-9e2b-554f-6ee2",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "8ffc-a0f3-766e-8ae4",
+                  "value": 3.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "af93-85c4-aae2-59d4",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "5b6b-db63-354d-cf87",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4b88-a961-4069-2d16",
+              "type": 4,
+              "field": "selections",
+              "scope": "6903-a410-21cb-0dc5",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "5aab-8920-743d-b083",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "4b88-a961-4069-2d16",
+              "type": 2,
+              "field": "selections",
+              "scope": "6903-a410-21cb-0dc5",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Vulture Gunship"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 112.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4262-fb83-1fc9-9cfa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "637e-72aa-d5ec-66be",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a9dd-310a-3307-3b48",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8639-cfed-5a8e-471e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "8bd3-8359-cb0e-1fe4",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "e5e8-44c6-bfcf-ab66",
+      "name": "Vulture Gunship",
+      "infoLinks": [
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "e277-bac8-acf6-d8a0",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "425e-951d-9770-c639",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "91c1-b890-1b4b-3622",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "967a-55cc-f1dc-b575",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "22c6-06b3-125c-480b",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "16e3-4e72-d831-8647",
+          "id": "fbc0-5f15-d464-6c3d",
+          "name": "Strafing Run"
+        },
+        {
+          "targetId": "a100-911e-3074-eaad",
+          "id": "26b0-c29d-07f3-2bbc",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

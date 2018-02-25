@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Arc scourge",
+    "prevIdentifier": "Solar Atomiser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f218-da10-9383-5a3d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1649-46e1-0f70-8a22",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2bf8-5ab5-ff12-b6d6",
+      "name": "Arc scourge"
+    }
+  ]
+}

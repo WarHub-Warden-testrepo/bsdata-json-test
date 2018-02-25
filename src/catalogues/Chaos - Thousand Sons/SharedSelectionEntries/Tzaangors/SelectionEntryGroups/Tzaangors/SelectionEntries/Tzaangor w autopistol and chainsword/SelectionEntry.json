@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Tzaangor w/ autopistol and chainsword",
+    "prevIdentifier": "Tzaangor w/ Tzaangor Blades"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6eae-15cb-1cc2-7dc5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 29.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2b64-f2aa-d508-c78d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0722-15b6-b252-c523",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "89e8-7405-89fb-2125",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "6f95-8b6f-b676-4bd6",
+      "name": "Tzaangor w/ autopistol and chainsword"
+    }
+  ]
+}

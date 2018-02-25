@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Warlord Traits (Imperial Knights)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5348-2934-846b-4558",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6fdd-5e18-9d44-ee6d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a132-0cc4-d7c3-e8e3",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "94fb-b3e0-5f50-380e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "dc69-b764-4bb2-eb06",
+          "name": "Warlord Traits (CA)"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7b94-01b9-dcf4-8dd7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6fa-d95f-4982-d41c",
+          "id": "c191-fbd0-1d6c-c279",
+          "name": "Warlord Traits (Imperial Knights)"
+        }
+      ],
+      "id": "2d25-0d9a-8015-f9b3",
+      "name": "Warlord Traits",
+      "book": "",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "96f2-3321-e974-f12a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

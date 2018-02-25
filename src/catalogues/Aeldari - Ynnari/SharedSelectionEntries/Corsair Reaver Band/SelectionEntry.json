@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Corsair Reaver Band",
+    "prevIdentifier": "Corsair Skyreaver Band"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0505-1411-a658-8f82",
+          "id": "db3f-412b-579a-3392",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "0f99-6248-4ec1-2784",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6d09-575c-65b1-faa6",
+          "id": "cb7c-236e-d8bd-c1f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "11b8-deb8-0863-027e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "bd1a-0a97-bcf8-d805",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e948-4581-ef74-7a46",
+          "id": "fd69-14a1-4a53-2d64",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "66f9-5be0-eb53-a804",
+      "name": "Corsair Reaver Band",
+      "book": "IA - Index Xenos",
+      "page": "78",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "0ee8-2911-f25a-b3d2",
+          "id": "4e7d-f86a-4561-591f",
+          "name": "Dancing on the Blade's Edge",
+          "book": "",
+          "page": ""
+        },
+        {
+          "type": 1,
+          "targetId": "191d-3ffc-ffe7-4ba8",
+          "id": "a7ac-9248-b4ec-628a",
+          "name": "Reckless Abandon",
+          "book": "",
+          "page": ""
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "d199-f007-32cd-f688",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "66f9-5be0-eb53-a804",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "66f9-5be0-eb53-a804",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

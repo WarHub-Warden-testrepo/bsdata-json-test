@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "The Voice of Lorgar",
+    "prevIdentifier": "Slaughterborn"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "bce2-d113-0883-9b44",
+      "name": "The Voice of Lorgar",
+      "infoLinks": [
+        {
+          "targetId": "bd20-8455-68a4-48f4",
+          "id": "e6c4-2e44-7de7-7f1e",
+          "name": "The Voice of Lorgar"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "2482-8e16-78b0-e9cd",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Mount Up!",
+    "prevIdentifier": "Repel the Enemy!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "Until the end of the phase, the ordered unit can shoot and then immediately embark within a friendly ARMAGEDDON TRANSPORT VEHICLE, as long as all models in the unit are within 3\" of the vehicle. This order may not be issued to a unit which disembarked in the preceding Movement phase."
+        }
+      ],
+      "id": "583c-2626-7319-a876",
+      "name": "Mount Up!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "3fb5-c3b8-4653-f6ff",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

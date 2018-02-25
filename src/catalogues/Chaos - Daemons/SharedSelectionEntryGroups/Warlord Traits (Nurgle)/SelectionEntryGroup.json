@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Nurgle)",
+    "prevIdentifier": "Warlord Traits (Tzeentch)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f973-30f8-cd2a-f2be",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "d967-09aa-2100-528a",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "cc32-e862-27a2-64bf",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "b44c-8320-46a5-9aa0",
+      "name": "Warlord Traits (Nurgle)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Traits"
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

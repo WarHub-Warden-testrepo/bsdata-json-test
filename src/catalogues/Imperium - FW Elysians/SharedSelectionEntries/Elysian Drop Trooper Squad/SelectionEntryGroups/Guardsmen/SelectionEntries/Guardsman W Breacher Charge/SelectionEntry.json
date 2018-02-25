@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Guardsman W/ Breacher Charge",
+    "prevIdentifier": "Guardsman W/ Vox Caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0b75-88e3-e6a1-19f8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1531-b9b9-aec5-204c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "653c-6d29-10df-0adf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f848-4032-7dd1-fd34",
+          "id": "5b90-baa9-c6df-acc9",
+          "name": "Frag Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2f12-394c-615c-0b94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "8e6f-d49a-9594-f293",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cc0-b4e5-001e-9479",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f1e2-96a9-3dfc-c7d7",
+          "id": "4307-271e-30d6-0ea1",
+          "name": "Breacher Charge"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f6d6-899b-53e2-3b8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7ebf-b571-8b4f-dea8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6ee-92a0-4d0b-0e13",
+          "id": "be7d-c41d-8331-a14d",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "9f27-8375-b712-2e9e",
+      "name": "Guardsman W/ Breacher Charge",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c0ac-eaf8-9629-5062",
+          "id": "6e01-7088-3004-2c1a",
+          "name": "Guardsman"
+        }
+      ]
+    }
+  ]
+}

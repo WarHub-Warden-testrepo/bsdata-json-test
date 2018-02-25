@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Relics of the Thousand Sons (1 Relic)",
+    "prevIdentifier": "Mutalith Vortex Beast"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3a5d-b917-a379-75c7",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "535a-16b3-866c-f004",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1b20-1c27-6f89-ddbe",
+      "name": "Relics of the Thousand Sons (1 Relic)",
+      "modifiers": [
+        {
+          "field": "3a5d-b917-a379-75c7",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "28f9-4d6e-4f32-3322",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

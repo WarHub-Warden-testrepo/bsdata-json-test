@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Allarus Custodian"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d599-0f04-cbc0-629a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "f39d-89d6-cdb5-5f2b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 7.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "74cb-138b-16cb-7f35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "a89b-f7b6-ea74-2342",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "81bb-3b74-6350-fad0",
+          "id": "4354-55f9-61b9-547b",
+          "name": "Ballistus Grenade Launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8137-209c-12ab-12c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "e68e-8544-706f-3db9",
+          "name": "Misericordia"
+        }
+      ],
+      "id": "afb4-5024-f4f6-c56b",
+      "name": "Allarus Custodian"
+    }
+  ]
+}

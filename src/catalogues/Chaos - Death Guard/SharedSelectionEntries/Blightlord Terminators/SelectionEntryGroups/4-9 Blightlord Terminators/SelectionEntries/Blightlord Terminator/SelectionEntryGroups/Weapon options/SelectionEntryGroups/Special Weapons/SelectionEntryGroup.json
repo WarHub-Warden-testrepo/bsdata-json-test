@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "577a-66b5-89b2-a244",
+          "type": 1,
+          "field": "selections",
+          "scope": "e9b4-1d6e-8021-095f",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "72db-d8c6-84b3-56dc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a5fc-15e8-e9bc-caac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "36f3-205a-9a21-726d",
+          "id": "6d8e-ed07-7812-bf7e",
+          "name": "Plague Spewer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "52af-eb42-3cf9-d230",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "66c9-8e12-9b38-aadc",
+          "id": "4a76-36f2-f1b3-08a4",
+          "name": "Blight launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2911-cb9a-8a36-9937",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "31e5-9b14-31b6-48d1",
+          "name": "Reaper autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "3148-fdbf-082f-92ae",
+      "name": "Special Weapons",
+      "modifiers": [
+        {
+          "field": "577a-66b5-89b2-a244",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 2,
+              "field": "selections",
+              "scope": "e9b4-1d6e-8021-095f",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Rifles"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5d56-ee2f-7c7f-bf2d",
+      "constraints": [
+        {
+          "id": "ca2f-7d16-fec4-8ecd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7935-5271-6a72-9bf9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "e75f-9e97-c443-4f04",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "20a1-d31e-8e9f-8a3b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2094-c9a6-a426-0970",
+          "id": "d6da-08b3-1b30-9c43",
+          "name": "Shotgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3fb7-7687-3669-0238",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a880-35d6-a204-5128",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "5d56-ee2f-7c7f-bf2d",
+          "name": "Autogun",
+          "modifiers": [
+            {
+              "field": "a880-35d6-a204-5128",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "fb44-ebd1-171f-cad8",
+      "name": "Rifles"
+    }
+  ]
+}

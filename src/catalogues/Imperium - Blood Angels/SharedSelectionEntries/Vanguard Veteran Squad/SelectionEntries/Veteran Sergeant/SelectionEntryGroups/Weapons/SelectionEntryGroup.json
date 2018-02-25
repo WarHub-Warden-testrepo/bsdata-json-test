@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bbba-f868-8ea0-1660",
+      "constraints": [
+        {
+          "id": "1dad-2023-6aee-7808",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "48a5-1b2b-c417-46bf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e519-14ca-b784-cc55",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd01-4d17-a6ee-a344",
+          "id": "a27e-de68-7790-3f50",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "02b8-98f8-0474-5925",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "723e-7adf-d9b2-65a7",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a470-b7e8-5999-bcbf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "2539-a702-c88e-9461",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "47f2-73ea-c61a-52f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "1eca-4669-dd56-50f3",
+          "name": "Relic blade"
+        }
+      ],
+      "id": "a285-c663-67d1-8863",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "48a5-1b2b-c417-46bf",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "bbba-f868-8ea0-1660",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "1dad-2023-6aee-7808",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "bbba-f868-8ea0-1660",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

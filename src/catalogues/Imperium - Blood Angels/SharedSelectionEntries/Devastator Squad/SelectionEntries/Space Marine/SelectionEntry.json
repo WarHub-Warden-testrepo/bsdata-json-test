@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Space Marine",
+    "prevIdentifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0237-449e-2fd1-8a95",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "1d61-c562-335c-ec30",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0bdb-3707-5f53-624b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0806-6b41-2116-c68e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "47bf-0a36-8377-4ee3",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d7f1-e184-f14f-6c94",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "64db-d122-dc1d-ccf5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6ed4-3602-deeb-884e",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "1303-c2d7-9bd3-ceb8",
+      "name": "Space Marine"
+    }
+  ]
+}

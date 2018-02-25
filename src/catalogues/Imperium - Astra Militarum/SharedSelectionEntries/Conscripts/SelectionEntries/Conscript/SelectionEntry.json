@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Conscript"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 20.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 30.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2bbe-6461-9d61-7fdc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "360b-85ab-6f16-6659",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7236-b28a-2b6e-ded7",
+          "id": "56f6-4805-1ad2-d93b",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "4df4e8e7-7896-e104-ac60-74ec924f0360",
+      "name": "Conscript",
+      "page": ""
+    }
+  ]
+}

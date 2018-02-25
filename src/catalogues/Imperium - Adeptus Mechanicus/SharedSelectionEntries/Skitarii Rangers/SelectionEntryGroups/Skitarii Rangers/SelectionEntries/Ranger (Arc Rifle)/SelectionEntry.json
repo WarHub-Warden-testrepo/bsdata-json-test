@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Ranger (Arc Rifle)",
+    "prevIdentifier": "Ranger (Plasma caliver)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5167-fe48-9fdd-8d7f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4d5b-c75c-1563-a746",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b0b0-eaa8-aebc-a299",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ec21-7c6a-3910-cc4a",
+          "id": "b5f4-9d18-864d-d2dd",
+          "name": "Arc rifle"
+        }
+      ],
+      "id": "678a-124b-83c1-e04a",
+      "name": "Ranger (Arc Rifle)",
+      "infoLinks": [
+        {
+          "targetId": "195a-45af-3c65-5785",
+          "id": "2949-2ed3-8f4e-7284",
+          "name": "Skitarii Ranger"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "5167-fe48-9fdd-8d7f",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "5ec2-817e-c2d8-bb63",
+              "type": 4,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "5167-fe48-9fdd-8d7f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "5899-dec4-7136-a1b9",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 1.0
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "5167-fe48-9fdd-8d7f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a2c2-8360-caaf-71e9",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "ba77-6fd9-7474-7095",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

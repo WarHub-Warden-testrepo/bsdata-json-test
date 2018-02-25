@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "identifier": "Baneblade",
+    "prevIdentifier": "Demolition Charge"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 30.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "6fa8-6066-6ea2-7471"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "85f1-4dd6-2e3d-4c2c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "87e2-ecae-bfa2-ae18",
+          "id": "5820-cea2-548e-0cd7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "f8b6-fcc0-fc1f-25ee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1488-9982-3ee8-1123",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "bf43-b801-6657-6d13",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e499-0da4-5483-a1fc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "962c-5581-14a0-1243",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a36b-f865-70c0-77b3",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c437-20ac-f18c-a1e2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5912-1ce8-206c-9e28",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "9b66-8f4a-9792-fb0c",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7b70-680e-388a-992e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "383a-60f2-b28d-c12f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "795a-d04d-7bf0-c9b8",
+          "name": "Demolisher cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "045f-d8b3-5631-9d63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d33-dde4-0fee-5896",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "8806-cd86-5214-a7fb",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b3dd-758d-c68f-9918",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4bb6-640d-f952-d860",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "060c-360c-83c9-7e35",
+          "name": "Stat Damage (Baneblade)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a163-33e7-6cda-eb3b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6704-b818-5b91-692b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "38a8-e16c-8bc2-5cfc",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "7c7a-8540-6ccf-dc15",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "1ac4-8c54-acc4-3551",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "a736-b007-2499-9a45",
+      "name": "Baneblade",
+      "book": "War Zone Damocles: Mont'ka",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "8007-7633-371f-e087",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "3c9b-4d2f-b729-4b49",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "0f22-387a-8aec-ee16",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

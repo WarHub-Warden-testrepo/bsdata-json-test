@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Nobz on Warbikes",
+    "prevIdentifier": "Nob with Waaagh! Banner"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "67c5-b815-e054-a896",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "8759-477a-0633-94cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "9e84-11c4-2d75-5b1f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2592-330f-3727-4018",
+          "id": "5d25-db5b-d787-c212",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "8794-5968-4b7b-9d58",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "50bb-821a-aaac-4b0f",
+      "name": "Nobz on Warbikes",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "493f-6f4c-cb54-4df7",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "5d9e-0988-a3c3-20fc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3202-2878-7cb1-93a2",
+          "id": "db9b-558b-4490-b403",
+          "name": "Keepin' Order"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "50bb-821a-aaac-4b0f",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "50bb-821a-aaac-4b0f",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

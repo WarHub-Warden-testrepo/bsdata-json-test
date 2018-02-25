@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Ministorum Priest",
+    "prevIdentifier": "Wyrdvane Psykers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aea3-ddf1-5d0c-a219",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "acf7-a25f-29bb-c628",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "625b-5649-8169-146a",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "c0c7-00c6-0e99-53b7",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a423-93ff-5a03-b2be",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9644-a419-121c-91ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "d7d0-437e-937f-738b",
+          "name": "Warlord"
+        }
+      ],
+      "id": "f43e-c8f8-ba40-92c3",
+      "name": "Ministorum Priest",
+      "book": "Codex: Astra Militarum",
+      "page": "99",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "105e-1a0a-6993-3a3d",
+          "id": "e761-3a06-2101-f57a",
+          "name": "Zealot"
+        }
+      ]
+    }
+  ]
+}

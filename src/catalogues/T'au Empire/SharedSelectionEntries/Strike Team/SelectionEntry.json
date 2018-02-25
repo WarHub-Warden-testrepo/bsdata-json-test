@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Strike Team",
+    "prevIdentifier": "Ritual blade"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3d03-9cfd-0133-c340",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "0232-c415-cc96-4fba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "ade9-c28d-8aa0-87ce",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "7241-d121-feb0-2682",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "da95-050a-61ef-096b",
+          "id": "31b8-7770-558f-5e28",
+          "name": "Fire Warrior squad options"
+        }
+      ],
+      "id": "077f-c4be-4f12-d4d3",
+      "name": "Strike Team",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "c2fb-4dd3-d481-7afe",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "e29c-e850-4172-cf70",
+          "name": "For the Greater Good"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "75a2-1f6c-a2fc-cbd6",
+              "type": 4,
+              "field": "selections",
+              "scope": "077f-c4be-4f12-d4d3",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "75a2-1f6c-a2fc-cbd6",
+              "type": 4,
+              "field": "selections",
+              "scope": "077f-c4be-4f12-d4d3",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "22c8-bfa6-35c9-ef15",
+              "type": 4,
+              "field": "selections",
+              "scope": "077f-c4be-4f12-d4d3",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

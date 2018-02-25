@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Mark of Nurgle",
+    "prevIdentifier": "Mark of Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "326e-7911-2548-62a0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "baac-5cc6-6e45-a25d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "95c5-d16b-2cba-1453",
+      "name": "Mark of Nurgle",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "e80c-2734-7714-5424",
+          "name": "Disgustingly Resilient"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "326e-7911-2548-62a0",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "identifier": "The Changeling",
+    "prevIdentifier": "Kairos Fateweaver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c149-5ab5-f820-ace9",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "17dd-8fbb-c6e8-4515",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "d9d8-b3ce-c397-d405",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "253c-93b2-2a21-4a1a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb72-b7a9-1df1-04db",
+          "id": "e1b3-0aec-024d-2fba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4407-2aa1-2a62-c1dc",
+          "id": "34fd-fb05-18c0-8ccd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "10fe-b23a-8518-3185",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "6168-3ec7-62b4-ddf0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "810a-ec5f-d033-8e0c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f0e3-d1bb-d508-3768",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4cf2-ae18-9576-c59b",
+          "id": "7c91-6fba-45af-f5a4",
+          "name": "Tzeentch Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1e05-96df-c3a1-1c65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "40f9-a19b-368a-5bc7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "38eb-d3d5-4019-da1c",
+          "name": "Smite"
+        },
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "56af-22d8-d9cb-ccce",
+          "name": "Warlord"
+        }
+      ],
+      "id": "d7b3-4646-66cb-e39e",
+      "name": "The Changeling",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "8752-202a-a1b9-9495",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "1ffb-199b-922c-9c50",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "8b12-30ff-e1a7-4205",
+          "name": "Ephemeral Form"
+        },
+        {
+          "targetId": "1526-db70-72d4-4f41",
+          "id": "caec-1c95-75e5-b497",
+          "name": "Incorporeal Form",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "d7b3-4646-66cb-e39e",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

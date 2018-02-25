@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Servo-arm",
+    "prevIdentifier": "Servo Harness"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bba7-6aba-6e5a-63e8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "df4e-defc-2de1-7b71",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "800a-a38e-f40a-8cb3",
+      "name": "Servo-arm",
+      "infoLinks": [
+        {
+          "targetId": "9112-c49a-ee46-0f81",
+          "id": "5d29-bb00-0555-211a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

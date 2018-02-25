@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "identifier": "Death Korps Storm Chimera",
+    "prevIdentifier": "Death Korps Centaur Light Assault Carrier"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "d92d-0501-6032-ebc8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "7c34-8dec-630d-ebe3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c417-05d9-c135-a796",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "11ca-f452-d676-ec9f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "d923-5c19-6b14-ea45",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f2ab-bab6-1594-fae6",
+          "id": "1c48-cd92-a60a-81ee",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "1d37-52f9-1a88-dc6b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd61-0947-4896-7149",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "0634-11dc-3458-ef99",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0e82-b5e4-8b55-f646",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db1f-ee5d-4148-0b56",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "d5de-de97-a367-633e",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9b0-8422-21b7-2b5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8a45-f8ac-6cd7-87cf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c5f4-b237-ff51-f8fa",
+          "id": "016d-90df-37cc-2c81",
+          "name": "Lasgun Array"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "eb2a-d36c-7c27-6a17",
+          "name": "Hull Weapon"
+        }
+      ],
+      "id": "75e9-83e5-eb59-41ff",
+      "name": "Death Korps Storm Chimera",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "bd03-454b-5e2f-6d5e",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "3be3-666a-bd06-565f",
+          "id": "c4b4-15c9-4706-7e99",
+          "name": "Explodes (Storm Chimera)"
+        },
+        {
+          "targetId": "4769-7136-e407-4743",
+          "id": "9dd8-525a-aada-8765",
+          "name": "Transport (Storm Chimera)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "identifier": "XV104 Riptide Battlesuit",
+    "prevIdentifier": "XV95 Ghostkeel Battlesuit"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 209.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8981-3218-ce4d-2a19",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "255c-4739-75aa-273d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "88fd-8ec3-3697-6db9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "2b69-b47b-fb13-94e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "3a42-5874-bf68-27ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "25fd-3303-f80b-adfa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "68ae-8b56-6b61-db51",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b4b9-eee5-afc1-9ebb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "0211-2c9c-2391-5ffb",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "ca7f-d200-b93b-49a6",
+          "id": "5d52-6396-61a1-214c",
+          "name": "MV84 Shielded Missile Drone"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "959d-7297-2cd1-c41c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "10a6-77df-d1f5-6312",
+          "name": "Support systems",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        }
+      ],
+      "id": "725a-82bb-106e-d3d9",
+      "name": "XV104 Riptide Battlesuit",
+      "infoLinks": [
+        {
+          "targetId": "fdd6-a9c4-c292-8aae",
+          "id": "1587-c8f5-3af8-ee1e",
+          "name": "XV104 Riptide Battlesuit"
+        },
+        {
+          "targetId": "7a30-9580-4282-56ae",
+          "id": "4dbf-9bc7-1df4-09bf",
+          "name": "XV104 Riptide 1"
+        },
+        {
+          "targetId": "ed61-2aac-26d3-a2ed",
+          "id": "fd66-5a6d-bb41-6061",
+          "name": "XV104 Riptide 2"
+        },
+        {
+          "targetId": "b9aa-e19f-92c5-03f9",
+          "id": "f4c7-ed9c-1a18-f6a0",
+          "name": "XV104 Riptide 3"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "e233-629d-c716-29b3",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "1bb1-906b-14d2-4225",
+          "id": "a4f5-ae35-f7ee-c041",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9b19-f096-5c9d-696d",
+          "id": "091a-740e-9541-105f",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9281-195b-f79d-4ed8",
+          "id": "8efb-ed1a-59da-501b",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "5d52-6396-61a1-214c",
+              "type": 4,
+              "field": "selections",
+              "scope": "725a-82bb-106e-d3d9",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

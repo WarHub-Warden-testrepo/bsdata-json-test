@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Scout Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "56e2-e005-581f-8563",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9722-2f13-cac7-1f18",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7de9-3a58-3136-6b74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b85-819d-70c4-12b2",
+          "id": "2b55-1976-3c02-3f1a",
+          "name": "Sentinel Chainsaw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2bc5-7840-20dc-9805",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "15a5-6c10-8600-14e1",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "5769-4a69-e192-a615",
+      "name": "Scout Sentinel",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "bb95-9f66-2185-dc8d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "3a61-5101-c902-e89a",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "837e-423b-9d3b-7772",
+          "id": "e0d8-73a2-7afa-65f9",
+          "name": "Scout Vehicle"
+        }
+      ]
+    }
+  ]
+}

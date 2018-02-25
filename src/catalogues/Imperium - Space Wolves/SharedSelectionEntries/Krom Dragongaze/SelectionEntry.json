@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "identifier": "Krom Dragongaze",
+    "prevIdentifier": "Thunderwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "81fd-e107-7b32-f6b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "88c2-1b8a-f2e4-fe0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "53e6-2d8e-76a9-8b42",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f5b8-554b-59fe-d00f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4e72-e176-545a-51e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "4b2d-eaf9-5428-ba0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "502c-944f-3651-2f2f",
+          "id": "affa-0e54-16e6-ef44",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cb98-9b2b-07c2-a879",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "098f-5ad1-1ac8-00d1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6f72-e646-21fe-0e76",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8dcd-2a79-5956-170e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "3419-927a-65bf-1e4e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a4a7-87c8-6c67-c8da",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eec9-8a8f-8421-cb23",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6edd-92e8-d6df-d5d8",
+          "id": "f239-0286-2ffb-d312",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "70b5-a131-2046-4b9a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4062-ab04-877c-c5e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5395-06f6-70a0-5ffb",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7668-7511-8d11-50d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "55a1-a208-59c2-381c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1483-9518-2f00-2321",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "bf16-70bc-59cd-563d",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "1483-9518-2f00-2321",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "044a-7c10-852f-bee3",
+      "name": "Krom Dragongaze",
+      "infoLinks": [
+        {
+          "targetId": "8374-6415-31b3-22cb",
+          "id": "0d6a-ac3a-a299-fdbc",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "e33e-f41c-1250-0aaf",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0664-31c9-63b3-2a81",
+          "id": "e8f5-534e-c4b5-ac09",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "18d0-7cd5-e05c-698f",
+          "id": "cdff-e684-8092-ec6c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ed3f-4056-47f8-fe5e",
+          "id": "8fab-d644-4bf0-f38b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

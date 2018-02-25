@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Corsair Skyreaver Band",
+    "prevIdentifier": "Fusion Gun - 283"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1c21-a5f6-4cbf-3896",
+          "id": "360c-64de-2006-4497",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0505-1411-a658-8f82",
+          "id": "c036-77d1-90f1-6cfb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "e4eb-7b4b-dea8-7ad6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6d09-575c-65b1-faa6",
+          "id": "52fd-e956-0484-c0dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "3cf6-9a2c-2d79-edd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c3c8-f9aa-e88b-19b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8fcf-1689-f668-c645",
+          "id": "dff4-f923-abde-4dc2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "9bc7-5512-d6d8-6725",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "114e-c5b5-810c-5212",
+      "name": "Corsair Skyreaver Band",
+      "book": "IA - Index Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "0ee8-2911-f25a-b3d2",
+          "id": "51b1-8147-921d-e346",
+          "name": "Dancing on the Blade's Edge"
+        },
+        {
+          "type": 1,
+          "targetId": "191d-3ffc-ffe7-4ba8",
+          "id": "32f6-3f15-be62-7b8a",
+          "name": "Reckless Abandon"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "a7a2-d51c-a59b-eec4",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "114e-c5b5-810c-5212",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

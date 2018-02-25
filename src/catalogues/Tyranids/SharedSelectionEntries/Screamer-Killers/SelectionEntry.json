@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Screamer-Killers",
+    "prevIdentifier": "6. Psychic Scream"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "0cf3-8308-a86f-3fbd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "8388-f20f-ca08-1314",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "e8d9-4221-18c7-f300",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d482-6830-b5c2-bb33",
+          "id": "ff02-81d4-b2f2-be7f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "797b-c7fe-679a-7117",
+      "name": "Screamer-Killers",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "5cbe-f4df-fea5-0edb",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "f6a4-e2dd-1a97-c642",
+          "id": "dd98-a25d-c64b-5a53",
+          "name": "Monstrous Brood"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "6cac-1b65-3b80-c0f0",
+              "type": 4,
+              "field": "selections",
+              "scope": "797b-c7fe-679a-7117",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "6cac-1b65-3b80-c0f0",
+              "type": 4,
+              "field": "selections",
+              "scope": "797b-c7fe-679a-7117",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Legion)",
+    "prevIdentifier": "Warlord Traits"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "212e-163a-85b8-987e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "75bd-3046-2e64-6b81",
+      "name": "Warlord Traits (Legion)",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "c4a9-5a33-d824-bcf8",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

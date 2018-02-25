@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Battlewagon with Supa-Kannon",
+    "prevIdentifier": "Supa-Kannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 161.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "1b88-55ed-f1c2-c234",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "457d-4e4b-59e9-10b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "45ed-8917-0b61-e188",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c715-d75b-8602-35d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "6605-a16f-43d3-d0cc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "609c-77e8-7913-3713",
+          "id": "f23a-a927-ce5b-c51d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afdc-8903-044a-a42e",
+          "id": "5afd-5f23-797e-15b8",
+          "name": "Wreckin' Ball"
+        },
+        {
+          "constraints": [
+            {
+              "id": "df02-7363-641a-5e21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a493-c0a4-10fb-8800",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1488-b982-0723-3c3d",
+          "id": "a4ab-49e5-9fbd-3870",
+          "name": "Supa-Kannon"
+        }
+      ],
+      "id": "83bd-01d2-82f5-1e73",
+      "name": "Battlewagon with Supa-Kannon",
+      "infoLinks": [
+        {
+          "targetId": "4984-fddb-b1ad-d7a3",
+          "id": "7a39-29f5-588e-8df3",
+          "name": "Mobile Fortress"
+        }
+      ]
+    }
+  ]
+}

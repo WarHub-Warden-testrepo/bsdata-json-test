@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two twin autocannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9cb8-a7d2-e5d4-8d48",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5ed6-4b98-9e62-1211",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "0658-956d-e2b3-57b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de8a-cbde-aecc-c877",
+          "id": "602a-8c0c-a0d8-fe9b",
+          "name": "Twin autocannon"
+        }
+      ],
+      "id": "8988-5d43-b8e7-9b67",
+      "name": "Two twin autocannons"
+    }
+  ]
+}

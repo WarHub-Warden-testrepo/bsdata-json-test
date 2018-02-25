@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f4cc-0b41-aafd-9922",
+      "constraints": [
+        {
+          "id": "5aac-b271-76e5-4bf1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "19fc-9b1c-95cc-361b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "795f-31d4-73c6-c1ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "f4cc-0b41-aafd-9922",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6f0d-144d-321c-811b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "d562-e95d-70c1-2084",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d044-53fb-a99e-c7e4",
+      "name": "Weapon Options"
+    }
+  ]
+}

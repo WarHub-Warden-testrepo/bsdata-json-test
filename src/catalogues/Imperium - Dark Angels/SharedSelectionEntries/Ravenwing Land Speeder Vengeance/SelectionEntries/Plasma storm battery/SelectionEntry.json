@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Plasma storm battery"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "080c-7616-72f2-180a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a167-6c77-a28e-bd60",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3df1-a1cb-9e84-c324",
+      "name": "Plasma storm battery"
+    }
+  ]
+}

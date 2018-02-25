@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Warp Grasp",
+    "prevIdentifier": "Unholy Gaze"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "152c-29cd-2efc-7086",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7ca9-0232-d4fe-e76b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "aefb-64a3-8d97-5118",
+      "name": "Warp Grasp"
+    }
+  ]
+}

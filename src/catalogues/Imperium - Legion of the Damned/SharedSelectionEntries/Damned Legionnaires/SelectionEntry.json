@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "identifier": "Damned Legionnaires"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "edfe-4b9a-8015-9ce7",
+          "id": "e2e1-8b03-230a-b1cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "db82-a6e4-a31a-9755",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "327c-c1c2-b934-558d",
+          "id": "f401-2a29-d5b1-24ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b89d-e4d9-31f2-ae6e",
+          "id": "5894-7ee0-3c78-8445",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dff8-4bb7-32e9-aadb",
+          "id": "ad10-e0ec-812e-cce7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ff97-b3a6-810a-e85a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "047d-dca9-0997-c7e8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "78b0-1b49-9f15-f934",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2cd3-941a-c64e-e3a3",
+          "id": "0d07-848f-59e8-3bb0",
+          "name": "Legionnaire Sergeant"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c91f-4c70-aea9-240a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "id": "05a5-12c2-38c3-5212",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4195-07c6-905f-ee50",
+          "id": "c6a5-bd8f-68b2-664e",
+          "name": "Legionnaires"
+        }
+      ],
+      "id": "61a6-2734-a069-1ba7",
+      "name": "Damned Legionnaires",
+      "book": "Index: Imperium 1",
+      "page": "87",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5ac2-2b88-93b3-3449",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f44e-95f0-b9c7-4507",
+          "id": "489a-acbb-42e8-a9ee",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c7a8-dfd7-436b-593b",
+          "id": "c5ed-4573-8b30-f27e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "811a-f29b-b3f2-81d0",
+          "id": "988b-d7da-af53-ecfb",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "c6a5-bd8f-68b2-664e",
+              "type": 1,
+              "field": "selections",
+              "scope": "61a6-2734-a069-1ba7",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

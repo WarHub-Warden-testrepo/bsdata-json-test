@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Tarantula"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cc78-114e-d19c-d895",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "c3d2-ca58-f0c8-d899",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "da77-ccfe-db86-aa5a",
+      "name": "Tarantula"
+    }
+  ]
+}

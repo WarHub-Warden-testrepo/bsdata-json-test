@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Conqueror"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d24e-98a6-8f77-80a3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "dbc7-6e07-4afb-1186",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2367-3d37-9e0f-c3c4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "1fec-6637-79e2-53d0",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "bd7a-fdce-c043-789c",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "8bc3-bb10-31fa-f2c7",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "4924-aa3a-8a9d-4b9b",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5f6a-0a0b-a638-375a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2576-b1a9-d3c1-533a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2977-7fd0-f8c3-f1c6",
+          "id": "1260-54b8-1450-9feb",
+          "name": "Stat Damage (FW Leman Russ)"
+        }
+      ],
+      "id": "9ee1-427b-a253-8c85",
+      "name": "Leman Russ Conqueror",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "36df-3f64-0332-3edf",
+          "name": "Leman Russ"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "74a0-fdf8-7523-f38c",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "8fe4-c76a-7def-6c83",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "6b75-c6b9-2da6-09e4",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "27ec-cf83-7d84-5cd5",
+          "name": "Emergency Plasma Vents"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "980c-9057-61d8-35cb",
+          "name": "Grinding Advance"
+        }
+      ]
+    }
+  ]
+}

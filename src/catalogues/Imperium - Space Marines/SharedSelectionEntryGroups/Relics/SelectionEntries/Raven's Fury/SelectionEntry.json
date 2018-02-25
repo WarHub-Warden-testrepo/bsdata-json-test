@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Raven's Fury",
+    "prevIdentifier": "The Axe of Medusa"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3aae-5b73-2e35-ff63",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "d771-f192-c117-265b",
+      "name": "Raven's Fury",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "1ceb-4568-edeb-e155",
+                      "type": 3,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    },
+                    {
+                      "childId": "8c64-7dd6-895b-75ac",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

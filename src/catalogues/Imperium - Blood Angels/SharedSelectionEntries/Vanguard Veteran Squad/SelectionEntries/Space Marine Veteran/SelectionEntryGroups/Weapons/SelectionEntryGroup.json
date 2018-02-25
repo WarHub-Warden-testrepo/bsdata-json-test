@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b10c-6b0b-139d-ba6c",
+      "constraints": [
+        {
+          "id": "d1e3-c933-026c-3464",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c082-df9b-bb54-c32d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bb01-1105-7653-f312",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd01-4d17-a6ee-a344",
+          "id": "71a2-e071-a1c5-a6a8",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5919-449e-b713-7fc2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "8853-570d-bd44-5263",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9a93-cb35-4c09-fe73",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "e727-e57c-e733-9f91",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8e31-72e8-1653-d8a8",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "c082-df9b-bb54-c32d",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b10c-6b0b-139d-ba6c",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "d1e3-c933-026c-3464",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b10c-6b0b-139d-ba6c",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

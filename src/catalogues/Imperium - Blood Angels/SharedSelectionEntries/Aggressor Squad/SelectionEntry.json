@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "identifier": "Aggressor Squad",
+    "prevIdentifier": "Fragstorm grenade launcher"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "58c6-1454-cdc9-e3b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0945-38c9-70ed-dfac",
+          "id": "fe9a-b31c-9e5d-ddec",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "228d-370f-5bfc-cedb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb9d-2b67-64b0-800f",
+          "id": "8750-82a9-7c46-01be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "2085-7b79-54ed-8002",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "8b46-c77e-852d-721e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50f1-c3ea-9d66-6446",
+          "id": "38f6-d83e-b056-926f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "b251-653d-df8a-fb0e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6a40-8ac7-e751-95ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "dcdf-5cb6-7d3f-ee6d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "922b-9e5e-237a-bb86",
+          "id": "640d-9dd3-30e1-12b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df09-a39a-dd33-89f7",
+          "id": "7772-e74c-cbd1-3f42",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c13b-c189-2dad-99e5",
+      "name": "Aggressor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "599e-0455-1758-00cf",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "756c-a18b-4533-1e7f",
+          "id": "5b5a-0198-e6a8-d022",
+          "name": "Fire Storm"
+        },
+        {
+          "targetId": "b53a-b90c-47a1-cf73",
+          "id": "90d4-6587-adb4-2c33",
+          "name": "Relentless Advance"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "a5b6-d64b-205c-021e",
+              "type": 1,
+              "field": "selections",
+              "scope": "c13b-c189-2dad-99e5",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

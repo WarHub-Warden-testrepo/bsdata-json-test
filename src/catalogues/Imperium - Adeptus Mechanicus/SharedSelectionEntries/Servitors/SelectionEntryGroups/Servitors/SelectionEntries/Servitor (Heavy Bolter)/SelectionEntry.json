@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Servitor (Heavy Bolter)",
+    "prevIdentifier": "Servitor (multi-melta)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bd51-b4ff-4873-19ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "47f8-9386-4b38-0b28",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f00-c158-dd7b-eca0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ec5f-6dae-0c87-da74",
+          "id": "517a-35d1-6a64-29b9",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "8842-f09c-e656-2141",
+          "id": "f90a-fa9c-89a2-68c6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "22bb-efa2-c290-c8b1",
+      "name": "Servitor (Heavy Bolter)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "bd51-b4ff-4873-19ff",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c778-6830-7ad3-73af",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "bd51-b4ff-4873-19ff",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "9f86-470a-af37-5000",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

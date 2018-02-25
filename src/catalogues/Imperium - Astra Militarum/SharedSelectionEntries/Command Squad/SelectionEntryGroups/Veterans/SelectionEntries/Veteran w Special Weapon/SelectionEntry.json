@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Special Weapon",
+    "prevIdentifier": "Veteran w/ Heavy Flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f16-3074-9016-b193",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "67cd-8081-2fd5-2db7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4b67-7f88-9562-df3b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "f91a-6aa5-1a4e-2868",
+          "name": "Frag grenade"
+        },
+        {
+          "type": 1,
+          "targetId": "b146-ea4c-c9d2-b16a",
+          "id": "7558-6411-e643-51d7",
+          "name": "Astra Militarum Special Weapons BS3"
+        }
+      ],
+      "id": "d8c1-d4d5-7cac-ee47",
+      "name": "Veteran w/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "6757-3375-843f-ad69",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

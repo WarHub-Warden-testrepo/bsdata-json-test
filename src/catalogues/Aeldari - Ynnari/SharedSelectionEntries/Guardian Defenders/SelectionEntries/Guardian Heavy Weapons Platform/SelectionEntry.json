@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Guardian Heavy Weapons Platform"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "80e1-3fb2-32bc-6dec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7a12-41e8-46eb-e204",
+          "id": "9042-f9fc-1731-1668",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ae37-74e2-8391-d0f8",
+          "id": "b2fd-cd06-1e6b-addb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ad1e-29f1-4f37-28bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1eab-e523-df61-dd9b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "994d-77a0-41df-a797",
+          "name": ""
+        }
+      ],
+      "id": "8cb4-c382-d67e-3d08",
+      "name": "Guardian Heavy Weapons Platform",
+      "modifiers": [
+        {
+          "field": "80e1-3fb2-32bc-6dec",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "c758-aaf5-4754-8653",
+              "type": 2,
+              "field": "selections",
+              "scope": "0341-e29a-e0ec-acd4",
+              "value": 20.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

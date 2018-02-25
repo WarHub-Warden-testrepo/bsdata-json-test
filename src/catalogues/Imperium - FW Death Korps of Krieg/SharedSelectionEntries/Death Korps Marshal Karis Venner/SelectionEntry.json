@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "identifier": "Death Korps Marshal Karis Venner"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "8e28-2b0a-1059-1350",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "8388-5cdf-49e9-150c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6651-47df-d774-3efe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "588c-1aa6-871b-44cc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e437-7851-3b50-3aa8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "18d3-2b83-e0f9-5a0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "94ba-b4f7-ef96-f4d3",
+          "id": "5d46-3601-e200-cf4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b8d1-a6ab-396c-a7cc",
+          "id": "be78-e34c-6112-c037",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b7fd-cba3-f8bd-39f4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "6864-5716-5b64-19e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "7eec-acd8-019b-3e0f",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4e01-b44f-7eaf-83a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "8c7a-7288-8ccb-f855",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "dfb1-b7e0-50f4-f2e9",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6b44-4612-3618-b437",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bd21-ebe1-2fd8-5406",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d81a-c8b5-3b79-dcef",
+          "id": "4b36-547e-aae5-e82c",
+          "name": "Hot-shot Laspistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc2b-36ec-66ab-7ec5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a862-7b48-5c7d-343d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05b3-6c68-55bb-7829",
+          "id": "0e38-8e5e-4603-1a59",
+          "name": "Memento Mori"
+        },
+        {
+          "targetId": "9379-7571-9a92-7998",
+          "id": "6493-33fe-7cc6-be75",
+          "name": "Death Korps Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "2e7c-715f-2562-65bf",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "021c-adb5-e5bd-fb29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1f19-06de-bec5-8465",
+          "name": "Warlord"
+        }
+      ],
+      "id": "1966-f517-9180-6b07",
+      "name": "Death Korps Marshal Karis Venner",
+      "book": "Imperial Armour - Index - Forces of the Astra Militarum",
+      "page": "57",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "50dd-fbaf-6f51-e5c7",
+          "name": "Cult of Sacrifice",
+          "book": ""
+        },
+        {
+          "targetId": "3f80-6854-b4b4-b594",
+          "id": "1bc5-8ec8-77cb-27fd",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "f884-552c-9917-3f45",
+          "id": "d6a1-80cb-27c0-1ab7",
+          "name": "Implacable Officer"
+        },
+        {
+          "targetId": "f2af-a2c9-3275-3016",
+          "id": "601d-9c97-a2e4-9b90",
+          "name": "Commander-in-Chief"
+        },
+        {
+          "targetId": "74b7-5b3f-ecda-f766",
+          "id": "3f55-6de3-9f72-a593",
+          "name": "Death Korps Voice of Command"
+        }
+      ]
+    }
+  ]
+}

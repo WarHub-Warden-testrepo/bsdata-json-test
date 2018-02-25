@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Veteran w/Vox-caster",
+    "prevIdentifier": "Standard Bearer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "710e-f8a7-3eb8-891e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7abf-8e3e-1ce2-51be",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "de74-199a-26ad-3a5b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "ce98-89d1-3d6f-67ed",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0fef-58e3-f450-3287",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "169e-0df4-369e-66d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fedb-9b46-7668-7a55",
+          "id": "c19c-b8f9-84b4-13b2",
+          "name": "Death Korps Vox-caster"
+        }
+      ],
+      "id": "7dd8-25f6-3ca3-bb5a",
+      "name": "Veteran w/Vox-caster",
+      "infoLinks": [
+        {
+          "targetId": "c371-9555-44e9-4a99",
+          "id": "d1f5-7fa7-e70c-3a86",
+          "name": "Death Korps Veterans"
+        }
+      ]
+    }
+  ]
+}

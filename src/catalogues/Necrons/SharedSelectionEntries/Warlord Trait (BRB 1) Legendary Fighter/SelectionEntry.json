@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait (BRB 1): Legendary Fighter",
+    "prevIdentifier": "Warlord Trait (BRB 3): Tenacious Survivor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "422a-8673-4957-4ee5",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "903d-1fdf-67c1-8379",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ceb5-7879-c371-a824",
+      "name": "Warlord Trait (BRB 1): Legendary Fighter"
+    }
+  ]
+}

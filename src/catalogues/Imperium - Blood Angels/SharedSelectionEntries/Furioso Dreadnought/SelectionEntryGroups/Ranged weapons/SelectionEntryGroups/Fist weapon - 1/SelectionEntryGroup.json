@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Fist weapon - 1",
+    "prevIdentifier": "Fist weapon - 0"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a8a3-f676-948e-212e",
+      "constraints": [
+        {
+          "id": "bce8-d459-680f-8ad9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7f50-cc8b-1d0e-7b0f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "a8a3-f676-948e-212e",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0f78-5d09-1a74-af95",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "ddc1-81a9-f2a5-6e9c",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "67a5-bff7-dcdd-f245",
+      "name": "Fist weapon"
+    }
+  ]
+}

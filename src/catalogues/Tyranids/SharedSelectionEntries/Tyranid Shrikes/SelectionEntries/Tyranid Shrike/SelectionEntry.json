@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Tyranid Shrike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9eff-5a7a-a34f-93f3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "1f7c-dfb8-1622-f175",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "58ac-2f41-0033-b102",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "eb34-dc96-dea2-b5fa",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd90-db54-dc5c-03c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64fd-9b59-e4c3-a28a",
+          "id": "90a5-d431-ced2-ac06",
+          "name": "Flesh Hooks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5b2a-0c7c-a20c-7130",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b9ad-3827-329a-0e6e",
+          "id": "383c-5de8-8411-be87",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "id": "3864-3330-0ae1-68cf",
+      "name": "Tyranid Shrike"
+    }
+  ]
+}

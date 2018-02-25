@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Power Field",
+    "prevIdentifier": "Scout Vehicle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6e5f-1392-fd58-d8c0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "543d-3521-7452-ab3c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5e8e-15c3-8324-7378",
+      "name": "Power Field"
+    }
+  ]
+}

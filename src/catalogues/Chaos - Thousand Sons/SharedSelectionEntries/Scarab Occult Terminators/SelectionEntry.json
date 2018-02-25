@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Scarab Occult Terminators",
+    "prevIdentifier": "Rubric Marines"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "910b-657b-af0e-12ce",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "674a-8922-2996-281f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "e48e-5842-56c7-b7ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "3410-7494-186c-8599",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36b8-cf23-7648-ece9",
+          "id": "e2d8-fef7-987d-9efe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "1fbf-756b-2af7-c060",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "186c-2562-a61c-310c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a277-8b97-4b35-7475",
+          "id": "ce8c-e117-1365-44f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "5658-0e1b-8b99-643f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7ba1-bb65-7eb4-f857",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bad6-50db-be09-615f",
+          "id": "0bad-0a89-bdde-e60f",
+          "name": "Hellfyre Missile Rack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "7ba1-bb65-7eb4-f857",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c8ba-1df2-c188-f6b8",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c8ba-1df2-c188-f6b8",
+      "name": "Scarab Occult Terminators",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "2de7-040d-bedc-bd3e",
+          "id": "8ea0-adf0-0780-582b",
+          "name": "Teleport Strike"
+        },
+        {
+          "targetId": "ed56-a1a0-7f92-a3ec",
+          "id": "6131-6f2a-3c9e-9cba",
+          "name": "Terminator Armour"
+        },
+        {
+          "targetId": "27a8-c34a-7a70-904e",
+          "id": "9f0d-c2d6-94e6-d77a",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "c8ba-1df2-c188-f6b8",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Two Gauss Cannons",
+    "prevIdentifier": "Two Tesla Cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b69b-8fe3-f206-7196",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0740-9248-b467-b3a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6454-2951-cf1a-3c48",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0036-fd1e-3569-514b",
+          "id": "889f-1510-8eaf-7c8b",
+          "name": "Gauss Cannon"
+        }
+      ],
+      "id": "f268-2902-0bdc-dac1",
+      "name": "Two Gauss Cannons",
+      "book": "IA: Xenos"
+    }
+  ]
+}

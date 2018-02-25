@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two heavy plasma cannons",
+    "prevIdentifier": "Two multi-meltas"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7de2-8f66-f5db-8a73",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5244-7d51-1377-8d66",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "e9a4-a57c-cbc4-63f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3fb4-f296-aa09-da0d",
+          "id": "f8ac-5d8c-7707-2d39",
+          "name": "Heavy plasma cannon"
+        }
+      ],
+      "id": "bb34-2ae2-9423-812e",
+      "name": "Two heavy plasma cannons"
+    }
+  ]
+}

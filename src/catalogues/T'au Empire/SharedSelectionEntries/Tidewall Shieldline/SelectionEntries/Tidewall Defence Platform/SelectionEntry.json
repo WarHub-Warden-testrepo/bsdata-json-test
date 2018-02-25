@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Tidewall Defence Platform",
+    "prevIdentifier": "Tidewall Shieldline"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8f0a-d747-292b-450c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ae9d-9e3c-0006-a6e9",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "e21e-2772-5112-22ed",
+      "name": "Tidewall Defence Platform",
+      "infoLinks": [
+        {
+          "targetId": "df26-ab29-1523-53bd",
+          "id": "ea46-6d75-51bc-b923",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ed2c-4b7d-a3cb-0417",
+          "id": "3c41-41f1-0bab-3f8d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

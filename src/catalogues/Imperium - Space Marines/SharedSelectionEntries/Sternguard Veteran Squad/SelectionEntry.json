@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Sternguard Veteran Squad",
+    "prevIdentifier": "Centurion Assault Launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f3af-8da2-2fb3-45c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6b29-b0f0-9a75-a827",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "28f8-9d43-0cdd-f88c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "40f1-ffa0-093a-febc",
+          "id": "0ac9-941a-d935-5e89",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "d334-cce7-1c95-7496",
+      "name": "Sternguard Veteran Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5e99-9664-054e-f153",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ce85-d915-b380-4e12",
+          "id": "ba49-67ac-15c1-72ac",
+          "name": "Space Marine Veteran"
+        },
+        {
+          "targetId": "4fc6-74e0-0f86-4b23",
+          "id": "89f3-ab92-ec27-4209",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "c929-4f64-1171-cd2c",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "d065-9a5e-1557-0a47",
+              "type": 4,
+              "field": "selections",
+              "scope": "d334-cce7-1c95-7496",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

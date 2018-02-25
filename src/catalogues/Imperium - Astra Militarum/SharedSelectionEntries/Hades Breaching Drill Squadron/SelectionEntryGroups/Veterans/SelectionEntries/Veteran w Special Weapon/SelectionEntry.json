@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Special Weapon",
+    "prevIdentifier": "Veteran w/ Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fed9-4cf8-c012-7a28",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "efb2-c137-7fdb-153c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f22e-a133-c81c-28b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5de8-906d-ea69-610a",
+          "id": "7c4d-9a8f-82cc-bdbf",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "9852-3e7c-c4f3-6402",
+      "name": "Veteran w/ Special Weapon"
+    }
+  ]
+}

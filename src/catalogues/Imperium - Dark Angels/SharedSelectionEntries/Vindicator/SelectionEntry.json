@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Vindicator",
+    "prevIdentifier": "Servitors"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "1d33-89f4-645c-c8b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "21ed-b838-114e-f4bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b67b-e349-9700-7aad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0b6c-98ea-6824-b6ae",
+          "id": "a723-950f-26d8-cfd6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5828-b7ad-f989-3a00",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e827-f751-b0c4-7f35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "d953-0a5d-dbf4-70a1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fe45-3017-42c4-ed27",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "69db-c957-f96f-47de",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0354-e9be-2bf6-6a42",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e0f-c648-b6b3-5681",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "e84c-3ec9-d512-a0c2",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ecca-f653-031f-b1b1",
+      "name": "Vindicator",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "8c92-9aaa-6181-451b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "daaa-5a41-e76a-ccb7",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

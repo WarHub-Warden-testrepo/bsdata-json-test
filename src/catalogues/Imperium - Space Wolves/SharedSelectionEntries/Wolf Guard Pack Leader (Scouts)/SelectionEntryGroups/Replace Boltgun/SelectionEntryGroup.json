@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "identifier": "Replace Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bb7e-dcd9-6fb3-3105",
+      "constraints": [
+        {
+          "id": "4617-408a-f323-6aff",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1c08-9e77-084d-f433",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2db8-43fe-bb12-1f4f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "d1cc-d0a6-1b15-2eba",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "db53-9cab-894e-e601",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "6798-1cb1-4971-4518",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "00e9-7da2-2254-41eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "bb7e-dcd9-6fb3-3105",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b009-4f2e-3555-39fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "3430-ece3-e7fc-0014",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "2ac4-7d42-3b7d-24e4",
+          "name": "Space Wolves Combi-Weapons"
+        }
+      ],
+      "id": "1f09-c8b1-28fa-e447",
+      "name": "Replace Boltgun",
+      "modifiers": [
+        {
+          "field": "1c08-9e77-084d-f433",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "4617-408a-f323-6aff",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

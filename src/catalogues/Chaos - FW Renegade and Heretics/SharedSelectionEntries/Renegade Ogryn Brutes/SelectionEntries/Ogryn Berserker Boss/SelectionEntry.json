@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Ogryn Berserker Boss",
+    "prevIdentifier": "Brutes"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "af05-a0cf-f1d4-9909",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "fe57-4e5b-40ff-c1bd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9e75-eee5-ccd8-e9c5",
+      "name": "Ogryn Berserker Boss"
+    }
+  ]
+}

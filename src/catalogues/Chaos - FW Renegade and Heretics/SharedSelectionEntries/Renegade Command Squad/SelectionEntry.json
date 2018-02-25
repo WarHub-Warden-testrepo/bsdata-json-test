@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Renegade Command Squad",
+    "prevIdentifier": "Chaos Spawn"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c26b-0787-dd4a-d629",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "d870-96fd-7bcd-ec21",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "cc3f-6d53-eca2-8c6b",
+      "name": "Renegade Command Squad",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "8a54-1d13-e546-0357",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "576d-b2b0-efa8-a1ae",
+          "id": "f533-91ab-da9c-8cd1",
+          "name": "Fanatic"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "3043-d46d-c578-300c",
+          "name": "Chaos Covenant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "cc3f-6d53-eca2-8c6b",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "cc3f-6d53-eca2-8c6b",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

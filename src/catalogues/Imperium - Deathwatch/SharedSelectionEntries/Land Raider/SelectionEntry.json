@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Land Raider",
+    "prevIdentifier": "Drop Pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 230.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a20a-b954-da26-9ac8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "d312-37ea-16a7-74ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "793f-b604-5f21-eaaf",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3ffd-cd59-1575-92e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "609a-f634-76a0-b838",
+          "id": "f785-37fc-603a-96e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b7b8-fc49-229d-ba54",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f38b-91c4-301b-ad32",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a155-10f3-d35b-d9eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "09e4-d79a-eb94-32c7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "cd95-ec67-12ae-a538",
+      "name": "Land Raider",
+      "infoLinks": [
+        {
+          "targetId": "9e55-78af-ff73-24d6",
+          "id": "67d6-f4ab-2709-1846",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "7954-711b-9ab9-80f3",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "d33d-7611-ea3b-a9f7",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

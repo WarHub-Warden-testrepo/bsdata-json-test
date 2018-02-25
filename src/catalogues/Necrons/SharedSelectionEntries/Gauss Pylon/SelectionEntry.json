@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Gauss Pylon",
+    "prevIdentifier": "Canoptek Tomb Stalker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 550.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ae37-74e2-8391-d0f8",
+          "id": "a230-9a81-33de-595b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "85b4-9513-760b-5c23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "5e4a-00c1-8e46-3f47",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b635-fc27-9a9f-3058",
+          "id": "1eb4-a1a4-a0c3-2759",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "324e-e595-5fd3-bd83",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b1ca-b247-9ec1-67e4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "67f4-ca4e-7c54-37b5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "684e-7451-4811-e330",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1c59-ef3f-02b8-3ad8",
+          "id": "fd45-d75c-89cd-5ba5",
+          "name": "Tesla Arc"
+        },
+        {
+          "constraints": [
+            {
+              "id": "90cd-5e88-25b7-d3f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9c93-be66-5a72-b0e8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7ba6-7311-f951-4ab7",
+          "id": "72f4-2637-d6a4-70d7",
+          "name": "Gauss Annihilator"
+        }
+      ],
+      "id": "d3ca-ba96-c311-27f2",
+      "name": "Gauss Pylon",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "d2c5-c73f-a53d-f7c0",
+          "name": "Living Metal"
+        },
+        {
+          "targetId": "c408-8555-a6df-257f",
+          "id": "e08f-619c-d19e-325d",
+          "name": "Immobile"
+        },
+        {
+          "targetId": "cf98-63bd-046d-59fc",
+          "id": "814d-495c-fc7a-5c0b",
+          "name": "Teleportation Matrix"
+        }
+      ]
+    }
+  ]
+}

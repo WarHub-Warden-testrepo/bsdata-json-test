@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Power Maul and Stormbolter",
+    "prevIdentifier": "Power Lance and Stormbolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1a7d-215c-65e0-0bf1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d25e-9fc3-919c-1288",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "f2e5-7f7a-4ba3-707b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dff6-d25c-5b98-8cab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db1a-85be-829e-f41e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "8af6-fe14-4b8e-2b21",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1b36-8516-7312-cdec",
+      "name": "Power Maul and Stormbolter"
+    }
+  ]
+}

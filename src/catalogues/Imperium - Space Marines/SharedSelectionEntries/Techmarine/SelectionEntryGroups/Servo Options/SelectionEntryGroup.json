@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Servo Options",
+    "prevIdentifier": "Weapon Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "56a5-5479-6bd0-2af0",
+      "constraints": [
+        {
+          "id": "a5da-05ca-c05b-0497",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "64c8-84bd-06d2-8940",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "293c-b2ba-2493-b02b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "56a5-5479-6bd0-2af0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "03dc-6554-966a-4d10",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5eb6-9cce-4e27-6252",
+          "id": "cddb-aba9-23ca-145f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0bf8-eaa8-693f-1436",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fbb1-9dd6-aefc-eba2",
+          "id": "9faf-49e4-35a2-48db",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "02d7-5735-d020-c732",
+      "name": "Servo Options"
+    }
+  ]
+}

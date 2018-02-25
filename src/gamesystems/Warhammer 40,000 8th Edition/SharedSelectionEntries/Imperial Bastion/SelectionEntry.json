@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Imperial Bastion",
+    "prevIdentifier": "Fortress of Redemption"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "55c6-268b-357f-d070-d713cda3-5d0f-40d8-b621-69233263ec2a"
+        },
+        {
+          "targetId": "9df5-bb14-9326-4108",
+          "id": "4258-6773-c0a4-1ccb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "e36e-2bfa-336b-104d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "09c6-7ce7-521e-c891",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "0e2f-b5d4-56be-a2a4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d943-3c7b-91a2-5609",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "id": "c578-c926-4646-944f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "e9d2-249f-cbc1-de00",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        }
+      ],
+      "id": "55c6-268b-357f-d070",
+      "name": "Imperial Bastion",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "a179-f592-3224-72c9",
+          "id": "8307-c6dd-a354-b880",
+          "name": "Automated Weapons"
+        },
+        {
+          "targetId": "220a-170b-5fd7-36f2",
+          "id": "8598-082d-0393-627b",
+          "name": "Fire Points (10)"
+        },
+        {
+          "targetId": "8830-2c9e-ad7e-e57d",
+          "id": "0d23-67e2-23ad-bf28",
+          "name": "Immobile"
+        },
+        {
+          "targetId": "429b-91d2-8356-7150",
+          "id": "808f-e911-b586-909f",
+          "name": "Magazine Explosion"
+        }
+      ]
+    }
+  ]
+}

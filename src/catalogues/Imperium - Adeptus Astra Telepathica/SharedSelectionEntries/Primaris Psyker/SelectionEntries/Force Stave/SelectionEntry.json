@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Force Stave",
+    "prevIdentifier": "Laspistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9490-23a2-6cec-4ac2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3a8f-23bc-9bfc-76a7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8a89-78eb-85cb-4ade",
+      "name": "Force Stave",
+      "infoLinks": [
+        {
+          "targetId": "ed69-f85e-5982-9ab8",
+          "id": "c7d3-0594-c09e-a76e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

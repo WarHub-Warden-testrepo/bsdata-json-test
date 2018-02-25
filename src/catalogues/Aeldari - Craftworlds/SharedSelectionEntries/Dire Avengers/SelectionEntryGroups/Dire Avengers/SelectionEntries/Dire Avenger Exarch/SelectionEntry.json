@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Dire Avenger Exarch",
+    "prevIdentifier": "Dire Avenger"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b80d-ca9c-c670-c0d1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dd3d-402c-06e7-8a5e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1389-38e3-e9cb-e0b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "d8fb-b7f6-000c-fecc",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "eadf-daed-e2d3-7457",
+      "name": "Dire Avenger Exarch"
+    }
+  ]
+}

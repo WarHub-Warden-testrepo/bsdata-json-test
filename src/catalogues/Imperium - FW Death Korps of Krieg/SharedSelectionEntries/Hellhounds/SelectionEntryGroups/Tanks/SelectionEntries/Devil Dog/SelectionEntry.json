@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Devil Dog",
+    "prevIdentifier": "Bane Wolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 73.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "59e6-07c8-e04c-4afa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "35c3-52e7-1ac4-04f2",
+          "id": "39ed-9951-8236-a576",
+          "name": "Hellhound Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "dfa4-660e-feed-cad0",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d41-9e04-1a03-1e01",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4289-8288-575f-ee8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "9b86-ddb3-8e74-1aa2",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "69eb-741e-dbb3-c2c0",
+          "id": "6512-cf00-858e-8f8d",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "0aff-e0f8-b78a-39eb",
+      "name": "Devil Dog",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "4fd1-0baf-b92b-552e",
+          "id": "64e2-1c90-cbdf-e8d0",
+          "name": "Hellhound"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "f280-bdd0-30c2-a815",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "6db3-7c9e-6f96-08bb",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "a3b5-b1b0-3889-04cc",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

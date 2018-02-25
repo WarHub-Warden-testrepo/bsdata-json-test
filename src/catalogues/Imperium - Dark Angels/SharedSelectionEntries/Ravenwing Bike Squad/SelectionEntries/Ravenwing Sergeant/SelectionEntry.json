@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Sergeant",
+    "prevIdentifier": "Ravenwing Biker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "17e8-1ad1-46c6-da33",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "de1e-db11-bd72-a023",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1895-aed1-30e4-117b",
+          "id": "91b7-d37e-2c53-5868",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b7d3-99bd-606c-cc2a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "d7af-49db-8a79-069f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "414b-a5ed-a56e-5ec0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "300c-7254-fe13-7e75",
+      "name": "Ravenwing Sergeant"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "identifier": "Just Take Whatever, I Give Up:",
+    "prevIdentifier": "Laspistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2142-6f3e-b5a1-598a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "eae0-0150-d75b-bdf0",
+          "id": "8ba1-0c37-e594-ba64",
+          "name": "AdMin Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "eddf-6a6d-804b-a807",
+          "id": "8edd-3bf0-ea21-f0c1",
+          "name": "AdMin Ranged Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9cf6-2831-e830-63f9",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "82bc-d884-299a-1eda",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "e076-6d6d-afb7-0c79",
+          "name": "Autogun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3347-09c6-8731-2300",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "742e-e6d8-9b7f-2374",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "28c8-7fa9-1d1b-10e5",
+          "name": "Eviscerator",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5cb9-602f-51b2-0f73",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "8566-4e5a-0be3-c4cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "55dd-cf86-7b3b-5f18",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "660a-7dcb-bede-d96c",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "a491-0c9f-38cf-c016",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2094-c9a6-a426-0970",
+          "id": "a831-0210-19cd-9831",
+          "name": "Shotgun"
+        }
+      ],
+      "id": "810a-c921-61dd-7628",
+      "name": "Just Take Whatever, I Give Up:",
+      "modifiers": [
+        {
+          "field": "2142-6f3e-b5a1-598a",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "0dd1-2e2b-7dd1-5495",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f43e-c8f8-ba40-92c3",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e076-6d6d-afb7-0c79",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f43e-c8f8-ba40-92c3",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "identifier": "Tech-Priest Enginseer",
+    "prevIdentifier": "Servo-arm"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2aaf-0e1b-fb78-031b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c1f2-cb02-3d5d-4a74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "9f80-e7d5-a62d-a94a",
+          "name": "Laspistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "024f-cd35-1605-d3f7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4c13-6992-7882-c189",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8649-2c78-251e-a52a",
+          "id": "93ec-d5f5-1267-5dab",
+          "name": "Omnissan Axe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a5e-8db6-98d4-c1d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "94d9-753b-acca-ee43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88ec-ab5c-3e50-506c",
+          "id": "4c25-62ba-bde5-5752",
+          "name": "Servo-arm"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "ec2e-e746-c1a9-f7ef",
+          "name": "HEIRLOOMS OF CONQUEST"
+        },
+        {
+          "constraints": [
+            {
+              "id": "29ca-3e22-e082-e5b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "5ae7-6d2d-8543-5245",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "585d-ed1b-2aa1-9829",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a022-066a-c6bf-89b6",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "585d-ed1b-2aa1-9829",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "36ef-26b3-d361-641a",
+      "name": "Tech-Priest Enginseer",
+      "book": "Codex: Astra Militarum",
+      "page": "100",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "713b-e29c-6e24-c095",
+          "id": "3e17-4022-b9a8-839c",
+          "name": "Designer's Note (forgeworld)"
+        }
+      ]
+    }
+  ]
+}

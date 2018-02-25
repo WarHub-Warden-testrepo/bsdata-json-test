@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "identifier": "Deimos Pattern Relic Predator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8c9e-fcf4-171e-7713",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "124a-4955-3fc6-6ecf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "aafa-51d9-e9b4-a54b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "b500-1c06-6ec6-932b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84d8-d1fa-8dd7-4006",
+          "id": "a138-ff44-4e9c-01cc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "1351-4b34-72a4-fd14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "243b-cda4-b625-6738",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "aa25-a5bf-a9a8-86e0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e784-e608-70da-0feb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "9f5d-928e-bc41-46bd",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "63e1-291c-5ac5-4a84",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "3c28-d5a8-7955-630f",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "b048-66f2-3f07-e5ec",
+      "name": "Deimos Pattern Relic Predator",
+      "book": "Imperial Armour Index: Forces of the Adeptus Astartes",
+      "page": "7",
+      "infoLinks": [
+        {
+          "targetId": "e348-4445-0cd5-1416",
+          "id": "4377-efc8-7bb2-77d7",
+          "name": "Deimos Predator"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "78c3-66fe-6e0a-98f7",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "b4be-8b5e-875d-e609",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "8c9e-fcf4-171e-7713",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "8c9e-fcf4-171e-7713",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "8c9e-fcf4-171e-7713",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

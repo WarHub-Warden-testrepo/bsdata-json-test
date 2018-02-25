@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Pathfinder w/ Rail Rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "99f6-2d36-9a4c-5ff3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "7b88-5ce2-5053-7c47",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "705a-8f45-fd98-8139",
+          "name": "Photon grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1397-3289-9eea-7209",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "020e-6ba8-5d30-4e5a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bb4-d3c0-16bf-0d66",
+          "id": "39aa-6638-d97a-51dd",
+          "name": "Rail rifle"
+        }
+      ],
+      "id": "f42c-187a-eea4-083f",
+      "name": "Pathfinder w/ Rail Rifle",
+      "infoLinks": [
+        {
+          "targetId": "8aee-6b1f-4ae3-024f",
+          "id": "f560-b9ef-2171-c179",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

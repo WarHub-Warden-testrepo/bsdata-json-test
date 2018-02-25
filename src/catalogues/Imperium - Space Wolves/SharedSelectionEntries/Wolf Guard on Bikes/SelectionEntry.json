@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard on Bikes",
+    "prevIdentifier": "Wolf Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c4de-0481-9d09-bcb1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2749-15e0-4633-9049",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "8c86-e037-191f-4734",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "1f10-f15c-c071-531e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "bd8d-825a-2151-1f3a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "0f06-8fc7-4ca9-067f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c4f9-57b1-ebb0-d9bf",
+      "name": "Wolf Guard on Bikes",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "db3f-578e-ff16-0c7a",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "c4f9-57b1-ebb0-d9bf",
+              "value": 5.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

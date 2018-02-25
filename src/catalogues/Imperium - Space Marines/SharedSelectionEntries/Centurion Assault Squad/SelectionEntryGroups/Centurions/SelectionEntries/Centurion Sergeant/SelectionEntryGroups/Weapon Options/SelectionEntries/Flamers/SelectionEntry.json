@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Flamers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a183-8eea-cdd2-920a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5e34-3589-a8b2-f5b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "583a-fb12-a71d-00cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "e657-4004-2264-971c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3756-1f8e-c833-a2a4",
+      "name": "Flamers"
+    }
+  ]
+}

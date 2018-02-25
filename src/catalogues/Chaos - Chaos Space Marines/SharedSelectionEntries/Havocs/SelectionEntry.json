@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "identifier": "Havocs",
+    "prevIdentifier": "Chaos Rhino"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "a6e7-fde9-ed23-c6d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "4ac4-7f50-7af9-f707",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4bae-f7df-d45e-6845",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "c864-6fa9-c943-4e33",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3055-9891-cd29-e505",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "1450-abe4-5154-be96",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c807-d618-d8d4-62cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "504d-68cf-daae-7d19",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "34a8-8285-a3c2-f4e6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f7d5-82fa-df6a-b9e2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d73d-da26-a825-6ea5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b82-0948-eac4-b35f",
+          "id": "7a78-1435-2d67-5380",
+          "name": "Icon of Excess",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "81f9-01f6-e82e-7eec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f7d5-82fa-df6a-b9e2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "63d4-46d8-335f-e4f5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "265b-b8a6-ab76-9567",
+          "name": "Icon of Flame",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "57d0-d6cb-db5a-2142",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f7d5-82fa-df6a-b9e2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "019f-df53-c3f3-0b73",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eab4-cf83-7555-b8c3",
+          "id": "a7c4-cea6-8fdd-6db6",
+          "name": "Icon of Vengeance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfe4-7311-dbd5-c9e1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f7d5-82fa-df6a-b9e2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d5c9-b0e8-0c76-e0ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4925-fdaf-aee3-c408",
+          "id": "1ed1-d51e-d91c-3805",
+          "name": "Icon of Wrath",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c919-21bc-48b7-0423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f7d5-82fa-df6a-b9e2",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f7d5-82fa-df6a-b9e2",
+      "name": "Havocs",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "ed8a-7705-1644-58db",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "f7d5-82fa-df6a-b9e2",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

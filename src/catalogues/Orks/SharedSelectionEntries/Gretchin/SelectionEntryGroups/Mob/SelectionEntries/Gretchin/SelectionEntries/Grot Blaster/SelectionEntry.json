@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Grot Blaster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "c01c-ed2b-b2a0-b7a6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7dc6-2d31-40d4-824d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c9c1-895e-b944-578f",
+      "name": "Grot Blaster"
+    }
+  ]
+}

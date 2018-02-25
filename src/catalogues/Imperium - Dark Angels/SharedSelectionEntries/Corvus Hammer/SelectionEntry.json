@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Corvus Hammer",
+    "prevIdentifier": "Ravenwing Apothecary"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "f263-ce46-4cad-a9ab",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "25fd-2b9f-c6fd-fa49",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "84fe-f60d-9f1e-1764",
+      "name": "Corvus Hammer"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Wolf Scout with Melee Weapon",
+    "prevIdentifier": "Wolf Scout Pack Leader"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3ac6-55d4-fa09-0e8f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d9a-c609-1fbf-3ebc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1459-9440-c8a1-c040",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4687-950e-6c85-bd49",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2faa-cbbc-b337-d0d3",
+      "name": "Wolf Scout with Melee Weapon",
+      "infoLinks": [
+        {
+          "targetId": "6faa-5f0d-bd78-f2cc",
+          "id": "1fd4-d5b8-dcd4-c0b2",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

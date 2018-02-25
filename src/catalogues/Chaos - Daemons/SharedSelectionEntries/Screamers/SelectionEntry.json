@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Screamers",
+    "prevIdentifier": "Pink Horror"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "95b7-874e-1269-2ff3"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "5ff7-f451-334c-d9cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "7ff7-eee8-5cf4-ef70",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "eaf0-0a84-1fb1-ad09",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "7298-97e4-3a21-6836",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d5c2-2c15-729f-f598",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "039e-81fd-d6ad-d181",
+      "name": "Screamers",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "a5cb-38c5-2e11-e1fd",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "696d-0243-62a5-20a9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9aa8-d31b-2098-9205",
+          "id": "4ceb-783b-c3c7-ce44",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "039e-81fd-d6ad-d181",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "039e-81fd-d6ad-d181",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

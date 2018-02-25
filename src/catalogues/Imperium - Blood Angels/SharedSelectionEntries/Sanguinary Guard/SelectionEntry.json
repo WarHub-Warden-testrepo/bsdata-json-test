@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Sanguinary Guard",
+    "prevIdentifier": "Lemartes"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "192b-b965-bbbf-10bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "0267-96ad-8acc-10cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "f5c4-c160-1579-c234",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "8351-7d5a-04e1-e1ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "eebd-54f9-97d6-1da8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "f63e-5791-91bf-bcb1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "51d5-7ff3-3952-2f65",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3e70-f74e-7e0a-c769",
+          "id": "2a45-a463-2725-f676",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8fee-cfdd-8c86-af5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2f38-7256-aeae-fc13",
+          "id": "c51f-935e-cf5c-9af2",
+          "name": "Death mask",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "2"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e7be-397e-ddd1-65ae",
+      "name": "Sanguinary Guard",
+      "infoLinks": [
+        {
+          "targetId": "8037-2d12-0452-a463",
+          "id": "eab9-1437-0e37-2d91",
+          "name": "Heirs of Azkaellon"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "e7be-397e-ddd1-65ae",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

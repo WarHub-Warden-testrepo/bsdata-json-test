@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Turret"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "1054-685e-0116-a5de",
+      "constraints": [
+        {
+          "id": "6a49-2294-9ef8-d05d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a7a4-6964-5bcc-96a9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a0df-0229-31eb-729d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5acc-ef77-8fca-7009",
+          "id": "1054-685e-0116-a5de",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3251-3332-c2d4-bfc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "722c-0f6b-7fa8-72c8",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        }
+      ],
+      "id": "30ea-e36f-ba70-3689",
+      "name": "Turret"
+    }
+  ]
+}

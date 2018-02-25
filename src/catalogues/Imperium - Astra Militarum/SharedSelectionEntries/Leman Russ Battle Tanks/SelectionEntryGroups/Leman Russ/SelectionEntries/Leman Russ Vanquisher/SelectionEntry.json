@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Vanquisher",
+    "prevIdentifier": "Leman Russ Exterminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5901-34d7-fb83-0e4a",
+          "id": "eb2a-35df-cde7-08ab",
+          "name": "Turret-mounted Vanquisher Battle Cannon"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "4020-3b68-6ec0-f792",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "9687-ad0d-9a5d-eea9",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "68db-ada1-3a1e-2a1b",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d328-3cf5-e0a9-5667",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ce67-9d45-9039-f3df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "51b1-5927-aa4b-2c2a",
+          "name": "Stat Damage (Leman Russ)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "f5bf-0682-3960-c17b",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "c1a5-a9ba-c0c2-2dc3",
+      "name": "Leman Russ Vanquisher",
+      "book": "Codex: Astra Militarum",
+      "page": "47",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "30d2-4641-00cb-05f2",
+          "name": "Leman Russ"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "6120-507e-7dfc-fb38",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "4966-fc87-2cc3-16f2",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2e4a-82c4-6fa6-4738",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "9128-2976-b29a-53fd",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "39f7-1baf-1a4d-d10c",
+          "name": "Improved Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

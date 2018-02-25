@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Rhino",
+    "prevIdentifier": "Librarian on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5d18-660b-baf2-ecc9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "8629-09c9-0020-ff75",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef9f-b337-b5f4-54dc",
+          "id": "c182-b230-fe53-a1f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "814e-c1cc-3320-53a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "7877-3b1d-4413-94d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "64c9-df91-b64d-3831",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "52b6-cb07-2695-9b31",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5488-cc1b-05de-827f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "220d-7085-9753-c370",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad40-afb2-4397-d4d9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "5078-4f05-2051-9bc0",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "75f2-772d-6392-6b29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "e49a-e195-2955-3fe4",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "410f-eff8-c527-d49c",
+      "name": "Rhino",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "b99b-a000-3299-0628",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "b83f-eeb7-c2d8-e532",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "88cf-5c51-9f6b-7f26",
+          "id": "6666-63b5-ed60-debf",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Necron Warriors",
+    "prevIdentifier": "Necron Warrior"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "644b-2b35-13b2-03eb",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "4561-1d51-36d9-7b63",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f21b-6f8b-8c28-7e9c",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "c9db-16b2-d65f-708b",
+          "id": "2d35-0894-55b6-6334",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dccb-7d34-a63d-d75d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 10.0,
+              "shared": true
+            },
+            {
+              "id": "5e9b-89be-16b7-a39c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 20.0,
+              "shared": true
+            }
+          ],
+          "targetId": "631d-38b4-1b15-59f9",
+          "id": "1216-71d5-17a4-536d",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "e0dd-9cd5-7551-be92",
+      "name": "Necron Warriors",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "2aa7-baab-630e-aa50",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "e0dd-9cd5-7551-be92",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

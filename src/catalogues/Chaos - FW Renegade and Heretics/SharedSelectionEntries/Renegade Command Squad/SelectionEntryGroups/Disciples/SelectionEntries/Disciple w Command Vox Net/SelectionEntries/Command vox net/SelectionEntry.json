@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Command vox net"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1056-23b5-c853-1790",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d3da-16ae-14a5-c8da",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "eba8-cd39-4772-57e8",
+      "name": "Command vox net"
+    }
+  ]
+}

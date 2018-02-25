@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "identifier": "Stormraven Gunship",
+    "prevIdentifier": "Sternguard Veteran Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 192.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "d06b-dcdb-c709-a2e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "e840-78b9-19a8-768a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "bd14-1612-b00b-7253",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "c3cf-c571-620d-af2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "ff04-fbde-e54e-1252",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b009-e0cc-15ac-2314",
+          "id": "d034-470f-5ee7-4656",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "3799-e44c-1132-0e5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "abb4-b4c8-535a-4348",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "889d-91b3-85cf-66ce",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "b1b2-4a0a-e17a-f85a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38e3-37a8-42a3-e195",
+          "id": "065c-855a-f81f-aff8",
+          "name": "Stormstrike missile launcher"
+        }
+      ],
+      "id": "52d2-481d-acf4-0787",
+      "name": "Stormraven Gunship",
+      "infoLinks": [
+        {
+          "targetId": "4bfa-0006-220b-8949",
+          "id": "1130-d477-713e-d31a",
+          "name": "Stormraven Gunship"
+        },
+        {
+          "targetId": "ea77-db2e-e94b-1dc8",
+          "id": "ce39-9165-36e0-2d1e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5612-a7b4-ed49-63e2",
+          "id": "727b-f2d8-74c5-8888",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "05fe-231e-bd86-86e4",
+          "id": "eaf3-bc9d-4e0b-e55f",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "d061-4605-a6f7-0b4c",
+          "id": "855d-bd33-c487-92d7",
+          "name": "Hover Jet",
+          "page": ""
+        },
+        {
+          "targetId": "c5ca-67fb-3f1a-5a0b",
+          "id": "ed29-1217-8a56-fe2b",
+          "name": "Supersonic"
+        }
+      ]
+    }
+  ]
+}

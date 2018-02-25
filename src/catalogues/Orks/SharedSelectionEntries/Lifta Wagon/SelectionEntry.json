@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Lifta Wagon",
+    "prevIdentifier": "Rippa Klaw"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 175.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "b191-f025-10ab-d7cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "3737-1d4c-c551-5166",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "9023-6b82-ca00-09fe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8b6a-3618-9f9f-30dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "bf12-8df5-867f-5565",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "af84-f23e-0197-d873",
+          "id": "941d-64d0-860d-1a60",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "afdc-8903-044a-a42e",
+          "id": "2fa3-e091-8fc3-3f81",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c4c7-4415-9194-4d13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ea04-8ef4-5bd0-ac65",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ea50-a127-aba6-dfc4",
+          "id": "390c-9c5f-82cf-3d13",
+          "name": "Lifta-Droppa"
+        }
+      ],
+      "id": "6879-dd66-6ee7-56a8",
+      "name": "Lifta Wagon",
+      "infoLinks": [
+        {
+          "targetId": "4984-fddb-b1ad-d7a3",
+          "id": "1bf1-696c-ff5b-f65c",
+          "name": "Mobile Fortress"
+        }
+      ]
+    }
+  ]
+}

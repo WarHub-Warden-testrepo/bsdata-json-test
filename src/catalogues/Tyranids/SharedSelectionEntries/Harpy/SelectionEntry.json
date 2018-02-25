@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Harpy",
+    "prevIdentifier": "Genestealers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 121.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "4164-cbab-6c30-8acc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "c750-9bee-1b48-1798",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "df4e-8e75-091b-217e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "a036-bec0-22ba-c9f5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "12da-d3da-aee1-0698",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5c11-9157-f6dc-2e7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b869-1860-8dc6-211b",
+          "id": "66b9-a83e-e008-d9f2",
+          "name": "Scything Wings"
+        },
+        {
+          "constraints": [
+            {
+              "id": "73de-3519-baa5-27a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7b0b-ee29-4f03-605b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6657-6c6f-5778-34e7",
+          "id": "1cef-abd0-4d11-dae6",
+          "name": "Stinger Salvo"
+        },
+        {
+          "targetId": "7cd5-1124-4d20-3675",
+          "id": "def6-2490-d0fa-68c1",
+          "name": "Show Spore Mine Rules"
+        }
+      ],
+      "id": "ee16-7977-eb9b-88e7",
+      "name": "Harpy",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "adf5-1770-a8b6-cfc9",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "6515-364e-86c7-5f9f",
+          "id": "b4c5-e762-2886-16f2",
+          "name": "Death Throes"
+        }
+      ]
+    }
+  ]
+}

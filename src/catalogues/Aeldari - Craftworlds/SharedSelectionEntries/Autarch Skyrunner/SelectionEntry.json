@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "identifier": "Autarch Skyrunner",
+    "prevIdentifier": "Autarch with Warp Jump Generator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "5554-8e05-a25a-9467",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "3ca0-a4ba-f334-7b09",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "5cec-d0a1-8c95-ff43",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f3a-0e93-5211-1a55",
+          "id": "73a5-40cd-74ab-2315",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5588-92ec-3928-5699",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "dfd4-4beb-d5a1-9e02",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6820-d4c9-2577-25d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "cbd1-53fe-c031-067f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "bf75-8a9c-4578-1528",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "99e9-e617-958e-1a73",
+          "id": "c902-3785-47b0-ddec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8348-0a64-ff87-dac5",
+          "id": "e74b-a6fd-a2f1-b3f4",
+          "name": "Autarch Weapons (Index)",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "0fa7-27d6-5bdc-4547",
+              "value": "1",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "5648-412c-e8b0-fdcd",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "7a74-f56b-28ad-cd55",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "9faf-68f6-df10-e4ae",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "7a74-f56b-28ad-cd55",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "48f0-8873-677e-6bf9",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "7a74-f56b-28ad-cd55",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "69bf-6ddd-9762-9bab",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "7a74-f56b-28ad-cd55",
+                      "value": 1.0,
+                      "shared": true
+                    },
+                    {
+                      "childId": "fdda-d5ae-371b-0840",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "7a74-f56b-28ad-cd55",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "18c0-c25c-bb83-14dd",
+          "id": "b4ef-ffe3-de86-e2e6",
+          "name": "Autarch Equipment (Index)"
+        },
+        {
+          "targetId": "08da-47e9-744b-f7d4",
+          "id": "9881-7513-9337-6ee8",
+          "name": "Ride the Wind"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e7dd-c382-0e25-fc97",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fef4-47a7-1a4b-ee40",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a43c-78fc-c084-81e3",
+          "id": "20d4-92f0-c643-13f6",
+          "name": "Twin Shuriken Catapult"
+        },
+        {
+          "type": 1,
+          "targetId": "c99a-b105-9c5a-91fe",
+          "id": "fe98-bc0e-7a6a-c07f",
+          "name": "Remnants of Glory"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9093-d7f2-5004-6874",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "b657-7596-cb5b-cc33",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "f5fc-dd44-f365-dc4b",
+          "name": "Warlord Trait",
+          "isHidden": true
+        }
+      ],
+      "id": "7a74-f56b-28ad-cd55",
+      "name": "Autarch Skyrunner",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "dcdc-2489-1e36-2c10",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "c7b1-b2e7-dba3-5e43",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

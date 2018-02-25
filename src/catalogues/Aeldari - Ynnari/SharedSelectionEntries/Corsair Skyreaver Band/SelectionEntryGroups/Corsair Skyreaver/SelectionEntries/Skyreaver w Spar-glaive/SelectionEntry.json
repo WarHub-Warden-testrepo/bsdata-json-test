@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Skyreaver w/ Spar-glaive",
+    "prevIdentifier": "Skyreaver w/ Shardcarbine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "8dcf-041e-5c8e-b353",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "517c-b95e-66d1-bb2f",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "51c8-cc36-b5d9-dd1d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3689-d4f7-12de-2244",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5f13-17bf-66c9-46d9",
+          "id": "41fe-ae6b-34b2-e0b1",
+          "name": "Spar-glaive"
+        }
+      ],
+      "id": "b264-309a-8b76-b42b",
+      "name": "Skyreaver w/ Spar-glaive",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "infoLinks": [
+        {
+          "targetId": "f40d-f42e-3dfe-5a03",
+          "id": "ad05-7bf6-d986-85cb",
+          "name": "Corsair Skyreaver"
+        }
+      ]
+    }
+  ]
+}

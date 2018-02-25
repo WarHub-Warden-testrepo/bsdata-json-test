@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapons",
+    "prevIdentifier": "Combi-weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "7362-27ce-2e1c-2089",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "fc8b-7dd0-3217-eeb8",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "3257-f2c4-b322-4d58",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "a80d-e2be-3cfe-ff30",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "69d3-a690-2a40-15fd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d16e-f416-d268-b2b4",
+      "name": "Heavy Weapons"
+    }
+  ]
+}

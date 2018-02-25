@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Cyclone missile launcher and storm bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c3e6-c237-fbae-8a6a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bfc1-49e3-7e82-a79e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "25b3-79f7-73cd-9321",
+          "id": "89a7-e911-1744-d5df",
+          "name": "Cyclone missile launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "72b5-55c4-bb61-7d4b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a78d-6aa1-6bb2-bcea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "b979-4e8c-f79e-5974",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "a12e-67a4-0ab6-b7d4",
+      "name": "Cyclone missile launcher and storm bolter"
+    }
+  ]
+}

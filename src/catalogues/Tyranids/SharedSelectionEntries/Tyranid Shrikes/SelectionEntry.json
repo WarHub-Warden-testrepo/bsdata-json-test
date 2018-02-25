@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Tyranid Shrikes",
+    "prevIdentifier": "Trygon Prime"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "1a33-dc25-68e8-e16e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "99fe-c1c3-7711-3c0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "92b5-3769-7372-3e4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "0330-4eab-11d9-d48c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "00b6-03cd-dc27-5eca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0435-abe8-4398-eff8",
+      "name": "Tyranid Shrikes",
+      "infoLinks": [
+        {
+          "targetId": "1f08-bd8f-43a3-ce1b",
+          "id": "42f6-1d1d-3dd1-51b5",
+          "name": "Synapse"
+        },
+        {
+          "targetId": "f587-afe6-7bbe-4eac",
+          "id": "42d9-4148-fe5e-a02b",
+          "name": "Shadow in the Warp"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "0435-abe8-4398-eff8",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "0435-abe8-4398-eff8",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

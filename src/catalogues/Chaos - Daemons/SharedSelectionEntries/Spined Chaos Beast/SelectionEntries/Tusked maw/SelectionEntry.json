@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Tusked maw",
+    "prevIdentifier": "Jagged claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d0e7-1ac0-e9fd-61ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "8a25-aa58-cdaa-43c3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "1de7-ab44-f716-83b4",
+      "name": "Tusked maw"
+    }
+  ]
+}

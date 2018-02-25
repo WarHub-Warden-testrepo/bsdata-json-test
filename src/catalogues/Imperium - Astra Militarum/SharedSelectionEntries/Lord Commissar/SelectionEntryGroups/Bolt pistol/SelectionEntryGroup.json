@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Bolt pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "8b1b-43fa-e3c0-2334",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "9ef3-0f17-2aeb-436e",
+          "id": "be0c-55fe-7834-9362",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "584a-0c81-9ab7-fe35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "8b1b-43fa-e3c0-2334",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "id": "bc4c-8bd5-b344-a147",
+      "name": "Bolt pistol"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Disciple Heavy Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7597-b521-d0a2-211f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c3f4-d6a2-1462-37a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5563-ec13-f04c-b585",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "32dc-b1e9-c4d8-ba22",
+          "name": "Frag grenade"
+        },
+        {
+          "type": 1,
+          "targetId": "6e60-2ebe-00fd-5120",
+          "id": "63ed-b59d-a8bd-9ff5",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "1dac-1430-9ffe-9b66",
+      "name": "Disciple Heavy Weapon Team"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Piercing claws",
+    "prevIdentifier": "The Masque of Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "0572-6cf9-3c95-b83d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "5358-95e9-e823-5c7d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "c51a-990f-2bcd-763d",
+      "name": "Piercing claws"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Mars-Alpha Vanquisher",
+    "prevIdentifier": "Leman Russ Mars-Alpha Exterminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 132.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ef15-6c95-2c54-5382",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "5cb1-2514-44bb-40c7",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "8eec-a7d8-0486-e013",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "471f-d65e-4c00-796e",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "37d5-cded-8e9e-b868",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "86f0-6020-e8ee-6699",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b307-c464-77b7-62d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "dcc1-2a76-fba9-09a8",
+          "name": "Stat Damage (Leman Russ)"
+        }
+      ],
+      "id": "673c-82b4-dd38-30b7",
+      "name": "Leman Russ Mars-Alpha Vanquisher",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "214d-31f9-4123-b6fc",
+          "name": "Leman Russ"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "dde5-0850-1bce-013e",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "c212-11c6-c4a7-126e",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "22ee-386d-f109-a60d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "8e46-0894-97c8-9486",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "2f16-2245-c394-cabc",
+          "id": "97ca-36cf-50b2-aad6",
+          "name": "Emergency Plasma Vents"
+        },
+        {
+          "targetId": "307a-6b7f-691a-7934",
+          "id": "fe4e-247f-e6f9-2219",
+          "name": "Mars-Alpha Hull"
+        }
+      ]
+    }
+  ]
+}

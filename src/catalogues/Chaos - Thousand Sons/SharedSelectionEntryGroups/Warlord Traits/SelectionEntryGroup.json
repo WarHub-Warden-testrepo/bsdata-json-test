@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Sorcerous Arcana"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "38dc-0592-d1af-1556",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "5164-877f-2b18-67cf",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "2477-46c4-b13d-f15a",
+          "name": "Warlord Traits (CA)"
+        },
+        {
+          "type": 1,
+          "targetId": "24a4-4dd9-cc3d-652f",
+          "id": "410d-0092-077a-32a0",
+          "name": "Warlord Traits (Thousand Sons)"
+        }
+      ],
+      "id": "18b9-a369-20ee-a31b",
+      "name": "Warlord Traits",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "9aed-5e2d-8d51-5f31",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

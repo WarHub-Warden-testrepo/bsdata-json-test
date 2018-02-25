@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Kill Tank",
+    "prevIdentifier": "Battlewagon with Supa-Kannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 365.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "5aa5-2239-caf7-2bfa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "3f50-789e-f807-0cc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "6683-d443-7940-e750",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "db66-6954-b3a2-bdfb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0358-854c-00cf-0330",
+          "id": "b712-6b69-2170-4564",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "885d-a340-14ce-7e5a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e974-4b62-f74d-68e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "2ede-27b5-9d80-a66b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "a4f1-6ccb-1c50-405b",
+          "id": "fa83-8645-4830-e2cc",
+          "name": "Twin Big Shoota"
+        },
+        {
+          "constraints": [
+            {
+              "id": "19db-bf4a-66a4-b645",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c3cc-778b-bf27-0d0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "95b5-fb4b-a7d2-ec1a",
+          "id": "438d-16a9-ab06-c612",
+          "name": "Reinforced Ram"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8067-7d4d-efb8-1128",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dcc2-cb87-3eaf-b0ab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "c5aa-3d54-aeaa-36ca",
+          "id": "3519-1f4c-09cc-53ab",
+          "name": "Grot Riggers [RAW PROBLEMATIC]"
+        }
+      ],
+      "id": "5521-9ab8-c925-50c2",
+      "name": "Kill Tank",
+      "infoLinks": [
+        {
+          "targetId": "4984-fddb-b1ad-d7a3",
+          "id": "25dd-72cb-67bb-2f6a",
+          "name": "Mobile Fortress"
+        },
+        {
+          "targetId": "8159-a610-444f-d93c",
+          "id": "779f-5230-1a2e-74ed",
+          "name": "Explodes (6+/6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

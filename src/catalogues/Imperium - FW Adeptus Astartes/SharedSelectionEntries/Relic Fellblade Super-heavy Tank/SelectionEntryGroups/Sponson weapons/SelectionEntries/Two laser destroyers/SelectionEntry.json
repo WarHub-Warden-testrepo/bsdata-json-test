@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two laser destroyers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d5f5-030b-d2a9-cd03",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f24c-bf27-1f83-ea55",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "3cd1-f155-42ba-501a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a4d4-1eeb-cd0a-9d14",
+          "id": "2365-1617-8e76-2db7",
+          "name": "Laser destroyer"
+        }
+      ],
+      "id": "7e98-0762-2d6a-abe8",
+      "name": "Two laser destroyers"
+    }
+  ]
+}

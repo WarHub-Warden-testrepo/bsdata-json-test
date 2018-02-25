@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "identifier": "Fuegan",
+    "prevIdentifier": "Karandras"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "17a0-0b1f-2dad-601a",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "8f81-e1b6-746b-d278",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "ca86-c2ec-8b56-e626",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "ab17-ed9a-e3ca-b779",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ef8c-4cc9-25d9-008a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ab05-1be9-a584-5fd9",
+          "id": "39e1-e753-8199-109a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "17f7-cae4-b75f-31cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bbe7-3d24-de61-0ee1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "27be-4880-01b6-ace5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9858-16f4-1edb-922a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c47-de6d-ed9b-9a90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e729-cfce-c61e-de3d",
+          "id": "26a8-a3d1-6524-f333",
+          "name": "",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "42d9-2455-ab45-7c17",
+          "id": "0025-bd25-4fc3-cf51",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "bf82-29d3-3d03-0d28",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "4388-00ed-c29e-7a11",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e51b-b036-ec1d-6e5d",
+      "name": "Fuegan",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "d227-6859-e7b8-eb7a",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Windriders",
+    "prevIdentifier": "Storm Guardians"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "8b98-ca04-7da3-5980",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "a710-3cc2-55af-8d7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "4eb4-64dd-16b7-7fc5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "d91b-e8a6-f92a-36e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "7aa5-2bcf-2fa6-c912",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "4020-f4a9-a7c5-d189",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "e9dd-b8e8-b8d8-ac0c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "433c-3e09-8df8-854c",
+          "id": "5de5-4078-d17d-c76b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "08da-47e9-744b-f7d4",
+          "id": "3c1a-3e05-06d6-11b5",
+          "name": "Ride the Wind"
+        }
+      ],
+      "id": "9a8b-2c28-b676-f305",
+      "name": "Windriders",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "6381-8f89-be69-d4ff",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "db9f-f942-d894-970f",
+              "type": 1,
+              "field": "selections",
+              "scope": "9a8b-2c28-b676-f305",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "db9f-f942-d894-970f",
+              "type": 1,
+              "field": "selections",
+              "scope": "9a8b-2c28-b676-f305",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Hunter",
+    "prevIdentifier": "Whirlwind"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6edd-ec3a-3d9c-32d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c7b-d16c-1891-1a16",
+          "id": "ace9-6f5b-2991-ea0e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "565f-4d10-ca6c-807d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a3ee-6309-a74d-72cb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9f72-e1ec-517a-9265",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f09b-6c1f-10d9-752b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "edc9-d262-e301-0cdc",
+          "id": "2b7b-daf1-f3b5-550d",
+          "name": "Skyspear missile launcher"
+        }
+      ],
+      "id": "af33-4263-38f9-ef56",
+      "name": "Hunter",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e115-d729-ce93-fcb7",
+          "id": "fc78-5b9e-a562-9d37",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "0249-f097-2499-d368",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

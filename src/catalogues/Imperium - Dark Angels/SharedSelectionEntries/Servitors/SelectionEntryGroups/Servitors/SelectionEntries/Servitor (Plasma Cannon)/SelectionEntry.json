@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Servitor (Plasma Cannon)",
+    "prevIdentifier": "Servitor (servo arm)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e274-5441-5c90-fc8b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "62f3-5ce0-dc45-e0f7",
+          "id": "62ca-810a-1375-ebc4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f4e9-e084-6324-d3c2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d693-0514-72f7-99b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3448-fbca-8c15-067a",
+          "id": "dd78-e908-6281-5d16",
+          "name": "REPLACE WITH PLASMA CANNON ONCE IN GST"
+        }
+      ],
+      "id": "84e5-1384-d482-6db4",
+      "name": "Servitor (Plasma Cannon)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e274-5441-5c90-fc8b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "69d4-f824-8f40-7bc4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "0a91-d903-beb0-c6bb",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e274-5441-5c90-fc8b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "d0b1-6453-2333-93c2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

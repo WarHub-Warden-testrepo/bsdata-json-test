@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Heavy grav-cannon",
+    "prevIdentifier": "Plasma Culverin"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e259-dcc5-5fdd-0a1b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a6f4-effc-a03d-1aa2",
+      "name": "Heavy grav-cannon"
+    }
+  ]
+}

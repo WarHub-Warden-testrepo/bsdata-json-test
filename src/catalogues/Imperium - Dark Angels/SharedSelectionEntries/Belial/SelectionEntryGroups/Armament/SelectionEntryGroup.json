@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "1aa5-b2cb-0f2d-5cd6",
+      "constraints": [
+        {
+          "id": "b4c1-9eb6-70a8-da52",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fc06-1e95-41ba-7a63",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5ff5-08c4-47b5-97c1",
+          "id": "8adb-34cb-f3e1-a812",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7bd8-cb2a-5321-6fdb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "04bc-f0ee-2a50-341c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "fdbc-81a6-5167-24ae",
+      "name": "Armament"
+    }
+  ]
+}

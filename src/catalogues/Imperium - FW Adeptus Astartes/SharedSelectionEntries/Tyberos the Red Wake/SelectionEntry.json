@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Tyberos the Red Wake",
+    "prevIdentifier": "Magister Sevrin Loth"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 205.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9ad5-a99c-3f40-f72b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4b53-25ae-e688-b5df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2d67-5619-df22-9583",
+          "id": "4efe-eae7-75c0-57cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fcf-9239-bfb9-d89d",
+          "id": "30ed-bf64-dfa1-8308",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "4de0-df46-297d-a1f4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ff42-fd59-4b3a-b0fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1cf5-63d4-25d0-4c13",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "abb0-a38c-f9a6-aeb5",
+          "id": "259c-c3b0-d44f-4376",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5976-966b-3ca6-ff8e",
+          "id": "f72f-23c1-fe6f-1952",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7264-0fb4-a8c1-9b10",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6e5e-413e-c808-734c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4ac0-e79c-c1b9-379b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "adf8-b3eb-91cf-fd5c",
+          "id": "6ca7-ba51-bb42-16ca",
+          "name": "Hunger"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa50-5cd7-8e14-84f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a557-fbf3-64c4-2aff",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "daad-40ce-b8f1-3598",
+          "id": "92a6-6e75-8861-584e",
+          "name": "Slake"
+        }
+      ],
+      "id": "07dd-c944-7319-c66c",
+      "name": "Tyberos the Red Wake",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "2939-05f2-9b83-2ae7",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "0bc6-8140-22ad-6d55",
+          "id": "7f8e-46d9-80a8-7a2c",
+          "name": "Tyberos"
+        },
+        {
+          "targetId": "4049-f9d5-d66e-b8a9",
+          "id": "e2c1-42a3-b9c6-9f1f",
+          "name": "Ancient Armour"
+        },
+        {
+          "targetId": "20b7-80bb-7f02-6a90",
+          "id": "200f-da52-d30a-1e85",
+          "name": "Lord Reaper of the Void"
+        },
+        {
+          "targetId": "076b-68f9-2b44-a02d",
+          "id": "1769-12a3-e932-5725",
+          "name": "Savagery beyond Reason"
+        },
+        {
+          "targetId": "ddf2-4f55-c7b0-c210",
+          "id": "609c-f642-b46c-6080",
+          "name": "Teleport Strike"
+        }
+      ]
+    }
+  ]
+}

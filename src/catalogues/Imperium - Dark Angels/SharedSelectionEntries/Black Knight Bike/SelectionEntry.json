@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Black Knight Bike",
+    "prevIdentifier": "Corvus Hammer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "91f5-dea6-7825-4753",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "d88e-e827-a191-7935",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a48b-52b0-8f7f-04a6",
+      "name": "Black Knight Bike",
+      "infoLinks": [
+        {
+          "targetId": "4db4-c4b6-a23e-c6c4",
+          "id": "e359-266f-38b0-b928",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "246a-d155-991d-5421",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Fenrisian Great Axe and Blizzard Shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6505-f6a7-4ef4-ee8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "325d-acae-e3c0-a139",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6442-223f-cfe3-a75b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e76-0ce2-f470-dc9b",
+          "id": "bf74-eeb6-32e0-6830",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dd54-e83b-9b5a-d2d3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4d23-a029-620e-c604",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "59c3-e0da-341b-0b21",
+          "id": "09b2-cded-af70-abcd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b543-5c63-a9a5-6c68",
+      "name": "Fenrisian Great Axe and Blizzard Shield"
+    }
+  ]
+}

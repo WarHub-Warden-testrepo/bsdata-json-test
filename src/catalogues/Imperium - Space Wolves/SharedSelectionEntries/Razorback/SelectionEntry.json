@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "identifier": "Razorback",
+    "prevIdentifier": "Primaris Lieutenants"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "34fa-5352-2f9c-1041",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "57b3-90a1-37d4-47ad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e76c-ccb4-4dc6-7d88",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "ad0f-cf83-1874-d91f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "34a4-ec5c-386f-a53c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "d193-3a69-8d75-9bda",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5e78-7f37-7c0c-b0be",
+          "id": "eaed-df04-3996-3692",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4be3-53be-0a8e-427f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "f6af-f584-939c-6988",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2106-bed1-77dc-67e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "77e6-061a-93c8-cedd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1856-185b-35f7-b15d",
+      "name": "Razorback",
+      "infoLinks": [
+        {
+          "targetId": "d0af-b46d-5e31-ffa2",
+          "id": "d157-a483-3cfa-5b94",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Transport"
+            }
+          ]
+        },
+        {
+          "targetId": "4010-66d8-1e19-352d",
+          "id": "fa61-2cc2-f849-2c13",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "32b2-8708-ca74-fd27",
+          "id": "94a9-4cd8-3b15-69ab",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5989-467b-ea2e-b23f",
+          "id": "71d6-fc07-550b-c275",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5d05-4adb-e0c6-bb85",
+          "id": "9d74-730f-9eea-5162",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b341-2797-56ae-b35c",
+          "id": "85d8-18b6-e38d-db46",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2260-bb6a-280e-3622",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

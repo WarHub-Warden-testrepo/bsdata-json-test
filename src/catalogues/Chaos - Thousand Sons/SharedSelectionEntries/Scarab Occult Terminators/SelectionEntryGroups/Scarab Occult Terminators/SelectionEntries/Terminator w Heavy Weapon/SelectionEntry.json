@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Terminator w/ Heavy Weapon",
+    "prevIdentifier": "Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 33.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "abce-92e5-b80a-bd6f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9ff2-bb19-491c-af5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8ca5-a7da-99e1-8189",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "d58e-9964-a076-a543",
+          "name": "Power sword"
+        }
+      ],
+      "id": "3e9a-5e5d-9d47-e110",
+      "name": "Terminator w/ Heavy Weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "abce-92e5-b80a-bd6f",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "c8ba-1df2-c188-f6b8",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

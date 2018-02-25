@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "identifier": "Sammael in Sableclaw",
+    "prevIdentifier": "Twin storm bolter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 216.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c0de-473b-7800-e31d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "b2ef-04c0-02a1-9110",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e1cb-4217-a228-102b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "9266-874f-2cb7-bc52",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7ede-7322-f256-669d",
+          "id": "5d68-c4f4-de10-7ba7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "725e-99dc-4eee-e88c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "9efa-67f3-7527-ccc9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1fdf-5bd0-bafd-8ff3",
+          "id": "888c-2559-a9a1-78cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "694b-e6b7-a740-8c14",
+          "id": "b46b-66f6-4b76-dc25",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "57ec-d7df-42a7-3907",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e634-7dab-c31f-329b",
+          "id": "8ac2-183a-45e9-6d80",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "805c-215a-32bc-6b97",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "142a-563b-2ad5-8477",
+          "id": "afc3-41a4-ce4a-001d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "5597-ac6b-d782-7a37",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1eca-e59b-cd4e-d3d6",
+      "name": "Sammael in Sableclaw",
+      "infoLinks": [
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "d98c-c333-4abc-89ef",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "2a1f-5aee-92ac-14f3",
+          "name": "Rites of Battle"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "24a0-d8b4-cf8f-ef24",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "641e-d9a7-e5c2-ee75",
+          "id": "e934-2cec-6e70-293f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "33dd-7a40-37f6-e504",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "68ca-5ee7-e69b-3228",
+          "id": "a8f8-769c-6f5c-b482",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "c0de-473b-7800-e31d",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "28b1-58d0-9871-9f8a",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

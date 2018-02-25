@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Daemonette Charioteers",
+    "prevIdentifier": "Exalted Alluress"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "df63-aebd-5338-1710",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "e484-983c-9b96-1bfe",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "6e87-a7b0-7d55-4426",
+          "name": "Piercing claws"
+        }
+      ],
+      "id": "56e4-a524-d941-b449",
+      "name": "Daemonette Charioteers"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Rough Rider Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c725-c607-962e-eac3",
+          "id": "b653-d957-36d9-e572",
+          "name": "Hunting Lance"
+        },
+        {
+          "targetId": "ea30-2a64-825b-2826",
+          "id": "3177-ce92-fd84-96ec",
+          "name": "Purebred Steed"
+        }
+      ],
+      "id": "f3757cfe-2ce0-0e11-2130-9ed9c9305b7c",
+      "name": "Rough Rider Sergeant",
+      "page": "0"
+    }
+  ]
+}

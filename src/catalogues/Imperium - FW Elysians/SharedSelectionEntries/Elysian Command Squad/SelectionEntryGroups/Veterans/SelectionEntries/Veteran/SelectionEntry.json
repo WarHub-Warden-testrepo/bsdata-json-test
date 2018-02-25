@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Veteran",
+    "prevIdentifier": "Veteran w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "db26-c5b2-26d8-dae9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f2c3-9cb3-0961-375d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5615-f24d-14a4-16a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "4794-16a0-f13b-7074",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6e00-56ed-13d3-ba59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "7fdb-10aa-74d9-de52",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "a6e3-bc48-93f3-2eef",
+      "name": "Veteran",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "e71c-d2fd-8dd5-9b00",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

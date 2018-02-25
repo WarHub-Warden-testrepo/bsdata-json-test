@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Horticulus Slimux",
+    "prevIdentifier": "Nurglings (Attendants)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 165.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "8b2d-300a-a937-a35a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e742-e9a5-b4c6-4206",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "b254-cffc-7998-6c8f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "c84f-7d31-2292-fa8e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ad1d-e319-4fb3-a1d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d8fa-3f19-2fbe-ad7e",
+          "id": "49b1-09d6-3b1d-b810",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "52ac-04d2-498b-7c64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ab84-97e0-111c-9ff0",
+          "id": "9527-1441-8af5-b297",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "0a37-5d40-8788-79a9",
+          "name": "Warlord"
+        }
+      ],
+      "id": "96c9-51c5-c93d-7205",
+      "name": "Horticulus Slimux",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "04fb-0ce1-840d-a4d1",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "a62e-4d74-deb2-6c8c",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "6dc6-1c09-d0ac-8968",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "0bc3-e240-7e80-007c",
+          "id": "7e3a-a47f-db79-d0cb",
+          "name": "Acidic Ichor",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "96c9-51c5-c93d-7205",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "identifier": "Iron Priest",
+    "prevIdentifier": "Foehammer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 58.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3e9a-cc8a-d959-099b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "938b-f5f5-6e82-e480",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "faf2-bdfe-b5bb-69b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "50eb-18b9-bcd2-3915",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ec29-6cc1-bee7-47bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "766b-5215-896e-d2e9",
+          "id": "357a-7a71-48c7-7c41",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "184b-8097-4aca-137d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6980-b61e-a8c6-1168",
+          "id": "9f73-2600-1883-c9b9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4452-59fb-a864-6a87",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "495d-7293-3860-d719",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "afca-27f1-8a62-60e6",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2482-76c6-ca9f-bcb2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cb95-b6ac-b7dc-2bb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "65f5-b83d-b9dc-6ab3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4682-c986-1c85-5c57",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "c4f3-72ff-c5a5-4a8b",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5ef8-47e4-9123-f9b3",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "58fb-d7f3-45cf-442b",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "5ef8-47e4-9123-f9b3",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7ce8-cf9b-84bc-bd7e",
+      "name": "Iron Priest",
+      "infoLinks": [
+        {
+          "targetId": "a7d5-d07f-266a-8653",
+          "id": "9a25-3d1c-a164-8f7b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "232c-6fc9-5c8b-36a5",
+          "id": "9dad-a2d7-5b92-5e6f",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "6eb5-c9a4-7abe-555f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

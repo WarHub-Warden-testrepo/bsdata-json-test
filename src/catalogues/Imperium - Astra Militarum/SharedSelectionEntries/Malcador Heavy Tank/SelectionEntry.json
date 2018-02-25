@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Malcador Heavy Tank",
+    "prevIdentifier": "Malcador Defender"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 190.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "04a5-a568-2be0-740e",
+          "id": "3055-d6de-bc0e-6b31",
+          "name": "Stat Damage (Malcador)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "42b7-43bd-49e5-7622",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f3b3-2435-5e27-6743",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "f42e-dcbd-ccdc-cf50",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9295-9d53-e1e4-16e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f6d-f931-a521-a61b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d7b-4f46-b77b-ead1",
+          "id": "1a9c-2354-0a62-6e8f",
+          "name": "Battle cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "22"
+            }
+          ]
+        }
+      ],
+      "id": "86a7-45f9-d8e3-42b2",
+      "name": "Malcador Heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "e519-9694-6fbe-2bab",
+          "id": "4737-4bb7-6427-bc9f",
+          "name": "Explodes (Malcador)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "18f7-cf8d-0ba7-8416",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

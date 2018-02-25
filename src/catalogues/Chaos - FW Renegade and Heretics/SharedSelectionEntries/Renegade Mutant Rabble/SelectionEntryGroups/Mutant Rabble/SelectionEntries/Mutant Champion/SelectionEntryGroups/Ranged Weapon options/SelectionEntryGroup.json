@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e421-b226-0a64-08f0",
+      "constraints": [
+        {
+          "id": "17ca-b37c-488b-ae14",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "193e-6fc2-0140-d3f4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "99ad-4528-6716-1612",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "216b-89ce-432b-dd18",
+          "name": "Laspistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "8b63-83ea-6fa9-18f8",
+      "name": "Ranged Weapon options"
+    }
+  ]
+}

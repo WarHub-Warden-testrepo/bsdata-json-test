@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Chainfist and Stormbolter",
+    "prevIdentifier": "Power Fist and Stormbolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a22e-562c-24d5-30fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cbeb-6b28-86a7-c2ea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "3672-0a79-5b7d-19a0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4790-7b84-df1c-1da1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4009-de1d-5fc2-d497",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "76b4-7d1c-3dde-432c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "db60-6828-ed91-1b17",
+      "name": "Chainfist and Stormbolter"
+    }
+  ]
+}

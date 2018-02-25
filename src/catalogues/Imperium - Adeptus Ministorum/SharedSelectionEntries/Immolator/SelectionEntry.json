@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "identifier": "Immolator",
+    "prevIdentifier": "Seraphim Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 68.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "4598-9f0b-273f-0088",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "e4ff-2958-1883-87d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "84c3-4a07-9ca1-8b60",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ca1e-e2a3-4c93-832e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "f851-8be6-67c6-ff66",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "707c-6510-b116-7c12",
+          "id": "4776-2c7c-bf58-ef6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "f754-14c3-4be7-5aa0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "1cba-21bf-4a59-1750",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "24c3-ea15-de7c-122f",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "4390-162b-3edd-7a8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b28-2fc3-a5ec-05e3",
+          "id": "6d26-c939-19f2-8534",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d637-5bdc-7a3b-c5f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f697-0ca2-b5e7-1ee6",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "9272-c5a7-3c3f-7a80",
+          "id": "1130-49c3-2ceb-8eff",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "e9f1-555d-a13e-1c46",
+      "name": "Immolator",
+      "book": "Index: Imperium 2",
+      "page": "103",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "cc63-9114-5fde-8993"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "ccd9-4526-b14b-a607",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "f268-83cb-ebe4-da3f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Repulsor",
+    "prevIdentifier": "Grav Chutes"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 210.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "586f-de04-37e1-a1a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "3317-52ec-39d7-4644",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "d9fc-e50e-cd6a-7814",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "5fa0-1549-9a7a-3602",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d135-8bac-1f01-7d95",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "9735-f990-7586-941c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "1181-001d-184b-8083",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36e1-8af0-88e4-eb03",
+          "id": "9ba4-7437-1109-0896",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "00d7-72cd-2d87-ee71",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b523-1206-b6a5-364e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "49b1-6eef-259e-e651",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b938-c8ee-9b04-f0a4",
+          "id": "5d85-3021-6673-2e92",
+          "name": "Ironhail Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a0a1-a15f-927d-f6a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ec8a-d4d9-3b81-370b",
+          "id": "4ec4-fbc0-66ad-0049",
+          "name": "Krakstrom Grenade Launcher"
+        }
+      ],
+      "id": "0884-ae94-d12a-da29",
+      "name": "Repulsor",
+      "infoLinks": [
+        {
+          "targetId": "b6a0-5c6d-2c7b-2c3c",
+          "id": "ba74-55b5-3048-53e5",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "362e-c323-1b7d-955a",
+          "id": "0342-1047-9b0c-a5a9",
+          "name": "Explodes (6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

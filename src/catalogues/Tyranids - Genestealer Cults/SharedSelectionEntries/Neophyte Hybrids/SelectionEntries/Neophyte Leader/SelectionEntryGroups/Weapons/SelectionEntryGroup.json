@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "7cc4-7588-fd56-c1ae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "b8bb-a88f-78bc-b6c7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a7cd-e1ea-8069-7e9f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5078-1999-81fe-f30c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6078-a421-0f9a-04c0",
+          "id": "3ca1-57b9-273c-4673",
+          "name": "Autogun",
+          "modifiers": [
+            {
+              "field": "a7cd-e1ea-8069-7e9f",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d47f-bb42-d3e4-365d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a5a9-d16a-ab23-6a7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "1559-b235-f07e-e6b9",
+          "name": "Autopistol",
+          "modifiers": [
+            {
+              "field": "d47f-bb42-d3e4-365d",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a65d-0bea-a756-9be7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0779-b44f-5880-05da",
+          "id": "7a0d-58ce-3ccc-957e",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "49c0-2db9-a628-d214",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c27-8bdf-9361-d353",
+          "id": "02bf-df4c-c56c-2a05",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "e077-998c-801b-3936",
+      "name": "Weapons"
+    }
+  ]
+}

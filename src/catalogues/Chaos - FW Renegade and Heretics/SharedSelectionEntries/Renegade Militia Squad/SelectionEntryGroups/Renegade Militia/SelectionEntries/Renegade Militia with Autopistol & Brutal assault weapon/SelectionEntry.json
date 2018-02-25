@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia with Autopistol & Brutal assault weapon",
+    "prevIdentifier": "Renegade Militia with Autogun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3cc6-d9a8-c9bf-b610",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a2ac-6468-24ef-bd40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "de59-c0e7-41d4-7174",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "ea24-af5f-4da7-c6d5",
+      "name": "Renegade Militia with Autopistol & Brutal assault weapon",
+      "infoLinks": [
+        {
+          "targetId": "2481-001b-00f9-501b",
+          "id": "fe48-b347-9dc2-1c0d",
+          "name": "Autopistol"
+        },
+        {
+          "targetId": "b7ce-fea3-f689-34d6",
+          "id": "0a2b-0f57-1d51-4d0d",
+          "name": "Brutal assault weapon"
+        }
+      ]
+    }
+  ]
+}

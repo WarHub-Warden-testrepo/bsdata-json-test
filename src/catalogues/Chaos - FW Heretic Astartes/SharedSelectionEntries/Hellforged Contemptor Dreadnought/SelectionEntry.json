@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "identifier": "Hellforged Contemptor Dreadnought",
+    "prevIdentifier": "Hellflamer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 103.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "4e01-9854-9ac9-e527",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "93a3-da4c-a800-454c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "9e6a-4340-d368-c354",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8ffd-daa0-e707-5686",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "bddc-6637-079f-3a24",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5f63-16f0-e403-ab84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "15db-17fb-7959-1c94",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2be6-f5e4-9b7a-c2f7",
+          "id": "a791-633a-b4dc-a20d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4f27-f60b-7d4d-24d5",
+          "id": "2a50-52c8-a0fa-8bce",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5a04-e2cf-5bd0-2d1f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c81f-1a15-8987-7cd1",
+          "id": "2390-0a21-a1ab-849b",
+          "name": "Havoc launcher"
+        }
+      ],
+      "id": "c593-94fc-fbf9-d0df",
+      "name": "Hellforged Contemptor Dreadnought",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "c505-a851-1728-8e5b",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b1a6-697e-dc2d-e949",
+          "id": "754a-94e7-ab05-3c6c",
+          "name": "Dark Fury",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "28bf-f3fc-56c4-35d1",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "c593-94fc-fbf9-d0df",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "a229-dc85-e085-61fc",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "c593-94fc-fbf9-d0df",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "86bf-51f7-87e4-ffc6",
+          "name": "Machina Malifica"
+        }
+      ]
+    }
+  ]
+}

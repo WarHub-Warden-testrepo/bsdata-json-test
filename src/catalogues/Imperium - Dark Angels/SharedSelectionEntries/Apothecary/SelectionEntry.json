@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "identifier": "Apothecary",
+    "prevIdentifier": "Chaplain on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a82e-97f7-e2be-cc92",
+          "id": "d8ab-7dff-a460-ad6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "35b1-dcaf-0384-f7c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7628-a3df-7323-e83d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "3bae-f3a5-ee9d-d4a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "997a-b108-384c-7b6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "67bf-4347-098b-ecf6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5271-12c2-103f-27d3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c107-43a1-6065-cd71",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "b357-67d0-fbb4-96a1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0417-dc62-798a-95b0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d04e-9bc7-89e7-9162",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "1b90-78ab-5a3a-76bc",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4f43-4959-c8da-1914",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6320-f2f5-c31d-4407",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b178-5984-124c-f94f",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "7e8e-2a18-12d6-d1b2",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4739-10df-55b8-6330",
+      "name": "Apothecary",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "6330-0347-8bcc-9846",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e4ce-f00b-ae14-2cd0",
+          "id": "c71f-6f08-6f04-4c79",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

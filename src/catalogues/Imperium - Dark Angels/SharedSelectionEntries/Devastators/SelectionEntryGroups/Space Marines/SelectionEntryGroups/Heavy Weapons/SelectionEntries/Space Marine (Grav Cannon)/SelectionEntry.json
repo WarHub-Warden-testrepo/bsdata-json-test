@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Grav Cannon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "adb0-2924-5e85-8c82",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5095-8195-bcbf-6e69",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f17c-85cc-bdc3-585f",
+          "id": "e045-e9ad-0bbe-5461",
+          "name": "Grav-cannon and grav-amp"
+        }
+      ],
+      "id": "2215-937e-b8cf-802b",
+      "name": "Space Marine (Grav Cannon)",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "1c76-f2c1-005f-344e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

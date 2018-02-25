@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard in Terminator Armour",
+    "prevIdentifier": "Wulfen"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e50b-f21a-255e-5a3e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "08ea-03c4-ae93-93dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "3517-9a9e-992f-65bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ea41-8579-52d3-a133",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "dacb-3120-22b9-9595",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "b22f-38ad-51e0-4bfb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "9bd6-2c6d-3cff-b027",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "b1a6-9274-82d6-1b08",
+      "name": "Wolf Guard in Terminator Armour",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "cb5c-c72c-a1e5-80a0",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "588e-2d8e-7485-24fe",
+          "id": "9753-827d-9635-a0f1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "a27f-9d27-26f0-9671",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "b1a6-9274-82d6-1b08",
+              "value": 5.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

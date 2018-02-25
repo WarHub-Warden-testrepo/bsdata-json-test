@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Twin lascannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "35c1-70a3-4fcd-c71b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "aa0e-e2aa-838a-60a9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "1b9e-8bef-a40e-9bd0",
+      "name": "Twin lascannon",
+      "infoLinks": [
+        {
+          "targetId": "f355-e723-8b2a-1b41",
+          "id": "3006-91e9-5d00-a78f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

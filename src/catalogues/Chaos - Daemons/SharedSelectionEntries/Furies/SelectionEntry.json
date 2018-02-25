@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Furies",
+    "prevIdentifier": "Daemon Prince of Chaos"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "7500-1dba-4bc7-3730",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "af06-fdfd-a47e-34d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "ed6f-f251-69fa-1d38",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4fc1-489e-4e72-78ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "c8fd-36f1-9203-f4a5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d7f7-3b26-0f3a-8e1e",
+          "id": "68ce-cc88-1c27-9d99",
+          "name": "Daemonic Allegiance"
+        }
+      ],
+      "id": "eeb3-98c8-2a90-78b2",
+      "name": "Furies",
+      "page": "0",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "9926-2713-0ac6-f641",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "5d3d-6746-0693-d350",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "eeb3-98c8-2a90-78b2",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "eeb3-98c8-2a90-78b2",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "eeb3-98c8-2a90-78b2",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

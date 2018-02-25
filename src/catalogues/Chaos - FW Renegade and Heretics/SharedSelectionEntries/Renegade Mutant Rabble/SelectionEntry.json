@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Renegade Mutant Rabble",
+    "prevIdentifier": "Renegade Militia Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "4dc8-e8be-e022-9709",
+      "name": "Renegade Mutant Rabble",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "4901-b522-46ab-e19f",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "f38f-e8f0-1618-af43",
+          "name": "Chaos Covenant"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4dc8-e8be-e022-9709",
+              "value": 10.0,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4dc8-e8be-e022-9709",
+              "value": 20.0,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4dc8-e8be-e022-9709",
+              "value": 30.0,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "4dc8-e8be-e022-9709",
+              "value": 40.0,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

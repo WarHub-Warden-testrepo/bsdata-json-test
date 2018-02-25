@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Death Company Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a63a-3378-f2a0-1630",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "78e8-81f3-2760-7dfa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 15.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1191-7316-4e8a-745d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b961-cb0e-7eb6-7bbd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4685-c8b3-7116-c92c",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "d3a3-483e-c3fd-81fa",
+      "name": "Death Company Marine",
+      "infoLinks": [
+        {
+          "targetId": "4067-560b-829b-d77e",
+          "id": "4ddc-2608-14cd-c4f4",
+          "name": "Death Company Marine",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "470a-3469-fda3-b953",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

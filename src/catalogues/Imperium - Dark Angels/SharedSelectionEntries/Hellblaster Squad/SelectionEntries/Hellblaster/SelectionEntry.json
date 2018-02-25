@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Hellblaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3c49-b6a8-8618-10ed",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "b3d6-be9a-5330-c340",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "37b9-95d4-9641-2cc8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0dd3-baa9-8f0d-6120",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "34a1-c25c-40dd-fdb7",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d3c4-e490-b8be-cd2f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d0e5-378a-8148-7882",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4d16-a1aa-adc3-721d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "0489-f0d7-cd59-d698",
+      "name": "Hellblaster"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Curiass of Sacrifice"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "304f-b36f-0999-8f4e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c15a-65ca-3f51-b9f2",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "f42e-4a24-a5bc-4481",
+      "name": "Curiass of Sacrifice",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "5423-ad56-2aa0-3fbe",
+          "id": "55e8-a52f-a8dc-dcb2",
+          "name": "Curiass of Sacrifice"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "0abf-b3fb-43c9-08d2",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

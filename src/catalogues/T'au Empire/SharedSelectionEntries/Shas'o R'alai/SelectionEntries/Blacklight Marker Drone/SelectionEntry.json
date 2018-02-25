@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Blacklight Marker Drone",
+    "prevIdentifier": "Experimental pulse submunitions rifle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2614-ee0a-4d04-58bb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "ebb9-a395-fb47-0ed3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "6e00-cf43-3c1a-589d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "775d-e286-31e2-e887",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5a50-8ff7-fba5-2d6e",
+          "id": "72d6-db09-cd6e-a800",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "52a6-74e3-7df3-d3c6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0cb1-0c7d-690f-db45",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4382-e013-5c89-39bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca6b-6ce9-0f0f-8c1b",
+          "id": "e25c-bc96-b31e-f82f",
+          "name": "Markerlight"
+        }
+      ],
+      "id": "d120-4706-8849-3b77",
+      "name": "Blacklight Marker Drone",
+      "book": "IAI: Xenos",
+      "page": "41",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9482-16e3-9287-b47f",
+          "id": "b637-adae-2fc2-bdd8",
+          "name": "Saviour Protocols"
+        },
+        {
+          "targetId": "464f-9148-5afd-1171",
+          "id": "54a4-701f-dafe-b0c1",
+          "name": "Blacklight Marker Drone"
+        },
+        {
+          "targetId": "7f1f-584c-679b-45ab",
+          "id": "b3e2-da1c-7d6f-89ea",
+          "name": "Stable Platform (Blacklight)"
+        }
+      ]
+    }
+  ]
+}

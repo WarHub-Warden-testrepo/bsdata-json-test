@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "06c2-db9d-26ba-bf27",
+      "constraints": [
+        {
+          "id": "2748-2efa-50fc-9004",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8153-233b-c961-41e2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c9ff-1c7c-28f0-6089",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "06c2-db9d-26ba-bf27",
+          "name": "Power fist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3f07-3963-13b7-69a3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "1b24-44fb-2b1e-6589",
+          "name": "Chainfist"
+        },
+        {
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "6ad2-eb10-a7cd-dafd",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5dd0-1e61-e9b1-fe48",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "90de-7b01-e401-888b",
+          "id": "273e-3c9c-6ad4-b99e",
+          "name": "Lightning Claw"
+        }
+      ],
+      "id": "2801-0db6-9c63-8d31",
+      "name": "Melee Weapon"
+    }
+  ]
+}

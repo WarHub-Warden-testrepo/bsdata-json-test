@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Inceptor Squad",
+    "prevIdentifier": "Assault Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4004-c74b-0c37-1f43",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "de28-c9e0-a0cd-bb0b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b6fa-696a-ae34-cbeb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb53-a4d6-3823-86eb",
+          "id": "800b-e8f7-4cc9-5ac8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d3a9-946e-73d0-3977",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "e104-e22f-59df-edc6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "82df-13db-9e7b-15a3",
+          "id": "7a79-d612-1758-6bdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "cee2-2042-450d-428b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "70bc-0516-df21-bbb8",
+      "name": "Inceptor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7d3f-de4b-f239-64fc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "33ea-29e3-151e-9f9b",
+          "id": "a675-9620-2fba-03a2",
+          "name": "Meteoric Descent"
+        },
+        {
+          "targetId": "bd1b-dc88-554f-122b",
+          "id": "7743-08f4-2f6c-1043",
+          "name": "Crushing Charge"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "a5d5-5888-e60e-2617",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "5c3a-3b11-6b0d-5c4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "70bc-0516-df21-bbb8",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

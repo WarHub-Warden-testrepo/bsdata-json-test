@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Kroot Hound"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7b60-6045-f64d-1d0f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 12.0,
+          "shared": true
+        },
+        {
+          "id": "ec6e-5198-c738-f680",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2958-9d41-9b98-085d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4a4a-d6e1-38e5-7f66",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d0f7-45d0-c144-1b9a",
+          "id": "77b2-6f91-08c8-d026",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e11a-806b-218f-3fe6",
+      "name": "Kroot Hound",
+      "infoLinks": [
+        {
+          "targetId": "0cb2-5981-d446-9fe7",
+          "id": "2f85-9816-32b9-031e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

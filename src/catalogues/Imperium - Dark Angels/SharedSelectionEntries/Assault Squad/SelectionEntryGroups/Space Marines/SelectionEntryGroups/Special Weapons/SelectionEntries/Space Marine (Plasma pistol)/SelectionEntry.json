@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Plasma pistol)",
+    "prevIdentifier": "Space Marine (Flamer)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0e62-c91a-9d24-3b25",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b401-4f34-59d4-5226",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c47e-ee5e-30b7-8587",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "94e5-4ff9-dde4-4d96",
+          "id": "0f5e-6990-38e5-993e",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e320-430f-085d-385e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b117-2514-c40e-c2d5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5cf3-a751-cdb3-b2e7",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f859-b921-10ea-107c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "932e-37c8-c8f2-36b4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "562f-09e1-a5c4-9965",
+          "id": "4792-83dc-5d4c-badb",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "318f-7c20-3b52-5697",
+      "name": "Space Marine (Plasma pistol)"
+    }
+  ]
+}

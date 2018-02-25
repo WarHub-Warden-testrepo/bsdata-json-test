@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Two Stormstrike Missile Launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c6bf-cc42-21b5-c95d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d922-1dd2-7146-b9d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38e3-37a8-42a3-e195",
+          "id": "8835-c8cc-f885-cfb2",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "59c5-5930-aada-d2e2",
+      "name": "Two Stormstrike Missile Launchers"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "95dc-fd8d-8e79-ddab",
+      "constraints": [
+        {
+          "id": "aa4b-8225-557b-b499",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "10cd-c31d-12c2-5d2a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "69ee-0db7-b179-acf7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "95dc-fd8d-8e79-ddab",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e3db-e97b-4439-66ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "0ad7-b53e-65eb-47ee",
+          "name": "Boltgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f54e-cb91-762e-279e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "4283-9098-2705-7264",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "id": "6142-f57e-7598-ddcb",
+      "name": "Bolt Pistol"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Hekatarii blade",
+    "prevIdentifier": "Splinter pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "d507-6d4b-9e8b-15a1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "05ea-3f9d-d493-9522",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5152-2428-6f0d-907e",
+      "name": "Hekatarii blade"
+    }
+  ]
+}

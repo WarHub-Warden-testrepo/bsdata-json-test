@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Twin Assault Cannon",
+    "prevIdentifier": "Hurricane Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 44.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fb26-d6fe-efbe-cfcb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fa63-dc88-562c-13db",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8366-64c8-b15a-7477",
+      "name": "Twin Assault Cannon",
+      "infoLinks": [
+        {
+          "targetId": "3d16-9e25-f899-523d",
+          "id": "e1c4-4210-fa05-7730",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

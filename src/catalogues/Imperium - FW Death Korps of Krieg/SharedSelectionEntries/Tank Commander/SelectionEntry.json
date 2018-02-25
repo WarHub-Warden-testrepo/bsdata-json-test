@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "identifier": "Tank Commander",
+    "prevIdentifier": "Stat Damage (Leman Russ)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 167.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "ad7d-01fc-40cc-bb89",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "aa62-e6c2-9a85-4b18",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "570b-7a36-55d9-389f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2614-c14e-8afc-3893",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1a70-ec18-2991-109f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8f0c-659f-476e-fda3",
+          "id": "a74f-f6b1-4934-29eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7c85-17ae-1489-ab1c",
+          "id": "8aba-6d3f-7d96-110e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a8c8-b259-6a6b-669d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b8d1-a6ab-396c-a7cc",
+          "id": "4b8b-0069-5cc5-ea97",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2534-12fd-c2db-c4e9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "029f-5acd-e3e8-5b28",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "e995-c256-a4ea-d79b",
+          "name": "Stat Damage (Leman Russ)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "f209-224f-3269-d548",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "e1a4-c32d-8577-517e",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "1ade-0143-d460-66ad",
+          "name": "Sponson Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "d87b-1775-3018-8159",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "be68-49d6-031b-e1ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "95df-fbd6-f995-9278",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "a2be-8556-461e-ae30",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "7542-e702-54d6-8ada",
+      "name": "Tank Commander",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "54d1-b904-be5d-5646",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "b96c-4eae-53a0-e687",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "53d9-f250-fa04-cd49",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "2f16-2245-c394-cabc",
+          "id": "cf23-1787-b280-b7ee",
+          "name": "Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

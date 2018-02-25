@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Melee weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e0f5-49b6-ceca-6f57",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8d85-abb8-4219-926a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d54c-ec2e-cbb9-8854",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "742b-1b52-a3c7-4bb9",
+          "id": "27f9-26df-8acd-db85",
+          "name": "Dreadnought combat weapon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "10",
+              "conditions": [
+                {
+                  "childId": "742b-1b52-a3c7-4bb9",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "28af-fce8-2f9c-0145",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f572-5a1f-2bca-9a28",
+      "name": "Melee weapon"
+    }
+  ]
+}

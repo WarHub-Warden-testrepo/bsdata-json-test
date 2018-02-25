@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "The Eye of Xi-Lexum",
+    "prevIdentifier": "Volkite Blaster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "396b-0bc4-0451-31c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b8c8-e91d-a869-dfdd",
+          "id": "6d1c-ac3e-f307-e587",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4f83-44e8-24f2-36a0",
+      "name": "The Eye of Xi-Lexum",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "8ae2-d027-8a2f-301b",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

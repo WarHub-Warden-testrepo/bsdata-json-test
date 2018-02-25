@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Stormboy"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a321-f75d-5fac-d708",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eda8-11c2-0f11-d196",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c025-0c89-05db-fccb",
+          "id": "d886-da94-306b-7643",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f3b2-0f95-69e2-fb80",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "098e-8fa4-7b72-bfb5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "b30b-27fa-8de2-8f13",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "7a63-347b-830b-6140",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5358-c411-cbcf-9fe0",
+      "name": "Stormboy"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Laspistol",
+    "prevIdentifier": "Chainsword"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "daa9-3723-6ad6-2093",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "691e-6e9e-5fad-d5ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9c74-d181-d2ec-0ba6",
+          "id": "daa9-3723-6ad6-2093",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b05f-c7a1-0b20-62ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "5711-5082-268e-c002",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "id": "2b25df58-433f-4f56-db39-cdefec02a4bc",
+      "name": "Laspistol"
+    }
+  ]
+}

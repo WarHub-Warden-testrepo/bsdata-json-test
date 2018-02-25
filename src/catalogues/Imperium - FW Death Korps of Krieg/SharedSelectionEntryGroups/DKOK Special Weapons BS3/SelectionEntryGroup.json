@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "DKOK Special Weapons BS3",
+    "prevIdentifier": "Baneblade Sponsons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "a9a6-5890-0812-b383",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3ce1-1cfd-6f0c-a000",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5afe-62c5-a752-3684",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "2a40-2d2b-32d4-27d7",
+          "name": "Flamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2709-8319-fb5f-e734",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "b1ff-9961-f2b0-e6db",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "64bf-c401-2711-6c46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "dc08-c8b6-3f48-c477",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "13"
+            }
+          ]
+        }
+      ],
+      "id": "531f-4711-cd17-8d70",
+      "name": "DKOK Special Weapons BS3"
+    }
+  ]
+}

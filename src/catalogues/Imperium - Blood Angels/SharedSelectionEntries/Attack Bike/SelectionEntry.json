@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Attack Bike",
+    "prevIdentifier": "Attack Bike Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "da56-5a86-97fa-75fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "38e1-c07c-924e-1102",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a11f-8f20-5d2c-079a",
+          "id": "e65e-3ec8-ad06-8c84",
+          "name": "Twin boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9311-9fac-45ba-a1c1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1b3c-0753-358e-eca7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "6658-e365-1918-23ae",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e288-9c10-b4ab-8ff0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "7338-a5b7-8e45-b2e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5999-c749-f19a-630e",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "f4b4-0d1e-24b8-6b6b",
+      "name": "Attack Bike"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "39c4-6de4-6a9c-ef78",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9d67-3e8b-3415-ee86",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1d1a-44de-5d2a-7177",
+      "name": "Veteran Sergeant",
+      "page": "0"
+    }
+  ]
+}

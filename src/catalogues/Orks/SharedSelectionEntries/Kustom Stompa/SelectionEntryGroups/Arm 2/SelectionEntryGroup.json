@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Arm 2",
+    "prevIdentifier": "Arm 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b217-a7be-d61c-32a3",
+      "constraints": [
+        {
+          "id": "cf5a-3ae9-4d34-e1d3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "bdc0-5001-3295-3656",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "171c-9e1e-51e7-9956",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "25f1-0bfe-4c1f-db68",
+          "id": "b217-a7be-d61c-32a3",
+          "name": "Mega Klaw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "31",
+              "conditions": [
+                {
+                  "childId": "7af2-3bed-0055-4e41",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "e75a-217f-2d54-09e1",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ea50-a127-aba6-dfc4",
+          "id": "cca3-0763-f2ae-c882",
+          "name": "Lifta-Droppa"
+        }
+      ],
+      "id": "7259-ddab-547b-e4e0",
+      "name": "Arm 2"
+    }
+  ]
+}

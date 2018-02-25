@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Hellblaster Sergeant",
+    "prevIdentifier": "Hellblaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b84a-20bd-6d52-2afc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "bc31-e92b-6fca-8918",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8716-25ac-6e52-4857",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3cc7-1be1-922f-202a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3805-e535-e8d0-82f9",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "fd87-c942-60c7-d344",
+      "name": "Hellblaster Sergeant"
+    }
+  ]
+}

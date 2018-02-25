@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Disciple with lasgun",
+    "prevIdentifier": "Disciple with autogun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0c25-f5eb-f6bd-4ff5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "85cb-5d46-db15-d214",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "2688-a6ac-9e42-b978",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "092b-694f-2e67-de8f",
+      "name": "Disciple with lasgun"
+    }
+  ]
+}

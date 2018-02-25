@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Deathwing Cataphractii Terminator Squad",
+    "prevIdentifier": "Deathwing Tartaros Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4948-18d8-5bea-95bb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "3a87-be52-f814-2950",
+      "name": "Deathwing Cataphractii Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "a7b3-054b-1ff1-dc58",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "7770-7373-7045-c1aa",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "36c0-a84a-ffaa-bae8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "b416-5c04-b148-cd78",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "3a87-be52-f814-2950",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

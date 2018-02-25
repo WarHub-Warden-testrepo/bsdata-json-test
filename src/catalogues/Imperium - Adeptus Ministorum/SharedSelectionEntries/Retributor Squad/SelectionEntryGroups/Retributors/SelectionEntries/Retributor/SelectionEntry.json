@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Retributor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ac94-f508-bd34-d157",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9827-f7a7-d0c5-c454",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "c0f3-39be-3ff0-2fc5",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2e4f-319c-2dfb-5d50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3dd3-daf7-8dfe-5d81",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "896b-28f1-e64a-3eb4",
+          "id": "9642-1f7b-6e8a-d3fd",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4beb-6a78-69c7-00d4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "97de-ca57-5cd8-1e5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "9166-01ce-9206-6288",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9883-a931-29ac-65dc",
+      "name": "Retributor",
+      "infoLinks": [
+        {
+          "targetId": "d99e-a88e-283d-e2f2",
+          "id": "c004-f5e6-d216-8117",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

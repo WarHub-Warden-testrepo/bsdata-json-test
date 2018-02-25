@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Super-Heavy Auxiliary Detachment",
+    "prevIdentifier": "Air Wing Detachment +1CP"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "a4f9-671f-1bad-73f1",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4384-497e-3b4a-d259",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "1b8f-4518-f394-33f4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "fd86-521c-89cd-53b4",
+          "name": "Lord of War"
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "b1a6-0fc5-d615-d4eb",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "224b-1070-218f-fdf4",
+      "name": "Super-Heavy Auxiliary Detachment"
+    }
+  ]
+}

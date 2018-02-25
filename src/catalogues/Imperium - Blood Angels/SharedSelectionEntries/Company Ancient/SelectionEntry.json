@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "identifier": "Company Ancient",
+    "prevIdentifier": "Chaplain on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 63.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "86bf-b026-f6e2-a949",
+          "id": "b907-5548-be2f-02c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f772-0c05-fe59-a8a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "3186-eb4e-b325-6260",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "25ec-85eb-999d-4c73",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "0589-0781-149f-90a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "74ea-a2d0-ef6e-83b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2bb1-f1c4-c1a3-baab",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6b34-d174-4511-09f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c774-961a-fff1-4dea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f300-e18b-029f-c728",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0e26-85cd-a670-8d94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "da7e-b8f2-8928-4eee",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "9"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "5133-c1c5-ee31-4933",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "a3f4-4117-e4dc-dcb3",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "22aa-a253-d761-24fe",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "973f-7d9a-ebf9-3ddf",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "646b-efff-6b1e-96f6",
+      "name": "Company Ancient",
+      "infoLinks": [
+        {
+          "targetId": "459c-1c40-f739-7fd6",
+          "id": "4a35-6e6b-27f1-b58e",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "8eda-5cb2-0c31-56da",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "646b-efff-6b1e-96f6",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "81c0-3ca5-8dec-112a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5224-6acc-8f03-8727",
+          "id": "bb3c-1e8c-7d53-e878",
+          "name": "Astartes Banner"
+        }
+      ]
+    }
+  ]
+}

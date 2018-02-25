@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Ranged weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "13d6-520a-c73f-60b0",
+      "constraints": [
+        {
+          "id": "52db-9475-cec5-57f7",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "0b52-a981-bf34-1f87",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1bd9-8078-b11e-9cd8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "8084-8250-93fd-c598",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9916-81de-39d4-5158",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c713-8c0d-64b9-ce2f",
+          "id": "356b-4571-33f3-78a2",
+          "name": "Terminator combi-weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b02d-2d29-9c2b-7957",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "13d6-520a-c73f-60b0",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "c963-89fb-08ce-9f30",
+      "name": "Ranged weapon"
+    }
+  ]
+}

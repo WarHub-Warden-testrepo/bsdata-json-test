@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Power Sword",
+    "prevIdentifier": "Bolt pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f6e7-38f5-4daf-89bc",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "7622-e68e-c5e5-c8e7",
+          "id": "8a73-3c97-0d5a-f1b9",
+          "name": "Astra Militarum Melee Weapons",
+          "modifiers": [
+            {
+              "field": "09fe-8e7d-99a3-f68a",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "25ab-b9ec-e2c3-eb33",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "f6e7-38f5-4daf-89bc",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "868d-7994-5a21-669f",
+      "name": "Power Sword",
+      "modifiers": [
+        {
+          "field": "maxSelections",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "8a73-3c97-0d5a-f1b9",
+              "type": 4,
+              "field": "selections",
+              "scope": "2d53-c39f-c97d-5735",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

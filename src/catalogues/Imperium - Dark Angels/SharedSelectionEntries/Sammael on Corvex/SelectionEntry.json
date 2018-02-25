@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "identifier": "Sammael on Corvex",
+    "prevIdentifier": "Iron halo"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 183.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4273-11b9-e150-5c07",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0f79-e0d6-0a13-2546",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "46bb-414b-6d8f-a69b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "2f7e-deb7-d15d-cd18",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7ede-7322-f256-669d",
+          "id": "eb6a-6fe4-213d-2763",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "8a8d-1298-cc7b-2177",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "03ed-f6f3-3db1-3034",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "4696-f564-cc65-ecf0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1fdf-5bd0-bafd-8ff3",
+          "id": "41a4-cced-e784-133a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "694b-e6b7-a740-8c14",
+          "id": "5884-cb63-bd0f-e264",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "d817-c3dc-f542-d48d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dcf5-5f9a-7612-0631",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d1c-c4ce-21cb-4746",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "a13a-f7e3-5899-d1dc",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "142a-563b-2ad5-8477",
+          "id": "1bdd-cd07-25c6-0bd6",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "bfb9-6ef9-cf42-6425",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "28b1-58d0-9871-9f8a",
+      "name": "Sammael on Corvex",
+      "infoLinks": [
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "2a9c-fcac-9c5c-cf3a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "b355-bd82-07c9-90de",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "0e16-16b4-b45d-dc31",
+          "name": "Inner Circle"
+        },
+        {
+          "targetId": "ce39-4d66-5211-906f",
+          "id": "627e-254e-2878-2e1b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "68ca-5ee7-e69b-3228",
+          "id": "cba4-b5fd-9ae2-e4f2",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "4273-11b9-e150-5c07",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "1eca-e59b-cd4e-d3d6",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

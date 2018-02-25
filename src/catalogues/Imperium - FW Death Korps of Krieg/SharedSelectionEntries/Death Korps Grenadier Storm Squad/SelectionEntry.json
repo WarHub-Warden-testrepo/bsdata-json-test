@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Death Korps Grenadier Storm Squad",
+    "prevIdentifier": "Death Korps Infantry Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "180f-3bf2-cfa9-9aad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2503-cc0d-d5f5-2f17",
+          "id": "1cc5-9af9-04f1-e0c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "fa56-9b6d-bcd8-2a50",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ce93-b1b3-a747-da04",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a3f4-0474-3353-bd89",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "f2f1-c9cb-8391-97f0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2c04-dd00-7363-64e9",
+      "name": "Death Korps Grenadier Storm Squad",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "e103-e7db-2a31-f046",
+          "name": "The Cult of Sacrifice"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "14c0-5047-42c4-cb73",
+              "type": 4,
+              "field": "selections",
+              "scope": "2c04-dd00-7363-64e9",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

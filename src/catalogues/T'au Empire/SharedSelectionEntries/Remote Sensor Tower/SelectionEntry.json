@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Remote Sensor Tower",
+    "prevIdentifier": "Manta Super-heavy Dropship"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 33.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "d71a-494b-ef39-e83e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "b04a-2aca-da27-7cfa",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "5536-fb50-e723-14f5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fff0-3da2-5a65-7c02",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ca8f-ae92-463f-fa52",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e82e-f065-588c-382f",
+          "id": "79a8-1cfd-f8a8-0daf",
+          "name": "High intensity markerlight"
+        }
+      ],
+      "id": "9fed-b7d4-002c-3ef6",
+      "name": "Remote Sensor Tower",
+      "infoLinks": [
+        {
+          "targetId": "e1a0-bfed-8f5e-7c14",
+          "id": "3798-fe34-106f-8219",
+          "name": "Positional Relay"
+        },
+        {
+          "targetId": "9310-da7e-f355-9af6",
+          "id": "56ce-610a-e5cf-4a64",
+          "name": "Remote Sensor Tower"
+        },
+        {
+          "targetId": "e0c4-df4a-af16-52dc",
+          "id": "b990-ebb4-64ad-0c6f",
+          "name": "Immobile"
+        }
+      ]
+    }
+  ]
+}

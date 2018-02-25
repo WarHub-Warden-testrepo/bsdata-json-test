@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "identifier": "Stronghold Assault Defender +5 CP",
+    "prevIdentifier": "Stronghold Assault Attacker +5 CP"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "722b-09e4-f228-16be",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c371-f9a7-5f77-851c",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "8a7c-e440-38be-c05c",
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7f5c-0518-2449-ad67",
+          "name": "HQ"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7957-3942-3a51-bf32",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "ed80-2bef-b904-524f",
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "1698-4cdd-e737-378e",
+          "name": "Troops"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6610-dd45-6d5e-741a",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "bc3c-de9d-7396-70fe",
+          "name": "Elites"
+        },
+        {
+          "constraints": [
+            {
+              "id": "75a7-ed04-b0b8-2059",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "2f71-ff59-4f31-33ec",
+          "name": "Fast Attack"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f2c3-3aa4-a133-3f5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "daad-ff2c-83ab-fc5d",
+          "name": "Heavy Support"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9de2-55d2-ac58-82c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "fb6c-0781-4191-2f7d",
+          "name": "Flyer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "253c-09cc-11d9-403d",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "191b-0f65-3883-b447",
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "b8d5-5f9d-d63d-7c91",
+          "name": "Fortification"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6ce3-81ab-8b21-3ef4",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "dbc3-4362-6d5d-c70e",
+          "name": "Dedicated Transport",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "6ce3-81ab-8b21-3ef4",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "e888-1504-aa61-95ff",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "3e5e-b1fa-a208-60bd",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "e6cd-ac5b-db70-84ff",
+      "name": "Stronghold Assault Defender +5 CP",
+      "book": "Chapter Approved 2017",
+      "page": "46"
+    }
+  ]
+}

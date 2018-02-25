@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Boss Nob on Warbike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 42.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "22f6-b9b1-e430-1421",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1484-ce84-84bf-7da0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "eb1b-ead6-c204-b9b9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d9d9-509e-b4c8-a402",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "b8c4-4280-43c1-ed4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de10-70b3-ab64-990c",
+          "id": "6cc3-b535-affe-34bf",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2233-8fb9-8e15-cb48",
+      "name": "Boss Nob on Warbike"
+    }
+  ]
+}

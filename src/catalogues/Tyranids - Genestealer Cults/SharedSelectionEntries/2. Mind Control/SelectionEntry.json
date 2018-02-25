@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "2. Mind Control",
+    "prevIdentifier": "1. Mass Hypnosis"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b8b0-6afa-ec77-f5f1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c047-e439-a546-2c7d",
+      "name": "2. Mind Control",
+      "infoLinks": [
+        {
+          "targetId": "9590-a181-8f47-1500",
+          "id": "656d-4f8c-a928-4927",
+          "name": "Mind Control"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Power: Mind Control"
+        }
+      ]
+    }
+  ]
+}

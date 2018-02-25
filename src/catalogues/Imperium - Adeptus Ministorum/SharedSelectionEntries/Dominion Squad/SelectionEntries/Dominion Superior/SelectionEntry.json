@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Dominion Superior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0544-3d1c-08ae-ed17",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ae92-3a6b-9b5f-498b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8d91-e875-0398-bd7d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "abb8-2c4f-f5f5-eec4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "0b5c-dee2-910d-9b4e",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "794a-087d-636d-cddd",
+          "id": "dfde-3602-c655-999e",
+          "name": "Additional Melee Weapon"
+        }
+      ],
+      "id": "2137-1702-d795-e5ef",
+      "name": "Dominion Superior"
+    }
+  ]
+}

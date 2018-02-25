@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Psyker"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1b2c-2674-8fa2-0c99",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "26a8-15df-d2b9-35b2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7250-7412-d81e-bde7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6c1b-3a66-5829-41d8",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "abc3-fa40-1bf3-dc28",
+          "id": "db11-cd2a-b0b9-cfe2",
+          "name": "Telethesia Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aecc-79b4-3640-58c4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c355-a13e-41fc-1ab7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "26d0-f590-28e3-b697",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ee86-5bfb-fa38-59fd",
+      "name": "Psyker"
+    }
+  ]
+}

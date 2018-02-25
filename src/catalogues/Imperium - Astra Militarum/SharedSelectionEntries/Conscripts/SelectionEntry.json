@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Conscripts",
+    "prevIdentifier": "Command Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "703aaa25-8e7d-13ed-d0cf-8b5975fe516c-5d76b6f5-20ae-4d70-8f59-ade72a2add3a"
+        }
+      ],
+      "id": "703aaa25-8e7d-13ed-d0cf-8b5975fe516c",
+      "name": "Conscripts",
+      "book": "Codex: Astra Militarum",
+      "page": "93",
+      "infoLinks": [
+        {
+          "targetId": "fdd8-1a5f-5722-d6ee",
+          "id": "8a22-0315-96c5-bb36",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "703aaa25-8e7d-13ed-d0cf-8b5975fe516c",
+              "value": 21.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

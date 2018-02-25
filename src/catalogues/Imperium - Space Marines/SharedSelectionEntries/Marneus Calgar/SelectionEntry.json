@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "identifier": "Marneus Calgar",
+    "prevIdentifier": "Standard of the Emperor Ascendant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5a7b-78f8-f0a1-6a3c",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "847a-a95e-4fba-f843",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "42ad-417c-dedc-e497",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7dbf-fe75-1337-8efe",
+          "id": "d128-eb15-4bcd-eaf3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a390-b175-508e-50a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e1dd-7ac6-eddf-b3be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f03d-1d11-7bda-1ea4",
+          "id": "4220-3af6-5822-2912",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "a9df-513c-17e6-9959",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9ae1-8f60-888c-0fb1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0a08-0170-9f5e-292a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "1886-bcc0-966d-0262",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "14e9-c97c-a199-e6f0",
+      "name": "Marneus Calgar",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ec92-913d-05aa-0da0",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fdb4-b1a5-3c97-6400",
+          "id": "83bc-bf4b-6c5b-ecd3",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

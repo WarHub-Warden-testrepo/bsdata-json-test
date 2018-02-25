@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Inceptors"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "63c8-a239-99c0-0ba1",
+      "constraints": [
+        {
+          "id": "b1ac-42af-c506-cf26",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0821-d8e1-552d-37f6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e3a8-4aab-77ee-956a",
+          "id": "63c8-a239-99c0-0ba1",
+          "name": "Assault bolter",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "5cbc-e6c3-3c93-7d6d",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "7fac-0e2d-2d88-4f28",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "targetId": "cdfb-5d58-5558-499e",
+          "id": "0ea8-52d9-c2ec-aeba",
+          "name": "Plasma Exterminator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "5cbc-e6c3-3c93-7d6d",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "7fac-0e2d-2d88-4f28",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "51f1-f4b1-db20-c981",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

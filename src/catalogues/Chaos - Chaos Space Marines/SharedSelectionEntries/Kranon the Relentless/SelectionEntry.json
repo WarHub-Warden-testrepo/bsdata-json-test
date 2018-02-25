@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "identifier": "Kranon the Relentless",
+    "prevIdentifier": "Vrosh Tattersoul"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "db38-edb9-408b-0e95",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "fda7-a3e4-a89f-8f3d",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7d78-528d-43c2-1750",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb55-bd6b-3e75-d505",
+          "id": "2506-c677-ac86-ea37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7bb1-59c1-5537-1478",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2398-1be3-3391-6984",
+          "id": "67e1-7c05-225e-c520",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "3b3e-47ed-9fa5-e96b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "0746-784b-34a4-ac07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "507d-b4e8-6991-0d7a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cb5e-c43a-b577-9b87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "de9e-89d1-edf2-9dac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "9ffc-c041-4989-cf11",
+          "name": "Power sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "687d-1166-9b72-c719",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c557-037a-0a1d-201a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "b8cf-34f1-c365-00e6",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "140e-84fc-4216-bebc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1cfd-280e-4118-ed51",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "b574-9ac7-3237-710b",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "17f0-1b91-6c9f-f141",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "8566-d738-b74f-e1f0",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "b34c-6c4b-d22c-25b5",
+          "id": "36b1-a2f3-bc3d-11f9",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "29e1-7a0e-ccc0-1c01",
+      "name": "Kranon the Relentless",
+      "infoLinks": [
+        {
+          "targetId": "69a2-f63e-3d27-5c09",
+          "id": "56c2-a9de-0751-f643",
+          "name": "Lord of Chaos"
+        },
+        {
+          "targetId": "c237-7aca-a961-6c59",
+          "id": "7be8-3ec2-d576-98fe",
+          "name": "Sigil of Corruption"
+        },
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "871e-fa55-618c-8f3b",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "fda7-a3e4-a89f-8f3d",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c4a9-5a33-d824-bcf8",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

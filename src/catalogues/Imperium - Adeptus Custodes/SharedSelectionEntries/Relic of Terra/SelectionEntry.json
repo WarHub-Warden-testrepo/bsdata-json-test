@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "identifier": "Relic of Terra",
+    "prevIdentifier": "Open the Vaults (2 Relics)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8646-058c-26ea-cf8f",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "006e-46f1-58e9-f834",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "bf49-e860-3359-a1d0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "6fdc-f562-aef6-4fd0",
+      "name": "Relic of Terra",
+      "modifiers": [
+        {
+          "field": "8646-058c-26ea-cf8f",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "45bc-e6e8-4f73-a721",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "8646-058c-26ea-cf8f",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "fa7c-2773-8d2e-dc2e",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "8646-058c-26ea-cf8f",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2471-0b95-738c-edd9",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Celestine",
+    "prevIdentifier": "Immolator"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ae33-681f-e4b9-413d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cac4-1641-023d-2929"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "96b6-5157-0d34-43bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "8921-e500-961c-081f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b210-97bc-c0ef-e2a2",
+          "id": "cae2-d55a-777f-10db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d213-f4ab-67ff-0233",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "63ff-0e75-fdba-9444",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9000-b9b6-299d-7c22",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d49b-b740-f65c-d1f8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "a7d9-82fc-de02-2803",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "8ba8-ae02-cb2b-6996",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "122c-9cf8-e74a-77f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "8aa9-0293-ec22-d945",
+          "name": "Warlord"
+        }
+      ],
+      "id": "caaf-8409-e170-3286",
+      "name": "Celestine",
+      "book": "Index: Imperium 2",
+      "page": "96",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "dbc1-6586-da0b-8a16",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "da8f-f780-fea5-a2e4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Daemonette Charioteer",
+    "prevIdentifier": "Exalted Alluress"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3b13-9be5-ab13-ef6d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "117a-0138-b717-e075",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a83a-ed9c-b252-fa1c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "38c8-e184-5999-3d95",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "baf6-8447-86fb-e556",
+          "id": "ebbd-ae30-3052-443e",
+          "name": "Lashes of Torment"
+        },
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "07d0-69c5-230d-f86f",
+          "name": "Piercing claws"
+        }
+      ],
+      "id": "68c2-c465-c9cf-267f",
+      "name": "Daemonette Charioteer"
+    }
+  ]
+}

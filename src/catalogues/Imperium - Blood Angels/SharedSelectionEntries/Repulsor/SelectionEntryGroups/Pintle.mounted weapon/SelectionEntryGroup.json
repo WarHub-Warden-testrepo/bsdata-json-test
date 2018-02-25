@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Pintle.mounted weapon",
+    "prevIdentifier": "Front weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9976-48a1-07d8-8a1b",
+      "constraints": [
+        {
+          "id": "9d27-315c-9b63-3a7a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "168e-1604-e371-5f56",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dc65-4e5d-ca8c-881c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0bcf-15c9-d70c-8c67",
+          "id": "3c59-9ed8-cfb0-98b0",
+          "name": "Onslaught gatling cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "31f1-a58c-a52c-03db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "638b-550a-fa85-14c3",
+          "id": "9976-48a1-07d8-8a1b",
+          "name": "Ironhail heavy stubber"
+        }
+      ],
+      "id": "2442-efab-28de-3c59",
+      "name": "Pintle.mounted weapon"
+    }
+  ]
+}

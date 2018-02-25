@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Tetra Scout Speeder"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac22-2e80-768d-c471",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "99d4-f3ef-86e9-9439",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "87e1-e643-3068-edb5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "cda0-82d5-fc8a-c356",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b137-5a29-f03a-ad3e",
+          "id": "1770-6552-7b59-fa41",
+          "name": "Pulse rifle"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5c38-365d-0498-6c3d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a3ed-c4b9-e757-ba4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e82e-f065-588c-382f",
+          "id": "fbe5-7645-f8c7-99c7",
+          "name": "High intensity markerlight"
+        }
+      ],
+      "id": "b58a-c151-9079-16e2",
+      "name": "Tetra Scout Speeder",
+      "book": "IAI: Xenos",
+      "page": "48",
+      "infoLinks": [
+        {
+          "targetId": "c549-9f85-4c08-6f6e",
+          "id": "9efd-6a02-ae44-5a4b",
+          "name": "Tetra Scout Speeder"
+        }
+      ]
+    }
+  ]
+}

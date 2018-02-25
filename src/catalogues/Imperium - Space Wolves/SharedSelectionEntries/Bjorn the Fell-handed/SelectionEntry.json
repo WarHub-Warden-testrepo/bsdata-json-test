@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "identifier": "Bjorn the Fell-handed",
+    "prevIdentifier": "Ulrik The Slayer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2f7e-9158-b33d-9bb5",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9c33-b045-2d60-1e68",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a2b0-fa15-01a2-06c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "e499-f33c-4964-7a27",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "69ba-cef3-748d-9a5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "5301-295b-b20f-4c2a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4a61-fd41-baea-630c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "db51-bafa-0d7b-3142",
+          "id": "0422-29c5-b514-4738",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "16ff-6f25-ff1e-00c8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3f94-2fc0-19ce-162f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2062-426c-ed8b-f1a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "529c-dc90-f937-a646",
+          "id": "d8e7-9472-1bb0-0762",
+          "name": "Trueclaw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "10cb-be81-c9b2-fbda",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f7bd-38bc-d482-1c16",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "002f-62cc-d0bf-1e66",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b438-1e29-cf52-5450",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "3e15-91d7-3ddb-d40e",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "88db-bf1f-a98c-7672",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "d875-bc02-f806-c797",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "88db-bf1f-a98c-7672",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1044-90a4-eb93-21c9",
+      "name": "Bjorn the Fell-handed",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "009f-e5ee-edef-5ade",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b11b-8298-9e4a-6b53",
+          "id": "2d74-4bda-83eb-1cfa",
+          "name": "Ancient Tactician"
+        },
+        {
+          "targetId": "8ce5-6063-66cd-d1ad",
+          "id": "6ef0-053a-f586-49de",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "57c9-78fb-2a6d-bcb0",
+          "id": "55b9-7b36-6604-07dc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2008-dda5-73e3-79d6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e07-4693-cf8a-0b2c",
+          "id": "c6a5-88a8-04ed-03a8",
+          "name": "Bjorn the Fell-handed"
+        }
+      ]
+    }
+  ]
+}

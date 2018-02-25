@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Intercessors"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f8af-4167-d0c6-202e",
+      "constraints": [
+        {
+          "id": "93fb-c222-bfe7-c32f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7199-9bc9-0958-9bb7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "56c3-9d7f-d3af-390a",
+          "id": "bfed-f751-d462-883f",
+          "name": "Auto Bolt Rifle",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e89e-4431-97de-4b38",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "fbf3-4fc8-f474-e3db",
+          "id": "f8af-4167-d0c6-202e",
+          "name": "Bolt rifle"
+        },
+        {
+          "targetId": "5a1b-857c-e9b5-33f5",
+          "id": "6532-b93d-dcc2-3428",
+          "name": "Stalker Bolt Rifle",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e89e-4431-97de-4b38",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "4d90-3d52-a3fb-c2ed",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

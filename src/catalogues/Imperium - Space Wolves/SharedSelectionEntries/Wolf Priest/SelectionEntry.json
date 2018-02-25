@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "identifier": "Wolf Priest",
+    "prevIdentifier": "Njal Stormcaller in Runic Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "7886-e5bb-2c9d-d40d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c1aa-d20a-09f0-200c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "c6d1-c920-612f-0bd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e73f-06eb-9404-03fd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "75f1-5786-ca27-bd2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "f031-70b5-f46b-7ed3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb97-ab6a-dd79-137e",
+          "id": "e7f6-0991-5e1e-80a0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9442-137c-55af-98cf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "28a3-0301-3479-3df0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "81ea-6e2e-51b5-3eb4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "61ea-005f-9f74-64c4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "3117-16d8-fcef-4f56",
+              "id": "44c3-523c-32cc-6311",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "f627-f23e-a3b4-dc2c",
+              "id": "ed1d-d4bb-aac2-5ce2",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "30a0-3051-6b4d-442f",
+          "id": "1a0d-cb53-ffdd-c987",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "22"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7a02-78d7-07d2-f41f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cbcc-6b93-4464-6127",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "ebbc-d6f9-eb7e-0934",
+          "name": "Crozius arcanum"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "316d-9815-1c98-7c1b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "60e4-07ae-92f9-fbab",
+          "id": "4263-86ca-7d47-5467",
+          "name": "Pistol or Combi Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b0f7-c65e-2dbf-c0dc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1718-bb0d-a717-ccba",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8a56-80a5-3661-bf0b",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "c7e4-f7a7-49dd-7d82",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "8a56-80a5-3661-bf0b",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "dd59-0845-50e4-c171",
+      "name": "Wolf Priest",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9101-cf25-11c0-0151",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fe04-1322-f3ce-33a5",
+          "id": "928d-959c-f3ee-e9e8",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "1a0d-cb53-ffdd-c987",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "dd59-0845-50e4-c171",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a8fa-eddb-696f-b899",
+          "id": "f94f-1323-eb56-83d6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "98aa-9a8e-dfae-98d9",
+          "id": "c6b1-d05d-8084-2d10",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "08bd-845a-0d9f-82f6",
+          "id": "e9b2-dda3-74b5-fca9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "34bf-85f7-a4c2-a494",
+          "id": "16dd-c97e-c4c2-6235",
+          "name": "Healing Balms"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Drones (0-2)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "4f2b-822c-a434-8904",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "200f-c6dc-068e-423b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0932-c723-8f50-f15a",
+          "id": "b335-2a6b-dd3d-e4f7",
+          "name": "MV52 Shield Drone"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6b0d-4f89-d255-2383",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca7f-d200-b93b-49a6",
+          "id": "0a9f-b968-b234-8805",
+          "name": "MV84 Shielded Missile Drone",
+          "modifiers": [
+            {
+              "field": "6b0d-4f89-d255-2383",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "0932-c723-8f50-f15a",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f45c-38b9-a44c-f372",
+      "name": "Drones (0-2)",
+      "book": "IAI: Xenos",
+      "page": "45"
+    }
+  ]
+}

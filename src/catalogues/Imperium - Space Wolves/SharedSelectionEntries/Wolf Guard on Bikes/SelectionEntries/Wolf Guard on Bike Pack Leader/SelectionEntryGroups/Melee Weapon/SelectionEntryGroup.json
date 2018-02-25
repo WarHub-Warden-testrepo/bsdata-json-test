@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon",
+    "prevIdentifier": "Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "31e6-b63a-bbe1-4172",
+      "constraints": [
+        {
+          "id": "e9bd-22cf-5494-2f0c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "e5e6-d647-6d62-6585",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0eb6-7eef-2032-4f7b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "31e6-b63a-bbe1-4172",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0b73-6fc9-b9f3-6467",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "945c-d58b-0e19-8844",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "28bc-f5b2-d116-41f8",
+      "name": "Melee Weapon"
+    }
+  ]
+}

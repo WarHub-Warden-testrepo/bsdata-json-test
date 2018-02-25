@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Nurgle",
+    "prevIdentifier": "Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dfd1-fba9-9e7a-56e9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "9541-de68-3c91-b2f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "b12f-6b2b-0bb1-aad6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6ec2-d82a-1b0e-2447",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c7bb-3d6d-b7b1-6822",
+          "id": "ff16-af4e-8979-7e7f",
+          "name": "Nurgle Discipline"
+        }
+      ],
+      "id": "26eb-4bc7-7470-39ee",
+      "name": "Nurgle",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "2a39-569f-971e-c798",
+          "name": "Disgustingly Resilient"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "dfd1-fba9-9e7a-56e9",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "identifier": "Crusader Squad",
+    "prevIdentifier": "Close Combat Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "57c4-22a7-dcce-8e0e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1538-c209-c515-e558",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c172-81c9-f3d6-5c22",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6c0-28c2-e5f6-9af7",
+          "id": "b34b-9f66-38b3-b97a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5efc-1cfc-6338-77c0",
+          "id": "d2af-14ea-b82c-49a0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "34f7-244e-b627-2fa1",
+      "name": "Crusader Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c3b4-037f-ca4a-1f88",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "95a0-e2cb-1ad9-df9f",
+          "id": "e1c4-18cc-abcc-b0de",
+          "name": "Initiate"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "2070-61e6-fbcd-bdaa",
+              "type": 4,
+              "field": "selections",
+              "scope": "34f7-244e-b627-2fa1",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "6686-96db-8327-21a0",
+              "type": 4,
+              "field": "selections",
+              "scope": "34f7-244e-b627-2fa1",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "6686-96db-8327-21a0",
+              "type": 4,
+              "field": "selections",
+              "scope": "34f7-244e-b627-2fa1",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "bf89-9471-d639-be6a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Veteran Weapon Team",
+    "prevIdentifier": "Veteran w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0c71-3c7a-f3a0-ebff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "29c3-5475-96d1-6a44",
+          "id": "7d5c-4790-853f-54ce",
+          "name": "Astra Militarum Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "111c-f058-bb24-b2a3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "916e-68bb-6065-c0be",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "b03e-841e-41f6-b265",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "9e2b-dad6-6a30-afb5",
+      "name": "Veteran Weapon Team",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "61bc-299a-28c5-bbd5",
+          "id": "9d22-d4ef-1af0-28db",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

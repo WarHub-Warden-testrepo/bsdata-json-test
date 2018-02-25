@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Ogryn Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "0504-76f5-b209-5dd3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "3340-7094-218c-8227",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "705c-8478-4b93-fcac",
+      "name": "Ogryn Weapon"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Deathmark",
+    "prevIdentifier": "Deathmarks"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "60db-1714-4197-3bc0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c8b1-abb7-7295-eb66",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a308-8b68-886d-3014",
+          "id": "93b1-01b6-feb6-45b0",
+          "name": "Synaptic Disintegrator",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "a453-c679-932c-9ca2",
+      "name": "Deathmark",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "0aaf-da64-a434-c0ea",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

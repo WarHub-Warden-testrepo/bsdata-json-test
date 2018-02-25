@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "DK Guardsman w/Vox-caster",
+    "prevIdentifier": "DK Guardsman w/Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e065-a4b8-59b7-b910",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9d71-0707-f4bb-cbf8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1bea-2e9b-328e-4553",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "36ca-603f-0eb6-fc25",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "829c-e082-e88a-2f01",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e40-b815-85ab-f85a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fedb-9b46-7668-7a55",
+          "id": "715c-4ce7-48c2-0cc5",
+          "name": "Death Korps Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "66df-1318-b936-1e41",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed8e-2c30-98e5-dbc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "aa3e-0920-2885-5e83",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "a2b9-6eec-13fb-b810",
+      "name": "DK Guardsman w/Vox-caster",
+      "infoLinks": [
+        {
+          "targetId": "9fe8-46df-c068-50a1",
+          "id": "e2bc-0cd4-5e98-6abd",
+          "name": "Death Korps Guardsman"
+        }
+      ]
+    }
+  ]
+}

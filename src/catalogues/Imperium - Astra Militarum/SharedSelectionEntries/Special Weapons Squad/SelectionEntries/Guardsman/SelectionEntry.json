@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Guardsman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ef2f-6189-3c12-4705",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "f803-fe8c-8b1e-ecc0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5aaa-ba2d-cc3b-87e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4b78-c01f-3917-9777",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7236-b28a-2b6e-ded7",
+          "id": "acf7-5b70-2113-e293",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "fbea-3c67-1ac7-4dc8",
+      "name": "Guardsman",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "3635-257d-26f1-26e8",
+          "id": "f77f-d850-6b11-5455",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Rear weapon",
+    "prevIdentifier": "Pintle.mounted weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c9e3-2640-6be8-3e25",
+      "constraints": [
+        {
+          "id": "0e9f-0a13-6aea-9797",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0768-4314-3533-3b6f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "956c-8035-84f9-823b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f427-957d-6d53-af33",
+          "id": "c9e3-2640-6be8-3e25",
+          "name": "Icarus ironhail heavy stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "69fe-c327-d554-d8f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8b60-9170-ac2b-df02",
+          "id": "ac7f-8874-aae1-58fc",
+          "name": "Icarus rocket pod"
+        },
+        {
+          "constraints": [
+            {
+              "id": "80b2-ccb9-cb64-f618",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "e97d-2c35-17b8-9f8f",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9849-df5b-5261-c2b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e4c9-be77-2c22-f2f1",
+          "id": "8a10-61fb-0328-162d",
+          "name": "Fragstorm grenade launcher"
+        }
+      ],
+      "id": "e327-68c3-8318-5dfa",
+      "name": "Rear weapon"
+    }
+  ]
+}

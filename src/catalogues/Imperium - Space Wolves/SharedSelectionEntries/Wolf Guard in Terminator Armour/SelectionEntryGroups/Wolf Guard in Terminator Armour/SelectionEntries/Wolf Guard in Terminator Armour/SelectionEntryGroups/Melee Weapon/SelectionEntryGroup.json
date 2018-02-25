@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "233a-b9f7-9fcc-22b4",
+      "constraints": [
+        {
+          "id": "cf15-feac-b0a0-598d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "dccc-4f52-e783-5eb2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0b63-e042-aaa0-9ad3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "233a-b9f7-9fcc-22b4",
+          "name": "Power fist"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5905-5c5e-221c-665d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "decc-5446-549e-d30b",
+          "name": "Space Wolves Terminator Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aff2-c30c-12d0-fc8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "b160-7484-2b51-44f7",
+          "name": "Storm shield"
+        }
+      ],
+      "id": "1e2b-4c6d-46e1-52f6",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "cf15-feac-b0a0-598d",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "dccc-4f52-e783-5eb2",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

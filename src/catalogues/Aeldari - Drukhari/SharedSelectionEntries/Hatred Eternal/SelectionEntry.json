@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Hatred Eternal",
+    "prevIdentifier": "Faction Keyword Filter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "907c-08e9-a9c3-0ecf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5ff4-b75d-f77e-47a5",
+      "name": "Hatred Eternal"
+    }
+  ]
+}

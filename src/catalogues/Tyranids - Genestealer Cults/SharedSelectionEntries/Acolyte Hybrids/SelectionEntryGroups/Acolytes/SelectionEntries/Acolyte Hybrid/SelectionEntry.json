@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "identifier": "Acolyte Hybrid"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4e07-3855-7090-78a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "baf1-a450-1ad3-a6a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cb00-ff73-e280-858f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "bcc9-8946-fecc-1ef7",
+          "name": "Autopistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9e1d-45ea-96f0-c7a7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "42f5-5fb2-fbce-17ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "183e-a985-718e-26a5",
+          "id": "62ed-94a8-daae-8efd",
+          "name": "Cultist Knife"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6256-a133-836f-6d05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3ef0-30c0-f1c3-7781",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7210-2eea-c54a-c7d5",
+          "id": "fd94-0178-f61f-1f1b",
+          "name": "Rending Claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a1f4-a3c1-06a2-67a4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "18ef-bc08-4f36-2cb5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9411-b31c-f3f6-9fbb",
+          "id": "dfdf-0ba1-799e-0d67",
+          "name": "Blasting Charges"
+        }
+      ],
+      "id": "8621-f7ad-9cd0-7306",
+      "name": "Acolyte Hybrid"
+    }
+  ]
+}

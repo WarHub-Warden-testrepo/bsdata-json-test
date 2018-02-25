@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Rhino Primaris",
+    "prevIdentifier": "Land Speeders"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "ed78-87e3-e747-a085",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f9a5-1506-0b6f-09de",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "594b-244d-2799-827f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "49e5-1ea2-dbe1-cd20",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "840a-c97c-50a9-9529",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c64e-0025-91da-4254",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f51-b8fa-86ce-7388",
+          "id": "16e9-8b9e-b696-d01d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a3a4-053d-2e75-81c5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0706-f875-1645-4dcd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f0c-0f8c-1a73-4052",
+          "id": "6443-de09-0eaa-afe0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "017c-9e83-3524-adab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "c12b-0c2f-6e52-e8f1",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1900-32d2-fe05-df9a",
+      "name": "Rhino Primaris",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9793-838f-254b-76bb",
+          "id": "0eaa-d25f-1c47-5c9d",
+          "name": "Explodes (3\"/D3)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "eca0-ed30-916b-d8d8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "88cf-5c51-9f6b-7f26",
+          "id": "dcd4-41e7-8894-e268",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7472-621a-b7e6-1819",
+          "id": "3616-186f-a531-d945",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

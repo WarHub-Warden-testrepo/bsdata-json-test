@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Krackenbone Sword",
+    "prevIdentifier": "Assault Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad3a-12d5-92a0-76b5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "064e-3b21-35fc-cde6",
+      "name": "Krackenbone Sword",
+      "book": "Chapter Approved 2017",
+      "page": "67",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "2463-f863-77ca-706c",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

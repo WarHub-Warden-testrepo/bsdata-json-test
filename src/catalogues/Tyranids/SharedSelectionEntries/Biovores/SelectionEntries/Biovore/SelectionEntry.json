@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Biovore"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 36.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f2c0-4774-4911-95b0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "933c-edee-7f79-b2ca",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cb7d-2127-7f4c-5101",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "da1c-abc6-de98-05c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f2f0-5874-f1e1-1dd5",
+          "id": "5af9-d99a-5a8f-a998",
+          "name": "Spore Mine Launcher"
+        }
+      ],
+      "id": "3b18-3102-34b0-465f",
+      "name": "Biovore"
+    }
+  ]
+}

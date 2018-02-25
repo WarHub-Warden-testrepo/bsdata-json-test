@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Shuriken Pistol Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c431-caab-8f13-9200",
+      "constraints": [
+        {
+          "id": "1821-6454-1d95-2a3e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "acee-9346-f046-bd14",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ed52-906d-638d-8eb9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "c431-caab-8f13-9200",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c66b-c132-467c-8258",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d16c-9cee-0721-4b76",
+          "id": "15cf-da2e-cd14-0e44",
+          "name": "Scorpion's Claw"
+        }
+      ],
+      "id": "f62d-ea1e-1445-ea88",
+      "name": "Shuriken Pistol Options",
+      "modifiers": [
+        {
+          "field": "1821-6454-1d95-2a3e",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c0b6-b4d9-ff40-d4d0",
+              "type": 2,
+              "field": "selections",
+              "scope": "477c-04b0-ab2b-2119",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "acee-9346-f046-bd14",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c0b6-b4d9-ff40-d4d0",
+              "type": 2,
+              "field": "selections",
+              "scope": "477c-04b0-ab2b-2119",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

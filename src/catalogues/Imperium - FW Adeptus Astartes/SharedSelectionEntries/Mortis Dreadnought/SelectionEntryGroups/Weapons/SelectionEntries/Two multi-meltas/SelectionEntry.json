@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two multi-meltas",
+    "prevIdentifier": "Two assault cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1f76-16ea-e51e-713a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fc6d-7f1a-6d30-c18d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2888-234e-7b0e-e005",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4572-20b8-fea6-4041",
+          "id": "ea0c-6ef6-55ab-b56f",
+          "name": "Multi-melta"
+        }
+      ],
+      "id": "5c55-650b-1f7a-a7a5",
+      "name": "Two multi-meltas"
+    }
+  ]
+}

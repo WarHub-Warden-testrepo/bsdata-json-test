@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Company Ancient",
+    "prevIdentifier": "Primaris Lieutenants"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 63.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c9af-4384-d154-0dba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2d28-8fed-1b2d-1999",
+          "id": "ab56-b9d0-832c-1284",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "44ac-c008-6820-62cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a620-7c24-c693-bd33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e71c-b847-6f60-6a47",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a2e7-ec78-a186-1448",
+          "id": "08bf-2010-0b73-d925",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5508-c061-5963-e673",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "621b-ffed-bf62-e910",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8d97-e66f-b4ce-7faa",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5115-f430-35c4-4a67",
+          "id": "9dc9-2bcc-5c12-711e",
+          "name": "Standard of the Emperor Ascendant",
+          "modifiers": [
+            {
+              "field": "3f3e-7a76-d708-ccaf",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "f01f-5731-bfa3-6eb8",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "0e51-de2e-2557-b79e",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "f01f-5731-bfa3-6eb8",
+          "name": "Relics"
+        }
+      ],
+      "id": "0e51-de2e-2557-b79e",
+      "name": "Company Ancient",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1744-bd62-9718-4da7",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6586-5d43-b320-83cf",
+          "id": "bc03-19fd-7c3f-7d13",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Skyreaver w/ Shardcarbine",
+    "prevIdentifier": "Skyreaver w/ Shuriken Catapult"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "0601-f9fb-9150-871a",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "c51b-4f54-eb4f-976a",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5809-3ead-dd69-95f7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4dfb-1cb7-492e-7acf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "35c6-b268-47c7-b174",
+          "id": "1e4b-a51b-f6c3-f98e",
+          "name": "Shardcarbine"
+        }
+      ],
+      "id": "8d5b-c0b0-91f7-298a",
+      "name": "Skyreaver w/ Shardcarbine",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "infoLinks": [
+        {
+          "targetId": "f40d-f42e-3dfe-5a03",
+          "id": "9886-3f60-999e-055a",
+          "name": "Corsair Skyreaver"
+        }
+      ]
+    }
+  ]
+}

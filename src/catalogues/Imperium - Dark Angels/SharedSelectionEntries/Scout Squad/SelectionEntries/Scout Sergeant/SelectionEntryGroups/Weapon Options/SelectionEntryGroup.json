@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "5717-8e13-7a31-2939",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "c524-3e58-19d9-5257",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6a22-9658-28c6-4c15",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "58c2-3fe9-685c-d13c",
+          "name": "Melee Weapons",
+          "modifiers": [
+            {
+              "field": "6a22-9658-28c6-4c15",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "d872-5645-04bd-683b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5488-693a-4f77-de33",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "aaef-f876-968f-c5ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "2ad0-096b-1bc6-4bb4",
+          "name": "Combi-Weapons",
+          "modifiers": [
+            {
+              "field": "aaef-f876-968f-c5ce",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "d872-5645-04bd-683b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5488-693a-4f77-de33",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3344-6f6f-0c2e-4450",
+      "name": "Weapon Options"
+    }
+  ]
+}

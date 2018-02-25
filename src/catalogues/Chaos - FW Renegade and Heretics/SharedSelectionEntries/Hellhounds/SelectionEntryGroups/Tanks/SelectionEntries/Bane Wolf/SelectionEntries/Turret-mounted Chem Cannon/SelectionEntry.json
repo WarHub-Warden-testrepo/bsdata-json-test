@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Turret-mounted Chem Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b743-f464-5a5f-73ae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "57a8-181f-c455-a342",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "382f-4b35-0166-66a9",
+      "name": "Turret-mounted Chem Cannon",
+      "page": "0"
+    }
+  ]
+}

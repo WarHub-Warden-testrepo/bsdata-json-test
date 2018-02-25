@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Canoptek Scarabs",
+    "prevIdentifier": "Canoptek Scarab Swarm"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c502-cf68-494d-d459",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "f535-f7db-3237-ddb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "accb-e3d8-1193-10cc",
+              "id": "181e-8717-1251-2d1e",
+              "name": "",
+              "book": "Index: Xenos 1"
+            },
+            {
+              "targetId": "6a37-4c9f-a323-a8f2",
+              "id": "2f16-1621-126b-9c4a",
+              "name": "",
+              "book": "Index: Xenos 1"
+            },
+            {
+              "targetId": "876e-ea78-1fdf-f250",
+              "id": "b958-8eaa-a1db-104d",
+              "name": "",
+              "book": "Index: Xenos 1"
+            },
+            {
+              "targetId": "c276-12d8-a188-16a2",
+              "id": "38ab-fe08-5a9e-110c",
+              "name": "",
+              "book": "Index: Xenos 1"
+            },
+            {
+              "targetId": "7a53-eedc-8dbb-8505",
+              "id": "ff58-9634-19e6-1ac2",
+              "name": "",
+              "book": "Index: Xenos 1"
+            }
+          ],
+          "targetId": "05bc-85c2-d9d2-450d",
+          "id": "c47d-1f34-aff3-8dcf",
+          "name": "Canoptek Scarab Swarm",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "544d-10ba-7176-4360",
+      "name": "Canoptek Scarabs",
+      "book": "Index: Xenos 1",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "544d-10ba-7176-4360",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "544d-10ba-7176-4360",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

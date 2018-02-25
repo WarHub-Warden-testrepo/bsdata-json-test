@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Rapier Laser Destroyer",
+    "prevIdentifier": "Heavy Quad Launcher Battery"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "da5c-a177-5e8d-bb11",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "f185-7919-661c-9f8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70eb-d2d7-5172-ec78",
+          "id": "ea4e-48a5-f401-72c1",
+          "name": "Guardsmen Crew"
+        }
+      ],
+      "id": "259e-17d2-3f79-528b",
+      "name": "Rapier Laser Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "3fe6-0898-b98b-5a2b",
+          "id": "df5e-0378-b1e6-4bcd",
+          "name": "Artillery"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "1440-e75f-7ebc-dbf9",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "2a6a-1a76-948f-2b15",
+          "name": "Artillery Battery"
+        }
+      ]
+    }
+  ]
+}

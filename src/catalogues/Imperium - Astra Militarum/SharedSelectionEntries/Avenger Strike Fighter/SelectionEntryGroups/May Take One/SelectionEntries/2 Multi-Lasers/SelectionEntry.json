@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "2 Multi-Lasers",
+    "prevIdentifier": "2 Autocannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dcdf-7af0-384e-edf2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "bb9e-f961-bf70-f2b2",
+      "name": "2 Multi-Lasers",
+      "infoLinks": [
+        {
+          "targetId": "92be-1bfc-f355-f214",
+          "id": "cf36-fbf9-3787-cafd",
+          "name": "Multi-laser"
+        }
+      ]
+    }
+  ]
+}

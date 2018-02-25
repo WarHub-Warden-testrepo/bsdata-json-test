@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Bolt rifle and bolt pistol with optional power sword",
+    "prevIdentifier": "Power fist and plasma pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5f2b-716a-41d9-012b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bef4-572c-f2b0-0d21",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "b866-cbdf-2ba5-9de4",
+          "name": "Power sword"
+        }
+      ],
+      "id": "7da5-0ce3-b863-e763",
+      "name": "Bolt rifle and bolt pistol with optional power sword"
+    }
+  ]
+}

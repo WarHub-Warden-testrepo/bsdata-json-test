@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Support Drones (0-2)",
+    "prevIdentifier": "Fire Warrior weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "157c-98d1-8389-dd30",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "247b-dadc-33e4-9b71",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "08f8-f55b-2299-fec5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1fee-8616-8535-fc7e",
+          "id": "354f-9aeb-a2bd-25e7",
+          "name": "MV31 Pulse Accelerator Drone"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d78f-fc83-0676-2142",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82f3-a4da-ff43-b6a1",
+          "id": "2c04-544a-06cd-0eee",
+          "name": "MV33 Grav-inhibitor Drone"
+        }
+      ],
+      "id": "0a03-bcf9-5c25-aca0",
+      "name": "Support Drones (0-2)"
+    }
+  ]
+}

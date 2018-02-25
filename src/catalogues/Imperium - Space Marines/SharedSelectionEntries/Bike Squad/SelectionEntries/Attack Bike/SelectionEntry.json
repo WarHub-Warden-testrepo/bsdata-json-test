@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Attack Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "214f-8fb4-7719-b379",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5170-de82-e8c4-d2c2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c72a-2fb1-0de6-cbea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "570c-4ae8-06c5-bb08",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b67a-475b-facc-ecad",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "81da-7938-93f6-ce40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8d16-0d61-0c19-aa4c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ccdf-afc0-f724-7c34",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "270b-c037-e533-6483",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "254b-fb2a-7ffc-b4bd",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "d958-53c6-ab69-979b",
+      "name": "Attack Bike",
+      "infoLinks": [
+        {
+          "targetId": "a59d-dcf2-38a7-c570",
+          "id": "165c-b5aa-3aa6-4eb7",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Daemonette"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "39a9-f466-53fa-ce68",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 29.0,
+          "shared": true
+        },
+        {
+          "id": "a3cd-feca-61c2-d623",
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "38d2-f1b0-ea82-033a",
+          "name": "Piercing claws"
+        }
+      ],
+      "id": "5ccc-9c5a-bcac-46fe",
+      "name": "Daemonette"
+    }
+  ]
+}

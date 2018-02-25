@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Warlock Skyrunner Conclave",
+    "prevIdentifier": "Warlock"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "8e9b-b793-573c-a6d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "c05a-6ac9-d900-36c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "2873-7dbb-494c-9c17",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "6fe2-8ddc-67f5-2c18",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "52e8-8cd3-7db8-4577",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "8cdf-2738-2be5-c612",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "f349-c8f8-0b87-e8b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "01ed-63eb-31aa-a7b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3cfe-4c43-5d63-2e6f",
+          "id": "97b0-14fd-e3ce-a93a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "08da-47e9-744b-f7d4",
+          "id": "54e3-eea2-9522-0eac",
+          "name": ""
+        },
+        {
+          "targetId": "8537-bbde-aa0f-bf4d",
+          "id": "2e69-0737-7760-547f",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5a27-b481-6ae4-420a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "3206-297f-98fb-1a4b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "a738-0b1f-3fd6-dd3b",
+          "name": ""
+        },
+        {
+          "targetId": "bd8d-4b22-4f11-b5d7",
+          "id": "ab23-894e-2045-f5fd",
+          "name": "Smite (Destructor - Conclave)"
+        }
+      ],
+      "id": "9316-eafd-ca2e-50f3",
+      "name": "Warlock Skyrunner Conclave",
+      "infoLinks": [
+        {
+          "targetId": "dbc7-cea4-af84-b8ef",
+          "id": "b880-0f3d-1802-7672",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "a584-a4ff-4391-9969",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

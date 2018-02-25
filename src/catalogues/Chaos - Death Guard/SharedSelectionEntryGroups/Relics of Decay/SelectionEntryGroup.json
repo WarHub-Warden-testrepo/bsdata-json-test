@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Relics of Decay",
+    "prevIdentifier": "Dark Hereticus Discipline"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "d296-85f8-9b76-f25b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "2a25-41d0-4ed6-e90a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3ecf-4f40-668a-5f15",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "75e1-0c0e-227c-91a9",
+          "id": "839c-61f0-29b0-9854",
+          "name": "Plaguebringer"
+        }
+      ],
+      "id": "0435-2d8f-2e4e-28c3",
+      "name": "Relics of Decay",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "d296-85f8-9b76-f25b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a840-f0b3-abac-6d1c",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "d296-85f8-9b76-f25b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "7906-7754-69cd-1c2c",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "d296-85f8-9b76-f25b",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "fe51-f3fa-7a36-7dcd",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "9471-c9da-f201-8577",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "570c-1ef0-2477-00af",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "feb0-0814-f4a6-4665",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

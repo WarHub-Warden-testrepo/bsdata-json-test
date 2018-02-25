@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Plague Claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "5ef1-d050-3433-96e2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9bc9-7fa3-1d39-7ef2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ff83-7bf5-729c-a30c",
+      "name": "Plague Claws"
+    }
+  ]
+}

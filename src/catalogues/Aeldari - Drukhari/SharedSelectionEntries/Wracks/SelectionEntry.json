@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Wracks",
+    "prevIdentifier": "Venom"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "0a55-6aca-c9c3-bdda",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "6d8d-e1fd-fce7-4f37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "d58b-8d9f-a89e-9f1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3cc-22d9-1014-b496",
+          "id": "84c8-546d-3348-0f3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "60ed-b380-54c4-4a9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "93aa-d8fa-b826-9fbc",
+          "id": "c2af-4376-1f3e-103d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "870e-ddec-7fd6-366a",
+      "name": "Wracks",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8697-63a6-0f4e-66f8",
+          "id": "eba6-1574-ef0c-1fce",
+          "name": "Insensible to Pain"
+        },
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "7289-2319-2468-ab92",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "6443-8952-3c01-568c",
+          "name": "Power from Pain"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "303b-f7c8-e1c0-f883",
+              "type": 1,
+              "field": "selections",
+              "scope": "870e-ddec-7fd6-366a",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

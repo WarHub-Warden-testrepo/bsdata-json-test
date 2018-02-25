@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Custodian"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "12b5-575c-2763-53f4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "adc7-645e-3db6-b855",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3ea7-7ec6-e1e6-ff01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "dee6-3e16-1586-6068",
+          "name": "Misericordia"
+        }
+      ],
+      "id": "eb5b-56dd-f6d2-0ccc",
+      "name": "Custodian"
+    }
+  ]
+}

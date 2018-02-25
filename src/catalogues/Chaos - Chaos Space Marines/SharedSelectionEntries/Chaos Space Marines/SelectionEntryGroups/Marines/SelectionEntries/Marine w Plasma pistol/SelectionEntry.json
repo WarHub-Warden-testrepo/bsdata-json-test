@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Marine w/ Plasma pistol",
+    "prevIdentifier": "Marine w/ Chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c43d-8693-0ccf-dc98",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2df7-d5c3-6089-9872",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "423a-d542-ab4e-e177",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "d8a5-71e8-7521-5c67",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "7fd9-f2cd-9698-9def",
+      "name": "Marine w/ Plasma pistol",
+      "modifiers": [
+        {
+          "field": "c43d-8693-0ccf-dc98",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "34ee-3726-87dd-5c39",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "model",
+                  "field": "selections",
+                  "scope": "7b61-1289-ed7e-24c1",
+                  "value": 10.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Deathshroud Terminators",
+    "prevIdentifier": "Putrescent Vitality"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "3f04-7e86-5125-7cd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "8b17-f904-e4a5-846d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f0ba-3891-51b4-f74b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "3d42-4ff2-07d4-24e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0196-aabc-e3ff-2a97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "24cd-8e61-0cbe-05fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36b8-cf23-7648-ece9",
+          "id": "41c9-d4f5-5f9a-cd78",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2110-97af-25b6-2eb8",
+          "id": "83cf-233e-f4ad-6702",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "00f1-d9e0-cd71-79f0",
+      "name": "Deathshroud Terminators",
+      "infoLinks": [
+        {
+          "targetId": "8f11-6c2b-25e0-d130",
+          "id": "6402-8a69-b153-347c",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "targetId": "c365-8ca4-3ee1-1677",
+          "id": "0b63-fc71-f1b2-5584",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "057a-5462-ce7c-192e",
+          "id": "3d29-9dac-a6fb-fec3",
+          "name": "Cataphractii Armour"
+        },
+        {
+          "targetId": "51dc-2e9c-f739-4584",
+          "id": "3426-9655-e7b7-74ab",
+          "name": "Teleport Strike"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "22",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "00f1-d9e0-cd71-79f0",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

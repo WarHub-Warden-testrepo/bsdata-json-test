@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Scout Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4f16-5077-dcdf-8d8e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "5fb5-4ef1-8f10-34c0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1677-284e-5277-d3d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5a67-9dbf-bad3-c16b",
+          "id": "4d55-4b45-68b0-d74b",
+          "name": "Sentinel Chainsaw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "155c-e904-7b89-9749",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ebe2-d248-3f29-dd38",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "532d-dd17-8af8-8639",
+      "name": "Scout Sentinel",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "7c1d-8e5d-5082-7e87",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "6338-ae1c-93c9-2e89",
+          "id": "ed24-00a5-3a2e-d083",
+          "name": "Scout Vehicle"
+        },
+        {
+          "targetId": "8810-0e85-71ad-e4e3",
+          "id": "9e24-e66b-4344-b827",
+          "name": "Explodes (6+/3\"/1)"
+        }
+      ]
+    }
+  ]
+}

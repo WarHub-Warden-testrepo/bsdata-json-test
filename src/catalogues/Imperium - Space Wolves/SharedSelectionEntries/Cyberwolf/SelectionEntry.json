@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Cyberwolf",
+    "prevIdentifier": "Cyberwolves"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c2c1-3e51-7961-6036",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6304-600d-cf20-43e7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "04b5-0989-1321-6d4c",
+          "id": "d754-a681-8fcb-f7ee",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e0cd-b9cc-9f0f-278a",
+      "name": "Cyberwolf",
+      "infoLinks": [
+        {
+          "targetId": "1640-a9e3-5c03-ac7b",
+          "id": "532a-b276-4279-7ecc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6771-a4fb-a378-8374",
+          "id": "df8e-b893-08c0-1b3c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

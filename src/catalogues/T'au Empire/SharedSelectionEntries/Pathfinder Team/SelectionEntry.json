@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Pathfinder Team",
+    "prevIdentifier": "Strike Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "13bc-67c9-9e06-7a71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6cf6-1ae7-70a6-c93b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "e7cc-91bc-7fc5-af00",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "79a7-77ac-eeb3-256c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "667d-7920-7891-ee16",
+      "name": "Pathfinder Team",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "a1ab-acf8-166c-61e2",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9b19-f096-5c9d-696d",
+          "id": "db8d-fb86-ed8d-5d09",
+          "name": "Drone Support"
+        },
+        {
+          "type": 1,
+          "targetId": "0090-7776-c531-10b8",
+          "id": "87e1-0f1b-a43a-2840",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "7273-dc1d-3e5b-9f09",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "4712-23ce-a65a-5ca1",
+              "type": 4,
+              "field": "selections",
+              "scope": "667d-7920-7891-ee16",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "537d-a44c-d019-fa0b",
+              "type": 4,
+              "field": "selections",
+              "scope": "667d-7920-7891-ee16",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "cf8d-f9ee-dffc-4186",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "667d-7920-7891-ee16",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "c364-761e-d3f2-2f58",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "667d-7920-7891-ee16",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

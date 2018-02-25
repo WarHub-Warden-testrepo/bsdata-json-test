@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Helbrute fist options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "85ce-15c4-c71c-3ae7",
+      "constraints": [
+        {
+          "id": "544c-753e-9595-32d1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1c88-3f34-a880-3bb1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "dd01-6c2f-03c0-a7ca",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7ac5-78c4-af24-11a1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a7f3-c34e-be7d-d3c2",
+          "id": "85ce-15c4-c71c-3ae7",
+          "name": "Helbrute fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "33e6-c588-61c0-a761",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "d791-679d-781c-a6fa",
+      "name": "Helbrute fist options"
+    }
+  ]
+}

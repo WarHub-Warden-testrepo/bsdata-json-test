@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Mindshock Pod"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fd6e-2ae7-88b0-e924",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d148-ebeb-79fb-1ac0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2092-06ff-b1a7-e773",
+      "name": "Mindshock Pod"
+    }
+  ]
+}

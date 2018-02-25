@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Form Firing Squad!",
+    "prevIdentifier": "Elimination Protocol Sanctioned!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "Until the end of the phase, the ordered unit can target CHARACTERS with their Rapid Fire weapons, even if they are not the closest enemy unit."
+        }
+      ],
+      "id": "0408-58d4-0f0b-7a7c",
+      "name": "Form Firing Squad!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "8b7d-1aa4-6a84-934e",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

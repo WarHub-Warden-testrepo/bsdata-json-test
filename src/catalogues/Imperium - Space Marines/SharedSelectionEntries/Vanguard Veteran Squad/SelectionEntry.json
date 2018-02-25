@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "identifier": "Vanguard Veteran Squad",
+    "prevIdentifier": "Sternguard Veteran Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9d3c-ee1d-4446-88ae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f6a8-43a2-eecf-f6bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ee6f-6be5-3674-e041",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "783d-89c9-433b-098a",
+          "id": "c946-ca84-0bfb-2bf0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "74ad-c4ca-e6d1-b48c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "118e-c529-7189-0871",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "b8ea-ba1c-a2c8-d189",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "a1a9-cd85-3cac-3b15",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "f09f-9a11-0bd0-40a3",
+                  "value": 6.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "a1a9-cd85-3cac-3b15",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "f09f-9a11-0bd0-40a3",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f09f-9a11-0bd0-40a3",
+      "name": "Vanguard Veteran Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "2dbf-b099-df5c-2ab4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ce85-d915-b380-4e12",
+          "id": "655e-6978-9320-ee40",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "b8ea-ba1c-a2c8-d189",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f09f-9a11-0bd0-40a3",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4fc6-74e0-0f86-4b23",
+          "id": "b793-f30e-e279-38d0",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "b8ea-ba1c-a2c8-d189",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f09f-9a11-0bd0-40a3",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "99aa-378e-9733-9108",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "a1a9-cd85-3cac-3b15",
+              "type": 4,
+              "field": "selections",
+              "scope": "f09f-9a11-0bd0-40a3",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

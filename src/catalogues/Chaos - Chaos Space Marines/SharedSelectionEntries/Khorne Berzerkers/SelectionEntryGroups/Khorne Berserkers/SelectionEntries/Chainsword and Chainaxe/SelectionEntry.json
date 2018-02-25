@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Chainsword and Chainaxe"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c77e-b796-7c00-7a94",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0d13-f40b-1b03-514d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f2e8-3b8b-2f79-7525",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "038b-9455-0cdc-9292",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8abc-2e4f-3115-4055",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f38a-4604-7bf0-ed3c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69a9-e421-f588-79bc",
+          "id": "1ab8-49bf-e0c8-5ea9",
+          "name": "Chainaxe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "958b-fe1a-7a16-5d53",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e1a9-2c24-7ef7-8a47",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "71ee-b08f-b52f-d201",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "6df9-c70b-1065-6fa2",
+      "name": "Chainsword and Chainaxe"
+    }
+  ]
+}

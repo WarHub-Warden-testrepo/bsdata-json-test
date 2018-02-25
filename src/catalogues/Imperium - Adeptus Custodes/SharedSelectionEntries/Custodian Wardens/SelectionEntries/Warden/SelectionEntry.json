@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Warden"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 49.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e3d6-f77e-2f46-6081",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "5d56-6d80-ea66-f3b3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "983b-f31c-b175-0f4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "f9fa-7e8e-5dd9-2e07",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "606c-259e-0bea-d399",
+          "name": "Misericordia"
+        }
+      ],
+      "id": "7f96-2993-1a96-0df9",
+      "name": "Warden"
+    }
+  ]
+}

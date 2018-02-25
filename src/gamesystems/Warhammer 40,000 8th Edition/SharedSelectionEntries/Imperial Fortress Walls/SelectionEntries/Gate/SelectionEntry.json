@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "identifier": "Gate"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "24cc-64b2-87b6-19de",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "b50d-eeb8-6152-3517",
+      "name": "Gate"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "identifier": "Malanthropes",
+    "prevIdentifier": "Harridan"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "d5f5-180a-f218-06df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "3126-2b52-879e-5ee4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "d07b-e9c1-d6a4-e227",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "57d5-e1f4-142e-39af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "59a6-e5c8-e77d-f209",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e4ef-c8e5-34e2-ce2e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "6bd6-d28a-87ce-355e",
+          "id": "32e1-9a2b-de36-d6e7",
+          "name": "Bio-artefacts"
+        },
+        {
+          "type": 1,
+          "targetId": "25a0-b547-6079-03a1",
+          "id": "4712-205f-ccf6-7bde",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bc6f-c935-16e8-87a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c832-2f4e-ee51-f481",
+          "id": "b300-97f5-0a76-becc",
+          "name": "Warlord"
+        }
+      ],
+      "id": "fb84-bb9f-5abe-be3f",
+      "name": "Malanthropes",
+      "infoLinks": [
+        {
+          "targetId": "f6a4-e2dd-1a97-c642",
+          "id": "0f09-ab01-057f-eaf2",
+          "name": "Monstrous Brood"
+        },
+        {
+          "targetId": "1f08-bd8f-43a3-ce1b",
+          "id": "327b-487b-e7bf-3657",
+          "name": "Synapse"
+        },
+        {
+          "targetId": "f587-afe6-7bbe-4eac",
+          "id": "9147-ac58-3786-bb70",
+          "name": "Shadow in the Warp"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "fb84-bb9f-5abe-be3f",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "fb84-bb9f-5abe-be3f",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Planetstrike Attacker"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bd4e-9a40-4326-dd5b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "e219-8f88-be6f-c37a",
+      "name": "Planetstrike Attacker",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "f361-b6f6-93fd-2250",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Biker Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b92c-63fa-5746-12e1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "087f-3e51-5d32-901e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9a36-50cb-d419-9f43",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "697c-bf54-8ecd-d34a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a11f-8f20-5d2c-079a",
+          "id": "5c9e-f64a-1a38-5b27",
+          "name": "Twin boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "deaf-acd1-6488-fa39",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f9d7-ddbd-971d-f8f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "bec0-dfa7-f552-6255",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "e135-9b4d-e734-2f9e",
+      "name": "Biker Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "8a09-c959-d7e1-f4c8",
+          "id": "cd66-cf4c-c14c-1d2c",
+          "name": "Biker Sergeant"
+        }
+      ]
+    }
+  ]
+}

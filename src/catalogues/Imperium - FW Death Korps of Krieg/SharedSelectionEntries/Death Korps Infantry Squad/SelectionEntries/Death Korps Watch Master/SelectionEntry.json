@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Death Korps Watch Master"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "013c-b056-3369-ea52",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "bc33-3ecb-75b8-13a2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7882-7d5d-80f1-dc21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1f55-e3b4-7f6a-691e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8f77-dfd1-8c74-0749",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "00b3-34c4-aff2-7176",
+      "name": "Death Korps Watch Master",
+      "book": "Imperial Armour - Index - Forces of the Astra Militarum",
+      "page": "59",
+      "infoLinks": [
+        {
+          "targetId": "0a3d-70de-f4e3-8d41",
+          "id": "fac3-c765-0835-48d4",
+          "name": "Death Korps Watch Master"
+        }
+      ]
+    }
+  ]
+}

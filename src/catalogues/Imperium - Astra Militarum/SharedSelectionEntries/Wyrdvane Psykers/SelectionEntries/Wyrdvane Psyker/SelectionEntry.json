@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Wyrdvane Psyker"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "060b-c536-83d5-81cb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "613f-8194-3d4f-8ffc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "f901-d7d5-f293-fde8",
+      "name": "Wyrdvane Psyker"
+    }
+  ]
+}

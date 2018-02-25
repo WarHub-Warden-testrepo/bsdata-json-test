@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "identifier": "Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f95c-0691-bdd2-5375",
+      "constraints": [
+        {
+          "id": "103e-da76-b0b3-0cbb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "19c8-cf1e-4b99-b04a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e193-8b68-84c7-3da8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b06-87d5-7b1e-8d82",
+          "id": "f95c-0691-bdd2-5375",
+          "name": "Scything Talons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0bef-0f4c-be83-f222",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b6c-58cb-f6eb-2c24",
+          "id": "9feb-ca8e-b872-5118",
+          "name": "Melee Bio-weapons"
+        }
+      ],
+      "id": "6b78-147f-9a17-4c0e",
+      "name": "Melee Weapons",
+      "modifiers": [
+        {
+          "field": "19c8-cf1e-4b99-b04a",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "e963-055a-6dac-4511",
+              "type": 2,
+              "field": "selections",
+              "scope": "d254-4969-7e67-32a9",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "103e-da76-b0b3-0cbb",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "21ef-1c96-dfff-4032",
+              "type": 2,
+              "field": "selections",
+              "scope": "d254-4969-7e67-32a9",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "40ca-90cd-55e7-4978",
+              "type": 2,
+              "field": "selections",
+              "scope": "d254-4969-7e67-32a9",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Malcador Annihilator",
+    "prevIdentifier": "Earthshaker Carriage Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "04a5-a568-2be0-740e",
+          "id": "51f1-1e9e-b98c-8413",
+          "name": "Stat Damage (Malcador)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4bcb-35ed-6069-2173",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "a71b-7ed8-f7dd-48e6",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "5e74-bafb-06f2-23a6",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a792-5ebc-2487-6e1c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "433b-2b82-1539-fb04",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "ee37-993b-d02d-2b57",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "4002-88a0-05eb-d758",
+      "name": "Malcador Annihilator",
+      "infoLinks": [
+        {
+          "targetId": "3e9a-e8b9-170b-0237",
+          "id": "951d-28c1-221c-3647",
+          "name": "Lumbering Advance"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "839d-6fc5-959a-1f99",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "e519-9694-6fbe-2bab",
+          "id": "4ede-a322-0e3b-8a45",
+          "name": "Explodes (Malcador)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "identifier": "Ranged weapon",
+    "prevIdentifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "adf9-11fe-b467-28d6",
+      "constraints": [
+        {
+          "id": "bd4a-ca36-1ead-0869",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8218-06f5-c1a6-97c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4584-29c7-a0ee-05cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "adf9-11fe-b467-28d6",
+          "name": "Storm bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "85fb-27d6-b371-06f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3894-7889-3902-e354",
+              "type": 1,
+              "field": "selections",
+              "scope": "aea3-bdce-c085-7e5f",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "bb71-b1da-8766-827d",
+          "id": "52b9-fd96-cd14-41d4",
+          "name": "Terminator heavy weapons",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "3894-7889-3902-e354",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "aea3-bdce-c085-7e5f",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "6013-ff57-8ce3-aef8",
+      "name": "Ranged weapon"
+    }
+  ]
+}

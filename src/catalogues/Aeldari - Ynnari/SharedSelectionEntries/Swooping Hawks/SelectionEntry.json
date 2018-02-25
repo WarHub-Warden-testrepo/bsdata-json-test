@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Swooping Hawks",
+    "prevIdentifier": "Wave Serpent"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "2bfa-eae5-dbae-3b2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "a717-7bc7-6e9d-1f90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "5a71-4cd3-c038-7597",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "d2c4-94e9-9176-9713",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "70e1-0581-e6cc-599c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "2cd6-c60c-d4ff-aeb5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9710-0f77-3ef1-e2cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "3309-cf14-f81a-45a6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a7be-1381-4821-093a",
+          "id": "71eb-277c-d789-92e0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0cc1-a676-d71f-af95",
+      "name": "Swooping Hawks",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "e70c-ea41-ac55-9456",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "0eec-6f20-6521-3b89",
+              "type": 1,
+              "field": "selections",
+              "scope": "0cc1-a676-d71f-af95",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

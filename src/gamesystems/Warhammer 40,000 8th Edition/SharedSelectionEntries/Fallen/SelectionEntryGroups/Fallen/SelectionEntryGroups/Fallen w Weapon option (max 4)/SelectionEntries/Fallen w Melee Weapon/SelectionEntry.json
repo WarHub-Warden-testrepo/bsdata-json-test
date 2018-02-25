@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Fallen w/Melee Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ba72-ed78-96a7-1bfa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5ac4-f5a4-b7a6-7173",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "40aa-43f3-8030-6904",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a4d-1339-d62c-e2f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e801-5fb4-5f39-4dbf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "1a48-2485-1fb4-ea4e",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "33b6-fc38-c78e-de99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "caa6-bd89-5456-3f37",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "d849-8bc8-7aa6-b529",
+          "name": "Boltgun"
+        }
+      ],
+      "id": "e801-6d85-f049-0fd1",
+      "name": "Fallen w/Melee Weapon"
+    }
+  ]
+}

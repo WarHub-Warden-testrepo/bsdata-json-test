@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "identifier": "Land Raider",
+    "prevIdentifier": "Whirlwind"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 239.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c107-d771-83a9-2f17",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "43c3-c2cb-716e-6289",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2a41-e5e9-7eb9-3f5a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "3045-ef6a-7e00-46f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "6f12-d56a-ed24-c3db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca75-4ae4-2546-b0ff",
+          "id": "8724-8fe1-a0b7-ed8e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "cc55-b194-9baa-b2c2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "56e2-39c1-714b-ad00",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "52e5-4285-7e1d-08da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "21c6-4cf1-c9c2-6753",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5f7b-e1c4-27d0-c2b9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "937d-0714-f77c-314d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "daff-f26a-05d9-1dea",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7884-f70a-d9d1-d7c1",
+      "name": "Land Raider",
+      "infoLinks": [
+        {
+          "targetId": "3658-ca13-697c-72be",
+          "id": "45cc-dc9d-ce52-17fc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5454-3193-69de-ba3a",
+          "id": "d2c6-4430-94c3-ac14",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b6be-3a99-5ecc-bfc1",
+          "id": "3217-48c1-8f5a-78fc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "93a7-4d6b-b06a-da7b",
+          "id": "52c7-91db-768a-f106",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3d5d-287b-d8b9-9399",
+          "id": "99ee-d2f9-2976-453a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b341-2797-56ae-b35c",
+          "id": "358b-ed26-f44f-c798",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "cfed-4ff7-867e-c86f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fb24-ed64-acc4-e5ee",
+          "id": "a7b3-66a6-4a0b-6370",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Transport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

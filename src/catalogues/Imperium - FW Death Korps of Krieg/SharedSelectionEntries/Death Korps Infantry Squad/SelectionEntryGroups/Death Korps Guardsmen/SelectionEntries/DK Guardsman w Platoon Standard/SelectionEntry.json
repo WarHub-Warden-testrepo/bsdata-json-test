@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "DK Guardsman w/Platoon Standard",
+    "prevIdentifier": "DK Guardsman w/Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3adb-9f87-e26b-0a92",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4679-9886-9782-0085",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "23cd-34a3-962b-b55b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "8c14-07e5-3065-9903",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "73a6-63ff-9b99-7ca0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6ec1-5fba-d6c9-485e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5060-9f60-51be-9902",
+          "id": "8a87-3554-34bc-62b9",
+          "name": "Death Korps Platoon Standard"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ee7-bdb5-ce6f-af3f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b91d-e88e-1ee2-1be1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "405b-6a83-0040-77c9",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "d6fa-6549-d8f2-62d6",
+      "name": "DK Guardsman w/Platoon Standard",
+      "infoLinks": [
+        {
+          "targetId": "9fe8-46df-c068-50a1",
+          "id": "7bdf-2fcb-a590-4250",
+          "name": "Death Korps Guardsman"
+        }
+      ]
+    }
+  ]
+}

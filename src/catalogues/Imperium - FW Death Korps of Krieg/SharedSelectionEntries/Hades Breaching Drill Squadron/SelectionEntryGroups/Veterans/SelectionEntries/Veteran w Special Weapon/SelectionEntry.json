@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Special Weapon",
+    "prevIdentifier": "Veteran w/ Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "df62-4d25-8d14-6002",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "a465-d3f9-68f9-2e55",
+          "id": "da69-177d-0822-a07a",
+          "name": "Astra Militarum Special Weapons"
+        },
+        {
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "df7a-d3c3-e5c0-73ae",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "f6fa-32b1-f620-a26e",
+      "name": "Veteran w/ Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "a55e-c10a-f378-b564",
+          "id": "a082-fbd3-b1d9-06cb",
+          "name": "Hades Veterans"
+        }
+      ]
+    }
+  ]
+}

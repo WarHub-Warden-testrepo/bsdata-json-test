@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Nork Deddog",
+    "prevIdentifier": "Lord Commissar"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "1ed1-576d-507a-090d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fabd-67cb-befb-8f75",
+          "id": "33d0-3125-4929-5653",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "a071-553a-862a-2bba",
+          "id": "521f-ae4a-0351-7829",
+          "name": "Ripper Gun"
+        },
+        {
+          "targetId": "da8a-726c-896b-dd0d",
+          "id": "2f5d-ced8-064e-e7ac",
+          "name": "Frag Bombs"
+        }
+      ],
+      "id": "19d7fd2a-b029-ec77-769f-18e0a239c0c0",
+      "name": "Nork Deddog",
+      "book": "Codex: Astra Militarum",
+      "page": "58",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "11ec-3914-8daa-53bb",
+          "id": "e24e-35b2-45ef-2fa5",
+          "name": "Avalanche of Muscle"
+        }
+      ]
+    }
+  ]
+}

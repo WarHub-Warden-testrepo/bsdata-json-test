@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "2 Heavy flamers",
+    "prevIdentifier": "2 Lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5a1a-8544-2b18-bd24",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "ec4d-a0a1-6dd4-08a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "75b0-6a30-6548-866c",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "5b60-7f73-7453-87c7",
+      "name": "2 Heavy flamers"
+    }
+  ]
+}

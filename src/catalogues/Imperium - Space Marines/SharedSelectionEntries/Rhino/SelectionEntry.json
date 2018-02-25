@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Rhino",
+    "prevIdentifier": "Librarian on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "be93-8272-c861-3d3a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f100-a610-515f-c1d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5d18-660b-baf2-ecc9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "8629-09c9-0020-ff75",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef9f-b337-b5f4-54dc",
+          "id": "c182-b230-fe53-a1f0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5488-cc1b-05de-827f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "aea6-2d18-b1f8-f273",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "220d-7085-9753-c370",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad40-afb2-4397-d4d9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "5078-4f05-2051-9bc0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "410f-eff8-c527-d49c",
+      "name": "Rhino",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e115-d729-ce93-fcb7",
+          "id": "b99b-a000-3299-0628",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "b83f-eeb7-c2d8-e532",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "88cf-5c51-9f6b-7f26",
+          "id": "6666-63b5-ed60-debf",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

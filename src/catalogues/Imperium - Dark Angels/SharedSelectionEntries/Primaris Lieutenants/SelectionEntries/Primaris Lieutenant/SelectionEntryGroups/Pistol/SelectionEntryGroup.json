@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "aa78-b829-4c65-44df",
+      "constraints": [
+        {
+          "id": "6d4e-31ed-1ab7-2c9e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "6c10-e281-b394-7a31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7971-9caa-34e2-4b63",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "aa78-b829-4c65-44df",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "abca-9434-aa6a-67e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "b07d-6f2e-dcee-7ca0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3584-3e6e-1642-55ea",
+      "name": "Pistol"
+    }
+  ]
+}

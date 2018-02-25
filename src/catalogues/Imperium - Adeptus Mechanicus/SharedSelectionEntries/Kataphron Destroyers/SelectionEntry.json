@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Kataphron Destroyers",
+    "prevIdentifier": "Kataphron Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "049d-d281-758d-bed8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6bb8-fe7f-7918-bf8f",
+          "id": "8560-a572-f3ac-6278",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "273d-e97c-aa5f-7ad2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "033c-367f-1d95-ed23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "d30e-aa3b-878d-e8f1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "4d05-c01f-0921-f52e",
+      "name": "Kataphron Destroyers",
+      "infoLinks": [
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "dfef-e3d2-98cf-fa72",
+          "name": "Bionics"
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "113e-5f7d-60f7-b503",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9de8-33de-b0e0-352e",
+          "id": "3d82-7fd3-273f-6b95",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "6e0a-6225-b6ef-2159",
+              "type": 1,
+              "field": "selections",
+              "scope": "4d05-c01f-0921-f52e",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "6e0a-6225-b6ef-2159",
+              "type": 1,
+              "field": "selections",
+              "scope": "4d05-c01f-0921-f52e",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "6e0a-6225-b6ef-2159",
+              "type": 1,
+              "field": "selections",
+              "scope": "4d05-c01f-0921-f52e",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "identifier": "Assault Squad",
+    "prevIdentifier": "Tartaros Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "759f-6803-50cf-0ad8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8c89-d313-db78-cbb7",
+          "id": "2227-6119-5817-a8b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "621b-5c31-48d8-251c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7b0f-d467-f33f-6beb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "a543-32cb-3d74-9f6b",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "6300-c955-2591-f6e1",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "7c16-1429-b6d5-e6f1",
+                  "value": 6.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "3",
+              "repeats": [
+                {
+                  "childId": "6300-c955-2591-f6e1",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "7c16-1429-b6d5-e6f1",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7c16-1429-b6d5-e6f1",
+      "name": "Assault Squad",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "c159-5e23-da9b-889f",
+          "name": "Space Marine",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "a543-32cb-3d74-9f6b",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "7c16-1429-b6d5-e6f1",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "cdb4-e266-8c8b-b51c",
+          "id": "f3c8-d21d-1cac-4307",
+          "name": "Space Marine Sergeant",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "a543-32cb-3d74-9f6b",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "7c16-1429-b6d5-e6f1",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ac82-04df-64bc-1551",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "44bd-403d-1931-3c70",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "6300-c955-2591-f6e1",
+              "type": 4,
+              "field": "selections",
+              "scope": "7c16-1429-b6d5-e6f1",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

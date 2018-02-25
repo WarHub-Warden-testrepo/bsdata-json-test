@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c7cc-8489-9297-087b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f2e3-eeca-7d36-32fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c3a1-da44-a31e-6bcf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7929-d01f-0af7-1dd5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5849-55f4-eae8-ed6e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "3351-f10f-976c-6377",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1ed2-8f7a-0e9a-0dcf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4a32-5b14-6ea7-baef",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "2028-f41f-a3e4-b10a",
+          "name": "Boltgun"
+        }
+      ],
+      "id": "a366-f8a7-a282-0f13",
+      "name": "Space Marine",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "e220-7ebf-8a1d-52a0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Fabius Bile",
+    "prevIdentifier": "Defiler"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 109.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "3a87-ca84-c18e-2a1d-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "3c5d-8486-8847-d77e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "7f7a-6e85-ef84-0b3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "280a-a7e4-f191-e356",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "12ae-e73f-96a1-e69c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a5ae-12d9-bae5-83ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "b4d1-0297-5575-7437",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ba09-4803-ad59-e553",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fc34-1640-08a7-f8d7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "1bae-a4e2-ef3e-d78c",
+          "name": "Warlord"
+        }
+      ],
+      "id": "3a87-ca84-c18e-2a1d",
+      "name": "Fabius Bile",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "8238-1cde-01e9-ca9f",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "07a0-ed58-d05e-9ff0",
+          "id": "9114-562f-e2d5-9afe",
+          "name": "Lord of Terror",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3a87-ca84-c18e-2a1d",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

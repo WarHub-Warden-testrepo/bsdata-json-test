@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Chaos Vindicator",
+    "prevIdentifier": "Chaos Terminators"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "a236-231b-1b4e-6cc2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "cce7-4f96-56e1-4d72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "2c76-2043-c4ae-72ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "1c9f-aeb4-804b-b65b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "be04-b383-a80d-89a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "bd63-de45-285c-c00a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f668-0ff7-69d5-be65",
+          "id": "38bf-d9ed-920c-c9cc",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "5383-9a88-9883-e144",
+          "id": "8a77-1956-c989-1a24",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0dda-b65d-4b9a-bd35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eeaf-2f37-9908-8e1b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a8f6-49e7-ea35-aca5",
+          "id": "8f66-4a32-b0e4-c15e",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "8f75-3cad-40a1-f519",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5f6a-5432-b9a3-cc77",
+      "name": "Chaos Vindicator",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "ba49-f4e3-1c2d-e149",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

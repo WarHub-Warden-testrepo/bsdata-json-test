@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Celestian w/ Special or Heavy Weapon",
+    "prevIdentifier": "Celestian w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1760-fc69-6253-b7eb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "08ae-68fb-f005-dfe8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6549-7742-f25e-1540",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "a8c4-fe64-0a0b-5f22",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "beb9-34bd-ed32-bc97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "88c2-c5e4-655d-e115",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "c0b3-989e-746d-39c8",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "df6b-cd61-d748-28cd",
+      "name": "Celestian w/ Special or Heavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "75e7-bff4-c3d4-40b3",
+          "id": "5b96-caa6-8297-a5d0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

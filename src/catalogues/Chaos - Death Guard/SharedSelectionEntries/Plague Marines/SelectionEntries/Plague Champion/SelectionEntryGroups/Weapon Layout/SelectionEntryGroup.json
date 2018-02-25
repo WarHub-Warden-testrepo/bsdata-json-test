@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Weapon Layout"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "541b-3ed5-517a-6fee",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "714f-98c4-946c-5cd5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d171-305f-d172-718c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "97ae-ed2b-039e-2c75",
+          "name": "Power fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        }
+      ],
+      "id": "321a-4861-b962-ef78",
+      "name": "Weapon Layout"
+    }
+  ]
+}

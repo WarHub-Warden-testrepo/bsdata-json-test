@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "identifier": "Questoris Knight Styrix",
+    "prevIdentifier": "Questoris Knight Magaera"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 340.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "46f5-2d8b-4c44-b9b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "46ec-ab61-4b5c-89a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "fe30-a132-f0d9-3b3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "114f-100f-67a5-0676",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "9e25-2366-3604-528e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "916b-92e4-0c83-017d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9f65-ccb2-b5aa-8b77",
+          "id": "b609-7d0b-19b8-230a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8034-a792-9d30-8dfc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2cd1-309b-371b-3b62",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "4baa-b963-7591-afcb",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b33e-4973-bded-572d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "acbd-57bb-0a75-10f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5c34-c214-e013-7aa0",
+          "id": "bf1b-2954-973f-4ee6",
+          "name": "Volkite chieorovile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0df1-259d-e8a1-ba39",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f18-5d11-2aff-eba1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8c02-46ac-69ff-168d",
+          "id": "3186-5103-4241-2a90",
+          "name": "Graviton crusher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "912a-9250-868d-f895",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "a032-9f24-2e07-8168",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6f73-a8b4-5d5e-0b24",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "0c99-7cd5-9c6c-793f",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "5330-5e58-e92d-ad22",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "392e-892e-7b42-b108",
+      "name": "Questoris Knight Styrix",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "101",
+      "infoLinks": [
+        {
+          "targetId": "4348-dce6-02a6-b6e5",
+          "id": "4548-c1d3-28f5-0385",
+          "name": "Questoris Knight Styrix"
+        },
+        {
+          "targetId": "c2ec-9728-e39b-11df",
+          "id": "9cd3-6af9-cca3-4d1b",
+          "name": "Ionic Flare Shield"
+        },
+        {
+          "targetId": "77eb-2a36-2c78-02d7",
+          "id": "de98-37a6-dc33-7545",
+          "name": "Explodes (Unstable Reactor)"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "2609-a9c1-1304-0f22",
+          "name": "Knight Titan"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "b3e3-3596-e26f-44e9",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "3db7-ad30-051c-f1c6",
+          "id": "f4d4-76c5-ecf2-9196",
+          "name": "Empyreal Preysight"
+        }
+      ]
+    }
+  ]
+}

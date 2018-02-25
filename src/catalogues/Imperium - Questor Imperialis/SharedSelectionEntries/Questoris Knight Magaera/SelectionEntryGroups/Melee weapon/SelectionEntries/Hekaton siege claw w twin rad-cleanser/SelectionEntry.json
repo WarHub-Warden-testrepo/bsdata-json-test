@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Hekaton siege claw w/ twin rad-cleanser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9bc0-2af0-848d-6c16",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7e5d-aab6-df42-5f65",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4fa4-7232-cab6-bef8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee03-dc51-f812-8ed6",
+          "id": "9f53-4bc2-c8fb-c75e",
+          "name": "Hekaton siege claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4b1f-76b2-2a50-9e8c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e464-82ec-fd77-6bf0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b8b9-b2cf-24e6-6d07",
+          "id": "affc-a9df-f731-beae",
+          "name": "Twin rad-cleanser"
+        }
+      ],
+      "id": "f4d0-e4e6-47b3-a2f4",
+      "name": "Hekaton siege claw w/ twin rad-cleanser"
+    }
+  ]
+}

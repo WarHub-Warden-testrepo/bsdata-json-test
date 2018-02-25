@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Missile Launcher",
+    "prevIdentifier": "Mining Laser"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "eb20-7e8b-4806-b84e",
+      "name": "Missile Launcher",
+      "infoLinks": [
+        {
+          "targetId": "603d-3e82-38f6-c5c3",
+          "id": "87de-da36-7a82-6702",
+          "name": "Missile launcher, Frag missile",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Missile Launcher (Frag)"
+            }
+          ]
+        },
+        {
+          "targetId": "8161-3b0e-8048-0e83",
+          "id": "8db8-f20e-66e2-15b2",
+          "name": "Missile launcher, Krak missile",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Missile Launcher (Krak)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

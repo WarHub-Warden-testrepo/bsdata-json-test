@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Slaanesh",
+    "prevIdentifier": "Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "74b5-2f50-0a72-fcf1",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "1b0e-2b17-c2d0-0fba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "b561-76ff-2ea7-f70e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "06cf-530f-30fe-3a59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "1da2-76db-f76f-6b6c",
+              "id": "77ad-3527-c193-0692",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "c941-0e39-9a77-2f33",
+          "name": "Dark Hereticus discipline"
+        }
+      ],
+      "id": "92f4-301a-05c2-2199",
+      "name": "Slaanesh",
+      "modifiers": [
+        {
+          "field": "74b5-2f50-0a72-fcf1",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "51f6-1db1-3e75-3d4b",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

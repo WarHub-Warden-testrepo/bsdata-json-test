@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7365-c0bd-b50c-6a13",
+      "constraints": [
+        {
+          "id": "8a3e-10c9-f53a-a147",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "bf4e-2139-c775-07c9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "7365-c0bd-b50c-6a13",
+          "name": "Heavy bolter"
+        },
+        {
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "836f-86c4-261b-8f7d",
+          "name": "Multi-melta"
+        }
+      ],
+      "id": "371d-bc94-8b7e-b59a",
+      "name": "Weapon Options"
+    }
+  ]
+}

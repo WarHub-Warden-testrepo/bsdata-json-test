@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Bolt rifles",
+    "prevIdentifier": "Auto Bolt Rifles"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5002-79fe-3f4f-0dc2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ff48-1904-5a68-b64b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4fb0-04d7-369f-e1ae",
+          "id": "abae-1d47-294f-6cba",
+          "name": "Bolt rifle"
+        }
+      ],
+      "id": "7951-0a2c-b70e-7f3e",
+      "name": "Bolt rifles"
+    }
+  ]
+}

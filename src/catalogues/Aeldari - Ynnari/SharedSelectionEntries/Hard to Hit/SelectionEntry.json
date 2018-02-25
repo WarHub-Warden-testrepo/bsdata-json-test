@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Hard to Hit",
+    "prevIdentifier": "Airborne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5f58-234e-e248-7080",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "de75-b67d-3bf8-d013",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2ab7-98b2-8f06-70fb",
+      "name": "Hard to Hit",
+      "infoLinks": [
+        {
+          "targetId": "f3e9-9fac-9428-54e1",
+          "id": "105a-45bc-228b-458d",
+          "name": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Ranged weapon - 2",
+    "prevIdentifier": "Ranged weapon - 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "02d7-d8ff-2043-7cd7",
+      "constraints": [
+        {
+          "id": "5b86-a625-d7de-02c4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8427-da08-bb8b-f37f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c8b3-4a08-5727-40e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "02d7-d8ff-2043-7cd7",
+          "name": "Meltagun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4efd-8383-734c-c19b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "1d18-2fac-a690-cf91",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "2466-01c8-6f0e-5238",
+      "name": "Ranged weapon"
+    }
+  ]
+}

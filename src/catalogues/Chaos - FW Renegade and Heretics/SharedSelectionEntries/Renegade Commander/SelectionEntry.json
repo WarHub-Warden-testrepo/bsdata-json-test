@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Renegade Commander",
+    "prevIdentifier": "Earthshaker Battery"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1b6f-d9cb-ffdb-bd64",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f02-053b-52a2-c737",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "904f-0d59-c274-e1ff",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "cda3-d266-53b8-4d6c",
+      "name": "Renegade Commander",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "0a0c-7b1e-5fb5-8bd0",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "576d-b2b0-efa8-a1ae",
+          "id": "4cfb-5fd4-a42c-4df1",
+          "name": "Fanatic"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "d072-e6e8-ecf7-5705",
+          "name": "Chaos Covenant"
+        }
+      ]
+    }
+  ]
+}

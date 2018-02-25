@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Chainsword"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a794-b3bc-4e29-9d4e",
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "029c-5272-8c31-0642",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de76-80c5-81db-c463",
+          "id": "a794-b3bc-4e29-9d4e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad00-0786-8c27-1a26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "0ca1-8ae4-de15-1fbd",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "67cc-78f2-ee9f-c9da",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ba8d-691a-6178-1a60",
+          "id": "8c42-7ceb-6968-c889",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "829c-f620-bd31-ba60",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "398f-7507-a010-cd69",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6931-78c0-aad8-1c8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "659b-526e-cef5-18b7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "64a41946-c8c4-9450-f275-073feb3d1b12",
+      "name": "Chainsword"
+    }
+  ]
+}

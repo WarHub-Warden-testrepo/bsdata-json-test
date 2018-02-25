@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d397-f2ce-2d11-0fb8",
+      "constraints": [
+        {
+          "id": "a5f2-dd3f-c1a5-1766",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "0411-ee12-d539-39d5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "94b2-aca3-7831-2e65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "74f3-b9dd-08d9-a165",
+          "name": "Plasma pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e7fd-7a6b-e091-bd58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "5f5e-8ed7-36a3-7e0e",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "d39a-1f03-82ac-879c",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d477-13e7-e1a8-e6ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "2748-2639-16ac-fb05",
+          "name": "Boltgun"
+        }
+      ],
+      "id": "f25f-6c59-a472-d2e6",
+      "name": "Ranged Weapon"
+    }
+  ]
+}

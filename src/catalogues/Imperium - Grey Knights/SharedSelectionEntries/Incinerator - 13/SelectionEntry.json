@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Incinerator - 13",
+    "prevIdentifier": "Heavy Psycannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "c1cc-9709-9fcb-5bb7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "905c-f092-e033-7d39",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6650-9429-ac09-255d",
+      "name": "Incinerator",
+      "infoLinks": [
+        {
+          "targetId": "16b6-e15c-6301-dfee",
+          "id": "954f-a451-c28a-f5da",
+          "name": "Incinerator"
+        }
+      ]
+    }
+  ]
+}

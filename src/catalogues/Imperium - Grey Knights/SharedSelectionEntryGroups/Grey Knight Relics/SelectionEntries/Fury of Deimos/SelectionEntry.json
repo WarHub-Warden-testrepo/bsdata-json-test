@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Fury of Deimos",
+    "prevIdentifier": "Domina Liber Demonica"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3897-5e87-414d-39ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c14e-5c9e-4eaf-1abd",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "c6d1-b723-c2d0-9ecb",
+      "name": "Fury of Deimos",
+      "infoLinks": [
+        {
+          "targetId": "f64f-bd74-1c65-6a8e",
+          "id": "bc6c-76a0-ac5c-1759",
+          "name": "Fury of Deimos"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "0abf-b3fb-43c9-08d2",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

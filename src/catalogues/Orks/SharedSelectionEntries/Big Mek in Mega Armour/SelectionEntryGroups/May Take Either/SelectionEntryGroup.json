@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "May Take Either",
+    "prevIdentifier": "KMB Arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "b24a-a64d-3bb9-3ead",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "102b-fecf-70fb-6dee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "886c-c494-3fbb-e1ec",
+          "id": "2c23-e80b-260a-0af2",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "58df-953c-a678-6d08",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b5a-eb2a-9f60-d11d",
+          "id": "b3e7-eeda-b441-175c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "739f-8937-bd1b-9af0",
+      "name": "May Take Either"
+    }
+  ]
+}

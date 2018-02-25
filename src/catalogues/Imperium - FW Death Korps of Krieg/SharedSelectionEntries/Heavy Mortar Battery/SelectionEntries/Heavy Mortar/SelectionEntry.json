@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Heavy Mortar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f152-4e0b-b700-b227",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "ab54-f52c-7252-d4fd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3e65-5be7-b500-514c",
+      "name": "Heavy Mortar",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "4983-6499-f9a6-2822",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "3fe6-0898-b98b-5a2b",
+          "id": "d11b-bce2-b3af-28dc",
+          "name": "Artillery"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "bf5d-a664-ca44-0733",
+          "name": "Artillery Battery"
+        }
+      ]
+    }
+  ]
+}

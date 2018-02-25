@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "identifier": "Death Korps Death Rider Squadron Commander",
+    "prevIdentifier": "Death Korps Field Officer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 38.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "d578-09e1-627a-003c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "d060-4005-9473-2c64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "6893-5dd8-7b3b-1cdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a56f-4b7c-5b7e-7cfa",
+          "id": "6a1c-c14c-1f8e-af50",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "aa92-4e98-0c96-5bf4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e492-77d5-9f2d-9a85",
+          "id": "7bac-7c3f-5c19-1125",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "15a5-dfd2-5825-06ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8bef-7d79-a05d-f9a3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b8d1-a6ab-396c-a7cc",
+          "id": "f548-d1f5-a906-55fd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "25e3-819b-762f-b83e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b85-8905-f0a5-27cf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "df3e-86b2-dcda-80d9",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f000-d088-afb6-a062",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "ae0c-edb3-9356-cc5b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2963-fc44-0c33-22cb",
+          "id": "2971-9ddb-2cec-940e",
+          "name": "Demolition Charge"
+        },
+        {
+          "targetId": "9379-7571-9a92-7998",
+          "id": "4412-63d0-8427-8649",
+          "name": "Death Korps Orders"
+        },
+        {
+          "constraints": [
+            {
+              "id": "274d-302c-8d47-1ad0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a6fd-ee5d-1fc3-4902",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d68-427b-eaa0-0b04",
+          "id": "61e6-f757-4983-3d46",
+          "name": "Krieg Steed"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "32d9-8e94-0453-46e7",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc64-8b24-6327-3390",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "3811-9a16-971b-4a49",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "e227-a053-df3c-5ebf",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "b26e-d656-a0a0-c56c",
+      "name": "Death Korps Death Rider Squadron Commander",
+      "infoLinks": [
+        {
+          "targetId": "3f80-6854-b4b4-b594",
+          "id": "1b7b-f91a-6673-3fed",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "e619-0135-8607-c686",
+          "name": "Cult of Sacrifice"
+        },
+        {
+          "targetId": "9a6d-4b71-af76-d004",
+          "id": "6a02-b8bd-6130-3fb7",
+          "name": "Augmented Mount"
+        },
+        {
+          "targetId": "23c0-ed20-f49f-7bcf",
+          "id": "a20c-58ea-08f1-5eb9",
+          "name": "Warstrider"
+        },
+        {
+          "targetId": "e742-ceb0-8827-7f62",
+          "id": "0309-da16-6690-c9e7",
+          "name": "Death Korps Death Rider Squadron Commander"
+        },
+        {
+          "targetId": "74b7-5b3f-ecda-f766",
+          "id": "07ef-fead-a1fa-f254",
+          "name": "Death Korps Voice of Command"
+        }
+      ]
+    }
+  ]
+}

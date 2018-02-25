@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon",
+    "prevIdentifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0542-c1ea-4c6b-5d63",
+      "constraints": [
+        {
+          "id": "a16a-7e00-66d4-60ef",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a89b-c479-42a1-7835",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd89-c084-45a0-3d73",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "0542-c1ea-4c6b-5d63",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9aaf-e642-dde3-e47f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "0878-8ac1-0e6a-f2c9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1625-2b25-db6d-010c",
+      "name": "Melee Weapon"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Transport bay exchange",
+    "prevIdentifier": "Main weapon system"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "79a0-454a-a916-fd68",
+      "constraints": [
+        {
+          "id": "5476-b717-483b-7ea3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cca6-9225-0aa5-e75b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "49e0-c927-d6a3-e8c9",
+          "id": "7d21-1d7c-f3c7-89d3",
+          "name": "2x Skyspear missile rack"
+        }
+      ],
+      "id": "2687-ad22-8ded-813b",
+      "name": "Transport bay exchange"
+    }
+  ]
+}

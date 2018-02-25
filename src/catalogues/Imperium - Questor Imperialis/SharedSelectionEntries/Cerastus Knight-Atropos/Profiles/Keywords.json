@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Keywords",
+    "prevIdentifier": "Cerastus Knight-Atropos 3"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "IMPERIUM, QUESTOR IMPERIALIS, <HOUSEHOLD>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "TITANIC, VEHICLE, CERASTUS KNIGHT-ATROPOS"
+        }
+      ],
+      "id": "4b50-d682-0c89-4b7d",
+      "name": "Keywords",
+      "modifiers": [
+        {
+          "type": 3,
+          "field": "ce6c-4765-4bb8-bd49",
+          "value": ", CHARACTER",
+          "conditions": [
+            {
+              "childId": "5973-c86d-b500-4a14",
+              "type": 2,
+              "field": "selections",
+              "scope": "bd69-2c59-df05-9954",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

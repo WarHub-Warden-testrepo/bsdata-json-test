@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Steersman Prime",
+    "prevIdentifier": "Catastrophic Collapse"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "190c-e060-18bf-2183",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "ec4c-6d4e-a200-4010",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "24a4-5194-c75c-086d",
+      "name": "Steersman Prime"
+    }
+  ]
+}

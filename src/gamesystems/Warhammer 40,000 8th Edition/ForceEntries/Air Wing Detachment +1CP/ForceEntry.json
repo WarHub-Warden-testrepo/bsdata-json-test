@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Air Wing Detachment +1CP",
+    "prevIdentifier": "Super-Heavy Detachment +3CP"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "e09e-267a-4f71-9e08",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "79cf-a0c0-267b-41b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "fc65-2978-7619-e375",
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "425c-179c-46b3-5ee8",
+          "name": "Flyer"
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "33b2-565d-d44c-99a7",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "b7e3-6a38-7bbe-c7d2",
+      "name": "Air Wing Detachment +1CP"
+    }
+  ]
+}

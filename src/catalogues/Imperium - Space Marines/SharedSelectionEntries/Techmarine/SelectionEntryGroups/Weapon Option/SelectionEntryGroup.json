@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Weapon Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "aa5a-2f81-31ef-7921",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8248-352c-2be9-5db8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3e72-1748-7b8b-c038",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "6a50-a422-a9d9-be75",
+          "name": "Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7067-ad98-6cab-c326",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "7ac7-3ab2-1edc-e1e1",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0f72-c5af-1438-02e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "f280-ab12-aa6e-268c",
+          "name": "Combi-Weapons"
+        }
+      ],
+      "id": "4b30-1068-46d4-922b",
+      "name": "Weapon Option"
+    }
+  ]
+}

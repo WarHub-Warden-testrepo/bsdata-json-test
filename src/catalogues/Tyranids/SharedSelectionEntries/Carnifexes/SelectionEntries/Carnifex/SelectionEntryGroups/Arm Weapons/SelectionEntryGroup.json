@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Arm Weapons",
+    "prevIdentifier": "Tail Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "ddc8-2bd6-560c-0f67",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "9d8c-40b8-33c6-7297",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f50b-bda8-ecff-c845",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "086e-c796-ac9a-a766",
+          "id": "8ce6-1125-1cbc-960e",
+          "name": "Monstrous Scything Talons"
+        },
+        {
+          "type": 1,
+          "targetId": "b4ba-418e-b4d8-e76b",
+          "id": "a0c5-e85b-d846-85b3",
+          "name": "Monstrous Bio-cannons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "58fa-e64e-e1af-7f5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e641-8fab-45bd-d886",
+          "id": "05ef-1cd1-3666-ca05",
+          "name": "Monstrous Crushing Claws"
+        }
+      ],
+      "id": "15d0-a1e4-5f68-4cb4",
+      "name": "Arm Weapons",
+      "modifiers": [
+        {
+          "field": "ddc8-2bd6-560c-0f67",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "47c8-9111-24e8-70f7",
+              "type": 2,
+              "field": "selections",
+              "scope": "ea64-43e5-1c8c-968c",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "9d8c-40b8-33c6-7297",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "47c8-9111-24e8-70f7",
+              "type": 2,
+              "field": "selections",
+              "scope": "ea64-43e5-1c8c-968c",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

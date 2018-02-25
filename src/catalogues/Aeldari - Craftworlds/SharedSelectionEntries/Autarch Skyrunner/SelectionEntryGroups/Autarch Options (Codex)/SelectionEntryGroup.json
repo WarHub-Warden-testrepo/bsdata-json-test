@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Autarch Options (Codex)",
+    "prevIdentifier": "Pistol Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7d9a-ba2c-15a0-85ce",
+      "constraints": [
+        {
+          "id": "cb40-fb74-3829-dff0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "c2d4-8e12-eb53-91ba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "783f-8258-19da-939c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4ca3-dabe-9811-e86f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "7d9a-ba2c-15a0-85ce",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "783f-8258-19da-939c",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "48f0-8873-677e-6bf9",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7a74-f56b-28ad-cd55",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "9faf-68f6-df10-e4ae",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7a74-f56b-28ad-cd55",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "5648-412c-e8b0-fdcd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7a74-f56b-28ad-cd55",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "4ca3-dabe-9811-e86f",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1967-bc3d-ac16-2a59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "84c2-cb59-3691-823f",
+          "id": "23ec-725b-095b-01ea",
+          "name": "Fusion Gun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4b90-b2ad-dbd9-4b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "74a1-2d9c-f3b5-52b2",
+          "id": "7d5e-a2d6-c8fd-759c",
+          "name": "Laser Lance"
+        }
+      ],
+      "id": "69bf-6ddd-9762-9bab",
+      "name": "Autarch Options (Codex)",
+      "modifiers": [
+        {
+          "field": "c2d4-8e12-eb53-91ba",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "fdda-d5ae-371b-0840",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7a74-f56b-28ad-cd55",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e74b-a6fd-a2f1-b3f4",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7a74-f56b-28ad-cd55",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

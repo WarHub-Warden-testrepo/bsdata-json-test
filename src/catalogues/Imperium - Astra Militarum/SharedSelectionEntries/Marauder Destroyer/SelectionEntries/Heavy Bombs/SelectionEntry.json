@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Heavy Bombs"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7db8-6a98-cc50-ee05",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9793-a05a-d6a0-1c27",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "eaec-b8ab-3940-c930",
+      "name": "Heavy Bombs"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Warp Talon Champion",
+    "prevIdentifier": "Warp Talon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4f17-64ec-08db-8108",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8f00-861c-f50a-03ed",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9891-264a-6374-4e86",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "98a0-b528-7814-f85d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e36-f3a7-81b4-07ac",
+          "id": "e561-7009-7689-3ebb",
+          "name": "Lightning Claw"
+        }
+      ],
+      "id": "7902-4a50-d0b7-531f",
+      "name": "Warp Talon Champion"
+    }
+  ]
+}

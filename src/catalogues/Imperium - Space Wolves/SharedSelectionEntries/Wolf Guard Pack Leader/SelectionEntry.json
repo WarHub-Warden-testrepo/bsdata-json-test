@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Pack Leader",
+    "prevIdentifier": "Chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6fd4-2497-820b-81a6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "86b8-9450-f35c-8821",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "af8a-bd90-411c-c8de",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3ae0-1c18-4466-d296",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "3271-0d41-552b-2b6e",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "6cbb-d550-669c-cedf",
+      "name": "Wolf Guard Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "c9c4-df59-e823-b50a",
+          "id": "fe24-df43-3652-b265",
+          "name": "Wolf Guard Pack Leader"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Renegade Knight Lancer",
+    "prevIdentifier": "Renegade Knight Acheron"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 420.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "8055-ee21-fe26-5c19",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1f0b-6283-78e6-01b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "b1b5-1ae7-890c-6673",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d2de-cbce-0dd1-4962",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2663-fe63-14ce-fd31",
+          "id": "45c7-00fb-a218-a310",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8f27-8e3c-867a-f449",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f7ff-ed26-8217-fa76",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "15ec-607f-8a15-9453",
+          "id": "e87f-309c-4eec-1a38",
+          "name": "Cerastus shock lance"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bf60-80f1-769a-d398",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2e42-904b-848e-9ed0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bf62-0525-c30f-35b7",
+          "id": "2cf5-5ce1-1c17-e4e9",
+          "name": "Shock blast"
+        }
+      ],
+      "id": "acfc-87f8-2dac-8c5d",
+      "name": "Renegade Knight Lancer",
+      "infoLinks": [
+        {
+          "targetId": "aacf-4749-0487-6949",
+          "id": "8056-0133-d7ac-1166",
+          "name": "Infernal Autosimulacra"
+        },
+        {
+          "targetId": "90be-819c-d4e7-d65a",
+          "id": "7684-4b7b-6ac4-7185",
+          "name": "Infernal Knight Titan"
+        },
+        {
+          "targetId": "6b5e-cf62-c355-ce4f",
+          "id": "d0fc-50e5-aed6-844b",
+          "name": "Ion Gauntlet Shield"
+        },
+        {
+          "targetId": "515b-18d5-06ec-62d7",
+          "id": "2461-6ff3-7e58-bf30",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "dbe5-515f-931f-99ae",
+          "id": "8ee9-8289-638b-6ff6",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Harridan",
+    "prevIdentifier": "Dimachaeron"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 740.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 32.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "344a-8187-8f19-53e4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "c816-fe03-43db-271e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "4f04-6b4f-b70c-69fd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "142b-39b0-4867-4550",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e87f-38ca-f919-0491",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "6787-1c40-5ebd-f977",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "ca60-843e-5502-bf0e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3484-94b8-97d5-ddf7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8ad9-b764-cdcc-e0b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "edbe-6b66-80b6-3a5f",
+          "id": "73c9-74f5-3914-5721",
+          "name": "Bio-cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f37f-5c71-5ee5-a607",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9e3b-5e32-a48b-fd67",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f906-1281-9e25-d59e",
+          "id": "aee9-e3c6-ad2b-dd26",
+          "name": "Massive Scything Talons",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "22"
+            }
+          ]
+        }
+      ],
+      "id": "d1cb-8964-788a-7e66",
+      "name": "Harridan"
+    }
+  ]
+}

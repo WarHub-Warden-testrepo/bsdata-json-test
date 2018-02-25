@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Drone Sentry Turret w/ 2x Fusion blaster",
+    "prevIdentifier": "Drone Sentry Turret w/ 2x Missile pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "beaf-6bdd-87ec-f560",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "333b-47f9-9e22-0517",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "268f-e261-0d29-5074",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a665-e79f-977e-37f7",
+          "id": "e624-6940-edc4-65c5",
+          "name": "Fusion blaster"
+        }
+      ],
+      "id": "31b7-7a3d-1a0b-888d",
+      "name": "Drone Sentry Turret w/ 2x Fusion blaster",
+      "infoLinks": [
+        {
+          "targetId": "cd30-4c13-3d5d-7a06",
+          "id": "ee62-e9b8-aadb-b6f2",
+          "name": "Drone Sentry Turret"
+        }
+      ]
+    }
+  ]
+}

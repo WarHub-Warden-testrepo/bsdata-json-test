@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a4fd-3771-7c93-845e",
+      "constraints": [
+        {
+          "id": "c184-60ac-1e44-2325",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "0e98-3fa2-6779-b46f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c3ef-bb1d-d8b8-1ecf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "05f1-c557-ee62-dc60",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8cac-a609-38ea-0da9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "6ebc-95be-a22f-b9b7",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5597-d7d1-7b3d-f133",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "9bb8-b615-ba5b-3ab7",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "5bbd-c79f-bcca-396a",
+      "name": "Weapon Options",
+      "modifiers": [
+        {
+          "field": "c184-60ac-1e44-2325",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "a4fd-3771-7c93-845e",
+              "type": 3,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "0e98-3fa2-6779-b46f",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a4fd-3771-7c93-845e",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

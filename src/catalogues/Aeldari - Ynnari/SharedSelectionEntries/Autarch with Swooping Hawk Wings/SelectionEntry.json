@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "identifier": "Autarch with Swooping Hawk Wings",
+    "prevIdentifier": "Autarch"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "5ef0-6eed-dba1-2ae5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "97b2-2578-6e38-63be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "e283-edea-e9d9-eb35",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f3a-0e93-5211-1a55",
+          "id": "53e2-735a-5297-f4ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8752-8e16-dd57-7726",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "5f25-7d2a-81e1-a48a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "beba-f0bf-6cd7-e718",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0674-7438-6a85-5fdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "a796-2f7a-b5cb-515a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "c8d2-04e5-9ca6-83ec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "8348-0a64-ff87-dac5",
+          "id": "22f5-3bbc-fdec-5869",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "18c0-c25c-bb83-14dd",
+          "id": "3c3c-1183-58e5-8d64",
+          "name": "Autarch Equipment (Index)"
+        },
+        {
+          "targetId": "d607-4875-b868-1932",
+          "id": "2aab-84be-e04b-c546",
+          "name": "Forceshield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b191-2368-f5f6-ec8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "86b0-d564-6081-a157",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "1db1-69a4-1cf9-eb26",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff12-c0ae-e70a-2740",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d037-48c5-928e-ce0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "3231-573e-8b05-5604",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "d037-48c5-928e-ce0e",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "22f5-3bbc-fdec-5869",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2989-8d08-72fc-9556",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c91c-f184-db77-d688",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "e23b-2e83-c863-02f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "9320-450f-7034-b817",
+          "id": "88d6-3c78-b9cc-9862",
+          "name": "Mandiblasters",
+          "modifiers": [
+            {
+              "field": "e23b-2e83-c863-02f1",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "3c3c-1183-58e5-8d64",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2989-8d08-72fc-9556",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "field": "c91c-f184-db77-d688",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "3c3c-1183-58e5-8d64",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2989-8d08-72fc-9556",
+                  "value": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7dbe-22de-8e72-9f2d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "bee8-8b49-9bc4-51bb",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "9d45-c208-5b86-32db",
+          "name": "Warlord Trait"
+        }
+      ],
+      "id": "2989-8d08-72fc-9556",
+      "name": "Autarch with Swooping Hawk Wings",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "f803-9d50-4ed5-0e1e",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

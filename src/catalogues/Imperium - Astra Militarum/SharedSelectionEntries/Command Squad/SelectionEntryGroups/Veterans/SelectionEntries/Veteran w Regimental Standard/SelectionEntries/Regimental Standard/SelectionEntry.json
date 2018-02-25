@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Regimental Standard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c6bc-4add-a1c3-0757",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9518-037a-26d8-88cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9ca0-a0b5-a5fc-88c0",
+      "name": "Regimental Standard"
+    }
+  ]
+}

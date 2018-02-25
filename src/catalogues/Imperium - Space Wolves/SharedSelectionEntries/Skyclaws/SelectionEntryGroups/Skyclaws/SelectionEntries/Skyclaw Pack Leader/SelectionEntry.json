@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Skyclaw Pack Leader",
+    "prevIdentifier": "Skyclaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "11db-f7b9-cc6e-4fd8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "52a6-d530-19d6-1617",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "28cd-c73b-48b8-bf95",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3d2d-8429-42dc-7d45",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "2cc0-5a0e-6cc2-396e",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7b94-8472-d8be-8dcf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "29b1-4810-22a7-df92",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6526-7fe0-debf-dde0",
+          "id": "b1e0-0819-93bd-17b1",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "62fa-7a71-a3f3-c8a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "823c-2924-89b3-72b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "2efc-c5bf-13a9-b52e",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "7ce0-21ba-8afd-8861",
+      "name": "Skyclaw Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "b40a-3d33-35d4-9d19",
+          "id": "e140-72fb-bebd-982d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

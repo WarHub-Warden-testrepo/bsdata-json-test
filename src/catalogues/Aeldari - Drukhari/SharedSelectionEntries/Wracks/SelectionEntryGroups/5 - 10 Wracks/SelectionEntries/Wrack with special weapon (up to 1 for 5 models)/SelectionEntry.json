@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Wrack with special weapon (up to 1 for 5 models)",
+    "prevIdentifier": "Acothyst"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5c3c-6c18-6db9-8aa2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "0b67-2ab9-712e-ff58",
+      "name": "Wrack with special weapon (up to 1 for 5 models)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "5c3c-6c18-6db9-8aa2",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "303b-f7c8-e1c0-f883",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "870e-ddec-7fd6-366a",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

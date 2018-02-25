@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Explodes",
+    "prevIdentifier": "Power Field"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5147-af5b-c70d-fc35",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0b44-1867-38d0-ecfe",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5deb-8e37-27ba-0f44",
+      "name": "Explodes"
+    }
+  ]
+}

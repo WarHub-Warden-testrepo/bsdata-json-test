@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "identifier": "Lord High Commander Carab Culln",
+    "prevIdentifier": "Lias Issodon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4fed-6cb8-ccd0-db8b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "d83b-9ff6-406b-2060",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8a42-4d12-4342-d375",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f392-e808-76c5-9510",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "01dc-22b3-b8c8-5705",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4b4c-bf26-6395-3b2c",
+          "id": "853e-c972-7e17-563d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "34e3-8c06-18a5-01f5",
+          "id": "a97b-d94a-0f8d-8823",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fcf-9239-bfb9-d89d",
+          "id": "c3fc-4485-fc1f-d2e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "dace-c24f-10d8-05dd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a477-b13e-37da-0eb7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0802-f85f-fb20-5f63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "12b5-139f-c304-31c5",
+          "id": "cef6-9e46-556c-3646",
+          "name": "Blade of the Scorpion"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8d4d-46bb-dba3-aac8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5f84-3ff3-20b4-a4a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2738-809d-644b-cdfc",
+          "id": "73c5-e83b-b3ae-ff89",
+          "name": "Judgement"
+        }
+      ],
+      "id": "a4f4-61b8-c186-661c",
+      "name": "Lord High Commander Carab Culln",
+      "book": "Imperial Armour Index: Forces of the Adeptus Astartes",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b2c1-6a01-01e6-926e",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "6e3d-32fb-fb16-a6ce",
+          "id": "3584-427c-cc7a-e7d6",
+          "name": "Chapter Master (Red Scorpions)"
+        },
+        {
+          "targetId": "588f-5e6f-ec33-e96e",
+          "id": "ef7d-267f-dd2f-49ee",
+          "name": "Iron Halo"
+        },
+        {
+          "targetId": "b53e-9b84-d1da-cebc",
+          "id": "1bbf-c11a-a163-e7aa",
+          "name": "Lord High Commander Carab Culln"
+        },
+        {
+          "targetId": "ddf2-4f55-c7b0-c210",
+          "id": "18dc-a675-d121-2873",
+          "name": "Teleport Strike"
+        },
+        {
+          "targetId": "44ff-bb4a-fe0d-3bf5",
+          "id": "48b6-09ad-b4d1-9849",
+          "name": "Proud to Live, Proud to Die, Hard to Kill"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "4fed-6cb8-ccd0-db8b",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "7e7e-7604-a530-e270",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

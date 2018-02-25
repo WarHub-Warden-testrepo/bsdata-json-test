@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3719-fdbb-1f6a-ac20",
+      "constraints": [
+        {
+          "id": "c83f-6132-cd02-8237",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a5ad-4e94-586b-6e68",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "29ac-bf94-18ed-924e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f42a-6af7-6b1a-b785",
+          "id": "3719-fdbb-1f6a-ac20",
+          "name": "Leviathan siege claw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "32.5",
+              "conditions": [
+                {
+                  "childId": "f42a-6af7-6b1a-b785",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc90-c3a7-95cb-26ea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5cb0-d46c-5811-3dec",
+          "id": "8151-3078-8402-88ae",
+          "name": "Leviathan siege drill",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "37.5",
+              "conditions": [
+                {
+                  "childId": "5cb0-d46c-5811-3dec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "0387-041c-22a9-0554",
+      "name": "Melee weapon"
+    }
+  ]
+}

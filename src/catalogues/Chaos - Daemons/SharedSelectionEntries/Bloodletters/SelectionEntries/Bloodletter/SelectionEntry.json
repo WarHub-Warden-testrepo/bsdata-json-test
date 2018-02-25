@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Bloodletter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8123-6581-5244-69f4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 29.0
+        },
+        {
+          "id": "6abe-9d8b-e7fb-0908",
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3949-43e2-bc64-9abd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7b04-9411-f2ee-6f1a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da4e-cb71-d1a5-a070",
+          "id": "4b76-e196-40a0-ae31",
+          "name": "Hellblade"
+        }
+      ],
+      "id": "f433-dd3b-1c98-e863",
+      "name": "Bloodletter",
+      "infoLinks": [
+        {
+          "targetId": "d22a-01e2-fc02-fc92",
+          "id": "1335-c048-8487-4020",
+          "name": "Bloodletter"
+        }
+      ]
+    }
+  ]
+}

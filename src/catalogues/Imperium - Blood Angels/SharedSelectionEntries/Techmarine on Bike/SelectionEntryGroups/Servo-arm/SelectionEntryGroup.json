@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Servo-arm",
+    "prevIdentifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "574d-7e1b-a2a6-e75e",
+      "constraints": [
+        {
+          "id": "14e0-0be1-f40b-bc28",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "978f-24d9-5d14-ded4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8259-9427-b426-119f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "574d-7e1b-a2a6-e75e",
+          "name": "Servo-arm"
+        },
+        {
+          "constraints": [
+            {
+              "id": "203d-ff03-f632-8c39",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fbb1-9dd6-aefc-eba2",
+          "id": "4349-36e6-dbfe-a421",
+          "name": "Conversion beamer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "859a-100b-1995-f1e3",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "fb21-53a2-41de-7427",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c0ec-f482-89c6-8f01",
+      "name": "Servo-arm"
+    }
+  ]
+}

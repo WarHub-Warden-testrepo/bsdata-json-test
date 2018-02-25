@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Scout Sergeant",
+    "prevIdentifier": "Scout"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2843-1154-a0b1-e87f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "88f7-6084-b766-7277",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e612-fc3c-fb59-d4f7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e0df-0e01-4e07-fdec",
+          "id": "7283-3642-1e63-5831",
+          "name": "Camo cloak"
+        },
+        {
+          "constraints": [
+            {
+              "id": "89e0-1983-524c-e821",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "618a-fc26-3eb8-e908",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fd45-4c81-5ba4-82ce",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "bed6-87e9-e5ab-94db",
+      "name": "Scout Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "4027-0e2a-945a-4be9",
+          "id": "5f59-4174-8853-24fa",
+          "name": "Scout Sergeant"
+        }
+      ]
+    }
+  ]
+}

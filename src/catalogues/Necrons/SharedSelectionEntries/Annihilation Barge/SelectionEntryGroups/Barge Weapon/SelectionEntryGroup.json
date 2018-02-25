@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Barge Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6eef-832c-ccfd-b93f",
+      "constraints": [
+        {
+          "id": "8e79-2a33-45d8-da0d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "71c4-4b99-d0ed-ec40",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "59ff-ea84-331f-52e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0036-fd1e-3569-514b",
+          "id": "6eef-832c-ccfd-b93f",
+          "name": "Gauss Cannon",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5a90-da41-2ef2-ac95",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ccbb-dfbb-6c04-0d6d",
+          "id": "48e1-c678-5efa-aea4",
+          "name": "Tesla Cannon",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "e687-2553-affe-6d8f",
+      "name": "Barge Weapon",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

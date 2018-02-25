@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "identifier": "Captain Sicarius",
+    "prevIdentifier": "Roboute Guilliman"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 132.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "198a-de38-868f-c6d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8352-7f67-7e2b-3b4f",
+          "id": "98f3-27a0-6742-4dad",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "0abc-5a2d-9455-8c53",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "08ef-27af-813d-ca9e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "cd99-28b0-ef8a-d333",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "659a-0f00-9bcb-dd4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3067-43eb-8d29-283d",
+          "id": "4a9f-71ff-b23a-f6c9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "55fa-eac5-ce53-3515",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6df4-751f-3bf1-d2fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9217-30be-24c1-d53b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7b7a-21fe-dd0a-e98c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3641-0eaf-32c1-120f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "c04b-e61f-8552-2530",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "6a58-b322-a32c-7b29",
+      "name": "Captain Sicarius",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "65b2-6307-fb28-bf55",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "37ad-1f0c-999b-3e74",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

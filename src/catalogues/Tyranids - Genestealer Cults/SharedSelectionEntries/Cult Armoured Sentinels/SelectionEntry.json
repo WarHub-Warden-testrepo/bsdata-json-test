@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Cult Armoured Sentinels",
+    "prevIdentifier": "Acolyte Iconward"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "43f9-582e-edb0-3ed9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "076a-cfc8-b9b6-b5f4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "38dd-591d-64cb-a651",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c480-cfa4-2a2f-0e06",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "3b08-a032-7b88-2116",
+      "name": "Cult Armoured Sentinels",
+      "infoLinks": [
+        {
+          "targetId": "9420-2013-27d9-c8cd",
+          "id": "d45b-3ba4-01f6-defd",
+          "name": "Explodes (Sentinel)"
+        },
+        {
+          "targetId": "eb65-363e-41a8-5cf5",
+          "id": "14fc-d93d-69c3-b11a",
+          "name": "Smoke Launchers"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "3b08-a032-7b88-2116",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "3b08-a032-7b88-2116",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

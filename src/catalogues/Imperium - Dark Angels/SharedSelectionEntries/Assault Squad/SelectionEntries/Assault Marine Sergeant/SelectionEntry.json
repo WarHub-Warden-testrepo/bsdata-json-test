@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Assault Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3764-bb89-9f74-0fe4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "dffe-112d-2201-23e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f4d2-bb86-2ce2-a2aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "7d43-8bfa-77ee-3a5c",
+          "name": "Melta bombs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5205-daaa-e615-fd3c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ae16-549b-f261-97e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "389f-ec2d-dd90-5a2f",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3814-3ff9-ab56-bb90",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "f020-6907-6820-583a",
+          "name": "Eviscerator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "32ce-8311-931a-96d4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2792-c0fb-d72e-cee4",
+          "id": "92e1-980c-692f-62f1",
+          "name": "Combat shield"
+        }
+      ],
+      "id": "e2fc-9f71-080c-7a15",
+      "name": "Assault Marine Sergeant"
+    }
+  ]
+}

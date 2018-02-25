@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Standard of the Emperor Ascendant",
+    "prevIdentifier": "Thunder hammer - 146"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5232-dbf3-192b-ed2d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "3f3e-7a76-d708-ccaf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5115-f430-35c4-4a67",
+      "name": "Standard of the Emperor Ascendant"
+    }
+  ]
+}

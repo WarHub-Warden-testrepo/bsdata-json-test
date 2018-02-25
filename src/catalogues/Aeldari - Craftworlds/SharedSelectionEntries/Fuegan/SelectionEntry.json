@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "identifier": "Fuegan",
+    "prevIdentifier": "Karandras"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "17a0-0b1f-2dad-601a",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "8f81-e1b6-746b-d278",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "ca86-c2ec-8b56-e626",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "ab17-ed9a-e3ca-b779",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ef8c-4cc9-25d9-008a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ab05-1be9-a584-5fd9",
+          "id": "39e1-e753-8199-109a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "17f7-cae4-b75f-31cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bbe7-3d24-de61-0ee1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "27be-4880-01b6-ace5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9858-16f4-1edb-922a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0c47-de6d-ed9b-9a90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e729-cfce-c61e-de3d",
+          "id": "26a8-a3d1-6524-f333",
+          "name": "Firepike",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "42d9-2455-ab45-7c17",
+          "id": "0025-bd25-4fc3-cf51",
+          "name": "Melta Bombs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0510-ba02-59ff-8b14",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "979d-6811-ee7b-9f4c",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e51b-b036-ec1d-6e5d",
+      "name": "Fuegan",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "0252-d111-2f08-3213",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "1234-c2d8-0bfe-a8a7",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

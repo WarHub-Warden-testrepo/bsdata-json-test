@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "War Walker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fd19-539c-4033-29c5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "48b7-6beb-75fe-0f45",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ef7a-8a1d-429d-a4a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "8b46-dca8-eb5d-42e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "42af-99f9-c055-1320",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d163-e46d-c26b-999c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "1dae-73ab-8b0a-caa6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "ff93-e4d2-f8e5-aa43",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "4690-9288-bbc9-6652",
+      "name": "War Walker"
+    }
+  ]
+}

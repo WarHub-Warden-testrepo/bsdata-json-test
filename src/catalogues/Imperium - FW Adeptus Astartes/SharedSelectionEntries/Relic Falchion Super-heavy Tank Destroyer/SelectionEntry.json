@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "identifier": "Relic Falchion Super-heavy Tank Destroyer",
+    "prevIdentifier": "Relic Fellblade Super-heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 40.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 840.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0ffe-c62e-b282-fd0b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1cf1-c764-8257-43f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c64a-a96c-6945-fa16",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "e3d8-7dba-7be4-75f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "b629-0539-4a40-bf05",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8147-1e06-a830-889e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "d58a-f3b8-a7c7-5f41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "370c-a449-6325-0fad",
+          "id": "5cfe-cbd4-1912-d7bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3216-79af-660b-7711",
+          "id": "620d-8805-ce42-062c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "703a-3f93-a705-1345",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "67a6-8466-cad5-7c90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5af3-1623-2fe5-f011",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f7d-ca3a-ce3b-b714",
+          "id": "ca7b-d7ac-451c-dc97",
+          "name": "Crushing tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "72c6-29a2-db80-9a60",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "15c4-7f4b-e09d-6ec9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "29c0-8c93-b4db-db83",
+          "id": "5029-c312-2e67-cfb2",
+          "name": "Twin volcano cannon"
+        }
+      ],
+      "id": "29dc-03dd-48c0-b827",
+      "name": "Relic Falchion Super-heavy Tank Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "d078-51d7-4c63-8b83",
+          "id": "3b22-26d1-3059-6196",
+          "name": "Relic Falchion"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "a828-291b-50eb-b8ef",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "b6ad-659b-8b29-d0b1",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "2fe7-c29a-da8a-ab83",
+          "id": "8cd2-21f5-f6f7-2e19",
+          "name": "Steel Behemoth"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "5488-bcfc-6d44-600a",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "0ffe-c62e-b282-fd0b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "0ffe-c62e-b282-fd0b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "0ffe-c62e-b282-fd0b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c888f08a-6cea-4a01-8126-d374a9231554",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "0ffe-c62e-b282-fd0b",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

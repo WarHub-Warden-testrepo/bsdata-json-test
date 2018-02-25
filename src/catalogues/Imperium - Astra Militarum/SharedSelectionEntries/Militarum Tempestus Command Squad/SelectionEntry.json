@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Militarum Tempestus Command Squad",
+    "prevIdentifier": "Militarum Tempestus Scions"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d129-69ea-ec8d-cf7b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "218e-c8a1-cea3-8377",
+          "id": "8730-ec5b-0338-3d43",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a230-1987-e221-0e09",
+      "name": "Militarum Tempestus Command Squad",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "0a6c-a8e0-8fd8-b3f0",
+          "id": "c1d9-ae74-3430-e15b",
+          "name": "Aerial Drop"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "d129-69ea-ec8d-cf7b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "247a-bbd1-f1b3-46c7",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

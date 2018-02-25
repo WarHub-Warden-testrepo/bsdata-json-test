@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Disciple with autogun",
+    "prevIdentifier": "Disciple with special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "16f8-5a50-9c94-cce6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "78ba-db83-dd0b-0b65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "1f3d-210f-c873-1843",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "a26b-a35b-4fbe-3659",
+      "name": "Disciple with autogun"
+    }
+  ]
+}

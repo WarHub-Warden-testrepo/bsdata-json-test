@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Marauder)",
+    "prevIdentifier": "Valdor Tank Hunter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e83b-22dc-6f0f-2587",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9251-3e86-a689-164f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6f8d-582d-9e5c-0508",
+      "name": "Stat Damage (Marauder)"
+    }
+  ]
+}

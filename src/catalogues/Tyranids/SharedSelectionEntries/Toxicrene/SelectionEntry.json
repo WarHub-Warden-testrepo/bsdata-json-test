@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Toxicrene",
+    "prevIdentifier": "Tervigon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 157.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "780c-d66e-e817-2404",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "3621-544a-836a-d102",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3c7d-a9ae-00de-1265",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "ae33-e8b1-92c7-33d7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "77b1-0c28-acfd-ad78",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "24f1-1d8b-f5be-5f4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7384-6f13-08f3-7802",
+          "id": "bd4a-2eb1-2e97-5939",
+          "name": "Chocking Spores"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a691-570e-8ddd-a6ec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "02e9-9257-f9b9-2b04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7dac-01e5-386c-ede6",
+          "id": "7dd4-a66a-f61e-6ae5",
+          "name": "Massive Toxic Lashes"
+        }
+      ],
+      "id": "cdd9-7d89-df58-3760",
+      "name": "Toxicrene",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "a368-c19b-7091-bdff",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "670f-98e3-1222-900d",
+          "id": "bea2-9e3e-3a1e-4f3c",
+          "name": "Acid Blood",
+          "page": ""
+        }
+      ]
+    }
+  ]
+}

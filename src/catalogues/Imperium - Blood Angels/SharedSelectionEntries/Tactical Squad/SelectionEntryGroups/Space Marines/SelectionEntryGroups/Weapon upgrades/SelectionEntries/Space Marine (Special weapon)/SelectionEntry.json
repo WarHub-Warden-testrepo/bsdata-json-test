@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Special weapon)",
+    "prevIdentifier": "Space Marine (Heavy weapon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "85db-c2d1-e0dc-5f97",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "03dc-1ab0-bad7-3a4c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e735-6b40-081c-39c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f3f6-7f72-c0ca-268d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "90e7-7bf5-c5af-355a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d342-f19c-5400-d671",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "ef58-3c21-690c-b02d",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b830-02f8-4c16-5d59",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cb25-c489-92b4-6c93",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "059d-f32b-23bb-70ab",
+          "id": "cae3-ca46-55b1-69f8",
+          "name": ""
+        }
+      ],
+      "id": "d9ac-14e7-af40-03d5",
+      "name": "Space Marine (Special weapon)",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "c2ac-badc-e44a-a1f5",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

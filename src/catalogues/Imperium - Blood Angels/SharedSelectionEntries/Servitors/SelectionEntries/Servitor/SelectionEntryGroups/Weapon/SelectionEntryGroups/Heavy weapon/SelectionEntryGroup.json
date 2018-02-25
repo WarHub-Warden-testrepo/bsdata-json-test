@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Heavy weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f52e-7f09-d8d6-ae1f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4775-ee96-337b-913d",
+          "type": 1,
+          "field": "selections",
+          "scope": "9908-dedd-1373-5b4e",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7696-ab82-9c25-f4ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "5e0f-37cc-f86f-125b",
+          "name": "Heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bbe4-5fab-6b46-0be3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb15-db61-5d4f-b65e",
+          "id": "45e7-fb8b-7141-551c",
+          "name": "Plasma cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "90af-ab29-5069-f8df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "f794-920f-ea7f-ea6d",
+          "name": "Multi-melta"
+        }
+      ],
+      "id": "5f67-eddf-e0de-4a05",
+      "name": "Heavy weapon"
+    }
+  ]
+}

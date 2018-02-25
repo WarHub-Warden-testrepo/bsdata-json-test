@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Manticore",
+    "prevIdentifier": "Militarum Tempestus Command Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4fa4-13ea-2584-0636",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fb7c-afa0-4ead-7039",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "e6f6-35b2-427f-f88e",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "62f8-05ca-229f-ba32",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "cf37-82ee-b39e-a591",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "f602-a233-1b95-5d6c",
+      "name": "Manticore",
+      "book": "Codex: Astra Militarum",
+      "page": "52",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "3546-fa10-9ac7-12ea",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "55c0-362f-1adb-2f41",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

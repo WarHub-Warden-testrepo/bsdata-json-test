@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Disciple"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b899-1547-8595-5dc1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "48c3-c089-c1f5-fe48",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "6739-92ce-8dee-e27b",
+      "name": "Disciple"
+    }
+  ]
+}

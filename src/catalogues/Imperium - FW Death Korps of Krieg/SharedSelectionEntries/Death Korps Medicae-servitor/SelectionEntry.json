@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Death Korps Medicae-servitor",
+    "prevIdentifier": "Medi-pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f579-3dc7-ec37-261a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "306a-737d-866b-736d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "41b5-d22d-8dbd-f798",
+          "id": "d13f-b666-3335-9b8a",
+          "name": "Medical Scalpels"
+        }
+      ],
+      "id": "947b-0a9f-6164-5898",
+      "name": "Death Korps Medicae-servitor",
+      "infoLinks": [
+        {
+          "targetId": "8045-8674-ce51-ec96",
+          "id": "40eb-9e34-d5f5-882d",
+          "name": "Death Korps Medicae-servitor"
+        }
+      ]
+    }
+  ]
+}

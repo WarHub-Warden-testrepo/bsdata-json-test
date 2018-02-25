@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Chainsword Options",
+    "prevIdentifier": "Shuriken Pistol Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7a17-351b-1465-48d8",
+      "constraints": [
+        {
+          "id": "94ff-b6a6-690d-834c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a5b2-8f66-6327-a982",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "17cf-980a-07b8-a3ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7be9-5ef2-05ac-fb47",
+          "id": "7a17-351b-1465-48d8",
+          "name": "Scorpion Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "77f1-09be-7544-5ceb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88e7-7c4d-f902-5c75",
+          "id": "735d-2d18-f223-0137",
+          "name": "Biting Blade"
+        }
+      ],
+      "id": "f98f-5112-d515-7206",
+      "name": "Chainsword Options",
+      "modifiers": [
+        {
+          "field": "94ff-b6a6-690d-834c",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c0b6-b4d9-ff40-d4d0",
+              "type": 2,
+              "field": "selections",
+              "scope": "477c-04b0-ab2b-2119",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "a5b2-8f66-6327-a982",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "c0b6-b4d9-ff40-d4d0",
+              "type": 2,
+              "field": "selections",
+              "scope": "477c-04b0-ab2b-2119",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

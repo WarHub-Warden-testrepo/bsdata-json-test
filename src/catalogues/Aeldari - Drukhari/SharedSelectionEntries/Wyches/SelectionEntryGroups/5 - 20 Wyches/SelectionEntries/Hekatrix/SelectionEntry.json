@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Hekatrix",
+    "prevIdentifier": "Wych with Wych Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bfae-c959-90b6-047a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "a62f-628a-f378-53d3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "4448-243b-2379-2c73",
+          "id": "fad5-2e24-a544-daa6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "de3d-b460-7c1b-67b3",
+      "name": "Hekatrix"
+    }
+  ]
+}

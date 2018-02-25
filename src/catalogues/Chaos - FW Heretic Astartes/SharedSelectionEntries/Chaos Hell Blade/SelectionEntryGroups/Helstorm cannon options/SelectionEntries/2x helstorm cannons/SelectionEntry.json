@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "2x helstorm cannons",
+    "prevIdentifier": "2x lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0cd4-0b8c-db5c-c3c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "01f0-3a32-6171-e938",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "6121-6041-4cca-0355",
+          "id": "193a-d55c-aadf-186d",
+          "name": "Helstorm cannon"
+        }
+      ],
+      "id": "93c9-e35a-594f-5e5f",
+      "name": "2x helstorm cannons"
+    }
+  ]
+}

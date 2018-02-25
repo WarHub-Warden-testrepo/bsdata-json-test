@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Purgator Justicar",
+    "prevIdentifier": "Purgator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6dba-720a-b265-38c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d270-913b-c19c-378e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "be91-e374-a5cf-85f9",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "2619-cbc9-7327-dc75",
+          "id": "9c01-c0a5-7c35-de48",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "64dc-131d-20be-6199",
+      "name": "Purgator Justicar"
+    }
+  ]
+}

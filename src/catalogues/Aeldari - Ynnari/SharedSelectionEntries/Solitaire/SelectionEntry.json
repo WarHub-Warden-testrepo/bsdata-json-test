@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Solitaire",
+    "prevIdentifier": "Troupe Master"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 94.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1021-466b-d5b4-991c",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "9891-8a67-c8a3-270e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "7802-c802-0b9b-f796",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9210-198e-2fbd-72a6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "92a1-6b13-c62d-c3a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d303-7830-358c-fe5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f045-08e5-967c-1179",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9708-812f-be6d-95bb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4a92-4e65-ea0f-f688",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "29c4-069f-247a-d22b",
+          "id": "5a9a-03c9-65f6-3287",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9fa4-cfe6-ecac-8ab0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "de9a-5267-6a06-bfab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4f51-c975-5042-dca4",
+          "id": "ad02-d473-5d03-cf1b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "57e1-479c-6d5c-00b3",
+      "name": "Solitaire",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "71",
+      "infoLinks": [
+        {
+          "targetId": "74fb-ab0a-0ef5-ce0d",
+          "id": "cd04-63e2-61a5-3913",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "abe8-7d0a-70a9-b2d4",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

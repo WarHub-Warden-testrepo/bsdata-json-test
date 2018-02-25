@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "cbe4-48aa-e2ac-28a4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "3c29-9214-8c36-6a95",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1850-d5a5-20ea-f409",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "8b95-ddb5-a312-f1ff",
+          "name": "Master-crafted boltgun",
+          "modifiers": [
+            {
+              "field": "1850-d5a5-20ea-f409",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "d0de-e8f8-9ce7-ec45",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "1092-1888-3e74-d90a",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    },
+                    {
+                      "childId": "2a96-6fbc-9a26-2cec",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "1092-1888-3e74-d90a",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ecf1-17d7-d141-0a25",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "2a96-6fbc-9a26-2cec",
+          "name": "Combi-Weapons",
+          "modifiers": [
+            {
+              "field": "ecf1-17d7-d141-0a25",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "d0de-e8f8-9ce7-ec45",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "1092-1888-3e74-d90a",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "30a3-d4be-3c09-ac53",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "d0de-e8f8-9ce7-ec45",
+          "name": "Pistols",
+          "modifiers": [
+            {
+              "field": "30a3-d4be-3c09-ac53",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "2a96-6fbc-9a26-2cec",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "1092-1888-3e74-d90a",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6da4-91fe-b843-e434",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "e597-edd2-6271-c795",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "ac7c-c917-7e1f-0d82",
+      "name": "Weapon Options"
+    }
+  ]
+}

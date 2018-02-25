@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged/Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bea9-7f15-eda5-c8b4",
+      "constraints": [
+        {
+          "id": "0190-1e50-f8be-80ee",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "953c-a10c-7f0b-13db",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8044-95ad-7190-b120",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "bea9-7f15-eda5-c8b4",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bafc-eb28-15c5-ecb3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "75ba-9af4-3503-7555",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e859-61ef-5317-1741",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "3d41-567e-6bbd-7b67",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4599-29f3-302f-8830",
+      "name": "Melee weapon"
+    }
+  ]
+}

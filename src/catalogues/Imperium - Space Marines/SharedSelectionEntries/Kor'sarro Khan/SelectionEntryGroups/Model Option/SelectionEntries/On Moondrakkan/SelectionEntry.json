@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "On Moondrakkan",
+    "prevIdentifier": "On Foot"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 132.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "91cf-98c5-7f5e-672f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "180c-26b6-3682-560c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "03d6-ed6d-82ba-ebca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "89f3-dd3e-8ac1-9c52",
+          "name": "Twin boltgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "15ba-06e6-7b7f-da9d",
+      "name": "On Moondrakkan",
+      "infoLinks": [
+        {
+          "targetId": "c027-2e84-7468-0607",
+          "id": "3de9-96d8-c5ad-7901",
+          "name": "Turbo-boost"
+        }
+      ]
+    }
+  ]
+}

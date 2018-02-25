@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Warbiker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 27.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2034-f11d-94a0-2015",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 12.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "757e-1356-3f3c-ecda",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cdaf-780d-564f-5e11",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "80d0-8208-a624-9215",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c025-0c89-05db-fccb",
+          "id": "dc38-afcd-0db5-f191",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "206e-22b8-3799-cf9c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f8d-7f3b-5258-a6cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "1731-8d07-0703-8285",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ad79-481a-c2af-e402",
+      "name": "Warbiker"
+    }
+  ]
+}

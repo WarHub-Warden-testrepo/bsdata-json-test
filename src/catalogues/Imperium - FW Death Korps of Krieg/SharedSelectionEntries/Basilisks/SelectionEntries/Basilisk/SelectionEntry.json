@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Basilisk"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "548e-154a-4062-2f40",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "031b-dea6-c4ce-a7c4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6217-943b-0124-6bcb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "bbc3-fd86-2ab4-acb6",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "3e83-26d6-cbc8-9939",
+          "name": "Chimera Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "13d1-0e87-2c48-14a1",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "badb-50f4-1b44-dc90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "477d-de86-f884-d510",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "2777-3565-6662-cdbf",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "69eb-741e-dbb3-c2c0",
+          "id": "5350-ea45-f973-e490",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "3808-0016-c168-21cc",
+      "name": "Basilisk",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "b14e-0885-5ac4-f16f",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "1e09-91cc-79e6-cfd3",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "cde2-c151-5feb-fe4b",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

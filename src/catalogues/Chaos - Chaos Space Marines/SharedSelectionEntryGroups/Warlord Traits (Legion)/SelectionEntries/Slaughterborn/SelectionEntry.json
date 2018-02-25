@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Slaughterborn",
+    "prevIdentifier": "Night Haunter's Curse"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "5fb5-bdd7-94f7-cced",
+      "name": "Slaughterborn",
+      "infoLinks": [
+        {
+          "targetId": "4c67-249d-36d7-4bfc",
+          "id": "a0f9-02fa-ccb2-7c1e",
+          "name": "Slaughterborn"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "e536-b475-827e-e3cf",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two plasma eradicators",
+    "prevIdentifier": "Two las-rippers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cbde-42d6-83f6-1aec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bf25-6c9f-b57a-b334",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "f64e-57a9-73ef-11fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61e9-1bc0-ffac-ab32",
+          "id": "a0bc-f4ab-a1f7-b77f",
+          "name": "Plasma eradicator"
+        }
+      ],
+      "id": "b1fa-5305-e5b9-0dbd",
+      "name": "Two plasma eradicators"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Claw of the Desert Tigers",
+    "prevIdentifier": "The Tactical Auto-Reliquary of Tyberius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9bca-9bdb-f0c7-f6c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "2e85-1ece-1bfa-1e4d",
+      "name": "Claw of the Desert Tigers",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "935b-1502-0bb5-6fb7",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

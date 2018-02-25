@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Dreadnought chainfist",
+    "prevIdentifier": "Dreadfire claw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "e3b5-4bc6-50a6-287d",
+      "name": "Dreadnought chainfist",
+      "infoLinks": [
+        {
+          "targetId": "9d62-b71f-d6cd-83ab",
+          "id": "cd15-dc81-c0a2-c3ac",
+          "name": "Dreadnought chainfist"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "28",
+          "conditions": [
+            {
+              "childId": "e3b5-4bc6-50a6-287d",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

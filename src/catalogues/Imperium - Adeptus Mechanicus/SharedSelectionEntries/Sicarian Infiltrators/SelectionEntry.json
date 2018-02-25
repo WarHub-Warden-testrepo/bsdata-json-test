@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "identifier": "Sicarian Infiltrators",
+    "prevIdentifier": "Infiltrator Princeps"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3ef1-101b-798e-840c",
+          "id": "d8ae-4493-3967-40c4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "347e-8cc0-7384-a965",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ac90-8c98-039b-2c1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "5772-7049-c1ce-2d66",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "d396-c169-2e02-7cd7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "d5bd-e236-16a2-1a33",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cdee-83f1-5387-56cc",
+          "id": "e1f3-681c-462c-0369",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "918e-76f4-8908-3cd7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "0315-ebeb-701e-05ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2fd4-74f7-c541-cd98",
+          "id": "1145-d1ca-c024-2333",
+          "name": "Sicarian Infiltrator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fbf7-54c6-bb4d-1ad3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3bc2-ad42-c51b-adaf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "059c-4811-ae9a-09d6",
+          "id": "c04b-5d8f-e984-ce3c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "606f-d3f0-0649-c4e8",
+      "name": "Sicarian Infiltrators",
+      "infoLinks": [
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "ef91-f2e1-2bb2-8d80",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "5237-187d-947c-2993",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "1145-d1ca-c024-2333",
+              "type": 4,
+              "field": "selections",
+              "scope": "606f-d3f0-0649-c4e8",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

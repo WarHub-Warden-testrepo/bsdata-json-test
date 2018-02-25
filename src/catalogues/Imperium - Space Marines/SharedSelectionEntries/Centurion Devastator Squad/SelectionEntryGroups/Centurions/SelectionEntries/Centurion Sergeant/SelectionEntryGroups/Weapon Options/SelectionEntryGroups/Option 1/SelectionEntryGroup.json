@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Option 1",
+    "prevIdentifier": "Option 2"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4483-a5e5-eb9d-10b0",
+      "constraints": [
+        {
+          "id": "b18d-bde4-4bf5-0786",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "1ba5-6c0d-95a4-59d4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bbab-d9c5-20d0-1b03",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e2b8-099c-9f60-0faf",
+          "id": "396a-00d4-bdf3-cba3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "949c-f6ec-600c-df87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b34a-b0c7-689d-d9a9",
+          "id": "4483-a5e5-eb9d-10b0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "0da5-4ead-92d4-feb2",
+      "name": "Option 1"
+    }
+  ]
+}

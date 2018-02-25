@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Auto Boltstorm Gauntlets/Fragstorm Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0709-77dc-3c4b-32b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "97c4-ecb6-feae-9ac6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2d98-986d-0b4c-1186",
+          "id": "1e03-a9ba-f878-5861",
+          "name": "Auto Boltstorm Gauntlets"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c6df-e3d2-7f4e-ba6a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "501e-ba3d-caac-6838",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d586-bb8d-c825-fdc6",
+          "id": "7a5f-c855-8405-14d2",
+          "name": "Fragstorm Grenade Launcher",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "a63f-7eb4-cab9-7719",
+      "name": "Auto Boltstorm Gauntlets/Fragstorm Grenade Launcher",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "points",
+          "value": "18",
+          "repeats": [
+            {
+              "childId": "b993-9af6-5bd8-0414",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "14a0-2401-84ce-ee69",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Intercessor bolt rifles"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0a76-fcf3-06d4-36b9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "f754-c641-2e0a-5e90",
+          "id": "4a4f-e6be-820a-4224",
+          "name": "Warlord Traits  (Codex: Blood Angels)"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "f555-334d-e671-64ba",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "90d5-800c-7adb-c99b",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "c25d-2fbc-47b3-9e39",
+      "name": "Warlord Traits",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "fe32-ce90-4d6d-1883",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

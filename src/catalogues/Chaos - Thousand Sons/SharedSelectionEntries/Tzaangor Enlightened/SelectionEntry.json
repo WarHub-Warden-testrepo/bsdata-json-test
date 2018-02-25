@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Tzaangor Enlightened",
+    "prevIdentifier": "Tzaangor Shaman"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "ff2f-48df-dfc6-923e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7cd6-1846-fddd-1fef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "ecba-0605-2275-8a85",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "6361-075c-eff6-6962",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a30d-9ddd-43f9-108f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "4beb-6723-64fe-330c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "951d-4631-baae-3c5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e810-3c92-2c69-d2f9",
+          "id": "b19f-2c1c-dc81-2a5c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "5f36-b2e6-4e8c-9ea9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "686e-44d9-16b6-bd1c",
+          "id": "acb3-5434-46df-f012",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "99f4-5952-9b42-7a8a",
+      "name": "Tzaangor Enlightened",
+      "infoLinks": [
+        {
+          "targetId": "23ec-0b30-7f86-1d7e",
+          "id": "4883-a5ce-ab58-b7e0",
+          "name": "Aura of Dark Glory"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "99f4-5952-9b42-7a8a",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "99f4-5952-9b42-7a8a",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

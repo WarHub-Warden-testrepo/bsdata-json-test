@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Monstrous Boneswords",
+    "prevIdentifier": "Massive Scything Talons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0884-6ed1-147e-4170",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "8b03-dbb8-885e-42e6",
+      "name": "Monstrous Boneswords",
+      "infoLinks": [
+        {
+          "targetId": "3c08-32c2-5ee8-e424",
+          "id": "6654-e2f8-5207-260b",
+          "name": "Monstrous Boneswords"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "0884-6ed1-147e-4170",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "4cd2-d56c-29e1-796d",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

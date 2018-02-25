@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Hive Fleet",
+    "prevIdentifier": "Show Spore Mine Rules"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eda1-40f6-08db-f577",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "1e74-63b9-9478-0dc8",
+      "name": "Hive Fleet"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Bubotic Axe"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b5d8-55f5-35df-96a8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5dc3-0aa9-a73c-5ce4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d109-856b-4d6d-9952",
+      "name": "Bubotic Axe",
+      "modifiers": [
+        {
+          "field": "5dc3-0aa9-a73c-5ce4",
+          "value": "0.0"
+        }
+      ]
+    }
+  ]
+}

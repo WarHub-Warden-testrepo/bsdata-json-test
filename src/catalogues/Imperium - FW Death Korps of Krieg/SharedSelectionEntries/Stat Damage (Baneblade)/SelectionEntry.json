@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Baneblade)",
+    "prevIdentifier": "Adamantium Tracks"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1a02-15b4-5adb-6aad",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ef71-c123-292c-ffa3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6e2c-4f30-b09d-c637",
+      "name": "Stat Damage (Baneblade)"
+    }
+  ]
+}

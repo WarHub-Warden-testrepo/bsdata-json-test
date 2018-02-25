@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Left arm ranged weapon",
+    "prevIdentifier": "Right arm weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a01c-580d-53b9-a205",
+      "constraints": [
+        {
+          "id": "4ec6-d66f-9253-809d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "459d-e810-65d4-ab1f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8d2e-e13f-34b8-4a22",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "a01c-580d-53b9-a205",
+          "name": "Heavy flamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9c16-c9b2-beef-406f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0bcf-15c9-d70c-8c67",
+          "id": "2fc8-767e-2a3b-0635",
+          "name": "Onslaught gatling cannon"
+        }
+      ],
+      "id": "b483-652b-d2ad-72a7",
+      "name": "Left arm ranged weapon"
+    }
+  ]
+}

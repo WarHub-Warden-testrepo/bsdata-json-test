@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Heavy Venom Cannon",
+    "prevIdentifier": "Grasping Tougue"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7aa1-5c21-44f3-7a0b",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "7616-cf27-58d6-0899",
+      "name": "Heavy Venom Cannon",
+      "infoLinks": [
+        {
+          "targetId": "49df-0729-d7b0-9418",
+          "id": "b471-aae2-bb3b-b790",
+          "name": "Heavy Venom Cannon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "7aa1-5c21-44f3-7a0b",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "39cc-9246-635b-460c",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

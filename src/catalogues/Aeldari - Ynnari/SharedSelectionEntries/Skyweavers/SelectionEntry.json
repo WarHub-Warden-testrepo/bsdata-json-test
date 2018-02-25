@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Skyweavers",
+    "prevIdentifier": "Voidweaver"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "1c85-1a08-92f8-66f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "b181-1812-a639-800b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "05c0-542a-9759-e5c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "5b8e-f818-8e46-5f7d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "6ade-65d0-2183-70e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "6349-3c59-6960-1cd4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "50b6-34fa-10fe-d5be",
+      "name": "Skyweavers",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "72",
+      "infoLinks": [
+        {
+          "targetId": "1fde-5ed2-74f7-f766",
+          "id": "6f0d-4b64-2796-1200",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "046c-9565-b216-87c7",
+          "id": "565b-b162-3806-0c32",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "86a8-5c65-d40b-d0a6",
+          "id": "462f-aeae-4e09-0eca",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "02cf-b41b-ec3f-70a7",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "50b6-34fa-10fe-d5be",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "50b6-34fa-10fe-d5be",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "50b6-34fa-10fe-d5be",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

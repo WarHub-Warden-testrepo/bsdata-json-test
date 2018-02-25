@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Disciples"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "092b-694f-2e67-de8f",
+      "constraints": [
+        {
+          "id": "f6ab-d53d-806c-76c3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "1eed-b964-56c7-85c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 14.0,
+          "shared": true
+        }
+      ],
+      "id": "e6ce-beaa-d394-b07e",
+      "name": "Disciples",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "1eed-b964-56c7-85c8",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2f3b-9a2e-58ca-0405",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "f6ab-d53d-806c-76c3",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2f3b-9a2e-58ca-0405",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

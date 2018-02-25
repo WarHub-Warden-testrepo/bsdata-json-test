@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "identifier": "Replace Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bf6f-1b4e-5464-6fa9",
+      "constraints": [
+        {
+          "id": "7062-7a4e-818b-13b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "d4b0-f68c-fb6b-54e0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e479-20b9-5277-2de1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "fdf8-8d0d-3b94-0ca1",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "978f-b327-b62b-b963",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "4de8-4f22-9932-0603",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ab8-bd4f-7052-95fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "bf6f-1b4e-5464-6fa9",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e0ce-9f01-9a49-1b6b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "9ba9-0821-6a36-2a75",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "acb2-117f-441d-a49e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "22a7-3337-5a22-022a",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "4fbb-e0c6-a1d2-2d67",
+      "name": "Replace Bolt Pistol",
+      "modifiers": [
+        {
+          "field": "d4b0-f68c-fb6b-54e0",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "7062-7a4e-818b-13b4",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Repulsor",
+    "prevIdentifier": "Ironhail Heavy Stubber"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 210.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1c22-63c9-e395-fcbb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "3253-c0a2-bc57-f63b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c283-c7fa-181c-80d2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c66f-0ec3-0a99-d5d1",
+          "id": "b5f6-5b8e-3f25-dbe1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "3691-001f-8733-a02b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "2052-a80e-a9a7-ad40",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "41ea-d72f-f0e1-ef13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "e8c2-5a34-bfab-1472",
+          "id": "d164-cf1e-ce9f-6b7c",
+          "name": "Ironhail Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d1d4-990e-0403-3379",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2883-3644-0529-a37c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "12df-6953-e309-7b39",
+          "id": "e94f-efab-5e6b-041e",
+          "name": "Krakstrom Grenade Launcher"
+        }
+      ],
+      "id": "3d07-7a39-998b-32c8",
+      "name": "Repulsor",
+      "infoLinks": [
+        {
+          "targetId": "4b31-7acf-0d2a-4973",
+          "id": "84ca-12a2-1b79-b009",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "type": 1,
+          "targetId": "6f8e-9512-0008-d677",
+          "id": "a508-257a-50b4-27d7",
+          "name": "Explodes (6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

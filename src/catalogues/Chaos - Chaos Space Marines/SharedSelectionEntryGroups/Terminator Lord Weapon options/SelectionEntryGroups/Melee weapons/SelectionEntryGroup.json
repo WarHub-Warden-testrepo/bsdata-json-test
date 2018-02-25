@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Melee weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ad85-b6cb-20cb-3a21",
+      "constraints": [
+        {
+          "id": "0184-3254-f535-9f1c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5f10-dcda-7c07-e1bd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "32ec-c8fd-f270-bf71",
+          "name": "Chainfist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "targetId": "72f0-6262-b417-dd10",
+          "id": "1923-239a-89d6-4d97",
+          "name": "Lightning Claw"
+        },
+        {
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "42cb-5d6b-35c9-5872",
+          "name": "Power axe"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "bbba-75b7-e038-9286",
+          "name": "Power fist"
+        },
+        {
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "acc0-29a1-645c-a950",
+          "name": "Power maul"
+        },
+        {
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "ad85-b6cb-20cb-3a21",
+          "name": "Power sword"
+        }
+      ],
+      "id": "370e-3fa7-2a76-d22a",
+      "name": "Melee weapons",
+      "modifiers": [
+        {
+          "field": "0184-3254-f535-9f1c",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b012-7617-0c13-5cc2",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Slaanesh",
+    "prevIdentifier": "Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "32e3-dbbf-3b2d-c73a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "0d29-264f-1408-8d84",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "d2c7-f713-0685-b95b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1aef-75cc-2f0e-2d8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61c2-467c-8620-2a1c",
+          "id": "b145-c822-efd4-677c",
+          "name": "Slaanesh Discipline"
+        }
+      ],
+      "id": "ecdf-3215-7463-71df",
+      "name": "Slaanesh",
+      "infoLinks": [
+        {
+          "targetId": "879f-7b47-bc3b-f770",
+          "id": "9c2b-34aa-6bea-3f17",
+          "name": "Quicksilver Swiftness"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "32e3-dbbf-3b2d-c73a",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

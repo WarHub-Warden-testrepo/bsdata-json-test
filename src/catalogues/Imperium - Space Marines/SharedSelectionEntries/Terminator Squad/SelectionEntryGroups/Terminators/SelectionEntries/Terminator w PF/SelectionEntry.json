@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Terminator w/PF",
+    "prevIdentifier": "Terminator w/Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "88f4-6534-aa98-8022",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "68ab-1a24-b858-712d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2b5a-07c5-1405-7ead",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8d51-2073-1990-b915",
+          "id": "b901-4f82-86e0-361c",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ae54-5095-a74f-2294",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "948c-66ce-1d24-42cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b3d9-4546-b27b-f995",
+          "id": "b404-ca26-0ee2-4426",
+          "name": "Power fist"
+        }
+      ],
+      "id": "7ac3-3048-44ad-f2db",
+      "name": "Terminator w/PF"
+    }
+  ]
+}

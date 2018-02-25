@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Banehammer",
+    "prevIdentifier": "Banesword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 26.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d964-6d67-ffc6-ad93",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "afa1-ddd4-b2c7-0950",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c53-aa1d-cf45-0938",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b2e7-7177-4826-aaf0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "d50d-b467-9ae7-5931",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "402c-e914-455e-4d63",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d895-173a-d94b-22b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7c20-256a-b607-245d",
+          "id": "84db-7023-e5df-96b0",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c941-6652-e8c7-bd00",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b9f8-4619-3c4c-f432",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6e2c-4f30-b09d-c637",
+          "id": "97dd-9bd9-9b2c-a485",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "be51-49ae-9966-cfc5",
+          "id": "dc33-dae3-7075-3574",
+          "name": "Baneblade Sponsons"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "a2c1-170a-fc0f-cedc",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e13e-75ee-40f1-9e6f",
+      "name": "Banehammer",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "e4bc-06c2-3073-3713",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "6f9b-56a3-8230-e830",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "6a3a-211d-f0f2-0d7d",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "9981-5fb9-57f6-7930",
+          "id": "4029-8e89-9849-d2ef",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

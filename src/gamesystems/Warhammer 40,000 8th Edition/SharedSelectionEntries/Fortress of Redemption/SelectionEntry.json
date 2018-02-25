@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Fortress of Redemption",
+    "prevIdentifier": "Firestorm Redoubt"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 400.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "8300-7ced-aafd-2a27-d713cda3-5d0f-40d8-b621-69233263ec2a"
+        },
+        {
+          "targetId": "9df5-bb14-9326-4108",
+          "id": "12e5-6386-ecbb-79a9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "2ebd-7369-d7db-6299",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9818-866d-c5b4-d471",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "b469-4bc0-edc2-eeb0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b49a-b333-4e3d-90e7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bb71-e225-fac2-2f10",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2e50-f562-c0df-3e83",
+          "id": "1450-a5d3-3532-acca",
+          "name": "Twin Icarus Lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9c87-3102-a6de-4c2a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "fffa-4525-6695-92fe",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "8300-7ced-aafd-2a27",
+      "name": "Fortress of Redemption",
+      "book": "",
+      "page": ""
+    }
+  ]
+}

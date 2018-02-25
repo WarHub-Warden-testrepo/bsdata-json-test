@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Disciple with Chaos Sigil",
+    "prevIdentifier": "Disciple with special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "192e-054f-d103-5293",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b8b8-965e-a741-e515",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b692-9b3c-cf12-aed6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "d1ef-8164-e6ee-e15f",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2b9e-565b-7a98-b3b5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4c7c-373a-a0d7-4476",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b1e-8fd6-b41e-052f",
+          "id": "d3a0-4390-a7a6-d6bf",
+          "name": "Chaos Sigil"
+        }
+      ],
+      "id": "16d8-a326-e4dd-24ed",
+      "name": "Disciple with Chaos Sigil"
+    }
+  ]
+}

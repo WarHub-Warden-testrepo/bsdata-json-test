@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "The Yncarne",
+    "prevIdentifier": "Yvraine"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 337.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7662-9ddb-0b04-fe01",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "65df-9e97-6b1a-42df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "3549-27bb-8ba5-63e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ebb3-4f37-6e57-7a8e",
+          "id": "c6a9-48b1-df5b-ce94",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "10f8-885b-62c5-0ce6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "571b-f7ab-36cb-a115",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "e5c8-a8a3-a510-0a35",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "94b1-311f-cf71-99dd",
+          "id": "dd3c-bcf8-0c1e-4f2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "173d-6603-f81f-8dda",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "956e-26fb-23a4-520d",
+          "id": "9f75-af49-bb7d-4996",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c6db-2b70-18c4-dcef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "9bff-6db2-e2ff-cf76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f93-a621-fdeb-0426",
+          "id": "6416-4c7a-7a89-bae6",
+          "name": "Revenant Discipline"
+        }
+      ],
+      "id": "c0ea-f722-6a2e-6d65",
+      "name": "The Yncarne",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3678-7a8e-d610-0393",
+          "id": "a95a-1d9d-d27d-fabb",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "c79a-8f21-2f79-f649",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

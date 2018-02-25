@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Rough Riders",
+    "prevIdentifier": "Ratlings"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "3dcdffbc-e615-c393-e094-145532cc9ebf-c274d0b0-5866-44bc-9810-91c136ae7438"
+        }
+      ],
+      "id": "3dcdffbc-e615-c393-e094-145532cc9ebf",
+      "name": "Rough Riders",
+      "book": "Codex: Astra Militarum",
+      "page": "45",
+      "infoLinks": [
+        {
+          "targetId": "fdd8-1a5f-5722-d6ee",
+          "id": "b324-5257-7b7a-2cb1",
+          "name": "Frag grenade"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "3dcdffbc-e615-c393-e094-145532cc9ebf",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

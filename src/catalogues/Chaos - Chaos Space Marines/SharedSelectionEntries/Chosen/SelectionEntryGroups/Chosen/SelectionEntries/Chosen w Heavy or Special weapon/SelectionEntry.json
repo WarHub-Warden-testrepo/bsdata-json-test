@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Chosen w/ Heavy or Special weapon",
+    "prevIdentifier": "Chosen w/ weapon option"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "016b-5feb-02a3-0882",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9cda-7f25-8bc3-ac0f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5b28-d1e0-dc71-8633",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "46db-5819-9213-c332",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d748-5575-4637-524c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3c8b-c250-41f9-1b97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "2e9a-ce8a-4c08-155e",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "a5dd-3378-0dbc-9a34",
+      "name": "Chosen w/ Heavy or Special weapon",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Chosen w/ heavy weapon",
+          "conditions": [
+            {
+              "childId": "5c11-afb7-601e-c4f7",
+              "type": 2,
+              "field": "selections",
+              "scope": "a5dd-3378-0dbc-9a34",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Chosen w/ special weapon",
+          "conditions": [
+            {
+              "childId": "24c3-a247-1b9d-8b0e",
+              "type": 2,
+              "field": "selections",
+              "scope": "a5dd-3378-0dbc-9a34",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

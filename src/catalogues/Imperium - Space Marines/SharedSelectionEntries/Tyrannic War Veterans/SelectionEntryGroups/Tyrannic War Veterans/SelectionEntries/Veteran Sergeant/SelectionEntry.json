@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8773-7da7-daf9-e47b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7815-5498-52e0-146f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4604-769e-9ee7-70dc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f1db-2244-cecc-7cf7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "59d0-ea9a-e15b-2a24",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eabb-5092-8f4a-16b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "45f6-e684-b297-1ddf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "06c1-1afb-8906-531e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3648-b006-70b8-5e4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8d23-e1a0-1565-334e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfc3-3735-a2e8-53cd",
+          "id": "a364-d994-5ac3-8e0c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2ab6-46b2-3e50-7fe9",
+      "name": "Veteran Sergeant"
+    }
+  ]
+}

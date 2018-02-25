@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Aggressor",
+    "prevIdentifier": "Aggressor Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "29f9-e1be-413b-dcb3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "cebe-03e5-b780-867a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "id": "b993-9af6-5bd8-0414",
+      "name": "Aggressor"
+    }
+  ]
+}

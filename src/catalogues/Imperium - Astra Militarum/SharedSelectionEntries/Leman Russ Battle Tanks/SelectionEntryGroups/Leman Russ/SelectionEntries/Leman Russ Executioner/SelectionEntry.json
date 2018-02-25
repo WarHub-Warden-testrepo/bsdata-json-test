@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Executioner",
+    "prevIdentifier": "Leman Russ Vanquisher"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "3a4b-c307-894e-3e63",
+          "id": "2788-8c18-dfa2-a377",
+          "name": "Turret-mounted Executioner Plasma Cannon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "84e9-712a-e302-f295",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "a0d5-c35c-28c4-4368",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "509d-8569-74c5-ec70",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4ea5-3507-3b1a-2ff5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3777-d29d-7315-7ebf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "c35d-f44d-38c9-f07a",
+          "name": "Stat Damage (Leman Russ)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "fd58-4d3e-eb88-62fb",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "4201-5269-792c-cb74",
+      "name": "Leman Russ Executioner",
+      "book": "Codex: Astra Militarum",
+      "page": "47",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "aa0a-4e91-ba04-9519"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "c63a-048e-96a8-d372",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "3e12-a7a2-07d0-563c",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "54c7-1396-3e22-a6e9",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "9cf3-7c64-3f9b-855b",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "75a3-3e4b-0dfb-fcc1",
+          "name": "Improved Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Troupe Master",
+    "prevIdentifier": "Troupe"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 59.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "b9d1-d358-7801-2ad1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "db2e-a3cc-c78b-c3d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "0555-d51f-5682-c3b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "c3ad-1c39-a42d-f7f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "18e4-74c5-7848-5ba5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e1f3-b3dd-15ee-b849",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b1cc-e6be-4b3f-9ca8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "36a7-11a1-1066-4037",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f0f-7345-bc4f-9771",
+          "id": "c25c-4673-c8da-44d2",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "305c-7184-81fb-2bd3",
+          "id": "8a07-fee0-a684-b0d4",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "type": 1,
+          "targetId": "16e7-958e-0d9b-8280",
+          "id": "14eb-dbd5-dfbd-367a",
+          "name": "Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9166-01c3-05e3-947f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "ca4f-df0f-b58a-3407",
+          "name": "Warlord"
+        }
+      ],
+      "id": "5f24-c0be-025f-16aa",
+      "name": "Troupe Master",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "70",
+      "infoLinks": [
+        {
+          "targetId": "74fb-ab0a-0ef5-ce0d",
+          "id": "8077-2f8a-3977-aedf",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "86a8-5c65-d40b-d0a6",
+          "id": "59b3-4d1b-2448-6839",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "a32c-8b04-88f0-c716",
+          "id": "5ec7-f83f-f084-2c19",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

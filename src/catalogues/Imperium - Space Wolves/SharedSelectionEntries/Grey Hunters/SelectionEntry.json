@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Grey Hunters",
+    "prevIdentifier": "Fenrisian Wolves"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a8d7-f070-70ee-deaf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "81f5-5976-c659-bb4e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "3e2f-4814-e1f7-446f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "57f5-c920-8d49-f24d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9eb8-8127-3ec4-5f78",
+          "id": "cc23-753c-1ad2-b612",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "184a-a50f-6e7b-3c75",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "e01c-9852-c7d9-21fc",
+          "id": "daed-9333-e2eb-c152",
+          "name": "Wolf Guard Pack Leader"
+        }
+      ],
+      "id": "2e39-6ee4-1903-7c95",
+      "name": "Grey Hunters",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "7ae7-dc6e-42d0-a18f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c6ae-23d4-7867-080f",
+          "id": "c3db-1a72-5875-6694",
+          "name": "Mixed Unit"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "53c9-1092-bafc-4352",
+              "type": 4,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Engineer w/ Demolition Charge",
+    "prevIdentifier": "Engineer Weapons Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b761-4648-6ae8-3a41",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f99b-d266-a2d5-9561",
+          "id": "989f-b865-d2e8-b485",
+          "name": "Krieg Combat Shotgun"
+        },
+        {
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "cda2-7239-e9a5-7d94",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "196d-4306-7ced-421e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "941a-603d-8177-356f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2963-fc44-0c33-22cb",
+          "id": "d14a-81ab-ae45-0142",
+          "name": "Demolition Charge"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1765-ffc6-84b6-7d43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "87c2-a6ce-42e2-7c50",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "741a-959a-8c7f-c621",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "92da-6c04-6efa-a196",
+      "name": "Engineer w/ Demolition Charge",
+      "infoLinks": [
+        {
+          "targetId": "549d-0922-9d7f-5283",
+          "id": "2369-c11c-128a-5c5a",
+          "name": "Death Korps Engineer"
+        }
+      ]
+    }
+  ]
+}

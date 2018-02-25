@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons",
+    "prevIdentifier": "Force sword options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5d78-373b-4232-3239",
+      "constraints": [
+        {
+          "id": "7479-8047-1137-f3e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "f17e-fa54-d780-603d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "8568-7aa3-0b82-3b93",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "13a5-40fe-7754-215f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8a6a-9a69-1962-7558",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "5d78-373b-4232-3239",
+          "name": "Combi-bolter",
+          "modifiers": [
+            {
+              "field": "8a6a-9a69-1962-7558",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "cb38-f69b-b809-f207",
+      "name": "Combi-weapons"
+    }
+  ]
+}

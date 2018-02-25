@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Flechette blaster & Taser goad",
+    "prevIdentifier": "Stubcarbine & Power sword"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2e2a-f427-a594-b8bf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "631f-4db0-09cb-63d2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e5ae-672d-bfaa-998f",
+          "id": "4151-c71b-a54e-11ea",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab36-577a-3938-7896",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e48-13d3-faa7-899b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6df9-cd0f-bd44-d767",
+          "id": "8cc8-47d1-c5a6-7e95",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e433-dd2c-6749-56d3",
+      "name": "Flechette blaster & Taser goad"
+    }
+  ]
+}

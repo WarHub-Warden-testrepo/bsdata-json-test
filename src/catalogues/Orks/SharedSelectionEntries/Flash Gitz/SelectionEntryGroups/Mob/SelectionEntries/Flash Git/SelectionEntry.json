@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Flash Git"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 27.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5db6-f8fb-e1c0-4845",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "7aca-7a05-4da1-1a5c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "29c1-afc2-aabc-3cd9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4b88-71e4-d0a4-3a5b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dc8-66e8-eb75-aa8a",
+          "id": "af7c-83dd-fc52-b9ef",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "27f1-6830-b61a-0f18",
+      "name": "Flash Git"
+    }
+  ]
+}

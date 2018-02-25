@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Hydra"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5aab-129c-b711-b0da",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "0daf-8220-6fba-79fc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "9817-121f-a59c-f602",
+          "name": "Hull Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5988-495f-8beb-2a2e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a2b9-c438-d737-c34a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da25-46a9-4472-2e07",
+          "id": "cabe-da9d-f618-e7c1",
+          "name": "Stat Damage (HS)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "260b-3a1c-2a35-d460",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "dcb2-4118-98d5-0181",
+      "name": "Hydra",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "5003-fe19-899f-7819",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "8481-7715-dd13-d165",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "9a1e-61ed-065c-1e33",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

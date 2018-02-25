@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Kutlakh the World Killer",
+    "prevIdentifier": "Night Shroud"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "94ec-266a-9040-b8bb",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "2f2e-2002-fa73-6c77",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ae08-6e39-a9c5-337f",
+          "id": "9ad5-bfa3-d2e9-0f8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "a789-504a-1327-f0a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "30b0-5d17-a385-b65a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf50-0bdf-8343-790c",
+          "id": "113a-eac7-0343-fc64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8b85-45ba-9d31-941c",
+          "id": "53f8-ffd6-f654-7d1a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "49d9-fc78-8622-86ae",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9829-50fd-2d30-7622",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c7ae-4085-11c3-5610",
+          "id": "da40-c736-6875-5aec",
+          "name": "Staff of Light",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4ae7-74c3-2b4e-ee4a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "196e-c44d-0096-0b99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2616-c51f-4466-4443",
+          "id": "e6e9-8c68-421f-63b5",
+          "name": "The Obsidax"
+        },
+        {
+          "targetId": "8056-ce75-9ad4-f269",
+          "id": "e93a-0151-1890-1864",
+          "name": "Warlord"
+        }
+      ],
+      "id": "1abe-ecae-897e-5f4d",
+      "name": "Kutlakh the World Killer",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "303e-59ec-2744-b633",
+          "name": "Living Metal"
+        },
+        {
+          "targetId": "e779-9e29-3400-0b2d",
+          "id": "44b3-bc76-bdb5-94ac",
+          "name": "Phase Shifter"
+        },
+        {
+          "targetId": "353a-d175-585b-c003",
+          "id": "70a5-0ab1-18a9-504b",
+          "name": "Phylactery"
+        }
+      ]
+    }
+  ]
+}

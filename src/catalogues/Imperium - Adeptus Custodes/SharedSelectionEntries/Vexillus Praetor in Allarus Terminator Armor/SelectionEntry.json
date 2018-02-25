@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Vexillus Praetor in Allarus Terminator Armor",
+    "prevIdentifier": "Custodian Wardens"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "648b-745c-9da9-eda3",
+          "id": "b5e2-2fb6-01ef-7572",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5df4-1333-e5cc-d41f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "8468-1cd9-77aa-dcbc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "393e-db8e-617b-517e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "06f3-26e3-f868-4853",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2c94-bf9b-dc8f-19e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "cff1-5652-db46-d2d6",
+          "name": "Misericordia"
+        },
+        {
+          "type": 1,
+          "targetId": "35fc-bb34-950d-cce4",
+          "id": "11a9-01a0-8796-b21b",
+          "name": "Custodes Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2ab4-82b0-d429-4d73",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2471-0b95-738c-edd9",
+          "id": "1a1b-8a45-a46d-bbaf",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "9cb6-59c5-6934-31ed",
+          "id": "e21d-e7de-a594-e20e",
+          "name": "Warlord Trait"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cd99-8468-bf5a-d591",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "8c6c-65ba-b8d7-8f24",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "81bb-3b74-6350-fad0",
+          "id": "fb90-6df7-9730-24cb",
+          "name": "Ballistus Grenade Launcher"
+        }
+      ],
+      "id": "94cf-8a27-b114-90b2",
+      "name": "Vexillus Praetor in Allarus Terminator Armor",
+      "infoLinks": [
+        {
+          "targetId": "55b4-45f6-4fff-93d8",
+          "id": "2c6d-d523-41aa-b477",
+          "name": "Aegis of The Emperor"
+        },
+        {
+          "targetId": "e9cd-959b-d735-d2c3",
+          "id": "9a84-fd60-e89c-e11c",
+          "name": "From Golden Light"
+        },
+        {
+          "targetId": "1d12-f594-8091-feb9",
+          "id": "f037-2044-02c8-eca4",
+          "name": "Custodes Vexilla"
+        }
+      ]
+    }
+  ]
+}

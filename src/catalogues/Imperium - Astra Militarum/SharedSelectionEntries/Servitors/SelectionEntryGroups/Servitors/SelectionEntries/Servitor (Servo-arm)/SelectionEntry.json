@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Servitor (Servo-arm)",
+    "prevIdentifier": "Servitor (Plasma Cannon)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "95fc-a210-2565-c636",
+          "id": "9cbf-963f-4045-4966",
+          "name": "Servitor"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d669-12b4-5a19-53f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "83c5-2147-c29c-1ee5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88ec-ab5c-3e50-506c",
+          "id": "3fef-e956-aa25-cf5b",
+          "name": "Servo-arm"
+        }
+      ],
+      "id": "6052-29df-e5b0-3c4d",
+      "name": "Servitor (Servo-arm)"
+    }
+  ]
+}

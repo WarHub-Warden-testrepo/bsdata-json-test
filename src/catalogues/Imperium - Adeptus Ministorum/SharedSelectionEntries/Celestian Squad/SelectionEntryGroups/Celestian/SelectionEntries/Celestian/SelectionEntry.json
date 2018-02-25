@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "identifier": "Celestian",
+    "prevIdentifier": "Celestian w/ Special or Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b48a-afa0-0c5b-3a4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f768-a603-e4f6-bcfc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "896b-28f1-e64a-3eb4",
+          "id": "a216-4a1e-c742-12a4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9351-c620-2fe3-771a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ff78-9ac4-904d-936d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "5a85-6433-e5b6-abbf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1be2-6f50-5443-ae82",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8985-9e5b-29b8-6732",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "5aae-06e8-2aa3-324c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "cb84-c31b-8f8f-7187",
+      "name": "Celestian",
+      "infoLinks": [
+        {
+          "targetId": "75e7-bff4-c3d4-40b3",
+          "id": "6adc-1e18-1c25-6457",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

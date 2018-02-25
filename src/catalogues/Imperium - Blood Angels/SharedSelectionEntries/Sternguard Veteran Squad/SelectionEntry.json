@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Sternguard Veteran Squad",
+    "prevIdentifier": "Servitors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "545a-7905-213f-1a9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "e28a-ac0a-4abc-3207",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "b261-1ffe-3af3-e7ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "be4e-12c4-954c-c5e5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1177-61f7-b229-3ac0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d368-3337-0490-9591",
+          "id": "0814-c44f-944b-312c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6314-10e3-3bbb-ca2a",
+      "name": "Sternguard Veteran Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "202a-67c2-5220-3bec",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "1284-ecf3-a01f-0719",
+              "type": 1,
+              "field": "selections",
+              "scope": "6314-10e3-3bbb-ca2a",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

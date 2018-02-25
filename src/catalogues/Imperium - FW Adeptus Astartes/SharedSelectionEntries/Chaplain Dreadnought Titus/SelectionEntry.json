@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "identifier": "Chaplain Dreadnought Titus",
+    "prevIdentifier": "Tyberos the Red Wake"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 170.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4b66-aa45-02a2-a619",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f0be-bc44-9899-6e42",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f51a-afd9-5b90-109f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f770-0776-f207-8ac4",
+          "id": "de7c-b1f7-ba84-3ac7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4c4d-a476-a7f8-74a4",
+          "id": "6eb4-6c53-3c9d-271f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "cd51-aede-9ef6-30e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e711-dcb6-6725-488e",
+          "id": "dade-4f33-3a52-2fe6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6bf7-58be-cb7a-eb1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "034e-e0ee-b197-7dd3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "446a-713b-5b8c-653a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "52ab-ec05-69bc-76a7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "742b-1b52-a3c7-4bb9",
+          "id": "5728-33d4-ceb9-8a5d",
+          "name": "Dreadnought combat weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "42a6-554f-09e2-6a83",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f69a-8a3d-84d5-d078",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "af24-3eb4-6e9b-bc6f",
+          "id": "b865-be8e-6f48-c987",
+          "name": "Assault cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "37c6-22c6-0667-276b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7276-8be2-f68e-eb34",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b535-5ae7-3a40-042a",
+          "id": "6db6-6b98-5697-775f",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "af08-3f9b-20d1-6875",
+      "name": "Chaplain Dreadnought Titus",
+      "infoLinks": [
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "389c-53b4-0396-5888",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "3dfc-4b4d-2eb9-8825",
+          "id": "3968-f6b4-00ed-8890",
+          "name": "Undying Exemplar"
+        },
+        {
+          "targetId": "8f76-d10b-1867-0094",
+          "id": "f5ed-2c3f-5b79-7dec",
+          "name": "Titus"
+        },
+        {
+          "targetId": "7507-cbd5-d58a-a4ea",
+          "id": "08fe-c918-0bf4-ce18",
+          "name": "Icon of Hate (Howling Griffons)"
+        },
+        {
+          "targetId": "901e-e2ab-bcc6-e3a0",
+          "id": "0483-8379-e502-f164",
+          "name": "Reliquarius"
+        }
+      ]
+    }
+  ]
+}

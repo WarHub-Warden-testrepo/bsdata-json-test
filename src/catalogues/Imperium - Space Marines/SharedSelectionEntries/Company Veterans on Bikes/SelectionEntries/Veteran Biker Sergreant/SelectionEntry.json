@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Veteran Biker Sergreant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f89-45d6-8ad0-527b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0b57-2c72-a1f5-9d75",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d67a-18c2-bbcb-afd5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d115-0f07-b1db-b446",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f11e-6eca-c706-dff0",
+          "id": "cedd-7c05-f949-9280",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "26ed-c8e6-d0dd-f4ba",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8097-7dc0-875a-b2c2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3877-eb7e-a324-cbb1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a35a-1c07-457f-ebd7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "58fb-42fa-491b-9cd8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "0a4c-45c9-b1d8-c5df",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "139c-303d-90b8-a074",
+      "name": "Veteran Biker Sergreant"
+    }
+  ]
+}

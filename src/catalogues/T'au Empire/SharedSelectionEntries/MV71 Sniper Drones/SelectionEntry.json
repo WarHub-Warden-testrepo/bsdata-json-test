@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "MV71 Sniper Drones",
+    "prevIdentifier": "Pathfinder Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "0fc8-bb88-4ea1-e7f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "b607-a4bf-e0ed-8b1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "65f4-6d77-cadf-6773",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "4b93-acdc-3b43-eb4d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "c56c-3aca-d268-6bdc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5f36-512d-11ef-2d9c",
+      "name": "MV71 Sniper Drones",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "f78b-f43b-dd5e-9792",
+          "name": "For the Greater Good"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "e3d3-bca6-a798-0a4e",
+              "type": 4,
+              "field": "selections",
+              "scope": "5f36-512d-11ef-2d9c",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "e3d3-bca6-a798-0a4e",
+              "type": 4,
+              "field": "selections",
+              "scope": "5f36-512d-11ef-2d9c",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

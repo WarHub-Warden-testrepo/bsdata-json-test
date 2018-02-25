@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Hospitaller",
+    "prevIdentifier": "Dialogus"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "eb64-3715-c317-bc72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "dd2c-5f32-056b-303b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "ec40-b9d5-830a-47b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8a59-3be1-5766-8aef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ff72-0e5b-ac56-52d9",
+          "id": "f104-f557-e13e-c590",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2f86-a94d-bd3c-ce1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c99f-686e-1fd1-f291",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "8dc0-2543-48bb-ca6c",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "933e-92c5-4cd5-fc31",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2037-3662-b470-1f04",
+          "name": "Warlord"
+        }
+      ],
+      "id": "5b82-01ed-74cf-6a85",
+      "name": "Hospitaller",
+      "book": "Index: Imperium 2",
+      "page": "98"
+    }
+  ]
+}

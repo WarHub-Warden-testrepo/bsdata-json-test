@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits",
+    "prevIdentifier": "Relics"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "57e4-30c2-540c-7f07",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3c5c-af51-2d54-8cbf",
+      "name": "Warlord Traits",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "afad-6465-5489-7fb9",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

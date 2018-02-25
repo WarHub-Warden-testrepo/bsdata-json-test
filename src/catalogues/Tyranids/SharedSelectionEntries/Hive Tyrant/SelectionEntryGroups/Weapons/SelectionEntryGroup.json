@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "38bc-9b1f-18f6-8679",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "99f9-0f8d-9af8-3574",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6b51-371d-16ab-86df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "086e-c796-ac9a-a766",
+          "id": "5243-0730-f957-9726",
+          "name": "Monstrous Scything Talons"
+        },
+        {
+          "type": 1,
+          "targetId": "b4ba-418e-b4d8-e76b",
+          "id": "d722-57cb-b135-5197",
+          "name": "Monstrous Bio-cannons"
+        },
+        {
+          "type": 1,
+          "targetId": "3e96-f405-4fe6-eb45",
+          "id": "db26-b51b-9a2e-c7b5",
+          "name": "Monstrous Bio-weapons"
+        }
+      ],
+      "id": "5473-83d6-43bd-b72b",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "38bc-9b1f-18f6-8679",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c500-3538-0be8-e390",
+              "type": 2,
+              "field": "selections",
+              "scope": "add7-3535-a4cd-9ba5",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "99f9-0f8d-9af8-3574",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c500-3538-0be8-e390",
+              "type": 2,
+              "field": "selections",
+              "scope": "add7-3535-a4cd-9ba5",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Multi-melta options",
+    "prevIdentifier": "Helbrute fist options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5efb-dd0c-bc9b-07b7",
+      "constraints": [
+        {
+          "id": "ad47-eb0f-36e1-2e69",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0971-ca41-5568-6300",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "5efb-dd0c-bc9b-07b7",
+          "name": "Multi-melta"
+        },
+        {
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "1e06-b6e6-1cee-de87",
+          "name": "Reaper autocannon"
+        },
+        {
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "6733-c964-0c94-e990",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "844e-d3d7-8efb-c265",
+          "name": "Twin lascannon"
+        },
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "ad64-0cae-aa2e-1ecb",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "071c-94e8-72a8-2eaf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3672-0dd5-d396-dc4b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0fb7-cd07-ecfc-1db8",
+          "id": "302f-2396-9cae-1d09",
+          "name": "Helbrute fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "8a2c-8b11-061e-0025",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3672-0dd5-d396-dc4b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "9b11-75fb-4bf6-0ad5",
+      "name": "Multi-melta options"
+    }
+  ]
+}

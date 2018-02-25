@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Replace Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7b21-ddbe-e25e-b9b9",
+      "constraints": [
+        {
+          "id": "6d83-8caa-febf-3920",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "80f0-4fea-fe0d-10c4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "78ed-4543-c2c2-70f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "7b21-ddbe-e25e-b9b9",
+          "name": "Master-crafted boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "58f5-c9dd-eac4-c9fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "058a-6e8f-7cad-395e",
+          "id": "712b-1092-4388-e6ae",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "38d5-90c8-48ac-090a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "30b2-5db9-374a-7284",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "e080-7d7f-f867-72c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "cefd-77b5-c938-6bf7",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "b927-56e8-79c8-5361",
+      "name": "Replace Boltgun",
+      "modifiers": [
+        {
+          "field": "6d83-8caa-febf-3920",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "80f0-4fea-fe0d-10c4",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

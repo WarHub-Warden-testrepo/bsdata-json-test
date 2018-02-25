@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "1f52-c008-b13f-5608",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "54d7-1d82-387d-294c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "30ad-de25-fbeb-cd7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "ab76-25b7-ee66-5bc0",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "30ad-de25-fbeb-cd7a",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "6d30-d35d-eb81-0544",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "2c58-b224-00e8-95f4",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    },
+                    {
+                      "childId": "97ec-3da8-2963-113d",
+                      "type": 4,
+                      "field": "selections",
+                      "scope": "2c58-b224-00e8-95f4",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4a0e-d66b-8071-729b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "6d30-d35d-eb81-0544",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "4a0e-d66b-8071-729b",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "97ec-3da8-2963-113d",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "2c58-b224-00e8-95f4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2ba8-c65a-7bd8-f171",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "97ec-3da8-2963-113d",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "2ba8-c65a-7bd8-f171",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "6d30-d35d-eb81-0544",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "2c58-b224-00e8-95f4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c54c-3afe-bada-fdab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "66b2-d408-781e-6e36",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "197f-aeab-38d6-7453",
+      "name": "Weapon Options"
+    }
+  ]
+}

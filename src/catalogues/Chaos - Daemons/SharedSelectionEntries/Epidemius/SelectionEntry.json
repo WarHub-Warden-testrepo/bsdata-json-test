@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Epidemius",
+    "prevIdentifier": "Burning Chariot"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f3d1-180d-cc60-aa8f",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "3995-cd9a-637a-8030",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "fc82-3ef2-7418-fdf0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c074-34de-db5a-367e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "ee8c-f771-f897-f9b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "f168-3829-77f9-45e7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ab84-97e0-111c-9ff0",
+          "id": "e861-90c4-273b-72cf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "a39c-f675-fb36-130b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d8fa-3f19-2fbe-ad7e",
+          "id": "3fdf-1092-724e-6a8e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "f1ba-ecf6-a7dc-2e6f",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "00e9-a298-c5dc-c704",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "11e5-62b4-7039-cf54",
+          "id": "6e8e-eada-8511-4401",
+          "name": "Balesword"
+        },
+        {
+          "targetId": "c10c-c363-d5c9-6a15",
+          "id": "8e32-49eb-3bfd-d292",
+          "name": "Nurglings (Attendants)",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Nurglings"
+            }
+          ]
+        }
+      ],
+      "id": "b680-bf49-eb66-002c",
+      "name": "Epidemius",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "9a8d-a349-7d7d-a36b",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "a654-439b-ecdb-9284",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "e65c-b527-0fb1-1f65",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "9c39-5f83-a414-17b7",
+          "id": "4317-1ac6-2f40-5762",
+          "name": "Virulent Touch",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "b680-bf49-eb66-002c",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

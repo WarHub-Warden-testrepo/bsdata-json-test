@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Marine w/ Chainsword",
+    "prevIdentifier": "Marine w/ Heavy or Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d963-24f7-46d6-1bb5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0b5f-574d-ed3b-e44c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5aff-d7e0-9161-a009",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "704f-026f-22fd-89d5",
+          "id": "2144-7c17-dd89-ac09",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ca27-d965-13c9-d78b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7964-2869-13c9-a5a8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "a8b5-bd29-0bb4-6ca5",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff7b-95c7-ad1e-5642",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "adcd-4ffd-2b8b-0523",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d9b4-5939-26dd-2387",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "4222-74f2-38d2-22c1",
+      "name": "Marine w/ Chainsword"
+    }
+  ]
+}

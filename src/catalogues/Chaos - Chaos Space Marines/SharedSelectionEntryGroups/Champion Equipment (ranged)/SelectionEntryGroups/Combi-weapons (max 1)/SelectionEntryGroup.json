@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons (max 1)"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "060b-fbd3-c659-4041",
+      "constraints": [
+        {
+          "id": "876e-2089-ac7b-19dc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "a723-c7c5-af77-5edf",
+          "name": "Combi-bolter"
+        },
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "0228-4efa-e66b-c317",
+          "name": "Combi-flamer"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "f19d-c7e5-046c-6e0c",
+          "name": "Combi-melta"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "d90d-154e-47a7-4102",
+          "name": "Combi-plasma"
+        },
+        {
+          "constraints": [
+            {
+              "id": "df45-4c96-c22e-7c56",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "060b-fbd3-c659-4041",
+          "name": "Boltgun",
+          "modifiers": [
+            {
+              "field": "df45-4c96-c22e-7c56",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "e47b-8193-ff5b-4d68",
+      "name": "Combi-weapons (max 1)"
+    }
+  ]
+}

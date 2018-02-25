@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Terminator Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0d86-a05f-15d4-e3e3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "d303-088b-a80f-5d6f",
+          "name": "Chainfist"
+        },
+        {
+          "targetId": "b785-15f0-966e-73c4",
+          "id": "46a0-2f77-4906-4c0d",
+          "name": "Lightning Claw"
+        },
+        {
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "dc4f-9c54-e96c-3bd7",
+          "name": "Power axe"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "26f4-fc27-e780-77f9",
+          "name": "Power fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "4bf9-c7d3-d5b6-6370",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e221-0b9a-be76-8258",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "3a72-c53a-1c67-1f17",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "e221-0b9a-be76-8258",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "d740-2c84-b2b6-0c1b",
+          "id": "ccac-609c-ccab-2920",
+          "name": "Balesword"
+        }
+      ],
+      "id": "4d81-021e-16ab-ddff",
+      "name": "Terminator Melee Weapons"
+    }
+  ]
+}

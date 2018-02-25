@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Disciple with special weapon",
+    "prevIdentifier": "Disciple Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a53d-c7a0-4485-3feb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c94d-52da-c526-5fd5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "207f-a1d0-cf3b-dadd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c90d-f7ed-0405-0281",
+          "id": "06aa-101e-7e3b-9555",
+          "name": "Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab8d-8194-e9b8-d40d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fac6-91f8-3d8b-34ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "3082-3c59-fd41-8974",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "937d-34a3-cea0-d4f7",
+      "name": "Disciple with special weapon"
+    }
+  ]
+}

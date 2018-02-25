@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Initiate"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dfb3-ff9d-a24a-bf99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a14c-c6db-1f54-292f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "f530-c793-0ba8-6c6c",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3179-9099-a3af-5e6e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1844-0d0b-09f1-0406",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1b42-20ef-4d64-bc6f",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "58c7-500a-edda-ce12",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5952-e0e4-00b5-addf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "624f-de2a-4686-5578",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "3b69-1f92-ee25-dc54",
+      "name": "Initiate"
+    }
+  ]
+}

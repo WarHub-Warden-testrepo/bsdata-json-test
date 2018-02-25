@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Urien Rakarth",
+    "prevIdentifier": "Talos"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 112.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "19d8-e741-cb8d-4efe",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1b39-bf08-e6d8-a3dc",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6f28-da4a-0d41-29da",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "3360-4bb0-9385-6614",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "5e41-fb62-0f47-b652",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f16a-5e3b-9a49-2b42",
+          "id": "2e62-6f2c-a04e-d6ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "b983-3a40-52e2-623a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e712-cb24-e05c-067a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8fca-4ed9-4326-8a23",
+          "id": "244a-4dc1-f741-bbdc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "be89-e5a2-cf0e-c91c",
+          "id": "e3df-5020-86bf-822f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "7de1-3715-26ec-4ef8",
+          "id": "eacf-a61e-639c-1f4c",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a42-90d5-ca04-fc1e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "8458-c60f-d5cb-b1b9",
+          "name": "Warlord"
+        }
+      ],
+      "id": "afb9-7509-4ba6-c415",
+      "name": "Urien Rakarth",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "85a1-71d6-18b1-ee95",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "43af-d406-8cfb-8d33",
+          "name": "Power from Pain"
+        }
+      ]
+    }
+  ]
+}

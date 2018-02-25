@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Twin Multi-laser"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "dd2b-cd37-e628-8162",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "eefa-6dde-50aa-62c1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3761-b914-96f5-35df",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "f07e-bcdc-ea81-4d86",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "3c30-3dd2-0243-0411",
+      "name": "Twin Multi-laser"
+    }
+  ]
+}

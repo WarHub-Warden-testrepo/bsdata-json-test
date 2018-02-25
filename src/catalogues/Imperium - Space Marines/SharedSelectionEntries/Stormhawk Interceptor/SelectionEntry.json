@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Stormhawk Interceptor",
+    "prevIdentifier": "Drop Pod"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "80b9-db9c-b38e-37d4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "23cf-3cf2-2d68-0941",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4e9a-b197-8a54-4517",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9fa4-ff65-6477-5cf6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f82e-efd6-51d3-757f",
+          "id": "fd02-328a-792d-5ab6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8397-1cd4-d8f7-b58c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "f62a-db4a-93eb-a966",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "51b0-3d46-5af4-683e",
+          "id": "f5a8-3898-4051-f163",
+          "name": "Assault cannon"
+        }
+      ],
+      "id": "5c59-8294-4005-3303",
+      "name": "Stormhawk Interceptor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "8367-778a-579e-a208",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "6dc4-b2fd-a1e1-9832",
+          "id": "91ae-b7fb-ab09-1c0c",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "94b4-a3ac-b2c9-df93",
+          "id": "5e83-a9e2-a4d3-45e4",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9caa-ff00-a5bd-5f04",
+          "id": "ded4-b236-4495-5d6b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fc27-b833-f689-e835",
+          "id": "9749-47c9-af1b-9bab",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9486-b8ef-fbef-36f1",
+          "id": "fa4d-7d79-51c1-f8f7",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

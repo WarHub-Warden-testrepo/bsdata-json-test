@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Super-Heavy Detachment +3CP",
+    "prevIdentifier": "Supreme Command Detachment +1CP"
+  },
+  "forceEntries": [
+    {
+      "categoryLinks": [
+        {
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "964d-8f7c-1171-8b98",
+          "name": "No Force Org Slot"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e8fa-5d51-0e94-764b",
+              "type": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "67f2-9795-52db-5a70",
+              "field": "selections",
+              "scope": "force",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "c0a7-80ba-6d10-0724",
+          "name": "Lord of War"
+        },
+        {
+          "targetId": "ae09-117e-a6fa-316b",
+          "id": "9ca8-4fb9-709b-b9a6",
+          "name": "Warlord",
+          "isHidden": true
+        }
+      ],
+      "id": "d513-cbf5-9bfc-7270",
+      "name": "Super-Heavy Detachment +3CP"
+    }
+  ]
+}

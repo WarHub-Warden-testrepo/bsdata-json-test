@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "eeb7-67fa-2ffb-f72c",
+      "constraints": [
+        {
+          "id": "98d3-b528-2aca-52f5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "9477-3a83-1524-86c7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f2f6-ed05-f2a9-f46f",
+          "id": "eeb7-67fa-2ffb-f72c",
+          "name": "Master-crafted auto bolt rifle"
+        },
+        {
+          "targetId": "fa24-4b8c-d4bc-72b5",
+          "id": "cb9a-be1b-201f-24d3",
+          "name": "Master-crafted stalker bolt rifle"
+        }
+      ],
+      "id": "a040-105f-e420-fb87",
+      "name": "Weapon Options"
+    }
+  ]
+}

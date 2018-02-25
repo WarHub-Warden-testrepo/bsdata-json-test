@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "identifier": "Patriarch",
+    "prevIdentifier": "Hybrid Metamorphs"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "e591-8eab-e558-25e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "f297-e0d6-87fc-1e15",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8df0-2ddd-feea-11a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "48db-e825-ed53-1447",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "6bc2-0b66-a5c1-1a39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9417-c839-b63d-7c60",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df7c-355d-38a6-261f",
+          "id": "b0d9-4879-4689-a076",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5c9d-ecc6-de36-0655",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c0e9-0081-4142-3849",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6853-2b48-35ef-d45c",
+          "id": "7569-58c4-6372-6c51",
+          "name": "Monstrous Rending Claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a014-9920-6870-76c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c927-bf87-e0fa-9891",
+          "id": "301e-21df-97d3-8399",
+          "name": "Familiar"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f805-9671-abe9-a1c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3160-b9d2-66a2-3a30",
+          "id": "1774-5854-fb0b-3925",
+          "name": "Psychic Powers"
+        },
+        {
+          "type": 1,
+          "targetId": "ccd1-3759-0432-5c59",
+          "id": "8731-55a2-316c-dc24",
+          "name": "Relics"
+        },
+        {
+          "type": 1,
+          "targetId": "3c5c-af51-2d54-8cbf",
+          "id": "3fb9-222e-69bd-7b72",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3f1a-c040-365c-f1fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afad-6465-5489-7fb9",
+          "id": "e152-7a2e-7a1f-8b6f",
+          "name": "Warlord"
+        }
+      ],
+      "id": "ea83-2ffa-61cf-7347",
+      "name": "Patriarch",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e624-3023-b8b4-18fa",
+          "id": "3a9c-be37-5044-5d2b",
+          "name": "Cult Ambush"
+        },
+        {
+          "type": 1,
+          "targetId": "83cc-a64d-d8bd-7a4a",
+          "id": "d592-11b1-16c3-8aa8",
+          "name": "Unquestioning Loyalty"
+        },
+        {
+          "targetId": "0e98-6c7e-d9a4-281f",
+          "id": "0100-d5ca-f154-c9f5",
+          "name": "Lightning Reflexes"
+        },
+        {
+          "targetId": "f7e7-e08f-beb4-d58c",
+          "id": "bb09-7922-bf5a-7f49",
+          "name": "Swift and Deadly"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c927-bf87-e0fa-9891",
+              "type": 4,
+              "field": "selections",
+              "scope": "ea83-2ffa-61cf-7347",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

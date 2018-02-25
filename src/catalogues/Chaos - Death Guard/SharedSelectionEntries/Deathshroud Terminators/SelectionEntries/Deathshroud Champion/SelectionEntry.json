@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Deathshroud Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a9af-6e53-1834-4416",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9783-b282-a4f5-064e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "546b-fa37-37b0-d998",
+      "name": "Deathshroud Champion"
+    }
+  ]
+}

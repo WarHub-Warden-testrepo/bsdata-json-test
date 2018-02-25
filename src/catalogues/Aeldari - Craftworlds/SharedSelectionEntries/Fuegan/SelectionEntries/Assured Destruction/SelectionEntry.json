@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Assured Destruction",
+    "prevIdentifier": "Fire Axe"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c340-a7f2-abf1-3243",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7159-b801-5a75-8bef",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6487-4493-075d-ff9b",
+      "name": "Assured Destruction"
+    }
+  ]
+}

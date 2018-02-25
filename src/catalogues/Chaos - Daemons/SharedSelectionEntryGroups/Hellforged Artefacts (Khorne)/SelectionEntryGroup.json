@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Hellforged Artefacts (Khorne)",
+    "prevIdentifier": "Warlord Traits (Slaanesh)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2dbc-372c-a33d-39f7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2940-fe06-158a-83a7",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7bb3-b763-cb4f-9dca",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "3fcf-9804-f758-e522",
+          "id": "c76c-889d-9498-7dd6",
+          "name": "A'rgath, the King of Blades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fe0c-d226-5758-e879",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "550a-28fd-dfcd-6c17",
+          "id": "c3ba-f7d8-1834-7752",
+          "name": "Skullreaver"
+        }
+      ],
+      "id": "e658-ddea-5575-9d57",
+      "name": "Hellforged Artefacts (Khorne)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "825e-be67-d23e-3e72",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "9a8e-6f0d-36d2-7b97",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "2940-fe06-158a-83a7",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "2940-fe06-158a-83a7",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "825e-be67-d23e-3e72",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "2940-fe06-158a-83a7",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "9a8e-6f0d-36d2-7b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

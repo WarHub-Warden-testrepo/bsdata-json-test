@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Hellforged Artefacts (Tzeentch)",
+    "prevIdentifier": "Hellforged Artefacts (Khorne)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "4e68-88ce-cfee-f4bd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1ada-14f2-01d5-21fa",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d222-ee25-baa8-0526",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "6937-77e0-1fdb-db89",
+          "id": "5ce1-6ebc-b11a-8a99",
+          "name": "Soul Bane"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8470-4e82-a5cb-986a",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7c57-910c-d533-33a3",
+          "id": "e04c-240a-55cd-da60",
+          "name": "The Everstave"
+        }
+      ],
+      "id": "f71b-8420-0976-3e2d",
+      "name": "Hellforged Artefacts (Tzeentch)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "825e-be67-d23e-3e72",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "9a8e-6f0d-36d2-7b97",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "1ada-14f2-01d5-21fa",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "9a8e-6f0d-36d2-7b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "1ada-14f2-01d5-21fa",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "825e-be67-d23e-3e72",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "1ada-14f2-01d5-21fa",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

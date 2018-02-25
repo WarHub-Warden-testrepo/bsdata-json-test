@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e47e-25f4-9103-6a2d",
+      "constraints": [
+        {
+          "id": "e474-bc7e-f99b-11ce",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "5f3c-9df3-da1d-98c0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5cca-70f7-0a07-df7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "4255-61f9-8397-3467",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b954-febe-f057-a7d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "b207-72ea-77c1-78df",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "68a0-6f64-b8e5-f621",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "58de-bdd0-d568-920b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9633-e95f-2ce5-ea0d",
+      "name": "Ranged Weapon"
+    }
+  ]
+}

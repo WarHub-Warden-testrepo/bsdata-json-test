@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "identifier": "Iron Priest on Thunderwolf",
+    "prevIdentifier": "Iron Priest on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f5d6-bdcd-bb28-58db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2b36-6031-baa4-020c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "8a0a-f194-9875-b69d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e327-0bc3-887d-a351",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "766b-5215-896e-d2e9",
+          "id": "8de2-ff00-9561-af82",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cbca-4ecf-8726-555f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "97ed-2b0c-b616-761b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b46d-3b8e-d997-933e",
+          "id": "43c7-fa89-236b-03bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6980-b61e-a8c6-1168",
+          "id": "ed25-e665-ef04-5b16",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1124-4590-72c7-ae12",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fc4b-0992-1286-a2e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "049f-a40b-d059-b0b0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2c29-41ed-ebed-2703",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1804-4177-0717-5b7b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "911d-16b7-10a3-797f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8215-c4b6-7939-31a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "15c2-a251-c8a1-33d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6b0-fdca-ccd1-57d7",
+          "id": "2538-7850-31d3-64f9",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6162-e1af-57b5-fd21",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "40bd-83f2-ed99-5137",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c046-4ca5-b675-b81a",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "a53b-6cb0-1c11-57de",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "c046-4ca5-b675-b81a",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3e33-ec16-a4cb-5b44",
+      "name": "Iron Priest on Thunderwolf",
+      "infoLinks": [
+        {
+          "targetId": "a7d5-d07f-266a-8653",
+          "id": "e285-f828-f244-479f",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "9c9f-9774-a358-3a39",
+              "value": "5"
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "6"
+            },
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "10\""
+            }
+          ]
+        },
+        {
+          "targetId": "232c-6fc9-5c8b-36a5",
+          "id": "b2e9-3ddf-c890-e18c",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "a8f1-a4ff-d57b-f218",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

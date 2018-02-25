@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Elysian Ranged weapons",
+    "prevIdentifier": "Elysian Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8c2f-3177-700a-097d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b8f9-82c4-efa8-8108",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "e259-52fd-63d9-7c59",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "934a-5f01-8acd-7881",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "ce72-6a77-fdd8-3cd7",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ea82-5d53-fbd3-8e09",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "5091-756e-3952-1825",
+          "name": "Boltgun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "id": "8154-55fb-024d-1e46",
+      "name": "Elysian Ranged weapons"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "identifier": "Purifier Squad",
+    "prevIdentifier": "Knight of the Flame"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "7de1-56d9-575f-52ae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "043b-2d89-f627-bb4c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "0ea0-52de-1373-1039",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "66da-29db-5766-9a98",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "2937-bb17-b9c1-cf57",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "0777-c6a3-70b1-8ad8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "792d-f0b8-f2a0-5c90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a9b1-a1ab-7f46-cccc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a610-8c6e-7ea8-f465",
+          "id": "b0d4-aa95-bfe2-9f49",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "d712-c20e-a012-8672",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "44a7-789e-80d1-1c78",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3990-9533-871f-ff8b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "45f5-df18-39cf-efaf",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d4a9-b82a-23fd-e698",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1a1f-19d2-b59f-2162",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37bc-bbf1-18fd-7294",
+          "id": "fc42-c066-c3cd-70d9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5254-e74b-2380-e119",
+      "name": "Purifier Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5131-7ef1-e127-cfed",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "15b1-5032-ba67-0b13",
+          "name": "Daemon Hunters"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "f421-e404-2f20-8909",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "57c8-21ab-8e4d-a3ec",
+          "id": "53d3-b4cb-f09e-7ef6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "c8af-2e13-68da-731d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c61a-b479-1b4d-8638",
+          "id": "ee61-c633-6a88-aaf2",
+          "name": "Smite (Purifying Flame)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "1cae-1565-bf82-cd5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "5254-e74b-2380-e119",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

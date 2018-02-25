@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/Heavy Weapon",
+    "prevIdentifier": "Space Marine w/Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d08e-fed0-6c68-79d9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "28bf-6851-8813-a4cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e4fe-4afa-e36f-08ba",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "026f-f4dc-9e33-cd9d",
+          "id": "f5e6-cf09-8f1f-9776",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b693-e320-ea4e-a167",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "70ca-e3a1-a427-7663",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0fd4-f313-cfea-8119",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a44c-afbf-4f5d-b35c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f3a6-3c4e-3627-27e1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "f15d-3935-add8-23ae",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "9411-aa3a-9363-3e75",
+      "name": "Space Marine w/Heavy Weapon",
+      "modifiers": [
+        {
+          "field": "d08e-fed0-6c68-79d9",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "736f-babe-b727-3bbf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "9021-d405-33fa-fcf1",
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Warlord Traits (Khorne)",
+    "prevIdentifier": "Dark Hereticus discipline"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2c4d-2434-607b-1351",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "eca6-36ff-d6f3-2b7c",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "6a49-693b-24f4-9083",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "aba9-3f3a-756f-6514",
+      "name": "Warlord Traits (Khorne)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Warlord Traits"
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

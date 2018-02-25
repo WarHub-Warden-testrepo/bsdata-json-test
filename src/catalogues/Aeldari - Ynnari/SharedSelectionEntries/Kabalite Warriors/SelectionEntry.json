@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Kabalite Warriors",
+    "prevIdentifier": "Archon"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "53ad-d29f-5f37-2a82",
+          "id": "474a-29ee-1684-a7eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "4c58-699a-2fa5-5633",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "1ece-2300-e45f-310f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d480-547f-5fe2-2c0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6a2-680c-c64c-587a",
+          "id": "7e8d-6310-9b15-e133",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "f980-bd91-876f-120f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "40a0-6ba1-e19a-1c60",
+      "name": "Kabalite Warriors",
+      "book": "",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "ed19-7714-0e14-84b8",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

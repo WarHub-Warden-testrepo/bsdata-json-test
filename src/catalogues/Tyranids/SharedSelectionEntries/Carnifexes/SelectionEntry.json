@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Carnifexes",
+    "prevIdentifier": "Broodlord"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "a43a-27d8-ea2f-8f56",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "99f0-f235-de45-4ac9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d482-6830-b5c2-bb33",
+          "id": "72c7-a9c5-9b60-8440",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "9605-5089-7391-4cac",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "064d-0ca6-816f-38ee",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "96c9-795a-8498-07e6",
+      "name": "Carnifexes",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "1419-7d60-6a9c-2689",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "f6a4-e2dd-1a97-c642",
+          "id": "06a3-dfe8-a3f8-8c93",
+          "name": "Monstrous Brood"
+        },
+        {
+          "targetId": "24a7-441a-0231-b07b",
+          "id": "a664-9d26-5a7c-742e",
+          "name": "Living Battering Ram"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "96c9-795a-8498-07e6",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "96c9-795a-8498-07e6",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

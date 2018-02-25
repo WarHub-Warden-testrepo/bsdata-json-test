@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "TX-42 Piranha w/ 2x Fusion blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5a69-c445-56c1-3e9e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3d7d-58fd-cd1e-85fe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "5ac4-9801-5555-206c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a665-e79f-977e-37f7",
+          "id": "f0ae-f6f6-251e-68f6",
+          "name": "Fusion blaster"
+        }
+      ],
+      "id": "588b-f4f2-eefd-c79c",
+      "name": "TX-42 Piranha w/ 2x Fusion blaster",
+      "infoLinks": [
+        {
+          "targetId": "7da1-2e20-2715-38ca",
+          "id": "a339-3fa6-2fe1-173a",
+          "name": "TX-42 Piranha"
+        }
+      ]
+    }
+  ]
+}

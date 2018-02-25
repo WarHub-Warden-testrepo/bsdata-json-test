@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Gun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad08-9f95-0d4e-44f9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4914-7ba9-1fe1-de77",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d4fe-8853-2014-39af",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            },
+            {
+              "id": "28f9-6c9f-e0bd-e765",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d4e3-d08f-af6f-53d5",
+          "id": "cad4-c069-819f-77b0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3b77-09ba-b680-0c65",
+      "name": "Gun"
+    }
+  ]
+}

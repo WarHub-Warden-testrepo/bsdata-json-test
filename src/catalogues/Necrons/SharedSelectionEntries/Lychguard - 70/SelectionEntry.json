@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Lychguard - 70",
+    "prevIdentifier": "Immortals"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "09a8-de36-319f-c79d",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "446f-a986-a988-19a8",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "08e4-e30e-78b6-eec1",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "9ce0-c463-70f3-066b",
+          "id": "8ca6-7eef-28a4-10f5",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5bcd-3656-d17c-2ff9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 10.0,
+              "shared": true
+            },
+            {
+              "id": "bc94-b88a-2c16-9225",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ea01-f5bb-2733-2b8d",
+          "id": "3948-ed75-51c4-e641",
+          "name": "Lychguard",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "6299-dc56-da5d-5b0f",
+      "name": "Lychguard",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "204c-653e-a4df-4e4e",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "16",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "6299-dc56-da5d-5b0f",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

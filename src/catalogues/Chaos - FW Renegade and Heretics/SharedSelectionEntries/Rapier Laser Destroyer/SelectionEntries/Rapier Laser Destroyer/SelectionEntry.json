@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Rapier Laser Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f241-cc7d-4cf5-0e48",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "98f1-1db2-7f36-8f5e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "efd6-1f3c-b539-f869",
+      "name": "Rapier Laser Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "2347-89f1-7339-bc2a",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

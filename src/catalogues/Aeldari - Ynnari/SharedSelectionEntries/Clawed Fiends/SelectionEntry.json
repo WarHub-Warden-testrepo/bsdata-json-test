@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Clawed Fiends",
+    "prevIdentifier": "Beastmaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "097e-57aa-5b41-a70c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "d1a3-9246-7641-041f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "1613-1e09-4ea7-dac1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d639-aa51-1f9c-5ad9",
+          "id": "2404-56ee-6272-d18e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "71d4-0f50-7358-6977",
+      "name": "Clawed Fiends",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "53c2-b7b3-f0df-6914",
+              "type": 1,
+              "field": "selections",
+              "scope": "71d4-0f50-7358-6977",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "53c2-b7b3-f0df-6914",
+              "type": 1,
+              "field": "selections",
+              "scope": "71d4-0f50-7358-6977",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

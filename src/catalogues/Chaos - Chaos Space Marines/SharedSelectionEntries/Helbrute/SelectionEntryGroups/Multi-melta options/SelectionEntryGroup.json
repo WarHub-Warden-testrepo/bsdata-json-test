@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Multi-melta options",
+    "prevIdentifier": "Helbrute fist options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "cc08-1413-3e3b-d1f5",
+      "constraints": [
+        {
+          "id": "d547-661f-6884-73ce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a7e6-de1d-5f85-d721",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "cc08-1413-3e3b-d1f5",
+          "name": "Multi-melta"
+        },
+        {
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "2542-7d6c-7131-9115",
+          "name": "Reaper autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "299c-9a0e-80cf-c9da",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "6a2c-bdcc-4864-2aff",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "7ac5-78c4-af24-11a1",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dd01-6c2f-03c0-a7ca",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "f89a-4b0c-4dcc-a584",
+          "id": "ef09-50cd-d84f-15de",
+          "name": "Helbrute fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "7623-b6b1-5ab9-53d5",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "88b9-eb8c-4037-be40",
+      "name": "Multi-melta options"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Heavy weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2f8d-49b1-b552-c5c4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c9e9-066f-d255-2696",
+          "type": 1,
+          "field": "selections",
+          "scope": "76e4-ef9b-a5fc-8864",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7211-6b23-ce5e-0871",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "7e2e-fbd6-3524-7820",
+          "name": "Heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4ce7-74f2-823e-74d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "c6ff-d804-34a7-3588",
+          "name": "Missile launcher"
+        }
+      ],
+      "id": "8f89-d8a9-e93b-d19e",
+      "name": "Heavy weapon"
+    }
+  ]
+}

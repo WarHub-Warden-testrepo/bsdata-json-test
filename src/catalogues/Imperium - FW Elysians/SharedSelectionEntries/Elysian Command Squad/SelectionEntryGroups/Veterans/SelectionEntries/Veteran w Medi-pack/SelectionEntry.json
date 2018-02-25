@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Medi-pack",
+    "prevIdentifier": "Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "37ca-e84c-2d8a-d777",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e82a-4b45-2bc1-350a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "429e-4f10-aa82-9257",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "1840-55bc-9f48-7440",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d0cd-7dfe-72d3-f245",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "8b51-1b69-4d45-07b3",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "edd5-08be-6012-817c",
+      "name": "Veteran w/ Medi-pack",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "d387-1255-e1ac-f1f1",
+          "name": "Veteran Guardsmen"
+        },
+        {
+          "targetId": "372c-9c3c-3404-3460",
+          "id": "dd75-e9e2-4546-c721",
+          "name": "Medi-pack"
+        }
+      ]
+    }
+  ]
+}

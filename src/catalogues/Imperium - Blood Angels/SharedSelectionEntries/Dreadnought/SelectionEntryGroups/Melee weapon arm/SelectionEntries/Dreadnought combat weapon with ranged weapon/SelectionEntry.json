@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Dreadnought combat weapon with ranged weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7063-49ae-8718-9e94",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "acec-d2da-fd34-2e73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "da8a-d808-c5f4-ac53",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a869-5624-fe55-fe95",
+          "id": "f861-7d47-5ffa-9960",
+          "name": "Dreadnought combat weapon"
+        }
+      ],
+      "id": "747c-eed4-4e9b-0c48",
+      "name": "Dreadnought combat weapon with ranged weapon"
+    }
+  ]
+}

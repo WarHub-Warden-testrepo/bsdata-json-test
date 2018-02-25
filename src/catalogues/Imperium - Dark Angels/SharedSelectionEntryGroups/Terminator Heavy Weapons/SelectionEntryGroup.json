@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Terminator Heavy Weapons",
+    "prevIdentifier": "Terminator Combi-Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6d21-72a3-ffac-0524",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "fe25-4775-54ca-be74",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a15a-16f0-c3b5-df5e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "51b0-3d46-5af4-683e",
+          "id": "c6d5-5e7c-47b8-b254",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e03c-a941-a096-325e",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0ae9-84fc-93f9-c491",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb15-db61-5d4f-b65e",
+          "id": "445a-77c5-937a-c5a0",
+          "name": "Plasma cannon",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "83e0-0a69-0181-1ece",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c5cd-8649-30f7-4075",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5ab4-1ee7-95ad-7e15",
+          "id": "2186-b7e3-0132-647f",
+          "name": "New EntryLink",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "e03c-a941-a096-325e",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "78cd-b926-8e71-9ef6",
+      "name": "Terminator Heavy Weapons"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Standard of the Emperor Ascendant",
+    "prevIdentifier": "Company Ancient"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fed0-2a0b-c010-18bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "845d-9703-2c03-579f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "67f2-9bd0-b558-5075",
+      "name": "Standard of the Emperor Ascendant"
+    }
+  ]
+}

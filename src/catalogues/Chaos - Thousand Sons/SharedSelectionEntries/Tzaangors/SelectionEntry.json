@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Tzaangors",
+    "prevIdentifier": "Exalted Sorcerer on Disc of Tzeentch"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "be42-8cbe-475d-daa5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5c6c-8dfe-4156-3fd3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "f4a0-e078-d6c7-166a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "080f-abe8-9d53-a69a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "686e-44d9-16b6-bd1c",
+          "id": "92ad-512f-afc4-6652",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "95eb-1521-5004-ff2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "e147-b496-e622-9fbc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6347-5a22-8848-0401",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "8b4f-c810-1b55-c05a",
+          "name": "Icon of Flame"
+        }
+      ],
+      "id": "aa64-5c8e-b2d5-86b0",
+      "name": "Tzaangors",
+      "infoLinks": [
+        {
+          "targetId": "23ec-0b30-7f86-1d7e",
+          "id": "580a-bcc8-425b-394a",
+          "name": "Aura of Dark Glory"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "aa64-5c8e-b2d5-86b0",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "aa64-5c8e-b2d5-86b0",
+              "value": 20.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

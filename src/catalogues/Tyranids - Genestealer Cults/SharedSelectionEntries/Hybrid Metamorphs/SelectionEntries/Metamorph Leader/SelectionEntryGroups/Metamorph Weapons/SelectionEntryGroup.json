@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Metamorph Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "1c59-de2f-564e-879d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "ca8f-7e88-6199-5fd5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "433e-7330-5bd5-4071",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6765-d2bd-c02c-9da1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b474-a51a-c087-4a4e",
+          "id": "e7e3-9816-725b-94a9",
+          "name": "Metamorph Talon",
+          "modifiers": [
+            {
+              "field": "433e-7330-5bd5-4071",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3e80-c949-bd28-b45b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f7b1-2bed-cf76-7693",
+          "id": "394e-5b07-8fe8-188a",
+          "name": "Metamorph Whip"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7934-9c79-5915-dd01",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "75d4-3468-4cd1-c375",
+          "id": "1e20-403b-e76e-d659",
+          "name": "Metamorph Claw"
+        }
+      ],
+      "id": "7421-1c6b-3e6f-8bf0",
+      "name": "Metamorph Weapons",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "ca8f-7e88-6199-5fd5",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "75d4-3468-4cd1-c375",
+              "type": 4,
+              "field": "selections",
+              "scope": "7da5-7f59-3333-a33c",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "1c59-de2f-564e-879d",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "75d4-3468-4cd1-c375",
+              "type": 4,
+              "field": "selections",
+              "scope": "7da5-7f59-3333-a33c",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

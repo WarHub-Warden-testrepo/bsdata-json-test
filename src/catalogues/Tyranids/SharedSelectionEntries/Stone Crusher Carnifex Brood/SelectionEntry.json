@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Stone Crusher Carnifex Brood",
+    "prevIdentifier": "Hierophant Bio-titan"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "d482-6830-b5c2-bb33",
+          "id": "3952-f541-3787-cbb2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "7f4c-7ec7-ef72-8019",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "5d7a-c364-847a-0139",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3b6a-2b0c-131a-2d51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "0693-0572-0e44-6eb3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5c6d-f382-b731-f5ca",
+      "name": "Stone Crusher Carnifex Brood",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "4ec8-733e-f487-f619",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "f6a4-e2dd-1a97-c642",
+          "id": "5eeb-b641-639b-cb5c",
+          "name": "Monstrous Brood"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "5c6d-f382-b731-f5ca",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "5c6d-f382-b731-f5ca",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "meta": {
+    "identifier": "Relic Sicaran Battle Tank",
+    "prevIdentifier": "Heavy Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 155.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3e0e-83af-8100-6fb2",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "aa3f-6316-df34-3c78",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "7aef-d7b0-b004-dec3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8add-5ea4-a639-c875",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a23-8ff3-8842-b7b4",
+          "id": "2970-db12-68d0-3be9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "6589-72f3-db46-11a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "62f9-878d-4eea-fd2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "4819-a179-4e1b-8724",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "e86d-1f37-969c-8a71",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "865f-d67b-a112-a9bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "dc14-5d87-9295-704d",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9d62-f971-6bec-77e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "7172-5c13-13ad-acb8",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a8f1-09a3-8377-04a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0306-3851-b3e8-5b74",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e77-ba5d-b019-50be",
+          "id": "7a05-a038-21ae-e184",
+          "name": "Twin accelerator autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "45d6-211c-188d-e7cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d57d-03e2-a8b8-bc3e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4138-56bd-4131-f4da",
+          "id": "d28d-36d7-be51-e120",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "205b-9bbc-256d-54e9",
+      "name": "Relic Sicaran Battle Tank",
+      "infoLinks": [
+        {
+          "targetId": "d8b1-d810-1c65-17c5",
+          "id": "a22d-007c-94fe-5b6f",
+          "name": "Relic Sicaran"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "b221-d7e0-0365-930b",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "7343-1d53-9581-7509",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "3e0e-83af-8100-6fb2",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "3e0e-83af-8100-6fb2",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "3e0e-83af-8100-6fb2",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

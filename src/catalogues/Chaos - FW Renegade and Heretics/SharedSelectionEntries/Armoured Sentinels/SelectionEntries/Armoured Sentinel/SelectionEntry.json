@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Armoured Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5558-bc63-2d02-12a1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "7b2f-8232-7246-5023",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8a61-2c25-84f2-4fb8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c31-0b46-43cc-8389",
+          "id": "203c-a986-f9ec-5e9e",
+          "name": "Sentinel Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "74ae-bf91-a905-5b2f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "303a-0801-7519-84e5",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7c87-f321-b90a-6438",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b85-819d-70c4-12b2",
+          "id": "4122-78de-2b15-61d9",
+          "name": "Sentinel Chainsaw"
+        }
+      ],
+      "id": "e198-db1e-90b2-6a74",
+      "name": "Armoured Sentinel",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "66ee-74ba-d4ef-236d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "aab3-637d-aac4-3d03",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

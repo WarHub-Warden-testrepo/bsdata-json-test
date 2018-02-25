@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Turret weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "06a9-5dd5-f1df-9427",
+      "constraints": [
+        {
+          "id": "95d5-90a3-a8da-b64b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c298-7d72-9018-589e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d207-b0da-2c1d-ac82",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "974d-570e-66b3-e971",
+          "id": "06a9-5dd5-f1df-9427",
+          "name": "Predator autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f990-e13e-f018-8fe0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "a285-a2ba-b63a-ef7c",
+          "name": "Twin lascannon"
+        }
+      ],
+      "id": "67d5-bc20-f452-7a89",
+      "name": "Turret weapon"
+    }
+  ]
+}

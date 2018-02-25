@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Belisarius Cawl"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 240.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f923-9336-b8d2-e7e9",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "f14c-d46d-fc61-dab2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "04b8-e23e-aeed-b5bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "da75-0bb0-a2ed-d282",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cbfd-4970-f914-ac9a",
+          "id": "f4ca-5c96-bc11-588b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6743-7925-6ec5-6b91",
+          "id": "b8bf-9893-9b27-93e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "2855-e7d4-bb57-767a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2293-bc6b-5261-a2c0",
+          "id": "1b11-89e0-e2f0-a67f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6bb8-fe7f-7918-bf8f",
+          "id": "465d-4d5d-e256-10f8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "7263-4599-af77-4583",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "500a-6ba3-16e4-68c7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8707-2f8c-ac73-271a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2629-27e8-027b-af2c",
+          "id": "022b-338f-8485-c2c7",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "d97f-3755-f0cf-7e5f",
+          "id": "12e1-426d-165e-6d47",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "d4fa-d036-f5dd-f91d",
+          "id": "0c8e-5d8f-7a4b-482b",
+          "name": "Warlord"
+        }
+      ],
+      "id": "37a6-acbc-d023-b0a5",
+      "name": "Belisarius Cawl",
+      "book": "Imperium Index 2",
+      "infoLinks": [
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "a17a-59cf-ba26-0ba6",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f862-f5cb-6157-1d1f",
+          "id": "874e-51f8-64a8-8f1a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

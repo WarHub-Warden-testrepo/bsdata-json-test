@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Exalted Flamer",
+    "prevIdentifier": "Screamers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "884e-d36e-1ac4-f1e3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c61e-79ba-e85c-e982",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "99eb-bf20-52d0-39f5",
+          "id": "9c90-b0f3-6741-b289",
+          "name": "Tongues of flame"
+        },
+        {
+          "targetId": "5aaa-a7a3-4bd7-4b1a",
+          "id": "b869-4b04-6bb3-c15b",
+          "name": "Fire of Tzeentch"
+        }
+      ],
+      "id": "d086-b012-05a7-babb",
+      "name": "Exalted Flamer"
+    }
+  ]
+}

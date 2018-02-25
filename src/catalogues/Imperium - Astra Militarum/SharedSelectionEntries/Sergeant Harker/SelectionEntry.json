@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "identifier": "Sergeant Harker",
+    "prevIdentifier": "Ogryns"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "96d7-7462-8399-7c69",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6218-425e-33cf-6ec3",
+          "id": "bae4-f041-dba0-b82d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c14d-bcd6-3f2c-6c86",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "36f3-417f-4e64-d931",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "6fbb-77fa-5f9d-7631",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cb87-bbb1-9214-3ad6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fbfb-4f83-ffed-5fb6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "4762-79eb-7991-207d",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3424-742f-ce54-8e43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1ac9-9ca6-ca01-182a",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a0f-af00-9e70-8f70",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "22a0-f598-a343-61af",
+          "id": "0364-5deb-8155-7df1",
+          "name": "Lead From the Front",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "6a0f-af00-9e70-8f70",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b16e59cf-cf9e-e4bd-ca74-2c197b354097",
+      "name": "Sergeant Harker",
+      "book": "Codex: Astra Militarum",
+      "page": "38"
+    }
+  ]
+}

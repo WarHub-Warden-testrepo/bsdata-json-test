@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Celestian Superior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1d23-af4c-3b6e-c694",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "29f1-f465-3d33-898d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e002-0e40-a10b-4665",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "02f1-d9a3-6308-dd34",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "e9c7-5c28-5825-7191",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "794a-087d-636d-cddd",
+          "id": "dd7c-d185-f4db-9644",
+          "name": "Additional Melee Weapon"
+        }
+      ],
+      "id": "7685-ed9c-4b9b-8273",
+      "name": "Celestian Superior"
+    }
+  ]
+}

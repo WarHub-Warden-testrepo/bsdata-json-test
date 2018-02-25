@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Hydra Platform"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9bef-f0c0-b7cd-616d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fc97-89c8-e661-889a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "id": "16b9-dc1e-9531-bf37",
+      "name": "Hydra Platform",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "0183-19d6-a186-84d4",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "8f58-54b3-3180-b118",
+          "name": "Artillery Battery"
+        },
+        {
+          "targetId": "c408-8555-a6df-257f",
+          "id": "52d8-372c-9ac1-1e43",
+          "name": "Immobile"
+        }
+      ]
+    }
+  ]
+}

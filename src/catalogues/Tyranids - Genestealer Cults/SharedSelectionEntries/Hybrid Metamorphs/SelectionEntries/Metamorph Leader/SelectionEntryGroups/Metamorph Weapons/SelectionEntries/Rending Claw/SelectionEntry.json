@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Rending Claw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b4ad-933d-9578-9443",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "895b-f925-cf02-7b81",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "52dd-d09f-a9e5-bb15",
+      "name": "Rending Claw",
+      "infoLinks": [
+        {
+          "targetId": "40db-88ed-10e4-c29d",
+          "id": "8f0b-72dc-b535-891b",
+          "name": "Rending Claw(s)"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "b4ad-933d-9578-9443",
+          "value": "0.0"
+        }
+      ]
+    }
+  ]
+}

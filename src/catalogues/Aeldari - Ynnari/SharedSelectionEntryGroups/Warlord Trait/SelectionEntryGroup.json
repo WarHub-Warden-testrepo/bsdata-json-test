@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait",
+    "prevIdentifier": "Phantasmancy"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8b00-8c92-f248-c496",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a496-1c9a-e8ef-d5ad",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "19a4-d62a-2bd1-73e9",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "d467-20f9-c557-a29b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "1182-3de6-0210-b48b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "37a3-fa39-1ed7-c3c8",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "0ada-8b62-0ee8-e806",
+          "name": "Warlord Traits (CA)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "d467-20f9-c557-a29b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "1182-3de6-0210-b48b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "37a3-fa39-1ed7-c3c8",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "fe55-4fff-9b2e-85b9",
+      "name": "Warlord Trait",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

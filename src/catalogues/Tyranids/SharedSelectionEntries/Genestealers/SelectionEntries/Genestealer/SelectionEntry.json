@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Genestealer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a840-d12e-6434-77c8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "63a1-1317-001b-7867",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 20.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6ecb-f102-0a4a-cec9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e552-a95b-c018-994d",
+          "id": "5416-b052-f3c7-6502",
+          "name": "Scything Talons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "38c2-b46f-7f8a-7c8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "4034-9bf9-07f3-e9d3",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa97-fb15-81ef-3e7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "29c0-c68e-5bdc-9b99",
+          "id": "2c65-43ea-a83c-2eeb",
+          "name": "Extended Carapaces"
+        }
+      ],
+      "id": "c4f3-a07b-eb36-3bf0",
+      "name": "Genestealer"
+    }
+  ]
+}

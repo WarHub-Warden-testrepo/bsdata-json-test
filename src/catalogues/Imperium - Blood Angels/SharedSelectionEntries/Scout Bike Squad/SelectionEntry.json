@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Scout Bike Squad",
+    "prevIdentifier": "Sanguinary Novitiate"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "0411-ad52-f51a-5af8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "e852-4b78-f63e-7c1d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "ea10-446f-e89e-e44e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "925b-b185-91f6-5abb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "9710-08e7-9b8d-a6ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3365-ed66-444c-2451",
+          "id": "e706-a29e-b57b-2700",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cde-3508-8db5-8834",
+          "id": "b4c5-1f6e-a07b-9d1a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "9c2b-5ce8-0aeb-ad0a",
+      "name": "Scout Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "17c1-0de3-84fb-40ad",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "92b7-fdc2-cdd2-9217",
+          "id": "12c4-668d-4611-f12f",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "6819-35d8-aff3-fdea",
+              "type": 1,
+              "field": "selections",
+              "scope": "9c2b-5ce8-0aeb-ad0a",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "6819-35d8-aff3-fdea",
+              "type": 1,
+              "field": "selections",
+              "scope": "9c2b-5ce8-0aeb-ad0a",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

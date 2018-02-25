@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Hunting Lance",
+    "prevIdentifier": "Colour Sergeant Kell"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "3999-d40b-1eed-f76f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b600-cb84-ece3-37cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c725-c607-962e-eac3",
+      "name": "Hunting Lance"
+    }
+  ]
+}

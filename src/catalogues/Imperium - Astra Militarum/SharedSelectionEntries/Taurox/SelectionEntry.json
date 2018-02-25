@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Taurox",
+    "prevIdentifier": "Taurox Prime"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6547-3f90-357b-b2fc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "e206-3e32-3523-2de6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5210-8cb2-b5a2-a04f",
+          "id": "213f-1708-0bd3-178a",
+          "name": "Autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "11b7-9e51-fc61-3ffc",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "04a5-976c-452e-94df",
+      "name": "Taurox",
+      "book": "Codex: Astra Militarum",
+      "page": "41",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "4d8c-ef71-d20d-8c6f",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

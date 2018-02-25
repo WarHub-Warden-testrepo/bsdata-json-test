@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Gorgon Heavy Transporter",
+    "prevIdentifier": "Stygies Destroyer Tank Hunter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "02dd-5953-0dfd-2cec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "8447-09c5-3947-0d3e",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c44a-f5df-a35a-250f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb78-2763-6922-6326",
+          "id": "d1e9-51c9-3336-a4e7",
+          "name": "Twin Heavy Stubber",
+          "modifiers": [
+            {
+              "field": "14a6-9f76-91a1-261d",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "id": "fa86-7952-59dc-5f8e",
+      "name": "Gorgon Heavy Transporter",
+      "infoLinks": [
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "1295-895a-f263-564b",
+          "name": "Steel Behemoth"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "04e2-2f5b-28f8-7103",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "d06c-75d4-dfde-a8ee",
+          "name": "Explodes (Super-heavy)"
+        }
+      ]
+    }
+  ]
+}

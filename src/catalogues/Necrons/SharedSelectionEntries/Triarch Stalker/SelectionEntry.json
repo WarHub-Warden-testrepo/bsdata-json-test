@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Triarch Stalker",
+    "prevIdentifier": "Triarch Praetorian"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 117.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "076e-4574-ef4c-321a",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "0e77-62f0-0939-5fe1",
+          "id": "74fb-6c04-19fb-074d",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ca6b-d4bc-6c0a-fe73",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6621-5db0-96b9-58f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dfc6-ad2a-a9ab-9d93",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1265-238c-7894-4aca",
+          "id": "05df-c787-18f8-c491",
+          "name": "Massive Forelimbs",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "d056-a895-41b3-fe0f",
+      "name": "Triarch Stalker",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "ff7a-2f30-6868-dfe7",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "a977-75d0-a5ce-8e6c",
+          "id": "e0f2-964c-4e19-da83",
+          "name": "Quantum Shielding",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

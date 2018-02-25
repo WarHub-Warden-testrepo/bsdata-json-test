@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Chaos Biker Champion",
+    "prevIdentifier": "Chaos Biker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 23.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fbc8-36ec-7546-ce84",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f5b3-7575-45e9-f43b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e188-a05b-5546-a4cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2859-eba0-b45b-1563",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "63d1-1f1b-b924-1a28",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3929-4a54-4018-ac40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9501-a2df-bf57-bcc3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7dab-d7fa-7d63-dcd7",
+          "id": "a240-aa11-ba60-bbbe",
+          "name": "Combi-bolter"
+        },
+        {
+          "type": 1,
+          "targetId": "961b-1b26-a347-2982",
+          "id": "2c21-2f5e-a4f8-b184",
+          "name": "Champion Equipment"
+        }
+      ],
+      "id": "da04-0363-6ad9-d979",
+      "name": "Chaos Biker Champion"
+    }
+  ]
+}

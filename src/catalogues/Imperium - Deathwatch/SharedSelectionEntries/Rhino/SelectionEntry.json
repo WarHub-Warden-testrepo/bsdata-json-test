@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Rhino",
+    "prevIdentifier": "Razorback"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f1db-731c-fd79-519f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "19e3-aa6f-302f-fd36",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "76c7-c318-22cb-7b51",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "0ac0-48c2-e19d-faeb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a102-e08e-60d5-569e",
+          "id": "e015-809a-7542-750b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f8d6-6dbc-8935-e2db",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "558e-07ec-194a-fa9d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "eba4-945c-efd5-c493",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f49a-80cb-3a58-5065",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "fa1b-ab55-b603-6136",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "4fd6-85d8-bd22-cc32",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "bc3c-164c-4c7f-3f7e",
+      "name": "Rhino",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "467e-8016-386b-7b67",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "ea72-5976-d814-3c60",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d4ca-64f8-7af9-1503",
+          "id": "f789-6867-cd96-5564",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

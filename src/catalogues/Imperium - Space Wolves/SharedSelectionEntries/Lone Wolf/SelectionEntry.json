@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Lone Wolf",
+    "prevIdentifier": "Cyberwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4220-61de-ae0e-e43c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2458-aff9-da57-0daf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "0273-7a95-d474-a2b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "80f7-2dd2-0260-7c81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "464f-d223-f27d-641e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "52aa-c228-ef73-82b9",
+          "id": "8b89-94a7-e241-7439",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e19f-3a53-e91f-5b2c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a5c2-a682-bebc-17b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2cae-0d1a-3f33-6582",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "31a8-63c1-53a4-8436",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6066-e39b-4d82-6c36",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "313d-14e9-558a-ccad",
+          "name": "Warlord"
+        }
+      ],
+      "id": "ecb8-4d27-5121-cb2b",
+      "name": "Lone Wolf",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "6b44-a24b-e61c-a014",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2208-d10a-9b0c-29e3",
+          "id": "2921-ea35-e4c8-0cd6",
+          "name": "A Glorious Death..."
+        },
+        {
+          "targetId": "e397-e71a-033d-2111",
+          "id": "5cfa-3bd5-f867-3044",
+          "name": "...Worthy of a Saga"
+        },
+        {
+          "targetId": "6500-ec7b-81cb-8a1a",
+          "id": "8e80-99b6-99fd-ff85",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "dabb-fa86-646d-3c57",
+          "id": "41bc-319e-cc77-f954",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

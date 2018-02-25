@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Acolyte"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e671-1656-91d9-253e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "65f9-5a55-0706-c9af",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "99b3-550a-112d-3c2b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f0c3-fc7c-9971-be44",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8714-82ac-6b59-5cde",
+          "id": "a6d1-5709-bf4c-fad0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "767e-ca8d-5822-7bf8",
+      "name": "Acolyte"
+    }
+  ]
+}

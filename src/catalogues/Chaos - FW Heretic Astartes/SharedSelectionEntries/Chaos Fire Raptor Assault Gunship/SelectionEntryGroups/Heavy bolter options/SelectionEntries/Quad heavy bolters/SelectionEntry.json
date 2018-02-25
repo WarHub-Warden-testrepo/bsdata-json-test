@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Quad heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a9a9-3749-18be-f7e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "121a-1543-00dd-cf4b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c436-7b30-ac08-38a5",
+          "id": "9a1e-6260-45e1-8892",
+          "name": "Quad heavy bolter"
+        }
+      ],
+      "id": "8bce-2bb3-4929-c9f0",
+      "name": "Quad heavy bolters"
+    }
+  ]
+}

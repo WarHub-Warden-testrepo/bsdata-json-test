@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Avenger Strike Fighter",
+    "prevIdentifier": "Laspistol and Chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a06d-e6ac-003a-d1d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2050-b0ca-8e6c-2f99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "d6a5-14d2-5ac7-7dfc",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "id": "3cce-1a63-6bc5-563d",
+      "name": "Avenger Strike Fighter",
+      "infoLinks": [
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "c977-3a9e-f964-4933",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "b0eb-b9eb-b244-c9f8",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "7038-a73d-b7fa-e734",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "db5b-4486-cdb6-2dbd",
+          "name": "Airborne"
+        }
+      ]
+    }
+  ]
+}

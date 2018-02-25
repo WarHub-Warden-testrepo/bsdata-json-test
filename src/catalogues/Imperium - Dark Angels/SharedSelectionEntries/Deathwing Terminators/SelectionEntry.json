@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Deathwing Terminators",
+    "prevIdentifier": "Deathwing Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "244c-4a39-5d30-e1f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "621a-db57-605d-deb8",
+          "id": "0e4a-d719-b9ac-7f78",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e02e-fa34-80fa-addb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "faff-9d58-ec11-33ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "827b-0c57-4157-bc82",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "00db-4484-9669-e09c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eda8-1768-0a9c-6189",
+          "id": "2aa8-dba4-66aa-a5d8",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1f47-c287-f37d-7211",
+      "name": "Deathwing Terminators",
+      "infoLinks": [
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "c20c-34a1-cf16-5bcb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "26fe-39da-69e7-abb3",
+          "id": "a406-b2dc-1c02-0971",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b1f2-1d99-4aa0-aa9c",
+          "id": "0ac7-a911-19d6-399f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "c123-8642-d692-4201",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "25",
+          "conditions": [
+            {
+              "childId": "eb73-2c07-8cb4-9cf3",
+              "type": 4,
+              "field": "selections",
+              "scope": "1f47-c287-f37d-7211",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

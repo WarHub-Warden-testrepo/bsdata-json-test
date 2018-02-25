@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Special Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f9cc-4c43-7973-ca0d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d83f-64d0-8f8d-4905",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7aab-ce9a-5ed9-6c57",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a587-859f-dd5f-5f23",
+          "id": "f563-0825-eb96-6896",
+          "name": "Space Wolves Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1cf3-a59b-f545-bc7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "616c-8322-9fff-1aa9",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "618c-c7a9-f5da-a8c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "1251-fdeb-eb8a-b8c1",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "a8cc-01cb-c743-4faa",
+      "name": "Special Weapon"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Dire Avengers",
+    "prevIdentifier": "Rangers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "60dd-4e41-3ba5-2888",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "9fbc-7622-21f2-88c4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "ec8c-9bb0-95e8-8d26",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "a216-c14e-afe6-ca24",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f09d-c043-9331-30d7",
+          "id": "3ada-e46f-793e-b729",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "96b6-fb1f-1ab5-c73e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "56de-23a1-aa80-91f9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6ded-37e4-8fa0-a02d",
+          "id": "9c46-4acf-beb6-74ae",
+          "name": ""
+        }
+      ],
+      "id": "330c-452b-9923-5072",
+      "name": "Dire Avengers",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "30b9-88bf-3d97-bccb",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "1e8b-d53e-4758-babe",
+              "type": 1,
+              "field": "selections",
+              "scope": "330c-452b-9923-5072",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

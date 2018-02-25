@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Armoury of Baal",
+    "prevIdentifier": "Warlord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6b6d-f2a7-06a1-9916",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "3a8b-7441-1def-eec7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "e632-4176-36bf-a2ad",
+      "name": "Armoury of Baal"
+    }
+  ]
+}

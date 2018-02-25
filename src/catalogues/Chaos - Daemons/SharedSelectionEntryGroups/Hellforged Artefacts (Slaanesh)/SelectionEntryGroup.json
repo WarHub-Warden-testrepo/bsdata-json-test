@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Hellforged Artefacts (Slaanesh)",
+    "prevIdentifier": "Hellforged Artefacts (Nurgle)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bbd0-99dd-75bd-86d4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "39ff-1332-0a0a-539a",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bf3a-e82f-3612-0b4b",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "67ad-4ce5-de37-402a",
+          "id": "922f-03e3-27aa-9dcc",
+          "name": "The Slothful Claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2a51-9dc8-096f-177c",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "45aa-424e-ee56-341e",
+          "id": "8161-015d-35e7-0df9",
+          "name": "Soulstealer"
+        }
+      ],
+      "id": "532e-5b2b-c449-213a",
+      "name": "Hellforged Artefacts (Slaanesh)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "825e-be67-d23e-3e72",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "9a8e-6f0d-36d2-7b97",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "39ff-1332-0a0a-539a",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "9a8e-6f0d-36d2-7b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "39ff-1332-0a0a-539a",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "825e-be67-d23e-3e72",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "39ff-1332-0a0a-539a",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c488-0afe-c67e-2606",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

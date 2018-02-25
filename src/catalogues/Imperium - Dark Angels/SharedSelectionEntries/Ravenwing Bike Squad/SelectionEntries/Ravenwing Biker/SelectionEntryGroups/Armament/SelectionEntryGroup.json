@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "951c-026f-fee0-bcad",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4bb0-53f9-6b51-1604",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ea6b-cdd7-9d7d-626c",
+              "type": 1,
+              "field": "selections",
+              "scope": "037d-64b8-304c-3eed",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "88f0-6593-4582-09df",
+          "name": "Weapon"
+        }
+      ],
+      "id": "d2ca-adbf-cdbd-0a82",
+      "name": "Armament"
+    }
+  ]
+}

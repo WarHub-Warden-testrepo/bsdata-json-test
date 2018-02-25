@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "2 Hellstrike Missiles",
+    "prevIdentifier": "Tactical Bombs"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a3d0-a2ba-233d-2f34",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d92d-37fc-83f9-bb0d",
+      "name": "2 Hellstrike Missiles",
+      "infoLinks": [
+        {
+          "targetId": "390d-68dd-fa2b-5eb1",
+          "id": "dc1b-adfa-de7f-36b9",
+          "name": "Hellstrike Missile"
+        }
+      ]
+    }
+  ]
+}

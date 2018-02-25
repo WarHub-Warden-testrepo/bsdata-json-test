@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Space Marine Biker",
+    "prevIdentifier": "Biker Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "da98-ab73-12ae-6f10",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 7.0,
+          "shared": true
+        },
+        {
+          "id": "780a-e841-e2c0-f640",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "42d7-6d2f-b491-8cea",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5849-90e1-60c1-9fba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a0b1-ab28-436d-5983",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f8a3-2fc5-ebec-02d3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cd8e-7346-a12a-41b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a11f-8f20-5d2c-079a",
+          "id": "c8e6-c76f-02f0-222a",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "a3c9-13d9-5bed-0d18",
+      "name": "Space Marine Biker",
+      "infoLinks": [
+        {
+          "targetId": "2a33-915c-4284-fc5e",
+          "id": "5f19-6f3b-129a-3856",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

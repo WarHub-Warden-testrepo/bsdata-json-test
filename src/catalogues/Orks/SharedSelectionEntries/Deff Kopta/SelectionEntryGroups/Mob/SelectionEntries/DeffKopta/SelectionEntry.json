@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "DeffKopta"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ad7e-5851-7cc3-bb91",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c8a1-49f7-f886-4447",
+          "id": "4717-a3ef-ea05-7673",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c5e3-47e9-7352-9c33",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f15a-fc8e-65b1-e4b8",
+          "id": "f928-dea0-b5a7-fe2e",
+          "name": "Killsaw"
+        }
+      ],
+      "id": "8dde-f5ad-2a3c-f2aa",
+      "name": "DeffKopta"
+    }
+  ]
+}

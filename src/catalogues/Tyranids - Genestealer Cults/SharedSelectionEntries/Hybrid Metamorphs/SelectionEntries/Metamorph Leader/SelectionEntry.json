@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Metamorph Leader",
+    "prevIdentifier": "Hybrid Metamorph"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "70ac-49eb-89df-9327",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c923-692a-18ab-53c9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1b43-71a9-8203-94bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5135-8801-e158-7591",
+          "id": "4eeb-1e02-8bfb-cdce",
+          "name": "Bonesword"
+        }
+      ],
+      "id": "7da5-7f59-3333-a33c",
+      "name": "Metamorph Leader"
+    }
+  ]
+}

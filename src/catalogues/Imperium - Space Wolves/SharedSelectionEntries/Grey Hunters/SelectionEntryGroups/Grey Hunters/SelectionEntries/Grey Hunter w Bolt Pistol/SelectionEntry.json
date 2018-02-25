@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "identifier": "Grey Hunter w/Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a5d2-c34c-209a-e754",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "3dfd-7e44-56f2-c2a3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b375-ba5c-eaed-5a6e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2055-b7f0-d4a1-86a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "290d-d647-0dbf-1239",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab94-cae4-a2c7-b095",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed28-37fd-27b9-d55b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "0e91-32fd-ba83-b02e",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fc8f-6dc1-3b75-e83a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6c6f-bce9-9819-3982",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "1994-3193-f7a6-ebc4",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "53c9-1092-bafc-4352",
+      "name": "Grey Hunter w/Bolt Pistol",
+      "infoLinks": [
+        {
+          "targetId": "199b-812b-edfd-4493",
+          "id": "b039-bf56-babb-6284",
+          "name": "Grey Hunter"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "a5d2-c34c-209a-e754",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "97b4-a43a-9131-9a88",
+              "type": 4,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "a5d2-c34c-209a-e754",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "7c36-446f-9b97-299a",
+              "type": 4,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

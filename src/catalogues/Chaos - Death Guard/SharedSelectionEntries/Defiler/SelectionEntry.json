@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "identifier": "Defiler",
+    "prevIdentifier": "Daemon Prince of Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "1eac-cd86-fbf1-b28e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "b893-69ce-8a50-eedd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c35d-97e7-5b2a-0a70",
+          "id": "1a30-dc53-c197-1d63",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "c87b-d6b9-9b95-de45",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9c74-0ffb-df21-a8a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "1883-237e-4087-090a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "2f81-c96a-ca40-dd7a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "e24a-2ad4-6ea1-d977",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5dbc-e607-0dce-b9f0",
+          "id": "6155-ff21-ce0d-5024",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "5383-9a88-9883-e144",
+          "id": "0cd7-e061-3471-eb96",
+          "name": "Combi-weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "208a-c28e-1d19-ce05",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7bb8-0882-739f-b242",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a8f6-49e7-ea35-aca5",
+          "id": "1f5f-6312-4edd-d675",
+          "name": "Smoke launchers"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b59f-bab0-2bd5-d993",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bd4f-702c-1c2f-3c33",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d7b-4f46-b77b-ead1",
+          "id": "e325-f843-faa1-0750",
+          "name": "Battle cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "67df-ff04-b483-f1c3",
+      "name": "Defiler",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "5511-cb37-e1c1-5391",
+          "id": "c736-96a1-f303-347b",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "5528-f83b-71b3-0383",
+          "id": "7890-822a-4a71-8c31",
+          "name": "Infernal Regeneration"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "e096-2e7a-fdc8-702d",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

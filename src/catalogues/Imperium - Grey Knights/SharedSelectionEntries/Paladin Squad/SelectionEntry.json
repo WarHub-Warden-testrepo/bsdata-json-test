@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "identifier": "Paladin Squad",
+    "prevIdentifier": "Paladin Ancient"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "00b0-2367-bdef-5371",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "f1b5-1bd2-e260-17bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "e49e-0913-5ee1-b489",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "1cd8-56b0-e973-7f67",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2821-762a-49dc-5a17",
+          "id": "2b2c-6c4f-3af0-9cc6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "c9b2-673b-62b0-9c63",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c7d8-536c-3b96-4ceb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3ede-d9a4-9225-cc04",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e485-f89d-551e-d749",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "33ae-25f1-20e9-3608",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3328-11af-e57d-0fbc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37bc-bbf1-18fd-7294",
+          "id": "f511-3627-bfa9-09fb",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "f9cb-7422-ee9c-7918",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "feb0-e13f-7b59-7e07",
+      "name": "Paladin Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8d06-0592-7c88-d357",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "89b7-016e-f8cd-a195",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "1fd8-d845-b2e3-30a5",
+          "name": ""
+        },
+        {
+          "type": 1,
+          "targetId": "a29c-ad1e-441b-2167",
+          "id": "6ac9-a963-fd13-e3b9",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "c6ef-0714-ae87-6781",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "b6bb-8129-1b30-4d52",
+          "id": "2cfb-7e09-8bec-4a65",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "c8f6-f141-0dd6-60c8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "d7fb-c77a-e10f-c33a",
+          "name": "Smite (Rites of Banishment)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "a313-e2fe-afb2-600a",
+              "type": 1,
+              "field": "selections",
+              "scope": "feb0-e13f-7b59-7e07",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "a313-e2fe-afb2-600a",
+              "type": 1,
+              "field": "selections",
+              "scope": "feb0-e13f-7b59-7e07",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

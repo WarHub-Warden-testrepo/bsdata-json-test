@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Svangir & Ulfgir",
+    "prevIdentifier": "Ulfgir"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6565-4b3d-46da-4117",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "14db-a764-c1fd-3cee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5231-dca8-f3d1-58cf",
+          "id": "0522-f2a1-e9ad-6bbe",
+          "name": "Svangir"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6fa5-692b-a7c7-7224",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "08b8-a1d6-0f18-fd7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "63ec-0e60-3828-fcb8",
+          "id": "e6cc-093d-4f55-b713",
+          "name": "Ulfgir"
+        }
+      ],
+      "id": "ea66-1247-bc37-2761",
+      "name": "Svangir & Ulfgir"
+    }
+  ]
+}

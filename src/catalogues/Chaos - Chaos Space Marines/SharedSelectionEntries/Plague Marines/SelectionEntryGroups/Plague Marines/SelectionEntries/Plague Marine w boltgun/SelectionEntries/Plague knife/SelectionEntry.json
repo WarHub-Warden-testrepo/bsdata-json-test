@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Plague knife"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "acb0-0d6b-6d7a-e0e7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ce08-0d58-2349-09d8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "0805-749d-a8aa-dc3a",
+      "name": "Plague knife",
+      "infoLinks": [
+        {
+          "targetId": "b62d-7cc2-1b2a-ca61",
+          "id": "c045-0528-263f-8eb1",
+          "name": "Plague knife"
+        }
+      ]
+    }
+  ]
+}

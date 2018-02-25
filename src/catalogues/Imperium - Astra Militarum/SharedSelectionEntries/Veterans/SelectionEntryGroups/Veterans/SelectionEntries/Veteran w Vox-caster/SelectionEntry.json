@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Vox-caster",
+    "prevIdentifier": "Veteran w/ Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b1f2-2b89-ec4f-393e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3efc-157f-ba75-9286",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5563-fe60-717b-e5b6",
+          "id": "c98e-6455-0e17-94ca",
+          "name": "Vox-caster"
+        }
+      ],
+      "id": "5dab-48e6-6557-4384",
+      "name": "Veteran w/ Vox-caster",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "13ca-0e30-6ec8-ef8e",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

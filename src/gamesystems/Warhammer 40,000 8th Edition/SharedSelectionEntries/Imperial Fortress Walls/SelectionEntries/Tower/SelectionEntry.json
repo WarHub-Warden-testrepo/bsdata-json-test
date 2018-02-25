@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Tower",
+    "prevIdentifier": "Wall Section"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1976-84ec-2456-4ab5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "d26c-78ff-aba4-7741",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "35a0-9b59-2eeb-7931",
+      "name": "Tower",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "d26c-78ff-aba4-7741",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8231-109e-5912-82ce",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "6267-6959-b9ec-4a6b",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

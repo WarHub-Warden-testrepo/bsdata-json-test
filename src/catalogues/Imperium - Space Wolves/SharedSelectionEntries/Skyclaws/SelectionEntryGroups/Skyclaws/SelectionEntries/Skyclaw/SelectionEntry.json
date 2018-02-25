@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "identifier": "Skyclaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "527a-a651-a6ef-c06f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "e9b2-7af1-c2d6-af5e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "65c9-9287-0c48-f72d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ff64-5fb3-81dd-d049",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1cf1-4492-ec35-4771",
+          "id": "d698-5e92-2798-987b",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "faf8-4415-162a-0a77",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "faca-94a6-1b04-f4ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "4a1f-83ee-af75-50c0",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d2f1-c8a2-f2ec-ee91",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "90dd-9631-30c7-6fea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6b12-19e5-3352-aaa1",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d72b-bfd5-2a0e-cabe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a8a4-f457-a8f6-56a6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6526-7fe0-debf-dde0",
+          "id": "667a-39ff-72f4-763f",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "25f3-8457-efd5-f985",
+      "name": "Skyclaw",
+      "infoLinks": [
+        {
+          "targetId": "58a1-4e30-6ccc-92b1",
+          "id": "abfe-0435-d944-9a44",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e9b2-7af1-c2d6-af5e",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "2939-c944-581c-46ba",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "527a-a651-a6ef-c06f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "2939-c944-581c-46ba",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Right Arm",
+    "prevIdentifier": "Left Arm"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "481a-0887-c52b-6ddb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbf3-284a-e537-6672",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8e5d-5022-adb9-3586",
+      "name": "Right Arm"
+    }
+  ]
+}

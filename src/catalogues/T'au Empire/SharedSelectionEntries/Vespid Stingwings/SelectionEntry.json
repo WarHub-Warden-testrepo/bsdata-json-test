@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Vespid Stingwings",
+    "prevIdentifier": "Tactical Drones"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "4a18-b57f-26a8-e026",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "b791-41e5-f623-ea8b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0578-9e9f-ca24-ca5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "69b9-c23b-c812-a5d4",
+          "id": "ebd6-02a4-5152-b361",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "83da-a8b0-3e50-b67c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "45fa-bf0d-57dd-cede",
+      "name": "Vespid Stingwings",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "b981-93e2-e804-960d",
+          "id": "a544-9ecc-de7d-7b3d",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "e545-3ce6-e883-b606",
+              "type": 4,
+              "field": "selections",
+              "scope": "45fa-bf0d-57dd-cede",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "e545-3ce6-e883-b606",
+              "type": 4,
+              "field": "selections",
+              "scope": "45fa-bf0d-57dd-cede",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

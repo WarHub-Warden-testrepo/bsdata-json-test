@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Fire on My Command!",
+    "prevIdentifier": "Burn Them Out!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "The ordered unit can shoot at enemy units that are within 1\" of friendly units until the end of the phase, but each time you roll a hit roll of 1 for such an attack, resolve that attack against a friendly unit within 1\" of the target unit instead. You may choose which friendly unit is hit. This order may not be issued to a unit which is within 1\" of an enemy unit."
+        }
+      ],
+      "id": "3cea-ab2f-777b-6d98",
+      "name": "Fire on My Command!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "8efe-03b2-98ce-04a7",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

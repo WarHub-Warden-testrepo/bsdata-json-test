@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Arvus Lighter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "665a-8d0a-4f44-48e8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "64fb-7bae-04a4-39c0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "6c34-41c8-4651-a728",
+          "id": "fc6c-278e-15ff-470b",
+          "name": "Flyer Weapons"
+        }
+      ],
+      "id": "fb6f-8753-9b3f-f04d",
+      "name": "Arvus Lighter",
+      "infoLinks": [
+        {
+          "targetId": "4eee-a7e2-9e12-31c1",
+          "id": "0530-4e54-17c0-c46e",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "1733-a037-8fb3-9c63",
+          "id": "8a29-48c5-5e59-8c23",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "2b35-2ac1-3d64-0808",
+          "id": "b1c0-6a41-4977-7b07",
+          "name": "Hard to Hit"
+        }
+      ]
+    }
+  ]
+}

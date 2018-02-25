@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "AX-5-2 Barracuda",
+    "prevIdentifier": "DX6 Remora Stealth Drone Squadron"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "680b-b430-a725-8db4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "6446-1437-f10a-b413",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "ba74-ed12-b4c9-31a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4b75-ba7f-388d-7b90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "5e1d-9ec5-21dd-9ade",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1e52-d6e5-4a65-ea8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "5e5d-675e-965d-a16e",
+          "name": "Seeker missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1fb2-1208-8278-bd30",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8393-b782-6945-f8e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b74-0d49-4217-1774",
+          "id": "edff-ede7-121d-deef",
+          "name": "Missile pod"
+        }
+      ],
+      "id": "6d93-812c-1b53-747f",
+      "name": "AX-5-2 Barracuda",
+      "infoLinks": [
+        {
+          "targetId": "e93a-e849-5387-ee86",
+          "id": "cbf5-1e04-4b52-f3aa",
+          "name": "AX-5-2 Barracuda"
+        },
+        {
+          "targetId": "5fe8-bbc0-0515-e8ac",
+          "id": "3e91-4586-32f8-6155",
+          "name": "AX-5-2 Barracuda 1"
+        },
+        {
+          "targetId": "39e9-a7a8-a86e-0476",
+          "id": "881f-19ee-a8aa-c2c9",
+          "name": "AX-5-2 Barracuda 2"
+        },
+        {
+          "targetId": "4922-1748-3062-7de6",
+          "id": "bd24-87eb-5d3f-0d0e",
+          "name": "AX-5-2 Barracuda 3"
+        },
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "f80b-5690-c1af-f4df",
+          "name": "Airborne"
+        },
+        {
+          "type": 1,
+          "targetId": "b87e-f61b-3e08-09aa",
+          "id": "e929-a292-796a-7563",
+          "name": "Crash and Burn"
+        },
+        {
+          "type": 1,
+          "targetId": "9caa-ff00-a5bd-5f04",
+          "id": "91c3-76dd-a413-0cce",
+          "name": "Hard to Hit"
+        },
+        {
+          "type": 1,
+          "targetId": "340c-3f2a-89d5-2b85",
+          "id": "6794-7ad2-5280-d71e",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "2e3b-6ff3-27ae-2cc0",
+          "id": "87a2-0c9f-8683-0526",
+          "name": "Barracuda Dispersion Field"
+        }
+      ]
+    }
+  ]
+}

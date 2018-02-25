@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Tartaros Terminator Squad",
+    "prevIdentifier": "Cataphractii Terminator Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1dbc-bf49-6905-addd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "555d-c945-1669-b1b2",
+          "id": "cf9e-9de3-e550-5cab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3c9a-c7ba-4ea1-6fea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ccf0-9ae7-ef7c-b5d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "d87c-0340-ccbc-dcfb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a47d-282a-9e49-a5a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c300-04a5-d4eb-3f53",
+          "id": "7012-d741-df97-ec3c",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "a47d-282a-9e49-a5a8",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "c941-4c13-2f96-8f01",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "4c43-da85-baa1-b096",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "4c43-da85-baa1-b096",
+      "name": "Tartaros Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "49dd-3a75-89af-6c82",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "354d-2af2-6b79-c2da",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "1349-9fd4-f567-bb81",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "dc14-c594-6abc-3e0a",
+          "id": "6337-699b-6d9a-62cb",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "c941-4c13-2f96-8f01",
+              "type": 4,
+              "field": "selections",
+              "scope": "4c43-da85-baa1-b096",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

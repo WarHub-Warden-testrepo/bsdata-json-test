@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Gifts of Chaos (1 Relic)",
+    "prevIdentifier": "Warlord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "191d-dd2b-f5e4-963b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "6c8c-0e8b-d774-cd71",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0b83-3a3f-078a-8a13",
+      "name": "Gifts of Chaos (1 Relic)",
+      "modifiers": [
+        {
+          "field": "191d-dd2b-f5e4-963b",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a59c-245b-0fff-5543",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

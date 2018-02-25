@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Weapon Option 3",
+    "prevIdentifier": "Weapon Option 2"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3d02-6e67-2878-cd64",
+      "constraints": [
+        {
+          "id": "a00d-0f43-7534-e72b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c21f-5d2d-d60f-0647",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c0f7-9881-973a-1a8b",
+          "id": "8fb1-efc9-d10a-bee6",
+          "name": "Onslaught Gatling Cannon"
+        },
+        {
+          "targetId": "5420-1ee8-5e2f-b5a0",
+          "id": "3d02-6e67-2878-cd64",
+          "name": "Ironhail Heavy Stubber"
+        }
+      ],
+      "id": "24f1-eea4-1e6d-c0e7",
+      "name": "Weapon Option 3"
+    }
+  ]
+}

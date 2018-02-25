@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Two Twin Multi-Meltas",
+    "prevIdentifier": "Two Twin Heavy Bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f997-9ecd-6e6f-019f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2204-4c7b-1cd3-025f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d496-bdd5-426e-3e80",
+          "id": "c4fc-b8f5-a049-d824",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5c64-04d0-fa9a-d3bc",
+      "name": "Two Twin Multi-Meltas"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Macharius Omega",
+    "prevIdentifier": "Macharius Heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 355.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f63f-e182-ec15-bbed",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "433c-324e-1409-c1a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "87dc-38e5-9a83-1250",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "ec58-6c05-ce45-470f",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "8a94-f806-d08c-411d",
+      "name": "Macharius Omega",
+      "infoLinks": [
+        {
+          "targetId": "9ed4-5448-3e55-cebf",
+          "id": "7628-a8d8-0cf2-e420",
+          "name": "Macharius Tank"
+        },
+        {
+          "targetId": "edfc-3252-b135-99d6",
+          "id": "4ac2-384d-d93f-4a15",
+          "name": "Macharius Tank"
+        },
+        {
+          "targetId": "0e17-408f-2a01-a7bd",
+          "id": "b592-3fde-439b-6913",
+          "name": "Macharius Tank 1"
+        },
+        {
+          "targetId": "fdf2-a8ba-efd3-2308",
+          "id": "2396-0389-bfcb-463a",
+          "name": "Macharius Tank 2"
+        },
+        {
+          "targetId": "82fe-f0a5-6acc-42a2",
+          "id": "8e9c-d9ee-f5f5-6246",
+          "name": "Macharius Tank 3"
+        },
+        {
+          "targetId": "7aa0-421d-1067-58a5",
+          "id": "9e90-196a-fef9-1725",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "39cc-ba71-f87e-010d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "7ec4-03b3-3612-0cfd",
+          "id": "94db-6fb6-4ce0-8331",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

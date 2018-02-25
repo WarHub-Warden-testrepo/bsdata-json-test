@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Minotaur Artillery Tank",
+    "prevIdentifier": "Heavy Mortar Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 280.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0be1-0748-19a0-981a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "6daf-e010-558b-bf90",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "e159-bd3a-505c-d6c3",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "031a-e2e5-41bb-dffe",
+      "name": "Minotaur Artillery Tank",
+      "infoLinks": [
+        {
+          "targetId": "7aa0-421d-1067-58a5",
+          "id": "d1bc-1f09-a8da-9c37",
+          "name": "Explodes (Super-Heavy)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "c680-cf08-ec1b-ca85",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

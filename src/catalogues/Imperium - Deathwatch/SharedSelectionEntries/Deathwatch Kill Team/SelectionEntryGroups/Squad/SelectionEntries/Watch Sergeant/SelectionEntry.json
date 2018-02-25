@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Watch Sergeant",
+    "prevIdentifier": "Deathwatch Veteran"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8c93-2021-966b-0ead",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "503a-d455-84f0-5ae1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "79ab-01c4-09a9-eef3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1261-f056-50f2-e978",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "159c-7911-deab-2ae9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2792-c0fb-d72e-cee4",
+          "id": "5ba1-d4c7-a92b-7574",
+          "name": "Combat shield"
+        }
+      ],
+      "id": "4890-5729-8e4d-8dc6",
+      "name": "Watch Sergeant"
+    }
+  ]
+}

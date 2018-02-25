@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Havoc w/ special weapon",
+    "prevIdentifier": "Havoc w/ heavy weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c4d8-e4fe-8cfc-dcb6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a105-7135-15d0-dc3d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b702-1890-8bc3-92ff",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3e58-8413-dfa7-6a19",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "16fd-e0fc-a40a-a436",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6c28-ef44-795d-3ea5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "d7f9-5938-864c-232a",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b549-fdae-9503-ca2a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d68b-1f73-3faa-0a28",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a44b-4b4d-46b5-d3a6",
+          "id": "c1ca-1024-7c92-676d",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "51fd-e6c0-5fc0-77d8",
+      "name": "Havoc w/ special weapon",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "c4d8-e4fe-8cfc-dcb6",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "d2cc-2897-abf3-2aff",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "f7d5-82fa-df6a-b9e2",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

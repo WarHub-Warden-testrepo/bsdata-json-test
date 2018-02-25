@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Pulsed Laser Discharge"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2bb7-b171-60fa-13e9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7e2d-e78e-e80b-c0b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "db58-106b-2d85-9353",
+      "name": "Pulsed Laser Discharge"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Swiftclaw Attack Bike",
+    "prevIdentifier": "Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ae5d-a9ce-f306-99e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "10bb-2edc-d49b-00aa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "91ac-ddf6-e8f1-2f33",
+          "id": "c540-0704-63a6-16ea",
+          "name": "Attack Bike"
+        }
+      ],
+      "id": "581b-c5df-810f-b02c",
+      "name": "Swiftclaw Attack Bike",
+      "infoLinks": [
+        {
+          "targetId": "b0d4-81e3-104b-a4e2",
+          "id": "511a-3d97-0396-d0d3",
+          "name": "Swiftclaw Attack Bike"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "4843-9127-db0c-d779",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "identifier": "Possessed",
+    "prevIdentifier": "Chosen"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "ef51-3b55-a47e-9ff2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "b1e0-c257-a1d6-c715",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "635d-874f-e48d-2a8b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "5b04-0506-2b4c-bc1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "650c-bcd3-aeb8-3b44",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0f00-0b5a-f2a3-a404",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "72d0-fb41-eceb-357d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "5b19-ed18-5e2a-1a40",
+          "name": "Mark of Chaos"
+        },
+        {
+          "constraints": [
+            {
+              "id": "48d4-4456-6d36-8bdb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b82-0948-eac4-b35f",
+          "id": "8f71-d85b-73ca-4804",
+          "name": "Icon of Excess",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "81f9-01f6-e82e-7eec",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "429c-a1b7-b65a-0358",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa03-4e13-9c91-87f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "b213-14bc-253f-3a5a",
+          "name": "Icon of Flame",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "57d0-d6cb-db5a-2142",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "429c-a1b7-b65a-0358",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3a17-9272-91d0-e904",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eab4-cf83-7555-b8c3",
+          "id": "dce2-6b58-a866-5124",
+          "name": "Icon of Vengeance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfe4-7311-dbd5-c9e1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "429c-a1b7-b65a-0358",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0f42-208e-d369-38f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4925-fdaf-aee3-c408",
+          "id": "e9b2-0a6f-3626-b0c0",
+          "name": "Icon of Wrath",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c919-21bc-48b7-0423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "429c-a1b7-b65a-0358",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fe17-b1df-1b8c-b9cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "babe-1516-fb68-2b8d",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "34a8-8285-a3c2-f4e6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "429c-a1b7-b65a-0358",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "429c-a1b7-b65a-0358",
+      "name": "Possessed",
+      "infoLinks": [
+        {
+          "targetId": "94f5-82c3-bb66-ac0c",
+          "id": "9f8b-8a4d-83a2-c1f7",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "494f-6064-ca0f-9507",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "429c-a1b7-b65a-0358",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "429c-a1b7-b65a-0358",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

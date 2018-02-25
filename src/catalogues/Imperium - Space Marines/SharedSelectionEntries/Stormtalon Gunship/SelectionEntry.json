@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Stormtalon Gunship",
+    "prevIdentifier": "Stormhawk Interceptor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6908-0ef6-679c-4055",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a058-b497-1f1b-b081",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "aa8a-2832-5cf7-168b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1058-7fba-7a4b-ae4b",
+          "id": "8120-6189-ece3-ca71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "441f-eaf9-1ff7-a737",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0e3b-661b-cf9a-0f7d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bc55-984b-7549-ac51",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "6ec1-28cc-6892-b58d",
+          "name": "Twin assault cannon"
+        }
+      ],
+      "id": "0775-5d48-0c00-f53f",
+      "name": "Stormtalon Gunship",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "5081-a4cd-add7-7b62",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "6dc4-b2fd-a1e1-9832",
+          "id": "dbb9-c7cc-9459-96f1",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "94b4-a3ac-b2c9-df93",
+          "id": "4464-8ae8-2452-493e",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9caa-ff00-a5bd-5f04",
+          "id": "730b-7d10-924c-42d5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ff68-151c-f4b2-1f97",
+          "id": "f2ce-a95c-055f-bf12",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "93fd-f537-0273-01aa",
+          "id": "27b8-ea0d-70b7-4466",
+          "name": "Straifing Run"
+        }
+      ]
+    }
+  ]
+}

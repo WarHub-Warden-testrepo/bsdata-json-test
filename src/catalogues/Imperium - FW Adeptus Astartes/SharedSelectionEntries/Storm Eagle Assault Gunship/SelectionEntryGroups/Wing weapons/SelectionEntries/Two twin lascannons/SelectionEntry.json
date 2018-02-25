@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two twin lascannons",
+    "prevIdentifier": "Two twin hellstrike launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "45c6-732e-c481-0512",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5328-a6a8-c701-8e9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "47bf-1c8d-ca44-f878",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b870-99d7-df15-97da",
+          "id": "fafa-00a3-7741-8231",
+          "name": "Twin lascannon"
+        }
+      ],
+      "id": "3675-75a3-f059-e927",
+      "name": "Two twin lascannons"
+    }
+  ]
+}

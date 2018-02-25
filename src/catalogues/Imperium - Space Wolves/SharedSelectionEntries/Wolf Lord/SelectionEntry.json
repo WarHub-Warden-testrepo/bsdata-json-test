@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "identifier": "Wolf Lord",
+    "prevIdentifier": "Venerable Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0b64-0d71-dcdf-813e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "89fc-a4bc-ee8a-46ad",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "50d3-241c-1779-74d2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "4ada-5a85-52eb-26cc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "183f-ad4d-283b-2b04",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4da-9e6e-8a6c-4892",
+          "id": "e5fc-0ff1-8fa0-4c41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "48b0-0e10-a1f2-489a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e7d3-b45e-f629-e8cb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "461d-626d-0052-c024",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5b8b-6941-e453-6a22",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b42c-807e-cda8-9e4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "30a0-3051-6b4d-442f",
+          "id": "625b-5cea-a7f4-2b8e",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "19"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "103d-4463-1349-f3cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "32bc-fb52-b064-3826",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4970-58b6-ccab-0963",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "cfca-038e-2e0b-a2e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed66-360b-493b-595d",
+          "id": "6438-cc66-7d3e-e524",
+          "name": "Wolf Lord Melee Weapon",
+          "modifiers": [
+            {
+              "field": "4970-58b6-ccab-0963",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "4d28-0ebb-3015-a8f1",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "cfca-038e-2e0b-a2e8",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "4d28-0ebb-3015-a8f1",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c9ff-8ef8-652e-99e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "31de-bd27-1269-d2b9",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "235f-5a21-627c-9fc5",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "1f62-8d75-a6a9-7a91",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "235f-5a21-627c-9fc5",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1dc8-881a-2fdd-22cd",
+      "name": "Wolf Lord",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "604c-53cb-4ccd-159f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "295e-5506-a6ee-36e4",
+          "id": "efc5-de89-6f1f-9aff",
+          "name": "Belt of Russ"
+        },
+        {
+          "targetId": "0664-31c9-63b3-2a81",
+          "id": "29d3-80a2-a895-333b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged/Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f632-d498-5668-d8c3",
+      "constraints": [
+        {
+          "id": "7796-a949-675e-4e66",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f1de-2ea0-112a-5db3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "07f2-9938-c4c7-79cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "c69a-7c46-6a70-cfd1",
+          "name": "Power sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "72db-376b-c12c-375e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "f632-d498-5668-d8c3",
+          "name": "Relic blade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "86af-96fe-ec56-83d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "83af-fec2-4536-a149",
+          "name": "Chainfist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c9b4-6e85-9cc1-b60a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "b5f8-8870-d25a-c896",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b6ef-ec6e-f9ab-796b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "4071-f5e2-ec86-a309",
+          "id": "b219-71f2-bc0e-c013",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5199-4d04-4904-9edd",
+      "name": "Melee weapon"
+    }
+  ]
+}

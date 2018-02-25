@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Tiger Shark Fighter-bomber",
+    "prevIdentifier": "AX-5-2 Barracuda"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 245.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 21.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "2d93-72ef-7d90-c196",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "794d-b917-d21c-6505",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1ddd-fd65-fd1d-ea12",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "766e-2080-28bd-c024",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "5132-dae0-8ac1-c74a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4375-6bed-666d-270b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "3e2d-b722-e55b-10d1",
+          "name": "Seeker missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "29b4-9a6f-a0cb-bde3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6224-33f6-1a1b-7ad7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4b74-0d49-4217-1774",
+          "id": "7d57-e59f-ee6d-492e",
+          "name": "Missile pod"
+        }
+      ],
+      "id": "813d-efb3-dcc7-2ec4",
+      "name": "Tiger Shark Fighter-bomber",
+      "infoLinks": [
+        {
+          "targetId": "6b8c-47d1-3e08-11d7",
+          "id": "79c9-0455-0951-b209",
+          "name": "Tiger Shark 1"
+        },
+        {
+          "targetId": "3345-53d8-83fd-7aee",
+          "id": "9ca7-8cb3-59e8-deef",
+          "name": "Tiger Shark 2"
+        },
+        {
+          "targetId": "8436-fc0c-9d3a-6a3e",
+          "id": "66b9-7c37-667a-f3d3",
+          "name": "Tiger Shark 3"
+        },
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "989a-0a42-3b50-0f8b",
+          "name": "Airborne"
+        },
+        {
+          "type": 1,
+          "targetId": "9caa-ff00-a5bd-5f04",
+          "id": "b395-c335-81fc-1405",
+          "name": "Hard to Hit"
+        },
+        {
+          "type": 1,
+          "targetId": "cad1-0d6e-b6d3-adee",
+          "id": "6661-eaeb-bc06-c10e",
+          "name": "Supersonic (Tiger Shark, Orca Dropship)"
+        },
+        {
+          "type": 1,
+          "targetId": "e2ec-faa8-b909-beb7",
+          "id": "28d9-df0c-2b95-ed41",
+          "name": "Crash and Burn (Tiger Shark)"
+        },
+        {
+          "targetId": "21f7-9e0a-acd9-95d7",
+          "id": "547d-e937-c627-f49f",
+          "name": "Tiger Shark Dispersion Field"
+        },
+        {
+          "targetId": "73fd-f891-2246-739b",
+          "id": "d40c-46f6-e907-88fa",
+          "name": "Tiger Shark"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Webway Shunt Generator",
+    "prevIdentifier": "Catastrophic Collapse"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "79f0-af0a-fe06-c19a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4c60-8747-606d-d812",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9b43-7a1e-4c4f-d30e",
+      "name": "Webway Shunt Generator"
+    }
+  ]
+}

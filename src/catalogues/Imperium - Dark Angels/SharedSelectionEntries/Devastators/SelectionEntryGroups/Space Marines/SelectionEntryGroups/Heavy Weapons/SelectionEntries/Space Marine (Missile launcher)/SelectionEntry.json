@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Missile launcher)",
+    "prevIdentifier": "Space Marine (Heavy Bolter)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c55e-e46d-cadd-2673",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1eaa-396d-3fa9-438b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f633-3357-9365-9c8f",
+          "id": "f9e7-0aff-080e-bb77",
+          "name": "Missile launcher"
+        }
+      ],
+      "id": "6a35-4c69-0d3f-7237",
+      "name": "Space Marine (Missile launcher)",
+      "infoLinks": [
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "1b15-332d-15fb-16ff",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Hunter-killer Missile",
+    "prevIdentifier": "Storm Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fc25-ce72-8dea-e12f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a0ed-6aec-4735-5c96",
+      "name": "Hunter-killer Missile",
+      "infoLinks": [
+        {
+          "targetId": "e2a9-e8fc-3a6b-2eec",
+          "id": "c653-5599-c1b4-a3c8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

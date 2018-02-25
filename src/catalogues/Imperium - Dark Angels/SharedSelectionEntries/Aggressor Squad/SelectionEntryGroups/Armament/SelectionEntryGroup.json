@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a63f-7eb4-cab9-7719",
+      "constraints": [
+        {
+          "id": "ec94-2a9e-1ba0-50f9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "d87f-5939-b411-9914",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "097d-b119-c2e6-04e9",
+          "id": "158b-ffbd-293e-e6cd",
+          "name": "Flamestorm Gauntlets",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18",
+              "repeats": [
+                {
+                  "childId": "b993-9af6-5bd8-0414",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "14a0-2401-84ce-ee69",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c2f3-d916-8886-e08d",
+      "name": "Armament"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Engineer Weapons Team",
+    "prevIdentifier": "Engineer with Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9606-b3d2-3dcd-6f62",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "ff12-4f22-79fe-13c7",
+          "id": "56b1-38a2-769e-2a7c",
+          "name": "Acid Gas Bomb"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7300-7893-0c8f-72e7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "81a8-9b5f-18c3-7c92",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9209-e5e5-aecc-b06f",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "14c5-9c94-31e8-2963",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c6ea-d88a-4e39-fe68",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a4df-840e-0ad4-0bf4",
+          "id": "6b30-f174-acdc-5a72",
+          "name": "Kreig Combat Shotgun"
+        }
+      ],
+      "id": "c441-c802-8998-5cb2",
+      "name": "Engineer Weapons Team",
+      "infoLinks": [
+        {
+          "targetId": "8bf5-ca23-1643-a3f8",
+          "id": "72d4-b608-db21-85ab",
+          "name": "Death Korps Engineer Weapons Team"
+        }
+      ]
+    }
+  ]
+}

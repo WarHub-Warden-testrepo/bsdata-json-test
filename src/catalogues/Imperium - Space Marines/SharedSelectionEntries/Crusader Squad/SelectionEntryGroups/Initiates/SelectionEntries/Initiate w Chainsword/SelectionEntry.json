@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Initiate w/Chainsword",
+    "prevIdentifier": "Initiate w/Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cdbb-358a-973b-6454",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bf32-cb84-c327-ebf8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "e9de-5665-6e95-099b",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc82-eb6c-1fc3-6520",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8947-9514-0418-11cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a7b9-262c-2c92-f9db",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1c0b-ce9b-0439-baa3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3410-d38e-3a68-6a1a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "f78b-c572-8def-b9c3",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "a9dc-6a55-6e4d-2048",
+      "name": "Initiate w/Chainsword"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Storm Guardian - Special Weapon",
+    "prevIdentifier": "Storm Guardian - Power Sword (INDEX)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a429-b711-da26-586c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9e71-97d2-86f1-f0f0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7067-a251-54a2-ae9a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "1b67-ae16-1e03-b5b3",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "37f7-87e7-e12f-4dab",
+      "name": "Storm Guardian - Special Weapon"
+    }
+  ]
+}

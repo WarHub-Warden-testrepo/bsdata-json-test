@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Marauder Bomber",
+    "prevIdentifier": "Dominus Armoured Siege Bombard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 252.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6f8d-582d-9e5c-0508",
+          "id": "ff1c-a4ee-845e-e620",
+          "name": "Stat Damage (Marauder)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e798-1475-795d-26bc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "3eef-1038-f875-56f2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "10d4-2ed5-3c07-f61f",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "93c5-31c4-2b60-483e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "25b9-b68b-6021-b254",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "39d3-463b-611a-d34e",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "8398-37a1-87fe-6174",
+      "name": "Marauder Bomber",
+      "infoLinks": [
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "71e9-7ed8-583c-d108",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "a4b7-5014-47b1-c5ef",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "dd5a-85ec-00c5-c959",
+          "name": "Crash and Burn"
+        }
+      ]
+    }
+  ]
+}

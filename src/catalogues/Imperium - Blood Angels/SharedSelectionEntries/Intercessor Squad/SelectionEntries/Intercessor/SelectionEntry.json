@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7293-0bf3-2d8a-283d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "4e5e-90c3-d9d2-1106",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d9e-3d1d-47e4-5611",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dc68-8a89-8cb3-d6f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "8d36-c480-735d-c6ae",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7f07-5e0e-d25f-5a42",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d909-3af6-8192-ebbb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3341-4c87-6d11-b3c8",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "2970-b93b-7cbb-6085",
+      "name": "Intercessor",
+      "infoLinks": [
+        {
+          "targetId": "b03b-7644-b6c9-70b9",
+          "id": "dbea-be9c-3e37-1167",
+          "name": "Intercessor"
+        }
+      ]
+    }
+  ]
+}

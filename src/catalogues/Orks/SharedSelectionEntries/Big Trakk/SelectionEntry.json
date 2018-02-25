@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Big Trakk",
+    "prevIdentifier": "Lifta Wagon"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "9e95-b751-b323-6db7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "3a6a-dab3-9a97-da5c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "e4af-25a8-8d5e-935a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1ac8-4010-4dde-3aa5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5ed3-1da6-32fe-c3a2",
+          "id": "272a-227e-3796-8732",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "1dbb-86ed-f590-9fd2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fb35-307b-7705-77ca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c5aa-3d54-aeaa-36ca",
+          "id": "9bd4-9333-e464-8180",
+          "name": "Grot Riggers"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c4d9-adc8-a379-d173",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2efd-be89-30eb-f182",
+          "id": "e631-518e-3c47-e942",
+          "name": "Grot Sponson"
+        }
+      ],
+      "id": "9576-6195-fe16-dab7",
+      "name": "Big Trakk",
+      "infoLinks": [
+        {
+          "targetId": "c284-5882-8566-317a",
+          "id": "1cbb-e966-4bd6-0728",
+          "name": "Open-Topped"
+        },
+        {
+          "targetId": "4984-fddb-b1ad-d7a3",
+          "id": "9f81-4c72-3d6c-f961",
+          "name": "Mobile Fortress"
+        },
+        {
+          "targetId": "8159-a610-444f-d93c",
+          "id": "04e3-9222-eec9-9f50",
+          "name": "Explodes (6+/6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

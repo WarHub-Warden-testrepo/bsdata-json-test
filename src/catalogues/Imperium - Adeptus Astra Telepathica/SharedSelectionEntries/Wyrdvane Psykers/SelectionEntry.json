@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Wyrdvane Psykers",
+    "prevIdentifier": "Primaris Psyker"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4e73-491c-d01a-5318",
+          "id": "0203-141b-a19e-9fc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e32b-d64c-0eb2-aa15",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "dcd9-e6fd-03c7-61a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "082c-9634-1096-6cf2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "8293-407f-d514-571c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0890-8723-7184-d191",
+          "id": "7b3c-563c-3853-8050",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "751d-39bf-3f92-fc7b",
+          "id": "d5e6-f719-5ab5-cbd0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "30ad-e8d9-9a51-d092",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "de27-811b-4b34-42d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dd59-c8d7-84f3-3c67",
+          "id": "056d-0bc0-6e1d-adce",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "fd91-34b5-8234-7d79",
+      "name": "Wyrdvane Psykers",
+      "book": "Codex: Astra Militarum",
+      "page": "42",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "fd91-34b5-8234-7d79",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "fd91-34b5-8234-7d79",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

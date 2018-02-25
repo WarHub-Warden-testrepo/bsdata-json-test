@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Skitarii Rangers"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "de7f-7adc-e01f-e6a5",
+      "constraints": [
+        {
+          "id": "930b-b472-a74b-bd7f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "927e-e57a-8e7d-8c7d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f3ce-5351-892a-131e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "ddd8-d198-130f-a058",
+          "id": "de7f-7adc-e01f-e6a5",
+          "name": "Skitarii Ranger"
+        }
+      ],
+      "id": "5ec2-817e-c2d8-bb63",
+      "name": "Skitarii Rangers"
+    }
+  ]
+}

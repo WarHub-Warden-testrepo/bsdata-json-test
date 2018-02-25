@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "identifier": "XV8 Crisis Battlesuits",
+    "prevIdentifier": "AX39 Sun Shark Bomber"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "cfd2-9292-8292-1e86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "0331-45f8-9848-0af4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "01f8-a8ba-6529-5ece",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e0f7-2ca0-b00a-7a59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "2771-ff2d-a37f-3b39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "0eb5-6d16-ddcb-9be9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6648-000d-3dd1-eb75",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "0d6a-86b2-f1f7-fc30",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "6648-000d-3dd1-eb75",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "4373-5cb3-b8b4-f4a9",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2 per Crisis)"
+            }
+          ]
+        }
+      ],
+      "id": "d0ff-623f-dc07-41c8",
+      "name": "XV8 Crisis Battlesuits",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "7f71-8ef9-effd-6b35",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "2107-316c-2c5d-21d7",
+          "name": "Bonding Knife Ritual"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "a9ac-45d4-13a0-bad7",
+          "name": "Manta Strike"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "4373-5cb3-b8b4-f4a9",
+              "type": 4,
+              "field": "selections",
+              "scope": "d0ff-623f-dc07-41c8",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "4373-5cb3-b8b4-f4a9",
+              "type": 4,
+              "field": "selections",
+              "scope": "d0ff-623f-dc07-41c8",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "d0ff-623f-dc07-41c8",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "d0ff-623f-dc07-41c8",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

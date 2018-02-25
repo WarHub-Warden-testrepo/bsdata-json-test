@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Meiotic Spores",
+    "prevIdentifier": "Malanthropes"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "fa6c-3d28-0b2e-ff49",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "1528-98e5-e59e-4560",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "b867-643c-dc08-0d0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "06e7-7980-8a86-9a23",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "dec0-7f71-801a-6d37",
+      "name": "Meiotic Spores",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "d155-5abb-24e2-3ebd",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "ed88-a25a-343d-11b9",
+          "name": "Living Bombs"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "dec0-7f71-801a-6d37",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "dec0-7f71-801a-6d37",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

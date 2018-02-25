@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "TX78 Sky Ray Gunship",
+    "prevIdentifier": "TX7 Hammerhead Gunship"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 119.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "4d28-ed7e-727e-bb52",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1795-9038-6f45-d207",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c04e-7a67-9a57-38dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "b552-52cf-8768-d455",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "9187-ef99-56b0-c15c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "062a-d930-f111-5583",
+          "id": "8e09-79bf-bdbf-b426",
+          "name": "Gunship sponsons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6cfc-26b9-4ea1-d235",
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true
+            },
+            {
+              "id": "f56f-742d-cfa2-79af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 6.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "b163-6481-e5cf-7669",
+          "name": "Seeker missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9c5-d801-f9e8-0c25",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "810f-85e5-2c98-3648",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3072-58c7-0015-129c",
+          "id": "57b8-f160-03e6-ff42",
+          "name": "Markerlight"
+        }
+      ],
+      "id": "8eb4-5f04-953a-d612",
+      "name": "TX78 Sky Ray Gunship",
+      "infoLinks": [
+        {
+          "targetId": "4044-9438-8ae8-c5c9",
+          "id": "abf8-9bcc-8718-92f1",
+          "name": "TX78 Sky Ray Gunship"
+        },
+        {
+          "targetId": "37c9-7bf2-19a8-7bf1",
+          "id": "6656-acff-d76b-9922",
+          "name": "TX78 Sky Ray Gunship 1"
+        },
+        {
+          "targetId": "9ea7-4a73-c62d-348b",
+          "id": "fb9d-4159-5131-575b",
+          "name": "TX78 Sky Ray Gunship 2"
+        },
+        {
+          "targetId": "bdcc-84be-1e44-4a4e",
+          "id": "47b6-5b60-c055-c668",
+          "name": "TX78 Sky Ray Gunship 3"
+        },
+        {
+          "type": 1,
+          "targetId": "ed2c-4b7d-a3cb-0417",
+          "id": "aba2-639a-d8d9-5a85",
+          "name": "Explodes"
+        },
+        {
+          "type": 1,
+          "targetId": "7519-ce77-b8bd-879a",
+          "id": "8eea-4a63-fdd0-0f33",
+          "name": "Hover Tank"
+        },
+        {
+          "type": 1,
+          "targetId": "59f6-8083-cb03-7dc0",
+          "id": "4d11-1b69-1b75-317a",
+          "name": "Attached Drones (TX78 Sky Ray Gunship)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "4eb8-9427-afe6-de87",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

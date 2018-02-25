@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "identifier": "Librarian on Bike",
+    "prevIdentifier": "Librarian in Terminator Armor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 119.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c528-1e1d-213a-5a1f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c068-666a-9880-411b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "62d2-c418-98c9-5fb4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1c6e-91dc-8fb0-1987",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "f6b1-6976-beee-a9d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "27d2-2998-2f52-84cf",
+          "id": "fd93-4354-be7e-c98a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "8017-fffd-c1db-f249",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2e62-e461-5154-b781",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ad29-1714-83c6-0055",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1340-32cc-5773-ed69",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3400-4353-f6de-c5bd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "032f-aef1-83b0-0dc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "c847-2041-98ba-c119",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "edd9-59c0-8f74-3b36",
+          "id": "3bea-54a4-09d8-9bc0",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "d0d9-a7ec-3e77-2360",
+          "name": "Relics"
+        }
+      ],
+      "id": "ddf0-3cff-f619-d42f",
+      "name": "Librarian on Bike",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c153-dd9c-8924-e6f9",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8b5e-cf89-dccf-ba25",
+          "id": "e321-b7b3-f660-014c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c027-2e84-7468-0607",
+          "id": "fc30-8274-bf96-2645",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "bf89-9471-d639-be6a",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

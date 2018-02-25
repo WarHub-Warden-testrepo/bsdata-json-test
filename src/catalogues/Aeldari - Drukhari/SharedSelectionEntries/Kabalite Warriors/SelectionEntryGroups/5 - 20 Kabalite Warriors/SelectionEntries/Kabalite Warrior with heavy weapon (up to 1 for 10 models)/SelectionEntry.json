@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Kabalite Warrior with heavy weapon (up to 1 for 10 models)",
+    "prevIdentifier": "Kabalite Warrior with special weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4e40-a888-4d01-689a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent"
+        }
+      ],
+      "id": "857d-878c-2834-e153",
+      "name": "Kabalite Warrior with heavy weapon (up to 1 for 10 models)",
+      "page": "0",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "4e40-a888-4d01-689a",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Kabalite warrior with Heavy Weapon",
+          "conditions": [
+            {
+              "childId": "857d-878c-2834-e153",
+              "type": 2,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

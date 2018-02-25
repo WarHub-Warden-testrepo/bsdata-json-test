@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Bloodletter Crew",
+    "prevIdentifier": "Skull cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "0e54-7c38-d2d2-7df1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "bff3-931d-4589-c37d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9100-30f1-85c4-6872",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f157-48e3-1b8a-8ec0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da4e-cb71-d1a5-a070",
+          "id": "c47a-3e21-6499-643f",
+          "name": "Hellblade",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Hellblades"
+            }
+          ]
+        }
+      ],
+      "id": "f208-dde6-abc4-9d79",
+      "name": "Bloodletter Crew"
+    }
+  ]
+}

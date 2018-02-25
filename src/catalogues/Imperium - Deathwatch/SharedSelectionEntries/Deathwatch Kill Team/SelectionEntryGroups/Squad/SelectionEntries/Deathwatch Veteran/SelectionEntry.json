@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Veteran"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1e6b-cc6c-0344-b083",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "e56a-cdd5-29ef-3656",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b678-e2a3-e2ae-27da",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b1c2-ca3a-094a-b0b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d1c9-98b6-55c2-27d3",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3b2b-395a-98ee-1a80",
+      "name": "Deathwatch Veteran",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "1e6b-cc6c-0344-b083",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "438b-ee14-ee18-d06b",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "d82f-47c7-40a0-5ee0",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "1e6b-cc6c-0344-b083",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "052c-ee84-33e2-4168",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "d82f-47c7-40a0-5ee0",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "1e6b-cc6c-0344-b083",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "4890-5729-8e4d-8dc6",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "d82f-47c7-40a0-5ee0",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

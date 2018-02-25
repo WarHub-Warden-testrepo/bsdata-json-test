@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Guardian Crew",
+    "prevIdentifier": "Support Weapons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4355-857c-aa89-ecc7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b815-c589-c7f8-d8d8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3f94-69bc-0bb2-abb7",
+      "name": "Guardian Crew"
+    }
+  ]
+}

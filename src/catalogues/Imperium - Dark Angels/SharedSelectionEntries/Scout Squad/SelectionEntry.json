@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Scout Squad",
+    "prevIdentifier": "Tactical Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "f056-258b-eacb-76b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bba0-95e4-2401-f202",
+          "id": "838c-2e25-6d40-5f74",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8a5d-fb41-03d8-46d3",
+          "id": "b302-0bf1-6077-1c0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "7de6-d950-57fc-2841",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4c03-7385-6fe7-bb6f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e855-018e-7bba-2a36",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e0df-0e01-4e07-fdec",
+          "id": "d215-8929-79f6-b85e",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "3",
+              "repeats": [
+                {
+                  "childId": "265f-3e9b-fd47-7c28",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "6ad4-2695-93d6-f1e4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "6ad4-2695-93d6-f1e4",
+      "name": "Scout Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "bea4-d4b1-3f45-357b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "0ca9-d820-5a31-89dd",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "eca9-fb63-9b82-6472",
+          "id": "4c60-8b8a-95a1-53ae",
+          "name": "Concealed Positions"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "265f-3e9b-fd47-7c28",
+              "type": 4,
+              "field": "selections",
+              "scope": "6ad4-2695-93d6-f1e4",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

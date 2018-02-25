@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Stormtalon Gunship",
+    "prevIdentifier": "Stormhawk Interceptor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "360b-0dd2-6d77-2f20",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "93b5-8779-dae9-fd6a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "0954-9eeb-796a-b89d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "4ae4-d48f-eadb-5078",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "9c6c-88a8-859f-1a1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "366b-1bc6-7191-5a13",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "782a-435b-d18d-09a2",
+          "id": "3719-6adc-23d3-8734",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d58f-2f39-3982-9bfa",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3739-1c1a-c0aa-56a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "ba07-ce10-62ea-2d5a",
+          "name": "Twin assault cannon"
+        }
+      ],
+      "id": "11a1-bc52-7694-8b6d",
+      "name": "Stormtalon Gunship",
+      "infoLinks": [
+        {
+          "targetId": "3970-342a-bea2-806f",
+          "id": "a3aa-58f6-169d-2a70",
+          "name": "Stormtalon Gunship"
+        },
+        {
+          "targetId": "5612-a7b4-ed49-63e2",
+          "id": "2497-3dd6-ed7b-fa60",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "05fe-231e-bd86-86e4",
+          "id": "5300-808d-1f21-040d",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "c5ca-67fb-3f1a-5a0b",
+          "id": "57f2-8f86-6097-4659",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "78ec-3915-059d-a723",
+          "id": "ca48-f202-03ed-8180",
+          "name": "Strafing Run"
+        },
+        {
+          "targetId": "d061-4605-a6f7-0b4c",
+          "id": "7b88-7c23-656b-bd51",
+          "name": "Hover Jet"
+        }
+      ]
+    }
+  ]
+}

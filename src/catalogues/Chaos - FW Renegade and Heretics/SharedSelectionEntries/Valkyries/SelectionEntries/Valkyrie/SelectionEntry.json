@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Valkyrie"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f7c1-e83c-14d5-c13d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5d42-e559-1f3d-61b1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "b116-89fb-e842-b4ef",
+          "id": "2860-1d92-4cc7-9358",
+          "name": "Wing-mounted Weapons"
+        }
+      ],
+      "id": "050b-9702-7d74-7f99",
+      "name": "Valkyrie",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "1733-a037-8fb3-9c63",
+          "id": "8835-888b-8dba-3c30",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "4eee-a7e2-9e12-31c1",
+          "id": "d597-c026-1206-272a",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "2b35-2ac1-3d64-0808",
+          "id": "3e3e-44d0-a5da-3daf",
+          "name": "Hard to Hit"
+        }
+      ]
+    }
+  ]
+}

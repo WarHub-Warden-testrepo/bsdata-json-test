@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Succubus",
+    "prevIdentifier": "Reavers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 72.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "8e56-3412-26f6-8856",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "fe55-4fff-9b2e-85b9",
+          "id": "3c6b-955a-ccab-b8d3",
+          "name": "Warlord Trait"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2246-8de2-2805-0809",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "9734-5a3b-e108-5d1e",
+          "name": "Warlord"
+        }
+      ],
+      "id": "f82e-71e9-d0fd-dad8",
+      "name": "Succubus",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "6b5a-313f-d9a5-5887",
+          "name": "Combat Drugs"
+        },
+        {
+          "targetId": "159c-24c2-fab4-4775",
+          "id": "afe1-6dd9-3cc1-14ef",
+          "name": "Brides of Death"
+        },
+        {
+          "targetId": "43d0-fa61-a437-7911",
+          "id": "7b4a-369e-79f0-5a2d",
+          "name": "No Escape"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "2557-a211-9d8b-89a7",
+          "name": "Combat Drugs"
+        }
+      ]
+    }
+  ]
+}

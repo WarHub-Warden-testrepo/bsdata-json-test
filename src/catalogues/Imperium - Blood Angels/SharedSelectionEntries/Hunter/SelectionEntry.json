@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "identifier": "Hunter",
+    "prevIdentifier": "Contemptor Dreadought"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "b9ae-85ff-bca2-4731",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "5b9b-0ccb-407c-32b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "4789-8ef3-753e-ff32",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "254b-ba9e-579e-5384",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c450-41ad-d4a6-cd12",
+          "id": "cc48-9c1e-869e-4885",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "e8de-2a0e-107a-94be",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1770-57df-7bcf-929e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e5a-91d4-51b4-bb72",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cd63-9586-da03-ec49",
+          "id": "9585-0a00-d20c-18b7",
+          "name": "Skyspear missile launcher"
+        },
+        {
+          "constraints": [
+            {
+              "id": "05b6-ea9f-8721-247d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "4368-4a89-57b1-3a30",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bf1d-285d-16d5-6a94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "68f3-4060-043c-6004",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "b92e-9a51-38e3-065d",
+      "name": "Hunter",
+      "infoLinks": [
+        {
+          "targetId": "75da-64fd-47bc-daa7",
+          "id": "0d21-c57c-2094-dcdb",
+          "name": "Hunter"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0138-98ed-587f-ba52",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "identifier": "Supersonic",
+    "prevIdentifier": "Grav-Chute Insertion"
+  },
+  "rules": [
+    {
+      "description": "Each time this model moves, first pivot it on the spot up to 90\" (this does not contribute to how far the model moves), and then move the model straight forwards. Note that it cannot pivot again after the initial pivot. When this model Advances,  increase it's Move characteristic by 20\" until the end of the phase - do not roll a dice.",
+      "id": "c46f-e0d9-1e78-b49c",
+      "name": "Supersonic"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Sentinel Powerlifter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e259-b75c-43ab-9dc2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "2b0f-c787-e908-dd6a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        }
+      ],
+      "id": "140d-0115-de4f-15df",
+      "name": "Sentinel Powerlifter",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "0822-7bf8-73d0-cfb9",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "6338-ae1c-93c9-2e89",
+          "id": "8f7b-c9f8-47b9-10f8",
+          "name": "Scout Vehicle"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "796f-1ab2-fe77-ca1c",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

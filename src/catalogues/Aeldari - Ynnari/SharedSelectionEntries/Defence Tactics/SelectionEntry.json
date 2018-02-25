@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Defence Tactics",
+    "prevIdentifier": "Shimmershield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1d7a-d3f8-9f1f-196f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f2f5-6e9a-31ad-e09d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6ded-37e4-8fa0-a02d",
+      "name": "Defence Tactics"
+    }
+  ]
+}

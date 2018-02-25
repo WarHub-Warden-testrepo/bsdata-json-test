@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Redemptor Dreadnought",
+    "prevIdentifier": "Primaris Librarian"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "71ee-11ab-89da-c310",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "68f6-f471-d1b0-7ac3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e46e-0cb5-5b15-d8c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9a70-0963-b356-287a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d865-36ea-275a-e85b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "396b-5c0d-df9b-45f6",
+          "id": "6d9c-eff5-2df2-0d37",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0a45-a68a-1263-c551",
+          "id": "2d69-c9ef-c322-9b7f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1399-74ba-0933-3257",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9575-5611-821f-4001",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d42b-eeb9-4385-ba19",
+          "id": "7d0d-7b29-1b01-36be",
+          "name": "Redemptor Fist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "80cb-b6cb-7691-4ab9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f98b-85ed-c59b-01a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f0fc-293c-4f57-4ca7",
+          "id": "a283-750c-3749-1628",
+          "name": "Icarus Rocket Pod"
+        }
+      ],
+      "id": "f234-52d4-37c2-cd1e",
+      "name": "Redemptor Dreadnought",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "32d5-7060-96dd-30a0",
+          "id": "7813-6a21-ca16-f9e0",
+          "name": "Explodes D6"
+        }
+      ]
+    }
+  ]
+}

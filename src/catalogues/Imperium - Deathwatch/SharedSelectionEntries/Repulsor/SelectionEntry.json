@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Repulsor",
+    "prevIdentifier": "Bolt Carbine"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 210.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "ff72-9c59-57be-0d6f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "a510-19eb-c96d-53e5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "6e4f-4ccc-f44d-1eee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "fbdb-f4c0-bb49-1872",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7387-0472-ddcf-aa22",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "05f3-dbcf-dfcf-6d48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "377c-c68a-4fc6-68c9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b8a4-cae5-a7cf-af97",
+          "id": "aa03-c3e7-03a3-fb6f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0ddf-c564-efa9-d789",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5420-1ee8-5e2f-b5a0",
+          "id": "9895-967c-5f24-16ff",
+          "name": "Ironhail Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1b5a-a374-5cbb-6100",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "124e-03fb-7407-996a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2806-cbc8-3481-e140",
+          "id": "03e9-fcff-0e8e-80be",
+          "name": "Krakstorm Grenade-launcher"
+        }
+      ],
+      "id": "a421-6071-270b-4dfe",
+      "name": "Repulsor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "32d5-7060-96dd-30a0",
+          "id": "d93e-5750-ddf8-2a06",
+          "name": "Explodes D6"
+        },
+        {
+          "targetId": "9e55-78af-ff73-24d6",
+          "id": "eb32-ceb9-be92-0a63",
+          "name": "Power of the Machine Spirit"
+        }
+      ]
+    }
+  ]
+}

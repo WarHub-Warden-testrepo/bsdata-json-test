@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two las-rippers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "af5f-826e-ffa1-d14d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2858-ff3e-f075-e45e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6250-1ef3-db46-a2fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "342b-73b6-6c4b-cfd1",
+          "id": "cfca-7e86-f364-1984",
+          "name": "Las-ripper"
+        }
+      ],
+      "id": "d456-2c3b-599d-2d91",
+      "name": "Two las-rippers"
+    }
+  ]
+}

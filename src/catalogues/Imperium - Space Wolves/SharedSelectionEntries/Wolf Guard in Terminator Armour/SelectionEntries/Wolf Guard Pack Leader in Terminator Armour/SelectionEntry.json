@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Pack Leader in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b955-ce54-861e-697b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0d2c-148a-251e-b18a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ad54-98ba-ec43-decb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "83d3-e01e-b2eb-d559",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "ca3c-18a1-cda3-289a",
+      "name": "Wolf Guard Pack Leader in Terminator Armour",
+      "infoLinks": [
+        {
+          "targetId": "483b-3787-c1a3-8e94",
+          "id": "7a8b-9440-0f06-b787",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "13fc-b29b-31f2-ab9f",
+              "value": "1"
+            },
+            {
+              "field": "name",
+              "value": "Wolf Guard Pack Leader in Terminator Armour"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Chaos Terminator Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 31.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a214-5746-efb4-5dcc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cbb5-9a40-ffbc-db6d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "f962-5557-bde3-d620",
+          "id": "79c4-72af-ec7d-e116",
+          "name": "Terminator Weapon Options"
+        }
+      ],
+      "id": "d2c0-5ffd-5cb4-6158",
+      "name": "Chaos Terminator Champion"
+    }
+  ]
+}

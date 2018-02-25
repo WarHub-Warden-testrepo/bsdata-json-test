@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Sabre Gun Platform"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a983-4ccc-143b-4198",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "7b69-3632-57bb-a822",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "e558-f5c3-4c0c-59be",
+      "name": "Sabre Gun Platform",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "ed72-d4fe-3667-5d1f",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "8235-431f-3816-c532",
+          "id": "2aa5-f1b4-0a05-3cda",
+          "name": "Artillery Battery (Sabre)"
+        }
+      ]
+    }
+  ]
+}

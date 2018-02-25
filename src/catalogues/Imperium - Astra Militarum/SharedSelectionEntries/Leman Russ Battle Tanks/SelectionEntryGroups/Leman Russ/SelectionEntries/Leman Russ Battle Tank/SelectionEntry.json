@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Battle Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "4385-97fd-32aa-9d6b",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "18f4-18f0-08a6-9d9c",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "9a3b-d510-e76e-939f",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b6e0-3c4c-88ce-f221",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ffa0-59a9-7057-9166",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "3ab5-511e-0545-e1c2",
+          "name": "Stat Damage (Leman Russ)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "1a8a-1e3b-ac8a-13cf",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "7cf4-6724-f884-ca33",
+      "name": "Leman Russ Battle Tank",
+      "book": "Codex: Astra Militarum",
+      "page": "46",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "dc83-b217-23d4-a86a",
+          "name": "Leman Russ"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "e0d8-8136-0f81-b276",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "c2f6-68fc-213b-0d0c",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "df01-50b2-7ae1-0632",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "20fc-238e-3b54-499f",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "1872-2770-39ba-7c83",
+          "name": "Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

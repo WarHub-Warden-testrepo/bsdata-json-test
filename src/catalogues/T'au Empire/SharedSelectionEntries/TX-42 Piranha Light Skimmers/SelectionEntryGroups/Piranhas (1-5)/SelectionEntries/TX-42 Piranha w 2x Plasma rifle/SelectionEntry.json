@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "TX-42 Piranha w/ 2x Plasma rifle",
+    "prevIdentifier": "TX-42 Piranha w/ 2x Missile pod"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3db1-7694-bf08-4ec4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bc53-565f-f8b0-d78d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "5f18-260e-8850-61c1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e95b-a38b-66d6-123f",
+          "id": "3bf3-99c5-5864-114d",
+          "name": "Plasma rifle"
+        }
+      ],
+      "id": "7c0c-3ce7-58d5-367a",
+      "name": "TX-42 Piranha w/ 2x Plasma rifle",
+      "infoLinks": [
+        {
+          "targetId": "7da1-2e20-2715-38ca",
+          "id": "a7c5-eafa-78fe-7723",
+          "name": "TX-42 Piranha"
+        }
+      ]
+    }
+  ]
+}

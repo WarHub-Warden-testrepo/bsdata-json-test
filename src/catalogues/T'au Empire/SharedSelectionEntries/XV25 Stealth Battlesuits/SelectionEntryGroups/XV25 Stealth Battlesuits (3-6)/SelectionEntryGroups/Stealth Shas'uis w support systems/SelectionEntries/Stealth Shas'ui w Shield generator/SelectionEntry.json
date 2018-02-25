@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Stealth Shas'ui w/ Shield generator",
+    "prevIdentifier": "Stealth Shas'ui w/ Multi-tracker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c9d6-e166-1752-d544",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6b62-9a39-bf87-54cb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c2da-354a-3a8a-1f1f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "7570-19cc-a062-a9ab",
+          "name": "Burst cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d5ba-5d64-449b-41ac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c2c9-9587-ea86-43a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "877f-c9e4-21ef-47f4",
+          "id": "cb30-3973-93c8-4862",
+          "name": "Shield generator"
+        }
+      ],
+      "id": "5db6-0745-db14-3aa4",
+      "name": "Stealth Shas'ui w/ Shield generator",
+      "infoLinks": [
+        {
+          "targetId": "2721-d55e-c098-be60",
+          "id": "3286-54b4-de7e-fd9c",
+          "name": "Stealth Shas'ui"
+        }
+      ]
+    }
+  ]
+}

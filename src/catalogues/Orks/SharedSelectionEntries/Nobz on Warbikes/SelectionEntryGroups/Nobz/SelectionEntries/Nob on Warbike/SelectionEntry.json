@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Nob on Warbike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 42.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "a885-61f1-1988-4e01",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4fae-784a-9eab-31e1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "c638-acc1-0af6-5546",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de10-70b3-ab64-990c",
+          "id": "733d-c452-e4c3-0676",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "04ed-04b2-3590-ad29",
+      "name": "Nob on Warbike"
+    }
+  ]
+}

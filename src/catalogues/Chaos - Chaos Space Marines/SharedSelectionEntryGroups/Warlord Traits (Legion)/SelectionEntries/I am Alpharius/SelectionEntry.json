@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "I am Alpharius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "1c13-5b75-17b7-1936",
+      "name": "I am Alpharius",
+      "infoLinks": [
+        {
+          "targetId": "05d7-9fe8-c0ef-83a9",
+          "id": "815f-158e-ce4d-40b1",
+          "name": "I am Alpharius"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "9b8a-fb30-b445-3049",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

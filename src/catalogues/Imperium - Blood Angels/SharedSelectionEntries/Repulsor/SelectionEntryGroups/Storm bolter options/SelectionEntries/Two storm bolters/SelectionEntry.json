@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Two storm bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9868-cb19-c3ba-639d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bfa7-c200-b4fd-bc3a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "deb8-497a-77b0-6f14",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "9220-c9fd-1640-7e45",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "d820-e925-28fb-b781",
+      "name": "Two storm bolters"
+    }
+  ]
+}

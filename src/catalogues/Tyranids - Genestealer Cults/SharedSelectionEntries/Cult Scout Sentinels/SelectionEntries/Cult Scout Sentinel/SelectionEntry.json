@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Cult Scout Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5699-232d-8a71-7cc3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "52db-f130-7b26-ca7b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9ad9-b08e-c06f-9ff9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "799b-3424-af4c-0958",
+          "id": "3c68-b8b0-ddc5-4479",
+          "name": "Hunter-killer Missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6c87-a87a-6550-f57c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb83-af6c-95f4-b13c",
+          "id": "744a-f04e-0bbd-d602",
+          "name": "Sentinel Chainsaw"
+        }
+      ],
+      "id": "11c3-581a-937c-3251",
+      "name": "Cult Scout Sentinel"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Storm Shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e0db-633d-22aa-66fa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent"
+        },
+        {
+          "id": "9ee7-3dc4-4622-b092",
+          "field": "selections",
+          "scope": "parent"
+        }
+      ],
+      "id": "3de0-2887-d103-8c8a",
+      "name": "Storm Shield",
+      "infoLinks": [
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "9d27-cbcc-b229-1db5",
+          "name": "Storm shield"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e0db-633d-22aa-66fa",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "26ba-934c-cd45-d46f",
+              "type": 2,
+              "field": "selections",
+              "scope": "eb5b-56dd-f6d2-0ccc",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "9ee7-3dc4-4622-b092",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "26ba-934c-cd45-d46f",
+              "type": 2,
+              "field": "selections",
+              "scope": "eb5b-56dd-f6d2-0ccc",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

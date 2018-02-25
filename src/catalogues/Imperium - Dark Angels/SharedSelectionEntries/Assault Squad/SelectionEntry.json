@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "identifier": "Assault Squad",
+    "prevIdentifier": "Rhino Primaris"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5205-f990-0b05-899f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "184c-80ee-9ce9-c547",
+          "id": "0941-d767-12b3-f17c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "8143-0cce-072b-2d95",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8c89-d313-db78-cbb7",
+          "id": "cb7c-4370-f872-ca0b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "14ee-83cf-3323-3d28",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f00a-1065-cfe7-4edc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "9f4f-ce64-cd17-a4e2",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "3",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "dc39-0cd6-c078-1242",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 1,
+              "field": "e356-c769-5920-6e14",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "model",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "dc39-0cd6-c078-1242",
+                  "value": 6.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "dc39-0cd6-c078-1242",
+      "name": "Assault Squad",
+      "infoLinks": [
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "e78f-bd3e-c7a1-722c",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "643b-2a41-e9f8-0407",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "cdb4-e266-8c8b-b51c",
+          "id": "4c4f-ba9d-d224-bcf0",
+          "name": "Space Marine Sergeant",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "9f4f-ce64-cd17-a4e2",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "dc39-0cd6-c078-1242",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7d5b-5e9e-c1e4-d8d2",
+          "id": "df59-3386-984b-6573",
+          "name": "Space Marine",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "9f4f-ce64-cd17-a4e2",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "dc39-0cd6-c078-1242",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "0d89-2afb-5094-dd1a",
+              "type": 4,
+              "field": "selections",
+              "scope": "dc39-0cd6-c078-1242",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

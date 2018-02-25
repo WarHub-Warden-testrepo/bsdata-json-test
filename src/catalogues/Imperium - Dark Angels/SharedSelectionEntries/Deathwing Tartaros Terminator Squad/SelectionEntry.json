@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Deathwing Tartaros Terminator Squad",
+    "prevIdentifier": "Contemptor Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "fd2c-c81e-bf7a-0d7a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "e03c-a941-a096-325e",
+      "name": "Deathwing Tartaros Terminator Squad",
+      "infoLinks": [
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "3a96-6755-b812-85b3",
+          "name": "Combat Squads"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "4fd4-2e89-a43f-ef4b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "9aeb-02d6-6cf1-cf91",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "e03c-a941-a096-325e",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

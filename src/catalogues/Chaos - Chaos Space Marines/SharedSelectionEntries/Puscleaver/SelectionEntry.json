@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Puscleaver",
+    "prevIdentifier": "Intoxicating Elixir"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "b169-b2a4-9993-7ea3",
+      "name": "Puscleaver",
+      "book": "",
+      "page": "",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "bc9e-551d-9afb-78d5",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

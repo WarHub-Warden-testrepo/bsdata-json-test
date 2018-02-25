@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Armageddon Pattern Basilisk"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a549-1f30-89f3-080d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9e43-9465-83a2-6f67",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "2c00-c9cd-7523-4b12",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "54d8-1413-da00-4176",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2377-7792-1f9d-bdf5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "c87b-15cb-14d0-6c08",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "b532-1ec3-b124-8c5b",
+      "name": "Armageddon Pattern Basilisk",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "dd04-bf0d-fd9b-8575",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "5b6a-73df-b73a-712d",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "f5ba-e044-0228-b75c",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

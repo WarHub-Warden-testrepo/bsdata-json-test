@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Guardsmen Crew",
+    "prevIdentifier": "Frag Grenades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d710-50f2-7ac7-d0a3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "af8a-9032-a744-6556",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7236-b28a-2b6e-ded7",
+          "id": "e746-e7c9-e58f-360b",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "282f-e247-b759-52ce",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ee72-5ac3-acbe-c127",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5de8-906d-ea69-610a",
+          "id": "5cf5-69a3-07ff-bc06",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "70eb-d2d7-5172-ec78",
+      "name": "Guardsmen Crew",
+      "infoLinks": [
+        {
+          "targetId": "efac-a40e-8d33-0bb5",
+          "id": "d74d-15ea-0560-01ef",
+          "name": "Guardsmen Crew"
+        }
+      ]
+    }
+  ]
+}

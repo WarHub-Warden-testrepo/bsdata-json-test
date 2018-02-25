@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Archangel's Shard (replaces power sword or master-crafted power sword)",
+    "prevIdentifier": "Gallian's Staff (replaces force stave)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "88af-5a3f-e25f-f6a5",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "70cc-8870-b790-c4de",
+      "name": "Archangel's Shard (replaces power sword or master-crafted power sword)",
+      "infoLinks": [
+        {
+          "targetId": "2bb8-1f87-1d4b-59de",
+          "id": "addf-d829-7f3f-9ebc",
+          "name": "Archangel's Shard"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "9c7b-4573-3321-2def",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

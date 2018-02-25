@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Blightlord Terminators",
+    "prevIdentifier": "Miasma of Pestilence"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7697-24c2-2f9e-5e54",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "6f23-2444-d6bf-bbdd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "0b73-ff1f-0598-d8e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "7f8d-c677-e527-c90a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "acd4-eab9-8bfb-d7d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4811-a261-8436-dd90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "36b8-cf23-7648-ece9",
+          "id": "bd88-6282-f3d5-8272",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1e74-2c48-7179-152e",
+          "id": "328b-d6b4-cbb7-e22c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "e9b4-1d6e-8021-095f",
+      "name": "Blightlord Terminators",
+      "infoLinks": [
+        {
+          "targetId": "8f11-6c2b-25e0-d130",
+          "id": "aabb-787c-719c-f0d6",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "targetId": "c365-8ca4-3ee1-1677",
+          "id": "3be0-1eee-8b9e-b4cf",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "057a-5462-ce7c-192e",
+          "id": "f02d-86e0-0ac2-907e",
+          "name": "Cataphractii Armour"
+        },
+        {
+          "targetId": "51dc-2e9c-f739-4584",
+          "id": "9383-0685-0eb9-ac09",
+          "name": "Teleport Strike"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "27",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "e9b4-1d6e-8021-095f",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

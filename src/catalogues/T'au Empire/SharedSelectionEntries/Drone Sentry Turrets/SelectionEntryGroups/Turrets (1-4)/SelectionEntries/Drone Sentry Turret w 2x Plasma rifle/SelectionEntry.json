@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Drone Sentry Turret w/ 2x Plasma rifle",
+    "prevIdentifier": "Drone Sentry Turret w/ 2x Fusion blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a896-8734-d3fb-447e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f92d-c13c-35a2-3b7a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d374-d23a-6863-101a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e95b-a38b-66d6-123f",
+          "id": "aa87-4f77-5922-4d0b",
+          "name": "Plasma rifle"
+        }
+      ],
+      "id": "fb1d-9f75-31a0-2ce1",
+      "name": "Drone Sentry Turret w/ 2x Plasma rifle",
+      "infoLinks": [
+        {
+          "targetId": "cd30-4c13-3d5d-7a06",
+          "id": "47b9-a7a4-027b-acb7",
+          "name": "Drone Sentry Turret"
+        }
+      ]
+    }
+  ]
+}

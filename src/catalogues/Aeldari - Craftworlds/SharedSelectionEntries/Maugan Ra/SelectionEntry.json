@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Maugan Ra",
+    "prevIdentifier": "Baharroth"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "36e2-b032-a3b7-0384",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "cedd-7ce2-091d-5e88",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "73d8-bac0-e013-3883",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "efe3-820c-7d84-a2fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ed53-b61e-b14e-dcd9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "23eb-abe9-b312-8bae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "dd03-d5d4-816a-3464",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7d0d-ea19-fd93-b122",
+          "id": "3782-c87f-9b5f-60d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "1819-69e1-96d7-d8fb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bcd0-a955-8a42-d895",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "8607-3275-9c12-f6a6",
+          "name": "Warlord"
+        }
+      ],
+      "id": "940d-eb6f-d386-62ce",
+      "name": "Maugan Ra",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "aba0-f338-18df-8354",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "cbc6-aece-cec1-d9fc",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

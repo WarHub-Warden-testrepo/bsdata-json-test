@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Skyclaws",
+    "prevIdentifier": "Thunderwolf Cavalry"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "30d4-37c9-a3e0-e423",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "fef5-26ab-d1a5-ffeb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "15f9-af7d-9115-9348",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c834-3aa0-48c7-22bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7ea1-82d2-2ce3-e18f",
+          "id": "d13b-3d25-a0f8-33fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "fd72-b886-0798-f25f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "da87-0edc-0085-357f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7668-23ee-94a8-ebf5",
+          "id": "47b6-6131-4d7a-fe00",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "9d0a-942a-db90-e661",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1518-6c66-712e-32b9",
+      "name": "Skyclaws",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9004-7da6-5088-c7f5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7142-2d75-3619-f0a0",
+          "id": "174b-6569-eebe-36bc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2fba-a6ae-ad9e-3421",
+          "id": "d9de-3e81-7fef-c95f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "64ca-25e1-36eb-875c",
+          "id": "7659-b8bc-02d6-d459",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "cf01-4672-9d12-c1bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "1518-6c66-712e-32b9",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

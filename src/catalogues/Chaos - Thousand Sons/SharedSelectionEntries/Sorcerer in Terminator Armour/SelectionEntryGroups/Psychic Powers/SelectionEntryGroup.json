@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Psychic Powers"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "b0b8-ad71-0479-bef6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "cca1-01a1-45fa-e054",
+          "id": "b323-1c0f-a5c3-4bdb",
+          "name": "Dark Hereticus Discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "28c8-b9dc-97ea-5afc",
+          "name": "Discipline of Change"
+        }
+      ],
+      "id": "2944-63bd-2b08-77d3",
+      "name": "Psychic Powers",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "b0b8-ad71-0479-bef6",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "6e59-e3c2-836b-3a01",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

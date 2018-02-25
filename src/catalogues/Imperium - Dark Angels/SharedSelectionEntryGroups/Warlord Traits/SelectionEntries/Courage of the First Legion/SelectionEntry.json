@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Courage of the First Legion",
+    "prevIdentifier": "Fury of the Lion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d578-d80d-3d98-dbf8",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "0095-b70b-b5f0-a1fa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "670a-5c15-51e0-2ccf",
+      "name": "Courage of the First Legion",
+      "modifiers": [
+        {
+          "field": "d578-d80d-3d98-dbf8",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f142-6890-334c-0994",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

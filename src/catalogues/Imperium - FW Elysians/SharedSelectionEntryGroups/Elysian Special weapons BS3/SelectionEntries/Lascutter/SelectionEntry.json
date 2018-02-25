@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "identifier": "Lascutter",
+    "prevIdentifier": "Grenade Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "538e-a59e-a2ce-9e29",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a4d2-1ea1-d35f-c368",
+      "name": "Lascutter"
+    }
+  ]
+}

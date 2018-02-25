@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "cb0b-bf24-b3d2-b417",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "b2dc-479f-ae16-95d8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7150-8972-6038-20bb",
+          "id": "badc-1764-c245-49b8",
+          "name": "Stinger Pistol"
+        },
+        {
+          "targetId": "8a00-89a6-1a7b-269b",
+          "id": "9bbe-63d1-8723-c47b",
+          "name": "Hexrifle"
+        },
+        {
+          "targetId": "741f-a9d5-adc0-b2dc",
+          "id": "aae1-7112-1461-0295",
+          "name": "Liquifier Gun"
+        }
+      ],
+      "id": "4c45-17e5-6fa5-8336",
+      "name": "Ranged Weapon"
+    }
+  ]
+}

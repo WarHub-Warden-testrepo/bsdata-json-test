@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "identifier": "Commander Farsight",
+    "prevIdentifier": "Commander Shadowsun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 151.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c0db-fbae-5f9a-de5b",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "2c81-8204-2f30-9ed4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5099-e557-8988-3bbd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fa10-5b69-9887-b4c1",
+          "id": "00f7-21df-992e-e719",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c103-11ad-2af1-cb9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "5ecb-ab70-bdb6-76a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "4de9-17ba-dc63-4332",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ee338739-6edf-4620-a2cc-f38d5dd21606",
+          "id": "d457-92d3-c4f5-f13d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "22aa-e977-342b-7abe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "257e-82d7-82b7-4434",
+          "id": "f7ad-878b-b665-d90a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ccfe-4730-951f-8c9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "145f-5679-d5be-d906",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d7c9-2dd8-216b-a6ca",
+          "id": "4408-e144-e838-cdf3",
+          "name": "Plasma rifle",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c67-fbb8-974d-9f18",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "300a-8b4f-97c8-df87",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b721-8ea6-5779-5b73",
+          "id": "cbb7-dde3-09e6-4482",
+          "name": "Dawn blade"
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "b23f-e629-6a2f-0059",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "340a-4d35-f8d7-4023",
+          "name": "Warlord"
+        }
+      ],
+      "id": "05c3-f498-e0c6-1ee9",
+      "name": "Commander Farsight",
+      "infoLinks": [
+        {
+          "targetId": "b23e-7365-7adb-56a8",
+          "id": "ca4e-bb6f-67ca-c862",
+          "name": "Commander Farsight"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "8868-0fd5-008a-5c76",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "f8b8-5595-12ee-b1e4",
+          "id": "cc35-2eb6-bf19-5a8e",
+          "name": "Master of War (Commander Farsight)"
+        },
+        {
+          "type": 1,
+          "targetId": "f540-fb4f-8f2e-a711",
+          "id": "5b7c-d574-0e16-db44",
+          "name": "Genius of Mont'ka"
+        },
+        {
+          "type": 1,
+          "targetId": "afb8-919a-3ebe-678f",
+          "id": "9415-6bf2-5834-5932",
+          "name": "Way of the Short Blade"
+        },
+        {
+          "type": 1,
+          "targetId": "1c87-5914-ec3d-7b9e",
+          "id": "21e0-97b8-413d-b6df",
+          "name": "Shield Generator"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "b712-0c74-9968-65eb",
+          "name": "Manta Strike"
+        }
+      ]
+    }
+  ]
+}

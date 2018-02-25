@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Plasma Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "b3c8-9b3d-c4c8-9232",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9fdc-aab9-3f31-e4e1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3bb4-f813-5f12-cd03",
+      "name": "Plasma Cannon",
+      "infoLinks": [
+        {
+          "targetId": "7983-8451-cdc3-ce7e",
+          "id": "5a07-aeb6-cf27-9f00",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fbb2-f4cb-e47d-1d10",
+          "id": "9474-f5ae-e951-08e7",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

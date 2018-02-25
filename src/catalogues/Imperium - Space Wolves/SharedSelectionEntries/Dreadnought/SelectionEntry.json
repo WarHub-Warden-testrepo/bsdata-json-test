@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Dreadnought",
+    "prevIdentifier": "Jump Pack - 102"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9b39-b18c-3d29-ac4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "be9a-92e7-072b-93d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1c9c-78cf-7498-7b55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "11ab-faae-9c9f-609e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "e448-310a-8f09-f207",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "b3e5-291d-b4dd-828e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "326c-0c51-9828-4734",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c02f-0d7d-f68e-e5db",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "345e-609b-29f8-73af",
+          "id": "8520-1e17-1a26-2a05",
+          "name": "Dreadnought Heavy Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "0f5d-5463-7908-f599",
+          "id": "6519-3ae6-8bb2-2448",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "de3d-a10e-0f08-6c9c",
+      "name": "Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "b341-2797-56ae-b35c",
+          "id": "4506-a2e4-65e4-cdb5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "ddfb-5d16-4244-c465",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "0d5d-c916-7d45-d62f",
+          "id": "9918-a1fe-c3a4-a216",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

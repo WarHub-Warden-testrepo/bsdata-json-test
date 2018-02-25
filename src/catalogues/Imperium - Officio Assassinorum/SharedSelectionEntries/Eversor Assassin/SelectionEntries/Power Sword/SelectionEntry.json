@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Power Sword"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "ef8b65c6-5292-b3bf-7559-65cc552b12a8",
+      "name": "Power Sword",
+      "infoLinks": [
+        {
+          "targetId": "47df-8e01-d0cf-58e8",
+          "id": "dd2d-2a36-9a7c-bd22",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

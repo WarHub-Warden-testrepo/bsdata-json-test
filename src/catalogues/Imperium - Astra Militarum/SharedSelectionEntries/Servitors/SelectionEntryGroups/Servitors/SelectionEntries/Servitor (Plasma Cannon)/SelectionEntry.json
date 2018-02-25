@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Servitor (Plasma Cannon)",
+    "prevIdentifier": "Servitor (Multi-melta)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3248-3c54-fd3d-1c16",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "153c-7ffc-3e3c-69a0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8277-654f-2150-9f69",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8a6a-0f07-e166-026c",
+          "id": "edb2-1f8a-a976-88db",
+          "name": "Plasma Cannon"
+        },
+        {
+          "targetId": "95fc-a210-2565-c636",
+          "id": "e782-2ed7-0d53-649d",
+          "name": "Servitor"
+        }
+      ],
+      "id": "52ab-efbd-3812-e364",
+      "name": "Servitor (Plasma Cannon)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "3248-3c54-fd3d-1c16",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "b4d7-cce6-eff7-f45e",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "3248-3c54-fd3d-1c16",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "d333-2716-f7b5-2e32",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

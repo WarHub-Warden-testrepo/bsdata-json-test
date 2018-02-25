@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Vulcan Mega Bolter",
+    "prevIdentifier": "Twin Heavy Stubber"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f03a-f012-5341-ec34",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "019e-a14e-6d59-7335",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "32dd-9fa1-a24e-1207",
+      "name": "Vulcan Mega Bolter"
+    }
+  ]
+}

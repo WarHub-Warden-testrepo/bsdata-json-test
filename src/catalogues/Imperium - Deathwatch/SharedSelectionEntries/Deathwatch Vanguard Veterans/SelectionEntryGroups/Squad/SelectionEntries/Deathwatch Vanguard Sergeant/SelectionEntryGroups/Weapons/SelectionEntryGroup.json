@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "abc7-1ab5-7e99-a092",
+      "constraints": [
+        {
+          "id": "f7f6-fb4d-f2ac-0abf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2721-566f-876d-4df3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9d7d-df1c-bcd0-f649",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9f4d-d898-6bb7-ac8c",
+          "id": "bb7f-0ed9-1d9f-6e94",
+          "name": "Deathwatch Vanguard Equipment"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4745-759a-4a58-4642",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "671b-e642-c249-47bf",
+          "name": "Lightning Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5c22-dd0d-b535-f108",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4e36-53b0-1545-e3f3",
+          "id": "abc7-1ab5-7e99-a092",
+          "name": "Bolt Pistol And Chainsword"
+        }
+      ],
+      "id": "0af6-9343-5008-f3f0",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "2721-566f-876d-4df3",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "671b-e642-c249-47bf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "abc7-1ab5-7e99-a092",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "f7f6-fb4d-f2ac-0abf",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "671b-e642-c249-47bf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "abc7-1ab5-7e99-a092",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

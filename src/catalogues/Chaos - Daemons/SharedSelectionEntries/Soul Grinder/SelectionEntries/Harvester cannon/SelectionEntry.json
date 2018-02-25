@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Harvester cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6a90-30c1-14c7-5eec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "36de-26ea-9692-7a20",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a5d1-b4d4-5170-77e7",
+      "name": "Harvester cannon"
+    }
+  ]
+}

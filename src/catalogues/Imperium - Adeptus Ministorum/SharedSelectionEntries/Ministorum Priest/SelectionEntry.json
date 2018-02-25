@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Ministorum Priest",
+    "prevIdentifier": "Uriah Jacobus"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "30f7-4b50-e2f6-27f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "c716-860e-2251-59e3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e55e-56a3-a914-8b4a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "032a-3187-e3b6-ba48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5366-e049-18ed-7b74",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "9ed8-ed3a-b485-5ab8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2163-963f-4f6c-08a6",
+          "id": "53ab-903a-aead-20f9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "59bb-63e4-0c7a-7627",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8130-ec5d-073c-a3c2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "f5aa-fec1-b04b-32fa",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "5283-1c92-3717-c2f6",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "1bb7-4aaf-cc19-abe1",
+          "id": "0e9f-02a3-e6f1-5ae7",
+          "name": "Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3fb5-2cf8-a68b-c170",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "7bc1-26ee-a87b-edb1",
+          "name": "Warlord"
+        }
+      ],
+      "id": "33d2-af62-73dc-e166",
+      "name": "Ministorum Priest",
+      "book": "Index: Imperium 2",
+      "page": "91",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "2479a8f3-63b0-4d01-0a1f-673c73c5cb1f",
+          "id": "826e-fc32-b3b1-adb5"
+        },
+        {
+          "targetId": "ea6f-a881-9cef-959d",
+          "id": "ccad-8970-f6b1-c564",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4ec0-bf3e-c6e8-c7ef",
+          "id": "5480-0a15-8b39-fde0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

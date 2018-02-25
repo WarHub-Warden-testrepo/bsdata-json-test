@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Breacher Charge",
+    "prevIdentifier": "Veteran w/ Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d54b-4d59-b397-fa42",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c35f-4a1d-99f5-c002",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f1e2-96a9-3dfc-c7d7",
+          "id": "a6df-381d-e57a-24c9",
+          "name": "Breacher Charge"
+        }
+      ],
+      "id": "ef69-e6cc-0536-28cf",
+      "name": "Veteran w/ Breacher Charge",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "e047-b6e9-f7c2-87fb",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

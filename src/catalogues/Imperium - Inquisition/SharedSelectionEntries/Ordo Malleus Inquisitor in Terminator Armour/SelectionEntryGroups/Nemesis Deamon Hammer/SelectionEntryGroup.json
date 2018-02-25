@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Nemesis Deamon Hammer"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f3e5-e95b-212f-c18e",
+      "constraints": [
+        {
+          "id": "fb82-31c5-a4e3-0645",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cda8-16e3-441e-dcdc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "06fb-e44e-0fd7-e874",
+          "id": "f3e5-e95b-212f-c18e",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "93b0-9291-c215-e9a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4a0e-0f13-63c2-9aae",
+          "id": "72b4-1ca9-cbc2-f83d",
+          "name": "New EntryLink",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "16"
+            },
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "96eb-d0af-2f80-4423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ba53-1df7-404e-e9c9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "132d-82a0-9a49-7ee1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "5d63-d9c1-7b1e-4294",
+          "name": "New EntryLink",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            },
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "96eb-d0af-2f80-4423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ba53-1df7-404e-e9c9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b22d-4523-edea-05ab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e7-1f9b-4c1c-aad9",
+          "id": "e389-9b62-5835-aeda",
+          "name": "New EntryLink",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            },
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "96eb-d0af-2f80-4423",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "ba53-1df7-404e-e9c9",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c697-316c-2015-355c",
+      "name": "Nemesis Deamon Hammer"
+    }
+  ]
+}

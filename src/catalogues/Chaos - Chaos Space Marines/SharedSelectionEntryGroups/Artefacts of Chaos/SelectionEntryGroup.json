@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "identifier": "Artefacts of Chaos",
+    "prevIdentifier": "Champion Equipment (melee)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3faf-bee0-d827-fbdb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2a26-17f8-8dd7-0819",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d11-5f56-478a-aabb",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "f572-cccf-a2cf-32be",
+          "id": "6841-6206-8079-b3f5",
+          "name": "Talisman of Burning Blood",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfc5-aa04-9546-1b4c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7ae6-a8a2-abe9-3b2d",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0060-168c-2488-3ca6",
+          "id": "efd2-b332-f5b2-b76c",
+          "name": "Eye of Tzeentch",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "012f-abfc-397b-3519",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "e691-aad7-d21c-1023",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "95e0-7211-e3e0-0ab3",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "9e18-f3ed-4524-8ee5",
+          "id": "5925-d61e-28e7-cd71",
+          "name": "Intoxicating Elixir",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "1da2-76db-f76f-6b6c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4239-fa06-fd62-a89b",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b169-b2a4-9993-7ea3",
+          "id": "3d3f-f0d9-2172-c638",
+          "name": "Puscleaver",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "0fb6-fcaf-b180-5dda",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e16d-b74f-e1ce-a483",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "f716-c34e-0f90-65bc",
+          "id": "97cc-dd50-d4a6-56ec",
+          "name": "Axe of Blind Fury",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "dfc5-aa04-9546-1b4c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff2c-9842-9d48-cc9e",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7b70-3124-ac94-5695",
+          "id": "f878-2e36-eca6-3f11",
+          "name": "The Black Mace"
+        },
+        {
+          "constraints": [
+            {
+              "id": "81b9-60e9-db35-ee84",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38c8-affb-024d-008a",
+          "id": "51b7-b0ad-cdf6-421a",
+          "name": "The Murder Sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ced0-f2f0-7569-5df8",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "c7cc-7927-cfaa-b76c",
+          "id": "0f75-a354-9bfa-4e10",
+          "name": "The Eye of Night",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "37cd-2830-725b-a321",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4634-4e55-a291-ad7f",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b0d1-5c18-4a03-c50c",
+          "id": "c146-d618-fc02-9000",
+          "name": "The Cursed Crozius",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "2482-8e16-78b0-e9cd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4000-2b94-a510-8c73",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "d4b0-629b-6eff-0a8d",
+          "id": "3316-2847-a992-a3ba",
+          "name": "Brass Collar of Borghaster",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "e536-b475-827e-e3cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0c07-865f-52f8-3247",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "3831-0037-831e-3ffe",
+          "id": "f116-50b3-02ea-ec3c",
+          "name": "Fleshmetal Exoskeleton",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "a1b3-96fc-29f6-d3b1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3bc3-7674-39fd-abc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "1baa-b61b-3dcb-92f2",
+          "id": "f2d3-2496-7a23-559d",
+          "name": "Blade of the Hydra",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "9b8a-fb30-b445-3049",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7a69-9915-1fd1-1f2c",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "7d85-72b7-2fa0-6ea3",
+          "id": "a83f-3555-5a86-e47f",
+          "name": "Claws of the Black Hunt",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "01f7-d7f1-be88-b861",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "0fbd-6d8f-84b1-bace",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "ca57-0c8d-105e-8a95",
+          "id": "1a09-5ad5-0736-b7f4",
+          "name": "Blissgiver",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "51f6-1db1-3e75-3d4b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5876-fcc5-8283-1aca",
+      "name": "Artefacts of Chaos",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "2a26-17f8-8dd7-0819",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "398a-c8da-c8bd-da58",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "2a26-17f8-8dd7-0819",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "0b83-3a3f-078a-8a13",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "2a26-17f8-8dd7-0819",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "a59c-245b-0fff-5543",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "0b83-3a3f-078a-8a13",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "a59c-245b-0fff-5543",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "roster",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

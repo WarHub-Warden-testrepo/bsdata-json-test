@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Boss Nob",
+    "prevIdentifier": "Kommando W/ 'Eavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6119-0e0a-df9d-be8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "4cc7-5754-566b-1e31",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "90eb-e029-adc0-0212",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d676-40b2-6607-522d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "6576-ebf9-47c0-3fb0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f495-e644-d09a-aff1",
+      "name": "Boss Nob"
+    }
+  ]
+}

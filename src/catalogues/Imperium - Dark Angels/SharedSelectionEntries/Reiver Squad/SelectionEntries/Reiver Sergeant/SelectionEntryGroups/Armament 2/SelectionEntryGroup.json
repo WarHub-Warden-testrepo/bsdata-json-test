@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Armament 2",
+    "prevIdentifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "00a1-ec61-5374-f4e6",
+      "constraints": [
+        {
+          "id": "aad4-72bf-5c0c-b461",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "aedf-8567-d474-db2e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bdb8-f7f2-bc90-6dfb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e6-282a-35d9-81b9",
+          "id": "00a1-ec61-5374-f4e6",
+          "name": "Heavy Bolt Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "11f8-37a8-248c-4e07",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc0b-c19f-0b71-081e",
+          "id": "bf9e-3251-f4c6-c643",
+          "name": "Combat knife",
+          "modifiers": [
+            {
+              "field": "11f8-37a8-248c-4e07",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "cc2a-cafd-6b06-a464",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "7b9d-184e-123c-ee5d",
+                  "value": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c833-aec3-e48c-9d0c",
+      "name": "Armament 2"
+    }
+  ]
+}

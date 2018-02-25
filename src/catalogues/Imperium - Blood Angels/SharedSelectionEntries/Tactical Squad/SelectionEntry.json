@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Tactical Squad",
+    "prevIdentifier": "Stormraven Gunship"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "da98-de1b-1ef9-3b5c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "a404-c4ef-8cef-b6be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "f5fa-321a-5750-869b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7aa9-24e9-5516-c19f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8039-83a7-7f40-1955",
+          "id": "4a79-2f20-08fe-e3e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "d388-b142-3a78-5b5f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "a0c4-8919-ae87-0d7b",
+      "name": "Tactical Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "830d-cbc1-38f4-89ee",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "a0c4-8919-ae87-0d7b",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

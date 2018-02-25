@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Terminator Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "19a8-fd7b-1296-c247",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "75b0-cbf3-7002-2724",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a613-9446-e901-791d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "d67f-eb5b-e1a7-4dfe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "05dc-73b9-9d0f-1352",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "51a9-a341-ead9-450b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "dfb7-c4c6-61d5-51ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "a06f-a062-dd38-8cc6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "79a7-4ccf-2317-63f4",
+      "name": "Terminator Sergeant"
+    }
+  ]
+}

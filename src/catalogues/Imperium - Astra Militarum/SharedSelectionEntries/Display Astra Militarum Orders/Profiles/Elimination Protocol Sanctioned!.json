@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Elimination Protocol Sanctioned!",
+    "prevIdentifier": "Mount Up!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "5c3a-03e3-c48d-726c",
+      "profileTypeName": "Astra Militarum Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "e15a-5346-1d34-3504",
+          "value": "You can re-roll failed wound rolls for models from the ordered unit when attacking any enemy VEHICLES or MONSTERS this phase."
+        }
+      ],
+      "id": "89d7-da67-7b92-59a1",
+      "name": "Elimination Protocol Sanctioned!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "c945-509c-a11e-1260",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

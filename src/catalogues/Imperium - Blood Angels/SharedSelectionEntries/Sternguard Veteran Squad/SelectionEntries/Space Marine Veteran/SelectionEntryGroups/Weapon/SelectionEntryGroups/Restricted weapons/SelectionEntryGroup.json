@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Restricted weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "cea6-f69b-e4cc-9508",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "6cb7-4ed9-25eb-f853",
+          "type": 1,
+          "field": "selections",
+          "scope": "6314-10e3-3bbb-ca2a",
+          "value": 4.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ec19-b88d-8f21-da08",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "9982-7348-6ff8-a67c",
+          "id": "ed05-7441-0b66-36f2",
+          "name": "Heavy weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "25f8-d246-a907-b999",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "059d-f32b-23bb-70ab",
+          "id": "5f66-6598-d9fa-05ff",
+          "name": "Special weapons"
+        }
+      ],
+      "id": "c533-651b-859e-5d11",
+      "name": "Restricted weapons"
+    }
+  ]
+}

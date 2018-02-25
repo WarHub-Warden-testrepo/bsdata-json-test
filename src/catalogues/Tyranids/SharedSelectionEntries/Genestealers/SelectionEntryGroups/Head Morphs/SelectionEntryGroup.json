@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Head Morphs"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d60a-f45c-69c7-1566",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            },
+            {
+              "id": "b8dd-84db-37d1-098e",
+              "type": 1,
+              "field": "selections",
+              "scope": "593d-594c-e42d-02f5",
+              "shared": true
+            }
+          ],
+          "targetId": "c1e2-406a-e7c9-749c",
+          "id": "b41d-ab0c-5178-68df",
+          "name": "Acid Maw",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "b8dd-84db-37d1-098e",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "593d-594c-e42d-02f5",
+                  "value": 4.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2c9f-7b67-4ae9-2815",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            },
+            {
+              "id": "c53a-3d8e-d5ad-cb5f",
+              "type": 1,
+              "field": "selections",
+              "scope": "593d-594c-e42d-02f5",
+              "shared": true
+            }
+          ],
+          "targetId": "e8ab-6677-781d-991b",
+          "id": "a66b-53d0-b4a9-fa79",
+          "name": "Flesh Hooks",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "c53a-3d8e-d5ad-cb5f",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "593d-594c-e42d-02f5",
+                  "value": 4.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f3b0-c623-214d-dbd8",
+      "name": "Head Morphs"
+    }
+  ]
+}

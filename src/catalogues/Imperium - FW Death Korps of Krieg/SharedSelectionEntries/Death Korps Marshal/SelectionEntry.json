@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "identifier": "Death Korps Marshal",
+    "prevIdentifier": "Death Korps Marshal Karis Venner"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 37.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "446e-3ffd-bc3b-72a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6235-3bbb-25b4-3dc8",
+          "id": "3aac-2d58-4313-66bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "f0c8-8fca-7045-fe1a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "004c-af59-68af-3938",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5493-9ff5-c8e4-cb4d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "304a-f335-0754-c260",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "56c0-7df7-b2fe-4ba7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b8d1-a6ab-396c-a7cc",
+          "id": "4419-074f-6ca8-2f7e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1f72-48eb-ac96-2b62",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9878-92aa-e775-876f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "ba56-719d-08cb-5ae6",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "de27-a0a4-06c1-108b",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "42cb-8275-37db-e502",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05b3-6c68-55bb-7829",
+          "id": "652b-8faa-df6e-cba9",
+          "name": "Memento Mori"
+        },
+        {
+          "targetId": "9379-7571-9a92-7998",
+          "id": "5903-3c6c-5373-391a",
+          "name": "Death Korps Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "f2fc-c348-0f74-a256",
+          "id": "b873-6e60-47e3-0ee6",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "99e0-8afa-baff-91fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1826-8957-8b91-934a",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "f442-3fd6-e05d-1474",
+          "id": "febe-e9f9-3c63-e4ca",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "2c37-ae86-8a9f-24cc",
+      "name": "Death Korps Marshal",
+      "book": "Imperial Armour - Index - Forces of the Astra Militarum",
+      "page": "57",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "b668-98fa-3e34-9112",
+          "name": "The Cult of Sacrifice"
+        },
+        {
+          "targetId": "1826-f990-a7b6-5ad9",
+          "id": "495e-b3d0-3eda-5b1b",
+          "name": "Senior Officer"
+        },
+        {
+          "targetId": "3f80-6854-b4b4-b594",
+          "id": "1a07-be3b-4402-a7c4",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "74b7-5b3f-ecda-f766",
+          "id": "f0fc-e51b-5949-cb97",
+          "name": "Death Korps Voice of Command"
+        }
+      ]
+    }
+  ]
+}

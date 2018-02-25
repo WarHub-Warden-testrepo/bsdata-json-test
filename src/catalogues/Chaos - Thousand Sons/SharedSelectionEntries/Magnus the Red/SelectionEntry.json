@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Magnus the Red",
+    "prevIdentifier": "Chaos Rhino"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 445.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 23.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "f6b2-78cb-9da0-a128",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "e810-2fed-4a83-79aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "da3c-2d6f-e6bd-0d6a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "e402-4a3d-5593-1829",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "8c6f-8381-77b8-2376",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "780d-8d15-d125-2a42",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "8db7-1f21-6838-a231",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "298f-d173-2159-919f",
+          "id": "7f91-f4dc-3af0-3961",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "1f0b-7b99-4173-37ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "31ce-7090-5d10-a49f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "25e7-16b3-e436-a3ef",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "95e7-26e3-1e22-159a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9aed-5e2d-8d51-5f31",
+          "id": "d5e1-3d49-96dc-7667",
+          "name": "Warlord"
+        }
+      ],
+      "id": "3100-4809-5d50-b433",
+      "name": "Magnus the Red",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "27a8-c34a-7a70-904e",
+          "id": "f266-70d3-c684-421d",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "1276-2d88-86c7-6c26",
+          "id": "3b60-ba0b-79c2-f9f1",
+          "name": "Lord of Forbidden Lore",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "9aed-5e2d-8d51-5f31",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3100-4809-5d50-b433",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

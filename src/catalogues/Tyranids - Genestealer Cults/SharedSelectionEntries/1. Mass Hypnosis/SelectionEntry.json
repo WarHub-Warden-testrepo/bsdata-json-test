@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "1. Mass Hypnosis",
+    "prevIdentifier": "Cult Ambush Table"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c545-ba0b-976b-037d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "4ba9-f0ac-394e-31ce",
+      "name": "1. Mass Hypnosis",
+      "infoLinks": [
+        {
+          "targetId": "b154-b0af-f0ab-7d5a",
+          "id": "0979-6cde-1785-7072",
+          "name": "Mass Hypnosis"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Power: Mass Hypnosis"
+        }
+      ]
+    }
+  ]
+}

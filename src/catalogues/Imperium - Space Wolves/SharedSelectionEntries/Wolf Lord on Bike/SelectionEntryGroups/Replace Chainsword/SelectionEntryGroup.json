@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Replace Chainsword",
+    "prevIdentifier": "Replace Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "3c79-303d-0bc1-d51d",
+      "constraints": [
+        {
+          "id": "62fc-a169-71da-4136",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "737f-725c-b77b-75ed",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c0e9-7918-9c62-9e35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ed66-360b-493b-595d",
+          "id": "4452-e343-aee4-f87b",
+          "name": "Melee Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "77d9-282b-ccb5-2d50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "3c79-303d-0bc1-d51d",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e4ca-965f-7842-8287",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "8190-db6e-4db0-2aac",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        }
+      ],
+      "id": "92f4-df5d-fdcf-208f",
+      "name": "Replace Chainsword",
+      "modifiers": [
+        {
+          "field": "62fc-a169-71da-4136",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "737f-725c-b77b-75ed",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

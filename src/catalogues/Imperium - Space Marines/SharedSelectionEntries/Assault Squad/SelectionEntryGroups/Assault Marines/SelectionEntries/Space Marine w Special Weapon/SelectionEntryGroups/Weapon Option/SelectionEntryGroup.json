@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Weapon Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "2604-17de-d3d1-7811",
+      "constraints": [
+        {
+          "id": "ddea-5ce4-f306-1c81",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "9ce2-ffc2-4d18-266f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "2604-17de-d3d1-7811",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6cc4-7d48-f544-9ee1",
+      "name": "Weapon Option"
+    }
+  ]
+}

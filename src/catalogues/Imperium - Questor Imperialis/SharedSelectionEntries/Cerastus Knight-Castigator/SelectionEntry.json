@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "identifier": "Cerastus Knight-Castigator",
+    "prevIdentifier": "Cerastus Knight-Acheron"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 25.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "9027-3e31-1520-926f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "c395-58a0-1490-9805",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "21da-6c1c-7eb2-89ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ffbb-4e57-cb95-dd27",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "61e0-7a37-9ca9-2baf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "0a36-3755-9dcd-0330",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31f4-e4a5-8023-3d2c",
+          "id": "e29f-3ec1-292c-eaa9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "578d-fbea-5974-b51c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a3c-a05c-126f-9004",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "c6f1-12af-4538-379c",
+          "name": "Titanic feet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0213-bbd3-3021-4ba8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "356f-ad22-c4d3-b2ab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b6f-37af-5ac7-4112",
+          "id": "9976-6053-b6bc-ffa9",
+          "name": "Tempest warblade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b13f-3068-97c1-1621",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5097-6446-791b-01de",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f810-8a33-cc88-c0f8",
+          "id": "8336-f4d7-e88f-d0c1",
+          "name": "Castigator bolt cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "17e6-897b-11a9-e957",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "575f-9fac-78ee-134d",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9e6-7a2c-50da-9500",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "ef90-b289-7b04-d454",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "f711-1af2-92ab-b2ac",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "052c-72c2-e88b-01a5",
+      "name": "Cerastus Knight-Castigator",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "98",
+      "infoLinks": [
+        {
+          "targetId": "0bfe-28c1-4a1b-53bd",
+          "id": "b21e-6fbe-b572-96d6",
+          "name": "Cerastus Knight-Castigator"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "979b-d6c3-3ea1-721e",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "383d-e9e6-b605-f6a9",
+          "id": "7556-b9ad-9370-e323",
+          "name": "Explodes",
+          "page": ""
+        },
+        {
+          "targetId": "eda1-ba88-7192-826e",
+          "id": "5735-50cf-fb80-a270",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "7d1d-e7ee-9a4e-2821",
+          "id": "a02c-1496-536c-62e3",
+          "name": "Ion Shield"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "7391-c1c5-9720-caa5",
+          "name": "Knight Titan"
+        }
+      ]
+    }
+  ]
+}

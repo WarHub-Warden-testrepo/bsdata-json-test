@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Rubric Marine w/ Soulreaper cannon",
+    "prevIdentifier": "Rubric Marine w/ Warpflamer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b04c-a430-81c8-8790",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "9407-c7b1-3a2f-91f5",
+      "name": "Rubric Marine w/ Soulreaper cannon",
+      "modifiers": [
+        {
+          "field": "b04c-a430-81c8-8790",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "bf56-7051-d9a1-621b",
+              "value": 19.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

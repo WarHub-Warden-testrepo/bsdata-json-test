@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Chimera",
+    "prevIdentifier": "Deathstrike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7212-4cbf-1ec8-88a2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3bb1-1925-187a-ba43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7828-2d3f-2c9a-0587",
+          "id": "5259-d17f-86c4-11d6",
+          "name": "Stat Damage (Chimera)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "b88e-3d01-27dc-ae84",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "5aa3-59d1-a7d0-8041",
+          "id": "9da2-fa3e-20e6-b96d",
+          "name": "Turret Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "c7f6-1d09-893b-f169",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "bd60-1628-41c9-d436",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "616c-1154-dfa9-3c03",
+      "name": "Chimera",
+      "book": "Codex: Astra Militarum",
+      "page": "40",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "c229-dc52-c63b-094f",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "b79d-bfa0-f060-9ac4",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

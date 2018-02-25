@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Claw option",
+    "prevIdentifier": "Heavy weapon options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c8d1-834e-f1a9-06f8",
+      "constraints": [
+        {
+          "id": "a342-4e13-0245-6082",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "40ae-18aa-8d69-589d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7ddb-5720-22f2-7236",
+          "id": "15ca-c83f-e1e1-2634",
+          "name": "Hellforged chainclaw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "27.5",
+              "conditions": [
+                {
+                  "childId": "fa2a-ecdc-50db-1d8b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c593-94fc-fbf9-d0df",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a52d-b64c-83d6-5c20",
+          "id": "c8d1-834e-f1a9-06f8",
+          "name": "Hellforged deathclaw"
+        }
+      ],
+      "id": "a229-dc85-e085-61fc",
+      "name": "Claw option",
+      "modifiers": [
+        {
+          "field": "40ae-18aa-8d69-589d",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a984-a57f-297f-fb1a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

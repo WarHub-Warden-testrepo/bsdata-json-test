@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Thunder Hammer & Storm Shield",
+    "prevIdentifier": "Deathwing Ancient"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "97d4-03ce-1d78-28f4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8266-a96d-27bb-2789",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a433-7044-070c-e4d8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "7700-5608-5224-a7ca",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "21",
+              "conditions": [
+                {
+                  "childId": "e029-2f17-ce92-b816",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc9e-6beb-07ca-9eab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b2b6-aa46-2eab-df25",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "5672-b662-b768-566d",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15",
+              "conditions": [
+                {
+                  "childId": "e029-2f17-ce92-b816",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "points",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "7d3f-a10f-0a57-d488",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5ff5-08c4-47b5-97c1",
+      "name": "Thunder Hammer & Storm Shield"
+    }
+  ]
+}

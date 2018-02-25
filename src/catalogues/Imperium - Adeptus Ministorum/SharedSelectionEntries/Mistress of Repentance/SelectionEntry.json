@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Mistress of Repentance",
+    "prevIdentifier": "Ministorum Priest"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 35.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "66d6-51a1-a513-768e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "939b-d578-7949-777e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "2cf4-ee4f-65e7-ee62",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5179-88a9-df07-d872",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9da2-9717-3941-acb5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5307-3aaa-aa90-c484",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0996-7e7d-62f3-3cc8",
+          "id": "42bc-f0a5-daae-d274",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "a693-5775-3b6b-5d27",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5911-71f2-2e76-da4d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "294f-528b-7af8-bcf5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "8336-6d11-6cec-c19f",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "3866-dfe5-ac46-0ae6",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d4f2-f859-2d99-6032",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6d60-aa21-3a9b-30dd",
+          "name": "Warlord"
+        }
+      ],
+      "id": "7b97-19d7-8136-4b1c",
+      "name": "Mistress of Repentance",
+      "book": "Index: Imperium 2",
+      "page": "100",
+      "infoLinks": [
+        {
+          "targetId": "1818-bb7f-35b9-e469",
+          "id": "b491-1e84-f17f-9fd4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

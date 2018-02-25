@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "2 X Renegade Crew"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d91c-4a49-b54a-b431",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9dfd-7c72-96c5-bacc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5f7b-812f-5980-b486",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "050e-b919-e040-d43b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "b573-7f95-09f4-c821",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "21cf-63b0-333c-2f0c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "747c-4c90-72d7-35fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "a8ff-c5e5-3b6d-7ac0",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "bc13-f8f0-6a33-9121",
+      "name": "2 X Renegade Crew"
+    }
+  ]
+}

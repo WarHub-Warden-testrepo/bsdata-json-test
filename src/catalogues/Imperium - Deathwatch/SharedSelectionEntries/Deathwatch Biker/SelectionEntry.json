@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Biker",
+    "prevIdentifier": "Deathwatch Vanguard Veteran"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c504-569e-2d99-964e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e219-1236-2c8a-8f68",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fcc1-855c-bbf7-5469",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2479-62f2-ac9c-f40b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0160-271c-60ee-64ba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6261-f291-c47b-5e95",
+          "id": "4e2f-7c76-9452-a04b",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "ad2a-bcbe-d7d3-302a",
+      "name": "Deathwatch Biker"
+    }
+  ]
+}

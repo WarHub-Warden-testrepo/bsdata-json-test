@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Tempestus Scion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "991f-e788-972d-608b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aab5-161f-f987-ee99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "26a1-8ef8-2b8d-eb4f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "2e9a-4668-1a00-510f",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "dd39-b707-ff8c-e9b4",
+      "name": "Tempestus Scion",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "c50b-780a-9f0a-d372",
+          "name": "Tempestus Scion"
+        }
+      ]
+    }
+  ]
+}

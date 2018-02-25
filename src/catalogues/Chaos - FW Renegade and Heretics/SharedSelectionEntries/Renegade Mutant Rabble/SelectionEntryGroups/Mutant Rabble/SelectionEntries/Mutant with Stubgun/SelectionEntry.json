@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Mutant with Stubgun",
+    "prevIdentifier": "Mutant with Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "edf3-775a-aff0-6de2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e1f6-7f5a-4a8c-f01f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "6403-62be-08c5-8e02",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "91d3-ec89-9e9e-a9a8",
+      "name": "Mutant with Stubgun"
+    }
+  ]
+}

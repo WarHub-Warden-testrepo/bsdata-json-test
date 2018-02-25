@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Taurox)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "10b4-a982-3ef2-a549",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "41ce-5b1d-4da9-f9ae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "4095-6a38-9777-e80a",
+      "name": "Stat Damage (Taurox)"
+    }
+  ]
+}

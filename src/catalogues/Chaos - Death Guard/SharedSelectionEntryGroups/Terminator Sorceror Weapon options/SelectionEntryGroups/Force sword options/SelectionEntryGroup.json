@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Force sword options",
+    "prevIdentifier": "Terminator Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5689-f0cb-c6bf-4055",
+      "constraints": [
+        {
+          "id": "d14b-ea32-9a7d-e1a7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4783-11ca-60f8-ee8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e7-1f9b-4c1c-aad9",
+          "id": "2eea-6b5a-5140-ab4a",
+          "name": "Force sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f687-e6f5-13c6-dae2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4a0e-0f13-63c2-9aae",
+          "id": "56bb-4835-dbc9-5d08",
+          "name": "Force axe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "066f-c7a5-5cfc-6761",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "89b9-351c-f6b0-ba91",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "5689-f0cb-c6bf-4055",
+          "name": "Force stave",
+          "modifiers": [
+            {
+              "field": "89b9-351c-f6b0-ba91",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "219b-0633-d9c5-53cc",
+      "name": "Force sword options"
+    }
+  ]
+}

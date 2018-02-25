@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: The Solar Blessing",
+    "prevIdentifier": "Dogma: Staunch Defenders"
+  },
+  "rules": [
+    {
+      "description": "When making saving throws, units with this dogma treat enemy attacks with an Armour Penetration characteristic of -1 as having an Armour Penetration of 0 instead",
+      "id": "a2ff-018f-8dc7-0b34",
+      "name": "Dogma: The Solar Blessing",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "64e9-33fc-5b2b-13eb",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

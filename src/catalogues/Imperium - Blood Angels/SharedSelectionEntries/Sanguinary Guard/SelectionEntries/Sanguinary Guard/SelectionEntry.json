@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Sanguinary Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f5b0-26dc-67cd-7827",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "f8f5-08aa-f292-85cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "85d9-c085-b20c-5990",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "313f-3899-ba8a-1e65",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "ad1e-4ea7-b07f-8068",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e381-7dd3-d60d-ecd6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f4ca-9890-62fc-74f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0a2d-7576-ca1e-d938",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "059f-0314-8cdb-17b7",
+      "name": "Sanguinary Guard",
+      "infoLinks": [
+        {
+          "targetId": "7783-ea9f-5f1f-4a37",
+          "id": "c495-bca8-f784-461a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9297-b828-6e43-b856",
+          "name": "And They Shall Know No Fear"
+        }
+      ]
+    }
+  ]
+}

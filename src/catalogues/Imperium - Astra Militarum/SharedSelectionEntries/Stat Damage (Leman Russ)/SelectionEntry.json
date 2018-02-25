@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Leman Russ)",
+    "prevIdentifier": "Stat Damage (HS)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c40e-08c6-8ef8-6fbf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fef6-4712-0efe-57cd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "aff3-db41-0dc2-49ce",
+      "name": "Stat Damage (Leman Russ)"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Black Shield",
+    "prevIdentifier": "Watch Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3b75-9939-0659-48b9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e2e0-d09c-e711-31ec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "576f-43b5-17a1-4edb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "93e1-4969-55df-32bf",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "052c-ee84-33e2-4168",
+      "name": "Black Shield"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Neophyte Hybrids",
+    "prevIdentifier": "Magus"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "1869-9832-12e6-515f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "224e-2172-a71c-f3aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "7ebe-b280-c533-6075",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7f35-2bfe-519c-2d21",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6f05-1f3f-cd2e-c3e8",
+          "id": "11db-b89d-b30d-5bba",
+          "name": "Cult Icon"
+        }
+      ],
+      "id": "b423-c93c-6df1-6b78",
+      "name": "Neophyte Hybrids",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e624-3023-b8b4-18fa",
+          "id": "4e80-08f2-58f6-a03c",
+          "name": "Cult Ambush"
+        },
+        {
+          "type": 1,
+          "targetId": "83cc-a64d-d8bd-7a4a",
+          "id": "587e-f333-5f42-e17c",
+          "name": "Unquestioning Loyalty"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "b423-c93c-6df1-6b78",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

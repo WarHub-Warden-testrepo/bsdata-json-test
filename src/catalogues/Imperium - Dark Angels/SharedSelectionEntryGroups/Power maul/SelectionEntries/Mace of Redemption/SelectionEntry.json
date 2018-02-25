@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Mace of Redemption"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "49c8-ba17-aab7-eb81",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7d52-db0c-c6c7-c561",
+          "id": "9951-dde6-c8c7-e26f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d0e7-2a6d-f6d0-3952",
+      "name": "Mace of Redemption",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

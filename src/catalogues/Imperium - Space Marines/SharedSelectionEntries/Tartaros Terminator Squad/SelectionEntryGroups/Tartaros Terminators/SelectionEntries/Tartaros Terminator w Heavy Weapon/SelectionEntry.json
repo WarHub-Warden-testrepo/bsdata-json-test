@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Tartaros Terminator w/Heavy Weapon",
+    "prevIdentifier": "Tartaros Terminator w/Chainfist"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ca78-89d7-761e-df0f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "fc02-1559-4fe5-0890",
+      "name": "Tartaros Terminator w/Heavy Weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "ca78-89d7-761e-df0f",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c941-4c13-2f96-8f01",
+              "type": 4,
+              "field": "selections",
+              "scope": "4c43-da85-baa1-b096",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

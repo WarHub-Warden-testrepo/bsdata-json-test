@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "First Among Traitors",
+    "prevIdentifier": "I am Alpharius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "0148-a63b-9d50-a1c9",
+      "name": "First Among Traitors",
+      "infoLinks": [
+        {
+          "targetId": "376e-a98c-ccd4-3248",
+          "id": "25ee-4ff1-2763-00e8",
+          "name": "First Among Traitors"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "37cd-2830-725b-a321",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

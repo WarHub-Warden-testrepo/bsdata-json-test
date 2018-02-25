@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "identifier": "Dark Hereticus discipline",
+    "prevIdentifier": "Mark of Chaos"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "targetId": "8561-c524-f380-e5a5",
+          "id": "75b1-a3b9-610a-d9ac",
+          "name": "Infernal Gaze"
+        },
+        {
+          "targetId": "9dd3-90bb-ef37-5728",
+          "id": "777a-5352-ff83-d825",
+          "name": "Warptime"
+        },
+        {
+          "targetId": "4a71-53c2-2d9c-3693",
+          "id": "780a-6e39-e385-ee7d",
+          "name": "Prescience"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2a01-a3c7-2357-8cf7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a92b-bab4-d200-8f41",
+          "id": "08db-363a-c4d8-ffb7",
+          "name": "Weaver of Fates",
+          "modifiers": [
+            {
+              "field": "33c1-4aa6-bd08-49eb",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "012f-abfc-397b-3519",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "6480-cd66-5f07-1e5a",
+          "id": "1ffd-10ac-a0bc-518c",
+          "name": "Gift of Chaos"
+        },
+        {
+          "targetId": "57a5-9730-a650-1fe5",
+          "id": "f8eb-427a-a02b-61eb",
+          "name": "Diabolic Strength"
+        },
+        {
+          "targetId": "3c04-6761-a70d-90db",
+          "id": "4de0-ccdb-b814-640e",
+          "name": "Death Hex"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6a39-e035-4f11-feba",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cf23-460a-a7d2-2605",
+          "id": "fd7f-6031-ec52-ae5b",
+          "name": "Miasma of Pestilence",
+          "modifiers": [
+            {
+              "field": "bfa3-4e03-9fc4-824c",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "0fb6-fcaf-b180-5dda",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "419f-b7bc-06fc-4785",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca0b-8101-9dac-34d8",
+          "id": "9adc-b799-24ee-e0ff",
+          "name": "Delightful Agonies",
+          "modifiers": [
+            {
+              "field": "c656-d8e7-428c-6d5c",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "1da2-76db-f76f-6b6c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "0246-3399-3b88-44aa",
+      "name": "Dark Hereticus discipline"
+    }
+  ]
+}

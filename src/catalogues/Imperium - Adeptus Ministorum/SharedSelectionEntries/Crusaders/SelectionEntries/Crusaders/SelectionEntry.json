@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Crusaders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "563e-153c-7573-bd9c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "7cbb-b576-576d-12ac",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "459a-8477-31b4-fe7b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d5f-689c-71ca-2c3e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e00a-6cb6-2690-8c55",
+          "id": "2e89-f8bc-58f3-b42a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d6f2-b082-6e2e-4dc7",
+      "name": "Crusaders",
+      "infoLinks": [
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "e73a-f5a8-7070-6fc2",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

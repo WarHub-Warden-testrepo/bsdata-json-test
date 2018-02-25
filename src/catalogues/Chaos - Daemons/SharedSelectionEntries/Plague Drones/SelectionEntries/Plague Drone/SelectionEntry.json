@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Plague Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1960-c28b-e1ec-7319",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 8.0,
+          "shared": true
+        },
+        {
+          "id": "a2c6-a9c4-693d-b466",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd52-1480-0038-c3cc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5df1-ff58-ee19-6e21",
+          "id": "dc79-85ff-7eaa-d68b",
+          "name": "Plaguesword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e7a1-b4a1-823c-3628",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "18b3-e637-bf0d-f7e8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1c11-40ea-0b64-3f29",
+          "id": "a2af-748a-89af-642d",
+          "name": "Rot Fly"
+        },
+        {
+          "targetId": "11a3-3f4d-d159-6484",
+          "id": "2100-e535-e7a0-8fc5",
+          "name": "Death's heads"
+        }
+      ],
+      "id": "6eb2-2f6e-e014-08f9",
+      "name": "Plague Drone"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "identifier": "Sergeant Telion",
+    "prevIdentifier": "Infernus"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "41ed-7ba7-8a1b-14ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d664-5e4b-d84a-262a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0b71-1e54-14af-d18d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a98f-c9a5-9255-2024",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bba0-95e4-2401-f202",
+          "id": "1a4e-7a32-e8fd-995c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f0cc-a26f-c8c5-9528",
+          "id": "a9f0-0d44-b820-6956",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "80e7-f1d9-9195-7944",
+          "id": "daad-5b40-707a-51fa",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9aa7-643f-2db9-4ace",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b2d7-c7d1-02ad-556f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "07a3-9650-f1b7-7ffb",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4f40-2ff9-988c-a81e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3fe5-3ace-30ca-86b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "01cb-d174-35cb-38f3",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1208-7198-ba55-4162",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0a0c-ba8e-e71d-85a5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5dff-6b42-3542-bd9c",
+          "id": "4a37-1c0d-a1f8-744a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1fa2-bbce-445e-ec7f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8397-f199-2b51-ba9f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e0df-0e01-4e07-fdec",
+          "id": "8f88-2847-a7e3-f943",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "db5b-a18f-3144-9a8e",
+      "name": "Sergeant Telion",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "e986-f478-4265-ad75",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "f049-4a94-49b9-7f14",
+          "id": "71e6-bfe0-75c5-f77b",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "ef59-b971-acfe-2119",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

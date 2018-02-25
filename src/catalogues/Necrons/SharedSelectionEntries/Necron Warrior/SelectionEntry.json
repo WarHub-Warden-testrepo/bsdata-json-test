@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Necron Warrior",
+    "prevIdentifier": "C'Tan Shard of the Deceiver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "95dc-0641-1d14-14f1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3a83-39ae-590f-9dbb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "086d-232b-8a91-8eec",
+          "id": "d7e8-7123-841a-1ba5",
+          "name": "Gauss Flayer",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "631d-38b4-1b15-59f9",
+      "name": "Necron Warrior",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "bd64-6827-d2b3-a604",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ]
+    }
+  ]
+}

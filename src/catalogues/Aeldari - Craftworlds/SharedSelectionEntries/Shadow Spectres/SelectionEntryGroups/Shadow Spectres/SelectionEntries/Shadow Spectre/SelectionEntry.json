@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Shadow Spectre"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6cab-8345-a350-9be7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "34e9-ea88-dd6b-4a8d",
+          "id": "26e0-7494-0867-a97d",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "5818-eebf-89b5-7096",
+          "id": "5155-078b-462e-b383",
+          "name": "Prism Rifle"
+        }
+      ],
+      "id": "7dab-6aec-9885-2076",
+      "name": "Shadow Spectre"
+    }
+  ]
+}

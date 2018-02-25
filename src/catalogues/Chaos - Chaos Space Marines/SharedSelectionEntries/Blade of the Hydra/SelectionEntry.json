@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Blade of the Hydra",
+    "prevIdentifier": "Brass Collar of Borghaster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "1baa-b61b-3dcb-92f2",
+      "name": "Blade of the Hydra",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "0dd1-2e2b-7dd1-5495",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

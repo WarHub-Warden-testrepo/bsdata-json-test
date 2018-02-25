@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Termagant (Fleshborer)",
+    "prevIdentifier": "Termagant (Devourer)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d5ac-0d04-4558-59d6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 30.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f189-eb6f-16da-5372",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b391-1941-d2ef-6784",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b888-86b7-cb7a-866f",
+          "id": "eb99-b7fb-1201-f9e9",
+          "name": "Fleshborer"
+        }
+      ],
+      "id": "8d26-77af-ee8e-cf53",
+      "name": "Termagant (Fleshborer)",
+      "infoLinks": [
+        {
+          "targetId": "3e97-1173-dc2a-49e6",
+          "id": "879f-29c1-1bdc-4398",
+          "name": "Termagant"
+        }
+      ]
+    }
+  ]
+}

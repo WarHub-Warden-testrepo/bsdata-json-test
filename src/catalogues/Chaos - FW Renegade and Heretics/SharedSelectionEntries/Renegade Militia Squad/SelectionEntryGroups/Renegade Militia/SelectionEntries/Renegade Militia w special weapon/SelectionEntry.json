@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia w/ special weapon",
+    "prevIdentifier": "Renegade Militia Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f2ce-2e25-63a1-9233",
+          "type": 1,
+          "field": "selections",
+          "scope": "517d-ad0d-cf72-801f",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1f18-4710-f140-1446",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ffe1-1406-99d5-1ec5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c90d-f7ed-0405-0281",
+          "id": "b9fb-79dc-7db0-1355",
+          "name": "Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "339d-5761-599c-5fd8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5d4a-3583-43fc-a919",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "35ce-d31d-527f-a99b",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "3967-cabf-7c9a-6b8b",
+      "name": "Renegade Militia w/ special weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "f2ce-2e25-63a1-9233",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "517d-ad0d-cf72-801f",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "f2ce-2e25-63a1-9233",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "517d-ad0d-cf72-801f",
+              "value": 15.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

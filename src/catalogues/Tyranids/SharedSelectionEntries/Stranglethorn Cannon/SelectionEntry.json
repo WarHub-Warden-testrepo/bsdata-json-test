@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Stranglethorn Cannon",
+    "prevIdentifier": "Stinger Salvo"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3922-3373-6e90-d4be",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "0d1b-6f84-2224-a225",
+      "name": "Stranglethorn Cannon",
+      "infoLinks": [
+        {
+          "targetId": "1c15-bcdd-cb30-6a84",
+          "id": "08b3-86fa-691d-c46a",
+          "name": "Stranglethorn Cannon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "3922-3373-6e90-d4be",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1c3b-69a1-17d2-dc56",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Main Weapon Selection"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5a0a-ccc6-d03c-c42d",
+      "constraints": [
+        {
+          "id": "2434-3a60-7837-31f3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "9be0-c755-68c3-b705",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d65a-aa92-7b80-f1ee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "04fc-cfe9-01cf-0595",
+          "id": "d71e-6048-685e-1989",
+          "name": "Scattershield"
+        }
+      ],
+      "id": "46e7-6a50-261c-d2c6",
+      "name": "Main Weapon Selection"
+    }
+  ]
+}

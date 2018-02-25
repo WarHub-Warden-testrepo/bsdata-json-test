@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Replace Chainsword",
+    "prevIdentifier": "Replace Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f3da-4868-f661-3f3f",
+      "constraints": [
+        {
+          "id": "c5f5-06f0-b8f9-2e84",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "07e5-312c-1228-dd21",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0cbc-3cc3-84f0-34f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "dc0f-54fc-24f0-5a62",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5795-b5f2-d5a4-2108",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "c599-3fb7-22f2-ec7e",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5e01-414a-ec0b-8585",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "0ab8-84a1-125c-86c2",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4b30-df89-56b8-452d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "f3da-4868-f661-3f3f",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "7696-9ed6-ad46-c4c0",
+      "name": "Replace Chainsword",
+      "modifiers": [
+        {
+          "field": "c5f5-06f0-b8f9-2e84",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "07e5-312c-1228-dd21",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

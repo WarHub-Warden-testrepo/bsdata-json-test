@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "identifier": "Ranged/Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "85c9-56b4-cc8f-e096",
+      "constraints": [
+        {
+          "id": "9db3-8f13-6455-c017",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "362f-30de-46cc-9fdf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6769-6e67-fefc-976c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "85c9-56b4-cc8f-e096",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "38d0-b487-16b2-4661",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "2899-688e-ce62-e855",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ab96-774a-3367-12d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "f27b-54f3-24dc-6335",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f52d-9bd0-e29d-eff7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "5e62-fd8f-4af4-9ab6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "88a9-3155-eb57-9b03",
+      "name": "Ranged/Melee Weapon",
+      "modifiers": [
+        {
+          "field": "9db3-8f13-6455-c017",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4a4d-10d2-1332-f981",
+              "type": 2,
+              "field": "selections",
+              "scope": "a0b8-6a5c-ea09-44f9",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "362f-30de-46cc-9fdf",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4a4d-10d2-1332-f981",
+              "type": 2,
+              "field": "selections",
+              "scope": "a0b8-6a5c-ea09-44f9",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

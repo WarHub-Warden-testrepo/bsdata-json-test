@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "identifier": "Primaris Lieutenants",
+    "prevIdentifier": "Primaris Ancient"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "abf6-9718-61c9-f83a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8e99-d36c-74d1-ee7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7c1a-7c33-6758-0325",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8804-c6c1-7d4b-a942",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "aea5-bdce-3ffb-d19e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4db-2d06-de12-46f9",
+          "id": "03a2-3b01-6ed0-7735",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "58a6-6732-fb6b-8be1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "21d8-0cfa-d0d7-df19",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d764-7924-6cac-88b6",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "5013-980b-1d82-cc3b",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "d764-7924-6cac-88b6",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "9d34-8b73-9019-028f",
+      "name": "Primaris Lieutenants",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5df9-9d23-2fa7-1b81",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ca86-a970-9bab-d29a",
+          "id": "3067-8807-e090-de20",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b6ba-39af-6402-3665",
+          "id": "872e-82f9-652a-d998",
+          "name": "Company Heroes"
+        }
+      ]
+    }
+  ]
+}

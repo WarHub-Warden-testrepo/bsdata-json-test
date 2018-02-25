@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Chosen - 1",
+    "prevIdentifier": "Dzargon Draznicht"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fc8e-8e2d-e81c-8871",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "fa06-6821-3efd-9d24",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1965-51a0-1052-d24d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6e16-37d3-a203-99b1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "4cc7-d924-6e60-edf2",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "56ea-0584-3534-1461",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "99c4-1e74-b891-8dfc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "183a-a319-9ba3-541e",
+          "id": "126f-87f4-43b9-3add",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0662-0d18-595d-b857",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c306-50ac-6668-ff46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "f4d5-4156-7f4c-a540",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "221e-aa23-f632-09a2",
+      "name": "Chosen"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "identifier": "Chaplain in Terminator Armor",
+    "prevIdentifier": "Chaplain"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "fa8f-0147-41af-3ff6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8407-a5bb-e098-8da3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e802-205a-ad3e-d161",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "25b2-57a1-8679-cde8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3f5-f3b2-bdbb-4742",
+          "id": "2312-c07e-9767-6234",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "89d1-d844-f58a-aeb4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e314-4921-ad7a-37f8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "be8e-7a66-39a2-fd0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "0839-3b0a-f575-d673",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6b43-d13f-5165-15be",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "99c2-5d36-15a6-7629",
+          "id": "f537-efe1-a62f-e1fc",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "ae05-82ce-984d-7396",
+          "name": "Relics"
+        }
+      ],
+      "id": "6876-9f56-4e02-5400",
+      "name": "Chaplain in Terminator Armor",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "c510-5c07-c4cb-9e69",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9287-78a9-f594-c601",
+          "id": "6c93-c7f2-5548-d730",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3f26-e8cb-ea53-e656",
+          "id": "e889-c32b-d7fd-7e80",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b355-bd49-c5a5-805f",
+          "id": "ddd1-c499-3768-13d8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "186f-a3cf-396e-344e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

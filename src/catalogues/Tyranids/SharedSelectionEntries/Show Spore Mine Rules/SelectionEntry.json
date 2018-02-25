@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Show Spore Mine Rules",
+    "prevIdentifier": "4. Onslaught"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0035-efde-61ab-af8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "7cd5-1124-4d20-3675",
+      "name": "Show Spore Mine Rules",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "0231-b0a0-5263-6d9c",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "6ca1-41b7-d5e0-8dd0",
+          "name": "Living Bombs",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": "(Spore Mine)"
+            }
+          ]
+        },
+        {
+          "targetId": "19af-ab35-5929-e624",
+          "id": "f7cc-0084-eefc-3496",
+          "name": "Spore Mine"
+        },
+        {
+          "targetId": "339f-b2b7-bd45-91f9",
+          "id": "1381-f786-459c-c9b9",
+          "name": "Floating Death (Spore Mine)"
+        },
+        {
+          "targetId": "e4d0-2ad3-2e0d-6559",
+          "id": "ce5e-4765-db65-fb44",
+          "name": "Spore Mines"
+        }
+      ]
+    }
+  ]
+}

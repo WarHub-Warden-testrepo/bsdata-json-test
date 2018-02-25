@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "identifier": "Canoness",
+    "prevIdentifier": "Battle Sister Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "d952-c509-8ef4-77c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "2521-2eb5-2738-23c6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "c3b2-dafb-afdd-c3bf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5698-17f8-cea9-a7dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "e00e-f283-744a-39d2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6f03-693b-40fd-366a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0214-360f-2bcc-9c16",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a68e-7404-c78e-db6c",
+          "id": "d494-ebd0-a712-a682",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "eb25-cd9c-53a0-c7d4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b817-634b-bab7-9615",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "5838-49c7-7714-f691",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "40aa-3275-9c28-fbb8",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "1bb7-4aaf-cc19-abe1",
+          "id": "4cc8-67a4-bf09-e0cd",
+          "name": "Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "10e4-f8fc-ee9d-733b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "32d7-3f94-509f-48fd",
+          "name": "Warlord"
+        }
+      ],
+      "id": "e1bb-8fd1-939d-8952",
+      "name": "Canoness",
+      "book": "Index: Imperium 2",
+      "page": "97",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "e9b8-e894-2987-86aa"
+        },
+        {
+          "type": 1,
+          "targetId": "6d3f2230-86ac-8ae9-caaf-086dc960e681",
+          "id": "d644-d1d3-73c5-e56d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4ec0-bf3e-c6e8-c7ef",
+          "id": "96e8-c706-face-635a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

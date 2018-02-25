@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "MV17 Interceptor Drone",
+    "prevIdentifier": "MV8 Missile Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "2811-e5d4-da39-9125",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "5aa8-86d8-5bf2-d73a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "2f82-da1d-598b-6241",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "bf1d-0bde-afaa-1702",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5d52-e21e-9b4c-606d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "b51f-746e-2dc6-f8c4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca66-add8-ccfd-e90e",
+          "id": "ad1b-e28b-013f-08c7",
+          "name": "Ion rifle",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "90f0-2c30-d7a1-62a6",
+      "name": "MV17 Interceptor Drone",
+      "infoLinks": [
+        {
+          "targetId": "b25d-3ec5-a97b-6acd",
+          "id": "83ee-938d-d9ac-ddf4",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9482-16e3-9287-b47f",
+          "id": "ed87-92c9-3896-b0d0",
+          "name": "Saviour Protocols"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "4de4-f757-aed1-dcee",
+          "name": "For the Greater Good"
+        }
+      ]
+    }
+  ]
+}

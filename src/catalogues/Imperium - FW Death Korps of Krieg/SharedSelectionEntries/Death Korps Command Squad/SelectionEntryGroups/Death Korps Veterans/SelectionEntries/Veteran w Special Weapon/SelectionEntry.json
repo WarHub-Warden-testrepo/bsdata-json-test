@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Veteran w/Special Weapon",
+    "prevIdentifier": "Veteran w/Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a827-c02b-b98a-340e",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "cd9f-944e-af90-9234",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "531f-4711-cd17-8d70",
+          "id": "8a9d-60fe-a559-141a",
+          "name": "DKOK Special Weapons BS3"
+        }
+      ],
+      "id": "a860-34ce-bde1-6815",
+      "name": "Veteran w/Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "c371-9555-44e9-4a99",
+          "id": "a4d8-f6ff-7d24-0866",
+          "name": "Death Korps Veterans"
+        }
+      ]
+    }
+  ]
+}

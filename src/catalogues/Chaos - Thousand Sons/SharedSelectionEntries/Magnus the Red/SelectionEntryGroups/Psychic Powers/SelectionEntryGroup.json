@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Psychic Powers"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2739-bd9f-3ff9-a954",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "d4b5-a7bb-b23a-fc37",
+          "name": "Discipline of Change"
+        },
+        {
+          "type": 1,
+          "targetId": "cca1-01a1-45fa-e054",
+          "id": "bcc5-ac46-b206-5076",
+          "name": "Dark Hereticus Discipline"
+        },
+        {
+          "type": 1,
+          "targetId": "7bb0-f8ee-4b51-4b43",
+          "id": "a779-2daa-2a64-7abf",
+          "name": "Tzeentch Discipline"
+        }
+      ],
+      "id": "0490-5f0e-76e7-1f0e",
+      "name": "Psychic Powers",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "2739-bd9f-3ff9-a954",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "9aed-5e2d-8d51-5f31",
+              "type": 2,
+              "field": "selections",
+              "scope": "3100-4809-5d50-b433",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

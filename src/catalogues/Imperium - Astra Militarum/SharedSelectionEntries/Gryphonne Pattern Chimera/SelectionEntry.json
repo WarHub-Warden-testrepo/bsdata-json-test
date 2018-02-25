@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Gryphonne Pattern Chimera",
+    "prevIdentifier": "Sentinel Powerlifters"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "38b1-dd45-9572-fa22",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "f3cb-5d7f-b17a-6c62",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "139b-b600-9ed0-bddd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f9ac-954e-f66f-d455",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7828-2d3f-2c9a-0587",
+          "id": "7f0c-ebfc-897f-ba07",
+          "name": "Stat Damage (Chimera)"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "7086-8af9-9827-6d28",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "4f55-09ae-a044-f876",
+          "name": "Hull Weapon"
+        }
+      ],
+      "id": "8208-6790-056f-6c35",
+      "name": "Gryphonne Pattern Chimera",
+      "book": "Codex: Astra Militarum",
+      "page": "40",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "6e83-d791-e60b-8081",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "fecd-b63e-43d2-ece8",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

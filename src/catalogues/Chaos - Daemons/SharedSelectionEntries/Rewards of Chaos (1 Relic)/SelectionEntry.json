@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Rewards of Chaos (1 Relic)",
+    "prevIdentifier": "Warlord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "13b1-9b23-1d68-8d75",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "c910-0ed6-5320-74dc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "825e-be67-d23e-3e72",
+      "name": "Rewards of Chaos (1 Relic)",
+      "modifiers": [
+        {
+          "field": "13b1-9b23-1d68-8d75",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "9a8e-6f0d-36d2-7b97",
+              "type": 1,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

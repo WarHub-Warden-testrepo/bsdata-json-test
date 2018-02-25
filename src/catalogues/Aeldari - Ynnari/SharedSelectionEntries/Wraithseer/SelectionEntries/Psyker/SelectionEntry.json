@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Psyker",
+    "prevIdentifier": "Wraithshield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a139-14d0-df5a-57c2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9651-43c0-9a99-820d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "b7b7-e586-75fe-7176",
+      "name": "Psyker"
+    }
+  ]
+}

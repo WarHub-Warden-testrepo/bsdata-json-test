@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "63a7-6b37-847a-24cf",
+      "constraints": [
+        {
+          "id": "48c2-9872-1282-e527",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a6d5-7cb5-100a-a810",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3cb6-13a4-7755-2d10",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "742b-1b52-a3c7-4bb9",
+          "id": "63a7-6b37-847a-24cf",
+          "name": "Dreadnought combat weapon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "742b-1b52-a3c7-4bb9",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "45f1-772c-0091-a1a8",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c613-5759-d7db-4ab1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e3b5-4bc6-50a6-287d",
+          "id": "7a32-adbd-c470-28ea",
+          "name": "Dreadnought chainfist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "28",
+              "conditions": [
+                {
+                  "childId": "e3b5-4bc6-50a6-287d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "45f1-772c-0091-a1a8",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c707-f329-278f-78c0",
+      "name": "Melee weapon"
+    }
+  ]
+}

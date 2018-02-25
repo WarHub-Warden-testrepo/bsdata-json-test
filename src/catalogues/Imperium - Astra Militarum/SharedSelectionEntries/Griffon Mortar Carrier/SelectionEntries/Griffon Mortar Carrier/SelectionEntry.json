@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Griffon Mortar Carrier"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "46aa-07f2-3b2d-6036",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "84cf-5711-cc2e-3455",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "03e8-a028-3695-39b6",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "1202-5111-b977-6ce6",
+          "name": "Chimera Hull Weapon"
+        }
+      ],
+      "id": "8e5f-5d22-4a19-3af8",
+      "name": "Griffon Mortar Carrier",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "d5a3-0e22-9bd9-30f0",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "a63c-fad5-d249-c87a",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "607d-970c-e0ee-ee2d",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

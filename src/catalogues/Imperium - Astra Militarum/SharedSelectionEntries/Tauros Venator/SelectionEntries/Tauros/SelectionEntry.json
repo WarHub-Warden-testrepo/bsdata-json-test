@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Tauros"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4071-9c2b-46fa-d3df",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "a261-bb04-bd20-2ff2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "754f-f97d-b5d8-2a61",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "de7a-b749-8894-f059",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "89df-4a57-e469-3a86",
+      "name": "Tauros"
+    }
+  ]
+}

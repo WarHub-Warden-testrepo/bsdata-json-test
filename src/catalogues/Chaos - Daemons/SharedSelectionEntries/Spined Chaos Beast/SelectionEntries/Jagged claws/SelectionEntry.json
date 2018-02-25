@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Jagged claws",
+    "prevIdentifier": "Warp spines"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ad1a-7b50-8dac-b4c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "3de0-6b49-42d4-baae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "61db-cc10-58bf-85e6",
+      "name": "Jagged claws"
+    }
+  ]
+}

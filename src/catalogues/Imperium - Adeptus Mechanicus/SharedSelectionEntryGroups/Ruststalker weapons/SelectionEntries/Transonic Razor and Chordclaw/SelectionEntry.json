@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Transonic Razor and Chordclaw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a82c-6e88-42db-efe1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5d39-43fe-181d-c26d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e3e7-466d-b088-2c3a",
+          "id": "a292-dc13-1e70-2d0d",
+          "name": "Chordclaw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "503c-e253-31df-a56f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7d36-e31f-dc8b-a09b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e266-b9ee-ff66-07d0",
+          "id": "8a46-61cc-a511-7662",
+          "name": "Transonic Razor"
+        }
+      ],
+      "id": "5a61-2364-a202-ad17",
+      "name": "Transonic Razor and Chordclaw"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Rubric Marines",
+    "prevIdentifier": "Noise Marines"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "3cdb-bdd4-4ddc-24d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5fea-0245-60e4-0c36",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7fd4-e8e5-bac5-1d41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "9971-dc7a-71d2-ad91",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "e5ce-c3c0-eee2-cbd8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "0bdc-d1ab-d198-f4e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e579-b3c4-03fb-c3dc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "eec0-cb3b-3f6f-68e2",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "bf56-7051-d9a1-621b",
+      "name": "Rubric Marines",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "001d-59f6-0b85-3014",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "11c7-1054-a93c-c0b5",
+          "id": "0331-f941-ec03-dc7e",
+          "name": "All is Dust"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "bf56-7051-d9a1-621b",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "21",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "bf56-7051-d9a1-621b",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "27",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "bf56-7051-d9a1-621b",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

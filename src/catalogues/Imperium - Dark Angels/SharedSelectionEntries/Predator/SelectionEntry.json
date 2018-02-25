@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Predator",
+    "prevIdentifier": "Land Raider Excelsior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "98c9-58a5-ed84-550a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "c510-60cf-017c-11dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0782-e303-470a-18b5",
+          "id": "fb6b-7d8f-27d4-2c3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "23f1-bdc8-6d9a-5dfc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "b0c0-ddb4-6701-c502",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "523c-52d1-e902-0276",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "7455-b77b-d0b5-0e8a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e599-cdb8-63e2-82a1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "8574-70f1-cdbe-d77d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a43c-be7a-b081-b8fa",
+      "name": "Predator",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "5e01-3fad-03f5-7e5a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "322f-ccbc-22c3-90f0",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

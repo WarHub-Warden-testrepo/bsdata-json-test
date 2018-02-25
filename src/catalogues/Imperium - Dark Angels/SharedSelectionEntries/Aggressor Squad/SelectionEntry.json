@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Aggressor Squad",
+    "prevIdentifier": "Auto Boltstorm Gauntlets"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "3931-4356-ef9d-9c39",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "de1d-fd1c-c9af-8673",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5261-9b93-30d9-3482",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "82df-13db-9e7b-15a3",
+          "id": "46c9-c2ee-5814-7b54",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "0b4a-0319-44e7-d693",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f047-a791-a6fa-988d",
+          "id": "320b-c576-4c85-99dd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "e698-7e13-a024-67bd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "6b3b-d0b6-4715-8a82",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "14a0-2401-84ce-ee69",
+      "name": "Aggressor Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5348-d576-b4d9-8a36",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "ece0-894c-5f46-6c87",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "9097-d664-b6f0-04d4",
+          "name": "And They Shall Know No Fear"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "b993-9af6-5bd8-0414",
+              "type": 1,
+              "field": "selections",
+              "scope": "14a0-2401-84ce-ee69",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

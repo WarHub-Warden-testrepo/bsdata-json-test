@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Stratagem: Bounty of the Hive Fleet (-1 CP)",
+    "prevIdentifier": "Warlord"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "795d-1b62-bf36-086d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "6b0e-e4eb-91ab-6e4c",
+      "name": "Stratagem: Bounty of the Hive Fleet (-1 CP)",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Stratagem: Bounty of the Hive Fleet (-3 CP)",
+          "conditions": [
+            {
+              "childId": "6e93-50ba-cbf3-f88f",
+              "type": 4,
+              "field": "selections",
+              "scope": "6b0e-e4eb-91ab-6e4c",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

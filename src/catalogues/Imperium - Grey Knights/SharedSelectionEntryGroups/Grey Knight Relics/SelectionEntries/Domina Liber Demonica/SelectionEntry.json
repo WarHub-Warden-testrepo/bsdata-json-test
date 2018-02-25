@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Domina Liber Demonica",
+    "prevIdentifier": "Curiass of Sacrifice"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9fbc-576f-423d-abb2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "13f7-339a-7803-c124",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "0534-eee9-7561-ed6e",
+      "name": "Domina Liber Demonica",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "56f3-8e33-0a1b-fbd7",
+          "id": "9e43-521e-36ee-1ecd",
+          "name": "Domina Liber Demonica"
+        }
+      ]
+    }
+  ]
+}

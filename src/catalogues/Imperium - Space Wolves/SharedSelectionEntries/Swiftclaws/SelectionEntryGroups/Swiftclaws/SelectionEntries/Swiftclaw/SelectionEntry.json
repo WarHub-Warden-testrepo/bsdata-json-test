@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Swiftclaw"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 23.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3895-f38a-361f-44b9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "06d1-84b8-23c4-d2b9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1d40-cfce-7fa1-7cd3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "25c5-96ab-648b-86f0",
+          "name": "Bike"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a8e8-4634-9200-adf8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f6b-614b-75e5-95a6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c43d-02bf-56a8-4d07",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e983-880c-5115-fc11",
+      "name": "Swiftclaw",
+      "infoLinks": [
+        {
+          "targetId": "2ee1-ace6-5c63-ff1f",
+          "id": "aee0-8fe3-6c4b-1765",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

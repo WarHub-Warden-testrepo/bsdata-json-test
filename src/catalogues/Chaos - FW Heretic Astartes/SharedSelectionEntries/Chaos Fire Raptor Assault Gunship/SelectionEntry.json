@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Chaos Fire Raptor Assault Gunship",
+    "prevIdentifier": "Balefire missiles"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 190.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "cc13-7743-37e2-0fe9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "732f-c4f0-027b-d59d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "b521-175f-7f8e-f787",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c6c5-7ba3-ae32-8fc0",
+          "id": "56b7-5751-0644-97cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "e1d1-b268-902c-bdb5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "0317-8fc4-8191-cd55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "6077-119c-c50a-9499",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ddbb-bfc1-4671-23d4",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f262-3963-455a-bab5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e096-e4d8-ef1a-8d6c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "88ec-9f2a-62ee-02a9",
+          "id": "a051-82b6-1b87-7e43",
+          "name": "Twin avenger bolt cannon"
+        }
+      ],
+      "id": "ceaa-1081-bed7-f249",
+      "name": "Chaos Fire Raptor Assault Gunship",
+      "infoLinks": [
+        {
+          "targetId": "b054-22a3-2ce0-ea90",
+          "id": "78d9-91a6-2adf-881f",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "2567-8e02-9663-8055",
+          "id": "7d9f-0851-d3c2-4719",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "9207-9786-0a5b-faaf",
+          "id": "777a-3629-0e99-3233",
+          "name": "Supersonic"
+        }
+      ]
+    }
+  ]
+}

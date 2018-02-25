@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Heavy Quad Launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a2c7-77dd-613b-d108",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b679-f73e-ed2e-9b82",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "256c-1a3f-f766-81c7",
+      "name": "Heavy Quad Launcher"
+    }
+  ]
+}

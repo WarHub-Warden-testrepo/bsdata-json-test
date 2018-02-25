@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Striking Scorpion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "333f-5bf0-f89c-05fd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dd46-aa5e-30ee-abf0",
+          "id": "8ee1-bb71-1da1-03b3",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "697a-60b0-7187-a2c0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "edc4-fc79-e8b6-800b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7be9-5ef2-05ac-fb47",
+          "id": "f4d3-89d2-d9ea-c014",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "4df2-ce4c-03b0-791f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ec26-6939-ed3e-d1e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "9027-841f-7e7b-82fc",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "b30d-a39b-962f-e7e6",
+      "name": "Striking Scorpion"
+    }
+  ]
+}

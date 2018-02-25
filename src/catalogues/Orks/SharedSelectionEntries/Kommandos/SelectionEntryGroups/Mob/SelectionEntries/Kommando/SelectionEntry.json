@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Kommando"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "af32-2825-10ad-aa2a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8169-9f8f-c9df-969b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c025-0c89-05db-fccb",
+          "id": "36b4-50b7-73eb-3459",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "df0a-7c01-904c-57ee",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "97e3-dca0-c712-65d9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b13-84df-f255-b206",
+          "id": "cc25-b97f-445e-f9ac",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "c613-af7e-a647-045d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b855-41f8-85b0-a5fe",
+      "name": "Kommando",
+      "infoLinks": [
+        {
+          "targetId": "196e-c57d-35ed-3755",
+          "id": "5a3a-7c71-586d-1a83",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

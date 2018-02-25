@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "The Novalance of Saim-Hann",
+    "prevIdentifier": "Psytronome of Iyanden"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7a44-d507-a5ba-0818",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "1738-fc6d-687a-ca9f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "fdda-d5ae-371b-0840",
+      "name": "The Novalance of Saim-Hann",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "7762-3ee7-3b84-0308",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "99e9-e617-958e-1a73",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

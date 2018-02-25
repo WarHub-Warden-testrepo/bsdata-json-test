@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Heavy Bolters"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0179-e58f-ff59-2240",
+      "constraints": [
+        {
+          "id": "3dcd-1fd6-ff18-42e9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2595-58ff-a183-7391",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4a8b-6d1a-2f5c-e3e7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb78-2763-6922-6326",
+          "id": "7cfc-2636-aa53-1cd1",
+          "name": "Twin Heavy Stubber"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e38b-9967-7823-22e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afe0-3771-1982-92b4",
+          "id": "bea2-b9cc-7201-fc40",
+          "name": "Twin autocannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4753-7f4a-bd0c-3d5e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "0179-e58f-ff59-2240",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "3a39-96a9-1416-792a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "fbe0-a8c9-4cc2-9ec7",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "6147-6911-61e2-a927",
+      "name": "Heavy Bolters"
+    }
+  ]
+}

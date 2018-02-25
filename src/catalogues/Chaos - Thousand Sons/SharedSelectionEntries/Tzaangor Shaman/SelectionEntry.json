@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "identifier": "Tzaangor Shaman",
+    "prevIdentifier": "Soulreaper cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 82.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "e6c8-73bb-8e93-b225",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "28cb-8fa1-1cba-439a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "f9b1-b658-6544-b94d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "70e3-e28c-0427-5e55",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f845-0a97-ef2d-c25b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "ae0c-239c-bc76-ecd2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "3580-2829-3067-9acc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "97f9-8add-a48a-d980",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "19ba-30e7-3388-8f76",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "d549-8349-faea-9330",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "78db-6138-0daf-7fc2",
+          "id": "a3da-7f3a-1564-3a35",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5449-4067-6f1b-a596",
+          "id": "472c-73ab-3ad6-0792",
+          "name": "Blades on Disc of Tzeentch"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9b6f-88cb-db5a-5f5a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3f29-92bc-0800-4568",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "4b5b-3c8a-8894-3055",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "cabd-a703-8272-3ea0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c436-bcc7-8498-be61",
+          "id": "1115-09cb-7b57-f52e",
+          "name": "Discipline of Change",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "cabd-a703-8272-3ea0",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "6e59-e3c2-836b-3a01",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8ba1-9742-da2a-443b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9dc5-e046-39a7-9a8c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6f9a-c4fe-3132-d011",
+          "id": "2621-a793-ee20-5ca8",
+          "name": "Force stave"
+        },
+        {
+          "targetId": "9aed-5e2d-8d51-5f31",
+          "id": "d9db-b52e-b4c0-5e90",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c766-a2c3-4ac9-fbbb",
+          "id": "a8d8-8df3-eb8b-3bd1",
+          "name": "Sorcerous Arcana"
+        },
+        {
+          "type": 1,
+          "targetId": "18b9-a369-20ee-a31b",
+          "id": "ee5b-2e78-ab55-a114",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "82df-c079-24a3-7b58",
+      "name": "Tzaangor Shaman",
+      "infoLinks": [
+        {
+          "targetId": "23ec-0b30-7f86-1d7e",
+          "id": "dc35-c7ef-1185-8f73",
+          "name": "Aura of Dark Glory"
+        }
+      ]
+    }
+  ]
+}

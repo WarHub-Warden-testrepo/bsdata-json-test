@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Ranger"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2608-986b-f8bd-cf5f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "209d-8c42-4d75-9de6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dd46-aa5e-30ee-abf0",
+          "id": "eeff-28e9-dea2-d761",
+          "name": ""
+        },
+        {
+          "targetId": "e013-8937-3411-9eb9",
+          "id": "47f8-dd77-0085-9e8a",
+          "name": ""
+        }
+      ],
+      "id": "1240-2c05-db61-fb38",
+      "name": "Ranger"
+    }
+  ]
+}

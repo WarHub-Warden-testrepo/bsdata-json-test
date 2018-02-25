@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Earthshaker Carriage"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 105.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a492-ea92-0951-5c07",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7f85-3718-a17a-a17a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "730a-195c-e889-23fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "id": "1335-89aa-5eed-1b78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70eb-d2d7-5172-ec78",
+          "id": "b48c-a7bb-b2ac-23e0",
+          "name": "Guardsmen Crew"
+        }
+      ],
+      "id": "3e43-445c-83fa-51b8",
+      "name": "Earthshaker Carriage",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "9eaa-4f79-b8b0-ddaa",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

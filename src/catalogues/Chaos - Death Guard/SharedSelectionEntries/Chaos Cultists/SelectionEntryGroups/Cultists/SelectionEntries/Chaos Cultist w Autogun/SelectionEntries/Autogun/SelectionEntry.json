@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Autogun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "87ab-428e-e445-0f04",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b0bd-c50a-dae4-5f96",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "526d-46db-4ecf-6b9f",
+      "name": "Autogun",
+      "infoLinks": [
+        {
+          "targetId": "fcde-3e6a-e240-1157",
+          "id": "f7c3-e621-fa6f-31b5",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

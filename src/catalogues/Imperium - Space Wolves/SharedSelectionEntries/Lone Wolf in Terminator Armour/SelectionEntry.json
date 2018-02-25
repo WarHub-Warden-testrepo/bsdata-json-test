@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "identifier": "Lone Wolf in Terminator Armour",
+    "prevIdentifier": "Lone Wolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8355-0be8-5bc6-3a9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "deee-5ba5-d8e2-96c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "f674-ac51-9ff7-7aa4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "dffe-cfc1-e86f-d3db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "26e5-936b-aca5-bb5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "52aa-c228-ef73-82b9",
+          "id": "1fa6-a595-36dc-01b4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "59f2-f4b8-3c20-4de2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "13dc-7df6-1f97-659e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "344d-11c7-30ec-f304",
+          "name": "Wolf Claw (Pair)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa5c-4a77-1029-ff29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6ca6-be98-87ed-7c45",
+          "name": "Warlord"
+        }
+      ],
+      "id": "8f76-9794-f742-e7d8",
+      "name": "Lone Wolf in Terminator Armour",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b37b-4b11-0915-1114",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2208-d10a-9b0c-29e3",
+          "id": "627c-1fff-de21-7c7a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e397-e71a-033d-2111",
+          "id": "3e08-e61d-8b20-3947",
+          "name": "...Worthy of a Saga"
+        },
+        {
+          "targetId": "6500-ec7b-81cb-8a1a",
+          "id": "9989-2f68-65ff-be1b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "dabb-fa86-646d-3c57",
+          "id": "6b5c-3230-f9ed-a9b1",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "5\""
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "4"
+            },
+            {
+              "field": "00ca-f8b8-876d-b705",
+              "value": "9"
+            },
+            {
+              "field": "c0df-df94-abd7-e8d3",
+              "value": "2+"
+            }
+          ]
+        },
+        {
+          "targetId": "588e-2d8e-7485-24fe",
+          "id": "9d7f-de4b-6f90-029e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "cf4d-705a-a91e-f52f",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

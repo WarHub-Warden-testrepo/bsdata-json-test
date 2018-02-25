@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Carapace weapon",
+    "prevIdentifier": "Secondary weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f6ab-b7af-1945-8159",
+      "constraints": [
+        {
+          "id": "576c-0914-5f35-7b15",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "157d-26ed-d6d0-b909",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bbd9-e32a-2bd4-b9d6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61a4-5046-5328-e81f",
+          "id": "f6ab-b7af-1945-8159",
+          "name": "Ironstorm missile pod"
+        },
+        {
+          "constraints": [
+            {
+              "id": "38e7-f81b-7c12-463a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bed2-c56d-cc4d-8e28",
+          "id": "3356-08ed-b868-408c",
+          "name": "Helios defence missiles"
+        }
+      ],
+      "id": "0dfe-1260-4dcb-28c6",
+      "name": "Carapace weapon"
+    }
+  ]
+}

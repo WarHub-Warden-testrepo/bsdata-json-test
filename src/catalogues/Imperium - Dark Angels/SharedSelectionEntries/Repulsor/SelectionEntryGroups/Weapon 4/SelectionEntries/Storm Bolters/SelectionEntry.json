@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Storm Bolters",
+    "prevIdentifier": "Fragstorm Grenade Launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "512b-cf49-0192-61a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "7506-2286-caec-5447",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "bb9f-a9f2-c827-6533",
+          "name": "st"
+        }
+      ],
+      "id": "136d-0c99-8bd5-5649",
+      "name": "Storm Bolters"
+    }
+  ]
+}

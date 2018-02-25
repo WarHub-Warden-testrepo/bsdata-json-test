@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Two Missile Launchers",
+    "prevIdentifier": "2 Hellfury Missiles"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "39bd-724c-c00c-02a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "cf6d-3a15-1d34-29c1",
+      "name": "Two Missile Launchers",
+      "infoLinks": [
+        {
+          "targetId": "8161-3b0e-8048-0e83",
+          "id": "3749-a781-ea75-28ed",
+          "name": "Missile launcher, Krak missile"
+        },
+        {
+          "targetId": "603d-3e82-38f6-c5c3",
+          "id": "c252-3bdd-24a6-bf0f",
+          "name": "Missile launcher, Frag missile"
+        }
+      ]
+    }
+  ]
+}

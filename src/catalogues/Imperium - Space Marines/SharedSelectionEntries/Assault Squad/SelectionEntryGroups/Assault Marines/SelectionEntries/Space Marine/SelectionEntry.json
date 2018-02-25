@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Space Marine",
+    "prevIdentifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "951e-a1ca-4261-d66d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bab1-b5ac-6cb1-ab9f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "e37d-bd45-d8c6-e08a",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a875-fb22-ef35-35a2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "186d-2554-4d78-ffe7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "9a61-fd5f-6421-87ba",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7780-a72b-6481-1877",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d99a-f203-1d9c-d64d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "2567-4679-e50e-c754",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "bd7d-46c0-4eba-b630",
+      "name": "Space Marine"
+    }
+  ]
+}

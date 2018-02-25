@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Sister Superior",
+    "prevIdentifier": "Sister of Silence"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f834-4bda-247d-068f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "703c-df6d-d43e-5576",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d70a-f2d4-8d12-5719",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1749-7a19-f0b4-76af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "3410-fcac-4e1f-ae0d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3e04-24a0-dada-2b39",
+      "name": "Sister Superior",
+      "infoLinks": [
+        {
+          "targetId": "a3b5-26be-117c-5dfa",
+          "id": "21dc-f003-bbdc-4a1b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

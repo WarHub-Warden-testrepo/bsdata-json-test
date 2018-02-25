@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard in Terminator Armour with Heavy Weapon",
+    "prevIdentifier": "Wolf Guard in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "52fe-e2ab-ef76-0e19",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e260-cb4f-654d-0797",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "25b3-79f7-73cd-9321",
+          "id": "8c41-bbd8-cdb5-bc68",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "e260-cb4f-654d-0797",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "4076-7026-da40-9d4a",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "8800-5265-05ac-6b42",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6326-ae49-a6d0-6819",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "5e39-32ee-1615-72b0",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "8800-5265-05ac-6b42",
+      "name": "Wolf Guard in Terminator Armour with Heavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "483b-3787-c1a3-8e94",
+          "id": "4039-7a15-efeb-beec",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "52fe-e2ab-ef76-0e19",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

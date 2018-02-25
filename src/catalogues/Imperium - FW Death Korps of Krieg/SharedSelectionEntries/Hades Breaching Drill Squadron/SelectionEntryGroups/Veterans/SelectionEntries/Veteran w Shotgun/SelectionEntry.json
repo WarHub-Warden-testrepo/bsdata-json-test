@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Shotgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c9a7-fc6b-2665-1c9b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2094-c9a6-a426-0970",
+          "id": "9d10-36fe-63e7-8ac5",
+          "name": "Shotgun"
+        },
+        {
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "020e-405d-6bd3-39ef",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "6ff1-dc8d-424e-26bd",
+      "name": "Veteran w/ Shotgun",
+      "infoLinks": [
+        {
+          "targetId": "a55e-c10a-f378-b564",
+          "id": "09a9-bbc8-5965-bf4a",
+          "name": "Hades Veterans"
+        }
+      ]
+    }
+  ]
+}

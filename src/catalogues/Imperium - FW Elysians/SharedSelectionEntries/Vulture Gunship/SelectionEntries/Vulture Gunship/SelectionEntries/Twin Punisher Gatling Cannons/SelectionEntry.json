@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Twin Punisher Gatling Cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7223-aba4-f0ed-8629",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "eaef-b74e-9d13-cd08",
+      "name": "Twin Punisher Gatling Cannons",
+      "infoLinks": [
+        {
+          "targetId": "9fac-07c9-3595-784e",
+          "id": "7249-dcd0-0958-55c6",
+          "name": "Punisher Gatling Cannon",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": "Twin"
+            },
+            {
+              "field": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+              "value": "Heavy 40"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

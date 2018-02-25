@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Redemption Missile Silo"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fa49-0847-af02-c2cf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d2a7-8818-aa73-5a3a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "055b-c20e-3870-39f3",
+      "name": "Redemption Missile Silo"
+    }
+  ]
+}

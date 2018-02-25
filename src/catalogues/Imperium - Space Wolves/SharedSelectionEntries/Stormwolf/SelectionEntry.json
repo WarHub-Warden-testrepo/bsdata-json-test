@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "identifier": "Stormwolf",
+    "prevIdentifier": "Stormfang Gunship"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 165.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "eabe-4185-fb48-49dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "da17-8d85-9e9a-9d2a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "e991-2fdd-9dbd-06fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "12d7-5a20-e61d-3d27",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a3cd-31d4-ea7c-f28d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "c55b-c384-2265-8a21",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5153-8cfc-b2a0-7e07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5887-afba-672d-2c89",
+          "id": "7483-6252-e425-4266",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "b4ff-de73-7434-bfdc",
+          "id": "36a8-9b74-766c-cd90",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Weapons"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "53d4-f11e-b5bd-90ec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6da-b6dd-d642-3674",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "074d-5e0c-a684-31fa",
+          "id": "21c0-51fb-1508-f383",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0106-3a3c-b2d0-bd27",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e21a-9949-e1d4-05ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3dd-ea9e-3c53-4998",
+          "id": "14ba-199e-3eac-e1ec",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b6a6-c571-f3ca-0ff7",
+      "name": "Stormwolf",
+      "infoLinks": [
+        {
+          "targetId": "3f8b-0a6e-14df-f0b0",
+          "id": "6352-75b9-2aca-0b1e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "99d3-b434-2585-8e5d",
+          "id": "8835-0adf-1766-4b33",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a1bb-6cab-ae51-3893",
+          "id": "589c-bd4f-d58f-1026",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "98df-e36d-7f2b-e9b2",
+          "id": "bb74-fa9d-135d-c68d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e4e1-09af-93b7-8e2e",
+          "id": "d0b8-b80f-aee9-680d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e8ad-baab-6472-e61c",
+          "id": "96df-e99f-cec1-e844",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "24d6-d367-0a52-c0c6",
+          "id": "8e43-a646-fe7e-26d2",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e91-db47-a782-de78",
+          "id": "710b-5a7d-1ea8-3230",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3d5d-287b-d8b9-9399",
+          "id": "b977-4108-e567-6759",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8c93-381f-db6f-5cf8",
+          "id": "3e12-e9cc-7128-c79e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b547-9b4b-f601-ceed",
+          "id": "fd36-d498-c028-b477",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Transport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

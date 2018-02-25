@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Servitor (servo arm)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8842-f09c-e656-2141",
+          "id": "be66-af9e-5470-fb38",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b0ec-0c40-01a8-bfd4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "829b-4aa1-5cde-f504",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b712-4c04-6664-8e7e",
+          "id": "eed4-7470-d576-0486",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4bb3-260c-cd78-f772",
+      "name": "Servitor (servo arm)"
+    }
+  ]
+}

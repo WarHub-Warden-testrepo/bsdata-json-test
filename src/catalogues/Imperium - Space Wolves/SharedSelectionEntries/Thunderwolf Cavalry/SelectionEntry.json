@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Thunderwolf Cavalry",
+    "prevIdentifier": "Long Fangs"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "468b-4ddf-c880-5753",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "665d-192a-2d17-09b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "dbed-32f5-4f73-a384",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "d563-3984-4295-a0d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "051a-d40e-0909-aea2",
+          "id": "e4f6-db4d-9784-bf28",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "71c8-6336-9dd6-9e8d",
+          "id": "ffac-2246-9463-bbe2",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "11a4-3ee5-0a6b-398a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "fa2b-9439-7a9a-c46b",
+      "name": "Thunderwolf Cavalry",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d755-1deb-5e2c-f4c7",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "fa2b-9439-7a9a-c46b",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

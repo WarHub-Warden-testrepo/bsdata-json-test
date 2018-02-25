@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "identifier": "Shield-Captain",
+    "prevIdentifier": "Misericordia"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "11f9-94a3-abf3-30aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "6d26-a3d3-2b16-4e64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "bdea-b60f-3142-1a7f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "99a8-4f10-86d4-8250",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d7be-7930-7b8b-b767",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "b8f1-bd1d-b276-f229",
+          "id": "e16e-2d49-9a28-7065",
+          "name": "Storm Shield",
+          "modifiers": [
+            {
+              "field": "d7be-7930-7b8b-b767",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "bafc-8d15-4554-b310",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "38c5-8a43-670e-0fbb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "e0b1-62c2-4667-d52e",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "38c5-8a43-670e-0fbb",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "b8e0-49ed-8772-e94a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "77ea-4be8-f3d1-1f4d",
+          "id": "782c-c563-8658-9d7e",
+          "name": "Misericordia"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c85a-12ee-5d0c-a6b8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2471-0b95-738c-edd9",
+          "id": "342c-5c1e-9ea7-40e7",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "9cb6-59c5-6934-31ed",
+          "id": "70c8-5e42-5316-ddb7",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "35fc-bb34-950d-cce4",
+          "id": "0a01-360c-a515-8571",
+          "name": "Custodes Relics"
+        }
+      ],
+      "id": "38c5-8a43-670e-0fbb",
+      "name": "Shield-Captain",
+      "infoLinks": [
+        {
+          "targetId": "55b4-45f6-4fff-93d8",
+          "id": "befa-c6a2-1768-1350",
+          "name": "Aegis of The Emperor"
+        }
+      ]
+    }
+  ]
+}

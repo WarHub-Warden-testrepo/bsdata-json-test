@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "44c5-bd82-8fa1-efab",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        },
+        {
+          "id": "4cbb-683a-7989-ed5a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "983c-e3e7-4422-aa39",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2f71-d8b9-4c0c-3f5b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3360-61c2-985a-57ed",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7aea-6ee0-59f7-fb8a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "72c3-5e95-806e-af29",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "f658-9d4e-0ed1-3364",
+      "name": "Wolf Guard",
+      "infoLinks": [
+        {
+          "targetId": "512b-f378-79d2-141a",
+          "id": "f233-bee7-771c-9020",
+          "name": "Wolf Guard"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "19",
+          "conditions": [
+            {
+              "childId": "e96a-c219-d078-5e15",
+              "type": 4,
+              "field": "selections",
+              "scope": "ad37-e26a-6cab-8c1b",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

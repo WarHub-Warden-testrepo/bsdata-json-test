@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Servo Options",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e1d7-490c-a8c4-c732",
+      "constraints": [
+        {
+          "id": "9d76-1335-1723-2ae1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "812d-2c70-99a9-0819",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "be4b-9860-b2b2-6ceb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "e1d7-490c-a8c4-c732",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f6c5-4915-e906-431d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fbb1-9dd6-aefc-eba2",
+          "id": "a338-330c-8d85-aa64",
+          "name": "Conversion beamer",
+          "modifiers": [
+            {
+              "field": "f6c5-4915-e906-431d",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "5eb6-9cce-4e27-6252",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c640-9c93-4e48-1c91",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "d429-c69a-a6e0-924c",
+      "name": "Servo Options"
+    }
+  ]
+}

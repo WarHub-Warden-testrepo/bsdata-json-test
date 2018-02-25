@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Storm Guardian - Chainsword",
+    "prevIdentifier": "Storm Guardian - Aeldari Blade"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "60ff-05db-6fff-8425",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 24.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dd46-aa5e-30ee-abf0",
+          "id": "1e43-a601-6338-ab37",
+          "name": "Shuriken Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c87-5ded-9edc-78cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0597-fbfe-e625-0b40",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d69d-9bd3-c368-753a",
+          "id": "5ea1-44f4-7439-9732",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "ff70-d80e-921f-4e39",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d251-a619-cb97-8d71",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "6971-b281-588a-e494",
+          "name": "Plasma Grenades"
+        }
+      ],
+      "id": "a752-5361-ce64-250c",
+      "name": "Storm Guardian - Chainsword"
+    }
+  ]
+}

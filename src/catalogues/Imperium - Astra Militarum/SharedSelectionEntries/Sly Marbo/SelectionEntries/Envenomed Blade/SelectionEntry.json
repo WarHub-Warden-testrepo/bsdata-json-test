@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Envenomed Blade",
+    "prevIdentifier": "Ripper Pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2322-d73a-1de2-dbe0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8c82-5ba8-422c-fd65",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c518-49c8-f2bc-2271",
+      "name": "Envenomed Blade"
+    }
+  ]
+}

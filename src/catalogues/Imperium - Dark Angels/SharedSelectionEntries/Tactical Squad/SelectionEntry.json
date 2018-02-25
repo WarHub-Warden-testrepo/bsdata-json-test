@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "identifier": "Tactical Squad",
+    "prevIdentifier": "Company Veterans"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4fed-17a3-03f7-e2f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "184c-80ee-9ce9-c547",
+          "id": "f275-3abd-f1e4-feb6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a99f-8750-7311-d73f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dc77-2c0e-bcd5-e252",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            },
+            {
+              "id": "7017-06b0-8350-9c56",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "8813-4647-edd7-182c",
+          "id": "8433-c6ab-8636-6a38",
+          "name": "Space Marine",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "dc77-2c0e-bcd5-e252",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "1d7c-dc03-489d-5917",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "7017-06b0-8350-9c56",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "1d7c-dc03-489d-5917",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "7017-06b0-8350-9c56",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "d293-6e85-ee38-a1a7",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "dc77-2c0e-bcd5-e252",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "d293-6e85-ee38-a1a7",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "510a-162c-558b-6e18",
+          "id": "bd5c-00f6-2f21-7923",
+          "name": "Space Marine Sergeant"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f03c-86fe-12a5-72a9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d7c-dc03-489d-5917",
+          "id": "d2e2-751d-1b0e-fb29",
+          "name": "Heavy Weapon Marine",
+          "modifiers": [
+            {
+              "field": "f03c-86fe-12a5-72a9",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "8433-c6ab-8636-6a38",
+                      "field": "selections",
+                      "scope": "parent",
+                      "value": 7.0,
+                      "shared": true,
+                      "includeChildSelections": true,
+                      "includeChildForces": true
+                    },
+                    {
+                      "childId": "d293-6e85-ee38-a1a7",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "parent",
+                      "value": 1.0,
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8699-3820-0f9d-7bbc",
+      "name": "Tactical Squad",
+      "infoLinks": [
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "24a1-e910-2cc4-a25c",
+          "name": "Combat Squads"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b2e0-400c-b96f-a081",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "8699-3820-0f9d-7bbc",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

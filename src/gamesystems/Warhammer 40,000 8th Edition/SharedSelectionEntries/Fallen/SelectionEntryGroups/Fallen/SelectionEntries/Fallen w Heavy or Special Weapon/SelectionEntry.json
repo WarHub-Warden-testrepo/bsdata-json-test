@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "Fallen w/Heavy or Special Weapon",
+    "prevIdentifier": "Fallen Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f7a4-bbc5-6e00-563f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dadc-061d-cac7-f084",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5fb2-ca9d-367b-0fc8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "46ea-c218-a5e1-3f82",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6ae5-ef20-5c44-5b62",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3282-90ce-1f16-e90e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "94c5-4296-c295-9c84",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "c9b3-e89a-ee3c-8b82",
+      "name": "Fallen w/Heavy or Special Weapon",
+      "modifiers": [
+        {
+          "field": "name",
+          "value": "Fallen w/ Heavy Weapon",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "ebe1-fc3a-86bc-c787",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "97c3-fe87-979e-36ac",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "6b8c-f82f-fa4d-5031",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "41a0-677e-fb5d-b197",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "name",
+          "value": "Fallen w/ Special Weapon",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "242c-da3e-f9d7-2424",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "b2d5-8d53-3668-3c7a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "8efb-0db6-e2e1-f8a0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c9b3-e89a-ee3c-8b82",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e196-f5d3-21bf-1bef",
+      "constraints": [
+        {
+          "id": "5944-a6d6-4c5f-1a9a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5409-f741-9d77-0630",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "aa3e-6628-f176-979f",
+          "id": "e22b-eda7-4bd9-52aa",
+          "name": "Tesla Carbine",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "9",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "7b8e-775e-8a0f-4455",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "9"
+            }
+          ]
+        },
+        {
+          "targetId": "f8ac-cd96-8f08-c74b",
+          "id": "e196-f5d3-21bf-1bef",
+          "name": "Gauss Blaster",
+          "book": "Index: Xenos 1",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "9",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "7b8e-775e-8a0f-4455",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "9"
+            }
+          ]
+        }
+      ],
+      "id": "e306-eeaf-a28e-6c78",
+      "name": "Unit Weapon Choice",
+      "book": "Index: Xenos 1"
+    }
+  ]
+}

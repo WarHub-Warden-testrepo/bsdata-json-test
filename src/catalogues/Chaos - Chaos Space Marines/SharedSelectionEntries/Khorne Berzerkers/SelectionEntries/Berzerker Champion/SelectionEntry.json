@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Berzerker Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bf75-6ee3-958b-55a6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9a1d-3a9e-981c-95c5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5f86-8ece-15ff-d873",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "78b4-81dc-023a-0fd8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e140-e2bd-41f1-1678",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "5b48-1826-d51e-ae56",
+          "id": "9166-c010-4bd0-e5b9",
+          "name": "Berzerker Champion Equipment"
+        }
+      ],
+      "id": "8713-bf56-1ba2-fdb2",
+      "name": "Berzerker Champion"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Medusa Carriage Battery"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7b6a-432a-541b-aa7a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "76af-ffb9-03d1-27a5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "086f-6a68-f299-626b",
+      "name": "Medusa Carriage Battery"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Raptor w/ plasma pistol",
+    "prevIdentifier": "Raptor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7898-20a5-fcfc-3cca",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e91d-fd0d-ef85-0e6a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c5bf-5e7c-3f24-dc1e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "0cff-1f96-0ed6-ec1c",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "70fa-3808-acf1-ce1a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0ef9-bbfb-1407-978c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "2455-8bc4-711e-b3ff",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ae1e-8f64-b559-9c77",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d40a-354d-842a-688e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "dfe3-c0fd-3d5e-511e",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "0068-a64d-15c5-2b8d",
+      "name": "Raptor w/ plasma pistol",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "7898-20a5-fcfc-3cca",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "9dcb-448b-3e84-b504",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "350d-676c-02cd-7ac2",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

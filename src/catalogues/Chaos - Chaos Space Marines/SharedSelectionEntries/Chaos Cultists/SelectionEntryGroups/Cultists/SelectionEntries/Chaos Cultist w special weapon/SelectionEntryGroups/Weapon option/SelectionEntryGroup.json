@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Weapon option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "52a2-6cb6-c2cd-fda0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5a49-4f70-1be9-9578",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "fd22-6743-2d4c-dd62",
+          "id": "ba2f-30fa-cdda-6e96",
+          "name": "Flamer"
+        },
+        {
+          "targetId": "cfa3-5fcd-af10-5520",
+          "id": "1eaf-e706-716a-ff92",
+          "name": "Heavy stubber"
+        }
+      ],
+      "id": "9eff-7596-846d-bc2b",
+      "name": "Weapon option"
+    }
+  ]
+}

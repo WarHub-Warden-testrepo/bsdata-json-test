@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "identifier": "Kharn the Betrayer",
+    "prevIdentifier": "Huron Blackheart"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "cf7d-a04f-9c24-2915",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "0c95-6d15-e6e6-17f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "cb85-ddfe-e242-a34b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "4ef0-9b90-0075-6cb9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a3b4-7771-aa3a-a6df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "aa31-818c-a27d-90c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "4d45-90d4-117f-9ad1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3ac3-07cc-3762-5500",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4fff-f20c-65f5-9cdf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e310-7b6d-cf5a-12a0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "33a2-c5ec-2f05-2483",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "b33b-97a1-3ba9-1b68",
+          "name": "Warlord"
+        }
+      ],
+      "id": "08ed-5bd1-f1e7-6419",
+      "name": "Kharn the Betrayer",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "15ea-b6c2-cfb5-5c0e",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "b0a9-4ba4-c487-01b9",
+          "id": "b533-f85f-3175-9fcd",
+          "name": "Blood for the Blood God"
+        },
+        {
+          "targetId": "c237-7aca-a961-6c59",
+          "id": "0b3d-6a70-6b3c-41ad",
+          "name": "Sigil of Corruption"
+        },
+        {
+          "targetId": "4c67-249d-36d7-4bfc",
+          "id": "2b2f-9bce-2d67-e3e1",
+          "name": "Slaughterborn",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "08ed-5bd1-f1e7-6419",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "cf7d-a04f-9c24-2915",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "e536-b475-827e-e3cf",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

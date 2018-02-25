@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Redemptor Dreadnought",
+    "prevIdentifier": "Heavy Onslaught Gatling Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e5c9-7757-fd36-4a46",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "784c-07fb-0034-e913",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1a97-36fa-a478-cef6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4dbd-0c7e-ad6c-6d87",
+          "id": "70df-8f90-6f29-c7df",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1ced-84d5-c6a0-52e3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9ef4-bfe2-399e-7c97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5fbe-97bc-0778-699e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3341-4d9e-d044-c9f2",
+          "id": "e1b2-68a7-2d8b-3ca5",
+          "name": "Redemptor Fist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0138-1d06-8f00-dccd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9012-e513-9f82-6cb4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "31c8-cb35-2220-071f",
+          "id": "8f4c-3902-8223-f04d",
+          "name": "Icarus Rocket Pod"
+        }
+      ],
+      "id": "15e9-2df4-cc22-a3f6",
+      "name": "Redemptor Dreadnought",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6f8e-9512-0008-d677",
+          "id": "7dff-b321-5922-350b",
+          "name": "Explodes (6\"/D6)"
+        }
+      ]
+    }
+  ]
+}

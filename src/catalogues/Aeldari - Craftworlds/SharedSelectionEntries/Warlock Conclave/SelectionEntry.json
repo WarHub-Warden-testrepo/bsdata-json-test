@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "identifier": "Warlock Conclave",
+    "prevIdentifier": "Farseer Skyrunner"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "d8bc-3fe4-74fb-d3fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "523e-9726-59e0-371c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "07ea-e0d0-4682-541d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "7999-17dc-55e5-4aa4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ef90-0a75-36ac-499f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "c758-1a45-c564-d4fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "dee9-d339-079f-dd86",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad11-9f19-a519-ad42",
+          "id": "3f7f-60a3-7f8b-565d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8537-bbde-aa0f-bf4d",
+          "id": "b961-ef97-d0db-1bf7",
+          "name": "Psyker (Conclave)"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9834-fbda-a577-97b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "462e-9aa3-df41-fdb1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f801-39da-ca0a-33b8",
+          "id": "b23d-beb3-77eb-f9bb",
+          "name": "Runes of Battle"
+        },
+        {
+          "targetId": "bd8d-4b22-4f11-b5d7",
+          "id": "8e50-54d8-f706-ba2c",
+          "name": "Smite/Destructor (Conclave)"
+        }
+      ],
+      "id": "c9fe-debd-d9f2-9274",
+      "name": "Warlock Conclave",
+      "infoLinks": [
+        {
+          "targetId": "1b0a-49d4-c8f5-a018",
+          "id": "ee41-8383-765f-5685",
+          "name": "Warlock"
+        },
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "f3e9-2700-dcc5-6a1c",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "4fb0-9c40-bac1-abda",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Melee weapons",
+    "prevIdentifier": "Top equipment"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d340-81ba-8c88-ff6f",
+      "constraints": [
+        {
+          "id": "a3ee-57a0-5c62-380d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "cea7-2e33-405b-bd9a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "41bd-3eaf-a168-e834",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c738-c7d6-89bc-3b46",
+          "id": "d340-81ba-8c88-ff6f",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "41bd-3eaf-a168-e834",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "a095-0d64-e723-5cff",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "9e33-7e96-16f8-6986",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a08b-d184-e315-c418",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "b7c0-8d9c-2e03-400c",
+          "id": "a8ee-f3a7-ea41-2cbf",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "a08b-d184-e315-c418",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "a095-0d64-e723-5cff",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "9e33-7e96-16f8-6986",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "256a-e18d-92e3-8066",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e92b-41d1-511b-54a7",
+          "id": "ed58-d9e4-0a6a-7b45",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "256a-e18d-92e3-8066",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "a095-0d64-e723-5cff",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "9e33-7e96-16f8-6986",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "fec2-6d5e-fedc-2094",
+      "name": "Melee weapons"
+    }
+  ]
+}

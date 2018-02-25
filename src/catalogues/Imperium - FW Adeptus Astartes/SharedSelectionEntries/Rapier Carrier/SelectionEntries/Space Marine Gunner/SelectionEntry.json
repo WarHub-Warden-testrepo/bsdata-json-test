@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Space Marine Gunner",
+    "prevIdentifier": "Rapier Carrier"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f8cc-ff44-829b-a3b1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "b5fe-a55c-1ca4-6b39",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9faf-8ac0-4bc1-9d5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "aaaa-c6d5-0b24-e855",
+          "id": "e6da-3fd4-b4dd-3307",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "643f-b8dd-7a01-9bbb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "14ad-8765-dde2-e13b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0c6b-4d72-dbc4-8e11",
+          "id": "ad8f-57b0-fe6c-a66f",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "27be-577e-b7df-57fe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0e10-fb9d-f116-8d4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5eff-0a2d-a8bc-f6da",
+          "id": "1e70-f88a-52b5-8d2e",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8e47-fa14-8370-11e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5273-1692-d22d-c256",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2bd3-5f85-6fc6-3f3a",
+          "id": "644e-06dd-c4b2-4e30",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "6fe9-a365-8023-4236",
+      "name": "Space Marine Gunner",
+      "infoLinks": [
+        {
+          "targetId": "491b-eb26-c887-eda6",
+          "id": "a310-2a54-6805-6b92",
+          "name": "Space Marine Gunner"
+        }
+      ]
+    }
+  ]
+}

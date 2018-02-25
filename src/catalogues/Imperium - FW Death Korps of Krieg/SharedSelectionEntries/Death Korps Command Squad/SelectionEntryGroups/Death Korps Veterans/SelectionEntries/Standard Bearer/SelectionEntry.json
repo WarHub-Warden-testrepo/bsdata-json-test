@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Standard Bearer",
+    "prevIdentifier": "Command Squad Veterans"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "635a-73f3-4795-a7ad",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ee32-cf26-4f3e-f495",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5883-9880-8ca4-aea3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "bb2c-fc54-bf30-892f",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "51bb-7fbf-e70f-d843",
+      "name": "Standard Bearer",
+      "infoLinks": [
+        {
+          "targetId": "c371-9555-44e9-4a99",
+          "id": "dafc-2b2b-76f8-cfb5",
+          "name": "Death Korps Veterans"
+        }
+      ]
+    }
+  ]
+}

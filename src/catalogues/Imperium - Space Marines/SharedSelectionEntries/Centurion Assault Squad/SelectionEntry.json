@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Centurion Assault Squad",
+    "prevIdentifier": "Chapter Champion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f82d-3a5b-132b-f5a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dfb-e12d-32c6-1b0f",
+          "id": "5377-ded5-f705-8abe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e4be-b763-f49f-bf1c",
+          "id": "c11f-25b0-be6b-661d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "7b8b-73ce-215e-aec9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2285-5078-020f-7ec2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "cd3c-39b0-b3be-0e35",
+      "name": "Centurion Assault Squad",
+      "infoLinks": [
+        {
+          "targetId": "eaa4-a232-92f4-c25a",
+          "id": "a5c5-3594-39ae-5610",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6bae-b80d-f3e9-f0fb",
+          "id": "98cb-1a73-1d87-a548",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "880d-53b5-2013-f51c",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "66eb-ddf5-9810-3026",
+          "id": "e9ae-231b-2a74-202a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "5a11-f131-2d5d-8de8",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "6085-223b-c2b0-5660",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

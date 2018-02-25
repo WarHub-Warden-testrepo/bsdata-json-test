@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Standard of Sacrifice",
+    "prevIdentifier": "The Angel's Wing (replaces jump pack)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1454-d608-4303-cb3a",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "c5b3-a269-a122-64ba",
+      "name": "Standard of Sacrifice",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "bd64-21ad-57a1-4fad",
+          "id": "ee9c-2e20-dbec-3786",
+          "name": "Standard of Sacrifice"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "86bf-b026-f6e2-a949",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

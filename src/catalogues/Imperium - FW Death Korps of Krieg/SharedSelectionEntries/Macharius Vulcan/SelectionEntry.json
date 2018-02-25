@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Macharius Vulcan",
+    "prevIdentifier": "Macharius Vanquisher"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "bea6-8c17-aa26-9aaf",
+          "id": "445d-a935-db88-7f35",
+          "name": "Stat Damage (Macharius)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "59b7-d139-97b7-b151",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb78-2763-6922-6326",
+          "id": "1463-a171-8163-511e",
+          "name": "Twin Heavy Stubber"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "f9ba-ec39-3914-f8ab",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4c52-7939-9c90-5b30",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "2194-81c0-cb08-5437",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "4a06-75cd-15a0-2c13",
+      "name": "Macharius Vulcan",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d8e3-83a7-51fa-1936",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "6689-9c7a-4007-557f",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "5705-753c-c59d-efea",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

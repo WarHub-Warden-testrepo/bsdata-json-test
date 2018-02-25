@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Macharius Heavy Tank",
+    "prevIdentifier": "Gorgon Heavy Transporter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 345.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "bea6-8c17-aa26-9aaf",
+          "id": "4bd8-c70a-c136-65d0",
+          "name": "Stat Damage (Macharius)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4ab2-8955-13b9-b496",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb78-2763-6922-6326",
+          "id": "c890-96a6-02bf-f121",
+          "name": "Twin Heavy Stubber"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "fa2e-4fe0-8c66-cbd4",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c64d-d0fc-8696-6be2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "cd67-a4be-583e-ba34",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "7a26-97ef-3a90-a62d",
+      "name": "Macharius Heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "c1d9-9929-e35a-ebbb",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "56fb-2840-d96a-0c82",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "e4f2-4a08-0413-7f4f",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

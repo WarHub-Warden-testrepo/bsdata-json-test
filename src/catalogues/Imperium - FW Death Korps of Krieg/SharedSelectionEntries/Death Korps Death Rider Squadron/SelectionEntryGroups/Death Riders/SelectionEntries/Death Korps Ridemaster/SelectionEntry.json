@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Death Korps Ridemaster",
+    "prevIdentifier": "Death Korps Death Riders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "89c0-134a-6b3e-9d23",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "21b1-b0b9-32dc-582c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b5ba-7e22-a9c7-62d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "87af-4a79-1a9f-b78e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d68-427b-eaa0-0b04",
+          "id": "00a1-ed67-f09c-cc85",
+          "name": "Kreig Steed"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fd10-4439-cf34-3c6b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ab36-a139-015a-8159",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "dbc5-ecfe-4cfb-adfa",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "5301-fd3e-a4df-16e6",
+      "name": "Death Korps Ridemaster",
+      "infoLinks": [
+        {
+          "targetId": "293c-951a-190e-6ea8",
+          "id": "bc2a-b70f-8fb7-6eaa",
+          "name": "Death Korps Death Rider Veteran"
+        }
+      ]
+    }
+  ]
+}

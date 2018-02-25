@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Gun Emplacement",
+    "prevIdentifier": "4x Small Shield Section"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7531-de50-0a82-c81a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9fd3-c4ec-8e01-1949",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8c46-154f-6513-afdd",
+      "name": "Gun Emplacement",
+      "infoLinks": [
+        {
+          "targetId": "57f6-edd9-6170-5c91",
+          "id": "e1b5-aeea-1332-2ba6",
+          "name": "Automated Weapons (Gun Emplacement)"
+        }
+      ]
+    }
+  ]
+}

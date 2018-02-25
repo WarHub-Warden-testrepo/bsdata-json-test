@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "identifier": "Sanguinary Priest",
+    "prevIdentifier": "Astorath"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 69.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7cf4-fa82-8f07-fb85",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "932a-e5d6-4ee7-9ce0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "c89d-d423-958b-59fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "e80c-96be-8b21-79d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5611-fd4d-7e2f-928d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ea65-854b-616f-9541",
+          "id": "bb27-5c76-de18-611f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "84c0-84c6-328d-5b20",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a280-34c1-d363-c69f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ea00-ed1f-b0bc-c0a4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "265a-986d-c3a2-401c",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6598-5825-f130-3a5a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "3117-16d8-fcef-4f56",
+              "id": "bc03-fda2-6465-b4fb",
+              "name": "New CategoryLink"
+            },
+            {
+              "targetId": "f627-f23e-a3b4-dc2c",
+              "id": "ffdb-01f8-0e04-4b86",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "c36e-13ec-993e-b259",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "17"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ee56-9f48-487a-051c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "00ea-9355-5497-a0c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "5f23-69e3-89ce-6954",
+          "name": "Melee weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f0aa-f57c-6d1f-06fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "dd72-9760-c319-9575",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "dfdd-6bf6-adec-3d18",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "9dc5-220f-f3c8-86e2",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "395b-5524-5a6f-fe9a",
+      "name": "Sanguinary Priest",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d393-14d1-35aa-bb76",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "ec15-683f-e88e-e642",
+          "id": "963d-583d-d6e0-fae0",
+          "name": "Sanguinary Priest",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "c36e-13ec-993e-b259",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "395b-5524-5a6f-fe9a",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "476b-ab90-c1b2-0c9d",
+          "id": "d41b-995b-2e81-4148",
+          "name": "Narthecium"
+        },
+        {
+          "targetId": "5985-07a2-a36f-caa3",
+          "id": "8106-a127-ce00-725b",
+          "name": "Blood Chalice"
+        }
+      ]
+    }
+  ]
+}

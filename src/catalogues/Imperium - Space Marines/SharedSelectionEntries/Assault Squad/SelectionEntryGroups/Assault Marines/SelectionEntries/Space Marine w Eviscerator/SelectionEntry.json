@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/Eviscerator",
+    "prevIdentifier": "Space Marine w/Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "435e-f0dc-212f-e1b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5268-ad21-9a52-51f5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7c05-d764-de52-4d58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "976d-ffa5-462c-b049",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad07-6bde-8a9c-5e88",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed43-08d2-d5e3-b70b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "f015-3ed4-0787-1702",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "aecb-575e-3237-a546",
+      "name": "Space Marine w/Eviscerator",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "435e-f0dc-212f-e1b6",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "6300-c955-2591-f6e1",
+              "type": 2,
+              "field": "selections",
+              "scope": "7c16-1429-b6d5-e6f1",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

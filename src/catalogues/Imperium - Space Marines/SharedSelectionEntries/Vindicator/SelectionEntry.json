@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Vindicator",
+    "prevIdentifier": "Two Lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f3e7-c035-dcea-3438",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "feab-9cb6-dd2c-bd95",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6630-3caa-3237-19f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "63df-c0b5-9297-f3e3",
+          "id": "9771-de3b-2493-c50f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2610-4e6c-9a35-c54c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e144-d1d7-a53d-62de",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "9cec-6499-c71d-44a1",
+          "name": "Demolisher cannon"
+        }
+      ],
+      "id": "d99c-5129-83b6-587b",
+      "name": "Vindicator",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e115-d729-ce93-fcb7",
+          "id": "7c6a-58be-b449-1c61",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "fd31-4a74-6d0f-d05a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

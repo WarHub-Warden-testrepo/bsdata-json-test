@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "identifier": "Plague Marines",
+    "prevIdentifier": "Deathshroud Terminators"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "33f7-2349-b559-a517",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "c394-c8b5-7e48-ff0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ba61-b89d-c520-388b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "1a16-d84b-d1c5-f018",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "c076-50e3-4a70-1667",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "8d79-a420-b5e8-3a01",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a50f-7a19-7624-5793",
+          "id": "0f50-d1a4-4741-1bd9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cd8d-dff0-0c32-a9f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "a8ab-70fd-0125-67d6",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "bcfc-23e0-56a5-eae5",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "51e7-2808-d025-f526",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "4124-8ae3-177a-4767",
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "af76-6ae4-f67c-7bd0",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "4124-8ae3-177a-4767",
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "4124-8ae3-177a-4767",
+      "name": "Plague Marines",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "c365-8ca4-3ee1-1677",
+          "id": "3ec4-d169-f21c-da37",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "8f11-6c2b-25e0-d130",
+          "id": "a892-f595-47da-ada5",
+          "name": "Disgustingly Resilient"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 8.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 11.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "4124-8ae3-177a-4767",
+              "value": 16.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

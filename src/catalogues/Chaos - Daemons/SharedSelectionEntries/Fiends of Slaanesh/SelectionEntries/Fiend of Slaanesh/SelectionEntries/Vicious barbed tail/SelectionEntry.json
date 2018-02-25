@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Vicious barbed tail",
+    "prevIdentifier": "Dissecting claws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "34c4-31f9-4584-f4fa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "bcc9-20e3-5e38-3895",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ec0d-1dc9-678a-59c3",
+      "name": "Vicious barbed tail"
+    }
+  ]
+}

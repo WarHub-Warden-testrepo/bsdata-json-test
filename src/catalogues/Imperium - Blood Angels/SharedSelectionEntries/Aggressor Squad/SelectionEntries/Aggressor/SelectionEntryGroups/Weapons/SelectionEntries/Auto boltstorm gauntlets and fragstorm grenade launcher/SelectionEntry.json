@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Auto boltstorm gauntlets and fragstorm grenade launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "668a-4e64-af1d-dc6f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8ba3-2d08-e2d4-03bb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dd5a-4ec1-c159-82bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "99d2-d806-5ba5-fac9",
+          "id": "edb6-4ca7-50f6-850b",
+          "name": "Auto boltstorm gauntlets"
+        },
+        {
+          "constraints": [
+            {
+              "id": "41fc-6d1d-f6d9-0b53",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e14a-1022-f622-eacd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e4c9-be77-2c22-f2f1",
+          "id": "90bd-5f1a-cbae-3e4e",
+          "name": "Fragstorm grenade launcher"
+        }
+      ],
+      "id": "5fbc-9176-bfb5-0dc6",
+      "name": "Auto boltstorm gauntlets and fragstorm grenade launcher"
+    }
+  ]
+}

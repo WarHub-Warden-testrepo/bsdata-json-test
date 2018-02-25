@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "30fa-00e0-2f48-c480",
+      "constraints": [
+        {
+          "id": "925c-36de-a6ec-3a2a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "0018-472d-0ff5-9eb9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "71b1-e87e-9592-e91a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "30fa-00e0-2f48-c480",
+          "name": "Heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f957-9b2d-f12e-0abd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "2b37-65ee-9443-b4ef",
+          "id": "ed75-b560-7838-1949",
+          "name": "Multi-melta"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0e02-b542-84d6-2ab8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "7183-82a9-d0b4-9fa2",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "0310-5fe2-6f64-de16",
+      "name": "Weapon"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6c2d-2a52-5e4f-5f60",
+      "constraints": [
+        {
+          "id": "b8df-df0e-5b12-f161",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b840-f7aa-88a9-5a10",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d146-df6a-40f6-52f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "6c2d-2a52-5e4f-5f60",
+          "name": "Power axe"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a497-3fa3-7b67-befe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "e7ad-7857-b271-fcb5",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7d22-33ed-5ce3-fe8e",
+      "name": "Melee weapon"
+    }
+  ]
+}

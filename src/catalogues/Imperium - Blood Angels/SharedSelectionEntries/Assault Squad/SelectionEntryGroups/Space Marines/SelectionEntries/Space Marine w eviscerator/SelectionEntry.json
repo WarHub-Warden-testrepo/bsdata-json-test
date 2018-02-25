@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/ eviscerator",
+    "prevIdentifier": "Space Marine w/ bolt pistol and chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1cdf-15ca-ba4c-0ff7",
+          "type": 1,
+          "field": "selections",
+          "scope": "c7d0-e0cd-fb06-f271",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "57c4-2578-125b-8ab9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d67-0374-07c4-edb8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0379-bf8f-0a6d-83d4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8436-5c61-bccd-5743",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5138-e107-9059-ca50",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "65a7-f4dc-d1af-a623",
+          "name": "Eviscerator"
+        }
+      ],
+      "id": "0468-463a-70f4-68e4",
+      "name": "Space Marine w/ eviscerator",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "8a94-4deb-0ff1-93f3",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "e695-5fd9-c147-477f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "1cdf-15ca-ba4c-0ff7",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "c7d0-e0cd-fb06-f271",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

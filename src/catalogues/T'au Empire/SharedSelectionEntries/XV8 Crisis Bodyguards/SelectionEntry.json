@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "identifier": "XV8 Crisis Bodyguards",
+    "prevIdentifier": "XV8 Crisis Battlesuits"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "528c-d184-31fc-f9d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "0741-57b8-a745-364e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "353b-5006-d157-ce73",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "9fd3-2a05-61a2-432b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "3254-c1d8-8a35-e547",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "5280-006d-0d7e-fb9e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7acc-dbc6-2946-354f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "d227-6a6b-99ac-6f4a",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "7acc-dbc6-2946-354f",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "7d4d-60cc-d82e-7acc",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2 per Bodyguard)"
+            }
+          ]
+        }
+      ],
+      "id": "2a57-2755-54cd-8930",
+      "name": "XV8 Crisis Bodyguards",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "df56-67da-95b0-c1c2",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "dae4-78d9-d1e8-cc18",
+          "name": "Bonding Knife Ritual"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "c2d2-e09d-7d51-4257",
+          "name": "Manta Strike"
+        },
+        {
+          "type": 1,
+          "targetId": "7840-1083-714d-3897",
+          "id": "1d0c-4246-93f9-448c",
+          "name": "Sworn Protectors"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "7d4d-60cc-d82e-7acc",
+              "type": 4,
+              "field": "selections",
+              "scope": "2a57-2755-54cd-8930",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "7d4d-60cc-d82e-7acc",
+              "type": 4,
+              "field": "selections",
+              "scope": "2a57-2755-54cd-8930",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "2a57-2755-54cd-8930",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a3aa-ea32-ab42-aad5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "2a57-2755-54cd-8930",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

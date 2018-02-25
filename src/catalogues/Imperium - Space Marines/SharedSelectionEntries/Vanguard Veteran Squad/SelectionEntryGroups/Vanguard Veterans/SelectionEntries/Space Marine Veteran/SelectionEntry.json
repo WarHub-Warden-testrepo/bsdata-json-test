@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Space Marine Veteran"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7e5e-7b0d-2d16-d0b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9bb9-af00-54be-7644",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "27de-0395-7a9e-dd64",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6cbc-2560-e6bb-ceaf",
+      "name": "Space Marine Veteran"
+    }
+  ]
+}

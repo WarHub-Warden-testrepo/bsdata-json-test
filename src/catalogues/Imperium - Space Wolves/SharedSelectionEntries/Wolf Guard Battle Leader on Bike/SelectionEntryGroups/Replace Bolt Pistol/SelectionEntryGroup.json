@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Replace Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "6514-fe13-1953-7115",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "56a3-0317-7c16-c7ec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e6ed-c53b-584f-820e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "a4a9-e1b6-5c5d-4d97",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "06ec-0a2d-0bd8-cc31",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "06fb-29fb-d514-120b",
+          "name": "Plasma pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c06c-40ee-1cc3-7492",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "e09a-7680-5cab-3967",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "47fb-bf92-a03d-e884",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "3606-f31a-b05c-2f3f",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8624-e3b3-e8e5-63b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "2da5-8da7-78b5-d977",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "8744-71ef-9bc8-af25",
+      "name": "Replace Bolt Pistol",
+      "modifiers": [
+        {
+          "field": "6514-fe13-1953-7115",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "6517-ea63-af09-4a4c",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "56a3-0317-7c16-c7ec",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "6517-ea63-af09-4a4c",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

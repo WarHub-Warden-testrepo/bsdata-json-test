@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Assault Bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9821-4599-500f-4948",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3002-3e6d-deb6-dacd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d9e7-6efa-6cc0-6219",
+          "id": "0785-444c-a0ca-320c",
+          "name": "Assault bolter",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "70bc-0516-df21-bbb8",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "cf72-6942-fa6a-2eb2",
+      "name": "Assault Bolters"
+    }
+  ]
+}

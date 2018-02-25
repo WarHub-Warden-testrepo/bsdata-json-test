@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Twin Heavy Bolter"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "672a-9316-b72e-78ed",
+      "constraints": [
+        {
+          "id": "4aa9-7f43-a9c1-71cd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c91e-27a1-7964-d37c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "08ee-3228-eea1-796f",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "672a-9316-b72e-78ed",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        }
+      ],
+      "id": "1ecf-51d8-45f7-ee57",
+      "name": "Twin Heavy Bolter"
+    }
+  ]
+}

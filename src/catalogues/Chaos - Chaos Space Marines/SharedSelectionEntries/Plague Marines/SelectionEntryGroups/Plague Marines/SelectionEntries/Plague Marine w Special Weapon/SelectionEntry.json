@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Plague Marine w/ Special Weapon",
+    "prevIdentifier": "Plague Marine w/ boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1bd6-2df2-9c82-a3b9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fe47-d04d-e40e-e4e9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d70a-53e8-a1c1-2985",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "986e-f410-9c9a-a973",
+          "id": "4d22-f783-0406-3758",
+          "name": "Blight Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8bc2-e047-8afb-7709",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c4e3-1581-cf08-61b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "37e1-9a80-44bc-740e",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "1da3-b974-e930-0574",
+      "name": "Plague Marine w/ Special Weapon"
+    }
+  ]
+}

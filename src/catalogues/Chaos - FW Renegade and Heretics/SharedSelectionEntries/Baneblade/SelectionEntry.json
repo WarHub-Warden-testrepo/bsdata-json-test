@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "identifier": "Baneblade",
+    "prevIdentifier": "Hydras"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 390.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 28.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "edd8-b9f6-6e40-dd1c"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a50c-889e-52dd-4b62",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "5aaa-b6a6-7de9-4bd5",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "48d2-67e8-db45-47a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8a7a-5f5f-cdb1-38e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b28-881d-fadb-960d",
+          "id": "54f0-716e-a835-b029",
+          "name": "Autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4dd9-6ed2-ef24-eb05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9f1c-1b8c-8a8e-1890",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "2a00-2c07-f6a8-5d7e",
+          "name": "Demolisher cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad03-6c5d-7b98-2a48",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6aae-2c37-0a4d-9d4b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d8ff-f086-b9ee-a9e4",
+          "id": "325e-6c79-8941-f416",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d613-dbaa-e270-8a27",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "90ce-2eb7-3a66-22b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1df2-d594-6874-fe5f",
+          "id": "30d7-9217-5838-c2bc",
+          "name": "Adamantium Tracks"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "d1d6-4f2c-f592-c98f",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "54e1-ad9d-ef1e-1e1a",
+          "id": "235b-bcb2-00b8-0016",
+          "name": "Baneblade Sponsons"
+        }
+      ],
+      "id": "f8a8-c9ab-77ce-ef91",
+      "name": "Baneblade",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "7aa0-421d-1067-58a5",
+          "id": "31d6-7757-8c30-6334",
+          "name": "Explodes (Super-Heavy)"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "7754-4a00-89f4-267a",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "7ec4-03b3-3612-0cfd",
+          "id": "f3e9-6e82-35e1-7df3",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

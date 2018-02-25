@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Cloud Dancer w/ Dissonance Cannon",
+    "prevIdentifier": "Cloud Dancer w/ Splinter Cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "9222-bf4a-42c8-0cb9",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "77ed-3007-06a5-c59a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e7f5-7332-3334-ff35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "202f-771b-bd1f-3189",
+          "id": "f2c8-f188-fd10-81f0",
+          "name": "Dissonance Cannon"
+        }
+      ],
+      "id": "ab07-cc2d-df0b-2b39",
+      "name": "Cloud Dancer w/ Dissonance Cannon",
+      "book": "IA - Index Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "targetId": "cd6a-1758-3586-c7bf",
+          "id": "6b4c-bdb6-b47d-1e50",
+          "name": "Corsair Cloud Dancer"
+        }
+      ]
+    }
+  ]
+}

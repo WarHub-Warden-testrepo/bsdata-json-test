@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Stalker Bolt Rifles",
+    "prevIdentifier": "Bolt rifles"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f1e0-b20c-bbe2-a31e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cc52-61a2-f608-ab9e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "51e9-7938-df95-465e",
+          "id": "c773-d4c7-c6a3-8293",
+          "name": "Stalker Bolt Rifle",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "d940-8055-fa69-deaf",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3fb7-3991-857b-5524",
+      "name": "Stalker Bolt Rifles"
+    }
+  ]
+}

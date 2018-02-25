@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Helbrute fist options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "75b4-d815-ac31-29dc",
+      "constraints": [
+        {
+          "id": "544c-753e-9595-32d1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1c88-3f34-a880-3bb1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "dd01-6c2f-03c0-a7ca",
+          "name": "Missile launcher",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7ac5-78c4-af24-11a1",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e7d1-b66c-5df9-928f",
+          "id": "75b4-d815-ac31-29dc",
+          "name": "Helbrute fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "788e-fb05-df3f-2a5b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "5cae-15dc-4a5d-0b9b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "d791-679d-781c-a6fa",
+      "name": "Helbrute fist options"
+    }
+  ]
+}

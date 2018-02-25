@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Techmarine",
+    "prevIdentifier": "Rhino"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d743-5cd1-753c-7197",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "faaf-928b-d305-b42e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d3d5-ffc9-757d-b014",
+          "id": "35f0-c682-aaec-7cfa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8b18-249b-adfb-6252",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "eab3-b1fe-eb2a-5778",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7a88-1d68-e8fc-0c60",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fa49-0bf1-9702-44c7",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "b956-7c83-6a7e-c8a8",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "4e6c-b253-41c2-5951",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d461-223e-0034-a5b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5eb6-9cce-4e27-6252",
+          "id": "5310-a45f-7d9c-8c0e",
+          "name": "Servo-harness"
+        }
+      ],
+      "id": "f8cb-6182-08e4-e22b",
+      "name": "Techmarine",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5eab-b959-a697-6bb4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "34e2-fb94-2737-3c2d",
+          "id": "6257-ffb5-316a-5ce8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Whirlwind",
+    "prevIdentifier": "Vindicator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6b3a-a5f9-0780-30cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3bf0-d104-2afa-9cc7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "24fe-2236-a010-7a76",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "62fa-58d6-e672-968e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "10d8-87ba-00bb-b88e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "8f0a-2889-d78e-9143",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c1f5-8e61-9502-be9e",
+      "name": "Whirlwind",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "e2bd-b2d3-3d78-fe6a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "35da-9a6d-f959-25db",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Ork Boy W/ Shoota",
+    "prevIdentifier": "Ork Boy W/ Slugga & Choppa"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "b49f-a2b0-8d81-2f06",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "12a8-0ff4-ec91-d802",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2990-414f-9d3f-da0d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e704-4044-fa55-f75e",
+          "id": "638d-22c9-d833-20a4",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a99b-eb35-3148-7e79",
+      "name": "Ork Boy W/ Shoota",
+      "infoLinks": [
+        {
+          "targetId": "4305-daf8-8988-6189",
+          "id": "f4e1-9a43-e678-113d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

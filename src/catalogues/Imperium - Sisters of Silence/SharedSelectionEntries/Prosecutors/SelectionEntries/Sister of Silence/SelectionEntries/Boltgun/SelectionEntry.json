@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Boltgun",
+    "prevIdentifier": "Psyk-Out Grenades"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "1a05-ba64-8c90-2d55",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2aff-60e7-4121-d412",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9af8-4007-9acf-a310",
+      "name": "Boltgun",
+      "infoLinks": [
+        {
+          "targetId": "3d4b-95ea-f860-dd22",
+          "id": "67ca-1207-aed7-f494",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

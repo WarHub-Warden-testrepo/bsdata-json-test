@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Devastator Squad",
+    "prevIdentifier": "Company Veterans"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ad48-73eb-ee32-ac3b",
+          "id": "ceaa-02f9-5115-8027",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "c721-a451-51e0-a47f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "edb1-a55e-4052-69f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "1b20-1d2e-2a36-df8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "a6e7-f59c-9b04-8b0e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "21e9-0673-99ba-e1d6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "32b5-8b56-0956-48d5",
+      "name": "Devastator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "86ea-c2df-ca1d-caf4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "19c3-bcee-c057-c0cd",
+          "id": "57ca-c3b8-27b1-1802",
+          "name": "Signum"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "1303-c2d7-9bd3-ceb8",
+              "type": 1,
+              "field": "selections",
+              "scope": "32b5-8b56-0956-48d5",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

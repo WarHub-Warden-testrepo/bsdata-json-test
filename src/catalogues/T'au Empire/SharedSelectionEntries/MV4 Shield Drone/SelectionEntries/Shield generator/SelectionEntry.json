@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Shield generator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "4b2d-07f4-8229-e5c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c1a8-7421-83b5-2a38",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0eb7-107b-25c5-ee42",
+      "name": "Shield generator",
+      "infoLinks": [
+        {
+          "targetId": "1803-567f-8527-b8de",
+          "id": "d708-55d0-bf35-2299",
+          "name": "Shield generator (Drone)"
+        }
+      ]
+    }
+  ]
+}

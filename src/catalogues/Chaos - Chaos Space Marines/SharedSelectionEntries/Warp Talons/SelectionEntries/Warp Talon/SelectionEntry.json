@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Warp Talon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0d9b-ee70-3818-0e9d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "b4f4-35ba-425d-af2d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "273c-2e91-a8d2-c002",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cfac-37f7-eb8c-bb2e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e36-f3a7-81b4-07ac",
+          "id": "977d-8b75-9cc9-9cc8",
+          "name": "Lightning Claw (pair)"
+        }
+      ],
+      "id": "0721-e90a-1e91-ee20",
+      "name": "Warp Talon"
+    }
+  ]
+}

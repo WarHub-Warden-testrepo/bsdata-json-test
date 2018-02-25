@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Lightning Claw",
+    "prevIdentifier": "Exalted Champion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "72f0-6262-b417-dd10",
+      "name": "Lightning Claw",
+      "infoLinks": [
+        {
+          "targetId": "7584-238f-3174-4529",
+          "id": "c14b-c9b5-e3a4-21b1",
+          "name": "Lightning claw",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "7d85-72b7-2fa0-6ea3",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "72f0-6262-b417-dd10",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

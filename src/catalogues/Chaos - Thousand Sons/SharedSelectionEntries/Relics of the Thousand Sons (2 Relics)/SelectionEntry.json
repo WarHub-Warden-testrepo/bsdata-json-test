@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Relics of the Thousand Sons (2 Relics)",
+    "prevIdentifier": "Relics of the Thousand Sons (1 Relic)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0c50-a210-2e54-7036",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "ff36a6f3-19bf-4f48-8956-adacfd28fe74",
+          "id": "ef21-814c-87e0-c69f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "28f9-4d6e-4f32-3322",
+      "name": "Relics of the Thousand Sons (2 Relics)",
+      "modifiers": [
+        {
+          "field": "0c50-a210-2e54-7036",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "1b20-1c27-6f89-ddbe",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

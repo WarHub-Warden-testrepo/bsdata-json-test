@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Scout"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d99b-9c88-8180-7219",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "e800-8004-e948-1609",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "aca7-a37f-d81d-a350",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e0df-0e01-4e07-fdec",
+          "id": "40d8-bbb3-3594-0a41",
+          "name": "Camo cloak"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc95-0562-9310-8252",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f6ce-0147-d5ce-e541",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "f46c-a176-9382-e9ef",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e9a7-b045-47e8-9770",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "52b3-56bc-c7b4-b9bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "22b4-2ed3-8d64-b000",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "7368-3677-f327-b4b2",
+      "name": "Scout",
+      "infoLinks": [
+        {
+          "targetId": "e0f6-355e-b75c-3674",
+          "id": "7e51-9901-5883-33ed",
+          "name": "Scout"
+        }
+      ]
+    }
+  ]
+}

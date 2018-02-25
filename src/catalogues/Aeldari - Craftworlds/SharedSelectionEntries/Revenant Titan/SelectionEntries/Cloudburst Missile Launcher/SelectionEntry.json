@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Cloudburst Missile Launcher",
+    "prevIdentifier": "Revenant Jet Pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "901e-12b4-a04a-dd11",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e5f1-1c23-f8f3-7a10",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "87df-dd5b-f4e4-c795",
+      "name": "Cloudburst Missile Launcher"
+    }
+  ]
+}

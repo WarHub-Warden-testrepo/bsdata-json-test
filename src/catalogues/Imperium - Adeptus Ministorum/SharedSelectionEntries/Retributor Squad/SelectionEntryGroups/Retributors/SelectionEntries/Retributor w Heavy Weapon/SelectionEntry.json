@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Retributor w/ Heavy Weapon",
+    "prevIdentifier": "Retributor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c0ac-e480-b212-be49",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "01d8-d073-3057-d9f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bb25-e813-305c-ece3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "593e-86d3-a5b3-4249",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b9bd-9b50-6dae-f88b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7752-166a-0c23-4847",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b80-16a0-9b4a-4327",
+          "id": "eca5-4b91-bbd8-1687",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2575-61e4-fc2f-bb7c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0084-6807-271b-3932",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8b94-8a58-b4f7-f948",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3b3c-dfb8-3408-7cbc",
+      "name": "Retributor w/ Heavy Weapon",
+      "infoLinks": [
+        {
+          "targetId": "d99e-a88e-283d-e2f2",
+          "id": "c246-d6e5-c301-7198",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

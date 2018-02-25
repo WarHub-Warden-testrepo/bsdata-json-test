@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Styges Thunderer Seige Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f3bc-2487-a31f-b5b5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "07c6-9bd2-50a4-dfbc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "27b0-0278-7372-04b1",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2da7-bc75-27de-cd5e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "af56-7b1e-261b-18c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f7e-32c4-61af-510f",
+          "id": "963e-d130-e408-a2de",
+          "name": "Demolisher cannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7e13-b5b7-4019-f6f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "6b92-cb33-70c1-5268",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "1eef-2925-d155-a604",
+      "name": "Styges Thunderer Seige Tank",
+      "infoLinks": [
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "893d-d8a7-fa8b-44df",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "dd08-2d4f-7e20-a4af",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "41bd-bb84-01ef-43f6",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "5155-78cc-840c-849f",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

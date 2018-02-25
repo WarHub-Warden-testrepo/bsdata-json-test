@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Weapon Options",
+    "prevIdentifier": "Force Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "747b-b205-9a4e-6270",
+      "constraints": [
+        {
+          "id": "5ab3-ef9e-1910-03bf",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f60f-1afd-9653-b447",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "30fe-5556-6dec-e64e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "747b-b205-9a4e-6270",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "06f7-df02-a7c7-21f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69ce-51e1-7d84-4eaf",
+          "id": "6f88-ddf1-3d2d-880a",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "628e-b2dd-c82f-11b6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "9057-9993-438e-ee98",
+          "id": "0ae0-539e-19d6-41c2",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4c16-0d65-7268-870b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "7351-b60b-1ed4-5d3a",
+          "id": "625d-fea6-83b5-9ad7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "aa29-9780-ff9d-ad43",
+      "name": "Weapon Options"
+    }
+  ]
+}

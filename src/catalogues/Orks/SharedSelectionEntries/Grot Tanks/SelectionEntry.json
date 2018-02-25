@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Grot Tanks",
+    "prevIdentifier": "Ork Mek Boss Buzzgob"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "a49a-4924-7659-320e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "cf85-a156-2229-fcc1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "adc5-264a-d1fc-b850",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5229-e9d3-0dde-a9e5",
+          "id": "4736-c1b1-7f13-956f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "dc07-b39e-1c3b-68f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0b2c-1505-90c2-24ed",
+          "id": "ff5c-1cbd-fd3e-e4ab",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c7e2-297c-a0f9-a9fe",
+      "name": "Grot Tanks",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "c7e2-297c-a0f9-a9fe",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

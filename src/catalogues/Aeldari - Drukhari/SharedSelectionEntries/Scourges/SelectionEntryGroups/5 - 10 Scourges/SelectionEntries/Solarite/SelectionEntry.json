@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Solarite",
+    "prevIdentifier": "Scourge"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b508-13d8-c1c1-054f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "e5de-5462-54de-df0e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9490-f87b-710e-ea99",
+      "name": "Solarite"
+    }
+  ]
+}

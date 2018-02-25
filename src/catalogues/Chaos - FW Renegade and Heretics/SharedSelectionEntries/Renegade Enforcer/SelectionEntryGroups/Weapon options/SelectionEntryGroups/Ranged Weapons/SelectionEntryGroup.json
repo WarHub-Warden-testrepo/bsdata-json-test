@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "cd32-e307-8ac6-a798",
+      "constraints": [
+        {
+          "id": "cc50-ce2d-4129-3caf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d15f-3b66-ad5c-9952",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "40ba-af92-e2e9-260a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d07-5011-dbf8-bda9",
+          "id": "271f-4d1b-f87c-7f2d",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "eede-5129-f4d9-0bd9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "fc9c-8bb9-156d-21f5",
+          "name": "Laspistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1333-cac6-2bd6-c376",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f8a9-de2b-951b-94e1",
+          "id": "f8f3-e109-584b-f689",
+          "name": "Plasma pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab0c-43d9-3a55-62f3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "81d6-71b1-d48d-95bb",
+          "id": "cd32-e307-8ac6-a798",
+          "name": "Autopistol",
+          "modifiers": [
+            {
+              "field": "ab0c-43d9-3a55-62f3",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "b415-d0e7-ff37-36e8",
+          "name": "Autogun"
+        },
+        {
+          "targetId": "fd87-854b-d284-184a",
+          "id": "1a5a-e1c6-267f-17e5",
+          "name": "Lasgun"
+        },
+        {
+          "targetId": "2094-c9a6-a426-0970",
+          "id": "5665-966a-a5e8-2173",
+          "name": "Shotgun"
+        }
+      ],
+      "id": "e56e-07cc-86e2-fe58",
+      "name": "Ranged Weapons"
+    }
+  ]
+}

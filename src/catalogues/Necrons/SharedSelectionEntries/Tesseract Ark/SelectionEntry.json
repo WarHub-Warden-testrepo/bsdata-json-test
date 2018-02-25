@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Tesseract Ark",
+    "prevIdentifier": "Gauss Pylon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 220.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "6041-3d53-3057-8b29",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "169e-3b83-b1f4-9837",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "4d9f-d125-bb58-532b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f4e0-efb1-fa3a-791b",
+          "id": "bd45-0bf6-7ae0-7cb1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c9b0-c40c-886b-b571",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f4bf-2639-e010-0c55",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e2c2-3304-8a01-854d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "084c-e654-290e-aca1",
+          "id": "a6e0-8130-c7c6-714c",
+          "name": "Tesseract Singularity Chamber"
+        }
+      ],
+      "id": "4a66-b1ac-dd95-09e8",
+      "name": "Tesseract Ark",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "c9ad-336c-c39f-be4b",
+          "name": "Living Metal"
+        },
+        {
+          "targetId": "a977-75d0-a5ce-8e6c",
+          "id": "23c0-ce73-1dec-3125",
+          "name": "Quantum Shielding"
+        }
+      ]
+    }
+  ]
+}

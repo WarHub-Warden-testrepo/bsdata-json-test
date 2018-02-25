@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "identifier": "Colonel 'Iron Hand' Straken",
+    "prevIdentifier": "Platoon Commander"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bb07-1691-71c2-b2ef",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6218-425e-33cf-6ec3",
+          "id": "b469-e659-996a-d7c2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e872-7ca1-a17f-a781",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6cc0-8cb5-b001-6e02",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "98a9-858b-baef-9eaf",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "021b-a637-71fe-c57b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7cdc-6d3b-1a04-6f8a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "bdb2-9d56-953d-65cf",
+          "name": "Krak grenade"
+        },
+        {
+          "targetId": "7d8c-221c-99c5-97d2",
+          "id": "f82a-ecde-6a99-7cf4",
+          "name": "Astra Militarum Orders"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d3db-a3e9-a061-1056",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "a914-2557-bdc5-2a8b",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3e76-cfbb-40c4-db29",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "22a0-f598-a343-61af",
+          "id": "eb5c-76df-617a-c27b",
+          "name": "Lead From the Front",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "3e76-cfbb-40c4-db29",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "afc2-4a4a-5427-a7cd",
+      "name": "Colonel 'Iron Hand' Straken",
+      "book": "Codex: Astra Militarum",
+      "page": "57",
+      "infoLinks": [
+        {
+          "targetId": "2ff26b94-8048-d15d-c541-fd4da0f49571",
+          "id": "c203-a12b-18a1-73eb",
+          "name": "Voice of Command"
+        },
+        {
+          "targetId": "f34c8090-4e32-bd27-df37-1b714a4288d2",
+          "id": "2e02-f965-c092-fb09",
+          "name": "Senior Officer"
+        },
+        {
+          "targetId": "783d-d067-2d7f-d2a1",
+          "id": "9cb8-c27e-a261-cfb4",
+          "name": "Refractor Field"
+        }
+      ]
+    }
+  ]
+}

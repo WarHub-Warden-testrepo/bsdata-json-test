@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Wyrdvane Stave",
+    "prevIdentifier": "Laspistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "2d9b-dd33-684e-c449",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "503b-8342-7087-8605",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2acb-bc7a-e21f-7e7e",
+      "name": "Wyrdvane Stave"
+    }
+  ]
+}

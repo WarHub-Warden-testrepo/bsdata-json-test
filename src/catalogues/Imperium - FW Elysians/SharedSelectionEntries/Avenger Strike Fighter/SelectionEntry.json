@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Avenger Strike Fighter",
+    "prevIdentifier": "Lightning Strike Fighter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0be2-d4ab-4df0-0f68",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "69c0-566e-9e45-6a06",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "fb20-2e7b-2572-24b9",
+          "name": "Lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        }
+      ],
+      "id": "da02-b1b3-5184-10f5",
+      "name": "Avenger Strike Fighter",
+      "infoLinks": [
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "d612-320a-857c-219b",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "6507-0605-2d2a-143a",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "e8ce-9ae5-9aa6-cf23",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "9253-2852-fd4d-aeee",
+          "name": "Airborne"
+        }
+      ]
+    }
+  ]
+}

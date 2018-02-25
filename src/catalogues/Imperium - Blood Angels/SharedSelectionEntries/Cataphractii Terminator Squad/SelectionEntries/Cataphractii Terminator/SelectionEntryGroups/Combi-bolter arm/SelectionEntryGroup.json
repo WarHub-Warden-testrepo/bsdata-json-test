@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Combi-bolter arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5db1-8075-56f7-ae5d",
+      "constraints": [
+        {
+          "id": "dfaf-e78f-81cd-3c39",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1176-0a71-cf33-e3e5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "660f-2284-adec-9e11",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "5db1-8075-56f7-ae5d",
+          "name": "Combi-bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1af5-fe45-e96e-328b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "90de-7b01-e401-888b",
+          "id": "89ef-a3df-1fb7-a977",
+          "name": "Lightning Claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7fcf-d643-40a3-8996",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "129c-5219-6309-c521",
+              "type": 1,
+              "field": "selections",
+              "scope": "eef8-6558-5bca-4db1",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "d40b-8ffc-0b8a-4223",
+          "name": "Heavy flamer",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "129c-5219-6309-c521",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "eef8-6558-5bca-4db1",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "183f-4ca0-962c-c32d",
+      "name": "Combi-bolter arm"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "The Angel's Wing (replaces jump pack)",
+    "prevIdentifier": "The Hammer of Baal (replaces thunder hammer)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1a40-fbc1-58e4-85f3",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "dde0-9f1f-6381-2a4d",
+      "name": "The Angel's Wing (replaces jump pack)",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "ddb3-ec71-ab5d-9c29",
+          "id": "19a4-4228-e216-1b90",
+          "name": "The Angel's Wing"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "f627-f23e-a3b4-dc2c",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

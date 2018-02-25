@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "identifier": "Primaris Librarian",
+    "prevIdentifier": "Primaris Captain"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 93.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "f241-f1b6-6ed6-5601",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "212f-e73d-a89d-68f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "ae29-1549-1fde-2a9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4859-2cdd-2ba7-23aa",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "27d2-2998-2f52-84cf",
+          "id": "1120-df52-cd25-91b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "3e6e-b093-24d9-7977",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "b561-b012-b6eb-d2f2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e54b-b9f1-141e-bf30",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b4d7-ba31-bed2-74b1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e7-1f9b-4c1c-aad9",
+          "id": "6149-8a8a-8ecc-d86c",
+          "name": "Force sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ab77-bb8f-abac-1dfd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4f1e-839f-f345-b352",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "0ecf-49d9-a19b-520f",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4b84-e249-7ee6-6923",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3d9f-db27-4d4f-9d3e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4d18-c3cd-7a0b-6246",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "f123-25cd-6aa6-b3ad",
+          "name": "Relics"
+        },
+        {
+          "type": 1,
+          "targetId": "edd9-59c0-8f74-3b36",
+          "id": "76d4-5301-74cb-90fa",
+          "name": "Librarius Discipline"
+        }
+      ],
+      "id": "2603-7d82-fde3-aedd",
+      "name": "Primaris Librarian",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "f789-3a89-0ceb-4ef1",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "8b5e-cf89-dccf-ba25",
+          "id": "5d81-4ee0-59e2-540b",
+          "name": "Psychic Hood"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "bf89-9471-d639-be6a",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

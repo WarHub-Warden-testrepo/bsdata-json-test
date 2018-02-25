@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Razorback",
+    "prevIdentifier": "Rhino Primaris"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "7205-e6fd-f083-f5b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b659-473d-a69a-853b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "c85c-0ffe-5415-31e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "43e0-b391-f160-cd07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "690b-5ff1-5928-5e5c",
+          "id": "2496-fb84-c2e1-2b6a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b8b2-4bbd-30c8-df29",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "f885-97b9-3242-ea9a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6625-e6f9-4caa-6977",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "10e5-e38e-5659-be54",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e7e9-ce98-90d0-0de9",
+      "name": "Razorback",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "e115-d729-ce93-fcb7",
+          "id": "a3b1-b180-430d-4504",
+          "name": "Explodes (6\"/D3)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "9710-a014-84be-c8ed",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

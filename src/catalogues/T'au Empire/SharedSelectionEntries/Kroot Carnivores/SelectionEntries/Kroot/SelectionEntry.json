@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Kroot"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "03f3-dd8b-244c-0d3e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 20.0,
+          "shared": true
+        },
+        {
+          "id": "6cb0-2f48-7da2-4635",
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "287c-fcd4-804a-eb2e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ebd4-4f9b-4c09-8de4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5d54-f57b-8125-762e",
+          "id": "93b3-4b7f-df27-a2fb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "7c6b-6809-256c-48a9",
+      "name": "Kroot",
+      "infoLinks": [
+        {
+          "targetId": "5090-1951-aa8d-c188",
+          "id": "f769-1711-eff0-7156",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

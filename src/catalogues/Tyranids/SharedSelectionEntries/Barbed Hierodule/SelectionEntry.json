@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Barbed Hierodule",
+    "prevIdentifier": "Power: Smite"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 420.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "0453-5af1-20da-9d2d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "e005-b1a0-7fa8-007a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "ba5f-3097-e13c-2cc6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "09a6-8aaa-532f-a01f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "b4cd-ce93-6c64-3620",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2338-9567-26a1-aa6f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "ef98-bcce-d47f-fc8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "edbe-6b66-80b6-3a5f",
+          "id": "a70c-348e-d502-6108",
+          "name": "Bio-cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "712b-2c28-7be0-44eb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "60dd-0ac6-25b2-a380",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f906-1281-9e25-d59e",
+          "id": "711b-dcf1-23f6-35cd",
+          "name": "Massive Scything Talons",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "22"
+            }
+          ]
+        }
+      ],
+      "id": "35c3-a8c2-fe10-325f",
+      "name": "Barbed Hierodule",
+      "infoLinks": [
+        {
+          "targetId": "e083-5f8f-f165-bfa8",
+          "id": "8eb6-3418-a365-5137",
+          "name": "Death Throes (Hierodule)"
+        },
+        {
+          "targetId": "851d-aabd-c21e-f72c",
+          "id": "3d8f-938c-4ab0-e2ad",
+          "name": "Agile"
+        },
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "d3ef-e6c9-fd7a-e389",
+          "name": "Instinctive Behaviour"
+        }
+      ]
+    }
+  ]
+}

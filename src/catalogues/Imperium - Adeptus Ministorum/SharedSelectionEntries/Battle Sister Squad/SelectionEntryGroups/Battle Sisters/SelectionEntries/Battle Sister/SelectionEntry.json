@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Battle Sister",
+    "prevIdentifier": "Battle Sister w/ Special or Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3505-8d05-c5f9-01f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "aedc-57ff-ff66-d91c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "896b-28f1-e64a-3eb4",
+          "id": "2211-d0d8-99d9-108a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8257-97b5-bf4d-66ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f701-a704-6e2a-19dc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "ad55-6112-3ea6-b185",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5c87-e9a0-c315-fe41",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e0ab-f6d8-5c7b-6c8a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "183c-e028-eece-c7a4",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "92ef-0c5a-e4ab-53b5",
+      "name": "Battle Sister",
+      "infoLinks": [
+        {
+          "targetId": "7741-694d-c4f9-c1bb",
+          "id": "f848-46a3-2bdd-acaf",
+          "name": "New InfoLink",
+          "book": "",
+          "page": ""
+        }
+      ]
+    }
+  ]
+}

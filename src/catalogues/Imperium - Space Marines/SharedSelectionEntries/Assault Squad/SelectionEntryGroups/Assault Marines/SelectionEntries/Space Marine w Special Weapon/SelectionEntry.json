@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/Special Weapon",
+    "prevIdentifier": "Space Marine"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5dcb-734c-67c3-40a1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1cfc-a71e-7540-90f3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "08b8-6a74-00bf-7ca9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a435-4caa-9d82-aab7",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a0ca-4b88-c60a-c661",
+      "name": "Space Marine w/Special Weapon"
+    }
+  ]
+}

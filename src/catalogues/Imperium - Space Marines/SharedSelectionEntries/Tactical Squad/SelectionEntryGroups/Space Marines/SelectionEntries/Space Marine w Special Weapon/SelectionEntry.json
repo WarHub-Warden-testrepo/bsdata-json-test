@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Space Marine w/Special Weapon",
+    "prevIdentifier": "Space Marine Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b35c-2b1c-5fbc-b900",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f333-7c74-8fb1-0cae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bd52-b8c0-d18f-7a7e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "7bb4-583f-e052-5d8c",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f519-1ab7-c392-fa46",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a12d-fa38-e64f-339d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e4e1-3ac3-a048-d89d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5a99-2750-8e65-7851",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "29bb-bbce-64be-0467",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "5077-089f-c626-f2dc",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "736f-babe-b727-3bbf",
+      "name": "Space Marine w/Special Weapon",
+      "modifiers": [
+        {
+          "field": "b35c-2b1c-5fbc-b900",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "9411-aa3a-9363-3e75",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "9021-d405-33fa-fcf1",
+                  "field": "selections",
+                  "scope": "8699-3820-0f9d-7bbc",
+                  "value": 10.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

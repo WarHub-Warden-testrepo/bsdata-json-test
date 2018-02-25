@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Reaper batteries",
+    "prevIdentifier": "Quad heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "75ad-9492-1524-518a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "9047-7aa0-b587-bfcd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b72d-b9c2-52da-02be",
+          "id": "684d-d428-8ea8-b27b",
+          "name": "Reaper battery"
+        }
+      ],
+      "id": "1f30-3800-d9db-4426",
+      "name": "Reaper batteries"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Bike weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ff51-8731-07d1-987d",
+      "constraints": [
+        {
+          "id": "7985-6b70-84a3-d8f8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2d04-f1f2-1569-97ae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ec9e-c4fc-b326-7c8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a11f-8f20-5d2c-079a",
+          "id": "ff51-8731-07d1-987d",
+          "name": "Twin boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a1c2-ed05-8a03-cc98",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fceb-42a0-95cf-0144",
+              "type": 1,
+              "field": "selections",
+              "scope": "9c2b-5ce8-0aeb-ad0a",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "b4dd-2ff1-9f8e-ab00",
+          "id": "fd71-8ce8-255b-968a",
+          "name": "Astartes grenade launcher"
+        }
+      ],
+      "id": "5dab-a189-6fa1-2edf",
+      "name": "Bike weapon"
+    }
+  ]
+}

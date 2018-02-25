@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Inquisitor-Lord Solomon Lok",
+    "prevIdentifier": "Inquisitor-Lord Hector Rex"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9e4b-2750-9aa0-c849",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ad7d-c752-ab3b-3bce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "7a7f-5076-276e-0182",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "2755-f68b-9041-f93f",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "035b-cbfb-edde-5fcb",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "81d3-5be9-a218-ccff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "6f71-76d3-e5fc-5006",
+          "name": "Warlord"
+        }
+      ],
+      "id": "027b-c552-db2c-f5f0",
+      "name": "Inquisitor-Lord Solomon Lok",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "7ce2-9fd2-39c6-1a8d",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "5efe-5b88-fc07-9244",
+          "name": "Unquestionable Wisdom"
+        },
+        {
+          "targetId": "25d5-4784-1a05-e93c",
+          "id": "ba18-d725-4758-7878",
+          "name": "Quarry - Xenos"
+        }
+      ]
+    }
+  ]
+}

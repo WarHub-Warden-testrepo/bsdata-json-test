@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Aggressors"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "670f-5307-9b15-beaa",
+      "constraints": [
+        {
+          "id": "208f-5952-0c1b-aca2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "fd28-6e95-627a-699d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "b406-816d-b993-75e5",
+          "id": "231a-920d-49c6-b147",
+          "name": "Flamestorm Gauntlets",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18",
+              "repeats": [
+                {
+                  "childId": "2313-de6c-656d-3313",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "78d6-2309-b216-3f7d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "dd5b-9cf9-77ea-0b2f",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Sly Marbo",
+    "prevIdentifier": "Display Tank Orders"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "feac-56cb-e41d-00de",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6218-425e-33cf-6ec3",
+          "id": "2185-a1b3-7f75-6d28",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "26c6-1e81-3a55-0ad6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4e4a-dbb1-36b7-10b6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5de8-906d-ea69-610a",
+          "id": "366e-54ef-2516-bb42",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "7008-0b67-8bdc-cf80",
+      "name": "Sly Marbo"
+    }
+  ]
+}

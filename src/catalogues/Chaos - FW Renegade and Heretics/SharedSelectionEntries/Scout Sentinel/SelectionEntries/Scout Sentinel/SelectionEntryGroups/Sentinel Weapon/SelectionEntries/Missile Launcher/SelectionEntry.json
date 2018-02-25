@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Missile Launcher",
+    "prevIdentifier": "Heavy Flamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fb6c-8b9d-0aa2-2ffe",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "728d-6f2b-f081-693a",
+      "name": "Missile Launcher",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "603d-3e82-38f6-c5c3",
+          "id": "87c5-7750-e6b0-42f7",
+          "name": "Missile launcher, Frag missile"
+        },
+        {
+          "targetId": "8161-3b0e-8048-0e83",
+          "id": "741c-892a-5a4c-7147",
+          "name": "Missile launcher, Krak missile"
+        }
+      ]
+    }
+  ]
+}

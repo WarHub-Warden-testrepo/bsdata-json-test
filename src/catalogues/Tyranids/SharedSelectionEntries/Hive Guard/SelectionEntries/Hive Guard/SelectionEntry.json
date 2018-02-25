@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Hive Guard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6ce7-b972-1c8d-2512",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "f65e-f163-987b-d7ec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "410c-6bd3-cd35-a5ab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b9ad-3827-329a-0e6e",
+          "id": "f5ec-7c38-1bb7-b975",
+          "name": "Adrenal Glands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b188-537d-e3e5-0dab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "dd0b-c31e-f6eb-60d3",
+          "name": "Toxin Sacs"
+        }
+      ],
+      "id": "aa6c-e3fd-b776-5770",
+      "name": "Hive Guard"
+    }
+  ]
+}

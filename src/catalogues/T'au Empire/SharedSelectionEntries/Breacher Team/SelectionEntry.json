@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Breacher Team",
+    "prevIdentifier": "Vespid Stingwings"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "86a0-6a00-c560-7f29",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c989-1353-6482-6235",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "4622-f156-3d44-88c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "63ff-1f0e-537a-0097",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "da95-050a-61ef-096b",
+          "id": "adbe-55ef-a4c7-d938",
+          "name": "Fire Warrior squad options"
+        }
+      ],
+      "id": "c973-a169-e4b1-bf34",
+      "name": "Breacher Team",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "4283-54a5-38c7-4cac",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "9435-78c5-370a-1e4b",
+          "name": "For the Greater Good"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "c555-7292-8e00-59cf",
+              "type": 4,
+              "field": "selections",
+              "scope": "c973-a169-e4b1-bf34",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "22c8-bfa6-35c9-ef15",
+              "type": 4,
+              "field": "selections",
+              "scope": "c973-a169-e4b1-bf34",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

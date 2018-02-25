@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Terminator w/Heavy Weapon",
+    "prevIdentifier": "Terminator w/CF"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6fe7-006b-0bde-9ae8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fafb-92d2-9130-7203",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "786b-b425-1cd8-7343",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "78cd-b926-8e71-9ef6",
+          "id": "deb7-5752-bbf9-9067",
+          "name": "Terminator Heavy Weapons"
+        }
+      ],
+      "id": "a6fe-b724-d2df-fad0",
+      "name": "Terminator w/Heavy Weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "6fe7-006b-0bde-9ae8",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "2714-e64c-1ccf-b0b3",
+              "type": 2,
+              "field": "selections",
+              "scope": "7b2e-47fe-ee40-8b35",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Servitor (Heavy Bolter)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9c9d-f9c9-3ed0-dc2f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "87d1-bab8-a157-b323",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e172-6ce3-5672-f39d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "46e4-a8a8-8798-9708",
+          "id": "1332-93f0-f5a5-c0da",
+          "name": "Heavy Bolter"
+        },
+        {
+          "targetId": "95fc-a210-2565-c636",
+          "id": "c718-f364-5068-4dc4",
+          "name": "Servitor"
+        }
+      ],
+      "id": "b4d7-cce6-eff7-f45e",
+      "name": "Servitor (Heavy Bolter)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "9c9d-f9c9-3ed0-dc2f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "52ab-efbd-3812-e364",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "9c9d-f9c9-3ed0-dc2f",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "d333-2716-f7b5-2e32",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

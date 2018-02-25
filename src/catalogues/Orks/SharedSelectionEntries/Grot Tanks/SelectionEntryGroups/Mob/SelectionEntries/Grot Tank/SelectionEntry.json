@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Grot Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a249-b695-9fa6-101d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f314-b941-342f-289c",
+          "id": "5e6e-646a-0d14-1ba4",
+          "name": "Shoota"
+        }
+      ],
+      "id": "1952-cfd1-6c20-5406",
+      "name": "Grot Tank"
+    }
+  ]
+}

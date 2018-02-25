@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Canoptek Acanthrites",
+    "prevIdentifier": "Canoptek Tomb Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "0b69-a201-54e5-0aac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50f1-273a-89bc-a4de",
+          "id": "4024-135c-cdd2-96c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "0691-731a-cb1a-e07a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "accb-e3d8-1193-10cc",
+          "id": "28b9-3e5e-ccc7-6f9a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "e821-86f3-9f1c-2f6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "445b-edb1-0371-367e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "970c-51f6-0c92-5947",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "fb10-eff5-408c-7c58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d0ef-26b4-4262-5832",
+          "id": "aaaf-5a66-89b2-ad01",
+          "name": "Canoptek Acanthrite"
+        }
+      ],
+      "id": "6315-999a-c664-5f14",
+      "name": "Canoptek Acanthrites",
+      "book": "IA: Xenos",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "18",
+          "conditions": [
+            {
+              "childId": "d0ef-26b4-4262-5832",
+              "type": 1,
+              "field": "selections",
+              "scope": "6315-999a-c664-5f14",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "27",
+          "conditions": [
+            {
+              "childId": "d0ef-26b4-4262-5832",
+              "type": 1,
+              "field": "selections",
+              "scope": "6315-999a-c664-5f14",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

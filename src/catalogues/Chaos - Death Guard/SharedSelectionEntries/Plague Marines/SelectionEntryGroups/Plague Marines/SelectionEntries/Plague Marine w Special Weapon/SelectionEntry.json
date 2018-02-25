@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Plague Marine w/ Special Weapon",
+    "prevIdentifier": "Plague Marine w/ boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4bde-62b7-82b0-8610",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4e91-5584-6e6f-aafe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3be3-a873-2948-f659",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "922e-5c7d-e439-842b",
+          "id": "6873-944a-25b6-386f",
+          "name": "Blight Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "041d-9686-4b3d-7362",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f623-a2ac-91ac-df61",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "7e1c-31f3-240f-b449",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "43d5-a1b3-7cc5-a1f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b88e-4cd1-4e75-eb68",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b8e-9da8-a600-83a6",
+          "id": "cae7-da37-8672-1d86",
+          "name": "Plague knife"
+        }
+      ],
+      "id": "c24e-9d31-6349-2f1f",
+      "name": "Plague Marine w/ Special Weapon"
+    }
+  ]
+}

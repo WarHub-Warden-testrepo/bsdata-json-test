@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Combat Weapon Option"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7f23-7bde-a0e8-a68e",
+      "constraints": [
+        {
+          "id": "f50d-f0ea-03f3-06a5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "1d6a-e8e5-5aa9-45f3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "caae-f721-310b-3798",
+          "id": "7f23-7bde-a0e8-a68e",
+          "name": "Power fist"
+        },
+        {
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "be36-ac27-0272-8af0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f0dc-f2a4-4c93-83f2",
+      "name": "Combat Weapon Option"
+    }
+  ]
+}

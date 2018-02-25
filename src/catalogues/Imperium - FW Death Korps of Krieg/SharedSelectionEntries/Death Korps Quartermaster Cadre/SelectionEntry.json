@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Death Korps Quartermaster Cadre",
+    "prevIdentifier": "Death Korps Commissar"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "0b66-5cf9-2ffa-a9f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "cc99-8f36-8b86-0f01",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "6ca4-dc12-83d7-8cbc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0cf4-4be8-ad7b-8fc7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "53d9-a23b-743e-04e3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "8933-935b-bdb8-9d8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "947b-0a9f-6164-5898",
+          "id": "a343-45d7-4094-e9bc",
+          "name": "Death Korps Medicae-servitor"
+        }
+      ],
+      "id": "58d4-0e29-dc73-70cc",
+      "name": "Death Korps Quartermaster Cadre",
+      "infoLinks": [
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "e452-4870-19cf-b0f1",
+          "name": "The Cult of Sacrifice"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "a343-45d7-4094-e9bc",
+              "type": 4,
+              "field": "selections",
+              "scope": "58d4-0e29-dc73-70cc",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

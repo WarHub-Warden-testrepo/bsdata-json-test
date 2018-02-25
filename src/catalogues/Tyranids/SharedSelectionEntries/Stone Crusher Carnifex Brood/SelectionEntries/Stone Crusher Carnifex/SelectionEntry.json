@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Stone Crusher Carnifex"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "acbd-2a57-ae19-3b8d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f14c-272d-173d-87b1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "71ab-fccc-ef58-d18e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "377e-aeca-721c-5858",
+          "id": "670f-badb-3f04-dd88",
+          "name": "Bio-plasma"
+        }
+      ],
+      "id": "65dd-4f39-0827-0351",
+      "name": "Stone Crusher Carnifex"
+    }
+  ]
+}

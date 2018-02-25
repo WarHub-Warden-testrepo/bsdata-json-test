@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "identifier": "Be'lakor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 280.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "43c9-550d-4d4f-99d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "25c3-5f44-60ea-9dae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "4e6c-88d7-d8ca-1f5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "3f31-c65d-1659-2957",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "258d-2c4a-5c2a-28b6",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "8058-6112-b53f-e202",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "2b4d-1127-5784-1a64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "761d-8f06-b39f-4bc7",
+          "id": "c668-fd96-7c7c-b2e3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4a52-4363-f6ac-9e49",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dba8-ecb4-544f-7af8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d39-3639-2a3d-38f6",
+          "id": "329d-6b67-3910-947b",
+          "name": "Malefic talon"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "208c-0f14-2a83-4f8e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4444-7dd9-84f4-837e",
+          "id": "ff63-5a3a-dbf2-9858",
+          "name": "Dark Hereticus discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ef1d-cbfc-6527-2244",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2463-0e93-1164-48d5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "ab07-1bab-ed32-2c23",
+          "name": "Smite"
+        },
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "5228-e613-d9ec-4f13",
+          "name": "Warlord"
+        }
+      ],
+      "id": "38ee-583c-b397-a057",
+      "name": "Be'lakor",
+      "book": "Dataslate: Be'lakor",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "34f4-a82d-e907-a6e3",
+          "name": "Daemonic"
+        }
+      ]
+    }
+  ]
+}

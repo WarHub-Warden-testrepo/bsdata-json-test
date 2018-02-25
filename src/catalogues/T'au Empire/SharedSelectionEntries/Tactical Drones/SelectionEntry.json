@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Tactical Drones",
+    "prevIdentifier": "Neutron blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "3a24-fd27-b00f-beb3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "d8f7-2250-c295-a5ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "fa79-3c7b-b221-55ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4394-33d7-3b6d-537d",
+          "id": "3e13-ce84-9db8-1eb2",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "4ae0-df73-35d0-ce21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "id": "18c2-7766-7bba-50ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 12.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "0bb1-84bf-ebd6-4501",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (4-12)"
+            }
+          ]
+        }
+      ],
+      "id": "94e2-9b39-4330-f8cc",
+      "name": "Tactical Drones",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "b25c-3e71-9612-5bf6",
+          "name": "For the Greater Good"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "0bb1-84bf-ebd6-4501",
+              "type": 4,
+              "field": "selections",
+              "scope": "94e2-9b39-4330-f8cc",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "0bb1-84bf-ebd6-4501",
+              "type": 4,
+              "field": "selections",
+              "scope": "94e2-9b39-4330-f8cc",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

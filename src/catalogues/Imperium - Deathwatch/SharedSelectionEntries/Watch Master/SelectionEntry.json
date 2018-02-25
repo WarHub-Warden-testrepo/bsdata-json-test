@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "identifier": "Watch Master",
+    "prevIdentifier": "Cyclone Missile Launcher and Storm Bolter"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "c620-f73f-07c7-2654",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "354c-5827-527c-6e87",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ecee-3fa1-c1bb-2a35",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4530-43e8-3210-c1b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "245a-4c83-01b6-c54a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3a52-e075-4ce1-c3ae",
+          "id": "ed0e-3946-0f9d-c8e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6741-3350-e26e-5095",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "58a4-d916-b347-edcd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7ba6-02cc-0d04-ba8f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "710d-3533-645d-b3d1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c111-9f29-79aa-4355",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "507f-e541-4c98-17ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "84ec-cda9-3d2e-12e0",
+          "id": "837a-e7d8-08a8-c4be",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "34fc-a2ff-3569-fd99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "97b6-c367-1263-6fcc",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "de00-11d5-2371-36ca",
+          "id": "0dfb-c76e-d7d5-6d41",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "a06a-d610-aa13-235d",
+          "id": "34cc-d73b-657f-2abb",
+          "name": "Relics"
+        }
+      ],
+      "id": "eeed-e27d-056d-1ce5",
+      "name": "Watch Master",
+      "infoLinks": [
+        {
+          "targetId": "83c5-c731-4688-c8eb",
+          "id": "abbe-837e-dcd4-9e70",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5ac1-a2c1-38e9-e638",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "33bb-adb9-3901-7e63",
+          "name": "Special Issue Ammunition"
+        }
+      ]
+    }
+  ]
+}

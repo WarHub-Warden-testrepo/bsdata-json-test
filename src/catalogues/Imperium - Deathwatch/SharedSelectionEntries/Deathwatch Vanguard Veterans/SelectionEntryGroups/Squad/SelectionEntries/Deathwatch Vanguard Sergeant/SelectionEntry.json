@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Vanguard Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1441-9c02-293e-be90",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "99b2-373f-f6b2-29f8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a5cc-fc21-3b80-e49a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8b5d-9448-dfee-7f78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4b55-6394-7e4d-4161",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "2490-f019-04f0-ec0f",
+      "name": "Deathwatch Vanguard Sergeant"
+    }
+  ]
+}

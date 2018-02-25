@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Secondary weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "8ca8-9a45-bd4c-ca65",
+      "constraints": [
+        {
+          "id": "3492-1f9c-b41a-b9db",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "fe92-5982-ab77-a866",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e3b8-6981-eef4-4faf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4bca-9a72-15f8-d798",
+          "id": "8ca8-9a45-bd4c-ca65",
+          "name": "Autocannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e1d2-34d6-7f8a-40f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6bff-6632-08e2-8afb",
+          "id": "97a2-4e0b-46af-f252",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "6699-fab4-7b2f-dd42",
+      "name": "Secondary weapons"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "identifier": "Wolf Scouts",
+    "prevIdentifier": "Boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "610b-96e3-2bd6-fb8c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9cb1-db10-f83d-2e6b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "6dea-375d-cf3e-58a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2ddb-745b-fce7-5a7b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef51-e32b-2c58-5571",
+          "id": "7794-4000-940a-b01e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3718-f4de-a999-5d50",
+          "id": "4812-938c-aa41-ddac",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "cbbb-66aa-b73a-6b9d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2830-bafd-cc50-1d0d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "e0df-0e01-4e07-fdec",
+          "id": "903c-9ae1-b390-79d1",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "2830-bafd-cc50-1d0d",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "2d7a-bfc2-6c36-661b",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "f05f-c816-5f62-678a",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "cfdb-b9ba-867a-c85c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6cbb-d550-669c-cedf",
+          "id": "a3f4-4862-348b-8578",
+          "name": "Wolf Guard Pack Leader",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "11"
+            },
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "id": "f05f-c816-5f62-678a",
+      "name": "Wolf Scouts",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "11c4-434c-3839-712d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "e226-36c5-c7e0-f7cc",
+          "id": "22f6-c894-3f48-6816",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "2d7a-bfc2-6c36-661b",
+              "type": 4,
+              "field": "selections",
+              "scope": "f05f-c816-5f62-678a",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Venomthrope"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0a0f-96f0-3b90-e64a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "b1c3-4058-5e10-e6da",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a2c8-c545-44c1-acfd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2ab9-ad54-50b6-d976",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "205b-4334-56fd-a9e4",
+          "id": "1978-f4e3-d27a-a566",
+          "name": "Toxic Lashes"
+        }
+      ],
+      "id": "0555-7c3a-8e8b-a95d",
+      "name": "Venomthrope"
+    }
+  ]
+}

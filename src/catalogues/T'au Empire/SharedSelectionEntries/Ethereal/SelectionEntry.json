@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "identifier": "Ethereal",
+    "prevIdentifier": "Cadre Fireblade"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 45.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "7ebf-5dba-7a13-8daf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "1138-0415-b217-f3e5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "d605-e92b-3722-2c5c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6529-e9e9-8838-9d9e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "e527-6d82-e3a5-d3dd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "addb-fab4-49cb-2cb5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "1246-ff67-4467-b3fa",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "0b62-f560-227b-02a9",
+          "id": "bed7-b985-4241-28a3",
+          "name": "Warlord Traits"
+        },
+        {
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "0ae0-81a7-9276-9634",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "9aa7-098e-c65f-5f18",
+          "id": "7227-121a-c327-0144",
+          "name": "Puretide Engram Neurochip"
+        }
+      ],
+      "id": "ca18-6d3e-222c-cf95",
+      "name": "Ethereal",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "c40c-4ee4-7184-d483",
+          "id": "e2fe-3444-c959-316d",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "cc06-c994-7dd8-17a7",
+          "id": "1244-8abe-c5fd-751d",
+          "name": "Invocation of the Elements"
+        },
+        {
+          "targetId": "c301-1174-2501-d7e4",
+          "id": "7092-9275-53cd-5aa7",
+          "name": "Ethereal"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "1246-ff67-4467-b3fa",
+              "type": 4,
+              "field": "selections",
+              "scope": "ca18-6d3e-222c-cf95",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

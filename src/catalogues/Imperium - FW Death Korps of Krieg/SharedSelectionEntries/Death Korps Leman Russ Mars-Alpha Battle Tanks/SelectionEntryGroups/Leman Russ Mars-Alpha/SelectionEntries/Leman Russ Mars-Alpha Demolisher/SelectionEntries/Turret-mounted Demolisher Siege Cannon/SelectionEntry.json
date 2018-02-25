@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Turret-mounted Demolisher Siege Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e51a-9afb-4fc9-4737",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "04a0-921a-df41-e003",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "7b57-614b-9fa7-1b5c",
+      "name": "Turret-mounted Demolisher Siege Cannon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d2d1-43d6-8c52-7a6a",
+          "id": "bb60-cdb6-4783-936e",
+          "name": "Demolisher Cannon"
+        }
+      ]
+    }
+  ]
+}

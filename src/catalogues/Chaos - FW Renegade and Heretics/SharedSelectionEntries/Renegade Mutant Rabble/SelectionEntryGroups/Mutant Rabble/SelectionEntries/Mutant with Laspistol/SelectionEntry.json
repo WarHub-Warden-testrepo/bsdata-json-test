@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Mutant with Laspistol",
+    "prevIdentifier": "Mutant with Autopistol"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b870-f8df-8f9f-2692",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b0e-5297-b0e0-6ff8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "42f6-15db-bad2-6769",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "6b2f-23b8-65af-68f8",
+      "name": "Mutant with Laspistol",
+      "infoLinks": [
+        {
+          "targetId": "f2b7-768f-a270-de64",
+          "id": "9775-bbc7-f1f4-9e50",
+          "name": "Laspistol"
+        }
+      ]
+    }
+  ]
+}

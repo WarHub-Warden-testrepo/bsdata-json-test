@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "XV25 Stealth Battlesuits",
+    "prevIdentifier": "XV88 Broadside Battlesuits"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "337c-cd1c-ef6d-6e14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "2d5d-3c9b-52d0-44d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "2cab-471c-072a-a429",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "0859-50ba-e282-b81e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d248-76b3-6e42-2811",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "d86a-c00b-7545-d086",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "c763-8d06-fdd2-71f6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7566-81d5-421b-908c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f639-357a-f38a-fb70",
+          "id": "ebca-389c-6fa3-1331",
+          "name": "Homing beacon"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0c43-1a5d-b238-28e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "afb0-b371-5523-84a6",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        }
+      ],
+      "id": "fdc4-beac-82bd-0e50",
+      "name": "XV25 Stealth Battlesuits",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "5445-e590-abeb-3f07",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "a77c-4ef6-ac7b-628a",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "74b3-2e30-9d76-a958",
+          "id": "83de-5165-c828-07b8",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "962f-5767-af1f-31d9",
+          "id": "c9e7-2fd4-c82d-0bee",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "36e7-7695-fbc8-28ac",
+              "type": 4,
+              "field": "selections",
+              "scope": "fdc4-beac-82bd-0e50",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "afb0-b371-5523-84a6",
+              "type": 4,
+              "field": "selections",
+              "scope": "fdc4-beac-82bd-0e50",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

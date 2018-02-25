@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol",
+    "prevIdentifier": "Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4f4a-4109-b5bf-df15",
+      "constraints": [
+        {
+          "id": "a4b6-a737-d5eb-351f",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "6810-0c49-3a89-9ede",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9617-7435-c3db-3cc0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "6715-ffeb-62d7-5324",
+          "name": "Storm shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4513-349f-873c-0411",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "c56d-af69-7454-5c5e",
+          "name": "Plasma pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "1a99-c36e-d9e1-6bde",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "71ab-968b-9795-79c1",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bb6e-7d73-4233-ac8b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c570-6b1e-425b-9f22",
+          "id": "4f4a-4109-b5bf-df15",
+          "name": "Bolt Pistol"
+        }
+      ],
+      "id": "afd4-758d-b529-5f4a",
+      "name": "Bolt Pistol",
+      "modifiers": [
+        {
+          "field": "a4b6-a737-d5eb-351f",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "f658-9d4e-0ed1-3364",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "6810-0c49-3a89-9ede",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "f658-9d4e-0ed1-3364",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

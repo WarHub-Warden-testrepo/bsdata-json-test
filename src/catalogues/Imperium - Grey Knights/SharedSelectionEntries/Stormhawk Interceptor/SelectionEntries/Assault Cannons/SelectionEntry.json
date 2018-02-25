@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Assault Cannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 22.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e846-87a3-ba91-1a96",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "a74b-eb01-7f84-353d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "5f31-b62c-741c-b805",
+      "name": "Assault Cannons",
+      "infoLinks": [
+        {
+          "targetId": "20dc-1fbb-dc65-7f04",
+          "id": "28dc-3f81-19ce-1659",
+          "name": "Assault cannon"
+        }
+      ]
+    }
+  ]
+}

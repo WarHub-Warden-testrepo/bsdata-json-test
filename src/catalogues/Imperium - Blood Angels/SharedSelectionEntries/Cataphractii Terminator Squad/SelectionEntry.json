@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "identifier": "Cataphractii Terminator Squad",
+    "prevIdentifier": "Lieutenants"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "a2ca-6ca3-198e-42b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "882b-8f5f-5ee2-5c2b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "51b2-df02-fd26-1363",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "2317-0e6f-fa94-c843",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a64f-8857-9310-e8dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5a2c-245e-562a-a000",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "59a6-903c-0826-3060",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2378-fd9b-5213-6a6c",
+          "id": "0b0d-14a8-ba0a-5e85",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2ddb-c542-6db7-d30f",
+          "id": "f03c-15f6-ebc9-139a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "eef8-6558-5bca-4db1",
+      "name": "Cataphractii Terminator Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1c00-25ff-4832-ca4d",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "513c-7a02-27a5-7f86",
+          "id": "2458-68d8-f192-5b98",
+          "name": "Cataphractii Armour"
+        },
+        {
+          "targetId": "4243-5016-c4d9-2b6b",
+          "id": "d76e-a190-79f0-cce7",
+          "name": "Teleport Strike"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "b539-c8a3-f3a4-2f8a",
+              "type": 1,
+              "field": "selections",
+              "scope": "eef8-6558-5bca-4db1",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

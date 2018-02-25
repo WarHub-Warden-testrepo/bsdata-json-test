@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Immortals",
+    "prevIdentifier": "Necron Warriors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "5eaf-b2da-7d70-ecf7",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "3b1d-67cd-3cee-293c",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3fd5-c8ca-a541-2143",
+          "id": "7202-e4d5-99e7-a2e9",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3cec-868b-a519-2a1f",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5514-20f7-bf94-d1a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 10.0,
+              "shared": true
+            },
+            {
+              "id": "c65f-8743-7af6-e809",
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1083-8dbb-68af-ebbd",
+          "id": "a5b5-82cc-ad02-a0d9",
+          "name": "Immortal",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "7b8e-775e-8a0f-4455",
+      "name": "Immortals",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "c247-cf82-b940-2e89",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7b8e-775e-8a0f-4455",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

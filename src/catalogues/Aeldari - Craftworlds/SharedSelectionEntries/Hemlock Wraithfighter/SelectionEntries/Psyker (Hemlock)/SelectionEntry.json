@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Psyker (Hemlock)",
+    "prevIdentifier": "Mindshock Pod"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "469c-373d-7c8f-18cc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "38ab-4588-8de1-87bc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "9b6a-c53b-5b9e-2251",
+      "name": "Psyker (Hemlock)"
+    }
+  ]
+}

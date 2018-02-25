@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Scout w/Boltgun",
+    "prevIdentifier": "Scout w/Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0d8c-3da3-da7c-141a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "df9d-7c04-b46b-9cbe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "14e3-0cb4-6fc7-8538",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0265-6d8b-f922-5dc9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "50ca-1ee5-21bf-37ec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b0c1-720c-1dce-d3a0",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "169c-eb6c-d963-be22",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a56-298f-b8a3-b72e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "3935-9f19-8f46-d4b1",
+          "name": "Boltgun"
+        }
+      ],
+      "id": "f9ab-577b-3142-0b6a",
+      "name": "Scout w/Boltgun"
+    }
+  ]
+}

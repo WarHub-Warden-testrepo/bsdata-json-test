@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Kharn's plasma pistol",
+    "prevIdentifier": "Gorechild"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8cf1-2390-c87d-20c6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7cb1-46ab-c2dc-9819",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "7c0a-4c43-da6c-d6c1",
+      "name": "Kharn's plasma pistol"
+    }
+  ]
+}

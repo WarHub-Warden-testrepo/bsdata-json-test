@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Death Korps Command Squad",
+    "prevIdentifier": "Death Korps Storm Chimera"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "d8bb-6a90-2b93-6bc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f6c1-e279-e667-f576",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bbff-46ee-cedd-3e07",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "37a6-9740-2e90-b7f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "caef-466d-e5ba-1fbf",
+          "id": "bc28-85ff-11d0-d850",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8e85-5335-f20a-2537",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6d17-0594-82ed-272a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "67b1-f711-2b8c-d68b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8ebb-8f15-1e5e-28b4",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "c75b-781c-6c0c-14de",
+      "name": "Death Korps Command Squad"
+    }
+  ]
+}

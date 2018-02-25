@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Initiate w/Special Weapon",
+    "prevIdentifier": "Sword Brother"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7163-d297-dc9a-7730",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6f44-fc4e-4d25-5a4a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "26d6-3bef-cfac-eaac",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "2e6c-7831-14a2-89dd",
+          "name": "Special Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f815-bba8-7fed-9afc",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2e55-9e3a-609a-6fee",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d0e3-5f90-bf3d-a47d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "31a4-196a-191a-7401",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7eac-f2d4-6cf3-3f98",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "3dfb-cede-3c7a-59d4",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "9c2c-5271-d283-eff1",
+      "name": "Initiate w/Special Weapon"
+    }
+  ]
+}

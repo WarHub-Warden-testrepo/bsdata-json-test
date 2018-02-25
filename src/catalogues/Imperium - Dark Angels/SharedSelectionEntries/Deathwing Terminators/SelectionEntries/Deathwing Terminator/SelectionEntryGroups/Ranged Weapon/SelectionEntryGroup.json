@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ad25-d6d3-89e8-c90a",
+      "constraints": [
+        {
+          "id": "be5c-a14c-5e57-5eec",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ad83-b09a-1792-0998",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "918f-b41e-1bf1-c742",
+              "type": 1,
+              "field": "selections",
+              "scope": "1f47-c287-f37d-7211",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "9c5c-0f86-01ee-5c7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "78cd-b926-8e71-9ef6",
+          "id": "888e-4082-3bad-cb5c",
+          "name": "Terminator Heavy Weapons",
+          "modifiers": [
+            {
+              "field": "918f-b41e-1bf1-c742",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "eb73-2c07-8cb4-9cf3",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "1f47-c287-f37d-7211",
+                  "value": 9.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "9c5c-0f86-01ee-5c7c",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "007d-4b05-808f-4899",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2be3-14a8-5c9d-09e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "ad25-d6d3-89e8-c90a",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "d7f5-d844-f6c3-906e",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "be5c-a14c-5e57-5eec",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "48dc-6273-37f8-8444",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "eb73-2c07-8cb4-9cf3",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "8d5f-fdf5-6bf4-33ef",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "eb73-2c07-8cb4-9cf3",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "ad83-b09a-1792-0998",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "48dc-6273-37f8-8444",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "eb73-2c07-8cb4-9cf3",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "8d5f-fdf5-6bf4-33ef",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "eb73-2c07-8cb4-9cf3",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

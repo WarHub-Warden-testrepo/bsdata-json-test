@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "identifier": "Killa Kans",
+    "prevIdentifier": "Skorcha"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "2b18-a859-9eb7-864a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "d513-c80b-bf3f-d35e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a02d-86c2-1520-6585",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "3f9c-378b-45b8-290f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "06fd-96ed-49f8-8b07",
+          "id": "a4e1-ad0a-53e3-44d7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "963f-1e91-85d2-f6d6",
+      "name": "Killa Kans",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "b612-eb91-61a2-8391",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a590-a0e8-a3ed-ffbb",
+          "id": "3ba8-3f93-8bbf-1ac2",
+          "name": "Explodes (6+/3\"/1)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "963f-1e91-85d2-f6d6",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "963f-1e91-85d2-f6d6",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

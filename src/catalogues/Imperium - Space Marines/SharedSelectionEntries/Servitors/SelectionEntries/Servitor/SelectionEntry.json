@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Servitor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 3.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e1df-5b9b-2d43-0f9a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "f80c-c168-fd44-d9f8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "id": "be8c-72cb-5c46-bda0",
+      "name": "Servitor"
+    }
+  ]
+}

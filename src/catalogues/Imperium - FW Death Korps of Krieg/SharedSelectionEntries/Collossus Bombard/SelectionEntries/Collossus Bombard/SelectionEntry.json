@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Collossus Bombard"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d232-f4f4-c51e-7c5d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a436-095e-e5d8-17bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "846f-095f-3967-92af",
+          "id": "a6fe-5676-05a4-b40d",
+          "name": "Chimera Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "8836-574d-0712-05c1",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "7b83-f60f-538b-cede",
+      "name": "Collossus Bombard",
+      "infoLinks": [
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "c141-5cf6-8a72-d2a6",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d448-740a-8bfe-8a28",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "bbd4-b03f-6a11-3790",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

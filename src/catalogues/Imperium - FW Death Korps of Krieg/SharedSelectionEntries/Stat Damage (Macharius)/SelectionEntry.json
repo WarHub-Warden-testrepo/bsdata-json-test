@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (Macharius)",
+    "prevIdentifier": "Arkurian Pattern Stormblade"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ca6f-df3c-7318-206c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a370-8115-1191-7044",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "bea6-8c17-aa26-9aaf",
+      "name": "Stat Damage (Macharius)"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapon Team",
+    "prevIdentifier": "Guardsman W/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "105b-293e-befb-2623",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "8207-6ff5-efcb-cd2b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "29c3-5475-96d1-6a44",
+          "id": "a1c5-1770-ff53-2af3",
+          "name": "Astra Militarum Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d50c-1903-f58e-cd39",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8b79-bdd4-0d27-2361",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "9899-68a8-bf91-9f6d",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "13c6-2598-83e6-61e9",
+      "name": "Heavy Weapon Team",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "83ce-60e7-ff5a-633c",
+          "id": "2632-1ba0-6cff-6301",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

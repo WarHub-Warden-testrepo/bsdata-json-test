@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Fallen w/Lightning Claws",
+    "prevIdentifier": "Fallen w/Special or Combi Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0117-9657-07c9-cd26",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8d24-3a2f-43ed-2438",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "9756-1926-bd1e-4d18",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7738-d3fe-7245-087f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f9ee-3729-b2d6-ee05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "8dd4-2ed2-29ff-68a3",
+          "name": "Lightning Claw (Pair)"
+        }
+      ],
+      "id": "589a-fa74-be77-cacb",
+      "name": "Fallen w/Lightning Claws"
+    }
+  ]
+}

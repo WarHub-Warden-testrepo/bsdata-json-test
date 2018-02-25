@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Exalted Alluress",
+    "prevIdentifier": "Bladed axle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7675-5f5e-aa39-0f5b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "51a8-1e51-a556-dae3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "85d1-3e92-01aa-bcb3",
+          "name": "Piercing claws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c3cd-bce2-4e0e-21af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f7bd-cee4-2e47-6560",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "baf6-8447-86fb-e556",
+          "id": "96c4-4253-73a9-bbd0",
+          "name": "Lashes of Torment"
+        }
+      ],
+      "id": "dd1a-a0c0-8fbd-790d",
+      "name": "Exalted Alluress"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Scion w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7829-1a0f-993b-82f5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3187-5d8f-d056-5b64",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "58d7-3a7f-3bb9-fc7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8163-7207-00f2-17b7",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "4bf0-b65e-c099-04ee",
+      "name": "Scion w/ Special Weapon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "f0ea-a059-f665-9e3f"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "7829-1a0f-993b-82f5",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "42c3-450f-7ff7-311e",
+              "value": 8.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

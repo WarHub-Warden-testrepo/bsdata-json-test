@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Pair of Klaw Arms"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "456c-32db-3337-a5be",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b7c7-e3aa-7c74-65fc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "01cc-1eba-f067-a1a5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "b7f7-9d15-0147-a699",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "99f3-bf12-63e0-0b7c",
+              "id": "e0c8-239e-f25c-bf13",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "4a86-c7ac-85e6-1182",
+          "id": "006d-eec4-0b8b-13d9",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "0e93-423b-5b69-e7a1",
+      "name": "Pair of Klaw Arms"
+    }
+  ]
+}

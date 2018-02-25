@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Fenrisian Wolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c5ac-a4a7-29b4-eb6e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d845-1b2b-24ee-4141",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "04b5-0989-1321-6d4c",
+          "id": "9e7c-3518-b247-6490",
+          "name": "Teeth and claws"
+        }
+      ],
+      "id": "b949-5749-a749-8b67",
+      "name": "Fenrisian Wolf",
+      "infoLinks": [
+        {
+          "targetId": "6f3b-e2b4-0e6b-0410",
+          "id": "351f-c473-9c36-669a",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

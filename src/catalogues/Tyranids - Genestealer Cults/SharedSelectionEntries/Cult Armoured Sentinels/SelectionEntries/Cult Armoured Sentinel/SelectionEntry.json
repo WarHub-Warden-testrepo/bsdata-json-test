@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Cult Armoured Sentinel"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7715-64e7-aecc-ed8e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "baec-adbc-76f3-a8c7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1c82-9afe-0803-19fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "799b-3424-af4c-0958",
+          "id": "5d61-4687-eac3-85c5",
+          "name": "Hunter-killer Missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "db96-fae3-ac8b-f1c6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cb83-af6c-95f4-b13c",
+          "id": "8ef8-4296-44db-eee4",
+          "name": "Sentinel Chainsaw"
+        }
+      ],
+      "id": "35c2-b776-a22a-9178",
+      "name": "Cult Armoured Sentinel"
+    }
+  ]
+}

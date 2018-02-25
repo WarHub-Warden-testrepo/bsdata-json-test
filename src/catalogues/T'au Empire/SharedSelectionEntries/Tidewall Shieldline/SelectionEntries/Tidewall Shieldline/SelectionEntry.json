@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Tidewall Shieldline"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f789-1c4c-9db0-e0d4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8abf-1d0c-d178-5307",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "d327-3544-3426-1b85",
+      "name": "Tidewall Shieldline",
+      "infoLinks": [
+        {
+          "targetId": "9109-0792-c77b-1429",
+          "id": "564a-2a79-c49f-d9c3",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "b145-5884-ed72-11ec",
+          "id": "a392-caf3-accc-b665",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

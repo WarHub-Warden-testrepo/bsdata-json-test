@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Seraphim"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "764f-325a-156f-a7dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "346c-ff4a-0df4-a4e4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "7c20-43cb-2723-a8a8",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "4e85-3897-d2bc-360d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c36e-3d38-78b0-7ca7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "c0cb-f34e-342d-27e8",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "e470-36a0-463e-f054",
+      "name": "Seraphim",
+      "infoLinks": [
+        {
+          "targetId": "4aaa-e064-7638-e719",
+          "id": "4ab2-2bde-fef7-992e",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

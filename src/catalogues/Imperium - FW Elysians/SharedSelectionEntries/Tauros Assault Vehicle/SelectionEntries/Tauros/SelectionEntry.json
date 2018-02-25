@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Tauros"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 37.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "50ba-65cb-f5ad-3b9a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "2e1d-ab12-08a7-9ab7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ab26-5668-2b0f-ea4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "0841-8b2a-0307-2f79",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "c0a8-031d-7a3a-a75b",
+      "name": "Tauros",
+      "infoLinks": [
+        {
+          "targetId": "b2ac-24d0-fec8-1d3c",
+          "id": "71d6-fc84-7a74-139b",
+          "name": "Aerial Drop"
+        }
+      ]
+    }
+  ]
+}

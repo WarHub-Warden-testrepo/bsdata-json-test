@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Atlas Recovery Tank",
+    "prevIdentifier": "Shadowsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f02b-9e9b-03e0-a293",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "85cc-5313-3f70-c2c5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "7f50-781f-7e62-1692",
+          "name": "Heavy bolter"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "c7bb-e057-c268-272b",
+          "name": "Pintle Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "99b4-c6a7-c5ae-d349",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ef48-6d12-8b4c-f8ed",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "ca48-cf82-0602-e313",
+      "name": "Atlas Recovery Tank",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "ad07-0852-6e00-07fa",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "977c-c000-5c58-5f56",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

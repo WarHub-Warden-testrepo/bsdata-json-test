@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Claws of the Black Hunt",
+    "prevIdentifier": "Blade of the Hydra"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "7d85-72b7-2fa0-6ea3",
+      "name": "Claws of the Black Hunt",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "72f0-6262-b417-dd10",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

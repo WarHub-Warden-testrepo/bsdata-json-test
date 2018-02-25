@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "0bc2-f195-d9e3-7cf6",
+      "constraints": [
+        {
+          "id": "9977-f7e9-2fdc-b2ae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "528d-f842-ae23-1d54",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "001e-d0e9-b805-6182",
+          "id": "0bc2-f195-d9e3-7cf6",
+          "name": "Autopistol"
+        },
+        {
+          "targetId": "18d6-e1b1-ab81-23cb",
+          "id": "d7ca-7460-5ca4-0716",
+          "name": "Hand Flamer"
+        }
+      ],
+      "id": "ed6d-809b-2ba1-2448",
+      "name": "Pistol",
+      "modifiers": [
+        {
+          "field": "9977-f7e9-2fdc-b2ae",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "db60-82db-0235-8f80",
+              "type": 4,
+              "field": "selections",
+              "scope": "59ac-aef4-2437-6cf0",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "528d-f842-ae23-1d54",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "db60-82db-0235-8f80",
+              "type": 4,
+              "field": "selections",
+              "scope": "59ac-aef4-2437-6cf0",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

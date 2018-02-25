@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Tyranid Warriors",
+    "prevIdentifier": "Tyranid Shrikes"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "698f-ef38-7fae-1fc2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "1fb7-09c8-6b21-a656",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "71b0-3072-ffa0-c6d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7b29-b270-99fe-4de7",
+          "id": "c0c1-b46a-a7c9-1000",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "8ffc-a0f3-766e-8ae4",
+      "name": "Tyranid Warriors",
+      "infoLinks": [
+        {
+          "targetId": "1f08-bd8f-43a3-ce1b",
+          "id": "11f3-5276-6020-0573",
+          "name": "Synapse"
+        },
+        {
+          "targetId": "f587-afe6-7bbe-4eac",
+          "id": "6c9d-d6e4-7df6-0339",
+          "name": "Shadow in the Warp"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "8ffc-a0f3-766e-8ae4",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "8ffc-a0f3-766e-8ae4",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

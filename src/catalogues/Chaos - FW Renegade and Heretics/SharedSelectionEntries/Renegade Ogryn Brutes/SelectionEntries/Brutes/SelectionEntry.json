@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Brutes"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cd32-dbc3-13b6-6216",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "1767-79e8-ee96-40a2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 12.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bfa3-85f8-4199-4e69",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b775-412f-ed7c-637a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "9042-214a-821f-9b60",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "dd55-9732-bc4f-e4b6",
+      "name": "Brutes",
+      "modifiers": [
+        {
+          "field": "cd32-dbc3-13b6-6216",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "9e75-eee5-ccd8-e9c5",
+              "type": 2,
+              "field": "selections",
+              "scope": "21dc-2976-757a-6155",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "1767-79e8-ee96-40a2",
+          "value": "11",
+          "conditions": [
+            {
+              "childId": "9e75-eee5-ccd8-e9c5",
+              "type": 2,
+              "field": "selections",
+              "scope": "21dc-2976-757a-6155",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

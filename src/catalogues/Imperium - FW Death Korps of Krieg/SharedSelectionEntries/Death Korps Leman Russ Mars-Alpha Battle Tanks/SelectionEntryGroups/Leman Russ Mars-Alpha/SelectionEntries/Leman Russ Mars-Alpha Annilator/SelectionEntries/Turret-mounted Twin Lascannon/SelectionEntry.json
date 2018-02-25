@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Turret-mounted Twin Lascannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ef50-ecb1-f012-bb3c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "681b-ea06-84e6-5972",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "dc7c-4ed5-7f5e-7b5f",
+      "name": "Turret-mounted Twin Lascannon",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "1662-54b9-46da-fefc",
+          "id": "9700-bec1-0e48-383b",
+          "name": "Twin lascannon"
+        }
+      ]
+    }
+  ]
+}

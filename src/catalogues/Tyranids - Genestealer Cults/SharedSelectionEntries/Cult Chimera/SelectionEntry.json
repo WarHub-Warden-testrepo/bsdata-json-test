@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Cult Chimera",
+    "prevIdentifier": "Cult Armoured Sentinels"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "f6b4-d72c-3438-7a64",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bf74-61c4-1502-ad4d",
+          "id": "f290-efeb-645c-2394",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "38f3-00d8-7da7-2177",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "32e9-fb3e-c344-29a1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "600f-4e1e-9573-79b1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4a06-15c2-4a93-0553",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "1266-47b5-051f-7f58",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e30a-d924-948a-4e34",
+          "id": "9d11-2aa2-6ba9-2872",
+          "name": "Lasgun Array"
+        },
+        {
+          "constraints": [
+            {
+              "id": "67db-1fe4-8811-de16",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "799b-3424-af4c-0958",
+          "id": "bc67-4023-ffa9-2f33",
+          "name": "Hunter-killer Missile"
+        }
+      ],
+      "id": "9829-488e-364f-3dad",
+      "name": "Cult Chimera",
+      "infoLinks": [
+        {
+          "targetId": "7f8e-7d4a-13a0-e8ab",
+          "id": "ed5a-d852-f188-4782",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "eb65-363e-41a8-5cf5",
+          "id": "0ad1-25c0-6d1b-d151",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

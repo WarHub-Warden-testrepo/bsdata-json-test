@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Terminator",
+    "prevIdentifier": "Deathwatch Biker w/ Teleport Homer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 32.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5ef7-eed4-38a9-200d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "fcab-36da-d4d3-c790",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "86ae-c55d-24aa-d61e",
+          "id": "e0db-5ff6-e47e-e3ee",
+          "name": "Deathwatch Terminator Weapons"
+        }
+      ],
+      "id": "0fcf-b644-570d-388c",
+      "name": "Deathwatch Terminator"
+    }
+  ]
+}

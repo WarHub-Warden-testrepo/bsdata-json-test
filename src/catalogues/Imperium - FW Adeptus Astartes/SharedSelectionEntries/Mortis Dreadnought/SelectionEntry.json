@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Mortis Dreadnought",
+    "prevIdentifier": "Quad launcher"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 75.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6bf6-c6a8-35c8-cd45",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "aaee-afdf-57d6-5603",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "a81d-0908-7adb-8e90",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f770-0776-f207-8ac4",
+          "id": "4c25-9f04-4b5c-4874",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "89e1-9cd4-29fd-19ce",
+          "id": "0298-9d67-d829-3f4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "a387-0313-4235-0379",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "6cd6-ab03-dd04-255f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5db4-2619-9971-ecc7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0c83-f5bb-fdb1-1cfd",
+          "id": "3882-51b5-9188-7d5a",
+          "name": "Cyclone missile launcher"
+        }
+      ],
+      "id": "8f67-d315-b9ff-f564",
+      "name": "Mortis Dreadnought",
+      "book": "Imperial Armour Index: Forces of the Adeptus Astartes",
+      "page": "24",
+      "infoLinks": [
+        {
+          "targetId": "2cb3-969b-c093-8d80",
+          "id": "9ce8-89e5-d428-01be",
+          "name": "Mortis Dreadnought"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "c816-72f2-e2c5-7e01",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

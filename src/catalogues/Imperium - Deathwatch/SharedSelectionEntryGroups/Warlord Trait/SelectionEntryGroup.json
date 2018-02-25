@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait",
+    "prevIdentifier": "Sgt List"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f0f7-7eda-42ab-c650",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c65a-6abe-ca09-9403",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "2d69-97f6-d069-5992",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "eef7-458c-1395-dd14",
+          "name": "Warlord Traits (CA)"
+        },
+        {
+          "targetId": "ec5e-133b-3e38-eeeb",
+          "id": "4143-0c91-26b2-670c",
+          "name": "Bane of Monstrosities"
+        }
+      ],
+      "id": "de00-11d5-2371-36ca",
+      "name": "Warlord Trait",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

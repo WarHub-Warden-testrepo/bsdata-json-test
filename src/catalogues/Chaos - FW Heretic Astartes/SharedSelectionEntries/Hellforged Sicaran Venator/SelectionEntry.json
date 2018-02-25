@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Hellforged Sicaran Venator",
+    "prevIdentifier": "Twin accelerator autocannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 14.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 175.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "08fd-c0d6-1871-d5ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "0bbb-33ef-b844-de45",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "6109-65f0-99a5-99b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "9822-c09e-2446-93f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "7b4b-049f-ad2f-86b8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "c456-4dcf-c558-8052",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "2f6c-cd7a-60c2-a5e6",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a7b0-622f-c7a2-341c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "af41-1b9b-f570-132d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "c040-43db-512e-6620",
+          "id": "f75c-1105-6841-97f6",
+          "name": "Infernal hunger"
+        },
+        {
+          "constraints": [
+            {
+              "id": "094a-aea2-02ec-0828",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1b49-5997-a8a3-c61d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6604-417b-f7c7-6084",
+          "id": "bfba-267b-cd70-d4e5",
+          "name": "Malignatas beam laser"
+        },
+        {
+          "constraints": [
+            {
+              "id": "46c5-261a-06b5-c273",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7bec-6e97-19b0-486a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "59ff-695b-bafe-0885",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "31a0-13f1-0374-f511",
+      "name": "Hellforged Sicaran Venator",
+      "book": "",
+      "page": "18",
+      "infoLinks": [
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "a797-2223-5399-b97f",
+          "name": "Machina Malifica"
+        },
+        {
+          "targetId": "9adf-09bc-1635-b650",
+          "id": "3035-4d21-173a-174b",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

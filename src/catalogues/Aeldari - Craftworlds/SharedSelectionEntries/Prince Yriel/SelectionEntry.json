@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "identifier": "Prince Yriel",
+    "prevIdentifier": "Shuriken Pistol - 1"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e79d-992f-e54b-fd7d",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "088c-ab1a-6c9d-9484",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "aea0-447f-a4bd-50b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "60f4-4be8-a114-6f04",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "fd09-fe7f-048a-3a31",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "bc6f-db84-8cf6-861b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "4680-7cd3-dd21-b3c6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6728-e358-e2d7-104e",
+          "id": "8fde-bbc6-16b9-dcb3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1182-3de6-0210-b48b",
+          "id": "e36d-73dc-2c84-0467",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6fce-8769-824e-a82f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c25e-f100-ff22-1290",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b7fa-f88c-305c-534f",
+          "id": "49fe-8946-1742-8cd8",
+          "name": "Plasma Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "809f-59d8-244e-0f37",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2826-116b-efa7-bd79",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "7aca-f4ad-89da-026d",
+          "id": "4d86-9d41-3735-e8df",
+          "name": "Iyanden: Enduring Resolve",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "4347-d77a-eb0d-491d",
+      "name": "Prince Yriel",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "0676-09fb-070f-459c",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "9f9f-7c07-4167-19ae",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Vanguard Veterans",
+    "prevIdentifier": "Deathwatch Terminators"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "4e6d-ec55-f58b-3cef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "8a93-2460-40f7-d76e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "1570-938e-723f-d74a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "52de-9eda-d4a9-635a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "7619-536f-991e-d74d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "15fb-6767-f37d-5e57",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3266-4496-a016-a4c0",
+          "id": "0dab-0fc6-e649-345f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "3e1e-8565-25a4-50bc",
+      "name": "Deathwatch Vanguard Veterans",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d897-d0ba-1eed-aacf",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "9aeb-bef4-9fb3-ae76",
+          "name": "Special Issue Ammunition"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "3e1e-8565-25a4-50bc",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

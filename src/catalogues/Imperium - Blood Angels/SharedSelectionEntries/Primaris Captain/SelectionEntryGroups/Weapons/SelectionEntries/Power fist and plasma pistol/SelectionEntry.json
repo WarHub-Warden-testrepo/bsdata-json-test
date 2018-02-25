@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Power fist and plasma pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "de1a-a3f7-2ea1-2d75",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "85ce-1aff-fa76-5036",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "91b2-151b-2164-731f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "3470-0169-c825-96ed",
+          "name": "Power fist",
+          "book": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "3984-34cd-bc94-8a09",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dd26-2ba6-64f8-2721",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "4e3f-f9ec-e401-e439",
+          "name": "Plasma pistol",
+          "book": ""
+        }
+      ],
+      "id": "adcf-cbb0-05c9-4b87",
+      "name": "Power fist and plasma pistol"
+    }
+  ]
+}

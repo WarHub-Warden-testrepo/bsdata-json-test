@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Watch Captain",
+    "prevIdentifier": "Jump Pack"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1fee-53fd-6c35-b923",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2259-0523-78af-3f64",
+          "id": "4846-6862-e651-025d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9329-051c-3203-60b3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6f05-17a9-5266-120c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ad38-6f5e-ab3d-f7b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "c794-3bbb-0c6e-6c80",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "eb69-357a-178f-70a7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "eec6-c0ab-ffc4-094a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "db23-31d5-c67c-2eb7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8f04-4573-7825-4223",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "targetId": "1ae2-d5a1-2e83-f6db",
+          "id": "98b9-9696-08ea-550b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "19"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a009-00cc-8eb7-2a4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "7bed-4429-6e0d-4fea",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "de00-11d5-2371-36ca",
+          "id": "f6be-403f-5b72-c438",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "a06a-d610-aa13-235d",
+          "id": "9fd9-a891-b561-e8b4",
+          "name": "Relics"
+        }
+      ],
+      "id": "994b-ca79-7d97-f69b",
+      "name": "Watch Captain",
+      "infoLinks": [
+        {
+          "targetId": "83c5-c731-4688-c8eb",
+          "id": "5205-bb18-cd29-64bb",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5043-8c45-ff63-01bb",
+          "id": "1a7a-e968-2df4-1960",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "a770-f431-b622-b02b",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "3deb-c34d-9154-4402",
+          "name": "Special Issue Ammunition"
+        }
+      ]
+    }
+  ]
+}

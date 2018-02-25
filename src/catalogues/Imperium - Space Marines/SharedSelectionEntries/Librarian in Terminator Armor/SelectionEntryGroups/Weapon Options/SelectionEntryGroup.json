@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "76cc-f24f-0a25-384e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1344-69cb-7cbc-4044",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b7a7-d0a8-338e-51eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "5308-56e5-c2f5-f458",
+          "name": "Storm shield"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "d53b-80c8-ca72-8523",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ],
+          "targetId": "99c2-5d36-15a6-7629",
+          "id": "9da8-bd1d-7ae1-c57b",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "a21e-c23f-14b7-e4c7",
+      "name": "Weapon Options"
+    }
+  ]
+}

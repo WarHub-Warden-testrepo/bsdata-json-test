@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Armament 2",
+    "prevIdentifier": "Armament 1"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "edd0-cc4b-5992-bef1",
+      "constraints": [
+        {
+          "id": "c781-39aa-446f-4e95",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "fcf0-916e-d831-95ef",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5e70-7f59-267a-5299",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "edd0-cc4b-5992-bef1",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3e14-d65c-f816-9724",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "10d6-6ea9-7ff3-13fd",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b6c7-7073-accf-22bb",
+      "name": "Armament 2"
+    }
+  ]
+}

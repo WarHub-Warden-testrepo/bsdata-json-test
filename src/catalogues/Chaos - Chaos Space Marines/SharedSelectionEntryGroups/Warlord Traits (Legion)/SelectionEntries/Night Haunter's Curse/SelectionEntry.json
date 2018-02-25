@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Night Haunter's Curse",
+    "prevIdentifier": "Cold and Bitter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "59b5-c06f-1429-6775",
+      "name": "Night Haunter's Curse",
+      "infoLinks": [
+        {
+          "targetId": "9ab1-9f22-de96-6646",
+          "id": "2bad-ce16-c3a7-78a8",
+          "name": "Night Haunter's Curse"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "01f7-d7f1-be88-b861",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

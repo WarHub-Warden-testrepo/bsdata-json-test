@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Renegade Cultist w/ special weapon",
+    "prevIdentifier": "Renegade Cultist w/ Autogun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0eca-2b90-54ab-72a2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "fae7-6b94-56ee-fefc",
+      "name": "Renegade Cultist w/ special weapon",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "0eca-2b90-54ab-72a2",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "f774-b101-2d53-46e1",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

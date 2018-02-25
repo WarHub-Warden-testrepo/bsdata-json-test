@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Alpha Warrior - 1",
+    "prevIdentifier": "Tyranid Prime - 0"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+      "profileTypeName": "Abilities",
+      "characteristics": [
+        {
+          "name": "Description",
+          "characteristicTypeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+          "value": "You can add 1 to hit rolls for all <HIVE FLEET> Tyranid Warrior units and <HIVE FLEET> Tyranid Shrike units that are within 6\" of any friendly <HIVE FLEET> Tyranid Primes."
+        }
+      ],
+      "id": "b2a5-0941-f393-84c1",
+      "name": "Alpha Warrior",
+      "book": "Index: Xenos 2",
+      "page": "89",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "0435-abe8-4398-eff8",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

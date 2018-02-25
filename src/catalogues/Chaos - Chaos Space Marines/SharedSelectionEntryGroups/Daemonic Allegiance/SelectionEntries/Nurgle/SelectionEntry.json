@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Nurgle",
+    "prevIdentifier": "Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "3a2c-22b3-4c6b-4990",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "7e20-0889-d4a8-c447",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "eee3-c6de-6609-c40a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "0fb6-fcaf-b180-5dda",
+              "id": "2fa7-3de2-1789-95df",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "09f5-5930-7402-2af5",
+          "name": "Dark Hereticus discipline"
+        }
+      ],
+      "id": "e2a3-e989-206b-2bc6",
+      "name": "Nurgle"
+    }
+  ]
+}

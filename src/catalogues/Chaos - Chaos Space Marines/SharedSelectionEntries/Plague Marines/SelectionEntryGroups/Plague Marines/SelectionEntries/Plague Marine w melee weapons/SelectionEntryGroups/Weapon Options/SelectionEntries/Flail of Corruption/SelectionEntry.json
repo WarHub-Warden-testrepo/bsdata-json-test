@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Flail of Corruption",
+    "prevIdentifier": "Great plague cleaver"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dc72-7dec-47c9-1839",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2227-0c29-9ee4-54ab",
+          "type": 1,
+          "field": "selections",
+          "scope": "bfbb-5f37-6875-a0ef",
+          "value": 2.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "066a-add4-8bad-29cb",
+      "name": "Flail of Corruption",
+      "infoLinks": [
+        {
+          "targetId": "b62d-7cc2-1b2a-ca61",
+          "id": "daea-cd37-0b8c-c60e",
+          "name": "Plague knife"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "2227-0c29-9ee4-54ab",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "745a-4410-f84e-7e7e",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

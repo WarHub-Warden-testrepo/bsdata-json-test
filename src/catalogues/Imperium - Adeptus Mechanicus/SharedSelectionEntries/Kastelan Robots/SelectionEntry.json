@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Kastelan Robots",
+    "prevIdentifier": "Heavy Phosphor blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "b16c-1732-cc42-8c36",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "1715-67bf-dd03-f2ab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "e144-25c2-158f-c5b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "f21c-7dce-ee48-25fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6bb8-fe7f-7918-bf8f",
+          "id": "d8f6-5c35-ff6f-f30e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1922-eaab-6f88-d609",
+      "name": "Kastelan Robots",
+      "infoLinks": [
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "f08d-2b52-edaa-7604",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "00d1-0722-554a-b4c9",
+          "id": "ed41-48d6-df8c-10e1",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "24",
+          "conditions": [
+            {
+              "childId": "6120-bfbe-804b-ad11",
+              "type": 1,
+              "field": "selections",
+              "scope": "1922-eaab-6f88-d609",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "36",
+          "conditions": [
+            {
+              "childId": "6120-bfbe-804b-ad11",
+              "type": 1,
+              "field": "selections",
+              "scope": "1922-eaab-6f88-d609",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait",
+    "prevIdentifier": "Remnants of Glory"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "f608-f597-ba3e-5ede",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "12f5-9faf-3866-8503",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a177-30f3-4d6f-7dab",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "d467-20f9-c557-a29b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "1182-3de6-0210-b48b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "37a3-fa39-1ed7-c3c8",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "33e1-a0c6-3373-f591",
+          "name": "Warlord Traits (CA)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditions": [
+                    {
+                      "childId": "d467-20f9-c557-a29b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "1182-3de6-0210-b48b",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    },
+                    {
+                      "childId": "37a3-fa39-1ed7-c3c8",
+                      "type": 6,
+                      "field": "selections",
+                      "scope": "ancestor",
+                      "shared": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "530b-edf3-ed89-72ae",
+          "id": "2c6d-52bb-5428-d00d",
+          "name": "1: Ambush of Blades"
+        },
+        {
+          "targetId": "b1b3-0f81-ac1a-50c9",
+          "id": "b106-83eb-a651-3f6a",
+          "name": "2: An Eye on Distant Events"
+        },
+        {
+          "targetId": "76f9-d051-4699-2955",
+          "id": "7854-d2cc-eb58-cc8a",
+          "name": "3: Falcon's Swiftness"
+        },
+        {
+          "targetId": "59cf-1c4f-1f2d-bdb0",
+          "id": "cd40-6b2d-c4c2-df9b",
+          "name": "4: Fate's Messenger"
+        },
+        {
+          "targetId": "1075-8b08-7e9e-41e8",
+          "id": "ac7e-bbc6-ead3-2603",
+          "name": "5: Mark of the Incomparable Hunter"
+        },
+        {
+          "targetId": "d14b-9679-0c1a-c6e0",
+          "id": "c3d2-1821-bac7-fe7f",
+          "name": "6: Seer of the Shifting Vector"
+        },
+        {
+          "targetId": "db62-926d-ac62-70c6",
+          "id": "9ec7-785d-9c6b-a4ab",
+          "name": "Alaitoc: Puritanical Leader"
+        },
+        {
+          "targetId": "d0e7-75e8-dfc6-7ab8",
+          "id": "2b07-ceee-787b-6259",
+          "name": "Biel-Tan: Natural Leader"
+        },
+        {
+          "targetId": "7aca-f4ad-89da-026d",
+          "id": "7b71-d220-b7e6-fe35",
+          "name": "Iyanden: Enduring Resolve"
+        },
+        {
+          "targetId": "a94b-a664-ea20-fe31",
+          "id": "bc52-4e8b-eb35-4203",
+          "name": "Saim-Hann: Wild Rider Chieftain"
+        },
+        {
+          "targetId": "c6b7-515c-db41-e4fb",
+          "id": "b613-f907-dc63-f8d6",
+          "name": "Ulthwe: Fate Reader"
+        }
+      ],
+      "id": "fe55-4fff-9b2e-85b9",
+      "name": "Warlord Trait",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

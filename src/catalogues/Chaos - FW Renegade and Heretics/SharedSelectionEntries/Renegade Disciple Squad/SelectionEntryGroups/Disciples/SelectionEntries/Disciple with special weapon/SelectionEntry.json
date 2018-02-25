@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Disciple with special weapon",
+    "prevIdentifier": "Disciple Heavy Weapon Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac8d-843b-e1f5-01c2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8369-f0cd-5ba7-46c4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5872-ae59-9e04-4b52",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "2c2c-64a3-f5ce-f94e",
+          "name": "Frag grenade"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ddec-1e30-83c6-625d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e47b-32d4-6a33-098e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c90d-f7ed-0405-0281",
+          "id": "f1d2-d981-c2fa-b952",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "73f3-deda-9911-d645",
+      "name": "Disciple with special weapon"
+    }
+  ]
+}

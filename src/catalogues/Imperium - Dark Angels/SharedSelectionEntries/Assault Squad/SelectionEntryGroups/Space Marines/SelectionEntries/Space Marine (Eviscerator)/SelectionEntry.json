@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Eviscerator)",
+    "prevIdentifier": "Space Marine (Bolt Pistol)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5c41-3a99-2df3-f4c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0f71-7f89-339b-874a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f9ba-ecf3-2726-d100",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "627c-770b-1a7f-5aca",
+          "id": "c787-07fe-a82d-a30c",
+          "name": "Eviscerator"
+        },
+        {
+          "constraints": [
+            {
+              "id": "487b-f8cd-1a9f-c91d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2355-2f75-788c-a0a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8d5d-433a-7a08-9a5f",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "e939-da97-a421-930a",
+      "name": "Space Marine (Eviscerator)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "5c41-3a99-2df3-f4c8",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "dc39-0cd6-c078-1242",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "5c41-3a99-2df3-f4c8",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "f020-6907-6820-583a",
+              "type": 2,
+              "field": "selections",
+              "scope": "dc39-0cd6-c078-1242",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

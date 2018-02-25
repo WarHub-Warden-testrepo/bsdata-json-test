@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ff22-7b3f-c6bf-0afd",
+      "constraints": [
+        {
+          "id": "fc5a-6386-0e6a-37dc",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b232-335a-60b3-4eba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "5040-98cd-3b1c-47a2",
+          "id": "1546-a16b-c3da-8936",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b7d5-52c6-1e0d-66cc",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "b232-335a-60b3-4eba",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "ff22-7b3f-c6bf-0afd",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

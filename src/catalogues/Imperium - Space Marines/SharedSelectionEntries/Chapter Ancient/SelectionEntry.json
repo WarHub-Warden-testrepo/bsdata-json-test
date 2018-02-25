@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "identifier": "Chapter Ancient",
+    "prevIdentifier": "Honour Guard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 72.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "266d-666c-e277-8cde",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c2ca-51c8-111c-1f4f",
+          "id": "d0ab-0533-a353-21bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "fa98-b434-d24d-96ae",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "8ca6-156a-d4ec-120d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8989-344e-ab58-6890",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2d28-8fed-1b2d-1999",
+          "id": "4ea5-da57-3870-776f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a5d5-fd6d-9899-625b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1018-0c6b-41b8-c545",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "fd3f-8778-f97a-a82d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f829-be41-ba9a-3e85",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7dd2-8569-4266-615c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "5336-cc23-1ec3-425c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5115-f430-35c4-4a67",
+          "id": "16da-8764-83c3-a682",
+          "name": "Standard of the Emperor Ascendant",
+          "modifiers": [
+            {
+              "field": "3f3e-7a76-d708-ccaf",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "6a7e-9989-15cc-b294",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "b8d0-1b8a-0807-99ab",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "6a7e-9989-15cc-b294",
+          "name": "Relics"
+        }
+      ],
+      "id": "b8d0-1b8a-0807-99ab",
+      "name": "Chapter Ancient",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "aa65-39a5-d6ce-ed43",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6586-5d43-b320-83cf",
+          "id": "f051-219d-48d0-d06d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

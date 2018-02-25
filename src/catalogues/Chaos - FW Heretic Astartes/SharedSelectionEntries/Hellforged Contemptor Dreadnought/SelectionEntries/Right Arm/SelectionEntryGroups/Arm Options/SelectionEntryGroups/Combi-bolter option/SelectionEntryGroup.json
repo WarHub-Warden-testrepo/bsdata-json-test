@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Combi-bolter option",
+    "prevIdentifier": "Claw option"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e0ab-239a-b2e2-8967",
+      "constraints": [
+        {
+          "id": "15bb-85eb-cd8a-edb0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "7f96-ef04-baf4-f4db",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5163-9d60-9e63-6fce",
+          "id": "a6e0-f97a-ee41-c8c2",
+          "name": "Ectoplasma blaster"
+        },
+        {
+          "targetId": "efcd-254f-5dec-61cb",
+          "id": "bfc3-ac1a-a04f-eeba",
+          "name": "Soulburner"
+        },
+        {
+          "targetId": "2a58-6abe-0fb2-8aa0",
+          "id": "fc51-eefd-ec77-ba7e",
+          "name": "Hellflamer"
+        },
+        {
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "e0ab-239a-b2e2-8967",
+          "name": "Combi-bolter"
+        }
+      ],
+      "id": "6064-6b79-164b-996e",
+      "name": "Combi-bolter option",
+      "modifiers": [
+        {
+          "field": "7f96-ef04-baf4-f4db",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "a984-a57f-297f-fb1a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

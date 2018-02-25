@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Voidstorm Missile Launcher",
+    "prevIdentifier": "Phantom Stride"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7659-bd60-b0b6-ae6a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0733-4c4d-5420-2618",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "50aa-ebf8-f7ca-da35",
+      "name": "Voidstorm Missile Launcher"
+    }
+  ]
+}

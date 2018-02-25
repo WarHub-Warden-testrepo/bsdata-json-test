@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Prehensile Proboscis"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "7f2f-cdd5-f207-e469",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "85cb-b124-4f11-dd94",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "de9c-34e7-9374-85e2",
+      "name": "Prehensile Proboscis"
+    }
+  ]
+}

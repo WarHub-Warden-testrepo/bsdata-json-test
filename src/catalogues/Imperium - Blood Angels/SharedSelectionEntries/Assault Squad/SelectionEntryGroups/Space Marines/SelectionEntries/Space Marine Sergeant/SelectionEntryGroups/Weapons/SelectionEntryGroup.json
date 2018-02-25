@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "7da7-40bf-87db-4573",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "0eba-e1dc-eb95-3202",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "54d6-1f7c-dec3-57ec",
+              "type": 1,
+              "field": "selections",
+              "scope": "c7d0-e0cd-fb06-f271",
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "3082-1e13-1c54-ec0b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b993-57b7-93c6-9acb",
+          "id": "d1bb-be31-1e7c-30ab",
+          "name": "Eviscerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "54d6-1f7c-dec3-57ec",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "c7d0-e0cd-fb06-f271",
+                  "value": 5.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9475-b63f-9c6e-46b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f774-990e-f049-3a4a",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "e36d-ed9a-0e22-4960",
+          "name": "Melee weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "370a-cd56-9e13-5345",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "a271-9765-d6b3-bb6b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f869-6470-30b9-d38a",
+          "id": "9d18-896b-85c5-9a61",
+          "name": "Melee weapons or Pistols"
+        }
+      ],
+      "id": "b177-285d-9911-64c5",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "field": "0eba-e1dc-eb95-3202",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "d1bb-be31-1e7c-30ab",
+              "type": 2,
+              "field": "selections",
+              "scope": "f7de-2f60-f5ad-b3f5",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "7da7-40bf-87db-4573",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "d1bb-be31-1e7c-30ab",
+              "type": 2,
+              "field": "selections",
+              "scope": "f7de-2f60-f5ad-b3f5",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

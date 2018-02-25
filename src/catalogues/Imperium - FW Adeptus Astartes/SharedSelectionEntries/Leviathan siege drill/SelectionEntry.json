@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Leviathan siege drill",
+    "prevIdentifier": "Leviathan siege claw"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "5cb0-d46c-5811-3dec",
+      "name": "Leviathan siege drill",
+      "infoLinks": [
+        {
+          "targetId": "8c17-03b8-17ae-89e7",
+          "id": "c8ab-a139-ae69-2e6d",
+          "name": "Leviathan siege drill"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "36.5",
+          "conditions": [
+            {
+              "childId": "5cb0-d46c-5811-3dec",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

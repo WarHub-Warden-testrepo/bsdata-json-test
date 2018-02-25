@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3b8e-4137-4cdc-74b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "cddc-f750-cab3-3088",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "44d4-e9d8-7319-7037",
+          "id": "173b-8867-cfd2-9835",
+          "name": "Champion of the Imperium"
+        },
+        {
+          "targetId": "54b5-b742-4cf0-54dd",
+          "id": "0051-972a-63cb-f365",
+          "name": "Emperor's Companion"
+        },
+        {
+          "targetId": "464c-dd51-728a-fddc",
+          "id": "e50b-627c-eb6e-d027",
+          "name": "Radiant Mantle"
+        },
+        {
+          "targetId": "8fab-08a7-b91a-7a98",
+          "id": "b198-8e3b-085e-b61a",
+          "name": "Peerless Warrior"
+        },
+        {
+          "targetId": "38ab-eae3-6793-9272",
+          "id": "7d20-2f7e-1e0a-34c7",
+          "name": "Superior Creation"
+        },
+        {
+          "targetId": "d3eb-429e-e600-4049",
+          "id": "c679-474c-665c-e970",
+          "name": "Impregnable Mind"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "92cf-92bb-c8ba-87ba",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "769f-8f63-9c23-568f",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "9cb6-59c5-6934-31ed",
+      "name": "Warlord Trait",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "7cf0-8a24-879c-2194",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

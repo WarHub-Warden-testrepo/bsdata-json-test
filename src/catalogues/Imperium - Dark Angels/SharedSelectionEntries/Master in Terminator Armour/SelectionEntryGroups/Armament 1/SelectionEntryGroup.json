@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Armament 1",
+    "prevIdentifier": "Armament 2"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "a713-ae41-2e2f-78d5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "b884-92b3-4426-d640",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fbb6-105f-5380-d2ae",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "554a-4c06-6d28-a87c",
+          "id": "dd95-3312-1af4-dd45",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "14e7-ad5b-8a9e-6e4c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "f279-5632-cdbd-73f0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a3cf-2fc4-daa8-a0b2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "4976-6807-a89f-9a8a",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "38d8-d909-00c6-b9f6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "e080-4907-423b-80e1",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "ddc8-819a-c20c-04f5",
+          "id": "5cfa-d3ab-4284-e97d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "eb04-20a2-1443-182f",
+      "name": "Armament 1"
+    }
+  ]
+}

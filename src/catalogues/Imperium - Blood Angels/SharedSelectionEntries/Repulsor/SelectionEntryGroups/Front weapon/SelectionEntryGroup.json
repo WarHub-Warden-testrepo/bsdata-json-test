@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Front weapon",
+    "prevIdentifier": "Turret weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7743-3407-b8d9-5330",
+      "constraints": [
+        {
+          "id": "533e-6a9a-fbe6-765b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e063-8170-e600-fca1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2e53-fada-76cb-4d19",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "7743-3407-b8d9-5330",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e75e-136e-7ffa-e0db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "99a1-d4ba-0280-481b",
+          "name": "Twin lascannon"
+        }
+      ],
+      "id": "4676-ec5d-181e-99df",
+      "name": "Front weapon"
+    }
+  ]
+}

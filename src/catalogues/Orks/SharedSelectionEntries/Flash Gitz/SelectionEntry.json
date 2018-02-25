@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Flash Gitz",
+    "prevIdentifier": "Lootas"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "cd12-ada6-f4ec-9e0f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "5066-f4cc-0764-2ea3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "11e5-8fe0-5cbd-2547",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "56ed-9424-617d-b982",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "426c-b35b-6c39-38f2",
+          "id": "f331-abf8-caba-df29",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0886-89f1-0e02-af78",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c8f6-b38b-637f-3c7c",
+          "id": "3eb5-96ea-7d63-ac3b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "0886-89f1-0e02-af78",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "27f1-6830-b61a-0f18",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8d81-3378-2c49-7b5c",
+      "name": "Flash Gitz",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "de72-9941-3d27-44e9",
+          "id": "0ea2-2dfe-a989-8167",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ad32-a248-a392-3d4a",
+          "id": "01f8-6344-1b44-d3d5",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "27f1-6830-b61a-0f18",
+              "type": 1,
+              "field": "selections",
+              "scope": "8d81-3378-2c49-7b5c",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

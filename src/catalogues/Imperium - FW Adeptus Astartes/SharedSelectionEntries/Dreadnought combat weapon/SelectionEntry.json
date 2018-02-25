@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Dreadnought combat weapon",
+    "prevIdentifier": "Seismic hammer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "742b-1b52-a3c7-4bb9",
+      "name": "Dreadnought combat weapon",
+      "infoLinks": [
+        {
+          "targetId": "3b26-3098-155f-0e58",
+          "id": "3bf5-6977-3f7e-e570",
+          "name": "Dreadnought combat weapon"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "25",
+          "conditions": [
+            {
+              "childId": "742b-1b52-a3c7-4bb9",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

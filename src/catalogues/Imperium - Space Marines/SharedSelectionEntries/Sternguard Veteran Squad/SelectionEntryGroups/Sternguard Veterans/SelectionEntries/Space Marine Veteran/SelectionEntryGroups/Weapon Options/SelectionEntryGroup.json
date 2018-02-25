@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9c6b-890f-7dd1-dca3",
+      "constraints": [
+        {
+          "id": "ee2d-8372-0e58-9d80",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "f444-01ff-3f42-08da",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9cc2-51e1-b9f7-97a8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ab36-135b-264e-2dd6",
+          "id": "9c6b-890f-7dd1-dca3",
+          "name": "Special issue boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "51e0-e97b-5b0a-d72e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "a243-03ad-b501-fc94",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "89ff-a65e-0c90-e703",
+      "name": "Weapon Options"
+    }
+  ]
+}

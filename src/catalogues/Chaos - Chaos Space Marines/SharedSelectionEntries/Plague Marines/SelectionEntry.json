@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "identifier": "Plague Marines",
+    "prevIdentifier": "Obliterators"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "3ac2-5a02-8b20-898f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "9e12-06a3-d442-9d0b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b649-c301-c628-8246",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "8eee-34b9-d38b-7cdb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3dc1-498f-f953-6930",
+              "type": 1,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "6a18-3425-6d7d-cb8d",
+          "name": "Icon of Despair",
+          "modifiers": [
+            {
+              "field": "bcfc-23e0-56a5-eae5",
+              "value": "0.0",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "cae0-eaf2-dca4-3770",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "bfbb-5f37-6875-a0ef",
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "c1de-5504-30a7-093b",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "bfbb-5f37-6875-a0ef",
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "bfbb-5f37-6875-a0ef",
+      "name": "Plague Marines",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "649e-7454-0be4-7a71",
+          "id": "494f-4cfd-8a8f-a694",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "68c3-ec7a-d237-9e72",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 8.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 11.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "bfbb-5f37-6875-a0ef",
+              "value": 16.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

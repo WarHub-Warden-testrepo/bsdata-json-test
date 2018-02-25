@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Warp Jump Generator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4fbf-a035-d834-a058",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1def-3b06-a9c3-b2f1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "ed47-a82c-8948-deff",
+      "name": "Warp Jump Generator"
+    }
+  ]
+}

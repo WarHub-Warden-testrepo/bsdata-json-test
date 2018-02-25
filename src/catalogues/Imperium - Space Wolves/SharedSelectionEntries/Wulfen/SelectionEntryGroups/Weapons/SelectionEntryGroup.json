@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "identifier": "Weapons",
+    "prevIdentifier": "Wulfen"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "b567-e8df-d987-3b34",
+      "constraints": [
+        {
+          "id": "942b-7632-a52b-1f96",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": -1.0
+        },
+        {
+          "id": "7931-3f50-3793-4900",
+          "field": "selections",
+          "scope": "parent",
+          "value": -1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "9d3d-be83-df2d-14e2",
+          "id": "b567-e8df-d987-3b34",
+          "name": "Wulfen claws"
+        },
+        {
+          "targetId": "8e5b-ade6-1e6c-fc9a",
+          "id": "5885-5f21-f252-e61a",
+          "name": "Frost claws"
+        },
+        {
+          "targetId": "3e49-8d07-d444-05dd",
+          "id": "cba1-a931-12de-57a8",
+          "name": "Great frost axe"
+        }
+      ],
+      "id": "339d-6b60-3151-9fec",
+      "name": "Weapons",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "942b-7632-a52b-1f96",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "4863-8a89-9791-3d0c",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "da80-4870-f4be-2ac7",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "7931-3f50-3793-4900",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "4863-8a89-9791-3d0c",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "da80-4870-f4be-2ac7",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

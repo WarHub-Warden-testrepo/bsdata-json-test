@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Pistols",
+    "prevIdentifier": "Force sword options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "8efb-a3d0-ba52-d389",
+      "constraints": [
+        {
+          "id": "ccb1-e1ae-6c8c-7970",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6dfd-4f40-704a-ea5c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "8efb-a3d0-ba52-d389",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "6dfd-4f40-704a-ea5c",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "92a6-645c-8a59-3ce3",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "44ee-6f9d-530e-c16e",
+      "name": "Pistols"
+    }
+  ]
+}

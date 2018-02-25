@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "864b-1dfd-786e-46a9",
+      "constraints": [
+        {
+          "id": "4389-a82d-65d3-8154",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "6f52-8027-78b2-dc31",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9756-5c45-4985-4cb1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d8c6-5a0f-4e89-c05a",
+          "id": "864b-1dfd-786e-46a9",
+          "name": "Plasma incinerator",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "15",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bba6-c012-3bfb-8cf4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad46-b8be-5c10-d2c6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c6ce-815a-0b7d-e636",
+          "id": "f5eb-1215-d7bf-d7a6",
+          "name": "Heavy plasma incinerator",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "17"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bba6-c012-3bfb-8cf4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "bb94-f494-b8de-c0d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d256-b942-3a92-a369",
+          "id": "d04a-31d2-f995-53cf",
+          "name": "Assault plasma incinerator",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "17"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bba6-c012-3bfb-8cf4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "f4a7-381c-5373-6722",
+      "name": "Weapons"
+    }
+  ]
+}

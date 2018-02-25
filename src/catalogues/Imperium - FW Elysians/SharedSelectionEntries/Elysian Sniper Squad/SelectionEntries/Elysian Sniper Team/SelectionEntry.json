@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Elysian Sniper Team"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2401-3d0c-204a-f69d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "be48-8e1f-807f-326c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ff2a-6b9c-5c98-009d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c5a2-b813-044d-5253",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "98c7-99b2-0b73-6c82",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8c03-d154-73fe-ebe8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eb5b-b4d4-7c12-822b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ba62-f2c3-d7bb-4f5d",
+          "id": "2751-00cb-98c9-b203",
+          "name": "Sniper rifle",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c7b1-568c-83c4-e2d3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a0a8-cec5-3c8b-73ab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "a798-0007-4c20-3cbe",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "41ac-0fc4-d363-7b3b",
+      "name": "Elysian Sniper Team"
+    }
+  ]
+}

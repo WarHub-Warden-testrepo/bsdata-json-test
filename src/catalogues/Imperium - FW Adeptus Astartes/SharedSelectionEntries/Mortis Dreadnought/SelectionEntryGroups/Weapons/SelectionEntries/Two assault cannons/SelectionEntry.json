@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two assault cannons",
+    "prevIdentifier": "Two missile launchers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "70cb-9f36-0131-686f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d7f1-cc70-be01-3d4d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "bebe-1626-f33a-cb48",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "af24-3eb4-6e9b-bc6f",
+          "id": "8764-acfd-c974-d224",
+          "name": "Assault cannon"
+        }
+      ],
+      "id": "fff5-7de1-3765-758e",
+      "name": "Two assault cannons"
+    }
+  ]
+}

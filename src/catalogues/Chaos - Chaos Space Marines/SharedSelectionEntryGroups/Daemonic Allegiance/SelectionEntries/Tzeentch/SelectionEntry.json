@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Tzeentch",
+    "prevIdentifier": "Slaanesh"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "9cec-9ce0-7bdf-f66a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "5cb4-41f3-22cf-d5eb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "26a3-2a40-e5f6-ed2d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "categoryLinks": [
+            {
+              "targetId": "012f-abfc-397b-3519",
+              "id": "f461-173e-a351-05a1",
+              "name": "New CategoryLink"
+            }
+          ],
+          "targetId": "0246-3399-3b88-44aa",
+          "id": "f55e-37ae-76cb-b283",
+          "name": "Dark Hereticus discipline"
+        }
+      ],
+      "id": "c185-3f79-2b0d-b6ff",
+      "name": "Tzeentch"
+    }
+  ]
+}

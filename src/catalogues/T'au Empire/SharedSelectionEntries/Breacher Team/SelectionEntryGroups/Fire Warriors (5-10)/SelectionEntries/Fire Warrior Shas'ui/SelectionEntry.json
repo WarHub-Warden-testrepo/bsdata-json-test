@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Fire Warrior Shas'ui",
+    "prevIdentifier": "Fire Warrior"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1479-f943-4799-a481",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6a98-d622-ac5b-4280",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "249c-0232-398f-efa7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b19-9c9b-a247-05d9",
+          "id": "a9eb-b208-898c-fd82",
+          "name": "Pulse blaster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d2dd-5969-3801-a84d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f2a-98e7-91a1-fcbf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1e4a-b5fd-7be4-3f90",
+          "id": "dc98-8b09-c5d9-77f3",
+          "name": "Photon grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "06ea-77de-c738-656c",
+          "id": "5f73-0241-d819-99ba",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "c07d-50d9-ea74-d8ab",
+      "name": "Fire Warrior Shas'ui",
+      "infoLinks": [
+        {
+          "targetId": "73ce-ff78-af2d-699a",
+          "id": "869a-7373-f0a2-5aca",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

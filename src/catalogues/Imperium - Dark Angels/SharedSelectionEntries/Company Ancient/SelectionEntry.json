@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Company Ancient",
+    "prevIdentifier": "Primaris Lieutenants"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 63.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2d28-8fed-1b2d-1999",
+          "id": "ab56-b9d0-832c-1284",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "44ac-c008-6820-62cd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e71c-b847-6f60-6a47",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a2e7-ec78-a186-1448",
+          "id": "08bf-2010-0b73-d925",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "989c-9ad8-a226-01eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8b9e-f41c-6d3e-bfca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5508-c061-5963-e673",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "621b-ffed-bf62-e910",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8d97-e66f-b4ce-7faa",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "e22d-9d1c-bd59-dde0",
+          "id": "3107-de47-3a65-f895",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "0e51-de2e-2557-b79e",
+      "name": "Company Ancient",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1744-bd62-9718-4da7",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6586-5d43-b320-83cf",
+          "id": "bc03-19fd-7c3f-7d13",
+          "name": "Astartes Banner"
+        }
+      ]
+    }
+  ]
+}

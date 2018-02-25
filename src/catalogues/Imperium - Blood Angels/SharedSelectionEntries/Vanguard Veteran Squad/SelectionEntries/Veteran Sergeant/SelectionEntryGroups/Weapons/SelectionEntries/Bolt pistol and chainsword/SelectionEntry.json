@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Bolt pistol and chainsword"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "33e6-9f44-f361-dda3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dc65-e601-0b2a-6c05",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "830d-89e7-2fdc-7a16",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "8f31-f7df-2762-fc30",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c93a-f9f7-d6b2-fd4e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "26db-970d-bd2a-06a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4334-d2da-32f5-dc53",
+          "id": "84ff-a85d-364f-ae41",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "bbba-f868-8ea0-1660",
+      "name": "Bolt pistol and chainsword"
+    }
+  ]
+}

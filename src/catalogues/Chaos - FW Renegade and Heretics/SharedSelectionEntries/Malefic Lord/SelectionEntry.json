@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Malefic Lord",
+    "prevIdentifier": "Renegade Commander"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5140-b450-b382-d7b2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "932f-1ba8-ef83-c0fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c1b8-d929-1aac-fb81",
+          "id": "23de-1fcd-a5fd-28df",
+          "name": "RENEGADES AND HERETICS DISCIPLINE"
+        },
+        {
+          "constraints": [
+            {
+              "id": "332c-ac6a-7eb4-09d3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b37e-97d0-6686-f784",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c228-0212-7186-cfde",
+          "id": "e7fa-0e63-1a97-2ba9",
+          "name": "Bare Hands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dfef-0816-d9c1-e314",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c5c5-c88c-319c-1f18",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "0d98-abb2-b545-ba51",
+          "name": "Smite"
+        }
+      ],
+      "id": "d223-05e1-9e8e-2ffc",
+      "name": "Malefic Lord",
+      "infoLinks": [
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "1b2b-7cc6-6984-5cde",
+          "name": "Chaos Covenant"
+        }
+      ]
+    }
+  ]
+}

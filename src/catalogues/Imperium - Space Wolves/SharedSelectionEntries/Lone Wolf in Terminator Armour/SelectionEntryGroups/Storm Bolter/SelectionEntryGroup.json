@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Storm Bolter",
+    "prevIdentifier": "Power Sword"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9911-600e-3ffe-9e02",
+      "constraints": [
+        {
+          "id": "58b6-96ed-76c6-a648",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a1da-2623-70e9-8e1e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6e28-f01b-ba52-e130",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "9911-600e-3ffe-9e02",
+          "name": "Storm bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3b00-bba4-db0d-2c62",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "44b6-30bc-1b2d-1461",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2920-b8dd-60cc-6b64",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "2de1-636c-aaf5-9eb7",
+          "name": "Space Wolves Terminator Melee Weapons"
+        }
+      ],
+      "id": "2fd4-c59b-7d71-a084",
+      "name": "Storm Bolter",
+      "modifiers": [
+        {
+          "field": "58b6-96ed-76c6-a648",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "a1da-2623-70e9-8e1e",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

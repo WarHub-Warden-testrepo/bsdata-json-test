@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Shadow Spectre Exarch",
+    "prevIdentifier": "Shadow Spectre"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c016-5751-b386-ab01",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "34e9-ea88-dd6b-4a8d",
+          "id": "c124-b010-d0cc-4c72",
+          "name": "Sunburst grenades"
+        }
+      ],
+      "id": "26bd-041a-af2d-95dd",
+      "name": "Shadow Spectre Exarch"
+    }
+  ]
+}

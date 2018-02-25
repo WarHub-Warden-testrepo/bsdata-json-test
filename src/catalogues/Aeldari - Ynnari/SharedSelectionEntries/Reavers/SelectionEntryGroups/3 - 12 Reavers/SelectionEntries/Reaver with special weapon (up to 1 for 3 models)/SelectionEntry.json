@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Reaver with special weapon (up to 1 for 3 models)",
+    "prevIdentifier": "Reaver"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bc98-ac74-ac8d-acd8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8dcd-9fab-a37b-6462",
+          "id": "69d0-db38-8bee-a75a",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "3498-ef58-d1c0-dd3d",
+      "name": "Reaver with special weapon (up to 1 for 3 models)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "bc98-ac74-ac8d-acd8",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "1556-f1bb-147a-f555",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "4da6-8b2a-acaf-d1fe",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

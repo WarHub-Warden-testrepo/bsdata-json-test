@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Melee weapon",
+    "prevIdentifier": "Ranged/Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d734-56a2-32a1-1455",
+      "constraints": [
+        {
+          "id": "cb09-d3d2-e2da-7290",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0371-c7d2-3348-3d9e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "439b-381f-384a-4a79",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "d734-56a2-32a1-1455",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7187-b7e7-56c7-0801",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "8103-8c1c-509c-3cdf",
+          "name": "Storm shield",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7fc3-4516-1e2c-9269",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0140-c9f2-0524-34cc",
+          "id": "5d55-0bcf-3f1f-8935",
+          "name": "Relic blade"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "288a-3885-0ab2-86c4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "3afc-ba3a-16ba-bbb9",
+          "name": "Melee weapons"
+        }
+      ],
+      "id": "b99c-80b4-4847-5a8b",
+      "name": "Melee weapon"
+    }
+  ]
+}

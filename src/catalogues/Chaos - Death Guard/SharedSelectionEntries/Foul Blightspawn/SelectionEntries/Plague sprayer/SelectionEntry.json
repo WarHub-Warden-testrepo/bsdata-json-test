@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Plague sprayer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b77d-4b9f-6d22-bbe4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f581-0c4a-cd4b-bc28",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8b00-b075-0cef-ba4d",
+      "name": "Plague sprayer"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Show Mucolid Spore Rules",
+    "prevIdentifier": "Spore Node"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "51a7-23b6-653f-00cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "52ea-1173-ae84-1da8",
+      "name": "Show Mucolid Spore Rules",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "0165-5e78-a357-a171",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "b799-796a-b062-5dc6",
+          "id": "989f-948e-322e-e602",
+          "name": "Living Bombs",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": "(Mucolid Spore)"
+            },
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "8104-3776-34b1-7c85",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "4fe0-a701-3f44-b703",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "4fed-d3da-008a-a905",
+          "id": "68db-6e37-85d4-5b65",
+          "name": "Mucolid Spore"
+        },
+        {
+          "targetId": "90c1-637d-0a42-dcf4",
+          "id": "e888-4e89-3aa3-1b48",
+          "name": "Floating Death (Mucolid Spore)"
+        },
+        {
+          "targetId": "2a1e-edeb-49e2-0d1a",
+          "id": "8f0d-0f69-bcc8-5ad2",
+          "name": "Mucolid Spores"
+        }
+      ]
+    }
+  ]
+}

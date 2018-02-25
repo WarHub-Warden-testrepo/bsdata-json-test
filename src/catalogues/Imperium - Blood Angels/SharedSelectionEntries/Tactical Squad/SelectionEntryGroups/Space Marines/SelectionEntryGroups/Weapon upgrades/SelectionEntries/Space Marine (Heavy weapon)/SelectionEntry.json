@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Space Marine (Heavy weapon)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 13.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e86f-0b6c-00cf-847f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "724e-941d-b364-fa94",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8924-9b4b-edbf-8c35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "752e-391c-21c3-dd98",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b022-9200-8aeb-635e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "67d8-001b-608d-93e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "c513-1898-f177-fe68",
+          "name": "Bolt pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ab39-014c-bc43-d9c8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b66a-79d8-3d40-51a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9982-7348-6ff8-a67c",
+          "id": "836a-7c52-cf3a-80ee",
+          "name": ""
+        }
+      ],
+      "id": "cc34-5e8f-c77f-3e27",
+      "name": "Space Marine (Heavy weapon)",
+      "infoLinks": [
+        {
+          "targetId": "acf2-9015-83ab-146c",
+          "id": "e372-3d65-1d50-9c9d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

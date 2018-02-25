@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Melee Weapons",
+    "prevIdentifier": "Pistols"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "8d2f-d643-f2ce-4b28",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "262d-dbbf-8474-791c",
+          "id": "3ac1-ca7d-91e3-9536",
+          "name": "Chainaxe"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5f2c-2cc2-73af-d458",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "ac6e-f168-df88-4a81",
+          "name": "Chainsword",
+          "modifiers": [
+            {
+              "field": "5f2c-2cc2-73af-d458",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "b785-15f0-966e-73c4",
+          "id": "5476-30c4-12bb-7dd5",
+          "name": "Lightning Claw"
+        },
+        {
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "58cc-a9f8-de12-bb67",
+          "name": "Power axe"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "05d2-16f8-b356-3c13",
+          "name": "Power fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        },
+        {
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "c9ee-9002-3bb6-ba02",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "b7f7-5d94-eff7-eb7c",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "d740-2c84-b2b6-0c1b",
+          "id": "ce78-8d06-c00b-fd79",
+          "name": "Balesword"
+        }
+      ],
+      "id": "ae0f-9c01-3304-cce2",
+      "name": "Melee Weapons"
+    }
+  ]
+}

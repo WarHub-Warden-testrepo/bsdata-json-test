@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Legionnaires",
+    "prevIdentifier": "Legionnaire Heavy Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4a9d-93a4-badd-de80",
+      "entryLinks": [
+        {
+          "targetId": "eea5-36e2-efda-360b",
+          "id": "4a9d-93a4-badd-de80",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a993-6ca8-53e3-bd13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3002-49f3-ad47-3be0",
+          "id": "284a-f3be-2c4b-1253",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b197-23ff-3805-38e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3ad3-8529-7374-4e5c",
+          "id": "2a7a-5076-15b6-9603",
+          "name": ""
+        }
+      ],
+      "id": "4195-07c6-905f-ee50",
+      "name": "Legionnaires"
+    }
+  ]
+}

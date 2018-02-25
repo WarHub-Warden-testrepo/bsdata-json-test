@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Captain Lysander",
+    "prevIdentifier": "Terminus Ultra"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6c69-e4e0-27f2-8b1c",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "9c1b-1ac5-1a26-3689",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "657e-46f0-e9df-6be6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8352-7f67-7e2b-3b4f",
+          "id": "ffbf-b7e1-ab0d-ae32",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6b7c-3d51-f050-7398",
+          "id": "1b87-3e59-7204-84a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b1d2-561d-e393-740b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "cfdd-160e-f79d-5791",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c4e4-b28f-193a-8fc3",
+          "id": "c8a3-933a-56be-2423",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "1ac7-1a98-e426-99bd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7019-7bcc-86ca-70fb",
+      "name": "Captain Lysander",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "707b-44d9-de6b-5c34",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "abad-e2aa-dcff-3e17",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "d566-23fd-55a5-103f",
+          "id": "abbd-f281-5206-0c5c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "477c-dae4-c555-afea",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "541d-ade9-7496-9c62",
+          "id": "2830-6afd-16c3-521e",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "f878-fe21-2fb2-08e5",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

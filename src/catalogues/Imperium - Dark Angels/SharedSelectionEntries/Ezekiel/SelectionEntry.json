@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Ezekiel",
+    "prevIdentifier": "Asmodai"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4e4d-42dd-0c46-eede",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f4b6-607f-88f2-23c1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f28a-2212-ee76-169e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "06f2-fe69-d608-944c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3baa-4acf-f191-9390",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "edd9-59c0-8f74-3b36",
+          "id": "ce03-e6b6-41a2-29a1",
+          "name": "Interomancy Discipline",
+          "modifiers": [
+            {
+              "field": "7e3d-3245-c825-45f2",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "targetId": "7a97-bfd8-a34b-5c04",
+          "id": "be9f-3f6b-d919-4674",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "f142-6890-334c-0994",
+      "name": "Ezekiel",
+      "infoLinks": [
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "cf17-3a56-55fc-b1b1",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "8b5e-cf89-dccf-ba25",
+          "id": "40cd-8d98-7519-f6f8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

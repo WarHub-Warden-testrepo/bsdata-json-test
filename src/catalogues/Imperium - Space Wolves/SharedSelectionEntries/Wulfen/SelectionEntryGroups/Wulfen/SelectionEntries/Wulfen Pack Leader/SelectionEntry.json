@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Wulfen Pack Leader",
+    "prevIdentifier": "Wulfen"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 28.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "994d-b116-eb19-c86b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d2ec-1ed0-44ab-1109",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7574-b73e-8e0c-a8fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8201-3ac2-0e08-7542",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8e5b-ade6-1e6c-fc9a",
+          "id": "8752-3082-5cd4-6d67",
+          "name": "Frost claws"
+        }
+      ],
+      "id": "64f8-e31c-3cab-b21a",
+      "name": "Wulfen Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "140b-344e-d7fa-856a",
+          "id": "e08d-42f7-d242-310e",
+          "name": "Wulfen Pack Leader"
+        }
+      ]
+    }
+  ]
+}

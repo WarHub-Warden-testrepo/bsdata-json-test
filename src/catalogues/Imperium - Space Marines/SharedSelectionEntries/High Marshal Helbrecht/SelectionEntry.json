@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "identifier": "High Marshal Helbrecht",
+    "prevIdentifier": "Pedro Kantor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 170.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0f21-11c4-4fcc-50e5",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "3f39-5ec8-3c03-7190",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6c0-28c2-e5f6-9af7",
+          "id": "fe77-ec75-39aa-02c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7dbf-fe75-1337-8efe",
+          "id": "3bfc-cc4d-613c-e3a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9dd9-4738-9e99-505c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "622b-61d4-b9cf-a199",
+          "id": "771e-2c31-58f4-0406",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3e99-add2-fb51-9acd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "331b-f940-8c95-bae0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5b06-e3e6-1f90-6591",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "da87-ecfd-638d-8e3b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c445-e211-f316-5d83",
+          "id": "e2ff-8a60-3368-e6e4",
+          "name": "Combi-melta",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6047-9769-ff9a-2b20",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ee45-5bea-b93a-08cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "02cb-26bc-55a7-c4ed",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "d275-a416-ecb8-55b1",
+      "name": "High Marshal Helbrecht",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "46dc-d1a2-7e61-bdd8",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "fdb4-b1a5-3c97-6400",
+          "id": "4b6a-b5df-4afa-c6a9",
+          "name": "Chapter Master"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "0a3b-5d2e-614b-819a",
+          "name": "Iron Halo"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "bf89-9471-d639-be6a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

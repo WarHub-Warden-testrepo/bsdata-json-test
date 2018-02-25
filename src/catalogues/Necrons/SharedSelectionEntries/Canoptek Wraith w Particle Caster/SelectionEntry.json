@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Canoptek Wraith w/ Particle Caster",
+    "prevIdentifier": "Gun Emplacement Mount"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 38.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2632-519d-d93d-ae66",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "351f-02e1-4c20-65ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6a4-0539-7267-45d1",
+          "id": "8a18-3dfe-0737-9081",
+          "name": "Vicious Claws",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "constraints": [
+            {
+              "id": "21f3-82c2-9dea-fe67",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "04bf-9dd5-a04c-3d6e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ca8-2b54-4f76-fa76",
+          "id": "a134-ca73-d69c-772b",
+          "name": "Particle Caster",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "0229-f485-76ec-1914",
+      "name": "Canoptek Wraith w/ Particle Caster",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "targetId": "275a-1f20-a9a9-2880",
+          "id": "5bb0-2f91-3fb3-7875",
+          "name": "Wraith Form"
+        },
+        {
+          "targetId": "a227-cd49-6158-0edd",
+          "id": "20a2-2a88-6b13-5bd9",
+          "name": "Canoptek Wraith",
+          "book": ""
+        }
+      ]
+    }
+  ]
+}

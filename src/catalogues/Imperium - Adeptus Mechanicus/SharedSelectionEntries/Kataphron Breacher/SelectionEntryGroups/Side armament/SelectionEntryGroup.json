@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "identifier": "Side armament",
+    "prevIdentifier": "Main armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "cde2-ab84-d032-0033",
+      "constraints": [
+        {
+          "id": "0d67-a18d-8ad1-4109",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e484-ddfb-2867-1d8b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "270b-9de5-3245-8582",
+      "name": "Side armament"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Mark of Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "96de-8abc-2f3a-5bb8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "47a7-5729-bcf9-800a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "ec02-76e6-32f5-d148",
+      "name": "Mark of Khorne",
+      "infoLinks": [
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "85f9-59aa-ff60-46b3",
+          "name": "Unstoppable Ferocity"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "96de-8abc-2f3a-5bb8",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "21b1-7fd4-e8d8-b28d",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

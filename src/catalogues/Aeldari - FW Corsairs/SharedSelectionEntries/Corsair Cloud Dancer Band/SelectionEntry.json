@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "identifier": "Corsair Cloud Dancer Band",
+    "prevIdentifier": "Corsair Reaver Band"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "c273-f6f9-bb02-8d13",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "841d-f591-e23f-1555",
+          "id": "183d-b184-c9c2-92fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0505-1411-a658-8f82",
+          "id": "d682-f390-bfd0-f319",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "bf88-6a9a-331f-d64b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6d09-575c-65b1-faa6",
+          "id": "0522-3bd4-37a8-7f9f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8ea0-006e-3e76-9708",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "c0b7-9218-9ca4-8652",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "015f-f7be-c4be-1aff",
+      "name": "Corsair Cloud Dancer Band",
+      "book": "IA - Index: Xenos",
+      "page": "75",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "0ee8-2911-f25a-b3d2",
+          "id": "7438-5400-7f4e-2fd3",
+          "name": "Dancing on the Blade's Edge",
+          "book": "IA - Index Xenos"
+        },
+        {
+          "type": 1,
+          "targetId": "191d-3ffc-ffe7-4ba8",
+          "id": "8ef3-5fd9-b836-116b",
+          "name": "Reckless Abandon",
+          "book": "IA - Index Xenos"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "015f-f7be-c4be-1aff",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "21",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "015f-f7be-c4be-1aff",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

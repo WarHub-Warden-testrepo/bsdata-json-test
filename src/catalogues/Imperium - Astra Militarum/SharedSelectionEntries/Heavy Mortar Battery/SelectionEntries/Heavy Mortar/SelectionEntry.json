@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Heavy Mortar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9981-ad43-72c4-e68f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "88bf-5230-3b6a-957c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1f3b-a026-5d34-b9e1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "8ace-8caf-62c0-1359",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70eb-d2d7-5172-ec78",
+          "id": "55aa-c442-dc24-28e0",
+          "name": "Guardsmen Crew"
+        }
+      ],
+      "id": "c659-3d45-8b40-2dc3",
+      "name": "Heavy Mortar",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "8dbd-6d9b-47d0-01fe",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "b5b7-88a4-88d9-dc53",
+          "id": "2931-6dcb-fe0a-cff0",
+          "name": "Artillery Battery"
+        },
+        {
+          "targetId": "3fe6-0898-b98b-5a2b",
+          "id": "d5ca-c00b-c790-27a4",
+          "name": "Artillery"
+        }
+      ]
+    }
+  ]
+}

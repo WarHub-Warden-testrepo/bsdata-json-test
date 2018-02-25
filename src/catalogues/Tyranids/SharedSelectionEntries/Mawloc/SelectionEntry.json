@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "identifier": "Mawloc",
+    "prevIdentifier": "Maleceptor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 104.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "e442-a1b8-d8d0-9e8c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "6307-9380-b491-9352",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "dd0b-b2bd-f52f-4274",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "4163-4593-58da-08bd",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "25ba-3c54-afec-eb9f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "330d-2c61-d873-db05",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9dba-3b4b-128e-9ede",
+          "id": "44c4-8b09-ec79-7312",
+          "name": "Distensible Jaws"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7f07-0c64-3ebf-14b4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "1f2f-57a6-554d-7ee4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b06-87d5-7b1e-8d82",
+          "id": "5df5-3f14-feb0-21f7",
+          "name": "Scything Talons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ebb7-32dc-e35f-d2ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "725e-c6c4-ba0e-1120",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "03a8-d014-d390-786c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "17c8-07c6-4964-baae",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "id": "92ec-64fb-e5a7-65c1",
+      "name": "Mawloc",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "80f1-72ff-97de-6d1e",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "6515-364e-86c7-5f9f",
+          "id": "025a-a35e-6d49-861b",
+          "name": "Death Throes"
+        }
+      ]
+    }
+  ]
+}

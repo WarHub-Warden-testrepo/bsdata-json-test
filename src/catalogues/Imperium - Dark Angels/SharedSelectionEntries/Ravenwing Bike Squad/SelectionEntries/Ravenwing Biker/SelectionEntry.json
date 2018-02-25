@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Biker"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "730f-9bed-5837-474a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "0ff8-750b-f02f-c36d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 7.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1895-aed1-30e4-117b",
+          "id": "332d-1524-c30f-70e7",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2186-92dd-dc0d-a74e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "9daf-09d2-77eb-e1c8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "76a2-46f0-daf3-1cb1",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4c23-24af-6649-9c91",
+      "name": "Ravenwing Biker"
+    }
+  ]
+}

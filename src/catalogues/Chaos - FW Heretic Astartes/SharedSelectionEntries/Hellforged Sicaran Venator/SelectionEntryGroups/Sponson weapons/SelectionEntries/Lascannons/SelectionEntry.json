@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "identifier": "Lascannons",
+    "prevIdentifier": "Heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "28ea-f39b-fb40-428a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "2994-ac01-1fed-8a58",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "2b7c-e65b-8ba3-8936",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "38ae-f218-2061-e30f",
+      "name": "Lascannons"
+    }
+  ]
+}

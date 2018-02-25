@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "One-handed"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "4260-79fb-3d3b-0575",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "fa59-27a1-f6d8-43bc",
+          "name": "Bolt pistol"
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "4433-18e2-0d40-bf19",
+          "name": "Plasma pistol"
+        },
+        {
+          "targetId": "3858-8a51-bdb4-a59e",
+          "id": "ea8a-85fd-bc13-2ac5",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "cf31-27d5-c4d6-1573",
+          "id": "3d10-0753-eb3c-c46c",
+          "name": "Inferno pistol"
+        },
+        {
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "2004-bd57-fda3-44e0",
+          "name": "Chainsword"
+        },
+        {
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "2ca6-12ff-3e4c-6a5e",
+          "name": "Power sword"
+        },
+        {
+          "targetId": "3292-34e6-f679-d5b9",
+          "id": "2dc6-dcc9-32ef-9627",
+          "name": "Power axe"
+        },
+        {
+          "targetId": "6ea7-1195-7144-438e",
+          "id": "1dec-4782-2d39-bb14",
+          "name": "Power maul"
+        },
+        {
+          "targetId": "4fd6-1688-d86c-3510",
+          "id": "d017-d887-13a1-2f92",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f122-3720-fa32-4215",
+          "id": "7e1d-810d-3c5c-86a7",
+          "name": "Power fist"
+        },
+        {
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "3966-af1e-65c1-db35",
+          "name": "Thunder hammer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "919b-f4fd-63b5-0f04",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "7b66-cac7-e582-a518",
+          "id": "2a12-9615-e774-596b",
+          "name": "Grav-pistol"
+        }
+      ],
+      "id": "a66d-3486-51a2-cc80",
+      "name": "One-handed"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Veteran Weapon Team",
+    "prevIdentifier": "Veteran w/ Special Weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a248-e305-25d4-4593",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "dc7f-ee0b-e028-5d0f",
+          "id": "d9d5-d150-5dab-1574",
+          "name": "Elysian Heavy Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "55ac-9027-fa7d-ab2f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "725b-ef43-2ae9-ac7f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "3e67-302c-17e9-880e",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "df7c-78bd-5944-79b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "f691-d0d2-3b0e-2eae",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "1f0a-c3dc-fd15-c37b",
+      "name": "Veteran Weapon Team",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "1a11-9219-59bd-8c63",
+          "id": "c0d6-2c92-cde8-731b",
+          "name": "Vetera Weapons Team"
+        }
+      ]
+    }
+  ]
+}

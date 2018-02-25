@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Regimental Standard",
+    "prevIdentifier": "Veteran w/ Medi-pack"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c449-ce46-2535-def9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d09b-d9b7-ebda-6013",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "fe1f-9583-a94e-6471",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "b37a-b530-1809-aa40",
+      "name": "Veteran w/ Regimental Standard",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "d977-9514-4ae8-d91f",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

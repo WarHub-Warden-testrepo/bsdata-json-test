@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Tankbusta w/ Pistols",
+    "prevIdentifier": "Tankbusta w/ Hammer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cbf2-58a6-d06c-74b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "7111-9056-2236-b95a",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "e100-780a-3387-20a5",
+          "id": "5bba-f9fb-4ab8-59d0",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "33ed-37ad-ce4c-782b",
+      "name": "Tankbusta w/ Pistols",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "cbf2-58a6-d06c-74b6",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "5bcd-2f69-1bb9-070d",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

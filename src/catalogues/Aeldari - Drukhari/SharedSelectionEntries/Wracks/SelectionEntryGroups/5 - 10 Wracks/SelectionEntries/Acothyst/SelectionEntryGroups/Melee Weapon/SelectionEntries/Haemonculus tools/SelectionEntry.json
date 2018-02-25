@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Haemonculus tools"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c90b-e6ca-5024-bf50",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7418-1f3a-acda-3f23",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5b5b-3f90-b253-f784",
+      "name": "Haemonculus tools",
+      "infoLinks": [
+        {
+          "targetId": "88da-6173-adb2-9e7a",
+          "id": "6fad-b770-7278-66ba",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "c90b-e6ca-5024-bf50",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "bb31-23e5-693c-72df",
+              "type": 4,
+              "field": "selections",
+              "scope": "6728-e97b-022d-1d7e",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "7418-1f3a-acda-3f23",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "bb31-23e5-693c-72df",
+              "type": 4,
+              "field": "selections",
+              "scope": "6728-e97b-022d-1d7e",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

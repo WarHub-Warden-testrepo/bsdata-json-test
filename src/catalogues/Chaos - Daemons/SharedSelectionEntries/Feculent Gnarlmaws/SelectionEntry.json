@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Feculent Gnarlmaws",
+    "prevIdentifier": "Flickering flames"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "a1f9-24b8-0e5d-f5d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "d713cda3-5d0f-40d8-b621-69233263ec2a",
+          "id": "d441-7fd9-7f5d-29be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "3078-21a0-9d98-7199",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "e16d-bd4a-6090-ff13",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "7ff2-55c1-7305-1b37",
+      "name": "Feculent Gnarlmaws",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "7ff2-55c1-7305-1b37",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7ff2-55c1-7305-1b37",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "identifier": "Reiver Squad",
+    "prevIdentifier": "Primaris Apothecary"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "fd25-efde-5095-3cd0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5313-5910-33a6-4586",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb9d-2b67-64b0-800f",
+          "id": "471e-9906-37f7-e9f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "92ad-9bea-1db9-1ca4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "7680-de35-e428-edca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "50f1-c3ea-9d66-6446",
+          "id": "61fd-47ff-bdbd-1a31",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "ff0b-fb62-c653-c135",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c044-4702-5bf2-fbfd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6858-5845-26f5-5244",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "df09-a39a-dd33-89f7",
+          "id": "c0fb-25fe-3239-b973",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1b48-d5f8-cba9-8f34",
+          "id": "153e-6263-18ef-f83c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "73b1-3e20-6623-cd05",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0d6a-bda4-3d49-afea",
+          "id": "2048-f757-24c0-1caf",
+          "name": "Grapnel launcher",
+          "modifiers": [
+            {
+              "type": 2,
+              "field": "points",
+              "value": "2"
+            },
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e7e7-0290-1429-3bf4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4f10-fc07-fc61-42ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "755c-c491-d4d6-fac7",
+          "id": "b091-007c-def0-40a5",
+          "name": "Grav-chute",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "e7e7-0290-1429-3bf4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "type": 2,
+              "field": "points",
+              "value": "2"
+            }
+          ]
+        }
+      ],
+      "id": "e7e7-0290-1429-3bf4",
+      "name": "Reiver Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "df87-01d0-7083-1bd9",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "be10-7e2e-2458-6040",
+          "id": "df92-1ce3-c075-f2f5",
+          "name": "Terror Troops"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "bd5c-cd66-2fe2-b944",
+              "type": 1,
+              "field": "selections",
+              "scope": "e7e7-0290-1429-3bf4",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

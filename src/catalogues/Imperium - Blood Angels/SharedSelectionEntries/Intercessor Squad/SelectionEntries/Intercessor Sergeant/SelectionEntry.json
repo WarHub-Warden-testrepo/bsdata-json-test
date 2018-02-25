@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Intercessor Sergeant",
+    "prevIdentifier": "Intercessor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bd12-6e97-27ca-a91a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b9c8-1274-f2ca-f7f9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8863-df82-a18e-f2bf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "65ec-ca03-3dac-7815",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "52c9-7e62-2229-1109",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "728f-9543-574d-8dc7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d041-05de-9abf-9a8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0af7-46fc-50f1-c260",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "0c90-9cbf-864c-3d60",
+      "name": "Intercessor Sergeant",
+      "infoLinks": [
+        {
+          "targetId": "7992-7be7-7638-e914",
+          "id": "688b-9db2-cfa8-43ea",
+          "name": "Intercessor Sergeant"
+        }
+      ]
+    }
+  ]
+}

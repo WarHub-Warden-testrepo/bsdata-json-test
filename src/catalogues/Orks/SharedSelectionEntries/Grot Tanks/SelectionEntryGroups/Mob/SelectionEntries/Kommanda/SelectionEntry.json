@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Kommanda",
+    "prevIdentifier": "Grot Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3ec0-c866-aef7-4e7a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b0b1-80ef-f2ba-41fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f314-b941-342f-289c",
+          "id": "16c8-4969-ce02-182b",
+          "name": "Shoota"
+        }
+      ],
+      "id": "b541-4d1f-4c69-3e05",
+      "name": "Kommanda"
+    }
+  ]
+}

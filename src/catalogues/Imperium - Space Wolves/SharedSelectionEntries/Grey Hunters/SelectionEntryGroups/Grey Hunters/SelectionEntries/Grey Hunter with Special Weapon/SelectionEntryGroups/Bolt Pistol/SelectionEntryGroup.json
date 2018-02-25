@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bd16-d250-566e-0fc4",
+      "constraints": [
+        {
+          "id": "caee-130a-a8fe-b242",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8009-ec50-cb33-faf9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f636-b332-e0de-436f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c570-6b1e-425b-9f22",
+          "id": "bd16-d250-566e-0fc4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9038-2dee-e673-ba11",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4e58-80c9-95c1-f101",
+              "type": 1,
+              "field": "selections",
+              "scope": "2e39-6ee4-1903-7c95",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "5d5b-1e73-e6f8-0072",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "9038-2dee-e673-ba11",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "7c36-446f-9b97-299a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "2e39-6ee4-1903-7c95",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7800-ed50-c89d-187c",
+      "name": "Bolt Pistol"
+    }
+  ]
+}

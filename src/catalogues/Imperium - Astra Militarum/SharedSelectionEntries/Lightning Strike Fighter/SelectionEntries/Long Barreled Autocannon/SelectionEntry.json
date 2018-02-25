@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Long Barreled Autocannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7eda-1abd-3c90-5fab",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5781-cc04-aaff-82ad",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "427b-6e4f-9228-09eb",
+      "name": "Long Barreled Autocannon"
+    }
+  ]
+}

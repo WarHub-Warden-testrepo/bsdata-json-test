@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Twin Lascannons",
+    "prevIdentifier": "Twin Heavy Bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 50.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e7bd-24f0-6f2d-c29d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "5f90-5fc9-ca7a-f735",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "6267-e693-6992-6a0a",
+      "name": "Twin Lascannons",
+      "infoLinks": [
+        {
+          "targetId": "f14a-07e5-5465-69cf",
+          "id": "2749-33e7-0a00-37aa",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

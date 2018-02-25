@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Land Raider Crusader",
+    "prevIdentifier": "Land Raider"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 244.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e1c4-6f5d-b9ea-3820",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "d66c-d4dd-2d3b-67ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0366-7ccd-2513-2a38",
+          "id": "51be-fa6a-2286-d1ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "806f-14ab-62de-7739",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "79c6-c77d-cef2-2fb8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ced4-828b-c5e6-d429",
+          "id": "796c-d11b-77dd-e79d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7eee-1da7-7c47-2c73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2280-044a-a312-c161",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "27ec-9ec8-e8ae-6958",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "996d-f821-45ee-f443",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "9458-52a9-4bc8-ae96",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b34a-b0c7-689d-d9a9",
+          "id": "687c-8c72-19e1-e86d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "82a3-db47-e289-5c4a",
+      "name": "Land Raider Crusader",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "6f8e-9512-0008-d677",
+          "id": "4085-171b-95e1-09d4",
+          "name": "Explodes (6\"/D6)"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "e8e0-0425-1b7c-915d",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4b31-7acf-0d2a-4973",
+          "id": "f551-08a0-91e0-1d28",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "26a1-7cd2-c9e6-d6ab",
+          "id": "d625-169a-eeec-bf95",
+          "name": "Frag Assault Launchers"
+        }
+      ]
+    }
+  ]
+}

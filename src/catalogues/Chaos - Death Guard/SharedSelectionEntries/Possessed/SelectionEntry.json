@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Possessed",
+    "prevIdentifier": "Smoke launchers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "5b04-0506-2b4c-bc1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "650c-bcd3-aeb8-3b44",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0f00-0b5a-f2a3-a404",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "72d0-fb41-eceb-357d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "2d3c-8901-586d-df71",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "79c0-b07a-c6be-e291",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d1e8-2422-aecc-7827",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acd7-5577-5a74-bfef",
+          "id": "a1d4-e074-4c78-17c3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2551-97d8-11cb-d026",
+          "id": "77fc-b542-0e97-ff5d",
+          "name": "Icon of Despair"
+        }
+      ],
+      "id": "429c-a1b7-b65a-0358",
+      "name": "Possessed",
+      "infoLinks": [
+        {
+          "targetId": "c365-8ca4-3ee1-1677",
+          "id": "ba1b-47f4-2a1a-108d",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "5511-cb37-e1c1-5391",
+          "id": "b3fe-34c0-9e85-3c13",
+          "name": "Daemonic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "isRoundUp": true,
+              "field": "selections",
+              "scope": "429c-a1b7-b65a-0358",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "429c-a1b7-b65a-0358",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

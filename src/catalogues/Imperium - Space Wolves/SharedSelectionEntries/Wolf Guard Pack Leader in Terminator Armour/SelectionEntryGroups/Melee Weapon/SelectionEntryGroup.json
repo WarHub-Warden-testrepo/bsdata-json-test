@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon",
+    "prevIdentifier": "Ranged Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "2809-2bfa-d8bc-7477",
+      "constraints": [
+        {
+          "id": "abad-965d-f4fe-3ba4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "87cc-bb1b-f317-c03c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7bf9-92b7-c76a-a0e2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "258b-7771-4f08-ca14",
+          "name": "Space Wolves Terminator Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a1b0-3f5e-ec79-b276",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "119f-e689-c445-c728",
+          "name": "Storm shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "399e-5ee7-29cd-f790",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "2809-2bfa-d8bc-7477",
+          "name": "Power sword"
+        }
+      ],
+      "id": "c9c6-8b7f-efd2-44d4",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "abad-965d-f4fe-3ba4",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "87cc-bb1b-f317-c03c",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

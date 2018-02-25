@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "d800-180c-f702-bfbf",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ff1d-a015-b842-7f7a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a4ae-d386-ad09-fbf4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "115e-e997-ca8e-25eb",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd64-5a62-a885-a925",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "1d3e-e045-ac5e-56ce",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "78ec-e1bf-a24f-1412",
+          "name": "Bolt pistol"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "a882-587b-fdc3-ae1c",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "9186-9319-063a-6480",
+          "name": "Relics"
+        }
+      ],
+      "id": "1092-1888-3e74-d90a",
+      "name": "Lieutenant"
+    }
+  ]
+}

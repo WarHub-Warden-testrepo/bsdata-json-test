@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Weapon option"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "97b3-e32f-e4b3-df16",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a7a3-0a7b-b98a-8edd",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "a44b-4b4d-46b5-d3a6",
+          "id": "24c3-a247-1b9d-8b0e",
+          "name": "Special Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "d16e-f416-d268-b2b4",
+          "id": "5c11-afb7-601e-c4f7",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "220e-5e06-bb17-a344",
+      "name": "Weapon option"
+    }
+  ]
+}

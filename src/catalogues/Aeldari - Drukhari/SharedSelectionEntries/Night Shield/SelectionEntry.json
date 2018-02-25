@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Night Shield",
+    "prevIdentifier": "Shock Prow"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5d61-7b1c-91fa-63ed",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0af3-4efd-ef07-d8ae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1dbb-d87f-7183-6748",
+      "name": "Night Shield"
+    }
+  ]
+}

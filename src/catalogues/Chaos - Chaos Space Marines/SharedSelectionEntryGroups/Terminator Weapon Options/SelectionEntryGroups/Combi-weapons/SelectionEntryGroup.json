@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Combi-weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e4e5-5966-b9d9-51bd",
+      "constraints": [
+        {
+          "id": "3178-2362-d00d-1c45",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a059-5486-b7ff-00bf",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "082c-9397-0c1c-dd36",
+          "id": "e4e5-5966-b9d9-51bd",
+          "name": "Combi-bolter"
+        },
+        {
+          "targetId": "c6a1-e0c4-c1b1-dce1",
+          "id": "51da-25fa-5b8f-5665",
+          "name": "Combi-flamer"
+        },
+        {
+          "targetId": "c445-e211-f316-5d83",
+          "id": "60d8-c430-e72e-dfa6",
+          "name": "Combi-melta"
+        },
+        {
+          "targetId": "fdce-cdf7-21a9-f9ac",
+          "id": "fc38-8381-9a59-de20",
+          "name": "Combi-plasma"
+        }
+      ],
+      "id": "72bd-9702-017a-b6e7",
+      "name": "Combi-weapons",
+      "modifiers": [
+        {
+          "field": "3178-2362-d00d-1c45",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "2607-d554-732e-c0b0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

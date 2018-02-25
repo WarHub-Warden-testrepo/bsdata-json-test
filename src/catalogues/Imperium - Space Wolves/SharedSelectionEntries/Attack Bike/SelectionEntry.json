@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Attack Bike",
+    "prevIdentifier": "Swiftclaws"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f03c-45d3-fc7b-3bdb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9ef3-aaf7-f4ec-ad04",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "1554-e8ed-69c1-4665",
+          "name": "Twin boltgun"
+        }
+      ],
+      "id": "91ac-ddf6-e8f1-2f33",
+      "name": "Attack Bike",
+      "infoLinks": [
+        {
+          "targetId": "9c5a-1c67-ba18-6c1f",
+          "id": "9fb9-a25f-addc-c3fa",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Tomb Citadel",
+    "prevIdentifier": "Sentry Pylon - 110"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 40.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 730.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "53cd-314c-599b-8616",
+          "id": "d964-63a4-598e-8bf6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "b45d-7df0-f6e8-530a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "e011-196c-88be-4091",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2f1c-ff3a-7cf2-6c7e",
+          "id": "5d29-7b6b-517a-be4a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6579-2a78-2233-2ed5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bd79-51d6-d6c4-aeeb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f56b-b91b-650c-75d2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a9c6-1724-137b-d1c4",
+          "id": "3aee-c697-abd1-6223",
+          "name": "Power Crucible"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cbe4-e22d-f2b1-44fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "2bd3-cebc-d018-6a4c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "472e-6013-b829-16cc",
+          "id": "dbe7-de12-9e84-603d",
+          "name": "Gun Emplacement Mount"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a2eb-bc73-82b9-a687",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "40c9-87b3-4a64-1699",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aa13-5e69-0f75-f606",
+          "id": "1d87-418a-7299-e04f",
+          "name": "Tomb Ziggurat"
+        }
+      ],
+      "id": "81a5-c41a-bd50-7ac1",
+      "name": "Tomb Citadel",
+      "book": "IA: Xenos"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "identifier": "Uriah Jacobus",
+    "prevIdentifier": "Retributor Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "55da-511b-1929-26cf",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "includeChildSelections": true
+        },
+        {
+          "id": "c18f-b70d-6d9b-a854",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c120-73f6-e57e-9b0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "3f60-b498-0f87-7736",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9390-5703-b10f-7bdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "82c3-782e-ba69-9698",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "4e97-28d8-0f63-f4ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "27ef-5eb2-7a77-b0f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2163-963f-4f6c-08a6",
+          "id": "9865-9cf3-cfee-24c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f2b1-f21a-cb94-b24f",
+          "id": "790b-dec0-96c5-988e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "53a8-ec77-fa83-ee67",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6ab5-6471-dec5-151e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a485-e90d-e726-3996",
+          "id": "2edf-b5db-10e5-aad1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd44-7bac-0bfd-1502",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dcc8-a724-a8e4-fc5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a120-05e8-c82d-bed7",
+          "id": "d6bd-6f0f-af43-5781",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "de51-99bc-ee3e-15f8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8857-5cf5-b699-0a68",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c7fb-955d-a717-3a72",
+          "id": "8844-85a1-c77d-e62f",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "1a07-5b23-c2c5-15fd",
+          "id": "a1a8-7592-1874-040a",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            },
+            {
+              "field": "1ac7-4527-5c45-ce3f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "4994-3ff8-20f6-48c5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "cb56-db99-c895-aab0",
+          "name": "Warlord"
+        }
+      ],
+      "id": "dddc-981e-979b-0045",
+      "name": "Uriah Jacobus",
+      "book": "Index: Imperium 2",
+      "page": "91",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "5ff7-1416-dff6-8cf3"
+        },
+        {
+          "type": 1,
+          "targetId": "2479a8f3-63b0-4d01-0a1f-673c73c5cb1f",
+          "id": "2243-a4bf-11d0-bf4f"
+        },
+        {
+          "targetId": "ea6f-a881-9cef-959d",
+          "id": "b3a3-a326-06c3-b8de",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "4ec0-bf3e-c6e8-c7ef",
+          "id": "1138-9a26-8f81-6888",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon",
+    "prevIdentifier": "Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "40ca-90cd-55e7-4978",
+      "constraints": [
+        {
+          "id": "462c-5f30-dfd9-1686",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4f19-dad3-ec46-f6f2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f324-9fa6-467e-25dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e730-b801-5c8e-9dfe",
+          "id": "40ca-90cd-55e7-4978",
+          "name": "Devourer"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b1f7-fdcf-f1d3-4677",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cd23-77c8-2669-4196",
+          "id": "83d7-22c7-f0c4-410f",
+          "name": "Basic Bio-weapons"
+        }
+      ],
+      "id": "e963-055a-6dac-4511",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "462c-5f30-dfd9-1686",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "6b78-147f-9a17-4c0e",
+              "type": 4,
+              "field": "selections",
+              "scope": "d254-4969-7e67-32a9",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "4f19-dad3-ec46-f6f2",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "6b78-147f-9a17-4c0e",
+              "type": 2,
+              "field": "selections",
+              "scope": "d254-4969-7e67-32a9",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

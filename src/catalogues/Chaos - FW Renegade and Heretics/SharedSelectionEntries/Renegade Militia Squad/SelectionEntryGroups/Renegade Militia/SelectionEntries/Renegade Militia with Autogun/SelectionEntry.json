@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia with Autogun",
+    "prevIdentifier": "Renegade Militia w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "391a-6af2-476d-3b21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "95c0-234c-5dd4-b66b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "92e8-dee4-88c3-7fcb",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "540e-836c-9bdf-5a63",
+      "name": "Renegade Militia with Autogun",
+      "infoLinks": [
+        {
+          "targetId": "fcde-3e6a-e240-1157",
+          "id": "a1d2-5f4d-bf76-8391",
+          "name": "Autogun"
+        }
+      ]
+    }
+  ]
+}

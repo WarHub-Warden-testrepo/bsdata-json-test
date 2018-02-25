@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "identifier": "Land Raider Redeemer",
+    "prevIdentifier": "Land Raider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 244.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1981-389d-ea96-54fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "6a57-6601-2ed5-8c1a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f68e-49ed-3b6f-d617",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1aaf-b8e6-6e41-9ea5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "01d5-0711-7204-1797",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "98e5-0d75-03c2-6954",
+          "id": "301e-9980-2eb4-04db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "6377-20d0-9582-d3e3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "195d-8416-e1e5-942e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "59b6-75b2-9041-fd3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f09b-e29b-c7e0-c9e1",
+          "id": "65bd-fb88-251c-e231",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ecfa-b8e0-7a59-5aeb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "19dd-3e80-2efb-97b4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "8e2b-7d6c-de51-0678",
+          "name": "Twin assault cannon"
+        }
+      ],
+      "id": "869d-5b59-034e-c6c1",
+      "name": "Land Raider Redeemer",
+      "infoLinks": [
+        {
+          "targetId": "3b1f-9681-e00e-7fba",
+          "id": "e3b4-a622-1caf-291a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5402-f5a0-69c1-36aa",
+          "id": "4034-ff71-6b5d-84d4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "aa86-82c9-197b-9d57",
+          "id": "e7ba-6e0f-e0f5-8e6e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6b1c-516d-3596-e867",
+          "id": "2325-834f-9baa-893a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b341-2797-56ae-b35c",
+          "id": "22f5-666d-fdf3-5350",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3d5d-287b-d8b9-9399",
+          "id": "0eba-6593-6d91-e29f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "e32f-1981-ce02-5d7c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ab45-de36-5093-3c20",
+          "id": "07c9-b74a-4b0e-3888",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Transport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Minotaur Artillery Tank",
+    "prevIdentifier": "Macharius Heavy Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 280.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "bea6-8c17-aa26-9aaf",
+          "id": "758a-f80e-e4b0-b33e",
+          "name": "Stat Damage (Macharius)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a1dc-4a69-6e17-515e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "ec06-917f-6660-7d5a",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "ae7a-4efb-2fde-0cdb",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "fe6d-a64c-43b3-18c5",
+      "name": "Minotaur Artillery Tank",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "8add-48f5-b89f-8dc0",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "f505-bfe1-b238-0c41",
+          "id": "1ff0-a6ce-d4fa-69f3",
+          "name": "Explodes (Super-heavy)"
+        },
+        {
+          "targetId": "62e4-243e-c188-2d88",
+          "id": "95f6-e19d-1109-6bb3",
+          "name": "Steel Behemoth"
+        }
+      ]
+    }
+  ]
+}

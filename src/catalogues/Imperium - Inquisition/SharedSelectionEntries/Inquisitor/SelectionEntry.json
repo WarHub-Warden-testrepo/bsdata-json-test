@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "identifier": "Inquisitor",
+    "prevIdentifier": "Inquisitor Karamazov"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "78cc-daf7-1448-610f",
+          "id": "9e28-d4e5-87d0-e14d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "89b1-5090-709c-41a6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5461-ac2a-1471-f908",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "21fd-eeac-b3cc-5930",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c623-6648-5f9f-5847",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "9c66-9072-6763-b84b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f438-4790-5deb-fd95",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "96c9-0cbc-f6c1-92a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8ea6-a93a-bc41-852a",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "4d43-d74c-f5a1-f00a",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "6aae-e1f6-b00f-2de8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "8baa-a45f-39dc-e805",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "5138-d14c-0a57-646b",
+          "id": "789f-8523-8da9-6db1",
+          "name": "Ordo"
+        }
+      ],
+      "id": "0b13-8c12-cbea-300f",
+      "name": "Inquisitor",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "3cb4-a77d-5ddc-ba71",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "bc43-57e4-a885-d347",
+          "name": "Unquestionable Wisdom"
+        },
+        {
+          "targetId": "429a-6af1-4e37-1330",
+          "id": "cd24-7c22-61fd-fe9a",
+          "name": "Iron Will",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ee86-5bfb-fa38-59fd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "0b13-8c12-cbea-300f",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

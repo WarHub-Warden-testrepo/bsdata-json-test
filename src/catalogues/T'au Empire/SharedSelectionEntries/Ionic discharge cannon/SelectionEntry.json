@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Ionic discharge cannon",
+    "prevIdentifier": "High intensity markerlight"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "92d8-d540-ea46-c965",
+      "name": "Ionic discharge cannon",
+      "book": "IAI: Xenos",
+      "page": "45",
+      "infoLinks": [
+        {
+          "targetId": "e2df-e9c3-e032-68e3",
+          "id": "d6f8-a0f9-7cae-0c4c",
+          "name": "Ionic discharge cannon (Standard)"
+        },
+        {
+          "targetId": "8926-5187-242e-a078",
+          "id": "4e3e-04fb-b098-7c17",
+          "name": "Ionic discharge cannon (Nova reactor)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "bcc6-5ed3-90de-f2ea",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

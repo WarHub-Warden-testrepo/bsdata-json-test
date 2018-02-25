@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Special Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "collective": true,
+      "constraints": [
+        {
+          "id": "87aa-4079-206c-680f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "id": "8269-8990-0871-f4ea",
+      "name": "Special Weapons",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "87aa-4079-206c-680f",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "a313-e2fe-afb2-600a",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "87aa-4079-206c-680f",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "a313-e2fe-afb2-600a",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

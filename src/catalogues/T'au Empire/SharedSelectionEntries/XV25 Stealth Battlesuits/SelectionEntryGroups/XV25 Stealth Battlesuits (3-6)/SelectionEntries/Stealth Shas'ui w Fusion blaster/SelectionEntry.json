@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Stealth Shas'ui w/ Fusion blaster",
+    "prevIdentifier": "Stealth Shas'vre"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "e891-0aec-8d98-3284",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "88cb-a8b4-cb30-5d06",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "f1d9-db9f-e605-3d1e",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "283e-33d4-386a-ea6e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bf73-d08e-99be-3000",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2241-81b8-e500-4afb",
+          "id": "e2a8-f3bb-851a-c91f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b9b1-b1ed-24b1-c469",
+      "name": "Stealth Shas'ui w/ Fusion blaster",
+      "infoLinks": [
+        {
+          "targetId": "2721-d55e-c098-be60",
+          "id": "90fe-e3c6-9e5c-f7e9",
+          "name": "Stealth Shas'ui"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e891-0aec-8d98-3284",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "e891-0aec-8d98-3284",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "39d9-299d-b3a4-4cef",
+              "type": 2,
+              "field": "selections",
+              "scope": "fdc4-beac-82bd-0e50",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

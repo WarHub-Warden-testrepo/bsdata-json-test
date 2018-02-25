@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Warlord Trait",
+    "prevIdentifier": "Weapons of Torture"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3dfe-7b2a-1fab-be8b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a2f6-875d-2067-4a12",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5ff4-b75d-f77e-47a5",
+          "id": "4368-e530-1290-a154",
+          "name": "Hatred Eternal"
+        },
+        {
+          "targetId": "853b-9d19-704f-6757",
+          "id": "b927-0c56-e952-e9af",
+          "name": "Blood Dancer"
+        },
+        {
+          "targetId": "4f49-c843-12ee-07f2",
+          "id": "b146-978f-2f8f-5309",
+          "name": "Master Regenerist"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "1598-2d01-5819-fb7d",
+          "name": "Warlord Traits (BRB)"
+        },
+        {
+          "type": 1,
+          "targetId": "f673-3d9b-bb1b-377f",
+          "id": "9373-5a73-d07f-6610",
+          "name": "Warlord Traits (CA)"
+        }
+      ],
+      "id": "7de1-3715-26ec-4ef8",
+      "name": "Warlord Trait",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "33f6-60da-7b70-5fee",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

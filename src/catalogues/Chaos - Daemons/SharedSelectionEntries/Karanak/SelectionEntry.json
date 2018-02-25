@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Karanak",
+    "prevIdentifier": "Bloodmaster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f858-0818-a784-0c95",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "e980-e39d-4b33-89d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "49b5-db2c-abd3-90fa",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "2652-68a1-fc29-e225",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dbe-cdf5-8fa1-36da",
+          "id": "6798-1d02-c7c4-7cfe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "e395-c949-11e6-bebb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "c6d9-f194-3aae-f4d1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "8106-4142-de65-3061",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "ca86-644f-cb91-953a",
+          "name": "Warlord"
+        }
+      ],
+      "id": "b91e-a5fc-d9d4-bf08",
+      "name": "Karanak",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "2cad-c25e-97e7-add3",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "e188-5cde-82a6-6533",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ea78-399f-19c0-53fa",
+          "id": "9b47-d1be-c62a-e218",
+          "name": "Unstoppable Ferocity"
+        },
+        {
+          "targetId": "8c49-71a2-0715-6a31",
+          "id": "1b85-8d3f-b2b6-4634",
+          "name": "Aspect of Death",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "b91e-a5fc-d9d4-bf08",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

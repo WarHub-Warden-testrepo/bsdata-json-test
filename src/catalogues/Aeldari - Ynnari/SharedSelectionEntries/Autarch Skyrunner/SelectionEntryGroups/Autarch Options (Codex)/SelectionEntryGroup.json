@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Autarch Options (Codex)",
+    "prevIdentifier": "Pistol Choice"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "daf2-cf48-029d-952b",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "403a-e838-1703-713a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "be77-55ff-2dd4-023a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "53d2-70a9-6433-1905",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "8c11-dbaf-f781-fde4",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "53d2-70a9-6433-1905",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1b3a-65e9-93e5-d47d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "84c2-cb59-3691-823f",
+          "id": "7576-6ebe-20f3-dfc1",
+          "name": "Fusion Gun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c220-889a-65f5-b694",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "74a1-2d9c-f3b5-52b2",
+          "id": "2439-869c-d16a-7585",
+          "name": "Laser Lance"
+        }
+      ],
+      "id": "1494-2d6f-a37a-b159",
+      "name": "Autarch Options (Codex)",
+      "modifiers": [
+        {
+          "field": "403a-e838-1703-713a",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "e74b-a6fd-a2f1-b3f4",
+              "type": 2,
+              "field": "selections",
+              "scope": "7a74-f56b-28ad-cd55",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

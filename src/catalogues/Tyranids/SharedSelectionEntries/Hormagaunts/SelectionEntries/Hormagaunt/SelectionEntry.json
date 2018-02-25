@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Hormagaunt"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5caa-20dd-75f0-894a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        },
+        {
+          "id": "6a39-6da3-7e67-d208",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 30.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7d53-d373-c0dd-6095",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "704c-ac2f-3ae4-fe5b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e552-a95b-c018-994d",
+          "id": "db97-3a32-c37e-5945",
+          "name": "Scything Talons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d593-b379-dd82-9e3e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b9ad-3827-329a-0e6e",
+          "id": "28e5-74ea-4617-edcb",
+          "name": "Adrenal Glands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2778-25fc-7f61-a985",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "86da-9fd2-6d4c-734d",
+          "name": "Toxin Sacs"
+        }
+      ],
+      "id": "07f0-7c6c-e476-a37f",
+      "name": "Hormagaunt"
+    }
+  ]
+}

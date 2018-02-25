@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "identifier": "Imperial Space Marine",
+    "prevIdentifier": "Hellblaster Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7e2e-c975-41b0-8c31",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "5d9d-f9b3-f0a1-9406",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "06db-32e3-0d0f-facb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "950e-d8f4-e019-ed79",
+          "id": "0773-9646-8ded-406d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f45f-3e6a-13b2-b750",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "67d4-e4c7-d2ab-d1b7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "1816-1ea9-e208-4cbc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8bb5-6003-a5ee-2a78",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3e25-409d-dbac-4102",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f014-b248-65d0-28c7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dc17-09cb-c84b-e837",
+          "id": "e2b0-36ff-9be5-a5ae",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "27f3-9e9b-8994-29d9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9cd3-436c-d9ee-1883",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9728-3bce-75d9-803a",
+          "id": "9e8d-3a50-b04e-dd74",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "322d-f464-cebf-19f6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e1dd-3418-0317-dca3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "a1d2-57ae-dcac-a4b1",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4456-36bc-1b14-da0f",
+      "name": "Imperial Space Marine",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "a501-62cd-d391-7c1e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c96a-237c-d53d-65ea",
+          "id": "2364-43ab-067c-67bb",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

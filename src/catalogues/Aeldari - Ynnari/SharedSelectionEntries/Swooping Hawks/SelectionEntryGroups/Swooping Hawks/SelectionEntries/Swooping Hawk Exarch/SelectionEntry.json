@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Swooping Hawk Exarch",
+    "prevIdentifier": "Swooping Hawk"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "af58-79c7-0b71-ec5d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fb6f-8399-9a80-ab80",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "e747-22e6-0dcf-3e20",
+          "name": "Power sword"
+        }
+      ],
+      "id": "dd27-d753-d745-07f5",
+      "name": "Swooping Hawk Exarch"
+    }
+  ]
+}

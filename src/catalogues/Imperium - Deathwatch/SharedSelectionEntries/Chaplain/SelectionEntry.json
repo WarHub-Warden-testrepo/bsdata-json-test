@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "identifier": "Chaplain",
+    "prevIdentifier": "Watch Captain in Terminator Armor"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 72.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "27c0-077b-07be-dbd1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "544d-11b5-3081-06fb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cad2-685e-486d-ada7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "2027-b909-21af-bfca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "8df4-b033-4b47-26dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1de2-a1ec-963d-cb17",
+          "id": "0e54-0cfc-36ca-7e9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6ced-cfc7-e3fa-9809",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "12d2-32a6-f020-5bca",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4263-1c79-6e3a-7c10",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "3241-590c-5795-5e16",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a5f1-8f5f-9bc3-806f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e235-00e8-20b3-22f0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "bd8e-263c-8d82-3fd6",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ca4c-1873-faa8-f76e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "0149-8c3f-ee2d-eead",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "de00-11d5-2371-36ca",
+          "id": "261e-7175-3b7d-7ed7",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "a06a-d610-aa13-235d",
+          "id": "6d8d-1a3f-08af-1e87",
+          "name": "Relics"
+        }
+      ],
+      "id": "d017-aac3-f78b-b0af",
+      "name": "Chaplain",
+      "infoLinks": [
+        {
+          "targetId": "7e82-cdc9-6125-be30",
+          "id": "0828-455d-f272-9c49",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b7b9-274a-1b87-3b67",
+          "id": "af3c-1061-40a6-8b1d",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "d943-5837-a31d-577c",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "5449-84ea-b594-a19a",
+          "id": "1881-c0b1-d0e7-75b4",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "6c67-90b2-b8bc-b615",
+          "name": "Special Issue Ammunition"
+        }
+      ]
+    }
+  ]
+}

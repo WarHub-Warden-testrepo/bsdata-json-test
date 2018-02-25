@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Warp Spiders",
+    "prevIdentifier": "Swooping Hawks"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "9553-96d3-2257-8bb8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "f00e-b39d-efaf-d8a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "3e2d-f204-8179-fd1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "1faa-00f3-61fa-fac5",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "02c2-bf10-8b55-a7b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b49b-51b6-749d-c447",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "c406-4c0f-f6fc-941a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "faff-d107-13da-ab02",
+          "id": "6527-a0bc-a926-636c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "3728-bed0-c30b-2625",
+      "name": "Warp Spiders",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "93fb-a837-d5c1-22f8",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "8933-2b8b-583d-2fdd",
+              "type": 1,
+              "field": "selections",
+              "scope": "3728-bed0-c30b-2625",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two missile launchers",
+    "prevIdentifier": "Two twin lascannons"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b17c-5b6a-ccdc-bf7c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d811-67ba-113e-c49e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "84e8-f987-d653-c280",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3b1b-d8d8-3fd1-bc52",
+          "id": "fbb1-4859-c046-859f",
+          "name": "Missile launcher"
+        }
+      ],
+      "id": "669d-d303-33e0-7d89",
+      "name": "Two missile launchers"
+    }
+  ]
+}

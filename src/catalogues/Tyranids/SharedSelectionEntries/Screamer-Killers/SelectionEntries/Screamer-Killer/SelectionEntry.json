@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Screamer-Killer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1422-dd76-5077-f8f7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "1aa5-c45a-90ad-3589",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6add-27c4-b127-8414",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "c0fb-da3c-43ff-eef9",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "387c-c1f8-2715-4a4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "54dd-6dc9-203d-765e",
+          "name": "Adrenal Glands"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2143-b05b-b714-721c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6c79-005f-7fc6-aceb",
+          "id": "3e93-49c5-c36e-dc22",
+          "name": "Spore Cysts"
+        }
+      ],
+      "id": "6cac-1b65-3b80-c0f0",
+      "name": "Screamer-Killer"
+    }
+  ]
+}

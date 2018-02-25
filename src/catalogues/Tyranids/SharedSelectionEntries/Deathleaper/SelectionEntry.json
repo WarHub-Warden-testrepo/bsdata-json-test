@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "identifier": "Deathleaper",
+    "prevIdentifier": "Zoanthropes"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "43d0-ee6e-638a-16ec",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "6f9b-12da-bcf3-b478",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "63a7-17e2-ac27-3715",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8d66-0ea3-150e-c4a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "ff77-7d59-a80f-5bdb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e07b-7485-f403-af4c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cc90-4ec4-47e7-6aaf",
+          "id": "e9de-e7a7-ca94-ed45",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3064-69ac-53f8-b0b4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "69c4-1afa-c4a8-0fcc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e8ab-6677-781d-991b",
+          "id": "ff98-e6bd-7a7e-15c2",
+          "name": "Flesh Hooks",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7051-bed0-6440-fc0f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "55dd-580d-4e9a-38b3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a50e-4043-d535-0f3a",
+          "id": "7f1b-4a49-317f-f058",
+          "name": "Rending Claws",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "cdb4-d61f-0fd8-94e6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b203-0121-f14b-f866",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2fca-289b-5d26-71a3",
+          "id": "d158-b2e0-ad0b-7f40",
+          "name": "Grasping Talons"
+        },
+        {
+          "type": 1,
+          "targetId": "25a0-b547-6079-03a1",
+          "id": "51db-dbfb-bebf-e71b",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "74b5-854a-fb6e-ab43",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c832-2f4e-ee51-f481",
+          "id": "0059-9d22-1999-0ec8",
+          "name": "Warlord"
+        }
+      ],
+      "id": "0e09-72a3-df36-ebd8",
+      "name": "Deathleaper",
+      "infoLinks": [
+        {
+          "targetId": "0968-9abb-f742-8581",
+          "id": "ccf2-2587-9a88-7a52",
+          "name": "Hidden Hunter"
+        }
+      ]
+    }
+  ]
+}

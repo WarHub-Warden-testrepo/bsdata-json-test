@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "identifier": "Mortarion",
+    "prevIdentifier": "Brutal assault weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 24.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 470.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "7078-de25-5dc6-0c26",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "e4ce-90ee-3df3-45f2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "0804-4abe-a846-fb3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8308-6393-0ce1-4bf9",
+          "id": "b4af-fe3e-0cea-a4c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "59de-3e5b-9539-336c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "0811-8af4-90c6-b861",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "8e11-f6b0-b3ae-1be5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "298f-d173-2159-919f",
+          "id": "a71f-9673-d160-a9a0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "6fae-ba42-f83c-b9af",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "9255-b738-b1ea-5367",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "677e-d92b-700c-d2f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c940-6653-e034-772f",
+          "id": "0ca5-36d1-689d-7479",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "37e5-1a44-893e-22af",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9cd8-3a92-a40c-841e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "7ad7-54a3-bfea-e8f8",
+          "name": "Smite"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bb75-3b87-a85e-42d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "51d0-6d01-4ab3-4953",
+          "id": "89b5-6a62-c2f4-5d2d",
+          "name": "Contagion Discipline"
+        },
+        {
+          "targetId": "56e6-7785-729b-7138",
+          "id": "6171-907a-9359-5752",
+          "name": "Phospex grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7e2b-1f54-9362-2179",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a840-f0b3-abac-6d1c",
+          "id": "fb71-5909-b2a9-5e47",
+          "name": "Warlord"
+        }
+      ],
+      "id": "0e51-2a41-8394-7f6b",
+      "name": "Mortarion",
+      "infoLinks": [
+        {
+          "targetId": "8f11-6c2b-25e0-d130",
+          "id": "cab9-a38b-0056-8003",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "targetId": "c365-8ca4-3ee1-1677",
+          "id": "2e13-187e-0d4c-b09c",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "7b62-4576-6ae3-ffb1",
+          "id": "22c9-e61b-1366-02b7",
+          "name": "Arch-Contaminator",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "a840-f0b3-abac-6d1c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "0e51-2a41-8394-7f6b",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

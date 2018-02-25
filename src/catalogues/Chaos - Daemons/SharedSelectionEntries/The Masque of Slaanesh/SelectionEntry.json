@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "The Masque of Slaanesh",
+    "prevIdentifier": "Plague Drones"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 78.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a522-0459-5373-2ae4",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7812-238e-4a94-67ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "2b60-dff1-61f4-8256",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "fd80-0085-4ac9-0c8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e3b8-b2bd-b57c-448e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "a9c7-f034-a302-e6ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "5c13-dc18-fb00-439b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31eb-b14e-89a2-73d1",
+          "id": "d734-5b9e-8313-1d58",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4ad0-7149-cdc4-7426",
+          "id": "0cf0-2299-2249-baa7",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "50bd-2519-bb0b-c24f",
+          "name": "Warlord"
+        }
+      ],
+      "id": "1cf7-c768-d3f1-7908",
+      "name": "The Masque of Slaanesh",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "a8ac-f056-ee9d-97ff",
+          "name": "Daemonic"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "1347-d3ae-704c-f829",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "879f-7b47-bc3b-f770",
+          "id": "8337-8a37-1572-581b",
+          "name": "Quicksilver Swiftness"
+        },
+        {
+          "targetId": "3278-e0b2-af8b-1a22",
+          "id": "5565-39ad-2994-defa",
+          "name": "The Murderdance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "1cf7-c768-d3f1-7908",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

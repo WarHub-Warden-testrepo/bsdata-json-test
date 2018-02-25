@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "91ff-ce0f-02da-27e9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ab0f-6a33-0cb7-e1eb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6036-29b3-b72e-40c9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "d6ee-92a0-4d0b-0e13",
+          "id": "ea4a-57c8-bc8b-59a8",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "3571-e0b1-5a96-08e5",
+      "name": "Veteran w/ Lasgun",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "1674-ab68-f6e2-c18b",
+          "name": "Veteran Guardsmen"
+        }
+      ]
+    }
+  ]
+}

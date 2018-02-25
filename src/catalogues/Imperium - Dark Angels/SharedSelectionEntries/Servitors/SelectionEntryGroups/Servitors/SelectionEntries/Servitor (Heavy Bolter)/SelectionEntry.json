@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "identifier": "Servitor (Heavy Bolter)",
+    "prevIdentifier": "Servitor (multi-melta)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bc17-1b8c-6a23-b70c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8e7e-72cb-ec89-8cf1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ce5d-baa0-8bf1-5785",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f5a6-291a-54be-1e6e",
+          "id": "43a3-b123-6de7-c0e5",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "62f3-5ce0-dc45-e0f7",
+          "id": "8acb-d9b1-a8d4-f09a",
+          "name": "Servitor"
+        }
+      ],
+      "id": "d0b1-6453-2333-93c2",
+      "name": "Servitor (Heavy Bolter)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "bc17-1b8c-6a23-b70c",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "84e5-1384-d482-6db4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "0a91-d903-beb0-c6bb",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "bc17-1b8c-6a23-b70c",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "69d4-f824-8f40-7bc4",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "0a91-d903-beb0-c6bb",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

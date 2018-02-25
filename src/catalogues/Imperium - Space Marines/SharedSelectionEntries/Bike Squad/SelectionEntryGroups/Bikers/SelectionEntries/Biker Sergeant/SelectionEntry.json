@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "identifier": "Biker Sergeant",
+    "prevIdentifier": "Space Marine Biker w/Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8e49-b34b-5b0b-6994",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b2cd-99f0-2b39-6370",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5b57-2e9b-5504-6e09",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9304-e380-e2a6-b739",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1082-7c72-499f-f5bd",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c0b2-acd0-a529-9d90",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b35-d4d3-6c8a-d559",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "1ba0-febf-9f3a-da44",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "df93-7987-a7f6-76d2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            },
+            {
+              "id": "006d-5b11-422b-5319",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f11e-6eca-c706-dff0",
+          "id": "ebe5-670e-4c19-c30d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ee66-0b18-b836-a882",
+      "name": "Biker Sergeant"
+    }
+  ]
+}

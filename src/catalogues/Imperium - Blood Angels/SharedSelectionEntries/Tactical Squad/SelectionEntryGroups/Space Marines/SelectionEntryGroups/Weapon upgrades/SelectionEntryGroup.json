@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Weapon upgrades"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "716c-8e7a-dde8-58a5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "4d98-fe28-8139-a50e",
+      "name": "Weapon upgrades",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "716c-8e7a-dde8-58a5",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 2,
+              "field": "selections",
+              "scope": "a0c4-8919-ae87-0d7b",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

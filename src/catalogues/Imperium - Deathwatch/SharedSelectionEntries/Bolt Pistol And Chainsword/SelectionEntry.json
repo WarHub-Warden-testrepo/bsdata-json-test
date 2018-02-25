@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol And Chainsword",
+    "prevIdentifier": "Thunder Hammer and Storm Shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "45ab-0cfe-e917-7856",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e982-7aff-aaaf-abf0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ab90-f0c3-d1cd-8494",
+          "id": "1ed8-5697-caee-b8b9",
+          "name": "Bolt Pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "100e-fea2-b181-a725",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "9f4c-dab5-2ae0-2d74",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "bfbc-94ab-7f08-b94d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4e36-53b0-1545-e3f3",
+      "name": "Bolt Pistol And Chainsword"
+    }
+  ]
+}

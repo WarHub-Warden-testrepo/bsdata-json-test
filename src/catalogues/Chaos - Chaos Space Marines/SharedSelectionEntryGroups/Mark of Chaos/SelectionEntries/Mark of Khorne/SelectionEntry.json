@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Mark of Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2ba8-9f29-a5b3-cf0f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d441-c62d-9543-d182",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "9abf-1e5d-c943-a32b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c919-21bc-48b7-0423",
+      "name": "Mark of Khorne",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "e691-aad7-d21c-1023",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "d441-c62d-9543-d182",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "e536-b475-827e-e3cf",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

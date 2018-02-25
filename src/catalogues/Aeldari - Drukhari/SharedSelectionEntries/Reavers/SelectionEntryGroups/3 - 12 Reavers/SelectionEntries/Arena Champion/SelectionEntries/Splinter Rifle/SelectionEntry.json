@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Splinter Rifle",
+    "prevIdentifier": "Splinter pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "7826-4a7f-1d9d-d09e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9be8-dba1-67a3-23c8",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "abbb-9e23-9d0e-fb60",
+      "name": "Splinter Rifle"
+    }
+  ]
+}

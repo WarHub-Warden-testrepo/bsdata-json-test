@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "identifier": "Kayvaan Shrike",
+    "prevIdentifier": "Crusader Squad"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f71b-68a5-778e-7801",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e456-55c7-b2c7-a750",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7dbf-fe75-1337-8efe",
+          "id": "e714-b9b4-00e6-3988",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "48d0-fd51-5aa5-4d3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "d79a-b826-75cf-cf9c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5e78-54fb-b9ef-4aa1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "0a15-4b9a-928b-2fc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "e913-6dd8-7ee5-824c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4a77-68f1-02be-974b",
+          "id": "e684-b8a0-263b-1276",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "585b-59ac-7a1c-c6ac",
+          "id": "ff37-da82-68dd-ae51",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7261-3f03-b2b8-66e7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "541e-77a4-5ee0-9900",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "a2ec-cee2-d4ae-2acd",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "27a3-4a37-6ee1-1c5b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f28c-99c3-f2e1-1aea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7c0d-3711-03bc-ffe2",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "7d87-c5ca-f243-815f",
+      "name": "Kayvaan Shrike",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "8f1c-674b-6adb-dc31",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "fdb4-b1a5-3c97-6400",
+          "id": "c26b-c070-ecd8-4ed1",
+          "name": "Chapter Master"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "0c9f-3002-38aa-0458",
+          "name": "Iron Halo"
+        },
+        {
+          "targetId": "d167-aae2-932c-cded",
+          "id": "6a01-be2a-6f94-5d93",
+          "name": "Jump Pack Assault"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "8c64-7dd6-895b-75ac",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

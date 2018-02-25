@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "identifier": "Stormhammer Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c7b5-a0f3-58fa-5688",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5fb9-fbf0-4b64-2a8d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "c59d-9508-57e5-e81a",
+      "name": "Stormhammer Cannon",
+      "infoLinks": [
+        {
+          "targetId": "92be-1bfc-f355-f214",
+          "id": "49c6-b474-ea70-4d09",
+          "name": "Multi-laser",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Co-Axial Multi-laser"
+            }
+          ]
+        },
+        {
+          "targetId": "e807-fc4d-8f8a-81fe",
+          "id": "1db7-e753-5d38-997b",
+          "name": "Co-axial Weapon"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Hive Guard",
+    "prevIdentifier": "Hive Crone"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "4fe7-d6b4-17f6-97f4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "20e5-0bf8-b363-6fde",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "073c-9911-b705-136d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4d78-35db-29c2-342d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c941-0aa1-f972-429c",
+      "name": "Hive Guard",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "cb66-c288-cb57-1d5b",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "c941-0aa1-f972-429c",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

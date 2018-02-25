@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Heavy Gun Drone w/ 2x BC"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "36dc-7267-b0fb-e6ff",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dbb7-204b-9edc-58aa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "677a-9fdd-2bae-9250",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3c35-8e0e-0f50-ea83",
+          "id": "2ed6-4f18-ac8b-0018",
+          "name": "Burst cannon"
+        }
+      ],
+      "id": "8dec-dc88-fb64-1672",
+      "name": "Heavy Gun Drone w/ 2x BC",
+      "infoLinks": [
+        {
+          "targetId": "1155-b1f4-cb36-d000",
+          "id": "a1be-d3e6-5d60-e4cd",
+          "name": "Heavy Gun Drone"
+        }
+      ]
+    }
+  ]
+}

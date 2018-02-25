@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "identifier": "Elysian Lord Commissar",
+    "prevIdentifier": "Elysian Company Commander"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ada6-466a-f88f-263f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2a4b-b6d7-6191-edea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "b5e9-6e2f-ae66-9fb5",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b079-d9fc-48c3-c7e8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a15e-d306-c91c-d406",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "e49b-3f5b-47be-2716",
+          "name": "Frag grenade"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "2985-89bf-6487-f064",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8951-19ee-4d4f-29a9",
+          "id": "9365-227b-c243-bdef",
+          "name": "Elysian Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "9797-836a-090b-53b2",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "31e4-d604-5a8a-624d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "2d74-3aac-ad87-0a46",
+          "name": "Warlord"
+        }
+      ],
+      "id": "c80b-5795-b5b3-2bdd",
+      "name": "Elysian Lord Commissar",
+      "infoLinks": [
+        {
+          "targetId": "adb3-d0dc-70aa-7023",
+          "id": "ead4-3112-5576-e74f",
+          "name": "Iron Disipline"
+        },
+        {
+          "targetId": "b2ac-24d0-fec8-1d3c",
+          "id": "af25-bd72-bc57-d398",
+          "name": "Aerial Drop"
+        },
+        {
+          "targetId": "ef60-f866-d7a9-1e64",
+          "id": "d856-5bb9-a8c0-83cd",
+          "name": "Aura of Discipline"
+        },
+        {
+          "targetId": "d2d5-21ab-2905-f7a3",
+          "id": "94bc-be97-a4e2-c0aa",
+          "name": "Summary Execution"
+        },
+        {
+          "targetId": "ae62-fb85-ecb4-7a03",
+          "id": "fbac-a8b2-00db-bf0c",
+          "name": "Refractor Field"
+        }
+      ]
+    }
+  ]
+}

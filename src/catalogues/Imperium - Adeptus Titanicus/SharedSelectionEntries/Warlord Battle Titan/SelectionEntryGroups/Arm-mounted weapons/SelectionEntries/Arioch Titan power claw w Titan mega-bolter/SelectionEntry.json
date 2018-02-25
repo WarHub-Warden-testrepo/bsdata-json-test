@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "identifier": "Arioch Titan power claw w/ Titan mega-bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d572-db7b-f266-3a20",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fcad-3dbd-477f-59b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e5dd-022c-be98-e144",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3281-8187-4885-206c",
+          "id": "9d48-f6b0-c8fd-465c",
+          "name": "Arioch Titan power claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0d8a-ba88-99d1-f07b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4d83-19d7-27d9-f994",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b45c-9c9a-ccd6-c3d0",
+          "id": "1d47-f9d9-f41c-8bdd",
+          "name": "Titan mega-bolter"
+        }
+      ],
+      "id": "4543-dfbe-5458-de76",
+      "name": "Arioch Titan power claw w/ Titan mega-bolter"
+    }
+  ]
+}

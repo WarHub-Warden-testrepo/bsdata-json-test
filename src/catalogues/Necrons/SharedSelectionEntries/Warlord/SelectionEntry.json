@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Warlord",
+    "prevIdentifier": "Canoptek Wraith"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b76c-e796-980a-0c8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "4917-89ce-cb2d-0349",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "b2fe-266b-aa72-ef6d",
+          "id": "4a64-c8b1-b12d-9b87",
+          "name": "Warlord Trait"
+        }
+      ],
+      "id": "8056-ce75-9ad4-f269",
+      "name": "Warlord"
+    }
+  ]
+}

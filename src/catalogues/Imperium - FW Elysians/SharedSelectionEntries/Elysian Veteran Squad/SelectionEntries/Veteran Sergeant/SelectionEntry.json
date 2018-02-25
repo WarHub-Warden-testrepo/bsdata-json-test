@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fccd-9927-6152-985d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "ee6c-1832-e9fb-215c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ec3c-3089-2f43-9e8c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f6b-22ca-43dd-4782",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "28ae-ca9f-aa64-0fea",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "8951-19ee-4d4f-29a9",
+          "id": "213f-acea-b719-354f",
+          "name": "Elysian Melee Weapons"
+        }
+      ],
+      "id": "d75b-4f34-74d3-00c7",
+      "name": "Veteran Sergeant",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "305d-f278-4cf4-feb3",
+          "id": "1244-2dfa-f104-a98d",
+          "name": "Veteran Sergeant"
+        }
+      ]
+    }
+  ]
+}

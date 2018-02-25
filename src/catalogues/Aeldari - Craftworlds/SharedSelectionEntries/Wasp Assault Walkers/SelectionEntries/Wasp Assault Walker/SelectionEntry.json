@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Wasp Assault Walker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 65.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7c79-2269-38f3-e6a4",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "9082-7102-0cb6-5f4c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "bd4f-04ce-5ed7-2074",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "6fd4-29cd-3844-9541",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "4faa-5226-7a72-95f5",
+          "name": "Heavy Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "5b45-a0c3-8fab-b7bf",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "c877-20b4-45ee-d35b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7d84-2892-c4e1-b2a1",
+          "id": "778a-413f-fb6b-afde",
+          "name": "Heavy Weapons"
+        }
+      ],
+      "id": "df5b-12ba-24a5-3109",
+      "name": "Wasp Assault Walker",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "52f3-2309-1d01-5d02",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "2b13-8d4b-91b1-03ae",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

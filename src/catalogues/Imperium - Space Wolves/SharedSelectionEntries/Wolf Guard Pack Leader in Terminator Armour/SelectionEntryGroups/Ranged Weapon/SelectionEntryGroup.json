@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "c1fa-ba78-b018-54bd",
+      "constraints": [
+        {
+          "id": "129f-caa9-12e8-8d58",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "c5f0-533c-73f9-0573",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cf42-9249-590c-c0db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "c1fa-ba78-b018-54bd",
+          "name": "Storm bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "c2e5-51cd-d8e4-b511",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "34dc-5967-1d48-86ba",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "febf-86a5-0451-237f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5771-4b58-6078-1faf",
+          "id": "284a-f848-b6e3-edae",
+          "name": "Space Wolves Terminator Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "ad4c-0362-d674-b511",
+          "id": "51c6-36db-4343-d4ee",
+          "name": "Terminator Heavy Weapons",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "6fdb-3701-0b68-8dea",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1850-89ec-5dd3-7792",
+      "name": "Ranged Weapon",
+      "modifiers": [
+        {
+          "field": "129f-caa9-12e8-8d58",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "c5f0-533c-73f9-0573",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

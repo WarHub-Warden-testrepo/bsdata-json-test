@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "identifier": "Howling Banshees",
+    "prevIdentifier": "Dire Avengers"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "e061-e765-43b5-4536",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "6712-722f-51a8-667f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "aae8-2865-01c7-53d9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "be14-07c0-7e79-27fc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "1e93-63a0-c647-9d75",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f5a0-6498-0d77-7f1b",
+          "id": "5491-218e-471d-20c7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "1a1b-71c0-d425-7f3d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a3e-94b0-174c-a0ff",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1a20-712b-0d73-2951",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "af4b-d622-fbd4-168a",
+          "id": "4901-6258-3bcc-e961",
+          "name": "Banshee Mask"
+        },
+        {
+          "targetId": "025e-590f-a8cf-fcca",
+          "id": "9f39-a728-13f0-aa4a",
+          "name": "Acrobatic"
+        }
+      ],
+      "id": "cffa-a91b-5693-5fa9",
+      "name": "Howling Banshees",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "2098-8532-7ccc-45e2",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "79fa-2beb-7064-5bed",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "2f76-7e05-e5d0-d7f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "cffa-a91b-5693-5fa9",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

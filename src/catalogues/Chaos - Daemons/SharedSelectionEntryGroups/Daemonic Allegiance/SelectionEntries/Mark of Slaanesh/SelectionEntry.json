@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Mark of Slaanesh",
+    "prevIdentifier": "Mark of Nurgle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d191-de53-8861-f5e9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "47cc-073e-e3f0-910e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5f80-d703-c945-2111",
+      "name": "Mark of Slaanesh",
+      "infoLinks": [
+        {
+          "targetId": "879f-7b47-bc3b-f770",
+          "id": "9308-cff6-d448-fc14",
+          "name": "Quicksilver Swiftness"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "d191-de53-8861-f5e9",
+          "value": "0.0",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "c047-a750-7057-082f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "b65b-0d90-94ce-ffad",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "4a74-3874-4059-d979",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

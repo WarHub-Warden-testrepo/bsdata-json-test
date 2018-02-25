@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "identifier": "Lukas the Trickster",
+    "prevIdentifier": "Iron Priest on Thunderwolf"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 118.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "55f6-fe0d-c49c-a6e4",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "996b-8a22-1fe8-c599",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c3d1-c2ce-1d72-36c1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "da6f-30c2-d49b-ba34",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "fd71-a928-584e-73ba",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "72a1-e75c-64cb-8dd5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7ea1-82d2-2ce3-e18f",
+          "id": "49bf-e279-9ea6-d569",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "32bc-dc49-5c8a-2449",
+          "id": "1ad4-1620-a9d6-40f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "3192-0ec0-21e7-4e2b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6817-4f10-937c-dab0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ed15-a78a-72f1-35a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6449-3081-1ba3-4ee7",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0102-c45c-dda6-4d34",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d7e2-78e1-24e4-c677",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "2798-3402-1aa9-05d7",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "1552-318c-8160-6d07",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4f72-b1fc-1da2-58d3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "11d1-df62-f2f8-2282",
+          "id": "6de2-26e1-e109-1ad8",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "22dd-47d4-fba2-d181",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "bf9e-5482-145e-0a1d",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fc0b-f238-2159-3272",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "bc44-d644-67de-6791",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "fc0b-f238-2159-3272",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "8d43-e183-8b40-56b5",
+      "name": "Lukas the Trickster",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "3a10-a425-975e-f2e8",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "2a55-144c-0bdc-0aee",
+          "id": "f65d-ff9d-f0e3-804b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "9824-d874-a503-482f",
+          "id": "1937-b3dc-098a-ee2f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ca24-1713-e31f-023f",
+          "id": "3b95-4e75-167e-8163",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7e41-990b-9df2-d3e7",
+          "id": "1838-4b1e-4e0f-0da5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "f284-1dd2-f1c1-be66",
+          "id": "14eb-baac-d65d-6b3b",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

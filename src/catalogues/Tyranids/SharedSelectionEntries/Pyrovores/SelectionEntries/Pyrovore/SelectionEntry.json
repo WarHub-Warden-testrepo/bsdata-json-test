@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Pyrovore"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 38.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7c0b-9a10-c677-42f0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "717a-abba-416d-ca68",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f2c6-6f9b-7baf-c211",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5b33-5d3c-ca1f-86a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f571-04c9-570f-c924",
+          "id": "6dff-3ea5-1ac6-d4d9",
+          "name": "Acid Maw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "747e-158d-921b-1c97",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e058-8c53-2ce8-bd23",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7839-5645-f962-5ff8",
+          "id": "bd5f-eb44-c210-13a7",
+          "name": "Flamespurt"
+        }
+      ],
+      "id": "ad0a-7a90-e642-f04e",
+      "name": "Pyrovore"
+    }
+  ]
+}

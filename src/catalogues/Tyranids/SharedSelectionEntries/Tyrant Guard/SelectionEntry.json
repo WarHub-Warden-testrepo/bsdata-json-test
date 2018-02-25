@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Tyrant Guard",
+    "prevIdentifier": "Tyrannofex"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "8fd4-5238-09cc-f154",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "e561-f464-8e52-419e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "b1b0-e7a7-4fb3-c35c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "0b80-2f29-e744-4a51",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "66df-c9ba-5ea8-e524",
+      "name": "Tyrant Guard",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "34e1-c150-f224-b491",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "66df-c9ba-5ea8-e524",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

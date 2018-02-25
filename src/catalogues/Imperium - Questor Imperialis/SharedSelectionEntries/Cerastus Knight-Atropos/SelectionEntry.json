@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "identifier": "Cerastus Knight-Atropos",
+    "prevIdentifier": "Heavy flamer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 29.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 405.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "b73c-633f-413f-5043",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "b58c-d56b-d8af-166e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "c8cc-c351-80c7-23b5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "108b-f413-b9c1-739c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c611-3236-557f-82d7",
+          "id": "5981-513e-7c0d-b481",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "8284-da63-0587-717d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "b408-1439-61d1-a1ca",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "459b-6d57-6f04-23a3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b727-31b4-b11c-bc61",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "90c5-e27f-e6ce-2556",
+          "name": "Titanic feet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d8fb-2455-de23-d631",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c2f6-fa79-6034-17f1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1f4a-eb7d-316a-4768",
+          "id": "b85e-02f5-e28f-732b",
+          "name": "Graviton singularity cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dca1-50c5-a829-a706",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "392f-1311-c2c2-769a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d81-9b6b-5267-b4f9",
+          "id": "36f0-9a4d-2777-9e4b",
+          "name": "Atropos lascutter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "e69a-853e-0777-a807",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "8d81-08c6-57dc-02df",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "da0c-14d5-ff6e-27cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "231e-7d9c-4059-de6d",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "6ac5-d82a-1d6f-406c",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "bd69-2c59-df05-9954",
+      "name": "Cerastus Knight-Atropos",
+      "book": "Imperial Armour Index: Forces of the Astra Militarum",
+      "page": "97",
+      "infoLinks": [
+        {
+          "targetId": "b4f7-1007-957b-07ce",
+          "id": "1f1d-5295-12fb-7e27",
+          "name": "Cerastus Knight-Atropos"
+        },
+        {
+          "targetId": "9d73-c55c-3048-df16",
+          "id": "a224-096e-0bb9-71f2",
+          "name": "Blessed Autosimulacra"
+        },
+        {
+          "targetId": "77eb-2a36-2c78-02d7",
+          "id": "a63f-238e-f833-65da",
+          "name": "Explodes (Unstable Reactor)"
+        },
+        {
+          "targetId": "eda1-ba88-7192-826e",
+          "id": "d0ac-17c0-a1ad-490f",
+          "name": "Flank Speed"
+        },
+        {
+          "targetId": "c2ec-9728-e39b-11df",
+          "id": "5e11-39ed-c222-d951",
+          "name": "Ionic Flare Shield"
+        },
+        {
+          "targetId": "2ae2-5fe3-ef1e-223c",
+          "id": "3c46-6e81-cf39-4c75",
+          "name": "Knight Titan"
+        },
+        {
+          "targetId": "5b05-e703-5860-0f1e",
+          "id": "8a3e-8048-eb82-249f",
+          "name": "Macro-extinction Protocols"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Death Jester",
+    "prevIdentifier": "Shadowseer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "1310-2f42-35c9-913c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "cbd7-3a75-e415-2852",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "e028-7b9d-cc97-3e58",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "8536-aee0-825d-43be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "efa2-6f72-c9e6-5a84",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "e4a5-fb33-bf6f-d6e3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8cea-6aca-b79d-fd73",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e408-108b-290c-80cd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1ed4-125a-cd0b-cf43",
+          "id": "8054-dbf9-9335-3196",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "305c-7184-81fb-2bd3",
+          "id": "e29f-c871-e18a-7794",
+          "name": "Warlord Trait",
+          "isHidden": true
+        },
+        {
+          "type": 1,
+          "targetId": "16e7-958e-0d9b-8280",
+          "id": "b7c2-ae04-f6fb-3923",
+          "name": "Relics"
+        }
+      ],
+      "id": "7c62-2472-fac5-49a1",
+      "name": "Death Jester",
+      "book": "Warhammer 40,000: Index: Xenos Vol 1",
+      "page": "70",
+      "infoLinks": [
+        {
+          "targetId": "74fb-ab0a-0ef5-ce0d",
+          "id": "87e9-ee3d-85c3-34de",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "86a8-5c65-d40b-d0a6",
+          "id": "4da4-b903-5a73-c3fe",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "a32c-8b04-88f0-c716",
+          "id": "b65f-7606-e2bd-f7e8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

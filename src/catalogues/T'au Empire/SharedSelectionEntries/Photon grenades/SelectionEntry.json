@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Photon grenades",
+    "prevIdentifier": "Pulse blaster - 34"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "aad7-54f6-b30f-b9fd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e151-224c-d4d2-2cd8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1e4a-b5fd-7be4-3f90",
+      "name": "Photon grenades",
+      "infoLinks": [
+        {
+          "targetId": "88da-c6a8-d656-a579",
+          "id": "2855-5acc-3270-70ca",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

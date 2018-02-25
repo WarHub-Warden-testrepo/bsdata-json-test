@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Company Veterans",
+    "prevIdentifier": "Company Ancient"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "94a8-86a3-4b86-4855",
+          "id": "a1be-dc1f-b9be-c3f5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3ad5-7717-0b82-5190",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "7d1e-73f0-cb9f-efec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "339f-3bb9-0c10-034b",
+      "name": "Company Veterans",
+      "infoLinks": [
+        {
+          "targetId": "d488-59b5-28cb-96fd",
+          "id": "6e76-ccf9-0636-3cff",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ce0c-1f2e-f7b4-90db",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "0675-d000-0e91-89dd",
+              "type": 4,
+              "field": "selections",
+              "scope": "339f-3bb9-0c10-034b",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

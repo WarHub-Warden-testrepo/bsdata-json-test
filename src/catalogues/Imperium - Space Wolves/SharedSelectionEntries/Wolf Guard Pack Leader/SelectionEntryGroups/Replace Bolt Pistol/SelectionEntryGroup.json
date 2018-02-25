@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "identifier": "Replace Bolt Pistol",
+    "prevIdentifier": "Replace Chainsword"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "82a6-e7e4-a268-1b4a",
+      "constraints": [
+        {
+          "id": "c25a-3039-7e56-02be",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "d098-4236-6786-93fe",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "fabe-9aad-4bb2-c2ad",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "7f09-4a38-01f4-3e9a",
+          "id": "64f7-6f7a-dc14-7b50",
+          "name": "Space Wolves Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "31d2-4ec5-a686-f619",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "fa20-794d-19c4-910a",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d070-0163-a2a5-cd56",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "82a6-e7e4-a268-1b4a",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "6ddf-13b8-298d-1654",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "666f-7062-57a3-a044",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "72f4-8459-5beb-3edb",
+      "name": "Replace Bolt Pistol",
+      "modifiers": [
+        {
+          "field": "c25a-3039-7e56-02be",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3271-0d41-552b-2b6e",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "d098-4236-6786-93fe",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3271-0d41-552b-2b6e",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

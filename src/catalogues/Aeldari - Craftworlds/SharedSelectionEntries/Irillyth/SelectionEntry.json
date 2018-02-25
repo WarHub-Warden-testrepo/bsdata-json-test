@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Irillyth",
+    "prevIdentifier": "Titanic Stride"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5b02-13b8-dac5-44f0",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "aa53-68b5-e3ce-ae97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "7e08-dd45-d8c5-8757",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "de6e-55df-de23-38e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "9959-209b-b5e8-822a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "cda5-45aa-b2da-12d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5740-911f-6fc9-2b41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f813-382a-f375-fdd5",
+          "id": "1531-7be6-6302-7ee2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1df6-6b35-ab52-1df3",
+          "id": "75eb-588f-e6f8-b53c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8fcf-1689-f668-c645",
+          "id": "859d-ff1f-e8b2-bbc2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "9faf-4b64-236e-3606",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "15b8-98ec-bb9f-6997",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cac2-3221-63f5-8608",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "df23-715b-e60d-69ea",
+          "id": "3515-f69a-5a51-cd91",
+          "name": "Spectre Holo-field"
+        }
+      ],
+      "id": "08bc-5214-d2ab-0a28",
+      "name": "Irillyth",
+      "book": "IA - Index: Xenos",
+      "page": "76",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "4e05-390c-c67b-6a9d",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "f2ca-83c3-e1ad-11b8",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

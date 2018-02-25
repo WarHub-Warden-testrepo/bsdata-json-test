@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "identifier": "Scythed Hierodule",
+    "prevIdentifier": "Meiotic Spores"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 350.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 22.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "eb55-282e-27ae-2786",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "6452-37c9-0814-dab7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "6232-7caa-90c1-00d3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "1b3c-3b81-4b17-5d9d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "cdda-7fff-4535-1e5a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1e6e-a5ea-5f7d-297e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ac84-fdb8-1d18-0d95",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4272-bdbd-78b2-08bf",
+          "id": "541b-89c9-e508-79d6",
+          "name": "Bio-acid Spray"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a19a-ab63-339c-0dfd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "fded-2487-0ec0-88dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f906-1281-9e25-d59e",
+          "id": "b6df-87be-6287-04e3",
+          "name": "Massive Scything Talons",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "30"
+            }
+          ]
+        }
+      ],
+      "id": "633b-45d1-420d-61ba",
+      "name": "Scythed Hierodule",
+      "infoLinks": [
+        {
+          "targetId": "851d-aabd-c21e-f72c",
+          "id": "d579-519d-27d0-5a3f",
+          "name": "Agile"
+        },
+        {
+          "targetId": "e083-5f8f-f165-bfa8",
+          "id": "64e7-cd6c-1c1f-4c79",
+          "name": "Death Throes (Hierodule)"
+        },
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "c44e-3b27-0f34-e961",
+          "name": "Instinctive Behaviour"
+        }
+      ]
+    }
+  ]
+}

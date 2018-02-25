@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "33c2-dd06-c990-63be",
+      "constraints": [
+        {
+          "id": "1411-64b3-9944-fdec",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f0dc-f416-ecb7-63a2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c10b-e1a4-c913-ae15",
+          "id": "33c2-dd06-c990-63be",
+          "name": "Laspistol"
+        },
+        {
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "79b4-18f1-e930-8265",
+          "name": "Bolt pistol"
+        },
+        {
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "fe6d-a4c3-ae7c-7bb7",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "id": "34a0-0bcc-3e72-6fa8",
+      "name": "Ranged Weapons"
+    }
+  ]
+}

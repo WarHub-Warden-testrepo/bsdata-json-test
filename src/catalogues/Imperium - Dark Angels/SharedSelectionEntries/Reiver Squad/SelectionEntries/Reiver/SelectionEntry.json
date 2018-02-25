@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Reiver",
+    "prevIdentifier": "Reiver Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "1438-7547-63c9-d748",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "95b1-cc08-4414-45f2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6ca2-80a9-1bfa-01ef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c6ac-339a-ef1d-e00c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4d6c-aa15-aaef-5cf4",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8048-6c2e-cf90-dc33",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bf63-a1de-cf7e-2fc5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1842-7cf8-e39e-2731",
+          "id": "e392-425d-4ffc-c315",
+          "name": "Shock Grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8929-ee3a-149b-a5a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0f58-1653-dfa3-b510",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "62da-9654-dc82-4021",
+          "id": "850b-c133-0bf3-212b",
+          "name": "Heavy Bolt Pistol"
+        }
+      ],
+      "id": "8980-84de-4a90-966b",
+      "name": "Reiver"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Lelith Hesperax",
+    "prevIdentifier": "Kabalite Trueborn"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 125.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "65be-8137-264b-c14b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "9355-7d5a-f75c-4d96",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f30e-a003-4b58-ea72",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5cb0-6240-0750-a014",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "4f1a-5bf8-d37a-8fce",
+          "name": "Warlord"
+        }
+      ],
+      "id": "4d2d-8f34-03e5-91ca",
+      "name": "Lelith Hesperax",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "937f-fbc6-b056-5802",
+          "name": "Combat Drugs"
+        },
+        {
+          "targetId": "43d0-fa61-a437-7911",
+          "id": "a15b-b440-db30-4589",
+          "name": "No Escape"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "b13e-1e01-28ca-16c2",
+          "name": "Combat Drugs"
+        }
+      ]
+    }
+  ]
+}

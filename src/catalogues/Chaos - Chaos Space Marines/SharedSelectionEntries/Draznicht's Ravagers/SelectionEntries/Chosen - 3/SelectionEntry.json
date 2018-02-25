@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "identifier": "Chosen - 3",
+    "prevIdentifier": "Chosen - 2"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2221-141a-04ae-7886",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2959-4141-bb8a-9e64",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1a75-a2b5-b650-2576",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "07b2-e763-dc47-5d5c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "dc2c-d897-fa68-888f",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d1e3-b0e0-dc4a-c422",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7d62-3116-b6cd-70dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "183a-a319-9ba3-541e",
+          "id": "ed8c-c2f7-60da-e9e3",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "854d-15dc-db81-c6cb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "65c6-e1d2-c49e-b82a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "001b-2269-e334-effe",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2b9a-a311-4e49-71fa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1a53-82c9-6648-038b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f122-3720-fa32-4215",
+          "id": "0e29-6e84-f351-8d7c",
+          "name": "Power fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12"
+            }
+          ]
+        }
+      ],
+      "id": "00af-706c-b0ef-440d",
+      "name": "Chosen"
+    }
+  ]
+}

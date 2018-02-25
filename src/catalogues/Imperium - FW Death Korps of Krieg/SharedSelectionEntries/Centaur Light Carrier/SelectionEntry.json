@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Centaur Light Carrier",
+    "prevIdentifier": "Atlas Recovery Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "47d4-8831-4fcc-2ab8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "eb47-b140-6d04-2258",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "7783-101d-b504-9feb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "178e-e8ec-3c68-d0d6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfa3-5fcd-af10-5520",
+          "id": "3d6a-bbe7-5266-6acb",
+          "name": "Heavy stubber"
+        }
+      ],
+      "id": "4ae1-9361-09c8-d275",
+      "name": "Centaur Light Carrier",
+      "infoLinks": [
+        {
+          "targetId": "69cd-7f66-0f86-718b",
+          "id": "b352-8f6d-cbc1-04ef",
+          "name": "Artillery Tractor"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "2e72-0e84-e830-b1cc",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "f33e-bcad-26bc-0ada",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

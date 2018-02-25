@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Gallian's Staff (replaces force stave)",
+    "prevIdentifier": "Standard of Sacrifice"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c093-6559-7ee9-5bd6",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "f77f-cb20-544a-4fc2",
+      "name": "Gallian's Staff (replaces force stave)",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "5830-68e3-f762-f066",
+          "id": "d220-cf6a-f850-9b7b",
+          "name": "Gallian's Staff"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "3d10-0420-b210-b091",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                },
+                {
+                  "childId": "c150-13fe-d2ff-141d",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

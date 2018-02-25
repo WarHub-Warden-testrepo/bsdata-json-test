@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Raptor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 17.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "03b6-d605-d608-aa87",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 14.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e1a1-4f3b-2cce-6963",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8ae3-e544-0f15-2b6b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9dcb-448b-3e84-b504",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8359-17ea-718b-a791",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6888-5714-47ec-f9f3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "704f-026f-22fd-89d5",
+          "id": "e21d-415e-85cd-119b",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2269-7101-95fc-0073",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6ea9-7f92-f3ef-9bab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "71cf-b69d-7621-b85e",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "f032-104c-ca73-2ab6",
+      "name": "Raptor"
+    }
+  ]
+}

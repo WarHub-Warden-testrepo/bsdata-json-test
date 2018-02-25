@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Sororitas Rhino",
+    "prevIdentifier": "Hospitaller"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 73.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b57d-c2a9-2713-8872",
+          "id": "0511-a326-ff4e-c8dc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9324-1e8e-5e8e-d7c0",
+          "id": "8790-1ae4-c2b1-b3ec",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "62b4-cf8c-b00b-5e17",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "1b66-3f5f-6705-079a",
+          "id": "20c8-4b38-0288-2b23",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b2b7-d551-3173-10c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb08-85be-1032-4bf7",
+          "id": "3e49-4e6c-3773-0d76",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8682-57ae-7c84-50f1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d837-1ca1-7549-26b8",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "98e3-ce4a-d68e-ac93",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7b28-2fc3-a5ec-05e3",
+          "id": "ce7a-e723-1a12-fcba",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "af88-bb91-625a-3dca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "5d17-3c87-b181-78dd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9272-c5a7-3c3f-7a80",
+          "id": "1bab-5a2a-fe04-1c3f",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "9be6-1599-e087-859f",
+      "name": "Sororitas Rhino",
+      "book": "Index: Imperium 2",
+      "page": "102",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "102846c2-5cb2-a2bc-5273-7fb66aceaca7",
+          "id": "7af1-e922-f394-0699"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "81e8-9a37-70a1-768d",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "3de1-4e9a-6ff2-7407",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

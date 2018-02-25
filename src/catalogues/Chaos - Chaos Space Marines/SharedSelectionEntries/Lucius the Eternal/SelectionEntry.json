@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "identifier": "Lucius the Eternal",
+    "prevIdentifier": "Khorne Lord of Skulls"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 115.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxInRoster",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "5af7-d6b2-4c55-979f",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "d3e7-290d-f3e8-6a14-848a6ff2-0def-4c72-8433-ff7da70e6bc7"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "4c76-0d91-b13b-fba6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eb55-bd6b-3e75-d505",
+          "id": "efd2-1bf3-af4a-6252",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "7583-54a0-cf79-1490",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "649f-80f9-0d71-64c3",
+          "id": "b66a-5a7d-96e7-8dfe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "06ba-8a16-6c0f-9ab5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5289-16cb-276c-2712",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "a988-ee91-4915-4cba",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ece2-cfcd-df86-1e4f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a8c3-96b2-6fb0-c902",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6263-39b3-2a97-ef61",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bd8d-2476-e1bd-adcd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bbb0-94d7-d83a-bf45",
+          "id": "ea8e-8d4a-b0f8-bd6a",
+          "name": "Doom siren",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fe96-4516-3be1-6375",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "398a-c8da-c8bd-da58",
+          "id": "613a-497c-4345-478b",
+          "name": "Warlord"
+        }
+      ],
+      "id": "d3e7-290d-f3e8-6a14",
+      "name": "Lucius the Eternal",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "4ed7-cdfc-ebfc-c428",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "17d1-2906-ef22-a4f2",
+          "id": "ba9e-1535-f91f-1e28",
+          "name": "Stimulated By Pain",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "398a-c8da-c8bd-da58",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "d3e7-290d-f3e8-6a14",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "5af7-d6b2-4c55-979f",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "51f6-1db1-3e75-3d4b",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

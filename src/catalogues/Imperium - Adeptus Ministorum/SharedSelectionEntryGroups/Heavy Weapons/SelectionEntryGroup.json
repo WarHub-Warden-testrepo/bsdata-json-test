@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Heavy Weapons",
+    "prevIdentifier": "Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "3e04-4239-f73c-50cb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e947-ce27-1380-9d70",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca26-2d2b-9776-4ca1",
+          "id": "c131-81af-4c98-8905",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3871-a9e8-93ea-f845",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "01b3-559a-aee6-99d3",
+          "id": "807b-7412-171d-c80c",
+          "name": "Heavy flamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a74d-d9d4-2d12-d49e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "34d0-5946-8d4a-baa2",
+          "id": "3409-5d72-6686-9fea",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2b80-16a0-9b4a-4327",
+      "name": "Heavy Weapons"
+    }
+  ]
+}

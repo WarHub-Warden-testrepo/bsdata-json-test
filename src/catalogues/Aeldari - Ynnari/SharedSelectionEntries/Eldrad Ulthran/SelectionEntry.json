@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "identifier": "Eldrad Ulthran",
+    "prevIdentifier": "Skyweavers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cd6c-92c0-4de1-bc4e",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "0259-c1fd-82b4-3b7e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "3a80-f230-8aec-5d9e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "dee6-7fff-d919-93fe",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "a9dd-d9e8-1d69-3b69",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "551f-cbe9-d067-fbe9",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ec3f-b3eb-d0ee-cfa8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c486-604d-7d7b-90db",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "efaf-e8e1-3601-d520",
+          "id": "c6ba-50b7-1e1a-f7a4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d467-20f9-c557-a29b",
+          "id": "f618-b2d9-34cd-5d39",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0e06-4ac5-f17a-ef59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "424b-9272-89c1-3cd0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "7f58-11af-d17f-2e32",
+          "name": ""
+        },
+        {
+          "targetId": "d5ab-14f4-66d1-e77f",
+          "id": "010a-dccf-c8bf-1216",
+          "name": ""
+        },
+        {
+          "targetId": "a87c-cada-0755-be79",
+          "id": "4bff-9955-f406-7f0d",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "0048-4ccf-5353-3b13",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5f8d-737a-220d-2718",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "65ee-a36e-7a75-e331",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "b281-dabb-7362-fd40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "da60-aba9-5ff7-4787",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "140c-ccab-c0a9-f51c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "920e-363c-7d57-e7b7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5436-5e1e-93b3-da67",
+          "id": "795a-57de-d1aa-15bb",
+          "name": "Runes of Fate"
+        },
+        {
+          "targetId": "c6b7-515c-db41-e4fb",
+          "id": "3faa-92b6-a2ff-07a5",
+          "name": "Ulthwe: Fate Reader",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "5707-4953-7cb9-796a",
+      "name": "Eldrad Ulthran",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "cc8d-6f62-33ba-0d95",
+          "name": "Strength from Death"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "identifier": "Tempestas Discipline",
+    "prevIdentifier": "Space Wolves Terminator Melee Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "bbe2-461a-1983-b7c2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d8a2-ba64-4bb2-1ce3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "8ae5-0b71-8a1b-a889",
+      "name": "Tempestas Discipline",
+      "modifiers": [
+        {
+          "field": "bbe2-461a-1983-b7c2",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b1bb-30a6-64f3-3a91",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "d8a2-ba64-4bb2-1ce3",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "b1bb-30a6-64f3-3a91",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

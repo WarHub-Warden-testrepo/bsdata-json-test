@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Ripper Swarms",
+    "prevIdentifier": "Raveners"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "f146-b2ce-9b7c-b3b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "5771-5b10-f5f9-001e",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "1e87-4588-aa5a-8646",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "7a53-eedc-8dbb-8505",
+          "id": "e7a5-3cb5-3346-2fd9",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "04a7-33a3-6396-b371",
+      "name": "Ripper Swarms",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "bd68-69ba-1961-9e0f",
+          "name": "Instinctive Behaviour"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "04a7-33a3-6396-b371",
+              "value": 4.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "04a7-33a3-6396-b371",
+              "value": 7.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

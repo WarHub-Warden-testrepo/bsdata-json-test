@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Vespid Stingwing",
+    "prevIdentifier": "Vespid Strain Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ba23-08e8-e4d4-a724",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a4e8-7781-11de-2179",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "81cb-8315-c546-93b7",
+          "id": "9391-f915-c7dd-200d",
+          "name": "Neutron blaster"
+        }
+      ],
+      "id": "0c21-01b5-3bc9-426e",
+      "name": "Vespid Stingwing",
+      "infoLinks": [
+        {
+          "targetId": "986a-40f1-e70d-0440",
+          "id": "5e02-a9bc-c236-68f3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

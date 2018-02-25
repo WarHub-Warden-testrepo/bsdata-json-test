@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia with Lasgun",
+    "prevIdentifier": "Renegade Militia with Autopistol & Brutal assault weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b07c-e983-98f1-74d0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a898-c6ed-54b3-583f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "4e87-0442-82e6-e69e",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "84e1-bfc9-57da-aa56",
+      "name": "Renegade Militia with Lasgun",
+      "infoLinks": [
+        {
+          "targetId": "d174-eb55-aaa6-d032",
+          "id": "cd10-92ea-4b69-3696",
+          "name": "Lasgun"
+        }
+      ]
+    }
+  ]
+}

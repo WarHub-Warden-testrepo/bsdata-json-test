@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard in Terminator Armour"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "45c3-1038-0deb-9f83",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bbfc-e75a-9251-b90f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4d28-0ebb-3015-a8f1",
+          "id": "4c16-346a-0634-292d",
+          "name": "Wolf Claw (Pair)"
+        }
+      ],
+      "id": "074a-8692-095e-1034",
+      "name": "Wolf Guard in Terminator Armour",
+      "infoLinks": [
+        {
+          "targetId": "483b-3787-c1a3-8e94",
+          "id": "3da2-02c3-df37-0a83",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "45c3-1038-0deb-9f83",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8800-5265-05ac-6b42",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

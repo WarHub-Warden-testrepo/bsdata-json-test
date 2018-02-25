@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "identifier": "Hellforged Leviathan Dreadnought",
+    "prevIdentifier": "Quad heavy bolter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 175.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "8a17-bf0d-b525-187b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "d055-3ca8-9361-b823",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "911a-8bb9-8166-be5b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2be6-f5e4-9b7a-c2f7",
+          "id": "cd16-6015-0dbc-e65f",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "0d56-b2f0-4e07-fbfd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "ee89-49cb-c4d5-3015",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "57f5-b985-11a8-e4bc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5fec-c3b6-2957-9362",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4f27-f60b-7d4d-24d5",
+          "id": "3cbc-25b4-c6ac-336a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "05ab-93fd-7f7b-b799",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "a5e8-da45-51a7-cede",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2a58-6abe-0fb2-8aa0",
+          "id": "4457-65c1-91dd-2569",
+          "name": "Hellflamer"
+        }
+      ],
+      "id": "f6c4-89ad-891b-4beb",
+      "name": "Hellforged Leviathan Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "0908-f808-dd28-309f",
+          "name": "Machina Malifica"
+        },
+        {
+          "targetId": "b1a6-697e-dc2d-e949",
+          "id": "26f1-01c7-184e-5482",
+          "name": "Dark Fury",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditionGroups": [
+                {
+                  "type": 1,
+                  "conditionGroups": [
+                    {
+                      "conditions": [
+                        {
+                          "childId": "c36a-56e7-7142-6669",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        },
+                        {
+                          "childId": "ca57-f8f3-c560-50da",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        }
+                      ]
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "childId": "c1d1-4102-c430-9840",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        },
+                        {
+                          "childId": "ca57-f8f3-c560-50da",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        }
+                      ]
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "childId": "c1d1-4102-c430-9840",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        },
+                        {
+                          "childId": "b229-bcd2-f0e9-79fe",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        }
+                      ]
+                    },
+                    {
+                      "conditions": [
+                        {
+                          "childId": "c36a-56e7-7142-6669",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        },
+                        {
+                          "childId": "b229-bcd2-f0e9-79fe",
+                          "type": 2,
+                          "field": "selections",
+                          "scope": "f6c4-89ad-891b-4beb",
+                          "value": 1.0,
+                          "shared": true,
+                          "includeChildSelections": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Wulfen",
+    "prevIdentifier": "Murderfang"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "1e6f-1425-d6b0-d995",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0d8c-2a55-f5e9-ad05",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "799b-c1a9-b01e-6255",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "869f-dd74-893f-a644",
+          "id": "a281-3c5e-a392-a5b0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ce2f-3627-74d7-1405",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e6e0-8434-6831-3299",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "6447-2e04-3339-8b65",
+          "id": "d23a-8642-a6c9-7e63",
+          "name": "Stormfrag auto-launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "e6e0-8434-6831-3299",
+              "value": "1",
+              "repeats": [
+                {
+                  "childId": "4863-8a89-9791-3d0c",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "da80-4870-f4be-2ac7",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "da80-4870-f4be-2ac7",
+      "name": "Wulfen",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "6ae6-1988-6fc9-da1f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "dff9-8720-7b3f-cd73",
+          "id": "c6e0-cfb6-58d0-ad61",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "5a12-3817-16bd-e139",
+          "id": "750a-b70e-585e-b95c",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "ac61-0f78-c1f9-50b0",
+          "id": "ea35-9086-448f-05b8",
+          "name": "Curse of the Wulfen (Kill)"
+        },
+        {
+          "targetId": "99cc-9481-1434-f224",
+          "id": "a5f7-8bad-7ef9-1f62",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "13",
+          "conditions": [
+            {
+              "childId": "4863-8a89-9791-3d0c",
+              "type": 4,
+              "field": "selections",
+              "scope": "da80-4870-f4be-2ac7",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

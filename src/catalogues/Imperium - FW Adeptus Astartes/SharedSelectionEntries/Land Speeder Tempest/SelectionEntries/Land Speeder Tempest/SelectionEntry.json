@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "identifier": "Land Speeder Tempest"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "183a-e5a2-1946-03c5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8293-9ba9-400a-b803",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "929b-7323-55e6-0430",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4097-2368-9dbb-b97a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "af24-3eb4-6e9b-bc6f",
+          "id": "4f08-f8d1-9fbd-42e7",
+          "name": "Assault cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9bce-7e70-ea4f-a469",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "d595-e39a-ead3-1c60",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cc81-3b89-35f5-e023",
+          "id": "f113-e537-4dfe-b2c3",
+          "name": "Tempest salvo launcher"
+        }
+      ],
+      "id": "7c79-864d-462c-365c",
+      "name": "Land Speeder Tempest",
+      "infoLinks": [
+        {
+          "targetId": "c427-e284-e004-acb3",
+          "id": "252d-4ec3-0a1b-550d",
+          "name": "Land Speeder Tempest"
+        }
+      ]
+    }
+  ]
+}

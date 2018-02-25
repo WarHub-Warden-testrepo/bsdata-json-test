@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Scion w/ Vox-caster",
+    "prevIdentifier": "Scion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9230-daa7-37fe-e47e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6c87-dfbe-f9ca-e945",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8532-41b6-049f-7095",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5563-fe60-717b-e5b6",
+          "id": "6624-167c-83ec-89ac",
+          "name": "Vox-caster"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5537-15fd-c5c3-71ab",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "37a1-06f2-c041-92cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "be4e-87d9-3bb2-4ecd",
+          "id": "b13b-c200-1956-1ee6",
+          "name": "Hot-shot Laspistol"
+        }
+      ],
+      "id": "69a0-58d3-9cd3-0b00",
+      "name": "Scion w/ Vox-caster",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "f51905c4-7ffb-3a41-ad86-de14eba93ba3",
+          "id": "b424-45d3-85b3-dd7a"
+        }
+      ]
+    }
+  ]
+}

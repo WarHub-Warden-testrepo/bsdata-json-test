@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Vanquisher Cannon",
+    "prevIdentifier": "Twin Heavy Stubber"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c30f-181a-99e6-70c5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7a9f-0ab9-f6a1-515a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "587a-19d4-6607-ba4a",
+      "name": "Vanquisher Cannon"
+    }
+  ]
+}

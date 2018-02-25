@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "identifier": "Reiver Squad",
+    "prevIdentifier": "Master-crafted stalker bolt rifle"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "3d91-c94f-1c87-2cf2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "e3f1-d461-b2fe-b166",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "bcd7-56c3-16f9-14d6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "53b7-cff3-c3b4-d36a",
+          "id": "44fb-1559-c4b8-7a9b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1932-effa-b590-5127",
+          "id": "352c-61ca-c134-38d1",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bc86-7826-f423-69a9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5974-060f-1f15-99c5",
+          "id": "994d-1274-4599-0aba",
+          "name": "Grapnel Launcher",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "f072-3250-fb48-8150",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "7046-e724-263b-4b74",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "20a9-4eb7-6ae2-ae3c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0093-b98e-176b-b326",
+          "id": "ebd4-2f63-82c9-1a71",
+          "name": "Grav Chutes",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "2",
+              "repeats": [
+                {
+                  "childId": "f072-3250-fb48-8150",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "7046-e724-263b-4b74",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "7046-e724-263b-4b74",
+      "name": "Reiver Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "30e7-223c-e1fc-d7d8",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "4d1e-f438-61a8-6800",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "f072-3250-fb48-8150",
+              "type": 1,
+              "field": "selections",
+              "scope": "7046-e724-263b-4b74",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

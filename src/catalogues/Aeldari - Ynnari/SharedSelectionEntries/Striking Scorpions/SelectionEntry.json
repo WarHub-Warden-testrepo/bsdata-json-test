@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Striking Scorpions",
+    "prevIdentifier": "Howling Banshees"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "3bb9-3014-ce83-a141",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "2164-d465-5425-ed4f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c1a6-1c19-4bba-5f28",
+          "id": "cc15-8528-d9cf-593e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "9e6b-a262-9c84-edbc",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f018-6db9-8845-8df9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "3e69-6703-bc4c-ff14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "72d7-b7b3-0773-39ce",
+          "id": "f825-1061-d8f1-26f8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0426-196f-471c-301c",
+          "id": "7c74-45b0-5630-41b2",
+          "name": ""
+        },
+        {
+          "targetId": "001a-1c6b-9904-4983",
+          "id": "c5d3-6b06-490f-b3d6",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "50d0-017a-38cd-8449",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "92d7-2071-ac79-230f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9320-450f-7034-b817",
+          "id": "ef3d-8b9d-d865-70a0",
+          "name": "Mandiblasters"
+        }
+      ],
+      "id": "a489-0319-b17e-60dc",
+      "name": "Striking Scorpions",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "b12e-67f0-f5aa-6e2c",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "bb6b-7c8c-37c8-4fc1",
+              "type": 1,
+              "field": "selections",
+              "scope": "a489-0319-b17e-60dc",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

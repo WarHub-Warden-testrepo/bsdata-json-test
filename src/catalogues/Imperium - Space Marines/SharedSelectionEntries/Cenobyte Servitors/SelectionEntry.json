@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Cenobyte Servitors",
+    "prevIdentifier": "Chaplain Grimaldus"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8637-037b-8b06-2823",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6c0-28c2-e5f6-9af7",
+          "id": "27b0-7d9d-9861-d19a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "9227-cbda-fc3e-f80c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6f86-94f8-8855-b3f6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "124b-64dd-5307-2aad",
+          "id": "03ef-1fda-839d-f2ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0262-aa2e-a67e-6774",
+          "id": "1e63-2230-bbc5-9a55",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "45fe-b432-4407-88bd",
+      "name": "Cenobyte Servitors",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "bf89-9471-d639-be6a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

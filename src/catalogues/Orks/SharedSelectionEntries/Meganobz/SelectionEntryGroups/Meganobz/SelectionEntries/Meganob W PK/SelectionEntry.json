@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Meganob W/ PK"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "6df7-0ee7-7e6d-b182",
+          "id": "e3ac-3133-7664-d106",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "49f5-a22c-ec31-dd50",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7723-127b-2899-41bd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe00-451f-6735-6fd9",
+          "id": "423c-d862-05af-92f3",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4229-c829-f56d-ba35",
+      "name": "Meganob W/ PK"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "identifier": "XV9 Hazard Support Team",
+    "prevIdentifier": "Commander in XV84 Crisis battlesuit"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "1cfd-9a96-4a20-3327",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "d536-ebab-9722-8bc4",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "8325-002a-382f-2ebb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "6a4b-211a-8d87-f77a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "5604-cac0-2ec7-3663",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "07fb-414f-832c-b988",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7c83-6685-f77f-ca11",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "a84e-f75b-8b35-7f01",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-4)"
+            }
+          ]
+        }
+      ],
+      "id": "1889-e443-ba55-023a",
+      "name": "XV9 Hazard Support Team",
+      "book": "IAI: Xenos",
+      "page": "44",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9442-5401-cd9d-9aa8",
+          "id": "7bad-3c90-c04f-96f1",
+          "name": "Bonding Knife Ritual"
+        },
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "f157-0aa8-b321-fac5",
+          "name": "For the Greater Good"
+        },
+        {
+          "type": 1,
+          "targetId": "fdde-a68d-bcf1-ae0a",
+          "id": "b00f-471e-e2d5-9bbb",
+          "name": "Manta Strike"
+        },
+        {
+          "targetId": "4d28-cb60-b2b6-e1fc",
+          "id": "0d8a-b8b3-d919-f7a5",
+          "name": "Photon Casters"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "a84e-f75b-8b35-7f01",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "1889-e443-ba55-023a",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

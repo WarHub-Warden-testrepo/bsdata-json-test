@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Death Cult Assassins",
+    "prevIdentifier": "Crusaders"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "76ae-cee8-24fc-5d25",
+          "id": "425d-1875-5630-37c6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "57e7-8f19-8374-5134",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "44aa-45e0-bf1d-4edc",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6dac-a764-085a-2299",
+          "id": "8ab7-4423-124c-0081",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "f0b2-534c-0a9f-b0a3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2017-cce4-5165-52eb",
+      "name": "Death Cult Assassins",
+      "book": "Index: Imperium 2",
+      "page": "92",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "2479a8f3-63b0-4d01-0a1f-673c73c5cb1f",
+          "id": "9a60-2f29-dbb6-2d56",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2017-cce4-5165-52eb",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2017-cce4-5165-52eb",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2017-cce4-5165-52eb",
+              "value": 7.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "2017-cce4-5165-52eb",
+              "value": 9.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Thunderhawk Assault Gunship",
+    "prevIdentifier": "Doomglaive Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1130.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 42.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "b6f9-be23-5d67-48cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "79a9-2fca-fdf0-9699",
+          "id": "b965-a87e-5331-2a59",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "385c-a6ea-3c76-9274",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "a0b9-55d9-e1b4-5ad8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "8ea1-abbf-87d9-9f3f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "1245-669d-437f-b4e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "7bec-ee3c-1f17-6ed3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "1d9a-9e89-8217-7019",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4641-ddc0-e56b-44e3",
+          "id": "fc8f-ca80-5555-faab",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dc27-d017-5c8a-7375",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "6bda-c71d-64fa-0da6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a908-4664-11cd-f8b2",
+          "id": "d0c1-b396-47da-5581",
+          "name": "Lascannon"
+        }
+      ],
+      "id": "ad4f-aef9-b95b-10f3",
+      "name": "Thunderhawk Assault Gunship",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "75f4-89e6-fc18-2369",
+          "id": "df71-53e6-75e1-7374",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "type": 1,
+          "targetId": "15ea-860d-9eb6-21c3",
+          "id": "ff71-c1b7-d0d3-ac46",
+          "name": "Airborne"
+        },
+        {
+          "type": 1,
+          "targetId": "8a1c-f19a-913b-f084",
+          "id": "c092-617a-ac55-3ce7",
+          "name": "Hover Jet"
+        }
+      ]
+    }
+  ]
+}

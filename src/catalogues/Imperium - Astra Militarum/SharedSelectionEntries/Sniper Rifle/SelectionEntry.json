@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Sniper Rifle",
+    "prevIdentifier": "Slabshield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 2.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "0bba-df88-0174-59d6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f991-409d-1583-ab29",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3370-f2d7-fbc3-b5e3",
+      "name": "Sniper Rifle",
+      "infoLinks": [
+        {
+          "targetId": "45a4-5982-7f8b-fb33",
+          "id": "d7b0-d227-b90c-0a8f",
+          "name": "Sniper rifle"
+        }
+      ]
+    }
+  ]
+}

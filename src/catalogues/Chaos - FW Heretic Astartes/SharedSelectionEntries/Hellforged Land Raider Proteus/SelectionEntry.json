@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "identifier": "Hellforged Land Raider Proteus",
+    "prevIdentifier": "Kheres assault cannon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 245.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "9b49-1371-064f-64a7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "a105-b2b1-452c-0867",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "236f-67e1-35d0-62a9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8160-cf00-43df-658e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "22e4-7818-d83b-8cac",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "6fb7-be6b-cf1c-b110",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "0f72-98fc-e88c-4bb9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "da71-24bc-f947-62e0",
+          "id": "4a15-c416-b8db-4ccd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "4cd4-4aba-67c4-2aa8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d35f-111a-fa56-923c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            },
+            {
+              "id": "a71a-f94a-f594-cc26",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "c73c-8b99-ef88-4783",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8fe1-4129-1906-a20f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "cbbe-cc9b-704c-2f10",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c040-43db-512e-6620",
+          "id": "146e-3f9d-dc51-ca2c",
+          "name": "Infernal hunger"
+        }
+      ],
+      "id": "cbe6-e033-9937-7a1d",
+      "name": "Hellforged Land Raider Proteus",
+      "book": "",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "e856-50fa-1164-8870",
+          "name": "Machina Malifica"
+        },
+        {
+          "targetId": "9adf-09bc-1635-b650",
+          "id": "a9df-e39c-49de-ce2b",
+          "name": "Smoke Launchers"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Mark of Slaanesh",
+    "prevIdentifier": "Mark of Tzeentch"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b2af-7b7a-c24a-2ee1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d14c-5069-4268-91c2",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1da2-76db-f76f-6b6c",
+          "id": "0825-3dc0-be0c-e20e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "81f9-01f6-e82e-7eec",
+      "name": "Mark of Slaanesh",
+      "modifiers": [
+        {
+          "field": "d14c-5069-4268-91c2",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "51f6-1db1-3e75-3d4b",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

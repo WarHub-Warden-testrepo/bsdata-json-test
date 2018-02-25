@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Flail of Corruption"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6661-9925-9fd4-8829",
+          "type": 1,
+          "field": "selections",
+          "scope": "e9b4-1d6e-8021-095f",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true
+        },
+        {
+          "id": "9a40-dd6b-7c4e-1039",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "95b8-c56a-b52b-7d92",
+      "name": "Flail of Corruption",
+      "infoLinks": [
+        {
+          "targetId": "bf08-247d-4629-3225",
+          "id": "3781-ad00-3188-1b66",
+          "name": "Flail of Corruption"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "6661-9925-9fd4-8829",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 2,
+              "field": "selections",
+              "scope": "e9b4-1d6e-8021-095f",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

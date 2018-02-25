@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Axe of Blind Fury",
+    "prevIdentifier": "Delightful Agonies"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "f716-c34e-0f90-65bc",
+      "name": "Axe of Blind Fury",
+      "book": "",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "3292-34e6-f679-d5b9",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

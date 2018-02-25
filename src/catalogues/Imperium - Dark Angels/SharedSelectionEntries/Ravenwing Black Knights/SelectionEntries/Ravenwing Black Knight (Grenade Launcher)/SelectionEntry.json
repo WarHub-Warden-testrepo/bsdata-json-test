@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "identifier": "Ravenwing Black Knight (Grenade Launcher)",
+    "prevIdentifier": "Ravenwing Huntmaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 46.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9a7e-7248-6f41-0fa1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "84fe-f60d-9f1e-1764",
+          "id": "5d22-95b4-ec3b-1e63",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3788-422f-9bae-d96c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5ab9-722b-70e3-35ef",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "2436-d8c8-77e2-6a54",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a5bf-597b-cb4d-f8e7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bc62-98bc-adc4-2e1c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "fd62-6bb4-fcbd-958d",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4724-0b43-76a6-4456",
+      "name": "Ravenwing Black Knight (Grenade Launcher)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "9a7e-7248-6f41-0fa1",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "5db6-09fd-b607-e027",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Flamer",
+    "prevIdentifier": "Pyrocaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 28.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8f31-da51-5fed-399a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 8.0,
+          "shared": true
+        },
+        {
+          "id": "7ff6-3b83-33c6-47b8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "7a65-1949-c996-8da6",
+          "id": "faa4-fe98-25db-bb66",
+          "name": "Flickering flames"
+        }
+      ],
+      "id": "eda0-3952-4e8f-ce99",
+      "name": "Flamer"
+    }
+  ]
+}

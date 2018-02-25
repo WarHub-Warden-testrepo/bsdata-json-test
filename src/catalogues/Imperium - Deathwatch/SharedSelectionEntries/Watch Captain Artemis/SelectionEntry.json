@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "identifier": "Watch Captain Artemis",
+    "prevIdentifier": "Guardian Spear"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 130.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "490a-b07e-ca6a-5abf",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "06a7-42f6-bed4-380d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "c446-45f5-8409-d75d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6200-e022-193b-9a5e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "15b5-a262-6af3-8437",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "8015-18e4-081b-c741",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0da7-4474-c112-ad2d",
+          "id": "9f57-abe2-4d16-8276",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "c43a-801a-9d09-6893",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3116-d732-890a-92ca",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "95c6-2539-158f-1b85",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "6c32-0149-fd8a-6993",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5ae9-f077-892a-9453",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a106-267f-89bd-54a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "bc56-1722-1a03-c553",
+          "name": "Power sword",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "dc4f-0a67-f187-643c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "bedd-2641-93f2-6c6c",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "de00-11d5-2371-36ca",
+          "id": "1343-cae2-188a-ee38",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "a06a-d610-aa13-235d",
+          "id": "cde3-a3b6-96b9-1d9d",
+          "name": "Relics"
+        }
+      ],
+      "id": "d042-f4b6-83aa-f962",
+      "name": "Watch Captain Artemis",
+      "infoLinks": [
+        {
+          "targetId": "83c5-c731-4688-c8eb",
+          "id": "270b-76cf-c5a6-28a2",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "1b36-8c10-55d2-4bab",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "5043-8c45-ff63-01bb",
+          "id": "241e-dc60-a821-ac7c",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3ddc-7d56-adf0-a82b",
+          "id": "8837-ccf1-21e9-e2f0",
+          "name": "Special Issue Ammunition"
+        }
+      ]
+    }
+  ]
+}

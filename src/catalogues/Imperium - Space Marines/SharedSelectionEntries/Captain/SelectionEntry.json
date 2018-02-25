@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "identifier": "Captain",
+    "prevIdentifier": "Company Champion on Bike"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 74.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "2a6e-0a4b-f8e7-e7ee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "acfa-07d8-7bbe-c284",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ab69-a2a7-215a-51e6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "0a2b-f9eb-ce6b-7f1e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a9f3-f834-4bdf-16d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8352-7f67-7e2b-3b4f",
+          "id": "7100-6d5d-2096-b512",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8d0e-68ea-4c38-8b5b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "91b8-0c43-a13c-0239",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "9757-e85c-de75-5683",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "181e-0718-160e-2e75",
+          "id": "d295-fef3-2f94-e992",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "19"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "a6c4-a5e2-d6f1-56da",
+          "name": "Relics"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b002-5d95-0884-c540",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6279-d79e-8e01-963c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "6c61-d837-ae55-d7f4",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "a0b8-6a5c-ea09-44f9",
+      "name": "Captain",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b977-9858-9a44-cbdf",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "242c-3bac-1ff3-48b0",
+          "id": "1974-ced4-be88-3117",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "922c-75db-5ca4-3750",
+          "id": "6434-0692-ffa1-e0e9",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

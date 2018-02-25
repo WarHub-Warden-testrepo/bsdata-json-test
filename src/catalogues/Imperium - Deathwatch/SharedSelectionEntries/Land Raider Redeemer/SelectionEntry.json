@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Land Raider Redeemer",
+    "prevIdentifier": "Land Raider"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 18.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 244.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6c4d-5f69-17d4-e4ea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "4c1b-af44-0dd8-2f72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6445-5bc0-f066-a58b",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "421e-c257-0ade-e1a8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2560-e46a-937d-38de",
+          "id": "83ad-cc81-7f5c-7b5f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "f2f6-49e3-3de4-b4ce",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1ab3-3fd9-44a9-2505",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e402-7190-a138-eda2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "5212-fea0-dafb-6478",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "05c9-3842-7eb8-3867",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "5292-95cf-c6dc-c0fd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f09b-e29b-c7e0-c9e1",
+          "id": "5b5f-8f06-37d1-91a8",
+          "name": "Flamestorm cannon"
+        }
+      ],
+      "id": "386d-3e9e-bfaf-bcfe",
+      "name": "Land Raider Redeemer",
+      "infoLinks": [
+        {
+          "targetId": "9e55-78af-ff73-24d6",
+          "id": "a3b1-a60f-9fb8-b1c5",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "3541-94a7-a138-358b",
+          "id": "d3f7-2926-5094-68ed",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "51af-0fb9-3ca5-d307",
+          "id": "6031-7354-eb43-c3a3",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a3b8-74b3-06b9-db2c",
+          "id": "76d6-69a2-615b-0d87",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

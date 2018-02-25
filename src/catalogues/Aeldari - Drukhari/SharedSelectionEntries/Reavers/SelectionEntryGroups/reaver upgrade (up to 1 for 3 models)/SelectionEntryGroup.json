@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "reaver upgrade (up to 1 for 3 models)",
+    "prevIdentifier": "3 - 12 Reavers"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "53ee-24f5-05e3-13c0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent"
+        }
+      ],
+      "id": "5a6a-cd55-dfd4-0c04",
+      "name": "reaver upgrade (up to 1 for 3 models)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "53ee-24f5-05e3-13c0",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "1556-f1bb-147a-f555",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "4da6-8b2a-acaf-d1fe",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

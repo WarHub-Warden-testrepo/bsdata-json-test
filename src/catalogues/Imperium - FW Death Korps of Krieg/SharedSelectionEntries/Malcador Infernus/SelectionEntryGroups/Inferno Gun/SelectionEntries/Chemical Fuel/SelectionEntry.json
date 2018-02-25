@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Chemical Fuel",
+    "prevIdentifier": "Flammable Fuel"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a68f-5712-8d21-8013",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "b723-e309-1555-fdfe",
+      "name": "Chemical Fuel"
+    }
+  ]
+}

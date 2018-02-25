@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Tomb Blades",
+    "prevIdentifier": "Tomb Blade"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "4d67-4dcf-6c59-18a0",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "f124-4e5d-4ca2-b99f",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "52bc-6362-5e87-bf60",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "ed89-f760-f4a6-b12c",
+          "name": "",
+          "book": "Index: Xenos 1"
+        },
+        {
+          "targetId": "c0ef-6b06-22f9-220b",
+          "id": "dada-36d9-33a5-d2fb",
+          "name": "",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d01c-1da0-778f-5afe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            },
+            {
+              "id": "1a4a-451a-0037-98e0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ff80-1682-a708-e772",
+          "id": "c017-13ff-ad36-09fd",
+          "name": "Tomb Blade",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "id": "86e5-0d3d-cacc-2c2c",
+      "name": "Tomb Blades",
+      "book": "Index: Xenos 1",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "cba7-3427-625e-eb99",
+          "id": "9554-36e5-8b07-6db9",
+          "name": "Reanimation Protocols",
+          "book": "Index: Xenos 1"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "86e5-0d3d-cacc-2c2c",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "15",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "86e5-0d3d-cacc-2c2c",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

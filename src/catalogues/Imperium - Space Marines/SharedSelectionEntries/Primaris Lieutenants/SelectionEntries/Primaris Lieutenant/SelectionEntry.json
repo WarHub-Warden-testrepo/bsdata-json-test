@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Primaris Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a0d2-aafe-f16d-df2d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b509-6feb-8259-6c1e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5b3b-fc62-1e44-4e13",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f896-d746-fe76-fa40",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "d5f5-32b1-e970-8d82",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c077-6db8-ff10-2876",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f3d2-c456-ed69-fe55",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "8c1c-93b9-ee8c-5c46",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "targetId": "e292-25b3-6cd4-f0ab",
+          "id": "b609-7dde-7058-1681",
+          "name": "Relics"
+        }
+      ],
+      "id": "0984-eff4-22ee-2e29",
+      "name": "Primaris Lieutenant"
+    }
+  ]
+}

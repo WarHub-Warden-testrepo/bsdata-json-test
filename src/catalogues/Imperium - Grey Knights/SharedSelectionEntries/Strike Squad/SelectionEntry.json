@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "identifier": "Strike Squad",
+    "prevIdentifier": "Psyk-out Grenade"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4c7d-8833-ad8f-9b89",
+          "id": "6996-f183-71b1-f09b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "31b6-b037-4c7a-f850",
+          "id": "5d5b-974f-55d0-7536",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "54c0-6086-0f37-5df7",
+          "id": "ee86-59ff-3235-f824",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ea4a-dca4-00c7-e7e2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "67e4-0fb7-09f1-ae31",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "8a86-b659-ce19-bb2e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "403a-512a-3225-44ed",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "3e03-77ff-3b4d-b0b4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "767b-e555-311f-cdbe",
+          "id": "6bed-fae1-6fb0-5dbc",
+          "name": "Grey Knight Justicar"
+        },
+        {
+          "type": 1,
+          "targetId": "8b6c-c5c4-89ac-574e",
+          "id": "0fe4-98cb-c921-6ebb",
+          "name": "Sanctic Powers (1)"
+        }
+      ],
+      "id": "e012-a289-720d-a36c",
+      "name": "Strike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "b1bd-1640-8dd7-a17f",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c424-f335-287f-f14c",
+          "id": "f64d-7c48-a8db-0e3d",
+          "name": "Rites of Banishment"
+        },
+        {
+          "type": 1,
+          "targetId": "a7db-5058-2216-4e6d",
+          "id": "7b5a-2b3e-cb9c-5c74",
+          "name": "Daemon Hunters"
+        },
+        {
+          "type": 1,
+          "targetId": "a29c-ad1e-441b-2167",
+          "id": "f5b0-77e7-a206-5a81",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "c046-073b-7a50-c436",
+          "id": "181a-c718-dfd7-7b6a",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b0e6-c2fd-8a9e-9258",
+          "id": "8b4a-a4c6-0a07-8e2a",
+          "name": "Psyker (Sanctic 1 Squad)"
+        },
+        {
+          "targetId": "142a-cae9-795d-d610",
+          "id": "2c54-c0bf-6bf7-b820",
+          "name": "Smite (Rites of Banishment)"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "9939-4098-d186-7d33",
+              "type": 1,
+              "field": "selections",
+              "scope": "e012-a289-720d-a36c",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

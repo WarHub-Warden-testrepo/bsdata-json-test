@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Deathwing Terminator"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 26.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a057-ff41-e20a-afda",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "17f4-9225-cf39-e930",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "a507-1f61-fa69-257b",
+              "type": 1,
+              "field": "selections",
+              "scope": "1f47-c287-f37d-7211",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "dd4c-0720-b709-457e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c32c-2b35-222a-6b63",
+          "id": "007d-4b05-808f-4899",
+          "name": "Cyclone missile launcher",
+          "modifiers": [
+            {
+              "field": "a507-1f61-fa69-257b",
+              "value": "2",
+              "conditions": [
+                {
+                  "childId": "eb73-2c07-8cb4-9cf3",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "1f47-c287-f37d-7211",
+                  "value": 9.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "eb73-2c07-8cb4-9cf3",
+      "name": "Deathwing Terminator",
+      "infoLinks": [
+        {
+          "targetId": "b08d-e2be-c4d2-d661",
+          "id": "c2b7-5835-90ce-3c1c",
+          "name": "Deathwing Terminator"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Primaris Psyker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 28.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "4e73-491c-d01a-5318",
+          "id": "19c6-c04a-2ee3-5f38",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "0c5d-c9de-1af8-fdc3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "863b-1aea-893c-fb2f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8b59-d0de-69c5-2c53",
+          "id": "1584-fa2a-0d24-e9b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "d71f-aafd-4618-2b6f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0890-8723-7184-d191",
+          "id": "91a0-3f73-cddb-ef2f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7f10-5a48-4690-7e7b",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "7267-56f4-f89c-4d5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dd59-c8d7-84f3-3c67",
+          "id": "c23d-ac93-df2c-5d47",
+          "name": "Psykana Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0301-2a4a-8814-6136",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "7e1c-8d38-2d09-ec53",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "515b-a427-45b3-071b",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "e58d-6a36-4927-24dd",
+      "name": "Primaris Psyker",
+      "book": "Codex: Astra Militarum",
+      "page": "34",
+      "infoLinks": [
+        {
+          "targetId": "5e70-965d-4d33-4589",
+          "id": "81b9-4261-0949-56be",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

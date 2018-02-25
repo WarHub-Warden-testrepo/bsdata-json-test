@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Smite",
+    "prevIdentifier": "Inferno Combi-bolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a7ea-9617-0e98-f667",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "45bd-df51-22cf-6045",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "20d8-73a8-6938-82bc",
+      "name": "Smite"
+    }
+  ]
+}

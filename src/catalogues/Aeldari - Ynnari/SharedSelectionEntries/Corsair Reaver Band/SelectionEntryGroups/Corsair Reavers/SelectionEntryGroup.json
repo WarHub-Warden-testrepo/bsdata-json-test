@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Corsair Reavers"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6c66-4162-1258-3eb0",
+      "constraints": [
+        {
+          "id": "efe4-4a3c-97e1-ea74",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "ddeb-ca89-9170-cb96",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 15.0,
+          "shared": true
+        }
+      ],
+      "id": "3192-896c-9dd0-b2f7",
+      "name": "Corsair Reavers",
+      "book": "IA - Index: Xenos",
+      "page": "78",
+      "modifiers": [
+        {
+          "field": "efe4-4a3c-97e1-ea74",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "b56d-cf76-e80d-7138",
+              "type": 2,
+              "field": "selections",
+              "scope": "66f9-5be0-eb53-a804",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "ddeb-ca89-9170-cb96",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "b56d-cf76-e80d-7138",
+              "type": 2,
+              "field": "selections",
+              "scope": "66f9-5be0-eb53-a804",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

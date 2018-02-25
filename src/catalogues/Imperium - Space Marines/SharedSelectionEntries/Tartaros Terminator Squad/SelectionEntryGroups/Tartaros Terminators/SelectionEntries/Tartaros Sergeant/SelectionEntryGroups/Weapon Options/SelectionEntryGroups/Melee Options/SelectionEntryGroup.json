@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Melee Options",
+    "prevIdentifier": "Ranged Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5ad8-dc4a-cf18-8517",
+      "constraints": [
+        {
+          "id": "e2ab-7f9f-14d1-d2c9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "510f-bcf1-122f-6088",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "8d25-c173-3458-395d",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "caae-f721-310b-3798",
+          "id": "c758-6986-a073-c9ad",
+          "name": "Power fist"
+        },
+        {
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "5ad8-dc4a-cf18-8517",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "b050-572b-911b-d51c",
+          "id": "d9d5-3f2a-dd6d-2580",
+          "name": "Lightning Claw (Pair)"
+        }
+      ],
+      "id": "56ee-5447-8d3c-66e7",
+      "name": "Melee Options"
+    }
+  ]
+}

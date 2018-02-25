@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "identifier": "Melee Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4455-f872-02e8-be86",
+      "constraints": [
+        {
+          "id": "e73f-2f00-9c7a-eb82",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "0ac0-3177-6c99-67a9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6110-a769-a3ca-9478",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b06-87d5-7b1e-8d82",
+          "id": "4455-f872-02e8-be86",
+          "name": "Scything Talons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "df89-68e1-8677-52e6",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1b6c-58cb-f6eb-2c24",
+          "id": "eb60-a161-c885-9c60",
+          "name": "Melee Bio-weapons"
+        }
+      ],
+      "id": "94c4-cc64-924b-b47e",
+      "name": "Melee Weapon",
+      "modifiers": [
+        {
+          "field": "0ac0-3177-6c99-67a9",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "28cf-9d68-2af4-aaa7",
+              "type": 2,
+              "field": "selections",
+              "scope": "3864-3330-0ae1-68cf",
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e73f-2f00-9c7a-eb82",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "21ef-1c96-dfff-4032",
+              "type": 2,
+              "field": "selections",
+              "scope": "3864-3330-0ae1-68cf",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "eb85-0708-e03a-68cf",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3864-3330-0ae1-68cf",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "3bb7-1883-cd35-d368",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3864-3330-0ae1-68cf",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Helbrute fist options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "37a2-6763-1cd9-9268",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2531-16ef-ec44-c8b2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "1469-1964-7a91-94d4",
+          "id": "071c-94e8-72a8-2eaf",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "ad64-0cae-aa2e-1ecb",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3672-0dd5-d396-dc4b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "0fb7-cd07-ecfc-1db8",
+          "id": "8a2c-8b11-061e-0025",
+          "name": "Helbrute fist",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "302f-2396-9cae-1d09",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "3672-0dd5-d396-dc4b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1d3e-1b81-4155-28be",
+      "name": "Helbrute fist options"
+    }
+  ]
+}

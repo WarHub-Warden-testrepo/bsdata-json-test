@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Marksman's Eye"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "fb36-f7db-2c75-542b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "01ac-ded1-218e-0e88",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2e2c-d8e7-ccda-896d",
+      "name": "Marksman's Eye"
+    }
+  ]
+}

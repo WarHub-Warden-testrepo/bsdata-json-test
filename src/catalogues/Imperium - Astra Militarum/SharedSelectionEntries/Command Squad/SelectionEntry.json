@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "identifier": "Command Squad",
+    "prevIdentifier": "Commissar Yarrick"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d129-69ea-ec8d-cf7b",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true
+        }
+      ],
+      "id": "daea-3f4e-25c6-0ec8",
+      "name": "Command Squad",
+      "book": "Codex: Astra Militarum",
+      "page": "30",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "d129-69ea-ec8d-cf7b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "7ead-7f42-5da5-dc30",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "childId": "6fcd-b8db-9768-f07c",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "childId": "dcb74f5d-1308-fbaa-205f-3ad8fbde5b04",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "da34-52b0-53cc-1128",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "483a-ffe8-5024-c337",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "afc2-4a4a-5427-a7cd",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "3d6b-fb42-442f-cd3f",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

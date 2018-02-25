@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "identifier": "Weapon Selection"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "cdac-ef22-c0d6-edcc",
+      "constraints": [
+        {
+          "id": "77d3-f8ce-8e08-0059",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fd79-ae06-f057-2d2e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5ed1-6d6d-ec4a-9a4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "c8fc-5c44-94ea-327d",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "247e-7f21-d86d-6b27",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "cdac-ef22-c0d6-edcc",
+          "name": "Autogun"
+        },
+        {
+          "type": 1,
+          "targetId": "19e7-3448-5df2-5ec0",
+          "id": "09cf-8214-6dc2-97c7",
+          "name": "Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "eb2c-02f8-88b3-7f35",
+          "id": "e868-0119-7306-3253",
+          "name": "Ranged Weapons"
+        }
+      ],
+      "id": "5cd5-c41f-fe14-0777",
+      "name": "Weapon Selection",
+      "modifiers": [
+        {
+          "field": "fd79-ae06-f057-2d2e",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "e868-0119-7306-3253",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f461-4976-d62a-afd1",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "19e7-3448-5df2-5ec0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f461-4976-d62a-afd1",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "77d3-f8ce-8e08-0059",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "19e7-3448-5df2-5ec0",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f461-4976-d62a-afd1",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "e868-0119-7306-3253",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "f461-4976-d62a-afd1",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

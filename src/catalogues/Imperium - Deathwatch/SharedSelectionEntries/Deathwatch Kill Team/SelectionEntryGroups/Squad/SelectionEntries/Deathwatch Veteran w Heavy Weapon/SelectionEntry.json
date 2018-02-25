@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Deathwatch Veteran w/ Heavy Weapon",
+    "prevIdentifier": "Black Shield"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8c49-3bf8-9344-819e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5264-ac52-1188-116f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dbc7-1d69-6352-be50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7210-fffb-dfb7-b8a0",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "260e-778c-956e-b0ff",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "85b4-a159-718f-6857",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e72e-9762-f5e5-dd03",
+          "id": "6ebf-9f92-c130-a18c",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "438b-ee14-ee18-d06b",
+      "name": "Deathwatch Veteran w/ Heavy Weapon"
+    }
+  ]
+}

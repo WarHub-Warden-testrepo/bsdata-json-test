@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Incinerator",
+    "prevIdentifier": "Storm Bolter and Falchion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "68f9-c99c-0625-e73a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0c06-b841-21c2-1ed5",
+          "id": "939e-bceb-c428-33ef",
+          "name": "Incinerator (Terminator)"
+        }
+      ],
+      "id": "5b25-1cf1-47a8-bfa7",
+      "name": "Incinerator"
+    }
+  ]
+}

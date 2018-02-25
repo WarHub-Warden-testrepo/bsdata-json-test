@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran",
+    "prevIdentifier": "Veteran w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e1b0-eef5-b54f-5ca7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7cb8-666f-5716-1798",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "013f-2049-613b-a953",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "bed8-7cc9-14f1-b59f",
+      "name": "Veteran",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "8918-a663-4c24-7d04",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

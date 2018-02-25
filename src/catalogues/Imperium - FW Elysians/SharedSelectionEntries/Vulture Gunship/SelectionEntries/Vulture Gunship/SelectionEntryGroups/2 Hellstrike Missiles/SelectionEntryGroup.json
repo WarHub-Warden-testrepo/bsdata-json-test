@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "2 Hellstrike Missiles",
+    "prevIdentifier": "Twin Multi-Laser"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "4f04-3cd1-7218-c9ef",
+      "constraints": [
+        {
+          "id": "5e0f-de70-c862-ae7a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f807-6b42-4e65-82ce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a1e0-5cc1-0014-0b62",
+      "name": "2 Hellstrike Missiles",
+      "modifiers": [
+        {
+          "field": "5e0f-de70-c862-ae7a",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "eaef-b74e-9d13-cd08",
+              "type": 2,
+              "field": "selections",
+              "scope": "e5e8-44c6-bfcf-ab66",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "f807-6b42-4e65-82ce",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "eaef-b74e-9d13-cd08",
+              "type": 2,
+              "field": "selections",
+              "scope": "e5e8-44c6-bfcf-ab66",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

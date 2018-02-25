@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Pulse disintegrator"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4cce-5f27-2b99-5bb0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "a679-1b5b-5ba2-1aa4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "db02-4752-5b94-1871",
+      "name": "Pulse disintegrator"
+    }
+  ]
+}

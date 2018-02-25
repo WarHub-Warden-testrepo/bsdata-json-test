@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Vox-caster"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f35b-8b87-2292-a1f0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "da4b-d89a-09bc-0dfc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ae23-c735-02c6-ef0e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "8aff-18ca-8cc8-8b2b",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "995c-c5a9-e8ee-0e6a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "aab1-4e1c-7e67-4456",
+          "name": "Krak grenade"
+        }
+      ],
+      "id": "a389-194b-a220-56f5",
+      "name": "Veteran w/ Vox-caster",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "076c-b390-86e6-2ae9",
+          "id": "9996-200e-1d6b-49be",
+          "name": "Veteran Guardsmen"
+        },
+        {
+          "targetId": "5d44-8507-0e85-8f66",
+          "id": "4cb0-022b-a521-e8b2",
+          "name": "Vox-caster"
+        }
+      ]
+    }
+  ]
+}

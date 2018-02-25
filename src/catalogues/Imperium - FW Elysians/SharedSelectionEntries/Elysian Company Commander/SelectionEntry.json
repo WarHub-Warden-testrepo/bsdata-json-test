@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "identifier": "Elysian Company Commander",
+    "prevIdentifier": "Avenger Strike Fighter"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 40.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "7e52-6e9b-4c89-d76e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8951-19ee-4d4f-29a9",
+          "id": "907f-3516-f8d6-49ab",
+          "name": "Elysian Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ca77-9a4e-8b3e-9094",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "96e1-6bd2-20dc-91c7",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9c31-e3e2-91e1-a1e4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "af92-4f26-c465-fda0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "b439-b45a-17c9-7d0f",
+          "name": "Frag grenade"
+        },
+        {
+          "targetId": "abeb-d969-0146-1d90",
+          "id": "1ea4-be96-3cc4-1033",
+          "name": "Elysian Voice of Command & Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "b6da-7056-f3e5-4670",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a5bc-3c4a-ab1b-7efb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "5c0b-25f8-aff8-7b29",
+          "name": "Warlord"
+        }
+      ],
+      "id": "9087-1b5b-86a2-3a89",
+      "name": "Elysian Company Commander",
+      "infoLinks": [
+        {
+          "targetId": "b2ac-24d0-fec8-1d3c",
+          "id": "3b49-db85-08c8-b1d4",
+          "name": "Aerial Drop"
+        },
+        {
+          "targetId": "adb3-d0dc-70aa-7023",
+          "id": "1e29-e0e5-d6ee-2630",
+          "name": "Iron Disipline"
+        },
+        {
+          "targetId": "ae62-fb85-ecb4-7a03",
+          "id": "6266-704f-bc74-d56f",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "6d71-66b0-4b44-050b",
+          "id": "3260-d31a-2518-1fdb",
+          "name": "Voice of Command"
+        }
+      ]
+    }
+  ]
+}

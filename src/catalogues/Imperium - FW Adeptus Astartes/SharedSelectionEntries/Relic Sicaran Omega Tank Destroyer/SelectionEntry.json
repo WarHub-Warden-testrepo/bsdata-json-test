@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "identifier": "Relic Sicaran Omega Tank Destroyer",
+    "prevIdentifier": "Sirae Karagon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 170.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 16.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7ace-2121-e5fc-4258",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "ff12-b1f8-9f47-e84b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "b4ca-b063-4780-4606",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "1bd7-31df-bdf9-1ba9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "6224-23c1-0f33-59c3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "b2a6-fc9e-af6f-ab53",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "201d-0f4f-72f0-a047",
+          "id": "24b5-2c8e-9476-f78c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "7a24-cd05-f7f5-4839",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "520e-5401-7f55-30d5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c072-9ec0-8298-77cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ccee-ff93-e175-c147",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b661-2fab-4ff1-35b2",
+          "id": "3ff2-eb13-71c0-3e33",
+          "name": "Omega plasma array"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b29f-98b1-f683-8292",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ea55-88ca-01ee-721a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "9998-feea-c119-c9a6",
+          "name": "Heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "aba1-60f6-b95f-ff35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "f8f1-d61c-3a10-0b1b",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9f7-9cf2-b7d1-8e81",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "d23a-d899-d636-f5f3",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "ae08-6f34-f510-66fb",
+      "name": "Relic Sicaran Omega Tank Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "cc98-8a4e-1e00-15c4",
+          "id": "916f-1176-4682-48ee",
+          "name": "Relic Sicaran Omega"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "eaa8-408c-3529-b0d0",
+          "name": "Smoke Launchers"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "7f1c-1c13-b50a-b0e1",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "7ace-2121-e5fc-4258",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "7ace-2121-e5fc-4258",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "7ace-2121-e5fc-4258",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

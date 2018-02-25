@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Pathfinder Drones",
+    "prevIdentifier": "Pathfinders (5-10)"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a3b5-04c5-6eb0-0047",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a3aa-ea32-ab42-aad5",
+          "id": "537d-a44c-d019-fa0b",
+          "name": "Tactical Drones",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "0a03-bcf9-5c25-aca0",
+          "id": "cf8d-f9ee-dffc-4186",
+          "name": "Support Drones (0-2)"
+        },
+        {
+          "constraints": [
+            {
+              "id": "027b-c427-9b48-a4c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3d60-c923-e448-2185",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "fb6f-e89d-1aff-1ce5",
+          "id": "c364-761e-d3f2-2f58",
+          "name": "MB3 Recon Drone"
+        }
+      ],
+      "id": "12e1-2014-a08e-3d3a",
+      "name": "Pathfinder Drones"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "identifier": "Thunder Hammer and Storm Shield",
+    "prevIdentifier": "Power Sword and Stormbolter"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dff4-da6b-b20c-f3d7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a815-5994-6bb1-720e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0e57-eaf5-763f-9c45",
+          "id": "e620-2b51-582a-5366",
+          "name": "Thunder hammer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "2f06-c846-dede-b080",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f634-910d-c22d-915c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "e47d-017b-ce50-c09e",
+          "name": "Storm shield"
+        }
+      ],
+      "id": "95a1-9d6a-cf97-eff2",
+      "name": "Thunder Hammer and Storm Shield"
+    }
+  ]
+}

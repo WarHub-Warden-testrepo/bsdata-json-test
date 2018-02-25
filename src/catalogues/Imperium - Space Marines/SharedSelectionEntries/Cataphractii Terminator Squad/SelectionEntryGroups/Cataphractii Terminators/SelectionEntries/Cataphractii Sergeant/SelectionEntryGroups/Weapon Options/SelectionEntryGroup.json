@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "19eb-c34d-7059-fb42",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "b3f8-748a-88ba-71c6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6fda-cf8a-ec8f-3a4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "4ee8-aeb9-16e6-a33f",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1f9c-e324-f5f2-7288",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "caae-f721-310b-3798",
+          "id": "c545-768b-d5e3-008e",
+          "name": "Power fist"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c4b8-5ff1-c054-9d32",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e464-77c1-12bb-e52f",
+          "id": "5272-fb97-0eee-d623",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cea0-7dbc-ef23-24f5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "571f-9ce0-488c-0857",
+          "id": "afd6-06f3-eb79-57d1",
+          "name": "Lightning Claw"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5ddf-2068-ac5b-185e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2524-e3b0-a865-4cd8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "991e-7bbe-0d8a-2c41",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "2524-e3b0-a865-4cd8",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "8995-c672-ea50-3997",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "2409-4638-3ac9-9d41",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b050-572b-911b-d51c",
+          "id": "8995-c672-ea50-3997",
+          "name": "Lightning Claw (Pair)"
+        }
+      ],
+      "id": "5a76-c03e-fa29-affb",
+      "name": "Weapon Options",
+      "modifiers": [
+        {
+          "field": "19eb-c34d-7059-fb42",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "8995-c672-ea50-3997",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "b3f8-748a-88ba-71c6",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "8995-c672-ea50-3997",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

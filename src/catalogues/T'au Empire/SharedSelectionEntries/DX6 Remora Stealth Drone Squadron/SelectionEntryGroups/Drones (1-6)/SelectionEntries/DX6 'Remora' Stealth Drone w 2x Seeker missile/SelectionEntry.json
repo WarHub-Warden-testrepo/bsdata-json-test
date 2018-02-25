@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "identifier": "DX6 'Remora' Stealth Drone w/ 2x Seeker missile",
+    "prevIdentifier": "DX6 'Remora' Stealth Drone w/ Seeker missile"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 57.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3ad2-9869-15aa-da21",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8ab6-943d-b232-4af3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "e806-b989-495b-86e5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f436-6d01-f237-0b8d",
+          "id": "0028-937d-5dc7-b1d6",
+          "name": "Long-barelled burst cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "3050-4adf-68e2-27fb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "fb81-9c67-f84c-7164",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "69a9-8c9e-7ab1-c4ae",
+          "id": "5ed0-7860-6dd3-8bf7",
+          "name": "Seeker missile"
+        }
+      ],
+      "id": "96bd-3157-5224-2fd0",
+      "name": "DX6 'Remora' Stealth Drone w/ 2x Seeker missile",
+      "infoLinks": [
+        {
+          "targetId": "8ad4-dee2-d2ae-1908",
+          "id": "6673-edf6-2778-76c7",
+          "name": "DX6 'Remora' Stealth Drone"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Demo Charge"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "344f-2579-ab57-9796",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "f18a-fda7-88d2-ca9b",
+      "name": "Demo Charge"
+    }
+  ]
+}

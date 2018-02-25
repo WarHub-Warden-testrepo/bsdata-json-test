@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "identifier": "Lieutenant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 60.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "05f7-4881-27df-8dae",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c5e1-d67a-b2d3-80ba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fd11-92eb-daae-f671",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b6dd-91a1-040d-e82f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "37f7-f90c-b506-4495",
+          "name": "Frag & Krak grenades",
+          "book": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "8d4b-6acc-5d70-8ff5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f6a8-a58a-9b8a-2f35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "1eba-14c6-7515-319d",
+          "name": "Bolt pistol",
+          "book": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "27cc-6702-3869-dbd7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "626a-c78e-e8b5-90ea",
+          "name": "Jump Pack",
+          "book": "",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "18"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "d322-9d48-5af3-d5fb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "87af-eedc-ed8e-a856",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "c25d-2fbc-47b3-9e39",
+          "id": "111b-4584-5d3b-fdf0",
+          "name": "Warlord Traits"
+        },
+        {
+          "type": 1,
+          "targetId": "441f-1714-0777-c202",
+          "id": "793a-1a0e-1515-f676",
+          "name": "Relics of Baal"
+        }
+      ],
+      "id": "c16a-af24-1b18-f9d0",
+      "name": "Lieutenant",
+      "infoLinks": [
+        {
+          "targetId": "30ec-37fb-8737-4b5e",
+          "id": "4aff-3215-aeb6-2072",
+          "name": "Lieutenant",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12\"",
+              "conditions": [
+                {
+                  "childId": "8eda-5cb2-0c31-56da",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "c16a-af24-1b18-f9d0",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "identifier": "Servitor (Multi-melta)",
+    "prevIdentifier": "Servitor (Heavy Bolter)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f834-3856-da84-5a71",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "998b-7aa2-c1e5-9837",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e0bb-3459-c79a-bbe4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a529-80df-b432-0fc3",
+          "id": "b155-483d-dc91-432e",
+          "name": "Multi-melta"
+        },
+        {
+          "targetId": "95fc-a210-2565-c636",
+          "id": "6fa9-84ee-4104-6a60",
+          "name": "Servitor"
+        }
+      ],
+      "id": "d333-2716-f7b5-2e32",
+      "name": "Servitor (Multi-melta)",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "f834-3856-da84-5a71",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "52ab-efbd-3812-e364",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "f834-3856-da84-5a71",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "b4d7-cce6-eff7-f45e",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

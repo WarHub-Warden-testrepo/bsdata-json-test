@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6765-1eaa-518e-26c0",
+      "constraints": [
+        {
+          "id": "7a28-c57c-f506-86d1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4de8-d580-c0a4-1f4c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2128-69d1-cf30-53d7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "6765-1eaa-518e-26c0",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5fe6-c860-f645-964f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "448b-1dcb-9580-edd6",
+          "name": "Chainsword"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "982f-0928-fbb6-e600",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "bd1a-5a44-8c9c-3297",
+              "type": 1,
+              "field": "selections",
+              "scope": "0710-682a-1a08-789e",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "059d-f32b-23bb-70ab",
+          "id": "78e4-1c43-789f-c608",
+          "name": "Special weapons"
+        }
+      ],
+      "id": "7429-2d2c-1f1f-1b20",
+      "name": "Weapon"
+    }
+  ]
+}

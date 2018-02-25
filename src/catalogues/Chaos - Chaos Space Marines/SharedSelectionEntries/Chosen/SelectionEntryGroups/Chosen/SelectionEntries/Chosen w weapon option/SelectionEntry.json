@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "identifier": "Chosen w/ weapon option",
+    "prevIdentifier": "Chosen w/ chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "adb8-837e-14ec-4c2f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b504-2471-87cf-6578",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "eeb0-24b7-e0e3-60f0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "7fa9-936f-98e6-fb97",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "12c6-0cb0-cdd5-b8a6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ce84-10ca-568c-5c48",
+          "id": "24ad-935d-1867-1927",
+          "name": "Pistols",
+          "modifiers": [
+            {
+              "field": "143d-d06a-c4a6-0712",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "72f0-6262-b417-dd10",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "12c6-0cb0-cdd5-b8a6",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "72f0-6262-b417-dd10",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "value": 2.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fd40-c5ca-81a6-29be",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "085e-152f-8187-5612",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "8fb7-a72e-56b3-894c",
+          "name": "Boltgun",
+          "modifiers": [
+            {
+              "field": "fd40-c5ca-81a6-29be",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "66b6-3ccc-29d3-0b37",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "085e-152f-8187-5612",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "66b6-3ccc-29d3-0b37",
+                  "type": 1,
+                  "field": "selections",
+                  "scope": "64c8-ad43-da9e-da82",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "64c8-ad43-da9e-da82",
+      "name": "Chosen w/ weapon option"
+    }
+  ]
+}

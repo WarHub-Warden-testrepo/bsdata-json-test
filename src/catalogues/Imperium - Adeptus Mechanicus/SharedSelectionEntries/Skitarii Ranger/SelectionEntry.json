@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Skitarii Ranger",
+    "prevIdentifier": "Servitors"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "7bc6-77e8-bb6c-f174",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "768d-d42c-e62a-fb21",
+          "id": "5f58-01ba-28cc-4559",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1bab-63ad-c0c0-ba75",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a279-5616-a37c-d030",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83c3-e0c1-1774-327b",
+          "id": "614c-dcb4-073c-69fb",
+          "name": "Galvanic rifle"
+        }
+      ],
+      "id": "ddd8-d198-130f-a058",
+      "name": "Skitarii Ranger",
+      "infoLinks": [
+        {
+          "targetId": "195a-45af-3c65-5785",
+          "id": "71f1-1870-d6f9-8aaf",
+          "name": "Skitarii Ranger"
+        }
+      ]
+    }
+  ]
+}

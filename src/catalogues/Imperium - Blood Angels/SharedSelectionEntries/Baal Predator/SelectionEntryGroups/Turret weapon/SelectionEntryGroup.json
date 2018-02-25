@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Turret weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "ef01-2d99-4a0e-4d1a",
+      "constraints": [
+        {
+          "id": "1faa-222a-2694-0e65",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "701a-1b50-893c-9eba",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f467-e293-bae2-3350",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "ef01-2d99-4a0e-4d1a",
+          "name": "Twin assault cannon",
+          "book": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "9233-6a13-ea56-9efa",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f09b-e29b-c7e0-c9e1",
+          "id": "e8a2-368c-dce7-787e",
+          "name": "Flamestorm cannon"
+        }
+      ],
+      "id": "62a7-9ad3-4549-8d93",
+      "name": "Turret weapon"
+    }
+  ]
+}

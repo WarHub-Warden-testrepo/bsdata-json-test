@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Renegade Militia with Laspistol & Brutal Assault Weapon",
+    "prevIdentifier": "Renegade Militia with Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "239f-a4bd-a096-87d0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7e5e-537c-4bfc-18dc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "8cc1-5fc0-b3c4-f492",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "3ee7-4f49-9f91-4cb9",
+      "name": "Renegade Militia with Laspistol & Brutal Assault Weapon",
+      "infoLinks": [
+        {
+          "targetId": "f2b7-768f-a270-de64",
+          "id": "92ed-b9d6-b1d4-3f53",
+          "name": "Laspistol"
+        },
+        {
+          "targetId": "b7ce-fea3-f689-34d6",
+          "id": "4c0e-6329-d7f9-a000",
+          "name": "Brutal assault weapon"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Rogue Psyker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "593c-3384-f2ff-8381",
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        },
+        {
+          "id": "bb3b-c417-3ff6-e38d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "id": "f2bf-d4b3-1a71-3e95",
+      "name": "Rogue Psyker"
+    }
+  ]
+}

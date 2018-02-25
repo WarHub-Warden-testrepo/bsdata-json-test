@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "identifier": "Wolf Priest in Terminator Armour",
+    "prevIdentifier": "Wolf Priest"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 105.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "eb50-0326-4128-7f48",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "908c-ade1-42ff-5f38",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "6691-035e-fad6-a6a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "dba4-39c8-a157-f41c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "8b1d-5ab4-c1c4-e864",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "cb6c-751a-0a77-3214",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "15d7-1ea5-1780-00bf",
+          "id": "b501-70de-9a21-43be",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bb97-ab6a-dd79-137e",
+          "id": "3374-0123-c7aa-d71c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "06b5-b66c-737a-8c91",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7495-cb8f-a349-527a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "e33f-74d9-b987-579d",
+          "name": "Crozius arcanum"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "adcd-24c0-064e-c27b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "400e-ccbe-481e-8550",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "82c0-bab6-7610-6ee8",
+          "id": "3e9d-e161-466d-f26f",
+          "name": "Terminator Combi-Weapon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7ff0-8f2d-231c-72c9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "4110-bb52-c819-29bf",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "95cc-6c06-55f2-39c0",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "4b0f-2bc6-edd6-6c5e",
+          "id": "81aa-118f-2aec-94ee",
+          "name": "Warlord Traits",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "95cc-6c06-55f2-39c0",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "6009-8fb4-ff69-0fc9",
+      "name": "Wolf Priest in Terminator Armour",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "50e4-d6f3-d53d-055b",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "34bf-85f7-a4c2-a494",
+          "id": "c8bb-f23b-2e06-c264",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "a8fa-eddb-696f-b899",
+          "id": "348c-b888-303d-30c3",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "98aa-9a8e-dfae-98d9",
+          "id": "f7ec-f919-11de-c4f4",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "fe04-1322-f3ce-33a5",
+          "id": "0ab6-b33f-5999-f55d",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "5\""
+            },
+            {
+              "field": "f330-5e6e-4110-0978",
+              "value": "5"
+            },
+            {
+              "field": "c0df-df94-abd7-e8d3",
+              "value": "2+"
+            }
+          ]
+        },
+        {
+          "targetId": "c089-ba71-dd6e-0a10",
+          "id": "f078-1b3e-6371-9213",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "08bd-845a-0d9f-82f6",
+          "id": "e11f-86fa-e6e7-e895",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

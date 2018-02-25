@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Weapon Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "0b0b-2e82-efc1-8ff0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "09b4-acaf-6695-f6f2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "26ee-31ab-5a06-146b",
+          "name": "Power sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ce5f-a3f1-df74-e7cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "c13e-9e42-20d6-bcbf",
+          "name": "Chainsword"
+        }
+      ],
+      "id": "fa0a-d4d4-e56a-c208",
+      "name": "Weapon Options"
+    }
+  ]
+}

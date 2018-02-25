@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Pyrovores",
+    "prevIdentifier": "Mucolid Spores"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "f801-4f54-0721-a891",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "6cf5-fed8-6b0c-17f1",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "fa51-22ce-68d9-6862",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "0224-4ce4-4341-fd5e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "cb6d-b756-8436-074e",
+      "name": "Pyrovores",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "7f3f-3505-d407-65b3",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "670f-98e3-1222-900d",
+          "id": "96ff-5a07-09e1-478d",
+          "name": "Acid Blood"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "cb6d-b756-8436-074e",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "cb6d-b756-8436-074e",
+              "value": 3.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

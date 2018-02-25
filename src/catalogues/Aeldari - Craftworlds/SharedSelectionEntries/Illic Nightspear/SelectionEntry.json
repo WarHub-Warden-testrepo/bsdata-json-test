@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "identifier": "Illic Nightspear",
+    "prevIdentifier": "Sunburst grenades (INDEX)"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3c59-500c-0ca8-b390",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "a474-21fe-8a39-f838",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "e0bd-8bff-893a-5a12",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "e7d7-93b5-4494-2220",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d48a-7314-ac84-c68a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5499-8104-c7a4-ad7e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "37a3-fa39-1ed7-c3c8",
+          "id": "26b1-214f-5bed-e64f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "845c-836a-e0ce-58d4",
+          "id": "21a1-7267-1948-1e6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "ed1a-4bae-3b98-b6f3",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "bc41-ad37-9d8f-1097",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "acfe-0d5d-7c8d-fe22",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9d57-b32e-13bd-d85b",
+          "id": "3fe8-403b-7f74-ac50",
+          "name": ""
+        },
+        {
+          "constraints": [
+            {
+              "id": "cf18-6206-9584-f0d9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "50fe-4455-ee13-0148",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bc9e-551d-9afb-78d5",
+          "id": "53a2-0d60-b8b1-7063",
+          "name": "",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f9ad-1d0b-39e6-f4d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "66d2-92ed-f30a-c373",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "db62-926d-ac62-70c6",
+          "id": "eb5f-5e61-f310-45e4",
+          "name": "Alaitoc: Puritanical Leader",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "4667-451e-0e13-dcaa",
+      "name": "Illic Nightspear",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "ad91-0254-d7b3-e6b5",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "5ef3-9ebf-f609-fcb7",
+          "name": "Battle Focus"
+        }
+      ]
+    }
+  ]
+}

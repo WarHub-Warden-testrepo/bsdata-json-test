@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stonghold Assault Defender",
+    "prevIdentifier": "Stronghold Assault Attacker"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "e7da-09d8-5ddc-637d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "4857-0c03-64df-6378",
+      "name": "Stonghold Assault Defender",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "76d3-0012-c152-b50d",
+              "type": 2,
+              "field": "selections",
+              "scope": "roster",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

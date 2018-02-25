@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "identifier": "Sicarian Ruststalkers",
+    "prevIdentifier": "Ruststalker Princeps"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "b033-c5ec-a0d1-414f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dfde-d915-6e58-09af",
+          "id": "020c-e19d-de05-aef6",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca27-5069-1c2c-a28b",
+          "id": "d71e-9f40-2160-f46a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "acfe-844c-46e8-0f0d",
+          "id": "1b44-d319-1664-195b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "cdee-83f1-5387-56cc",
+          "id": "206a-c41a-2aec-c2ae",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d313-777b-a724-1bfb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "6141-cd60-85ae-3970",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 9.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1383-66b5-f6b8-12a0",
+          "id": "c07a-5fb4-7214-041a",
+          "name": "Sicarian Ruststalker"
+        },
+        {
+          "constraints": [
+            {
+              "id": "53cb-783a-bd72-b5e3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1082-a2bf-6e32-ea81",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70c1-ed78-9472-5068",
+          "id": "9da0-a799-d2b7-53b1",
+          "name": "Ruststalker Princeps"
+        }
+      ],
+      "id": "321a-efc3-31ca-0865",
+      "name": "Sicarian Ruststalkers",
+      "infoLinks": [
+        {
+          "targetId": "d060-09ec-5fdb-2f06",
+          "id": "6b1a-ded1-787d-4b6a",
+          "name": "Bionics"
+        },
+        {
+          "targetId": "9fcd-e1a8-eeaf-0857",
+          "id": "9739-70a8-ad13-138d",
+          "name": "Canticles of the Omnissiah"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "c07a-5fb4-7214-041a",
+              "type": 4,
+              "field": "selections",
+              "scope": "321a-efc3-31ca-0865",
+              "value": 5.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

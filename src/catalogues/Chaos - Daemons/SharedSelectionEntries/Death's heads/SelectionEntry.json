@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Death's heads",
+    "prevIdentifier": "Rot Fly"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "be44-ab04-0578-23f3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c414-8a33-e35e-6af5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "11a3-3f4d-d159-6484",
+      "name": "Death's heads"
+    }
+  ]
+}

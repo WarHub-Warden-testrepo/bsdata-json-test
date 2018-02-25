@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Bomb Squig"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "93e9-9b12-42bf-0d75",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "6997-d0c2-680e-fe18",
+          "id": "3d20-c355-b182-f5f3",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0b2c-1505-90c2-24ed",
+          "id": "1607-8390-5a49-6052",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e88f-d3a6-b0b0-957d",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "bc90-919d-4451-bab4",
+      "name": "Bomb Squig",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "93e9-9b12-42bf-0d75",
+          "value": "2",
+          "repeats": [
+            {
+              "childId": "model",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

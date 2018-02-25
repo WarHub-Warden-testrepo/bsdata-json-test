@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "identifier": "Detonate Concealed Explosives",
+    "prevIdentifier": "Snipe with the Pistol"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "7bf1-f257-0dfd-89c4",
+      "profileTypeName": "Lethal Ambush",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "7b99-9b3e-d21d-c1d9",
+          "value": "Pick an enemy unit on the battlefield and roll a D6. Subtract 1 from the result if the unit is a CHARACTER, but add 1 if the unit contains 10 or more models. On a 4+ that unit suffers D3 mortal wounds, but on a 7+ it suffers D6 mortal wounds."
+        }
+      ],
+      "id": "ddd6-558a-e35d-79ca",
+      "name": "Detonate Concealed Explosives"
+    }
+  ]
+}

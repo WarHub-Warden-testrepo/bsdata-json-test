@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "identifier": "Old One Eye",
+    "prevIdentifier": "Deathleaper"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 200.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "dcc8-25ae-e4ed-b1cb",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "bcec-a322-9e5a-e7b2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "ec52-2fbf-d692-d296",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "537e-c845-67a8-7c92",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "5854-52a7-7c93-8ddf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "1a2b-06d5-6b68-8af1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d482-6830-b5c2-bb33",
+          "id": "a2a5-c9b1-3208-2179",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4d70-78b7-0189-8596",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0df6-e301-626e-0fdd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e641-8fab-45bd-d886",
+          "id": "bd6c-0d21-1484-fa3f",
+          "name": "Monstrous Crushing Claws",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "f18a-67be-1304-f271",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "022f-5fdd-0157-e48b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "086e-c796-ac9a-a766",
+          "id": "4545-7f36-517a-90ea",
+          "name": "Monstrous Scything Talons",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a54a-a273-da49-1aa3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4335-6108-036b-f508",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c3f4-9aab-7e7f-2f46",
+          "id": "efe4-bcc6-0cb9-55d9",
+          "name": "Thresher Scythe",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "25a0-b547-6079-03a1",
+          "id": "5cd6-1605-9d77-7ec7",
+          "name": "Warlord Traits"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5fcf-0755-19f7-99e0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c832-2f4e-ee51-f481",
+          "id": "841a-67a2-9295-ed1e",
+          "name": "Warlord"
+        }
+      ],
+      "id": "d83b-acf3-2677-40e1",
+      "name": "Old One Eye",
+      "infoLinks": [
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "ad60-94ab-475b-f842",
+          "name": "Instinctive Behaviour"
+        }
+      ]
+    }
+  ]
+}

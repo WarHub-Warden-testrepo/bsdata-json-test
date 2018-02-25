@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Space Marine Biker w/Special Weapon",
+    "prevIdentifier": "Biker Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2ae0-ac48-40de-aab2",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c4d5-793d-09b9-8ff7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "909f-de69-e77d-11f4",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "7cf2-1863-3a32-86ec",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "69b3-4678-5817-c474",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3e4e-1e27-fb56-8258",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4c54-1c89-299c-05c5",
+          "id": "1283-af2b-e217-a302",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "569d-6173-b1fc-2c36",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4edb-08e6-93da-5458",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2c8f-1bfe-53a5-1fb3",
+          "id": "d027-aabd-6fae-50e4",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "aff8-2540-01ce-ffb9",
+      "name": "Space Marine Biker w/Special Weapon"
+    }
+  ]
+}

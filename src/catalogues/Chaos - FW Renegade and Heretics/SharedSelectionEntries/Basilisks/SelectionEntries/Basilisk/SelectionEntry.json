@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Basilisk"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "246e-122a-8c23-5173",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0
+        },
+        {
+          "id": "4096-df00-0e9e-9f86",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "d1d0-ddf9-55bb-08aa",
+          "id": "e9fa-6a0c-d52e-4df1",
+          "name": "Vehicle Equipment List"
+        },
+        {
+          "type": 1,
+          "targetId": "1edf-8631-7209-6a23",
+          "id": "ec46-107f-587e-12f7",
+          "name": "Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "8849-60ae-2e7d-e4cb",
+          "id": "69e9-adec-0f96-d281",
+          "name": "Pintle Mount"
+        }
+      ],
+      "id": "ac02-363c-814b-cda3",
+      "name": "Basilisk",
+      "book": "",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d9f6-1962-bdb4-15ed",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "05e1-b56a-5322-e981",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

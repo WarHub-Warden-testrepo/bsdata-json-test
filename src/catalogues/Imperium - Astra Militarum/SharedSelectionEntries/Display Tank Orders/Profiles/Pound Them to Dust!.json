@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "identifier": "Pound Them to Dust!",
+    "prevIdentifier": "Strike and Shroud!"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "9d63-858c-c12d-0763",
+      "profileTypeName": "Tank Orders",
+      "characteristics": [
+        {
+          "name": "Effect",
+          "characteristicTypeId": "44e8-96d0-417b-2cd3",
+          "value": "For the duration of this phase, you can re-roll the dice when determining the number of attacks the ordered model can make with turret weapons (as described in the Grinding Advance ability above) that use a randomly determined number (e.g. Heavy D6)."
+        }
+      ],
+      "id": "935a-45be-20c6-9735",
+      "name": "Pound Them to Dust!",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "aaa4-a667-76d0-c779",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

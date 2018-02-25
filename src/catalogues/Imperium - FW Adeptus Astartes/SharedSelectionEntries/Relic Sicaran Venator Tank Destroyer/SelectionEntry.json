@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "identifier": "Relic Sicaran Venator Tank Destroyer",
+    "prevIdentifier": "Relic Sicaran Battle Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 15.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 170.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "963c-17d7-c1cf-63a4",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "8dd6-b945-8ec5-763d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "ea5b-2e35-098f-899d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "a596-869e-dc96-dd14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "93ae-a819-197f-4f6c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4f09-2fb8-9093-77ef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b791-ca1e-e769-5d0b",
+          "id": "7ea9-154b-aa8b-616e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "8ed3-a45a-fd91-8949",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "d4d2-0723-d971-3a91",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "910c-b8da-67b4-4d4d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f6ce-b334-6526-0cfe",
+          "id": "25de-fc3f-4936-b2d0",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d390-a00a-f725-eba7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8bae-cb78-cec5-d2c6",
+          "id": "131d-68ad-243f-f95f",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a06a-9c46-92f5-f9b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8204-9788-1809-34e3",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dee7-6d13-2a24-e325",
+          "id": "7f85-d9b1-523b-b599",
+          "name": "Neutron pulse cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "45f6-29d4-2804-8f31",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b73-b055-0169-33c7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4138-56bd-4131-f4da",
+          "id": "3e9c-eb6b-08a3-d375",
+          "name": "Heavy bolter"
+        }
+      ],
+      "id": "c1c8-a93d-9eec-e2a1",
+      "name": "Relic Sicaran Venator Tank Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "6618-0bc9-3176-5216",
+          "id": "00cb-1b05-a9a6-e071",
+          "name": "Relic Sicaran Venator"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "d2bd-6b95-a499-844d",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "3879-1603-ca9c-80ae",
+          "id": "0c1c-75e3-01bc-d9a5",
+          "name": "Gyro-stabilised Mounting"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "5603-98f3-adec-68a5",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "963c-17d7-c1cf-63a4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "963c-17d7-c1cf-63a4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "963c-17d7-c1cf-63a4",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

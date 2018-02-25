@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "identifier": "Toholk the Blinded",
+    "prevIdentifier": "Kutlakh the World Killer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 165.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "360d-dae0-a95a-a026",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9a6d-68fd-8daa-8a16",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092a-b667-f7aa-1b33",
+          "id": "726c-53ff-ed7a-cf32",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ae08-6e39-a9c5-337f",
+          "id": "9c71-adfe-7a88-f86d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "0d49-3266-9d89-4e97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4aa3-b916-c927-f8c0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "103f-3881-2cc4-d70d",
+          "id": "b5cf-d1e7-ad2f-ef9f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "feff-b97d-24d7-48b7",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "aca5-de53-a1e3-e48f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "282a-36bc-148d-ffa2",
+          "id": "267f-dcc5-a573-f66a",
+          "name": "Aeonstave"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dd74-5c75-4d14-f351",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2aea-b55e-f6d3-cb5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "dd20-bd99-ad4c-59b3",
+          "id": "ddd1-c666-8156-7a3f",
+          "name": "Transdimensional Beamer",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "8056-ce75-9ad4-f269",
+          "id": "76e4-e00d-4215-6605",
+          "name": "Warlord"
+        }
+      ],
+      "id": "f40d-d7dc-c067-37bf",
+      "name": "Toholk the Blinded",
+      "book": "IA: Xenos",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "601f-ad02-3e1f-fcc4",
+          "id": "64c6-88a7-989f-8e30",
+          "name": "Living Metal"
+        }
+      ]
+    }
+  ]
+}

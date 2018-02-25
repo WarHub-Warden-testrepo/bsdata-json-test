@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "identifier": "Vulture Gunship"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 112.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9c43-7abe-3bd6-5282",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "7ce1-e27d-6635-6720",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "488b-4a8b-39aa-925a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c9bb-5428-7f86-01fe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "05ab-e7cc-e856-c36f",
+          "id": "874d-1562-a716-30c9",
+          "name": "Heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "7045-c617-9ba6-5086",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ca0d-3599-180d-9a7c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eeba-99b4-1642-534d",
+          "id": "1547-8efd-e968-12ba",
+          "name": "Stat Damage (Gunships)"
+        }
+      ],
+      "id": "f22f-69da-0ad2-1459",
+      "name": "Vulture Gunship",
+      "infoLinks": [
+        {
+          "targetId": "ed3d-c2e2-be6e-332d",
+          "id": "6818-28b9-77fa-aa89",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "d677-7f53-691e-ac88",
+          "id": "eaaa-992b-ad5f-2c72",
+          "name": "Crash and Burn"
+        },
+        {
+          "targetId": "7e37-7d16-4da6-97c8",
+          "id": "5e53-5a86-56d6-dbb1",
+          "name": "Hard to Hit"
+        },
+        {
+          "targetId": "5c2d-ef21-5078-d479",
+          "id": "915a-9fcc-8a8d-86ab",
+          "name": "Hover Jet"
+        },
+        {
+          "targetId": "2268-18ce-3bf2-b68d",
+          "id": "3ab5-be23-9e74-74f0",
+          "name": "Supersonic"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "1c50-9f33-9ed4-7756",
+          "name": "Vehicle Squadron"
+        }
+      ]
+    }
+  ]
+}

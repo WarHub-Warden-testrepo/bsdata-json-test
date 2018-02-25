@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Two twin autocannons",
+    "prevIdentifier": "Two twin heavy bolters"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7e86-366b-c6f3-b88e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8dff-5425-9c67-9f60",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "e078-e5fa-828a-99a0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de8a-cbde-aecc-c877",
+          "id": "d095-a76d-6122-1bc0",
+          "name": "Twin autocannon"
+        }
+      ],
+      "id": "7f67-833a-ca2e-3a2c",
+      "name": "Two twin autocannons"
+    }
+  ]
+}

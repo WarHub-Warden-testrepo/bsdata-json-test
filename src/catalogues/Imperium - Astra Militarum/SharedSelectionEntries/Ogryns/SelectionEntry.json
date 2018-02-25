@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "identifier": "Ogryns",
+    "prevIdentifier": "Nork Deddog"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "7b0c-21ef-87d4-e91d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fabd-67cb-befb-8f75",
+          "id": "afa7-3497-2359-28ae",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1dd3-90aa-6789-cb84",
+      "name": "Ogryns",
+      "book": "Codex: Astra Militarum",
+      "page": "44",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "11ec-3914-8daa-53bb",
+          "id": "26d0-1d02-4b8a-24e9",
+          "name": "Avalanche of Muscle"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "e402-94ec-8757-93d2",
+              "type": 4,
+              "field": "selections",
+              "scope": "1dd3-90aa-6789-cb84",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "e402-94ec-8757-93d2",
+              "type": 4,
+              "field": "selections",
+              "scope": "1dd3-90aa-6789-cb84",
+              "value": 6.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

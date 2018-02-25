@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Support Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "56e3-3595-3ac2-bb09",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "53c3-addd-f0ec-f4c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "55f9-6cf4-fdfd-9da9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e624-e533-feda-f05c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7eb5-cf45-cc95-cffb",
+          "id": "306c-b505-819a-c6db",
+          "name": ""
+        }
+      ],
+      "id": "37fd-36c8-5428-e824",
+      "name": "Support Weapon"
+    }
+  ]
+}

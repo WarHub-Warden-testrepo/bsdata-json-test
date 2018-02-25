@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "identifier": "Relic Fellblade Super-heavy Tank",
+    "prevIdentifier": "Relic Cerberus Heavy Tank Destroyer"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 35.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 740.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f516-0ac2-b2fa-820e",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0c33-1a29-3cec-0753",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "28b6-18a7-1afc-073c",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "fd4e-6917-d02e-109e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "c462-05b0-24a4-9e81",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "f1e9-bdae-fb53-e119",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "5c20-495a-99df-7b83",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "4ea9-72e6-c2b0-2fae",
+          "id": "c952-8f86-79a8-7519",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3216-79af-660b-7711",
+          "id": "3e05-43b3-d132-c55f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "2177-0826-eeb2-e308",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2647-a6d8-937c-c410",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e924-fccf-1231-ccaf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "3f7d-ca3a-ce3b-b714",
+          "id": "8ad6-8971-4843-2bae",
+          "name": "Crushing tracks"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a269-fe12-d4b0-a232",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c5dc-255b-d240-1f9b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "59bb-37fc-4f5e-fd48",
+          "id": "afc8-0787-9a50-fba1",
+          "name": "Demolisher cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c748-f657-2d0a-d71e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f400-035f-9aea-92f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "205c-19d3-3938-c9e7",
+          "id": "082f-6739-b4d4-16f6",
+          "name": "Fellblade accelerator cannon"
+        }
+      ],
+      "id": "eb31-fd4c-d1ec-98a8",
+      "name": "Relic Fellblade Super-heavy Tank",
+      "infoLinks": [
+        {
+          "targetId": "bd3b-40a7-cabc-60ea",
+          "id": "80b1-52e4-8873-309f",
+          "name": "Relic Fellblade"
+        },
+        {
+          "targetId": "81fe-08c3-81fb-9467",
+          "id": "d6a7-6a88-ee09-c86f",
+          "name": "Power of the Machine Spirit"
+        },
+        {
+          "targetId": "4809-9c02-652d-605f",
+          "id": "9d2d-12d3-bf1d-3b5a",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "2fe7-c29a-da8a-ab83",
+          "id": "3bb4-f74c-6f26-e92f",
+          "name": "Steel Behemoth"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "28ea-6514-f554-35cc",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "f516-0ac2-b2fa-820e",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "f516-0ac2-b2fa-820e",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "3216-79af-660b-7711",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "f516-0ac2-b2fa-820e",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "c888f08a-6cea-4a01-8126-d374a9231554",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "f516-0ac2-b2fa-820e",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

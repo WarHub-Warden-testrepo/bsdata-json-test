@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Cold and Bitter",
+    "prevIdentifier": "Stimulated By Pain"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "id": "447c-9517-7d0c-e0ed",
+      "name": "Cold and Bitter",
+      "infoLinks": [
+        {
+          "targetId": "c543-a99d-c82e-d8a2",
+          "id": "1285-39e1-baa5-2e45",
+          "name": "Cold and Bitter"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "a1b3-96fc-29f6-d3b1",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

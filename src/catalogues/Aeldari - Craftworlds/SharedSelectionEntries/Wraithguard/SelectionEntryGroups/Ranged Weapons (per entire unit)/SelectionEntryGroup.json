@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "identifier": "Ranged Weapons (per entire unit)"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "acb7-a613-0d0b-daa8",
+      "constraints": [
+        {
+          "id": "ebca-4389-3083-3dbb",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "6e5b-5be6-1f33-b566",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "93ad-8d2e-005a-02d4",
+          "id": "5b53-e91d-d605-a22f",
+          "name": "D-scythe",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "22",
+              "repeats": [
+                {
+                  "childId": "4c28-19d6-7077-99cb",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "ec4c-ec53-025c-8b6f",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "8d2a-aa6e-73d4-f65e",
+          "id": "acb7-a613-0d0b-daa8",
+          "name": "Wraithcannon",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ce6e-dae6-1c5d-cd2f",
+      "name": "Ranged Weapons (per entire unit)"
+    }
+  ]
+}

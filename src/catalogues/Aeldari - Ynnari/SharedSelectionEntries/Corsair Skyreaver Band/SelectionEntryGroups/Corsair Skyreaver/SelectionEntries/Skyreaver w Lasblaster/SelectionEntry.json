@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Skyreaver w/ Lasblaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 10.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "bc39-eef1-2653-5e26",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "3339-8359-80e6-1526",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1bce-1bdf-796a-2311",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2ec5-02d2-b8e2-d127",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2a9d-7204-3233-b346",
+          "id": "77d2-08b0-db82-a887",
+          "name": "Lasblaster"
+        }
+      ],
+      "id": "9e4b-1d87-7e23-d6a3",
+      "name": "Skyreaver w/ Lasblaster",
+      "book": "IA - Index Xenos",
+      "page": "79",
+      "infoLinks": [
+        {
+          "targetId": "f40d-f42e-3dfe-5a03",
+          "id": "9b02-1224-7c6e-1622",
+          "name": "Corsair Skyreaver"
+        }
+      ]
+    }
+  ]
+}

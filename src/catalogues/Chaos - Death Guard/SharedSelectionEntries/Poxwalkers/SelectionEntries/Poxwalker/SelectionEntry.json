@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Poxwalker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4f73-438a-8251-14c2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        },
+        {
+          "id": "f257-8d11-3de2-4c13",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 20.0,
+          "shared": true
+        }
+      ],
+      "id": "0443-94be-a89b-4b07",
+      "name": "Poxwalker"
+    }
+  ]
+}

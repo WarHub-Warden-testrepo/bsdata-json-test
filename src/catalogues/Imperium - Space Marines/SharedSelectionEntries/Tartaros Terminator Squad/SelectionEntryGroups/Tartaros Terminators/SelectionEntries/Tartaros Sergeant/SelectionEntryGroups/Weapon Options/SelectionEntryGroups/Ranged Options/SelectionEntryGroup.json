@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "identifier": "Ranged Options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "411d-4aec-dd74-1b4e",
+      "constraints": [
+        {
+          "id": "a4c4-ed34-bb7b-21b7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "17a1-1021-365a-1746",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eba0-9fc6-5334-a390",
+          "id": "411d-4aec-dd74-1b4e",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "5aaf-d2e4-ec59-0407",
+          "id": "89b2-41a3-0acc-2baa",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "250a-10f2-a1c6-36ff",
+          "id": "378f-71f0-03e0-2edb",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5f18-5060-0575-4994",
+      "name": "Ranged Options",
+      "modifiers": [
+        {
+          "field": "a4c4-ed34-bb7b-21b7",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "d9d5-3f2a-dd6d-2580",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "17a1-1021-365a-1746",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "d9d5-3f2a-dd6d-2580",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

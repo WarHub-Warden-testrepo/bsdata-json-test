@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Malanthrope"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 140.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7f2f-9efc-63ec-4706",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "5155-7c93-2f39-3ca4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7258-6501-54e0-c56d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c9bc-7c88-8a07-6eda",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a477-c4f7-3478-8670",
+          "id": "d64c-4344-26a7-e6d8",
+          "name": "Grasping Tail"
+        }
+      ],
+      "id": "dd3e-7e18-299e-3b40",
+      "name": "Malanthrope"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "C-beam cannon",
+    "prevIdentifier": "Burning Wrath"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+      "profileTypeName": "Weapon",
+      "characteristics": [
+        {
+          "name": "Range",
+          "characteristicTypeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+          "value": "72\""
+        },
+        {
+          "name": "Type",
+          "characteristicTypeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+          "value": "Heavy 1"
+        },
+        {
+          "name": "S",
+          "characteristicTypeId": "59b1-319e-ec13-d466",
+          "value": "6"
+        },
+        {
+          "name": "AP",
+          "characteristicTypeId": "75aa-a838-b675-6484",
+          "value": "-3"
+        },
+        {
+          "name": "D",
+          "characteristicTypeId": "ae8a-3137-d65b-4ca7",
+          "value": "D3"
+        },
+        {
+          "name": "Abilities",
+          "characteristicTypeId": "837d-5e63-aeb7-1410",
+          "value": "This weapon may not be fiired on any turn in which the model carrying it has moved. In addition, for each 24\" between the bearer and the target, increase the Strength by +2 and the Damage by +D3. If a model is ramoved from play as a casualty due to wouds caused by this weapon, then the target unit suffers 2D6 additional hits at Strength 6, AP 0, causing 1 Damage. These additional hits do not trigger further hits themselves."
+        }
+      ],
+      "id": "1f5f-ad5b-e657-64b1",
+      "name": "C-beam cannon"
+    }
+  ]
+}

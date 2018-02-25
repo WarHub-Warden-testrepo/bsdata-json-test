@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "identifier": "Neutron laser & cognis heavy Stubber",
+    "prevIdentifier": "Eradication beamer"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6070-6f6b-9281-e47f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "94e1-c127-3d54-301b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            },
+            {
+              "id": "3797-5641-c489-1479",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "4f30-c6bb-4725-2232",
+          "id": "c365-8cd0-9212-f51f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "201f-2321-b2b4-bf9e",
+      "name": "Neutron laser & cognis heavy Stubber"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "identifier": "Dreadnought melee weapon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "eeeb-3357-270c-d6a0",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "id": "628c-4692-216c-955d",
+      "name": "Dreadnought melee weapon"
+    }
+  ]
+}

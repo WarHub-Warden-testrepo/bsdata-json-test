@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "DX6 'Remora' Stealth Drone"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 57.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ba82-d52b-8c0c-4bdb",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 6.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d8d8-5a4b-c9a5-9809",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "649d-5725-2f50-9aaf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f436-6d01-f237-0b8d",
+          "id": "b1f4-76de-86f3-6465",
+          "name": "Long-barelled burst cannon"
+        }
+      ],
+      "id": "0a8d-43eb-c50d-14ba",
+      "name": "DX6 'Remora' Stealth Drone",
+      "infoLinks": [
+        {
+          "targetId": "8ad4-dee2-d2ae-1908",
+          "id": "2d75-15b0-deae-9be3",
+          "name": "DX6 'Remora' Stealth Drone"
+        }
+      ]
+    }
+  ]
+}

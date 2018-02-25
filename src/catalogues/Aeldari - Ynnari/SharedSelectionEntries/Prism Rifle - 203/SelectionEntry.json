@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Prism Rifle - 203",
+    "prevIdentifier": "Shadow Spectres"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "7bce-ddc5-fdff-f2f8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "11fd-21ae-0671-2769",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "5818-eebf-89b5-7096",
+      "name": "Prism Rifle",
+      "infoLinks": [
+        {
+          "targetId": "a454-6a60-a8e3-1077",
+          "id": "408c-4d1d-8dc2-9b0d",
+          "name": "Prism Rifle (Coherent)"
+        },
+        {
+          "targetId": "435a-ae64-98c5-bfb8",
+          "id": "1b37-fa7b-bc4c-ae4e",
+          "name": "Prism Rifle (Diffuse)"
+        }
+      ]
+    }
+  ]
+}

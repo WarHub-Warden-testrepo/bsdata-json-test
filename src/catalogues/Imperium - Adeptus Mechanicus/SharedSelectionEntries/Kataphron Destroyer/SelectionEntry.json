@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "identifier": "Kataphron Destroyer",
+    "prevIdentifier": "Kataphron Breachers"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3514-3166-d95b-45a7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "a064-5b0d-2d8a-563b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 12.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "ddcc-4003-25a2-422a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3966-1076-64dc-9148",
+          "id": "1087-380e-21bf-bff5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "6e0a-6225-b6ef-2159",
+      "name": "Kataphron Destroyer"
+    }
+  ]
+}

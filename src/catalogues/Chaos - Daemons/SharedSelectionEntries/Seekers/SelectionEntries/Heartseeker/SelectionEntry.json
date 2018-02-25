@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Heartseeker"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bbcb-cf09-68f6-e457",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "af99-420d-8fe3-2451",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "c51a-990f-2bcd-763d",
+          "id": "e4b5-2471-78c1-9e83",
+          "name": "Piercing claws"
+        },
+        {
+          "targetId": "de13-7d5f-b315-8d20",
+          "id": "34ed-1e12-602e-edaa",
+          "name": "Steed of Slaanesh"
+        }
+      ],
+      "id": "c6c6-c362-73d3-267c",
+      "name": "Heartseeker"
+    }
+  ]
+}

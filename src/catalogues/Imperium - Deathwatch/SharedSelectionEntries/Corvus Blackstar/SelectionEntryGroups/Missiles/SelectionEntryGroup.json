@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Missiles",
+    "prevIdentifier": "Main Gun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6cc4-293f-03c9-f56f",
+      "constraints": [
+        {
+          "id": "b34f-bb55-81ae-c878",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "04a5-526c-e9c0-9648",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "11ed-d4f8-041c-b38a",
+          "id": "6cc4-293f-03c9-f56f",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "3bc4-acc1-6c9f-323d",
+          "id": "8af0-6c32-9d7d-5175",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "425f-ae30-acf4-6a09",
+      "name": "Missiles"
+    }
+  ]
+}

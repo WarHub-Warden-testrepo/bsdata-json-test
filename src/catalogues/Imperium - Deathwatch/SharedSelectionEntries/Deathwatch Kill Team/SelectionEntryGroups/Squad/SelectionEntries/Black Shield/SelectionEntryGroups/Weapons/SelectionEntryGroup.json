@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "56c9-c3ae-9bd9-8d99",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "e867-4807-215e-0e0e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ccae-c3ab-8082-67d0",
+          "id": "b86b-1e38-ee52-1f5b",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "56c9-c3ae-9bd9-8d99",
+              "value": "0",
+              "conditions": [
+                {
+                  "childId": "a812-d7c5-c280-966c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "052c-ee84-33e2-4168",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "e867-4807-215e-0e0e",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "a812-d7c5-c280-966c",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "052c-ee84-33e2-4168",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fe79-d9d0-5853-81bb",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7603-6241-ab8b-4603",
+          "id": "a812-d7c5-c280-966c",
+          "name": ""
+        }
+      ],
+      "id": "b9d7-e1ea-d576-c6c5",
+      "name": "Weapons"
+    }
+  ]
+}

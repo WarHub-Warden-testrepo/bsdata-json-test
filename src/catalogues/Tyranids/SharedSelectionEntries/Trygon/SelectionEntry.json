@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "identifier": "Trygon",
+    "prevIdentifier": "Toxicrene"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 108.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dc2c-fdd5-528b-e9ad",
+          "id": "4249-0e28-fca7-348d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a367-fb78-5192-96eb",
+          "id": "09de-fd8f-bad0-c72a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "b072-0bcc-cb22-e8d8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "fd32-176f-3634-2497",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ea8b-5b53-08c1-2e5b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "71cf-351e-3a1d-afbe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ca0-0fa5-0424-a5e1",
+          "id": "f4db-51a9-91af-4de2",
+          "name": "Bio-electric Pulse"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b9a3-e72a-27d9-e66e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            },
+            {
+              "id": "6d53-1dd4-ed5d-8a71",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f906-1281-9e25-d59e",
+          "id": "6ecb-43cd-7bc8-8009",
+          "name": "Massive Scything Talons",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "8835-35d9-ecca-681d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0ad6-5e03-5112-d194",
+          "id": "2a80-af47-e27f-4702",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c9c6-7b6b-94b7-9037",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9837-af87-3cfd-a48c",
+          "id": "e430-2ac6-2d8e-58d7",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "id": "f628-1bb2-0620-3beb",
+      "name": "Trygon",
+      "infoLinks": [
+        {
+          "targetId": "8e0e-7a56-28ca-18a3",
+          "id": "01c9-b6b8-c5fe-df23",
+          "name": "Subterranean Assault"
+        },
+        {
+          "targetId": "b830-920a-231b-073d",
+          "id": "c6ef-64e0-5e45-2811",
+          "name": "Instinctive Behaviour"
+        },
+        {
+          "targetId": "6515-364e-86c7-5f9f",
+          "id": "c83a-8c87-5166-0951",
+          "name": "Death Throes"
+        }
+      ]
+    }
+  ]
+}

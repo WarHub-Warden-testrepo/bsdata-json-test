@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "identifier": "Ogryn Bone 'ead",
+    "prevIdentifier": "Ogryn"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "da8a-726c-896b-dd0d",
+          "id": "9bd9-b56a-9af6-ec50",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "a071-553a-862a-2bba",
+          "id": "60f0-5874-982e-c218",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "6602-44c6-6cc0-9124",
+      "name": "Ogryn Bone 'ead",
+      "page": "0"
+    }
+  ]
+}

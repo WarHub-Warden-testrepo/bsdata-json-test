@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Warlord",
+    "prevIdentifier": "The Eye of Xi-Lexum"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "9116-922e-ddab-d6b5",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a732-9e4b-1cd1-c392",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "fd91-ec78-9e06-df45",
+          "id": "0745-bb70-2754-4477",
+          "name": "Warlord Trait"
+        }
+      ],
+      "id": "d4fa-d036-f5dd-f91d",
+      "name": "Warlord"
+    }
+  ]
+}

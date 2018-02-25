@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Skyclaw with Special Weapon",
+    "prevIdentifier": "Skyclaw Pack Leader"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "da1d-3fbc-6abb-7e5c",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "5b1e-2b92-82ec-75ea",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "90fc-d03b-6864-1c9b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8a35-4bf2-fe3f-da32",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1cf1-4492-ec35-4771",
+          "id": "c89e-0ccf-9c38-2a5e",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "99f9-d9b2-ba86-6394",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "09b2-f306-ef24-24dc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "1010-86fb-0ebd-223a",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9c90-ea28-142c-1c8e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5fab-3fc7-4a15-5c35",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6526-7fe0-debf-dde0",
+          "id": "ce7e-6119-8eaf-3cdf",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "e356-c769-5920-6e14",
+              "value": "0.0"
+            }
+          ]
+        }
+      ],
+      "id": "2939-c944-581c-46ba",
+      "name": "Skyclaw with Special Weapon",
+      "infoLinks": [
+        {
+          "targetId": "58a1-4e30-6ccc-92b1",
+          "id": "891b-7084-a090-d599",
+          "name": "Skyclaw"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "identifier": "Ranged/melee weapon",
+    "prevIdentifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "9a21-888f-8a24-d7ba",
+      "constraints": [
+        {
+          "id": "f926-8627-9fee-e333",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1bc9-d762-6c6f-2a08",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0821-9eb6-f55e-d0ea",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c215-aaf9-77ef-27fb",
+          "id": "9a21-888f-8a24-d7ba",
+          "name": "Master-crafted boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "b97c-50c2-3ca8-ee92",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "ed23-9d40-c441-5d0d",
+          "id": "2886-57e2-7661-c4c4",
+          "name": "Melee weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "39af-45d2-2e2b-b45a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd01-4d17-a6ee-a344",
+          "id": "f041-0ab7-9e9c-e2c9",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "3a6d-e671-e77c-a5d3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb30-a0c9-788b-eda1",
+          "id": "a545-d117-731d-01d5",
+          "name": "Combi-weapons"
+        }
+      ],
+      "id": "fd59-db26-2ac8-a40b",
+      "name": "Ranged/melee weapon"
+    }
+  ]
+}

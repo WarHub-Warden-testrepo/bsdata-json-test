@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Dogma: Glory of the Omnissiah",
+    "prevIdentifier": "Canticles of the Omnissiah"
+  },
+  "rules": [
+    {
+      "description": "Each time you randomly determine which Canticle of the Omniissiah is being canted, roll two dice instead of one. All units with this dogma receive the benefit of both results, instead of just the result of the first dice (if a duplicate is rolled, no additional Canticle is canted this turn)",
+      "id": "bf9c-9361-ef12-2e12",
+      "name": "Dogma: Glory of the Omnissiah",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "dfab-6c94-20f8-dd88",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

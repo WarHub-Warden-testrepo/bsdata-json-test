@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "identifier": "Bloodhunter",
+    "prevIdentifier": "Bloodcrusher"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 47.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "4947-885d-28e3-a165",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7970-cfee-abd3-a479",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3428-a673-3bce-5876",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f6ed-4e36-f7f6-e454",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da4e-cb71-d1a5-a070",
+          "id": "5ee8-3eb1-5238-ab0d",
+          "name": "Hellblade"
+        },
+        {
+          "targetId": "7875-72a9-8c1d-c2b4",
+          "id": "4ee2-1b05-1d6f-9f8d",
+          "name": "Juggernaut's Bladed horn"
+        }
+      ],
+      "id": "ebce-24d3-a64d-c1f0",
+      "name": "Bloodhunter"
+    }
+  ]
+}

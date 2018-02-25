@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "Veteran w/ Heavy Flamer",
+    "prevIdentifier": "Veteran w/ Regimental Standard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8006-e76a-e146-3672",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6922-cb56-8c8c-fa82",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "b797-9642-42d8-e1f6",
+          "name": "Heavy flamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "d788-4d8e-9308-e848",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "546d-2403-3950-f14d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "2eb3-2d66-2a13-a1ba",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "b78b-82fe-dff4-8854",
+      "name": "Veteran w/ Heavy Flamer",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "d4f6537c-b82c-db68-b6d6-03eefe4de298",
+          "id": "9f1b-c622-db60-3161",
+          "name": "Veteran"
+        }
+      ]
+    }
+  ]
+}

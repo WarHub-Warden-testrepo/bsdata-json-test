@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Grot Mega-Tank",
+    "prevIdentifier": "Grotzooka"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 85.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2ab6-8d0f-494d-38e2",
+          "id": "0608-0cf7-523c-c5c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c58-037f-7b58-1223",
+          "id": "0f79-ed6f-8879-c21e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "5bb6-0191-6014-7fe3",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "2be3-5ec9-fc46-df55",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0b2c-1505-90c2-24ed",
+          "id": "00e7-9286-6d11-0ae1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e1ff-90b3-1689-5fec",
+          "id": "ba3d-a4cd-ffcb-7d3b",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5cf9-4d14-bc96-c21c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f314-b941-342f-289c",
+          "id": "020b-1a26-7073-a6b7",
+          "name": "Shoota"
+        },
+        {
+          "constraints": [
+            {
+              "id": "77da-1ea1-8e87-b724",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "afdc-8903-044a-a42e",
+          "id": "5b4c-e927-b823-b9a5",
+          "name": "Wreckin' Ball"
+        }
+      ],
+      "id": "688b-7929-cf2f-6c5d",
+      "name": "Grot Mega-Tank",
+      "infoLinks": [
+        {
+          "targetId": "2f33-34ac-7209-6d7c",
+          "id": "3eaa-7974-850b-7ed7",
+          "name": "Explodes (6+/3\"/D3)"
+        }
+      ]
+    }
+  ]
+}

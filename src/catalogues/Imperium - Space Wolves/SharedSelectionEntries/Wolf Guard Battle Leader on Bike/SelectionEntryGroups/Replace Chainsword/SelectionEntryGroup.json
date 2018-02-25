@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "identifier": "Replace Chainsword",
+    "prevIdentifier": "Replace Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "2eec-8ed2-f5e8-0e94",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "0797-b4fa-0617-783f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "126b-8708-8b72-4f46",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "4eab-129c-79c4-f1c8",
+          "name": "Space Wolves Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "494b-d17a-ccd2-07f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "3c46-ea33-18f8-cf09",
+          "name": "Storm shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "03bc-5c71-954d-c60c",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "8d62-6d6a-2812-4981",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a3db-7ae2-a4e2-b8cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "eaf9-93ca-1759-2674",
+          "name": "Plasma pistol"
+        }
+      ],
+      "id": "c040-903e-e94e-8517",
+      "name": "Replace Chainsword",
+      "modifiers": [
+        {
+          "field": "2eec-8ed2-f5e8-0e94",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "6517-ea63-af09-4a4c",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "0797-b4fa-0617-783f",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "6517-ea63-af09-4a4c",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

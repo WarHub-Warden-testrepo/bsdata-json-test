@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "identifier": "Rapier Carrier"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 20.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bd7f-a5ab-8111-dbb7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "e7d6-af60-afe0-3cd7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ae37-74e2-8391-d0f8",
+          "id": "dc67-579a-e2e6-9e72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5afa-1872-7fcb-cbb7",
+          "id": "3b98-c2f9-4b79-0147",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "77a9-1696-7081-570f",
+      "name": "Rapier Carrier",
+      "infoLinks": [
+        {
+          "targetId": "6e01-30fd-cddd-02c1",
+          "id": "a866-5ed7-3e50-15af",
+          "name": "Rapier Carrier"
+        }
+      ]
+    }
+  ]
+}

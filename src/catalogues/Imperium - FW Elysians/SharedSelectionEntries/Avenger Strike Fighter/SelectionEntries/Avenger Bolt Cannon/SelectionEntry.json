@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Avenger Bolt Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c021-be03-9a3c-77c3",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f105-620d-4b21-5a9b",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "eeac-f5d7-ecb2-b585",
+      "name": "Avenger Bolt Cannon"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "identifier": "Hull weapon",
+    "prevIdentifier": "Sponson weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "72a1-5417-8990-1925",
+      "constraints": [
+        {
+          "id": "dd93-5914-53f1-f413",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "924a-aed9-858f-773b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ba66-ade3-0d97-4e56",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c2d4-fdf7-7bae-33ad",
+          "id": "72a1-5417-8990-1925",
+          "name": "Twin heavy bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7383-93dd-f24b-4123",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd6e-b6c1-3472-e269",
+          "id": "3537-d0b4-d4e7-eb6a",
+          "name": "Twin heavy flamer"
+        }
+      ],
+      "id": "198f-2856-1ab6-c8f3",
+      "name": "Hull weapon"
+    }
+  ]
+}

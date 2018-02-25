@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Frag Bombs",
+    "prevIdentifier": "Ripper Gun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "2c58-9a8d-f885-a655",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ceac-4bf1-a6c8-b54e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "da8a-726c-896b-dd0d",
+      "name": "Frag Bombs"
+    }
+  ]
+}

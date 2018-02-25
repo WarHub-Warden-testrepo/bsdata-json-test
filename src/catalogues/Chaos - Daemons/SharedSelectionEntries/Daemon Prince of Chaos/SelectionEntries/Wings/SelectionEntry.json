@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Wings"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 1.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 24.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bcb2-4ba1-628d-5ad9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "3121-55f5-49a3-a50a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1245-ef6e-b3cd-ec3d",
+      "name": "Wings"
+    }
+  ]
+}

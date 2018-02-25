@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Medusa"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0c8c-abbd-69e7-35b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "1132-414a-ba70-2992",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "07b8-fccc-f4cb-f2b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            },
+            {
+              "id": "6205-51bb-a311-4e5d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 4.0,
+              "shared": true
+            }
+          ],
+          "targetId": "70eb-d2d7-5172-ec78",
+          "id": "43f9-1652-7234-74fa",
+          "name": "Guardsmen Crew"
+        }
+      ],
+      "id": "c1c2-b20e-b317-23c7",
+      "name": "Medusa",
+      "infoLinks": [
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "821d-1694-8d68-a2e2",
+          "name": "Explodes"
+        }
+      ]
+    }
+  ]
+}

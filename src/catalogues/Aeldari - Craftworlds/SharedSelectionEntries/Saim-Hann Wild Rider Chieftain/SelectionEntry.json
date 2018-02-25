@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "Saim-Hann: Wild Rider Chieftain",
+    "prevIdentifier": "Iyanden: Enduring Resolve"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "8ff6-614f-ab1b-7a1e",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a94b-a664-ea20-fe31",
+      "name": "Saim-Hann: Wild Rider Chieftain",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "7762-3ee7-3b84-0308",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

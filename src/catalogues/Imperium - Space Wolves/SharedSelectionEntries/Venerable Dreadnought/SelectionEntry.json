@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "identifier": "Venerable Dreadnought",
+    "prevIdentifier": "Servitors"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "da31-126b-0590-472e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "35aa-47fa-c566-076c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "2f54-7507-3c72-03f7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "99f1-44e9-7e66-0334",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2edb-70de-3930-c790",
+          "id": "5a82-01de-05c0-84f9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f093-e031-3131-7b82",
+          "id": "4d71-57fa-2c40-aa27",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "d1b1-6605-6bcb-5c45",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "eaf9-68d8-6236-a2fe",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "b605-219a-5149-6257",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "345e-609b-29f8-73af",
+          "id": "fa82-4a6c-36a7-0ba6",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "eaf9-68d8-6236-a2fe",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "b543-5c63-a9a5-6c68",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "b605-219a-5149-6257",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "b543-5c63-a9a5-6c68",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "0f5d-5463-7908-f599",
+          "id": "68c5-0d0f-a03f-7d85",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "a012-194b-66d6-445d",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "b543-5c63-a9a5-6c68",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "fd33-821b-0de2-0e1f",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "b543-5c63-a9a5-6c68",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ce54-ba82-39b5-f6e1",
+      "name": "Venerable Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "d55b-f680-9dd7-bc06",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6593-d4db-3ad3-7de0",
+          "id": "f451-e97c-5a08-5ae3",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b341-2797-56ae-b35c",
+          "id": "334c-1f33-34bc-1335",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "identifier": "Knight Gallant",
+    "prevIdentifier": "Knight Errant"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 320.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 21.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3165-541a-4f9c-263c",
+          "id": "8320-fcc2-2364-8c5d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0dcf-a7d7-3f80-b95e",
+          "id": "ba81-860a-415a-f7ac",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c888f08a-6cea-4a01-8126-d374a9231554",
+          "id": "3eaf-a853-cdd8-1d74",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0aee-f544-3419-25e2",
+          "id": "f555-0c8f-8f18-de1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bdda-36f0-4f32-1639",
+          "id": "5807-91fa-ff5c-2a8e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "3018-8f3a-41fe-1902",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2a6f-53ee-1833-d2d3",
+          "id": "586d-0516-9d86-8e35",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6d62-3b43-206e-b6ad",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "4a32-66a3-7ef0-f892",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8a10-ffae-4091-99d9",
+          "id": "f4bb-3b3e-d63b-12a2",
+          "name": "Carapace Weapons"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "27d8-96f6-60a2-4ad6",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5834-cef4-4fa4-18b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "acd0-640d-3a46-780c",
+          "id": "8598-37d0-0e9c-6a91",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bf3f-43e3-4cf3-cb7d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ac69-5f0f-50b5-0343",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4524-229a-e82e-a647",
+          "id": "0a30-2c0d-fb99-e2b4",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "038b-aa85-8f84-366e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6746-9aae-8cbb-2659",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6505-5eeb-f50d-1efe",
+          "id": "02eb-b415-b511-47c9",
+          "name": "Thunderstrike gauntlet"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b321-d62b-b6ce-87a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5973-c86d-b500-4a14",
+          "id": "776a-bb63-9df8-aabf",
+          "name": "Character",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "d513-cbf5-9bfc-7270",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "fd0a-f25a-026f-4a7f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "96f2-3321-e974-f12a",
+          "id": "0819-b76c-fc21-5113",
+          "name": "Warlord",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "5973-c86d-b500-4a14",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "targetId": "2d25-0d9a-8015-f9b3",
+          "id": "ecde-79b9-7c3f-c683",
+          "name": "Warlord Traits"
+        }
+      ],
+      "id": "602c-d7c6-68b2-0f26",
+      "name": "Knight Gallant",
+      "book": "Codex: Adeptus Mechanicus",
+      "page": "87",
+      "infoLinks": [
+        {
+          "targetId": "8459-e680-8717-6535",
+          "id": "2264-1e95-9abb-ffca",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "7d1d-e7ee-9a4e-2821",
+          "id": "30ff-5b1c-aaf2-2b16",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "383d-e9e6-b605-f6a9",
+          "id": "c2cf-0694-35bf-1fa7",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "184b-c0f6-24c8-8b65",
+          "id": "3879-fee6-abd1-59b8",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

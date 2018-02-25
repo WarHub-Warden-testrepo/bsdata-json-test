@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Servo-arm",
+    "prevIdentifier": "Melee weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f4ae-b4f4-91ec-149b",
+      "constraints": [
+        {
+          "id": "456c-8a3b-8cb7-cf86",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "8ca4-edf0-72da-942f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "13e5-b049-0d10-ff66",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "61ae-3901-0a79-4ec9",
+          "id": "f4ae-b4f4-91ec-149b",
+          "name": "Servo-arm"
+        },
+        {
+          "constraints": [
+            {
+              "id": "76dc-81e2-6591-c2f8",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fbb1-9dd6-aefc-eba2",
+          "id": "d60e-ae1c-bdf1-ed74",
+          "name": "Conversion beamer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f1be-6692-d590-ab41",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8eda-5cb2-0c31-56da",
+          "id": "b97e-89a9-af00-220f",
+          "name": "Jump Pack",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "46"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "207d-2a4a-1396-a1c3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cd39-3cbc-6655-eff7",
+          "id": "79a5-d7a6-5d78-b365",
+          "name": "Servo-harness"
+        }
+      ],
+      "id": "172d-1ce2-4729-3506",
+      "name": "Servo-arm"
+    }
+  ]
+}

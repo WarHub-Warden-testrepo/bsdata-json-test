@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "identifier": "Ranger Alpha",
+    "prevIdentifier": "Skitarii Ranger"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "598e-f531-bfb9-9a3c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "768d-d42c-e62a-fb21",
+          "id": "8167-d60b-d13a-b6ec",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9ceb-bac3-dd99-9997",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a079-fbc2-add4-aea8",
+          "id": "b836-8fc1-32c3-3f7b",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "8546-a7bb-fd85-0493",
+          "id": "a582-a427-28ba-9f18",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "8ef3-f701-8d6b-b43b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "a165-b00d-5c2e-4616",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83c3-e0c1-1774-327b",
+          "id": "a524-5bc5-def9-b510",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "8ef3-f701-8d6b-b43b",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "a582-a427-28ba-9f18",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "45eb-9e21-ee55-0bc6",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "a165-b00d-5c2e-4616",
+              "value": "0.0",
+              "conditions": [
+                {
+                  "childId": "a582-a427-28ba-9f18",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "45eb-9e21-ee55-0bc6",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "45eb-9e21-ee55-0bc6",
+      "name": "Ranger Alpha"
+    }
+  ]
+}

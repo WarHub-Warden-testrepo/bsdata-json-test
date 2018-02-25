@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Ethereal Guard",
+    "prevIdentifier": "Aun'Va"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b93e-4af4-1f4b-cb42",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "78ca-9eec-8627-bfbc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8b06-6619-b3d2-ff84",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4787-39d7-3afe-bee9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8b78-5c86-cc97-57ee",
+          "id": "123e-80f5-693e-7579",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "99e7-5f15-b850-c236",
+      "name": "Ethereal Guard",
+      "infoLinks": [
+        {
+          "targetId": "2a68-010e-c6ea-a0de",
+          "id": "e8fb-806a-4739-d64c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

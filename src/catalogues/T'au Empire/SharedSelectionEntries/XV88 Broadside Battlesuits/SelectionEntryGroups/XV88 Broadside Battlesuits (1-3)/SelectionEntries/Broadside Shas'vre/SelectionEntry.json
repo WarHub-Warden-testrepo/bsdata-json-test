@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Broadside Shas'vre",
+    "prevIdentifier": "Broadside Shas'ui"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 80.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 9.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0622-ddda-3e11-5a53",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "a00b-0131-37cb-9ed8",
+          "id": "4310-a604-c0c8-cfdf",
+          "name": "Broadside main weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "169e-adf8-6767-a3f1",
+          "id": "eabf-2113-a597-aa6f",
+          "name": "Broadside secondary weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "988d-ac35-6ec3-537f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c43d-cfe1-156b-f026",
+          "id": "d345-0c3f-53b2-85b9",
+          "name": "Seeker missile"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "05c8-a158-9be4-6986",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "cd38-bd37-4af0-f204",
+          "name": "Support systems"
+        }
+      ],
+      "id": "1081-162a-6874-c8d7",
+      "name": "Broadside Shas'vre",
+      "infoLinks": [
+        {
+          "targetId": "071d-1c3a-59c6-36b6",
+          "id": "067e-4aa7-7fdc-2d72",
+          "name": "Broadside Shas'vre"
+        }
+      ]
+    }
+  ]
+}

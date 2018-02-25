@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "identifier": "Chaos Vindicator Laser Destroyer",
+    "prevIdentifier": "Hunter-killer missile"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 183.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "d36a-4b78-3f42-f33a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "b9c8-2073-5789-6dea",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "60e4-68c9-1d8a-e89b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "f6c8-1804-b122-437c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "4c2e-2342-1c6a-680f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f379-3f19-8545-bfc1",
+          "id": "5f6e-86eb-61fd-fc26",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "eed7-6036-e15c-9d5a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8005-9fea-4a32-1869",
+          "id": "db5f-c71c-942b-e58e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "10f6-976a-6af5-e817",
+          "id": "7fe6-8272-5a36-3a3a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "72a9-178a-e56d-70dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "97a4-9a8b-1a84-e301",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "c78f-7cf9-c359-77d9",
+          "name": "Storm bolter"
+        },
+        {
+          "constraints": [
+            {
+              "id": "c1fd-a6e0-4a6b-94db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f9c1-caf1-c410-a3d6",
+          "id": "bb89-de86-2d14-564f",
+          "name": "Hunter-killer missile"
+        }
+      ],
+      "id": "f957-f774-e452-34ea",
+      "name": "Chaos Vindicator Laser Destroyer",
+      "infoLinks": [
+        {
+          "targetId": "9adf-09bc-1635-b650",
+          "id": "300a-af5b-9810-04f1",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9446-1148-da70-4028",
+          "id": "6da6-f2ec-4f76-bcc0",
+          "name": "Explodes"
+        },
+        {
+          "targetId": "d36c-b849-b0ba-625b",
+          "id": "939d-1889-ffd5-41e6",
+          "name": "Machina Malifica"
+        }
+      ]
+    }
+  ]
+}

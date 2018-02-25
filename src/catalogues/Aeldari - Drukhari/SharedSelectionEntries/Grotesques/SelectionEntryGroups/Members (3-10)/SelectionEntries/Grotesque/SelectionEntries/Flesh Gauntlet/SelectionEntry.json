@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Flesh Gauntlet"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "7d61-96d3-111f-86ce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "08d8-3d7f-9dda-98ab",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "1260-ca89-dd08-eff1",
+      "name": "Flesh Gauntlet"
+    }
+  ]
+}

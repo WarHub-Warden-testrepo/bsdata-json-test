@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "identifier": "Howling Banshee Exarch",
+    "prevIdentifier": "Howling Banshee"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 9.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ba84-60ec-033f-befa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "d500-032f-3861-2d64",
+          "id": "bed9-8dee-cb8d-b897",
+          "name": "War Shout"
+        }
+      ],
+      "id": "42cf-beb6-818b-d400",
+      "name": "Howling Banshee Exarch"
+    }
+  ]
+}

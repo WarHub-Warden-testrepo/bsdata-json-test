@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Wraithguard",
+    "prevIdentifier": "Fire Dragons"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c651-cc0a-9e8e-5eb4",
+          "id": "ffec-4447-050a-ad25",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "48cb-21af-56db-d040",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e904-c2b3-6e04-3ee6",
+          "id": "fd0a-1c39-dc92-50d0",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "91b5-df5d-59ad-7154",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "9982-2b9f-ad10-4f2a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9a3e-947f-26da-d343",
+          "id": "0c73-6184-7076-610a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d3b-274c-fb23-6e99",
+          "id": "df3a-3021-48d2-7879",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9c3e-8634-5cc0-8805",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5196-aba5-7a73-c5d0",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a0d5-548d-483e-3c1a",
+          "id": "9c90-34e1-bcac-5e8a",
+          "name": ""
+        }
+      ],
+      "id": "ec4c-ec53-025c-8b6f",
+      "name": "Wraithguard",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "babb-a316-5509-4a30",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "20",
+          "conditions": [
+            {
+              "childId": "4c28-19d6-7077-99cb",
+              "type": 1,
+              "field": "selections",
+              "scope": "ec4c-ec53-025c-8b6f",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

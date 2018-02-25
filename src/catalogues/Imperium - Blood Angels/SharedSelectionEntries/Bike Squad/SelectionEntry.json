@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Bike Squad",
+    "prevIdentifier": "Attack Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b255-c268-6319-8d95",
+          "id": "4f16-d21a-ad17-e2e1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "1c6f-0311-3eba-3180",
+          "id": "7210-8026-08f4-bd14",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "9135-3f07-b75a-acef",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "362c-41e0-f3d4-7b4a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "26a4-9861-52e3-581d",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "6459-4fc2-bd62-e1c8",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7968-2bb0-029d-e10b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f4b4-0d1e-24b8-6b6b",
+          "id": "9512-025c-7331-c298",
+          "name": "Attack Bike"
+        }
+      ],
+      "id": "0710-682a-1a08-789e",
+      "name": "Bike Squad",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "54ac-ce25-f40e-8c65",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "92b7-fdc2-cdd2-9217",
+          "id": "c2e1-188a-e56a-cac5",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "4",
+          "conditions": [
+            {
+              "childId": "a3c9-13d9-5bed-0d18",
+              "type": 1,
+              "field": "selections",
+              "scope": "0710-682a-1a08-789e",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "a3c9-13d9-5bed-0d18",
+              "type": 1,
+              "field": "selections",
+              "scope": "0710-682a-1a08-789e",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

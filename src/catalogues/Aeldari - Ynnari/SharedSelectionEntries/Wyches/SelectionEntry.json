@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "identifier": "Wyches",
+    "prevIdentifier": "Voidraven"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "d695-1cc2-f0b6-499d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0532-dbd6-bf12-340b",
+          "id": "3f82-1de5-3da7-a36c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "7667-f2c6-a058-c8ff",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "99c9-6127-f78b-1f66",
+          "id": "b3b2-5be2-dc40-31b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d6f6-a2df-9c1b-96b1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5b68-0855-2fb2-1f69",
+          "id": "5632-97a1-e6ac-379f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "287c-0434-786c-9ba1",
+      "name": "Wyches",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "8f9a-f3d6-0ea2-6a45",
+          "id": "449b-8cb8-6922-4ffc",
+          "name": "Combat Drugs"
+        },
+        {
+          "type": 1,
+          "targetId": "cffc-8d1c-aae4-07bd",
+          "id": "1178-2b87-4a67-0d38",
+          "name": "Combat Drugs"
+        },
+        {
+          "type": 1,
+          "targetId": "95ba-ea44-505c-7eb7",
+          "id": "69fb-81a0-0886-b931",
+          "name": "Strength from Death"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "735d-24d2-301a-597e",
+              "type": 1,
+              "field": "selections",
+              "scope": "287c-0434-786c-9ba1",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "10",
+          "conditions": [
+            {
+              "childId": "735d-24d2-301a-597e",
+              "type": 1,
+              "field": "selections",
+              "scope": "287c-0434-786c-9ba1",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "8",
+          "conditions": [
+            {
+              "childId": "735d-24d2-301a-597e",
+              "type": 1,
+              "field": "selections",
+              "scope": "287c-0434-786c-9ba1",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

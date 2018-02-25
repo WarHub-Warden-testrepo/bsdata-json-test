@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Marine w/ Sonic blaster",
+    "prevIdentifier": "Marine w/ chainsword"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 15.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ac8d-9c3f-eaa0-493d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 19.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "da44-2960-ecb3-c5dd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1987-43c5-c566-212e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "59c2-2823-e568-c0ed",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ae27-94f6-b6ab-b972",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "950e-a475-4f97-c94d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "b0bc-9ebd-3254-95c6",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "9e4e-866c-0b2c-def4",
+      "name": "Marine w/ Sonic blaster"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Bike combi-bolter options",
+    "prevIdentifier": "Bolt pistol options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "75bd-b5cc-2ba1-b91e",
+      "constraints": [
+        {
+          "id": "6d88-7e20-4615-f8e1",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "1ef7-9cdd-6f1a-455e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "7f92-d5ee-06e1-de14",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "082c-9397-0c1c-dd36",
+          "id": "75bd-b5cc-2ba1-b91e",
+          "name": "Combi-bolter"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "562a-cc92-cfe3-767f",
+              "type": 1,
+              "field": "selections",
+              "scope": "8cc5-59ae-47b2-b63c",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            },
+            {
+              "id": "1e2b-a933-2122-0a28",
+              "type": 1,
+              "field": "selections",
+              "scope": "7231-0686-8eea-1aed",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "a44b-4b4d-46b5-d3a6",
+          "id": "2210-5ea7-7cb8-dec0",
+          "name": "Special Weapons"
+        }
+      ],
+      "id": "478a-8b8c-7828-1fbe",
+      "name": "Bike combi-bolter options"
+    }
+  ]
+}

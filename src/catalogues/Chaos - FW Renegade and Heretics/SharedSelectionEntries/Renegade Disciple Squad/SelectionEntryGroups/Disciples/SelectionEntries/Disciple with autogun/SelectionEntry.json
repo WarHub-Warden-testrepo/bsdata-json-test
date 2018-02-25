@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Disciple with autogun",
+    "prevIdentifier": "Disciple with Voxcaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d607-f479-8854-0398",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e6c1-0dbf-b82f-cb38",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "f4f9-904f-7d20-f25a",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "0cdf-b804-12e2-8823",
+      "name": "Disciple with autogun"
+    }
+  ]
+}

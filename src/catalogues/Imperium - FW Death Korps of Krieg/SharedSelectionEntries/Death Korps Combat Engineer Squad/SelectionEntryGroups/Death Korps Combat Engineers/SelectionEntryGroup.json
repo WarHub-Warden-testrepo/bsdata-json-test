@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "identifier": "Death Korps Combat Engineers"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "6935-e786-0355-0dff",
+      "constraints": [
+        {
+          "id": "2821-8a70-5996-3cb2",
+          "field": "selections",
+          "scope": "parent",
+          "value": 4.0,
+          "shared": true
+        },
+        {
+          "id": "b27b-c90f-664f-cf22",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "2151-aedb-52ee-9145",
+      "name": "Death Korps Combat Engineers",
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "b27b-c90f-664f-cf22",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c441-c802-8998-5cb2",
+              "type": 2,
+              "field": "selections",
+              "scope": "b2a7-0d09-b24c-ef65",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "2821-8a70-5996-3cb2",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c441-c802-8998-5cb2",
+              "type": 2,
+              "field": "selections",
+              "scope": "b2a7-0d09-b24c-ef65",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "identifier": "Rubric Marines",
+    "prevIdentifier": "Sorcerer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "9ddd-0c71-907c-c7f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "640e-d8b2-d17b-465d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "4bc5-9fd2-4bf4-dbcf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "012f-abfc-397b-3519",
+          "id": "7385-eb0c-8742-e671",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "3743-aaa7-78c7-e004",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5723-c15a-5882-1f57",
+          "id": "cf47-0724-44fd-929c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5392-407a-9cd4-4f10",
+          "id": "e593-7bc9-5d30-2405",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d13a-6545-ff51-a0cc",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "0844-29e7-5ca3-1b56",
+          "id": "848a-07ae-f736-4b17",
+          "name": "Icon of Flame"
+        }
+      ],
+      "id": "7142-e365-1c12-efd6",
+      "name": "Rubric Marines",
+      "page": "",
+      "infoLinks": [
+        {
+          "targetId": "27a8-c34a-7a70-904e",
+          "id": "b88a-d832-87bd-b60f",
+          "name": "Death to the False Emperor"
+        },
+        {
+          "targetId": "5d58-ea78-c523-b0c7",
+          "id": "cd39-32e0-c1f2-69dc",
+          "name": "Favour of Tzeentch",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Favoured of Tzeentch"
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "14",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7142-e365-1c12-efd6",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "21",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7142-e365-1c12-efd6",
+              "value": 10.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "27",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "7142-e365-1c12-efd6",
+              "value": 15.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

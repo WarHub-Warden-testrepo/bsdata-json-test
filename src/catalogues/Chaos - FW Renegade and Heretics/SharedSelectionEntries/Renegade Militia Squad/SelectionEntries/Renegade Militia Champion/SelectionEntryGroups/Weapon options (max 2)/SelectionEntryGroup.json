@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Weapon options (max 2)"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "7c4c-a558-dfbf-dd56",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "c8c8-6e56-a2c0-1a0b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "19e7-3448-5df2-5ec0",
+          "id": "b0f0-7665-227f-a7a8",
+          "name": "Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "eb2c-02f8-88b3-7f35",
+          "id": "446d-cca7-f22b-8d00",
+          "name": "Ranged Weapons"
+        }
+      ],
+      "id": "6b34-c9b8-b178-715e",
+      "name": "Weapon options (max 2)"
+    }
+  ]
+}

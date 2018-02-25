@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "identifier": "Mutant with Autogun",
+    "prevIdentifier": "Mutant Champion"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1b1e-fadc-7885-9822",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dde0-8fe8-e452-a2a2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ab0-97c4-72d7-a0e2",
+          "id": "497e-dabc-892e-43bc",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "9d0e-1e2e-f6d3-82a7",
+      "name": "Mutant with Autogun",
+      "infoLinks": [
+        {
+          "targetId": "fcde-3e6a-e240-1157",
+          "id": "944a-1c89-8f35-2cd6",
+          "name": "Autogun"
+        }
+      ]
+    }
+  ]
+}

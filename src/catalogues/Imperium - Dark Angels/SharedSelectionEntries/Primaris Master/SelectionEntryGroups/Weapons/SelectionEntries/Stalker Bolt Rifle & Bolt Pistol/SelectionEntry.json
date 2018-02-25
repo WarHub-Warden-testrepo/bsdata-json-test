@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Stalker Bolt Rifle & Bolt Pistol",
+    "prevIdentifier": "Auto Bolt Rifle & Bolt Pistol"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ee8d-d6e7-210d-d4f0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1e55-9c7f-4e67-3a0a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7f2a-d7f9-7991-a78e",
+          "id": "a507-9816-2ac2-cff1",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cef2-585b-f16e-399d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f0ce-09df-ad86-7214",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "ec0e-efeb-6042-3ba0",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "ddc8-819a-c20c-04f5",
+          "id": "a6f3-97eb-355f-79ad",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "1093-9805-c5ad-c6b9",
+      "name": "Stalker Bolt Rifle & Bolt Pistol"
+    }
+  ]
+}

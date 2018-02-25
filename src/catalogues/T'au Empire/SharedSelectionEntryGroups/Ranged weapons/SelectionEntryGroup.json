@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Ranged weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bfae-3c62-7a95-53a7",
+      "constraints": [
+        {
+          "id": "6149-b7a6-ff80-cf27",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "6074-ae96-f079-1823",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "2e3b-c230-e780-bdd8",
+          "id": "8e65-82ce-ce55-076d",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cff6-3929-b9f8-dd21",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5b97-30b9-f286-63f4",
+          "id": "bfae-3c62-7a95-53a7",
+          "name": "New EntryLink",
+          "modifiers": [
+            {
+              "field": "cff6-3929-b9f8-dd21",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "5f1d-116f-1488-0969",
+          "id": "7dd9-5611-4200-f3e5",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "0188-e54b-3b75-8f87",
+          "id": "6277-4b33-ab3b-cf54",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "2241-81b8-e500-4afb",
+          "id": "7a82-921f-d83c-0899",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "4b74-0d49-4217-1774",
+          "id": "8c38-22d9-431e-8830",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "d7c9-2dd8-216b-a6ca",
+          "id": "a614-9ce0-d879-59f6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "4499-41ac-72f4-df05",
+      "name": "Ranged weapons"
+    }
+  ]
+}

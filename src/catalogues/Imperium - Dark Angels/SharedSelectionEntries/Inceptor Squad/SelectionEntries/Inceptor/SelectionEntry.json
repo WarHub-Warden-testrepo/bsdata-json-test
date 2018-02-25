@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "identifier": "Inceptor"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 25.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f10c-c24f-c0f4-78c7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "d482-8127-ffb8-c42a",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "7c70-ac8a-2530-0f00",
+      "name": "Inceptor"
+    }
+  ]
+}

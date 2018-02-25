@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "identifier": "Relic Contemptor Dreadnought",
+    "prevIdentifier": "Relic Mastodon Super-heavy Siege Transport"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 135.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f47a-cb0d-ea8f-33b4",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "629b-8a0a-fc7f-e92d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f770-0776-f207-8ac4",
+          "id": "908b-3fa9-aaa1-0310",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "fddd-6b0d-e635-b210",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "3c61-03ff-fc3e-ac4b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e10e-b44e-7eda-41d8",
+          "id": "f2f0-34f7-f8a9-23f5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "1195-2df7-9b64-5574",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d79c-fe9d-7aad-ac6d",
+          "id": "7fd1-4901-f748-3403",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "8d86-9490-0f7d-a5b5",
+          "id": "5de2-0594-08b1-b2a2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d743-4a7d-abd9-9018",
+          "id": "2c7a-1ed3-a66f-7a11",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f8cc-5068-5676-2692",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0c83-f5bb-fdb1-1cfd",
+          "id": "b69d-a927-312d-08e6",
+          "name": "Cyclone missile launcher"
+        }
+      ],
+      "id": "45f1-772c-0091-a1a8",
+      "name": "Relic Contemptor Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "4e5e-7ec4-b9c4-4be5",
+          "id": "c834-1300-6b41-0ac3",
+          "name": "Relic Contemptor"
+        },
+        {
+          "targetId": "5920-abce-5411-15e4",
+          "id": "3ed1-9f22-9d14-96da",
+          "name": "Atomantic Shielding"
+        },
+        {
+          "targetId": "5664-1eec-603d-df17",
+          "id": "8326-f15b-ab47-6eb7",
+          "name": "Unstoppable Fury"
+        },
+        {
+          "targetId": "1207-4be0-342a-9c9f",
+          "id": "bdb1-b31e-2dda-fcc1",
+          "name": "Relic of Ancient Glory"
+        },
+        {
+          "type": 1,
+          "targetId": "e81b-dc9a-010d-40e8",
+          "id": "d6d3-cba7-70e8-c1dd",
+          "name": "Relic"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 2,
+          "field": "f47a-cb0d-ea8f-33b4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "8d86-9490-0f7d-a5b5",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "f47a-cb0d-ea8f-33b4",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "f47a-cb0d-ea8f-33b4",
+          "value": "-1",
+          "conditions": [
+            {
+              "childId": "44da-9aaf-181b-5ece",
+              "type": 6,
+              "field": "selections",
+              "scope": "force",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

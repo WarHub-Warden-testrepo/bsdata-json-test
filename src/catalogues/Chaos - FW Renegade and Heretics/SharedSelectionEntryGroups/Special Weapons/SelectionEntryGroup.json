@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "identifier": "Special Weapons",
+    "prevIdentifier": "Banner Selection"
+  },
+  "selectionEntryGroups": [
+    {
+      "entryLinks": [
+        {
+          "targetId": "efc8-c51d-5b02-a3a2",
+          "id": "2cef-8b7d-9603-b9ec",
+          "name": "Meltagun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "12",
+              "conditions": [
+                {
+                  "childId": "3967-cabf-7c9a-6b8b",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "81ac-c2aa-5c56-1820",
+          "id": "1afd-4e71-06b9-aa45",
+          "name": "Flamer"
+        },
+        {
+          "targetId": "6558-8624-4594-a84e",
+          "id": "45bb-c893-2fdb-3e2c",
+          "name": "Grenade Launcher"
+        },
+        {
+          "targetId": "8c14-22cc-93ce-b85a",
+          "id": "fe60-77e8-ab0c-2b97",
+          "name": "Plasma gun",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "7",
+              "conditions": [
+                {
+                  "childId": "3967-cabf-7c9a-6b8b",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "e361-b6c7-d3e6-9c96",
+          "id": "ef66-c4c1-39ab-e635",
+          "name": "Sniper rifle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "febc-b799-91f1-daef",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "c90d-f7ed-0405-0281",
+      "name": "Special Weapons"
+    }
+  ]
+}

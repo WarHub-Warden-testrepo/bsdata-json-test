@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "identifier": "Turret Weapons"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d232-4017-cd9f-b55a",
+      "constraints": [
+        {
+          "id": "85b6-136c-3441-7c71",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "4589-1139-ccf9-9e9d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "09d8-7790-ed3f-4d6d",
+          "id": "d232-4017-cd9f-b55a",
+          "name": "Twin heavy bolter",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "14"
+            }
+          ]
+        },
+        {
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "a84e-e180-55eb-d56c",
+          "name": "Twin lascannon",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "40"
+            }
+          ]
+        }
+      ],
+      "id": "8dde-9320-f50a-6c1f",
+      "name": "Turret Weapons",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "85b6-136c-3441-7c71",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "16ab-220b-a2d2-a80e",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "6267-6959-b9ec-4a6b",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "childId": "35a0-9b59-2eeb-7931",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "6267-6959-b9ec-4a6b",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "field": "4589-1139-ccf9-9e9d",
+          "value": "2"
+        },
+        {
+          "type": 1,
+          "field": "4589-1139-ccf9-9e9d",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "16ab-220b-a2d2-a80e",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "6267-6959-b9ec-4a6b",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

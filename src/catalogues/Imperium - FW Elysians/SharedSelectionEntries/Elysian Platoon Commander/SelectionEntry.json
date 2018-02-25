@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "identifier": "Elysian Platoon Commander",
+    "prevIdentifier": "Elysian Drop Sentinels"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "075b-0bdf-a777-8844",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0f23-cd69-d106-371e",
+          "id": "8e5f-a2a2-1f91-c84d",
+          "name": "Krak grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "cdd7-3a7c-4383-5c79",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f08-76bc-990c-dee5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "e73a-aa58-2985-4802",
+          "name": "Frag grenade"
+        },
+        {
+          "type": 1,
+          "targetId": "8951-19ee-4d4f-29a9",
+          "id": "1db0-e397-7cd4-bc02",
+          "name": "Elysian Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "529c-6b64-8be7-8098",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8ed2-3e2c-4d52-af79",
+          "id": "889d-8797-ce0a-0be5",
+          "name": "Melta bombs"
+        },
+        {
+          "targetId": "abeb-d969-0146-1d90",
+          "id": "9721-d1ff-4ae4-cf6c",
+          "name": "Elysian Voice of Command & Orders"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "3052-19ae-e47f-c20f",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "aa31-6c20-d3e4-ee6b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "52fd-95b6-92e1-ea23",
+          "name": "Warlord"
+        }
+      ],
+      "id": "1248-7fe5-d1bb-6bd4",
+      "name": "Elysian Platoon Commander",
+      "infoLinks": [
+        {
+          "targetId": "b2ac-24d0-fec8-1d3c",
+          "id": "97e8-d35a-9f94-6636",
+          "name": "Aerial Drop"
+        },
+        {
+          "targetId": "ae62-fb85-ecb4-7a03",
+          "id": "9269-345f-a92b-5b87",
+          "name": "Refractor Field"
+        },
+        {
+          "targetId": "adb3-d0dc-70aa-7023",
+          "id": "70ba-5d37-fba4-603a",
+          "name": "Iron Disipline"
+        },
+        {
+          "targetId": "6d71-66b0-4b44-050b",
+          "id": "636f-320a-321b-1217",
+          "name": "Voice of Command"
+        }
+      ]
+    }
+  ]
+}

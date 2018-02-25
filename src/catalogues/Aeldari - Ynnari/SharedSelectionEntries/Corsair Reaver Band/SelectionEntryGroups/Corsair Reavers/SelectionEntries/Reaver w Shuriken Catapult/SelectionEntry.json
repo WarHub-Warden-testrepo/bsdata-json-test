@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "identifier": "Reaver w/ Shuriken Catapult",
+    "prevIdentifier": "Reaver w/ Heavy Weapon"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "8217-91fa-1d82-6ddf",
+          "id": "4180-d19f-2b16-007e",
+          "name": "Sunburst grenades"
+        },
+        {
+          "targetId": "dc63-3451-d328-152f",
+          "id": "f391-b935-16ee-4016",
+          "name": "Brace of Pistols"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b38b-5ef7-8bb9-c0ef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "91c8-ff6d-fd0e-db75",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "1d13-3a9a-37d6-1735",
+          "id": "ac6a-8e4b-7986-afa1",
+          "name": "Shuriken Catapult"
+        }
+      ],
+      "id": "4c82-99e2-052e-940b",
+      "name": "Reaver w/ Shuriken Catapult",
+      "book": "IA - Index Xenos",
+      "page": "78",
+      "infoLinks": [
+        {
+          "targetId": "46d2-7afa-7bb7-af2b",
+          "id": "bd8b-8516-1153-6717",
+          "name": "Corsair Reaver"
+        }
+      ]
+    }
+  ]
+}

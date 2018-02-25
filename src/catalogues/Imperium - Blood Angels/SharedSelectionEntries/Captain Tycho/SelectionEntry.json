@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "identifier": "Captain Tycho",
+    "prevIdentifier": "Commander Dante"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 95.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cbb8-7d9a-a1f2-e041",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "3e07-452b-9b8b-b0ca",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "2047-1d10-7d5d-5496",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "c63b-46c3-35e8-a328",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "4c8a-ffe0-664d-7331",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "5294-c786-b286-8b3b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "6297-2708-f031-1626",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9956-5c97-2c81-da80",
+          "id": "956d-8f4f-32e8-f9d7",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "94e1-25fe-8b2d-64dd",
+          "id": "4d00-8b8d-3ea9-2286",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "eb52-8151-77b5-290b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "141b-4e34-a213-a77e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "411a-a078-9b43-ee4c",
+          "name": "Bolt pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "ade6-7a8d-db9c-191d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f894-763e-037a-5180",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e1eb-d7c0-a3f8-fb0a",
+          "name": "Frag & Krak grenades",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "a907-1860-e58b-5e78",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6bf4-1e90-6d37-229e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9637-a28b-ff2e-9950",
+          "id": "9acf-6efd-85c3-c04c",
+          "name": "Blood Song"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a36b-ae8d-e2ea-f3f8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "069c-83d6-ef81-10d5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "28f8-4358-519b-58d2",
+          "id": "0caa-b180-51b0-ce0e",
+          "name": "Dead Man's Hand"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ded6-caec-1fd1-5aa7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fe32-ce90-4d6d-1883",
+          "id": "41ac-ae83-c6e2-d7f7",
+          "name": "Warlord"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fcab-ebc1-1923-3563",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            },
+            {
+              "id": "4d72-6e25-9c93-6917",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "5aac-e94d-2bcf-c1d1",
+          "id": "ce65-f5d6-be1f-e62a",
+          "name": "6. Selfless Valour",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "4d72-6e25-9c93-6917",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "fe32-ce90-4d6d-1883",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "fcab-ebc1-1923-3563",
+              "value": "1",
+              "conditions": [
+                {
+                  "childId": "fe32-ce90-4d6d-1883",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            },
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "fe32-ce90-4d6d-1883",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3f18-fc9e-d689-3131",
+      "name": "Captain Tycho",
+      "infoLinks": [
+        {
+          "targetId": "8478-3bdd-ee82-fd76",
+          "id": "a97a-0db4-c530-36df",
+          "name": "Captain Tycho"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "87cc-4f6a-0d7f-3875",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "cf04-2c83-f5e1-9fb4",
+          "id": "2324-9a07-4b0e-39ce",
+          "name": "Rites of Battle"
+        },
+        {
+          "targetId": "8742-48fe-7dfc-a1c0",
+          "id": "bf75-3162-82fd-48a2",
+          "name": "Iron Halo"
+        },
+        {
+          "targetId": "7609-c5ba-3a3b-94ec",
+          "id": "16ee-024a-9918-826f",
+          "name": "Abhor the Beast"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "cbb8-7d9a-a1f2-e041",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "7dcf-85dd-4c49-df66",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

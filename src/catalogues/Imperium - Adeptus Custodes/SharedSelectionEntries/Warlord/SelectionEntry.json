@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Warlord",
+    "prevIdentifier": "Impregnable Mind"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ed8c-05e6-a17c-a791",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8714-71aa-0c65-6e15",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "1b2f-e2a9-5c19-0f99",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "a122-2d49-c92e-80ca",
+          "name": "Warlord"
+        }
+      ],
+      "id": "2471-0b95-738c-edd9",
+      "name": "Warlord"
+    }
+  ]
+}

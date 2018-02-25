@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "identifier": "Chaplain Grimaldus",
+    "prevIdentifier": "The Emperor's Champion"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 120.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "63b5-04ea-5ad0-ec0e",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "0511-d12d-d240-b894",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6c0-28c2-e5f6-9af7",
+          "id": "f8e0-4579-ce04-7f8a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c3f5-f3b2-bdbb-4742",
+          "id": "1f81-727c-ed24-6f51",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "b106-2ef5-fb31-5b04",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "eca0-d23e-470f-f025",
+          "id": "f1b3-e670-0b4a-cf3e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "eb40-a5a3-43c9-7733",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "4d23-2faf-1e50-ebb0",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "d6cc-5abf-4f61-6799",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6cb8-93d4-7303-c280",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "7543-5a4e-0f59-bacc",
+          "id": "ca2e-231d-5f0a-04d2",
+          "name": "Crozius arcanum"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9691-b3f1-f3e2-1927",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e4fb-9e49-520f-f1fc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "6ee8-9318-36f0-2dd4",
+          "name": "Plasma pistol",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "c058-771a-cfa7-4ffb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e0b1-0f3f-b520-bc25",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "0d63-15ab-5a5c-a979",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "34f9-ec3b-4628-4775",
+      "name": "Chaplain Grimaldus",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "ac5d-6e0a-4e77-edab",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "9287-78a9-f594-c601",
+          "id": "093b-c0f0-c97b-7251",
+          "name": "Litanies of Hate"
+        },
+        {
+          "targetId": "b355-bd49-c5a5-805f",
+          "id": "b2e5-ea25-4223-5606",
+          "name": "Rosarius"
+        },
+        {
+          "targetId": "3f26-e8cb-ea53-e656",
+          "id": "88fe-b1d6-38ad-9d51",
+          "name": "Spiritual Leaders"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "1ceb-4568-edeb-e155",
+                  "type": 3,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                },
+                {
+                  "childId": "bf89-9471-d639-be6a",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

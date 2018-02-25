@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "identifier": "Kroot Carnivores",
+    "prevIdentifier": "XV104 Riptide Battlesuit"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "ad97-1220-8808-7827",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "a8c4-183c-730e-373e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c61f-ef38-2718-a725",
+          "id": "5126-c119-1492-716b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "1dc9-143c-c21c-2bfb",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "aea6-9989-7889-48b4",
+      "name": "Kroot Carnivores",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "3884-2cd4-f684-e35a",
+          "id": "e450-9da4-5e73-10f9",
+          "name": "New InfoLink"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "3",
+          "conditions": [
+            {
+              "childId": "7c6b-6809-256c-48a9",
+              "type": 4,
+              "field": "selections",
+              "scope": "aea6-9989-7889-48b4",
+              "value": 11.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

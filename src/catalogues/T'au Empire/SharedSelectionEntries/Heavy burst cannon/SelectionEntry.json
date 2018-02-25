@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "identifier": "Heavy burst cannon",
+    "prevIdentifier": "Fusion collider"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "35fb-3142-dd7a-6074",
+      "name": "Heavy burst cannon",
+      "infoLinks": [
+        {
+          "targetId": "f68c-6cd7-869e-83ff",
+          "id": "9af0-e05d-f076-b25c",
+          "name": "Heavy burst cannon (Nova-charge)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "725a-82bb-106e-d3d9",
+                  "type": 7,
+                  "field": "selections",
+                  "scope": "ancestor",
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "bee2-7cd3-c740-7c51",
+          "id": "dee1-1b68-e4fc-4b29",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

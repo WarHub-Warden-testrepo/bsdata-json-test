@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "identifier": "Warp Talons",
+    "prevIdentifier": "Sorcerer"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "f674-7e58-a07c-e270-c274d0b0-5866-44bc-9810-91c136ae7438"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "2449-9ddf-5d15-b183",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "b2b6-8e4a-9c74-cc37",
+          "id": "faf5-e4bd-0844-1cab",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a61a-08c8-c7f7-9f78",
+          "id": "b102-4163-ce2d-0136",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "6593-2434-d0c5-ca41",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "1963-b979-a8b9-231d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ca10-a5dd-f54f-0ed5",
+          "id": "8367-0485-25b6-f73c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "5563-5ae7-4e7e-9a20",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f627-f23e-a3b4-dc2c",
+          "id": "1482-9b8e-2b70-ec97",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "45e8-d3d1-105b-90a3",
+          "id": "7396-3f56-ee44-c7e2",
+          "name": "Mark of Chaos"
+        }
+      ],
+      "id": "f674-7e58-a07c-e270",
+      "name": "Warp Talons",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "94f5-82c3-bb66-ac0c",
+          "id": "07e4-3519-2235-d9e0",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "37a4-1d84-4ef0-c4f6",
+          "id": "2395-9baf-5a33-15dd",
+          "name": "Death to the False Emperor"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "f674-7e58-a07c-e270",
+              "value": 5.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

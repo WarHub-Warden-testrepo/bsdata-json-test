@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Ogryn Bodyguard",
+    "prevIdentifier": "Plasma Cannon"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 4.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 55.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "5907-f966-ee34-0bc9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "aecd-b894-9b62-e02e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "da8a-726c-896b-dd0d",
+          "id": "a4c6-866f-bd9a-f65e",
+          "name": "Frag Bombs"
+        },
+        {
+          "type": 1,
+          "targetId": "8ed7-7588-0f06-9b0d",
+          "id": "8391-8d92-bbfc-f7d6",
+          "name": "Heirlooms of Conquest"
+        }
+      ],
+      "id": "03b5-6ec5-7b14-f030",
+      "name": "Ogryn Bodyguard",
+      "book": "Codex: Astra Militarum",
+      "page": "102",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "11ec-3914-8daa-53bb",
+          "id": "798c-b1df-7d63-1733",
+          "name": "Avalanche of Muscle"
+        }
+      ]
+    }
+  ]
+}

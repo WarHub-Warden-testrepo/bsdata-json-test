@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Inceptors"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "84a8-a11c-3618-31bf",
+      "constraints": [
+        {
+          "id": "4925-5a00-5c09-db03",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "57d2-2de4-78ad-ed52",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "83db-e968-8c89-93b3",
+          "id": "84a8-a11c-3618-31bf",
+          "name": "Assault Bolter",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "10",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "9efa-8744-f254-c046",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "c13c-5c52-09be-a916",
+          "id": "7a52-9c9b-4eda-d226",
+          "name": "Plasma Exterminator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "model",
+                  "repeats": 2,
+                  "field": "selections",
+                  "scope": "9efa-8744-f254-c046",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "266e-b2e3-0c61-da7f",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "Renegade Enforcer",
+    "prevIdentifier": "Frag grenade"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 2.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 30.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0446-c284-520b-6598",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "43bd-5ead-9b6c-4a4e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "c2c3-0408-659c-e061",
+          "name": "Frag grenade"
+        }
+      ],
+      "id": "0427-f5b6-5352-03af",
+      "name": "Renegade Enforcer",
+      "infoLinks": [
+        {
+          "targetId": "1e85-d18e-c910-8938",
+          "id": "b9e4-2cbe-0580-54ea",
+          "name": "Uncertain Worth"
+        },
+        {
+          "targetId": "576d-b2b0-efa8-a1ae",
+          "id": "3dcb-5640-2138-7c33",
+          "name": "Fanatic"
+        },
+        {
+          "targetId": "60bc-f557-e4db-bce7",
+          "id": "f72d-a7f3-f5bc-7137",
+          "name": "Chaos Covenant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "identifier": "Chainsword",
+    "prevIdentifier": "Bolt Pistol"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "5000-7b42-7597-dae8",
+      "constraints": [
+        {
+          "id": "20e3-284f-2339-5e21",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "fe69-30a2-47c8-6f61",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c61a-5c71-b567-fbac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0dd1-2e2b-7dd1-5495",
+          "id": "5000-7b42-7597-dae8",
+          "name": "Chainsword"
+        },
+        {
+          "type": 1,
+          "targetId": "9f94-92bd-8511-a7dc",
+          "id": "65a4-1fa6-86d8-d806",
+          "name": "Inqusistor Melee Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "442f-cecb-fe62-925d",
+          "id": "39ab-1fd8-b39a-259f",
+          "name": "Inquisitor Force Weapons",
+          "isHidden": true,
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "false",
+              "conditions": [
+                {
+                  "childId": "ee86-5bfb-fa38-59fd",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "0b13-8c12-cbea-300f",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "877d-51d5-43e4-e4cc",
+      "name": "Chainsword"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Blightlord Terminator - 0"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 38.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "2ec8-a1bd-4352-4701",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a121-30cd-84e5-d350",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "84df-09b2-dd78-ff98",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5e73-55ff-050d-a4b5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "36f3-205a-9a21-726d",
+          "id": "d851-514a-7c9f-dbee",
+          "name": "Plague Spewer"
+        }
+      ],
+      "id": "2b2f-3eac-41a2-9650",
+      "name": "Blightlord Terminator"
+    }
+  ]
+}

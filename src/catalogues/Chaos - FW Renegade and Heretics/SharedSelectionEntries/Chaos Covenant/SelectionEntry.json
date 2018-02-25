@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Chaos Covenant",
+    "prevIdentifier": "Krak grenade"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "bea3-7361-dbc0-0105",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6a6f-327e-1b3b-154e",
+      "name": "Chaos Covenant",
+      "modifiers": [
+        {
+          "field": "bea3-7361-dbc0-0105",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "cda3-d266-53b8-4d6c",
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

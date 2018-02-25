@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "identifier": "Rough Rider w/ Special Weapons",
+    "prevIdentifier": "Rough Rider"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d87f-ec1b-f3e7-6db4",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "fad1-fedf-abb4-0a0f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "5a0d-445c-cd76-eb50",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "9c74-d181-d2ec-0ba6",
+          "id": "53c3-efc0-ae46-4ef2",
+          "name": "Laspistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fa9c-808d-9d99-2c32",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f82-070f-adfc-98f5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "de76-80c5-81db-c463",
+          "id": "ca5b-f0d2-3089-0a2a",
+          "name": "Chainsword"
+        },
+        {
+          "targetId": "ea30-2a64-825b-2826",
+          "id": "1fff-9644-ccc2-a339",
+          "name": "Purebred Steed"
+        }
+      ],
+      "id": "6d63-327c-55f0-d7a5",
+      "name": "Rough Rider w/ Special Weapons",
+      "page": "0"
+    }
+  ]
+}

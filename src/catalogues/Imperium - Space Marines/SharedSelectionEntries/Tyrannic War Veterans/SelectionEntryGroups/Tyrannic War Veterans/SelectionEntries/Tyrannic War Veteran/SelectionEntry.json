@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Tyrannic War Veteran",
+    "prevIdentifier": "Veteran Sergeant"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "8c33-9538-4c76-1eda",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "df96-070a-d9cf-ad04",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cfc3-3735-a2e8-53cd",
+          "id": "360e-94ba-a36e-3823",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ad9e-330f-3047-b51f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d391-657f-389f-868a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "6928-8db5-3a81-fa8b",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "70e2-a366-f041-a3e5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e4a0-fcf6-349f-bb67",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "c16b-790c-b438-6a6f",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "2c43-deb6-3d36-62c3",
+      "name": "Tyrannic War Veteran"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard Bike Leader"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 31.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "63f3-d6e9-1bd5-b0aa",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e6da-f7a3-8334-18b8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4a14-c3e6-6f3f-39d1",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "7ea1-d644-1e43-ab99",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "353d-6dfb-bd85-5fad",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8e06-2d35-6aa4-a1ab",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "d8c1-404c-7de1-dbf6",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "9526-c36a-92c1-5d84",
+      "name": "Wolf Guard Bike Leader",
+      "infoLinks": [
+        {
+          "targetId": "9e11-c79f-08af-62e0",
+          "id": "f2d0-3594-5e6e-3d47",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

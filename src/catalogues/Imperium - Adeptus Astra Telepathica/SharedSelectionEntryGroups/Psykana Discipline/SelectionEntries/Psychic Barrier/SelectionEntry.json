@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "identifier": "Psychic Barrier",
+    "prevIdentifier": "Gaze of the Emperor"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "b143-cf58-ecc5-51de",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "a0bd-c1e3-3f1d-3db7",
+      "name": "Psychic Barrier"
+    }
+  ]
+}

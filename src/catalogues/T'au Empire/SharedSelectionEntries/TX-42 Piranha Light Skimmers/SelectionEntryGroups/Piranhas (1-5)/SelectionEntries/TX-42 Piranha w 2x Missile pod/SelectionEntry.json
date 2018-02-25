@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "identifier": "TX-42 Piranha w/ 2x Missile pod",
+    "prevIdentifier": "TX-42 Piranha w/ 2x Fusion blaster"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f803-68f1-e9ff-52bc",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 5.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "72fa-b484-8f39-231b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "17db-159e-7645-72b9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "115e-6b4c-762e-1289",
+          "id": "0d3f-9e2b-8481-9205",
+          "name": "Missile pod"
+        }
+      ],
+      "id": "30f4-e0e6-d5c0-6456",
+      "name": "TX-42 Piranha w/ 2x Missile pod",
+      "infoLinks": [
+        {
+          "targetId": "7da1-2e20-2715-38ca",
+          "id": "af19-4dbf-18fa-4f58",
+          "name": "TX-42 Piranha"
+        }
+      ]
+    }
+  ]
+}

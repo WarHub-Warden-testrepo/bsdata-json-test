@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "identifier": "Deathwing Knights",
+    "prevIdentifier": "Watcher in the Dark"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 12.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "e715-04a4-7614-9f25",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "621a-db57-605d-deb8",
+          "id": "6ea6-7b2b-e4a6-832a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "218e-f879-0c7c-11d5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3fd6-0b4f-6e16-5a7b",
+          "id": "6379-0fea-32a1-a486",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "c348-eb80-d8e7-7431",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "dde8-898c-1e03-99e5",
+          "id": "f5ec-f060-0fe1-cb98",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "fb5e-fe96-8fe7-a41a",
+          "id": "d30a-0a67-5fdf-a560",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "6363-d94e-728d-f1de",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "eda8-1768-0a9c-6189",
+          "id": "0605-c7bf-7324-4878",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "b995-3b91-9b2a-f645",
+      "name": "Deathwing Knights",
+      "infoLinks": [
+        {
+          "targetId": "1f9b-e02c-2010-158e",
+          "id": "00d6-8394-741e-86c5",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "26fe-39da-69e7-abb3",
+          "id": "ecf9-8ac2-a165-d98f",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "3e31-4e4b-6ab6-d90b",
+          "id": "e821-8a53-5628-32b9",
+          "name": "Combat Squads"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "24",
+          "conditions": [
+            {
+              "childId": "adea-12f9-a5d2-2bf3",
+              "type": 4,
+              "field": "selections",
+              "scope": "b995-3b91-9b2a-f645",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

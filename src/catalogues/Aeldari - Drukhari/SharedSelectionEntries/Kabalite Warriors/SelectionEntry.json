@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "identifier": "Kabalite Warriors",
+    "prevIdentifier": "Haemonculus"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "53ad-d29f-5f37-2a82",
+          "id": "474a-29ee-1684-a7eb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a01-e1fc-d03d-8390",
+          "id": "4c58-699a-2fa5-5633",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "bd42-0139-0789-e05b",
+          "id": "1ece-2300-e45f-310f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "d480-547f-5fe2-2c0a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a6a2-680c-c64c-587a",
+          "id": "7e8d-6310-9b15-e133",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "f980-bd91-876f-120f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "40a0-6ba1-e19a-1c60",
+      "name": "Kabalite Warriors",
+      "book": "",
+      "infoLinks": [
+        {
+          "targetId": "fb21-62ba-a903-78c7",
+          "id": "e3e2-37c5-5566-3b46",
+          "name": "Power from Pain"
+        },
+        {
+          "type": 1,
+          "targetId": "e6c3-8502-de0a-9515",
+          "id": "92fa-9b8c-d2f3-1d89",
+          "name": "Power from Pain"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "7",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 10.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "9",
+          "conditions": [
+            {
+              "childId": "ed63-eca5-6154-af5c",
+              "type": 1,
+              "field": "selections",
+              "scope": "40a0-6ba1-e19a-1c60",
+              "value": 15.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

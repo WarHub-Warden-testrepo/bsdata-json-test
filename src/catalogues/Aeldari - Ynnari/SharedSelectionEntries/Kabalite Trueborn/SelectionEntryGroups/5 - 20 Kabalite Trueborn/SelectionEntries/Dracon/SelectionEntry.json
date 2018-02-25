@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Dracon",
+    "prevIdentifier": "Kabalite Trueborn"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 11.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "706a-3a78-27bb-7290",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "fa90-8444-e789-5146",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "4448-243b-2379-2c73",
+          "id": "d121-9727-862c-76b0",
+          "name": "Phantasm Grenade Launcher"
+        }
+      ],
+      "id": "52bc-c818-f923-ebee",
+      "name": "Dracon",
+      "page": "0"
+    }
+  ]
+}

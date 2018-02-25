@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Early warning override - 18",
+    "prevIdentifier": "Multi-tracker - 17"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "af91-0c4a-377e-dc8d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "3ff5-ce63-c9f8-b39e",
+      "name": "Early warning override",
+      "infoLinks": [
+        {
+          "targetId": "a8f2-944e-8ce8-80b6",
+          "id": "61f5-3aae-d587-036c",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

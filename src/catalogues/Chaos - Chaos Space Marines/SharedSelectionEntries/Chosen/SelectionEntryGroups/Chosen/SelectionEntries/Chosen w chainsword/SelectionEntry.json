@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Chosen w/ chainsword",
+    "prevIdentifier": "Chosen w/ boltgun"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "6bd5-eb4a-a81a-c2b6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "19d5-2047-200f-d005",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "7f95-9ef2-c537-585f",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "e212-3abb-07e2-5784",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ce84-18ac-df45-9cd2",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "e507-f9c0-da0e-4cc8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "704f-026f-22fd-89d5",
+          "id": "6082-67f0-1582-c20e",
+          "name": "Chainsword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9ee4-f51d-0dcb-9126",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "44f0-bb61-79d4-61a1",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "410f-9660-c8a1-1218",
+          "name": "Bolt pistol"
+        }
+      ],
+      "id": "b1f8-b08f-b2b0-df75",
+      "name": "Chosen w/ chainsword"
+    }
+  ]
+}

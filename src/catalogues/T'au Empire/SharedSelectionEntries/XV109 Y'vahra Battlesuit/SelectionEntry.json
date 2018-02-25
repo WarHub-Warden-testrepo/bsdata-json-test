@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "identifier": "XV109 Y'vahra Battlesuit",
+    "prevIdentifier": "XV9 Hazard Support Team"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 20.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 395.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "8cc3-4e99-e01d-fed8",
+          "id": "6c63-d69b-1a59-73e8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "77ee-b03b-d244-d535",
+          "id": "41a0-5673-e0dd-2920",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "bc54-329f-07b1-85c5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0caa-53ee-34da-cda1",
+          "id": "c8d8-11d6-18ec-dd52",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "59fd-d6a7-e52e-209d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "092c-6125-af28-ef5d",
+          "id": "1652-57bf-d0ce-2cee",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "a722-3bed-a625-f562",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "28ed-4d8e-f171-3660",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "26e2-51af-9251-652e",
+          "id": "4310-0ac4-e226-932b",
+          "name": "Support Systems",
+          "modifiers": [
+            {
+              "type": 3,
+              "field": "name",
+              "value": " (0-2)"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "9436-7499-b9d7-7363",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6d25-ff52-9799-9b9b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "92d8-d540-ea46-c965",
+          "id": "a709-ee0a-ecb4-3fe9",
+          "name": "Ionic discharge cannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "167d-df92-a2bb-931b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "f084-e0bb-63f2-a535",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e394-38a6-1c85-b7e6",
+          "id": "c720-3de5-9f68-22c1",
+          "name": "Phased plasma-flamer"
+        }
+      ],
+      "id": "bcc6-5ed3-90de-f2ea",
+      "name": "XV109 Y'vahra Battlesuit",
+      "book": "IAI: Xenos",
+      "page": "45",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "9a3a-31af-3eb4-fc3d",
+          "id": "713d-7fa6-4d44-1d21",
+          "name": "For the Greater Good"
+        },
+        {
+          "targetId": "7618-f543-d49c-1597",
+          "id": "61df-fc2b-6de8-6801",
+          "name": "Nova Reactor (Y'vahra class)"
+        },
+        {
+          "targetId": "ae5e-a73e-8595-fcca",
+          "id": "4810-6ac2-d1db-0eb3",
+          "name": "XV109 Y'vahra Battlesuit"
+        },
+        {
+          "targetId": "67e6-4abf-9c39-3980",
+          "id": "ba78-a6e8-14c9-3a96",
+          "name": "XV109 Y'vahra Battlesuit"
+        },
+        {
+          "targetId": "551d-a6c8-f40c-ec6e",
+          "id": "5e44-1715-bc2f-42fd",
+          "name": "XV109 Y'vahra Battlesuit 1"
+        },
+        {
+          "targetId": "957b-5e4c-71ed-3b38",
+          "id": "22dd-f798-d3a8-6f1f",
+          "name": "XV109 Y'vahra Battlesuit 2"
+        },
+        {
+          "targetId": "36c6-8435-da19-7fd7",
+          "id": "f602-f527-6d2e-a3e4",
+          "name": "XV109 Y'vahra Battlesuit 3"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "f45c-38b9-a44c-f372",
+              "type": 4,
+              "field": "selections",
+              "scope": "bcc6-5ed3-90de-f2ea",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "identifier": "Venerable Dreadnought",
+    "prevIdentifier": "Dreadnought"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 8.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 90.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "48e5-ceed-000a-a99a",
+          "id": "dfaf-d05c-86d6-d37d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "b19b-c11c-f5bf-6abf",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2edb-70de-3930-c790",
+          "id": "b207-f636-4a09-a847",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "7192-320c-2294-6868",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "621a-db57-605d-deb8",
+          "id": "e036-d1e4-3adb-848e",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "0a0d-b4cd-65bb-da13",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "280d-1c45-7e68-69cd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "345e-609b-29f8-73af",
+          "id": "87a5-e822-c68e-c746",
+          "name": "New EntryLink"
+        },
+        {
+          "type": 1,
+          "targetId": "0f5d-5463-7908-f599",
+          "id": "b163-0ea9-eecb-47b5",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "ab51-c3f2-9c5a-ecd2",
+      "name": "Venerable Dreadnought",
+      "infoLinks": [
+        {
+          "targetId": "f9fc-db2c-95f1-e2bb",
+          "id": "554e-4eac-bc94-d54e",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "61ce-02a3-e9d2-cfcc",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "6593-d4db-3ad3-7de0",
+          "id": "1c06-6c0f-e22e-0a67",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "identifier": "Canoptek Wraiths",
+    "prevIdentifier": "Canoptek Wraith w/ Whip Coils"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 6.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "7892-58f7-e769-4d87",
+          "id": "16d8-f479-a7d6-b684",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "447e-178b-ec5a-0f87",
+          "id": "6543-2296-ef53-0a1c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a37-4c9f-a323-a8f2",
+          "id": "dc33-870e-9fbf-d465",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "876e-ea78-1fdf-f250",
+          "id": "6a73-8346-0663-6332",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "accb-e3d8-1193-10cc",
+          "id": "3f8b-56b0-aa3c-c08a",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "2ca1-0513-62e6-1e27",
+      "name": "Canoptek Wraiths",
+      "book": "Index: Xenos 1",
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "12",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 1,
+              "field": "selections",
+              "scope": "2ca1-0513-62e6-1e27",
+              "value": 3.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

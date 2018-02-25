@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "identifier": "Unit Weapon Options",
+    "prevIdentifier": "Hellblasters"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "d9eb-438e-3508-2ab9",
+      "constraints": [
+        {
+          "id": "284d-80fe-7445-9ac9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "77d5-ffcd-826e-ba77",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "56c4-3a39-84d4-d3c5",
+          "id": "972a-e479-5b08-c163",
+          "name": "Heavy Plasma Incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "17",
+              "repeats": [
+                {
+                  "childId": "c7f9-9505-f842-9e77",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bd95-3ac7-a2c0-a49d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "5c9c-0bfc-7a9e-0ce1",
+          "id": "d9eb-438e-3508-2ab9",
+          "name": "Plasma incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "15",
+              "repeats": [
+                {
+                  "childId": "c7f9-9505-f842-9e77",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bd95-3ac7-a2c0-a49d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "a2ba-04e1-cec2-10a8",
+          "id": "2bd7-059d-4ab9-9c03",
+          "name": "Assault Plasma Incinerator",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "points",
+              "value": "16",
+              "repeats": [
+                {
+                  "childId": "c7f9-9505-f842-9e77",
+                  "repeats": 1,
+                  "field": "selections",
+                  "scope": "bd95-3ac7-a2c0-a49d",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "9b50-f12f-5560-28e8",
+      "name": "Unit Weapon Options"
+    }
+  ]
+}

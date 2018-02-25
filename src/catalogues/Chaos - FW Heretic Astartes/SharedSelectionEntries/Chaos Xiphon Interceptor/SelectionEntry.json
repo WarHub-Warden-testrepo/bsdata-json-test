@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "identifier": "Chaos Xiphon Interceptor",
+    "prevIdentifier": "Dreadstrike missiles"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 11.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 110.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "2b8b-d5c5-972d-1d7a",
+          "id": "823a-9230-6095-a1f0",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "096e-708c-dd20-2c10",
+          "id": "760b-e8fd-c1c8-c77a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "d4d8-d138-f328-a650",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c6c5-7ba3-ae32-8fc0",
+          "id": "1587-9ee1-6742-0b2e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "5cff-5ba1-a2d0-0ce7",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "e888-1504-aa61-95ff",
+          "id": "a186-6bbc-cde3-818c",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "5c4c-f549-6ee9-2f4b",
+          "id": "73c2-d1b3-3a93-c075",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "8eb9-320b-ce89-9784",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "2ace-ac7a-a82b-6472",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "304b-42eb-09d3-9ebe",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "f7c4-b9af-4916-67f7",
+          "name": "Twin lascannon"
+        },
+        {
+          "constraints": [
+            {
+              "id": "dcf6-bcf4-5ae2-8e8d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2371-d11e-a3bf-be2e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "01ba-a1b4-2434-59f1",
+          "id": "f0c5-96a5-66b7-482b",
+          "name": "Soulstalker missiles"
+        }
+      ],
+      "id": "a096-b74b-efa6-9bb4",
+      "name": "Chaos Xiphon Interceptor",
+      "infoLinks": [
+        {
+          "targetId": "b054-22a3-2ce0-ea90",
+          "id": "86ee-495b-7103-44fd",
+          "name": "Airborne"
+        },
+        {
+          "targetId": "2567-8e02-9663-8055",
+          "id": "89f2-5ff8-80b3-b7ec",
+          "name": "Hard to Hit"
+        }
+      ]
+    }
+  ]
+}

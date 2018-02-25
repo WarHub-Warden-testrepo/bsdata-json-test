@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Transport",
+    "prevIdentifier": "Serpent Shield"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "a111-9f64-9585-dd0a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2768-284a-7c13-9c67",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2914-3ae0-af9a-abd6",
+      "name": "Transport"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Meiotic Spore"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 18.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c4de-39c6-428a-dd14",
+          "field": "selections",
+          "scope": "parent",
+          "value": 3.0,
+          "shared": true
+        },
+        {
+          "id": "cace-0413-d5a0-6fd6",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 9.0,
+          "shared": true
+        }
+      ],
+      "id": "92e8-15a6-e1db-6671",
+      "name": "Meiotic Spore"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Stat Damage (FW Leman Russ)",
+    "prevIdentifier": "Leman Russ Stygies Vanquishers"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "791e-3abc-e917-7895",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "ff72-55f3-0b83-659f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "2977-7fd0-f8c3-f1c6",
+      "name": "Stat Damage (FW Leman Russ)"
+    }
+  ]
+}

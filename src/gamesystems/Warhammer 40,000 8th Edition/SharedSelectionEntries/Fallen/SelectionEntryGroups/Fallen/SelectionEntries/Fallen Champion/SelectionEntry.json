@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "identifier": "Fallen Champion",
+    "prevIdentifier": "Fallen"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 14.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "0844-6686-d0c3-6fda",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "2e54-953e-9937-c602",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "3a5b-18e1-660e-ce1b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8394-28dd-14f6-c6fd",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "b80d-7f24-52f3-bb2e",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "85f8-2319-4c72-4c56",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "891c-fbf0-e426-2c15",
+          "id": "ebc8-4297-b5e4-0e5f",
+          "name": "Fallen Champion Equipment"
+        }
+      ],
+      "id": "0efc-ecce-405c-0e5c",
+      "name": "Fallen Champion"
+    }
+  ]
+}

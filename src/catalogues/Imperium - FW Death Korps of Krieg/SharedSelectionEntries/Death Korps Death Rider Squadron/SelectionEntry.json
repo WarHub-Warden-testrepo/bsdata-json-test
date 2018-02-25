@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "identifier": "Death Korps Death Rider Squadron",
+    "prevIdentifier": "Death Korps Death Rider Commissar"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "3263-4233-4344-6228",
+          "id": "f01d-cdfd-da10-c128",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ad01-caec-17d9-cb8d",
+          "id": "bd5b-8a05-3daf-a4a5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "10fb-edee-8d61-d82a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "d4b7-c4c8-ac38-ddfd",
+          "id": "2d20-4b34-ae14-0711",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "c274d0b0-5866-44bc-9810-91c136ae7438",
+          "id": "7f66-6f48-0b83-5d0e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "9a7a-67e2-4ddb-31d0",
+          "id": "1ee2-57fb-cc71-e109",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e492-77d5-9f2d-9a85",
+          "id": "b066-c9fc-344d-6133",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "0a6f-9de8-cc51-3364",
+      "name": "Death Korps Death Rider Squadron",
+      "infoLinks": [
+        {
+          "targetId": "9a6d-4b71-af76-d004",
+          "id": "9741-cda7-f4c0-0168",
+          "name": "Augmented Mount"
+        },
+        {
+          "targetId": "ef44-06c5-0f92-e193",
+          "id": "04f7-8213-68c1-ec9e",
+          "name": "Cult of Sacrifice"
+        },
+        {
+          "targetId": "23c0-ed20-f49f-7bcf",
+          "id": "d0bd-b8b5-26cf-0181",
+          "name": "Warstrider"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "e356-c769-5920-6e14",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "model",
+              "type": 4,
+              "field": "selections",
+              "scope": "0a6f-9de8-cc51-3364",
+              "value": 6.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

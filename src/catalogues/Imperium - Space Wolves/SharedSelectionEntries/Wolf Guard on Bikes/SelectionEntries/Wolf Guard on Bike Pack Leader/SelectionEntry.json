@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Wolf Guard on Bike Pack Leader",
+    "prevIdentifier": "Wolf Guard on Bike"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 34.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "d798-92e2-c75e-f449",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d18c-6a5f-4e70-208c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6e81-00e5-0981-dcec",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "32a5-6c4b-0ef4-6c99",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9efa-003a-d339-4c44",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "30e7-2e02-3a0e-ee70",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4b21-c807-8eed-4fb0",
+          "name": "New EntryLink"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a9d4-92ba-bd3e-f44c",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a23b-4f9b-da92-8c3f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2ebb-7fc3-93ed-4f8e",
+          "id": "9bb8-d2ee-0526-d0aa",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "d375-d384-2171-41bb",
+      "name": "Wolf Guard on Bike Pack Leader",
+      "infoLinks": [
+        {
+          "targetId": "7b6f-c5af-3cfe-1dc6",
+          "id": "8f3d-eec9-2e9e-668a",
+          "name": "New InfoLink",
+          "modifiers": [
+            {
+              "type": 1,
+              "field": "13fc-b29b-31f2-ab9f",
+              "value": "1"
+            },
+            {
+              "field": "name",
+              "value": "Wolf Guard on Bike Pack Leader"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "identifier": "Khorne"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3087-72b7-d744-8a10",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "dfc5-aa04-9546-1b4c",
+          "id": "e177-2648-4a01-c9ad",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "c8e6-5697-36e4-215f",
+      "name": "Khorne",
+      "infoLinks": [
+        {
+          "targetId": "95ad-c89a-501a-6c76",
+          "id": "d32f-d1c7-d8c2-1f2c",
+          "name": "Might over Magic"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "3087-72b7-d744-8a10",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "e536-b475-827e-e3cf",
+              "type": 2,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

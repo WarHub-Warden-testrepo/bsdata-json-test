@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "identifier": "Veteran Sergeant",
+    "prevIdentifier": "Hades Breaching Drill"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "3c0f-136c-0b11-cd7f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "983c-55fc-6544-c399",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ed60-3ca1-8210-a64e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "0946-e266-963e-d2f3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5de8-906d-ea69-610a",
+          "id": "2856-909b-2b1e-c59b",
+          "name": "Frag Grenades"
+        }
+      ],
+      "id": "58c4-952a-8875-7645",
+      "name": "Veteran Sergeant"
+    }
+  ]
+}

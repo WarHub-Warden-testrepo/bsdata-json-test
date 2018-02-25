@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Rangers",
+    "prevIdentifier": "Windriders"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 3.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "fb5a-2f35-6253-b891",
+          "id": "fa3f-fabc-a34d-38f8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "05e9-e880-b1fb-ce90",
+          "id": "1f79-a40e-0a22-1f27",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f406-94c7-4d73-4784",
+          "id": "488c-7384-1989-b128",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "cb71-d762-dd24-b644",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "a814-fb66-a9ba-a309",
+          "id": "40e9-1529-1121-751a",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "5d76b6f5-20ae-4d70-8f59-ade72a2add3a",
+          "id": "651e-5e36-2bb1-872e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "663e-2a3e-e3a4-f250",
+          "id": "4f28-5b8c-e33b-b291",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "5be4-5133-95e3-f6ef",
+      "name": "Rangers",
+      "infoLinks": [
+        {
+          "targetId": "0717-5e61-82ac-ab50",
+          "id": "9444-7e7c-10b2-cf59",
+          "name": "Ancient Doom"
+        },
+        {
+          "targetId": "56e7-c06e-e0f4-ee45",
+          "id": "7438-1c6d-7983-d0b7",
+          "name": "Battle Focus"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "e356-c769-5920-6e14",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "1240-2c05-db61-fb38",
+              "type": 1,
+              "field": "selections",
+              "scope": "5be4-5133-95e3-f6ef",
+              "value": 5.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "identifier": "Armament"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "a286-955e-c8bf-3577",
+      "constraints": [
+        {
+          "id": "bc19-d8e0-b9ee-15e8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "5845-4fee-e869-3898",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "ec1a-d995-4159-8930",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "a286-955e-c8bf-3577",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "fcb1-3207-63e3-508e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "5554-a6c2-0650-15b0",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "targetId": "fb38-f29c-b8de-3ba6",
+          "id": "053b-8335-d67e-e60b",
+          "name": "Pistols"
+        },
+        {
+          "type": 1,
+          "targetId": "37ef-f6fa-fe1f-306c",
+          "id": "961e-7ba6-0c82-6e1c",
+          "name": "Combi-Weapons"
+        },
+        {
+          "type": 1,
+          "targetId": "ce40-8190-5033-a0c1",
+          "id": "1e31-31c3-d835-e1c4",
+          "name": "Melee Weapons"
+        }
+      ],
+      "id": "83e3-b170-dead-9eff",
+      "name": "Armament"
+    }
+  ]
+}

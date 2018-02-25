@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "identifier": "Gargoyle"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 6.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "81d4-cc66-fce5-31e9",
+          "field": "selections",
+          "scope": "parent",
+          "value": 10.0,
+          "shared": true
+        },
+        {
+          "id": "9e88-01e5-a5a6-b3ca",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 30.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "9335-fe96-dded-121a",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6430-7043-edb5-2d3b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b888-86b7-cb7a-866f",
+          "id": "e7ea-d772-4f8e-04cc",
+          "name": "Fleshborer"
+        },
+        {
+          "constraints": [
+            {
+              "id": "9531-d3aa-cfae-fe50",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c19a-bb5c-5585-9e7a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "6d44-8ab7-93ea-0f51",
+          "id": "0884-1db2-1d5d-bd6f",
+          "name": "Blinding Venom"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1b12-c6f8-cc48-fa94",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "8191-100c-b4d2-9879",
+          "id": "2f4a-7ff4-4984-0d7d",
+          "name": "Toxin Sacs"
+        },
+        {
+          "constraints": [
+            {
+              "id": "5cff-0546-6f0a-248e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b9ad-3827-329a-0e6e",
+          "id": "41d8-d284-9581-da0e",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "id": "0837-d880-49c7-01cf",
+      "name": "Gargoyle"
+    }
+  ]
+}

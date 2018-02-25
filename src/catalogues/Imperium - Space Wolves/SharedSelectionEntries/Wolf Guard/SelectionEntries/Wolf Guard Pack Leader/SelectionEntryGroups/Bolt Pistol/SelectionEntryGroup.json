@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "identifier": "Bolt Pistol",
+    "prevIdentifier": "Boltgun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "889d-769e-6a47-bd98",
+      "constraints": [
+        {
+          "id": "809d-129c-7eea-88aa",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "5c66-3301-d4c9-f855",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6cab-2ad9-9523-4909",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "38b5-ef30-f87f-5275",
+          "id": "ee7b-7634-8881-8aa7",
+          "name": "Storm shield"
+        },
+        {
+          "constraints": [
+            {
+              "id": "b9b7-e264-f443-e314",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "83be-1ba9-c326-4760",
+          "id": "61c7-5abc-1e17-047b",
+          "name": "Plasma pistol"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "ae57-9070-0afc-9f7e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0
+            }
+          ],
+          "targetId": "5283-211e-6d8e-ca9a",
+          "id": "1319-0cb0-07cf-310f",
+          "name": "Space Wolves Melee Weapons"
+        }
+      ],
+      "id": "eb28-e3ad-271d-2157",
+      "name": "Bolt Pistol",
+      "modifiers": [
+        {
+          "field": "809d-129c-7eea-88aa",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "field": "5c66-3301-d4c9-f855",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "4d28-0ebb-3015-a8f1",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

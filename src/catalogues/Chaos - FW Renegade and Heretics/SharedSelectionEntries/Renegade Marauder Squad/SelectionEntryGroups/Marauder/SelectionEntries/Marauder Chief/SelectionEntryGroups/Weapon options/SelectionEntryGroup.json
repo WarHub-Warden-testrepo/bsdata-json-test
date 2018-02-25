@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "identifier": "Weapon options"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "fc30-fcc9-be7d-b121",
+      "constraints": [
+        {
+          "id": "98a5-edb6-276c-5441",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7def-6134-185c-3e46",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0e7f-ddff-b40b-23cc",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "5752-d165-5e03-d38c",
+          "id": "fc30-fcc9-be7d-b121",
+          "name": "Autogun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a4df-bd23-6e48-1dd5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "a493-bf6d-07d6-880d",
+          "name": "Lasgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "346a-22b1-d78a-1c08",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2094-c9a6-a426-0970",
+          "id": "ffb7-b5cf-1d39-ea5f",
+          "name": "Shotgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "cceb-cfc7-c830-4003",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "19e7-3448-5df2-5ec0",
+          "id": "b90a-3482-2bb6-aad6",
+          "name": "Melee Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "0f91-fa8c-46fc-0c80",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "76b1-0d23-d98a-8c72",
+          "id": "a14a-163e-184f-cbc1",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "9c70-f17a-1f2c-d8f5",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "eb2c-02f8-88b3-7f35",
+          "id": "04f5-91a2-8ab9-7b32",
+          "name": "Ranged Weapons"
+        }
+      ],
+      "id": "001d-e8f1-1117-ed84",
+      "name": "Weapon options",
+      "modifiers": [
+        {
+          "field": "7def-6134-185c-3e46",
+          "value": "2",
+          "conditions": [
+            {
+              "childId": "04f5-91a2-8ab9-7b32",
+              "type": 2,
+              "field": "selections",
+              "scope": "90f3-c2a6-a422-8331",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "conditionGroups": [
+            {
+              "conditions": [
+                {
+                  "childId": "b90a-3482-2bb6-aad6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "90f3-c2a6-a422-8331",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "field": "98a5-edb6-276c-5441",
+          "value": "2",
+          "conditionGroups": [
+            {
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "b90a-3482-2bb6-aad6",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "90f3-c2a6-a422-8331",
+                  "value": 1.0,
+                  "shared": true
+                },
+                {
+                  "childId": "04f5-91a2-8ab9-7b32",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "90f3-c2a6-a422-8331",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

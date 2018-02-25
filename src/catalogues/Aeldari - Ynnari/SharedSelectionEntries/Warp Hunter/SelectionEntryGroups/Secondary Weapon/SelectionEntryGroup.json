@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "identifier": "Secondary Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "bca4-2718-afe0-c352",
+      "constraints": [
+        {
+          "id": "f813-6950-879d-b242",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "7b2f-5dff-cca4-d2d7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "e82f-5715-ceeb-9c88",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "a43c-78fc-c084-81e3",
+          "id": "bca4-2718-afe0-c352",
+          "name": "Twin Shuriken Catapult"
+        },
+        {
+          "constraints": [
+            {
+              "id": "968f-73cf-23c2-ed59",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "64d6-6994-d3e8-6e09",
+          "id": "ab61-bf41-222c-ba29",
+          "name": "Shuriken Cannon"
+        }
+      ],
+      "id": "ca18-da1a-2413-cd6d",
+      "name": "Secondary Weapon"
+    }
+  ]
+}

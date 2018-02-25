@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "identifier": "Honour Guard"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 21.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "c3e7-4976-7f8c-3ba0",
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        },
+        {
+          "id": "a390-115c-f9a4-5451",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "1bcd-dc97-94aa-f211",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "ca56-23ca-02ef-732b",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "ca06-ac13-d02f-6f9a",
+          "id": "180c-8646-2cbe-e8a0",
+          "name": "Boltgun"
+        },
+        {
+          "constraints": [
+            {
+              "id": "a0c4-0a90-2f6d-60ef",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3a14-f127-cb98-3341",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "37d3-7098-d596-9948",
+          "id": "db78-e9b5-bee4-6a03",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "334a-16fb-093a-0219",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "6b9a-2f1e-75a9-ab31",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "cddf-945e-1335-e681",
+          "id": "4cb6-7147-dc29-ee7c",
+          "name": "Frag & Krak grenades"
+        }
+      ],
+      "id": "c70d-6ffd-ba1a-1f86",
+      "name": "Honour Guard",
+      "infoLinks": [
+        {
+          "targetId": "304e-3af4-5251-3977",
+          "id": "44c4-97f5-1314-4e20",
+          "name": "New InfoLink"
+        },
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "5c57-3ffd-2d86-15f3",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

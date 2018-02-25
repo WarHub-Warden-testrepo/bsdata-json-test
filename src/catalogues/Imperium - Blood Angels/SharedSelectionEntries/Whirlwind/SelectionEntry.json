@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "identifier": "Whirlwind",
+    "prevIdentifier": "Vanguard Veteran Squad"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 70.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "b44c-e966-5868-c970",
+          "id": "d753-a598-f70a-150e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6fd7-9e10-d37c-5056",
+          "id": "4921-72be-a87f-1029",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "2c4a-3ec9-a1f6-a1ee",
+          "id": "de9d-4d38-91b5-8539",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "ed70-bd69-ad7a-3df5",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "94c6-681d-3dc5-de1b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6a09-a561-f68e-6c0a",
+          "id": "4f5d-397b-5c42-6c6c",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "4126-c170-d793-47cf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "32bf-b117-4ecf-5165",
+          "id": "fc1d-b83c-38b0-44c0",
+          "name": "Hunter-killer missile"
+        },
+        {
+          "constraints": [
+            {
+              "id": "1fb1-371b-c58c-ca4f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2b03-8d64-3711-f300",
+          "id": "9ce4-f0f1-93c0-1f11",
+          "name": "Storm bolter"
+        }
+      ],
+      "id": "be0e-f293-4692-d952",
+      "name": "Whirlwind",
+      "infoLinks": [
+        {
+          "targetId": "8059-4be0-2c8e-a818",
+          "id": "c191-3711-cf5f-4958",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "bb3a-cb0d-aba2-6514",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

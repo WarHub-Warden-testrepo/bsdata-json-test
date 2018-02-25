@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "identifier": "Weapon"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "33c3-3457-6da7-029d",
+      "constraints": [
+        {
+          "id": "16ed-9090-2e57-222e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f1c6-4e97-c49c-3344",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "09ca-e0e1-de3e-05e3",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "b61f-a3c1-827d-c5b6",
+          "id": "33c3-3457-6da7-029d",
+          "name": "Boltgun"
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "a12a-f017-43b5-57ca",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "04ea-63f0-5a4f-d1da",
+              "type": 1,
+              "field": "selections",
+              "scope": "32b5-8b56-0956-48d5",
+              "value": 4.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ],
+          "targetId": "9982-7348-6ff8-a67c",
+          "id": "ab84-2f3f-8ebc-e9af",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "8bd9-31f8-6f8e-c243",
+      "name": "Weapon"
+    }
+  ]
+}

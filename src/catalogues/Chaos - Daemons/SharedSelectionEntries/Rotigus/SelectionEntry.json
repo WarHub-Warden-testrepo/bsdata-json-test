@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "identifier": "Rotigus",
+    "prevIdentifier": "Bewitching Aura"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 17.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 330.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "5cf1-acf2-ca3b-c2e5",
+          "id": "486a-19b1-c4a6-fe72",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "9f96-f066-6e57-6254",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0fb6-fcaf-b180-5dda",
+          "id": "7604-287e-fa97-28e9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "0bc5-6451-5612-4a25",
+          "id": "547c-5c8d-a278-b93d",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3b77-decb-d468-6bcc",
+          "id": "a795-2fec-266d-09c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "7ac5-3d08-638c-557a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "f98e-1da1-7cce-ac21",
+          "id": "e396-5adf-85ec-1aad",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f7a6-737b-3972-6926",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "6904-4e07-05c5-c59a",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 3.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c7bb-3d6d-b7b1-6822",
+          "id": "876f-0395-ae9d-5b0c",
+          "name": "Nurgle Discipline"
+        },
+        {
+          "targetId": "c488-0afe-c67e-2606",
+          "id": "3247-98ac-9a8e-e8ed",
+          "name": "Warlord"
+        },
+        {
+          "targetId": "c10c-c363-d5c9-6a15",
+          "id": "4389-f3e7-9aac-affb",
+          "name": "Nurglings (Attendants)",
+          "modifiers": [
+            {
+              "field": "name",
+              "value": "Nurglings"
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "e359-4b08-4cba-f0be",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d2c5-535f-b46d-fa1d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "03fd-db47-5333-1e1f",
+          "id": "f06d-8945-b374-9660",
+          "name": "Smite"
+        }
+      ],
+      "id": "1395-5005-33d3-ee55",
+      "name": "Rotigus",
+      "infoLinks": [
+        {
+          "targetId": "7ebf-19a7-1108-215c",
+          "id": "e899-63c9-c8f0-247a",
+          "name": "Daemonic"
+        },
+        {
+          "targetId": "36c8-1816-3b23-56e5",
+          "id": "e515-aca9-fe99-113c",
+          "name": "Disgustingly Resilient"
+        },
+        {
+          "type": 1,
+          "targetId": "224f-2c86-454d-54aa",
+          "id": "d9e3-ae5e-576c-381e",
+          "name": "Daemonic Ritual"
+        },
+        {
+          "targetId": "173e-bfa0-986c-ec00",
+          "id": "b3d3-d976-ad16-b414",
+          "name": "Crushing Bulk"
+        },
+        {
+          "targetId": "57c4-00cc-13b6-55f8",
+          "id": "fb5f-de55-b104-4443",
+          "name": "Greater Daemon (Nurgle)"
+        },
+        {
+          "targetId": "0bbb-d1c5-87f3-49fa",
+          "id": "908e-3541-909d-82f8",
+          "name": "Pestilent Miasma",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c488-0afe-c67e-2606",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "1395-5005-33d3-ee55",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

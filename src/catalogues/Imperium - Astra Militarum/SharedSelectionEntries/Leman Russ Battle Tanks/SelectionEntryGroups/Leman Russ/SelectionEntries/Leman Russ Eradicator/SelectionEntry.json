@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "identifier": "Leman Russ Eradicator",
+    "prevIdentifier": "Leman Russ Battle Tank"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 122.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 10.0
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "f342-97f0-feb4-882c",
+          "id": "5e9d-8276-8029-94d8",
+          "name": "Turret-mounted Eradicator Nova Cannon"
+        },
+        {
+          "type": 1,
+          "targetId": "5bed-1f36-dd00-bd20",
+          "id": "74ad-588e-a779-5f51",
+          "name": "Russ Hull Weapon"
+        },
+        {
+          "type": 1,
+          "targetId": "ebb9-dadc-c98d-9b62",
+          "id": "3b0e-4e7d-e66d-10e9",
+          "name": "Pintle Mount"
+        },
+        {
+          "type": 1,
+          "targetId": "2358-1348-7c6b-bb88",
+          "id": "6773-8efe-af41-9724",
+          "name": "Sponson Weapons"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7cd3-5221-7557-0cd5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8f09-b850-750c-257d",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "aff3-db41-0dc2-49ce",
+          "id": "401f-6c08-a12c-c908",
+          "name": "Stat Damage (Leman Russ)"
+        },
+        {
+          "type": 1,
+          "targetId": "d9f1-0505-984e-c749",
+          "id": "0372-c665-fbf2-4287",
+          "name": "Vehicle Equipment List"
+        }
+      ],
+      "id": "a558-891e-ed57-d57d",
+      "name": "Leman Russ Eradicator",
+      "book": "Codex: Astra Militarum",
+      "page": "47",
+      "infoLinks": [
+        {
+          "targetId": "59561fd3-8437-5e2e-1080-fe4d29ae4a60",
+          "id": "0242-0e45-a089-c8ab",
+          "name": "Leman Russ"
+        },
+        {
+          "targetId": "d894-c3d2-278d-3678",
+          "id": "612c-50b9-e3e7-c60c",
+          "name": "Grinding Advance"
+        },
+        {
+          "targetId": "ed79-bdf5-75ca-f019",
+          "id": "91c9-4be5-f781-5f96",
+          "name": "Vehicle Squadron"
+        },
+        {
+          "targetId": "c883-3078-1367-cc2c",
+          "id": "5094-33b9-227b-d6fc",
+          "name": "Smoke Launchers"
+        },
+        {
+          "targetId": "9bde-7aa6-8e9a-0792",
+          "id": "1c77-4be8-d612-881f",
+          "name": "Explodes (6+/6\"/D3)"
+        },
+        {
+          "targetId": "fdc3-2a0f-e726-f47c",
+          "id": "5cdf-81ba-a40a-d073",
+          "name": "Improved Emergency Plasma Vents"
+        }
+      ]
+    }
+  ]
+}

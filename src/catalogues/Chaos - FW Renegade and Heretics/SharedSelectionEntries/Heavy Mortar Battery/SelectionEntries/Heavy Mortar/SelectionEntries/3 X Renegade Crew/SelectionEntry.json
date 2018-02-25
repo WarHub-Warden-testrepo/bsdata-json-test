@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "identifier": "3 X Renegade Crew"
+  },
+  "selectionEntries": [
+    {
+      "type": 2,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 12.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "469e-cea0-d471-fe46",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d603-fea0-09b8-3a38",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "c3a0-4105-7a87-6be9",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "957f-7bd1-fc78-2964",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "f68e-9984-71fe-6bca",
+          "id": "c94e-c0f6-5c1b-f67d",
+          "name": "Frag grenade"
+        },
+        {
+          "constraints": [
+            {
+              "id": "ed35-aabe-f1a4-36d5",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "62a1-bdd8-fd6f-7678",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fd87-854b-d284-184a",
+          "id": "a6d1-10ae-6d67-b69c",
+          "name": "Lasgun"
+        }
+      ],
+      "id": "ad00-b847-3a95-5fd2",
+      "name": "3 X Renegade Crew"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "identifier": "Primaris Librarian",
+    "prevIdentifier": "Primaris Chaplain"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 7.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 93.0
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "c7b7-edbc-bc14-6238",
+          "id": "6e0f-aabd-f166-aed4",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "71ec-1174-74b2-c98a",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c82e-cd8d-e26d-a2c1",
+          "id": "0178-e2ce-6c01-4224",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "f4f9-fb3f-a388-3aed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "30f3-b6b5-4927-c832",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "92ed-5316-ff50-b7c8",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "90f0-6ff0-18b9-a715",
+          "id": "4b72-d487-9854-572f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "179d-df5c-03e6-b14f",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "type": 1,
+          "targetId": "b0d3-e63a-1e1a-5790",
+          "id": "b9be-6c44-6ddd-d18d",
+          "name": "Librarius Discipline"
+        },
+        {
+          "constraints": [
+            {
+              "id": "7550-7809-a13f-3b62",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "c5fb-0a0e-2a08-bf4f",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "0334-f487-8229-0c1a",
+          "id": "c2df-21ab-4709-6e4b",
+          "name": "Bolt pistol"
+        },
+        {
+          "constraints": [
+            {
+              "id": "abf9-db36-7944-c965",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "adf1-73b0-b52c-11e9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "bb78-534a-7b77-edbc",
+          "id": "4e80-1ebf-2226-4db3",
+          "name": "Frag & Krak grenades"
+        },
+        {
+          "constraints": [
+            {
+              "id": "da85-038d-dc2a-571d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "8155-02d6-456b-6098",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "07e7-1f9b-4c1c-aad9",
+          "id": "60ab-957f-1bb2-3944",
+          "name": "Force sword"
+        },
+        {
+          "constraints": [
+            {
+              "id": "bce1-31d6-a0a7-7217",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "a09c-f539-9d0a-6d36",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "de00-11d5-2371-36ca",
+          "id": "48ee-d211-bdde-1d00",
+          "name": "Warlord Trait"
+        },
+        {
+          "type": 1,
+          "targetId": "a06a-d610-aa13-235d",
+          "id": "53ee-513b-6989-89d1",
+          "name": "Relics"
+        }
+      ],
+      "id": "12c8-bff2-28a5-e333",
+      "name": "Primaris Librarian",
+      "infoLinks": [
+        {
+          "type": 1,
+          "targetId": "4ea8-94d3-ba39-042f",
+          "id": "2f49-4214-d061-d376",
+          "name": "And They Shall Know No Fear"
+        },
+        {
+          "targetId": "f0ec-023c-4865-fe5a",
+          "id": "70d6-eed0-81b6-ec1f",
+          "name": "Psychic Hood"
+        }
+      ]
+    }
+  ]
+}

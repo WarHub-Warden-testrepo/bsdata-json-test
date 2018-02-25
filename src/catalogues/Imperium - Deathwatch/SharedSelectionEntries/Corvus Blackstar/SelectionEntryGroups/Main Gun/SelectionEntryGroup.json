@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Main Gun"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "7fd6-50c8-e050-f676",
+      "constraints": [
+        {
+          "id": "b552-8059-bdbd-29d5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        },
+        {
+          "id": "406d-cfce-035f-04dd",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "ee18-b1cd-6b60-464d",
+          "id": "f915-dcfb-33b9-2c10",
+          "name": "New EntryLink"
+        },
+        {
+          "targetId": "f787-a3af-72b5-60d1",
+          "id": "7fd6-50c8-e050-f676",
+          "name": "New EntryLink"
+        }
+      ],
+      "id": "5268-a6fe-1010-1b19",
+      "name": "Main Gun"
+    }
+  ]
+}

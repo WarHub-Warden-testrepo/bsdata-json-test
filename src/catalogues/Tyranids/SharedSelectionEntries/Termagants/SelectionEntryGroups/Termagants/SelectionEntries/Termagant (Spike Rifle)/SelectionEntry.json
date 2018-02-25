@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "identifier": "Termagant (Spike Rifle)",
+    "prevIdentifier": "Termagant (Spinefists)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 4.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "1abf-230e-5fe1-473c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 30.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "6306-9b25-bbf2-d7d2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2fcc-ed0c-d372-7c0e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "2f52-8adf-3c3e-bbc6",
+          "id": "968d-97db-3cad-f893",
+          "name": "Spike Rifle"
+        }
+      ],
+      "id": "66bd-c2f8-05d3-17d5",
+      "name": "Termagant (Spike Rifle)",
+      "infoLinks": [
+        {
+          "targetId": "3e97-1173-dc2a-49e6",
+          "id": "ec1e-e78c-60a8-8628",
+          "name": "Termagant"
+        }
+      ]
+    }
+  ]
+}

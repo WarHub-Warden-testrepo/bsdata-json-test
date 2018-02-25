@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "identifier": "Hive Tyrant - 5",
+    "prevIdentifier": "Hive Tyrant - 4"
+  },
+  "profiles": [
+    {
+      "profileTypeId": "b900-0afb-e411-2cbb",
+      "profileTypeName": "Keywords",
+      "characteristics": [
+        {
+          "name": "Keywords (Faction)",
+          "characteristicTypeId": "6b92-2d97-5144-62bc",
+          "value": "Tyranids, <Hive Fleet>"
+        },
+        {
+          "name": "Keywords (Basic)",
+          "characteristicTypeId": "ce6c-4765-4bb8-bd49",
+          "value": "Character, Monster, Psyker, Synapse, Hive Tyrant"
+        }
+      ],
+      "id": "f7ff-1da6-a2a5-7331",
+      "name": "Hive Tyrant",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "ff28-18da-271b-f347",
+              "type": 4,
+              "field": "selections",
+              "scope": "add7-3535-a4cd-9ba5",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
