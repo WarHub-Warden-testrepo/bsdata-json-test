@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "identifier": "Contemptor-Achillus Dreadnought (Beta)",
+    "prevIdentifier": "The Emperor's Light"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 160.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "57dc-f3bc-e52d-e3a4",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "106e-2f23-8ac1-66cb",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "a8da-e2e2-0ec2-4fdd",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "6b1d-f318-8b3d-fb97",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "d08c-63c2-2bd2-b420",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "dabf-4fc2-91f5-6ee4",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "a9e5-d97b-a68c-41ac",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "c85e-cd9b-c090-b274",
+          "id": "2675-505c-8e4d-0f61",
+          "name": "Achillus Dreadspear"
+        },
+        {
+          "constraints": [
+            {
+              "id": "355d-bf9b-7e91-d832",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "08f0-9243-fe1e-3762",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "631e-602d-cd37-9d33",
+          "id": "37a4-5f79-01b7-25dd",
+          "name": "Lastrum Storm Bolter"
+        }
+      ],
+      "id": "77a2-4262-dc7b-9b16",
+      "name": "Contemptor-Achillus Dreadnought (Beta)",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "c18c-4d6a-d21e-c728",
+          "id": "7ce1-6781-7b7f-3ecf",
+          "name": "Atomantic Shielding"
+        },
+        {
+          "targetId": "e90f-c7df-ef81-3f49",
+          "id": "7e0a-8f8e-b4b3-e4ae",
+          "name": "Unyielding Ancient"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "57dc-f3bc-e52d-e3a4",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

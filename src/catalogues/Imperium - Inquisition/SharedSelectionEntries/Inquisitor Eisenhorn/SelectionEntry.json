@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "identifier": "Inquisitor Eisenhorn",
+    "prevIdentifier": "Inquisition Land Raider Prometheus"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 5.0
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 100.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "cbfe-4308-cc23-b59c",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "targetId": "f7a7-9d79-d2f8-4a17",
+          "id": "17aa-356b-0a1d-9de9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "e691-aad7-d21c-1023",
+          "id": "3f34-6a31-1895-038f",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6f95-3a9f-9235-519a",
+          "id": "5043-8a75-398e-200b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3d52-fccf-10c0-3fae",
+          "id": "e233-e9f6-fd5d-c6b9",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "78cc-daf7-1448-610f",
+          "id": "cdd6-a53e-12c5-6842",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "74fa-0e01-554f-b1bb",
+          "name": "New CategoryLink"
+        },
+        {
+          "isPrimary": true,
+          "targetId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+          "id": "d844-5d1e-3849-d116",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "ef18-746a-369f-43a4",
+          "id": "a179-dc3d-2d4b-bdc5",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0e12-dfc8-2e03-7570",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "33f6-60da-7b70-5fee",
+          "id": "1e36-397c-3774-36af",
+          "name": "Warlord"
+        },
+        {
+          "type": 1,
+          "targetId": "d442-1f03-d9da-e77f",
+          "id": "a710-27ef-7f7a-5be9",
+          "name": "Warlord Traits (BRB)",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "33f6-60da-7b70-5fee",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "constraints": [
+            {
+              "id": "f208-b662-a7b7-69f9",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            },
+            {
+              "id": "4a49-7d07-4aa2-782c",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ],
+          "targetId": "abc3-fa40-1bf3-dc28",
+          "id": "6b0f-3986-3411-3b42",
+          "name": "Telethesia Discipline"
+        }
+      ],
+      "id": "86b2-7c8b-a051-60ca",
+      "name": "Inquisitor Eisenhorn",
+      "infoLinks": [
+        {
+          "targetId": "260d-3221-8e7c-9ebc",
+          "id": "43f2-d0f5-972b-f74c",
+          "name": "Authority of the Inquisition"
+        },
+        {
+          "targetId": "25d5-4784-1a05-e93c",
+          "id": "4f37-29a7-6778-e388",
+          "name": "Quarry - Xenos"
+        },
+        {
+          "targetId": "e3d9-9e3d-758b-26b8",
+          "id": "80af-97bb-6e4b-56b0",
+          "name": "Unquestionable Wisdom"
+        }
+      ]
+    }
+  ]
+}

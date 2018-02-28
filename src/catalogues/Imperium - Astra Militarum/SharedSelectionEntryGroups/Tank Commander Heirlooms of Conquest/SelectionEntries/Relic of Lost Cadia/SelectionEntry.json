@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "identifier": "Relic of Lost Cadia"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "27c1-76b1-43d8-2ff0",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "41ce-ea2c-c9de-c956",
+      "name": "Relic of Lost Cadia",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "aaa4-a667-76d0-c779",
+              "type": 4,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

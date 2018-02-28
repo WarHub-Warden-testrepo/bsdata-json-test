@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Drone controller - 2",
+    "prevIdentifier": "Counterfire defence system - 2"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "be45-9e12-5aec-e7db",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "4806-e196-e268-b20a",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0db1-d345-a292-e08f",
+      "name": "Drone controller",
+      "infoLinks": [
+        {
+          "targetId": "a54e-6d37-c134-efc4",
+          "id": "26fa-4c6a-ec8f-5738",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

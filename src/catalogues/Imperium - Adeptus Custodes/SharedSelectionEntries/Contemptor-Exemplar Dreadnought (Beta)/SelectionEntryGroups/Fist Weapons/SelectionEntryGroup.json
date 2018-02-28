@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Fist Weapons:"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "b5e3-15c5-5c82-703b",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        },
+        {
+          "id": "79c6-01c9-7f67-dcdc",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "0a95-d98b-73c8-9307",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "631e-602d-cd37-9d33",
+          "id": "2592-47af-2856-96b3",
+          "name": "Lastrum Storm Bolter",
+          "modifiers": [
+            {
+              "field": "0a95-d98b-73c8-9307",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "targetId": "c6c7-b237-cd36-f057",
+          "id": "acef-6191-400f-10b1",
+          "name": "Plasma Ejector"
+        },
+        {
+          "targetId": "18bc-b335-29c2-2ae2",
+          "id": "9627-dc88-f348-b8e7",
+          "name": "Heavy flamer"
+        }
+      ],
+      "id": "2d19-9e96-f489-e0ba",
+      "name": "Fist Weapons:",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "79c6-01c9-7f67-dcdc",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "620e-4b8c-e580-787b",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "field": "b5e3-15c5-5c82-703b",
+          "value": "1",
+          "repeats": [
+            {
+              "childId": "620e-4b8c-e580-787b",
+              "repeats": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -56,6 +56,23 @@
           "name": "Pintle Mount"
         },
         {
+          "constraints": [
+            {
+              "id": "0c00-b6e0-d6d6-9e60",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "dff3-8534-2836-2542",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
           "targetId": "05ab-e7cc-e856-c36f",
           "id": "e57f-e973-66e6-3df1",
           "name": "Heavy bolter",
@@ -67,13 +84,30 @@
           ]
         },
         {
+          "constraints": [
+            {
+              "id": "675e-b240-2280-ccdd",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "840c-f391-de6e-784b",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
           "targetId": "5210-8cb2-b5a2-a04f",
           "id": "1692-7551-db57-3ab4",
           "name": "Autocannon",
           "modifiers": [
             {
               "field": "points",
-              "value": "15"
+              "value": "12"
             }
           ]
         }

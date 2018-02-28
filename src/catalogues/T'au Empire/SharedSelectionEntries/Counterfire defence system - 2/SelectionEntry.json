@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Counterfire defence system - 2",
+    "prevIdentifier": "Advanced targeting system - 2"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "761a-4767-3278-5008",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "58d9-0c28-a509-12ee",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "aebf-fbc6-63f7-fc5e",
+      "name": "Counterfire defence system",
+      "infoLinks": [
+        {
+          "targetId": "50f1-ace8-3345-0725",
+          "id": "b0d3-0296-ff14-1bb4",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

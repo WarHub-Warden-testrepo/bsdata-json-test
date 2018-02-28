@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "identifier": "Pulse blaster - 2",
+    "prevIdentifier": "Pulse pistol - 2"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "50bb-f74a-8f0c-596f",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "b02e-722e-57b2-eaf3",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "7b19-9c9b-a247-05d9",
+      "name": "Pulse blaster",
+      "infoLinks": [
+        {
+          "targetId": "d5ad-ced7-df70-e134",
+          "id": "fcc2-db23-5b03-2c23",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "64c7-3e9d-b80d-f9f9",
+          "id": "eb0f-8f9d-3035-8a55",
+          "name": "New InfoLink"
+        },
+        {
+          "targetId": "b8b8-d031-f794-44fe",
+          "id": "fb09-a2f5-f66d-b052",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

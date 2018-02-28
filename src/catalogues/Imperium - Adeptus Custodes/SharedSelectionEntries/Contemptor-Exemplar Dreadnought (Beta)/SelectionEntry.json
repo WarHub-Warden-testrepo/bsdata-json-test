@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "identifier": "Contemptor-Exemplar Dreadnought (Beta)",
+    "prevIdentifier": "Contemptor-Achillus Dreadnought (Beta)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 150.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 13.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "298a-cbd5-3913-feaa",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+          "id": "5643-aaa4-a02a-da12",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "7309-fafa-167e-4628",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "25a1-3f11-ae61-87c2",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "ac87-9ff0-bdbc-be07",
+          "name": "New CategoryLink"
+        }
+      ],
+      "id": "1f26-baab-893c-e813",
+      "name": "Contemptor-Exemplar Dreadnought (Beta)",
+      "isHidden": true,
+      "infoLinks": [
+        {
+          "targetId": "c18c-4d6a-d21e-c728",
+          "id": "7246-f7eb-1c12-4af6",
+          "name": "Atomantic Shielding"
+        },
+        {
+          "targetId": "e90f-c7df-ef81-3f49",
+          "id": "3080-d435-bf65-1c12",
+          "name": "Unyielding Ancient"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "298a-cbd5-3913-feaa",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -78,7 +78,23 @@
         {
           "targetId": "512b-f378-79d2-141a",
           "id": "f233-bee7-771c-9020",
-          "name": "Wolf Guard"
+          "name": "Wolf Guard",
+          "modifiers": [
+            {
+              "field": "0bdf-a96e-9e38-7779",
+              "value": "12",
+              "conditions": [
+                {
+                  "childId": "30a0-3051-6b4d-442f",
+                  "type": 4,
+                  "field": "selections",
+                  "scope": "ad37-e26a-6cab-8c1b",
+                  "value": 1.0,
+                  "shared": true
+                }
+              ]
+            }
+          ]
         }
       ],
       "modifiers": [

@@ -1,45 +1,30 @@
 {
   "meta": {
-    "identifier": "Flickering flames"
+    "identifier": "Flickering Flames"
   },
   "profiles": [
     {
-      "profileTypeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
-      "profileTypeName": "Weapon",
+      "profileTypeId": "ae70-4738-0161-bec0",
+      "profileTypeName": "Psychic Power",
       "characteristics": [
         {
+          "name": "Warp Charge",
+          "characteristicTypeId": "5ffd-b800-c317-532a",
+          "value": "5"
+        },
+        {
           "name": "Range",
-          "characteristicTypeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
-          "value": "12\""
+          "characteristicTypeId": "fd64-cbc4-94de-24cc",
+          "value": "18\""
         },
         {
-          "name": "Type",
-          "characteristicTypeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
-          "value": "Pistol D6"
-        },
-        {
-          "name": "S",
-          "characteristicTypeId": "59b1-319e-ec13-d466",
-          "value": "User"
-        },
-        {
-          "name": "AP",
-          "characteristicTypeId": "75aa-a838-b675-6484",
-          "value": "-1"
-        },
-        {
-          "name": "D",
-          "characteristicTypeId": "ae8a-3137-d65b-4ca7",
-          "value": "1"
-        },
-        {
-          "name": "Abilities",
-          "characteristicTypeId": "837d-5e63-aeb7-1410",
-          "value": "This weapon automatically hits its target."
+          "name": "Details",
+          "characteristicTypeId": "ad96-dfa4-b4ed-656d",
+          "value": "If manifested, pick a friendly TZEENTCH DAEMON unit within 18\" of the psyker. Until your next Psychic phase, add 1 to any wound rolls made for that unit's shooting weapons."
         }
       ],
-      "id": "f464-3c38-3635-4691",
-      "name": "Flickering flames"
+      "id": "af79-51f2-9e13-8520",
+      "name": "Flickering Flames"
     }
   ]
 }

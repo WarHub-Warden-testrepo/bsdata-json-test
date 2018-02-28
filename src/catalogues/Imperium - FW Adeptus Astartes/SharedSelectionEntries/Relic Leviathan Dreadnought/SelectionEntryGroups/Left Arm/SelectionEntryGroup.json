@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "identifier": "Left Arm",
+    "prevIdentifier": "Right Arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "e60a-ddab-9f93-f67e",
+      "constraints": [
+        {
+          "id": "b2fc-adfa-d79c-872e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "caa0-8d52-8046-9fae",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5fbc-fd97-1251-889a",
+          "id": "b009-c8fa-2f10-4561",
+          "name": "Cyclonic melta lance"
+        },
+        {
+          "targetId": "f028-c4cf-83c5-d707",
+          "id": "7bc5-844b-bfb9-586a",
+          "name": "Grav-flux bombard"
+        },
+        {
+          "targetId": "4e65-6415-7c42-1a7e",
+          "id": "88f9-bb22-3c49-e818",
+          "name": "Storm cannon array"
+        },
+        {
+          "targetId": "f42a-6af7-6b1a-b785",
+          "id": "e60a-ddab-9f93-f67e",
+          "name": "Leviathan siege claw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "32.5",
+              "conditions": [
+                {
+                  "childId": "f2a9-95f0-5337-b490",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "5cb0-d46c-5811-3dec",
+          "id": "e67e-80cc-aa49-3c0f",
+          "name": "Leviathan siege drill",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "37.5",
+              "conditions": [
+                {
+                  "childId": "2aaa-16fe-75d0-a3d3",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "aa1a-0a57-4fd1-dde6",
+      "name": "Left Arm"
+    }
+  ]
+}

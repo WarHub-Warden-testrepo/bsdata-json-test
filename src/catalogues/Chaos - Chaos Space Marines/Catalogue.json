@@ -7,7 +7,7 @@
       "id": "cb54-c035-5759-7697",
       "name": "Chaos - Chaos Space Marines",
       "book": "",
-      "revision": 44,
+      "revision": 47,
       "battleScribeVersion": "2.01",
       "authorName": "BSData team",
       "authorUrl": "http://battlescribedata.appspot.com/#/repo/wh40k",
@@ -78,7 +78,7 @@
         },
         {
           "id": "5bd5-2b7c-e518-0514",
-          "name": "World Eater"
+          "name": "World Eaters"
         },
         {
           "id": "4407-2aa1-2a62-c1dc",
@@ -1157,14 +1157,26 @@
             {
               "field": "hidden",
               "value": "true",
-              "conditions": [
+              "conditionGroups": [
                 {
-                  "childId": "c4a9-5a33-d824-bcf8",
-                  "type": 2,
-                  "field": "selections",
-                  "scope": "force",
-                  "shared": true,
-                  "includeChildSelections": true
+                  "conditions": [
+                    {
+                      "childId": "c4a9-5a33-d824-bcf8",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "e536-b475-827e-e3cf",
+                      "type": 2,
+                      "field": "selections",
+                      "scope": "force",
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
                 }
               ]
             }

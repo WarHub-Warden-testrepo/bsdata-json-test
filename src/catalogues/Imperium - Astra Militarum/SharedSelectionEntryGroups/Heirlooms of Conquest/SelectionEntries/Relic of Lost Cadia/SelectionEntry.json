@@ -28,7 +28,25 @@
         }
       ],
       "id": "6f22-5f4e-8af7-f9c6",
-      "name": "Relic of Lost Cadia"
+      "name": "Relic of Lost Cadia",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "aaa4-a667-76d0-c779",
+              "type": 4,
+              "field": "selections",
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }

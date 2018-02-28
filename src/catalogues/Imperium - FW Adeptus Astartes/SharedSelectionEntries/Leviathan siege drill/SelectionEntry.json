@@ -16,6 +16,30 @@
           "costTypeId": "e356-c769-5920-6e14"
         }
       ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "f1f9-2cd6-2c0f-484d",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "4f11-034f-b9ef-dcbf",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fdac-c560-87da-c09e",
+          "id": "3040-42d9-0d10-3545",
+          "name": "Meltagun"
+        }
+      ],
       "id": "5cb0-d46c-5811-3dec",
       "name": "Leviathan siege drill",
       "infoLinks": [
@@ -23,23 +47,6 @@
           "targetId": "8c17-03b8-17ae-89e7",
           "id": "c8ab-a139-ae69-2e6d",
           "name": "Leviathan siege drill"
-        }
-      ],
-      "modifiers": [
-        {
-          "field": "points",
-          "value": "36.5",
-          "conditions": [
-            {
-              "childId": "5cb0-d46c-5811-3dec",
-              "type": 2,
-              "field": "selections",
-              "scope": "parent",
-              "value": 2.0,
-              "shared": true,
-              "includeChildSelections": true
-            }
-          ]
         }
       ]
     }

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "identifier": "Weapon Selection:",
+    "prevIdentifier": "Fist Weapons:"
+  },
+  "selectionEntryGroups": [
+    {
+      "constraints": [
+        {
+          "id": "556d-d92a-90da-553c",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 2.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "cc86-6540-e257-a7ec",
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ],
+          "targetId": "967f-ba48-ce28-26b2",
+          "id": "620e-4b8c-e580-787b",
+          "name": "Dreadnought Combat Weapon",
+          "modifiers": [
+            {
+              "field": "cc86-6540-e257-a7ec",
+              "value": "0.0"
+            },
+            {
+              "field": "points",
+              "value": "25",
+              "conditions": [
+                {
+                  "childId": "620e-4b8c-e580-787b",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "parent",
+                  "value": 2.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "constraints": [
+            {
+              "id": "84e6-8df7-5ef2-f684",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "4af5-b021-26f1-3087",
+          "id": "0079-0d7b-a8fa-f95d",
+          "name": "Twin Las-Pulsar"
+        }
+      ],
+      "id": "2d4c-e905-6adc-725f",
+      "name": "Weapon Selection:"
+    }
+  ]
+}

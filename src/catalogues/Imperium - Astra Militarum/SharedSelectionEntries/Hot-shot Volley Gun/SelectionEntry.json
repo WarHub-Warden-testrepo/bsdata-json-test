@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "identifier": "Hot-shot Volley Gun",
+    "prevIdentifier": "Hot-shot Lasgun"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 7.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "constraints": [
+        {
+          "id": "minSelections",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        },
+        {
+          "id": "maxSelections",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0
+        }
+      ],
+      "id": "3d68c132-f9d1-e6f4-b369-c4d3269064a8",
+      "name": "Hot-shot Volley Gun",
+      "page": "0",
+      "infoLinks": [
+        {
+          "targetId": "5826-273f-d8f2-b1d0",
+          "id": "e4b9-63e3-a8ba-ef72",
+          "name": "Hot-Shot Volley Gun"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Adrenal Glands",
+    "prevIdentifier": "Wicked Spur"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 1.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "9837-af87-3cfd-a48c",
+      "name": "Adrenal Glands",
+      "infoLinks": [
+        {
+          "targetId": "2a37-1b16-c528-b30f",
+          "id": "e764-8ec0-26ed-bb35",
+          "name": "Adrenal Glands"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "5",
+          "conditions": [
+            {
+              "childId": "3b77-decb-d468-6bcc",
+              "type": 6,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

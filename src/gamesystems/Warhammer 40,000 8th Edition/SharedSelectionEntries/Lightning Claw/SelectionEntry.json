@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Lightning Claw",
+    "prevIdentifier": "Multi-melta"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "90de-7b01-e401-888b",
+      "name": "Lightning Claw",
+      "infoLinks": [
+        {
+          "targetId": "7584-238f-3174-4529",
+          "id": "9e71-d43e-6873-f182",
+          "name": "Lightning claw"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "90de-7b01-e401-888b",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

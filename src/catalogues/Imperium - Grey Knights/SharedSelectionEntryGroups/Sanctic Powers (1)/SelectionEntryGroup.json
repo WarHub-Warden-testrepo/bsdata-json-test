@@ -22,7 +22,26 @@
         }
       ],
       "id": "8b6c-c5c4-89ac-574e",
-      "name": "Sanctic Powers (1)"
+      "name": "Sanctic Powers (1)",
+      "modifiers": [
+        {
+          "type": 1,
+          "field": "efa0-16b8-3f25-8c5f",
+          "value": "1",
+          "conditions": [
+            {
+              "childId": "c242-0f91-54d8-3ab6",
+              "type": 4,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }

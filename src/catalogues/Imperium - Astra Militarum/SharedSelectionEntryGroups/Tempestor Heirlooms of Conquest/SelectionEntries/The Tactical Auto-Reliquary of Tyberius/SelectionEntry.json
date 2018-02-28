@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "The Tactical Auto-Reliquary of Tyberius",
+    "prevIdentifier": "The Laurels of Command"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "f70b-b44c-516e-c3f9",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "35bf-4986-55a9-2aa7",
+      "name": "The Tactical Auto-Reliquary of Tyberius",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "3984-854b-4603-be64",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -48,13 +48,25 @@
         {
           "field": "hidden",
           "value": "true",
-          "conditions": [
+          "conditionGroups": [
             {
-              "childId": "0abf-b3fb-43c9-08d2",
-              "type": 6,
-              "field": "selections",
-              "scope": "parent",
-              "shared": true
+              "type": 1,
+              "conditions": [
+                {
+                  "childId": "0abf-b3fb-43c9-08d2",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                },
+                {
+                  "childId": "e15c-3096-8468-aa26",
+                  "type": 6,
+                  "field": "selections",
+                  "scope": "parent",
+                  "shared": true
+                }
+              ]
             }
           ]
         }

@@ -6,7 +6,7 @@
       "gamesystemRevision": 1,
       "id": "53e9d88f-7463-8c27-fe67-e1a0d1ed0287",
       "name": "Imperium - Astra Militarum",
-      "revision": 101,
+      "revision": 106,
       "battleScribeVersion": "2.01",
       "authorName": "Alphalas, Joe Beddoe",
       "authorContact": "Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce",
@@ -753,7 +753,24 @@
           ],
           "targetId": "daea-3f4e-25c6-0ec8",
           "id": "5f44-129d-c825-aa50",
-          "name": "Command Squad"
+          "name": "Command Squad",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -791,7 +808,24 @@
           ],
           "targetId": "9882-05b2-f505-4a6b",
           "id": "8f83-c34c-36a4-23bb",
-          "name": "Veterans"
+          "name": "Veterans",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -944,7 +978,24 @@
           ],
           "targetId": "3dcdffbc-e615-c393-e094-145532cc9ebf",
           "id": "4f73-fca7-1f3e-40ac",
-          "name": "Rough Riders"
+          "name": "Rough Riders",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1035,7 +1086,24 @@
           ],
           "targetId": "6fcd-b8db-9768-f07c",
           "id": "3ef9-2a24-4dc5-7d5f",
-          "name": "Company Commander"
+          "name": "Company Commander",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1083,7 +1151,24 @@
           ],
           "targetId": "3d6b-fb42-442f-cd3f",
           "id": "62d2-b4d1-7d44-52d1",
-          "name": "Master of Ordnance"
+          "name": "Master of Ordnance",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1131,7 +1216,24 @@
           ],
           "targetId": "7ead-7f42-5da5-dc30",
           "id": "ced1-f367-1044-62b0",
-          "name": "Platoon Commander"
+          "name": "Platoon Commander",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1169,7 +1271,24 @@
           ],
           "targetId": "2df54b12-1848-0cde-11ca-2aaebb9acaec",
           "id": "ad22-0104-d3a9-f32f",
-          "name": "Infantry Squad"
+          "name": "Infantry Squad",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1207,7 +1326,24 @@
           ],
           "targetId": "d4f79da0-7b23-e9aa-1d1c-f43dfade9e41",
           "id": "5c47-3ade-3e9b-b273",
-          "name": "Special Weapons Squad"
+          "name": "Special Weapons Squad",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1245,7 +1381,24 @@
           ],
           "targetId": "917aa583-af28-913a-a901-ccfa31726e75",
           "id": "0077-ac29-5ab9-7cce",
-          "name": "Heavy Weapons Squad"
+          "name": "Heavy Weapons Squad",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1283,7 +1436,24 @@
           ],
           "targetId": "703aaa25-8e7d-13ed-d0cf-8b5975fe516c",
           "id": "578e-e480-ae27-5806",
-          "name": "Conscripts"
+          "name": "Conscripts",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1331,7 +1501,35 @@
           ],
           "targetId": "dcb74f5d-1308-fbaa-205f-3ad8fbde5b04",
           "id": "2025-e957-49d1-8e28",
-          "name": "Lord Castellan Creed"
+          "name": "Lord Castellan Creed",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "aaa4-a667-76d0-c779",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1374,7 +1572,35 @@
           ],
           "targetId": "d00e-97c5-c7a0-e712",
           "id": "6b03-cba3-8842-eb19",
-          "name": "Colour Sergeant Kell"
+          "name": "Colour Sergeant Kell",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "aaa4-a667-76d0-c779",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1422,7 +1648,35 @@
           ],
           "targetId": "afc2-4a4a-5427-a7cd",
           "id": "d157-187e-ca95-fa91",
-          "name": "Colonel 'Iron Hand' Straken"
+          "name": "Colonel 'Iron Hand' Straken",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "e728-c8e8-d03b-13b0",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1465,7 +1719,35 @@
           ],
           "targetId": "b16e59cf-cf9e-e4bd-ca74-2c197b354097",
           "id": "1788-aba7-90f8-bd2a",
-          "name": "Sergeant Harker"
+          "name": "Sergeant Harker",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "e728-c8e8-d03b-13b0",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1604,7 +1886,24 @@
           ],
           "targetId": "6e45-e385-b1e6-b879",
           "id": "d881-ffa2-f3fb-bbf1",
-          "name": "Hellhammer"
+          "name": "Hellhammer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1642,7 +1941,24 @@
           ],
           "targetId": "2985-edd1-a2d6-618d",
           "id": "f2a9-d293-c1cd-dd74",
-          "name": "Hellhounds"
+          "name": "Hellhounds",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1680,7 +1996,24 @@
           ],
           "targetId": "1ad4-bc03-d515-d1d9",
           "id": "1cc5-b5b0-f7d6-7968",
-          "name": "Hydras"
+          "name": "Hydras",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1718,7 +2051,24 @@
           ],
           "targetId": "8c17-9bce-4cb6-3fe5",
           "id": "2bc2-07e3-0e98-0d98",
-          "name": "Basilisks"
+          "name": "Basilisks",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1771,7 +2121,35 @@
           ],
           "targetId": "483a-ffe8-5024-c337",
           "id": "e267-b166-4c3f-fa93",
-          "name": "Knight Commander Pask"
+          "name": "Knight Commander Pask",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "aaa4-a667-76d0-c779",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1814,7 +2192,24 @@
           ],
           "targetId": "3774-5bf2-e7fe-166a",
           "id": "dae7-e08b-cdc3-c087",
-          "name": "Banesword"
+          "name": "Banesword",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1857,7 +2252,24 @@
           ],
           "targetId": "3fbc-475e-a39e-a3d6",
           "id": "cd1c-a79b-0a16-eabf",
-          "name": "Leman Russ Battle Tanks"
+          "name": "Leman Russ Battle Tanks",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1900,7 +2312,24 @@
           ],
           "targetId": "3ac6-8d6e-850e-6aee",
           "id": "afde-812a-e418-e8c1",
-          "name": "Baneblade"
+          "name": "Baneblade",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1948,7 +2377,24 @@
           ],
           "targetId": "7d45-082d-92d1-fb27",
           "id": "e71e-bfe9-bf1e-a576",
-          "name": "Doomhammer"
+          "name": "Doomhammer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -1986,7 +2432,24 @@
           ],
           "targetId": "7093-d935-888f-74ad",
           "id": "2a93-91c5-6840-11c1",
-          "name": "Armoured Sentinels"
+          "name": "Armoured Sentinels",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2024,7 +2487,24 @@
           ],
           "targetId": "5172-1baf-9d1a-ffa4",
           "id": "ed86-9c3f-9a9b-2823",
-          "name": "Deathstrike"
+          "name": "Deathstrike",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2072,7 +2552,24 @@
           ],
           "targetId": "e13e-75ee-40f1-9e6f",
           "id": "4200-8596-04db-fdc7",
-          "name": "Banehammer"
+          "name": "Banehammer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2115,7 +2612,24 @@
           ],
           "targetId": "3a4e-81fe-1325-ac27",
           "id": "b197-0be1-572b-5dd2",
-          "name": "Stormsword"
+          "name": "Stormsword",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2249,7 +2763,24 @@
           ],
           "targetId": "04a5-976c-452e-94df",
           "id": "29fd-b780-fec3-7f64",
-          "name": "Taurox"
+          "name": "Taurox",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2292,7 +2823,24 @@
           ],
           "targetId": "8194-93bb-950a-d88b",
           "id": "9237-f68c-1360-93c6",
-          "name": "Shadowsword"
+          "name": "Shadowsword",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2378,7 +2926,24 @@
           ],
           "targetId": "da34-52b0-53cc-1128",
           "id": "98c4-d3fc-115b-3372",
-          "name": "Tank Commander"
+          "name": "Tank Commander",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2416,7 +2981,24 @@
           ],
           "targetId": "bc8e-d096-1d3d-2b46",
           "id": "930d-7ed4-60a3-aab1",
-          "name": "Scout Sentinels"
+          "name": "Scout Sentinels",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2517,7 +3099,24 @@
           ],
           "targetId": "fcf0-5e2a-e3c4-9533",
           "id": "08a6-d005-611b-51e7",
-          "name": "Stormlord"
+          "name": "Stormlord",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2555,7 +3154,24 @@
           ],
           "targetId": "bec1-4b85-0350-fe8a",
           "id": "74d6-b323-db83-fa57",
-          "name": "Wyverns"
+          "name": "Wyverns",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2636,7 +3252,24 @@
           ],
           "targetId": "f602-a233-1b95-5d6c",
           "id": "4732-a98a-a421-288c",
-          "name": "Manticore"
+          "name": "Manticore",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2679,7 +3312,24 @@
           ],
           "targetId": "616c-1154-dfa9-3c03",
           "id": "5544-ff0a-d434-4cf5",
-          "name": "Chimera"
+          "name": "Chimera",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2727,7 +3377,24 @@
           ],
           "targetId": "066c-5ca9-3a9a-1c60",
           "id": "167d-962d-2f45-5253",
-          "name": "Gorgon Heavy Transporter"
+          "name": "Gorgon Heavy Transporter",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2775,7 +3442,24 @@
           ],
           "targetId": "dd1b-faed-2f1c-c9ba",
           "id": "1cc8-5e55-252f-2a7e",
-          "name": "Arkurian Pattern Stormblade"
+          "name": "Arkurian Pattern Stormblade",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2818,7 +3502,24 @@
           ],
           "targetId": "5ece-cfc4-9c03-9135",
           "id": "4717-9a3f-2fce-fa7e",
-          "name": "Dominus Armoured Siege Bombard"
+          "name": "Dominus Armoured Siege Bombard",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2866,7 +3567,24 @@
           ],
           "targetId": "756d-96e9-ba4a-0866",
           "id": "2477-3477-a448-9b9a",
-          "name": "Arkurian Pattern Stormsword"
+          "name": "Arkurian Pattern Stormsword",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2909,7 +3627,24 @@
           ],
           "targetId": "bf72-f767-adb8-0447",
           "id": "ca95-fa86-d513-90b7",
-          "name": "Centaur Light Carrier"
+          "name": "Centaur Light Carrier",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2952,7 +3687,24 @@
           ],
           "targetId": "b40b-d0bf-c18c-7c63",
           "id": "c564-ca52-4427-2b61",
-          "name": "Armageddon Pattern Basilisk"
+          "name": "Armageddon Pattern Basilisk",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -2985,7 +3737,24 @@
           ],
           "targetId": "6404-37b8-f4aa-7b2c",
           "id": "dec6-8982-1027-f1b5",
-          "name": "Earthshaker Battery"
+          "name": "Earthshaker Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3028,7 +3797,24 @@
           ],
           "targetId": "a729-31f4-7610-8e00",
           "id": "7179-6c28-ee8c-054d",
-          "name": "Armageddon Pattern Medusa"
+          "name": "Armageddon Pattern Medusa",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3066,7 +3852,24 @@
           ],
           "targetId": "e172-910d-aae4-d668",
           "id": "7c73-65c6-4202-7032",
-          "name": "Atlas Recovery Tank"
+          "name": "Atlas Recovery Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3162,7 +3965,24 @@
           ],
           "targetId": "635b-6d42-0315-e7f5",
           "id": "582e-5999-a62d-40ae",
-          "name": "Earthshaker Carriage Battery"
+          "name": "Earthshaker Carriage Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3243,7 +4063,24 @@
           ],
           "targetId": "fcb4-8468-4b88-cdbd",
           "id": "c166-368c-eec2-f454",
-          "name": "Griffon Mortar Carrier"
+          "name": "Griffon Mortar Carrier",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3281,7 +4118,24 @@
           ],
           "targetId": "05af-872f-e4ab-aba9",
           "id": "fd18-7e9f-f34c-d642",
-          "name": "Collossus Bombard"
+          "name": "Collossus Bombard",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3324,7 +4178,24 @@
           ],
           "targetId": "d11c-e5c3-b234-155e",
           "id": "6fa8-bfdf-450f-9c29",
-          "name": "Artemia Pattern Hellhound"
+          "name": "Artemia Pattern Hellhound",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3362,7 +4233,24 @@
           ],
           "targetId": "bf5a-3932-75bf-df92",
           "id": "c70d-ca76-0681-7df8",
-          "name": "Cyclops Demolition Vehicle"
+          "name": "Cyclops Demolition Vehicle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3410,7 +4298,24 @@
           ],
           "targetId": "9447-69aa-64f2-6e08",
           "id": "d8a9-c02c-ce10-4b6a",
-          "name": "Arkurian Pattern Stormhammer"
+          "name": "Arkurian Pattern Stormhammer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3458,7 +4363,24 @@
           ],
           "targetId": "e537-1f64-03d4-4e45",
           "id": "3934-4843-f457-cb47",
-          "name": "Crassus Armoured Assault Vehicle"
+          "name": "Crassus Armoured Assault Vehicle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3549,7 +4471,24 @@
           ],
           "targetId": "42eb-9464-80b0-c9d6",
           "id": "424f-2f2a-0f8e-49aa",
-          "name": "Leman Russ Annilator"
+          "name": "Leman Russ Annihilators",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3597,7 +4536,24 @@
           ],
           "targetId": "eaaf-e58c-f7ba-6f81",
           "id": "3b9b-b7da-b561-4711",
-          "name": "Macharius Heavy Tank"
+          "name": "Macharius Heavy Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3635,7 +4591,24 @@
           ],
           "targetId": "86a7-45f9-d8e3-42b2",
           "id": "c4a3-5adb-9b33-9d3a",
-          "name": "Malcador Heavy Tank"
+          "name": "Malcador Heavy Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3736,7 +4709,24 @@
           ],
           "targetId": "8884-5a39-1c40-190a",
           "id": "c4ce-d496-0532-6848",
-          "name": "Heavy Quad Launcher Battery"
+          "name": "Heavy Quad Launcher Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3779,7 +4769,24 @@
           ],
           "targetId": "2c0b-3433-523d-aaf9",
           "id": "7f31-f389-258f-64f4",
-          "name": "Leman Russ Conqueror"
+          "name": "Leman Russ Conquerors",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3822,7 +4829,24 @@
           ],
           "targetId": "8208-6790-056f-6c35",
           "id": "79d1-25b4-f3e1-c016",
-          "name": "Gryphonne Pattern Chimera"
+          "name": "Gryphonne Pattern Chimera",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3865,7 +4889,24 @@
           ],
           "targetId": "a4e4-00cf-afd1-be77",
           "id": "fc9a-fcf6-890c-2dfb",
-          "name": "Malcador Infernus"
+          "name": "Malcador Infernus",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -3918,7 +4959,24 @@
           ],
           "targetId": "5990-c95f-2668-64a8",
           "id": "619b-7f2d-ae8c-3b48",
-          "name": "Heavy Mortar Battery"
+          "name": "Heavy Mortar Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4004,7 +5062,24 @@
           ],
           "targetId": "8170-7eb4-b7d6-56da",
           "id": "62e5-0854-fcfd-cafd",
-          "name": "Hydra Battery"
+          "name": "Hydra Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4095,7 +5170,24 @@
           ],
           "targetId": "e1d7-0ed5-988f-7439",
           "id": "dc02-5b6c-a0ee-9483",
-          "name": "Malcador Defender"
+          "name": "Malcador Defender",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4138,7 +5230,24 @@
           ],
           "targetId": "89ac-4e4c-2377-45f0",
           "id": "1bab-3681-6cd7-ca33",
-          "name": "Malcador Annihilator"
+          "name": "Malcador Annihilator",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4181,7 +5290,24 @@
           ],
           "targetId": "29dc-8a5c-44a6-0544",
           "id": "3006-b323-6b61-5fb0",
-          "name": "Manticore Battery"
+          "name": "Manticore Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4224,7 +5350,24 @@
           ],
           "targetId": "9f5c-2f12-36e2-d91a",
           "id": "0f09-e1a0-4f3a-3096",
-          "name": "Leman Russ Stygies Vanquisher"
+          "name": "Leman Russ Stygies Vanquishers",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4272,7 +5415,24 @@
           ],
           "targetId": "5e41-bbe4-121d-7ac3",
           "id": "d284-a091-483a-8cd5",
-          "name": "Hades Breaching Drill Squadron"
+          "name": "Hades Breaching Drill Squadron",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4310,7 +5470,24 @@
           ],
           "targetId": "043b-8283-f67a-8588",
           "id": "4b2a-5cbd-87f3-0129",
-          "name": "Sentinel Powerlifters"
+          "name": "Sentinel Powerlifters",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4348,7 +5525,24 @@
           ],
           "targetId": "8334-4726-0084-b6fc",
           "id": "4255-7936-595c-d926",
-          "name": "Tarantula Battery"
+          "name": "Tarantula Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4391,7 +5585,24 @@
           ],
           "targetId": "887f-86e7-69d4-fc5c",
           "id": "cca6-cbe9-f9f5-5c34",
-          "name": "Salamander Scout Tank"
+          "name": "Salamander Scout Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4429,7 +5640,24 @@
           ],
           "targetId": "cf12-f293-0d51-75df",
           "id": "8fc6-d691-f244-98e5",
-          "name": "Stygies Destroyer Tank Hunter"
+          "name": "Stygies Destroyer Tank Hunter",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4472,7 +5700,24 @@
           ],
           "targetId": "366c-cdc1-20e0-4209",
           "id": "4f65-a5c2-cb59-eb56",
-          "name": "Trojan Support Vehicle"
+          "name": "Trojan Support Vehicle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4558,7 +5803,24 @@
           ],
           "targetId": "26bd-4dc8-d2d2-6769",
           "id": "3079-9bdb-6423-82d8",
-          "name": "Tauros Assault Vehicle"
+          "name": "Tauros Assault Vehicle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4601,7 +5863,24 @@
           ],
           "targetId": "0474-4cc1-8d7e-0f69",
           "id": "b4a9-21da-5584-576b",
-          "name": "Tauros Venator"
+          "name": "Tauros Venator",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4644,7 +5923,24 @@
           ],
           "targetId": "8257-825f-57a1-a580",
           "id": "fc3f-a2b9-18a9-848b",
-          "name": "Salamander Command Vehicle"
+          "name": "Salamander Command Vehicle",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4687,7 +5983,24 @@
           ],
           "targetId": "b758-ec7d-fe17-c1a4",
           "id": "e185-e1e5-5158-9e75",
-          "name": "Valdor Tank Hunter"
+          "name": "Valdor Tank Hunter",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4725,7 +6038,24 @@
           ],
           "targetId": "17b0-32eb-49b5-41c4",
           "id": "f7a2-216d-b471-610b",
-          "name": "Styges Thunderer Seige Tank"
+          "name": "Stygies Thunderer Seige Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4768,7 +6098,24 @@
           ],
           "targetId": "b833-c9b0-196e-6d30",
           "id": "162c-0579-cf97-521a",
-          "name": "Sabre Weapons Battery"
+          "name": "Sabre Weapons Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4816,7 +6163,24 @@
           ],
           "targetId": "259e-17d2-3f79-528b",
           "id": "426e-8ef8-1ba8-9c71",
-          "name": "Raiper Laser Destroyer"
+          "name": "Rapier Laser Destroyer",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4859,7 +6223,24 @@
           ],
           "targetId": "60f9-43c8-b0d6-0d4b",
           "id": "7bd9-e385-1b6d-1c71",
-          "name": "Praetor Armoured Assault Launcher"
+          "name": "Praetor Armoured Assault Launcher",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4907,7 +6288,24 @@
           ],
           "targetId": "206c-e447-9219-49ac",
           "id": "339a-90d4-e170-f923",
-          "name": "Medusa Carriage Battery"
+          "name": "Medusa Carriage Battery",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -4950,7 +6348,24 @@
           ],
           "targetId": "e02a-f99e-b8a4-a5c2",
           "id": "d392-c637-8b56-98f7",
-          "name": "Minotaur Artillery Tank"
+          "name": "Minotaur Artillery Tank",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -5089,7 +6504,24 @@
           ],
           "targetId": "6681-ab8d-6e19-6e02",
           "id": "fab5-ce6d-10d5-9ca4",
-          "name": "Macharius Omega"
+          "name": "Macharius Omega",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -5137,7 +6569,24 @@
           ],
           "targetId": "084a-38b8-08d0-f2d6",
           "id": "bb77-f074-e931-3d6d",
-          "name": "Macharius Vanquisher"
+          "name": "Macharius Vanquisher",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -5185,7 +6634,24 @@
           ],
           "targetId": "f54c-7343-16cd-4be5",
           "id": "af96-e2e2-a67e-8993",
-          "name": "Macharius Vulcan"
+          "name": "Macharius Vulcan",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditions": [
+                {
+                  "childId": "c945-509c-a11e-1260",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "force",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
         },
         {
           "categoryLinks": [
@@ -5605,7 +7071,35 @@
           ],
           "targetId": "7008-0b67-8bdc-cf80",
           "id": "8fbc-fbd5-2683-b5c8",
-          "name": "Sly Marbo"
+          "name": "Sly Marbo",
+          "modifiers": [
+            {
+              "field": "hidden",
+              "value": "true",
+              "conditionGroups": [
+                {
+                  "conditions": [
+                    {
+                      "childId": "e728-c8e8-d03b-13b0",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    },
+                    {
+                      "childId": "4188-7aa5-87bf-35a6",
+                      "field": "selections",
+                      "scope": "force",
+                      "value": 1.0,
+                      "shared": true,
+                      "includeChildSelections": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

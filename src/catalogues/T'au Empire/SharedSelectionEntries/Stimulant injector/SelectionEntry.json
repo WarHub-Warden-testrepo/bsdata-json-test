@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "identifier": "Stimulant injector",
+    "prevIdentifier": "Target lock"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 5.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "5870-0658-811f-f54d",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "0aa8-115f-69be-9f71",
+      "name": "Stimulant injector",
+      "infoLinks": [
+        {
+          "targetId": "e036-6856-fb12-2ff8",
+          "id": "e44d-1a17-ab0b-3c6d",
+          "name": "New InfoLink"
+        }
+      ]
+    }
+  ]
+}

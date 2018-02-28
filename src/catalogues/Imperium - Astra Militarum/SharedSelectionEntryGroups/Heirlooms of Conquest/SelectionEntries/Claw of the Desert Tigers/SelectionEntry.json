@@ -29,17 +29,20 @@
       ],
       "id": "2e85-1ece-1bfa-1e4d",
       "name": "Claw of the Desert Tigers",
+      "isHidden": true,
       "modifiers": [
         {
           "field": "hidden",
-          "value": "true",
+          "value": "false",
           "conditions": [
             {
-              "childId": "935b-1502-0bb5-6fb7",
-              "type": 6,
+              "childId": "f438-7180-aba6-e906",
+              "type": 4,
               "field": "selections",
-              "scope": "ancestor",
-              "shared": true
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
             }
           ]
         }

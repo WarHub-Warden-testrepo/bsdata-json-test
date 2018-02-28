@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Kurov's Aquila"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "be9e-7172-4f57-a90d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "78fb-ef9d-2325-954a",
+      "name": "Kurov's Aquila",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "dd6e-7055-ca6b-b711",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "identifier": "Coronus Grav-Carrier (Beta)",
+    "prevIdentifier": "Caladius Grav-tank (Beta)"
+  },
+  "selectionEntries": [
+    {
+      "type": 1,
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 285.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14",
+          "value": 19.0
+        }
+      ],
+      "constraints": [
+        {
+          "id": "688e-786c-0b2d-ff45",
+          "type": 1,
+          "field": "selections",
+          "scope": "force",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "categoryLinks": [
+        {
+          "isPrimary": true,
+          "targetId": "abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6",
+          "id": "26da-609d-09cd-91ed",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "84e2-9fa9-ebe6-1d18",
+          "id": "bab9-d579-e631-333e",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8f7-6d2e-f4b8-f7a5",
+          "id": "d2a5-061a-64de-728b",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "3117-16d8-fcef-4f56",
+          "id": "f9ef-2eae-22bc-fac1",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "6cc4-1b62-8e8a-05cd",
+          "id": "b160-bf6a-682d-b700",
+          "name": "New CategoryLink"
+        },
+        {
+          "targetId": "c8fd-783f-3230-493e",
+          "id": "4283-263c-7bd7-73ac",
+          "name": "New CategoryLink"
+        }
+      ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "79f6-6520-39a1-3d38",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "d410-b860-676c-e5db",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "368e-79fd-47dd-57b5",
+          "id": "8512-73b4-165e-42eb",
+          "name": "Twin Arachnus Las-Blaze"
+        },
+        {
+          "constraints": [
+            {
+              "id": "f76d-8c20-d35a-b0eb",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "3244-5361-f78a-7e2e",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "e831-a36d-d25b-adf1",
+          "id": "c724-f15c-98b3-ade5",
+          "name": "Twin Lastrum Bolt Cannon"
+        }
+      ],
+      "id": "f2f2-0f88-8c06-4416",
+      "name": "Coronus Grav-Carrier (Beta)",
+      "isHidden": true,
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "false",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "type": 4,
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        },
+        {
+          "field": "688e-786c-0b2d-ff45",
+          "value": "0.0",
+          "conditions": [
+            {
+              "childId": "3cf4-7a43-f7a5-51cc",
+              "field": "selections",
+              "scope": "roster",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

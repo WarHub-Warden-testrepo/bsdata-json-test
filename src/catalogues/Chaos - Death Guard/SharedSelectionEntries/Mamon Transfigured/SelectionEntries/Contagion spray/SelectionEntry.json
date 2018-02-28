@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "identifier": "Contagion spray"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "71ea-6127-3976-9cce",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "d0b3-5d23-d27c-d0d8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "6944-e095-3491-d5a8",
+      "name": "Contagion spray"
+    }
+  ]
+}

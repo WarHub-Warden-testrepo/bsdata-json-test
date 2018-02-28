@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "identifier": "Lightning Claw",
+    "prevIdentifier": "Skyspear missile launcher"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 8.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "571f-9ce0-488c-0857",
+      "name": "Lightning Claw",
+      "infoLinks": [
+        {
+          "targetId": "7584-238f-3174-4529",
+          "id": "1563-71ea-e5b0-151e",
+          "name": "Lightning claw"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "6",
+          "conditions": [
+            {
+              "childId": "571f-9ce0-488c-0857",
+              "type": 2,
+              "field": "selections",
+              "scope": "parent",
+              "value": 2.0,
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

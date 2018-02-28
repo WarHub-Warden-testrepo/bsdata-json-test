@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "identifier": "Thunder hammer",
+    "prevIdentifier": "Power fist - 2"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "id": "f1cb-bfc4-0b93-1203",
+      "name": "Thunder hammer",
+      "infoLinks": [
+        {
+          "targetId": "87b3-3f6b-ada0-da8d",
+          "id": "4a07-709e-63c8-244b",
+          "name": "Thunder hammer"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "21",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

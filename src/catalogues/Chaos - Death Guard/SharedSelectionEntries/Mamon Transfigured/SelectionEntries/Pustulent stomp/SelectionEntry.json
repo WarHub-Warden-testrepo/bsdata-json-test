@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "identifier": "Pustulent stomp",
+    "prevIdentifier": "Contagion spray"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "ec05-7bda-4845-9ec7",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "a986-3a58-8c2a-71f7",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "id": "de88-d78b-0b7a-bf0a",
+      "name": "Pustulent stomp"
+    }
+  ]
+}

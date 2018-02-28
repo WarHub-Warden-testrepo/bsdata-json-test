@@ -29,16 +29,18 @@
       ],
       "id": "4ab3-aabe-ddbf-a962",
       "name": "The Armour of Graf Toschenko",
+      "isHidden": true,
       "modifiers": [
         {
           "field": "hidden",
-          "value": "true",
+          "value": "false",
           "conditions": [
             {
-              "childId": "935b-1502-0bb5-6fb7",
-              "type": 6,
+              "childId": "ebf3-00d7-204b-30d8",
+              "type": 4,
               "field": "selections",
-              "scope": "ancestor",
+              "scope": "force",
+              "value": 1.0,
               "shared": true
             }
           ]

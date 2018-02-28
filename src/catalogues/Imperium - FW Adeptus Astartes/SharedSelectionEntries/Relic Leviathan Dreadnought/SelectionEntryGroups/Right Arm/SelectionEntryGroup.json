@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "identifier": "Right Arm"
+  },
+  "selectionEntryGroups": [
+    {
+      "defaultSelectionEntryId": "f2a9-95f0-5337-b490",
+      "constraints": [
+        {
+          "id": "918f-0944-c030-fa8e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        },
+        {
+          "id": "f5a0-78b0-8ec1-3ac9",
+          "type": 1,
+          "field": "selections",
+          "scope": "parent",
+          "value": 1.0,
+          "shared": true
+        }
+      ],
+      "entryLinks": [
+        {
+          "targetId": "5fbc-fd97-1251-889a",
+          "id": "827a-5d38-6d43-3859",
+          "name": "Cyclonic melta lance"
+        },
+        {
+          "targetId": "f028-c4cf-83c5-d707",
+          "id": "1e23-0404-79a7-f564",
+          "name": "Grav-flux bombard"
+        },
+        {
+          "targetId": "4e65-6415-7c42-1a7e",
+          "id": "3e15-b931-e4a7-0e5b",
+          "name": "Storm cannon array"
+        },
+        {
+          "targetId": "f42a-6af7-6b1a-b785",
+          "id": "f2a9-95f0-5337-b490",
+          "name": "Leviathan siege claw",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "32.5",
+              "conditions": [
+                {
+                  "childId": "e60a-ddab-9f93-f67e",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targetId": "5cb0-d46c-5811-3dec",
+          "id": "2aaa-16fe-75d0-a3d3",
+          "name": "Leviathan siege drill",
+          "modifiers": [
+            {
+              "field": "points",
+              "value": "37.5",
+              "conditions": [
+                {
+                  "childId": "e67e-80cc-aa49-3c0f",
+                  "type": 2,
+                  "field": "selections",
+                  "scope": "945d-3e51-177b-81a4",
+                  "value": 1.0,
+                  "shared": true,
+                  "includeChildSelections": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1f18-e2a1-b281-5963",
+      "name": "Right Arm"
+    }
+  ]
+}

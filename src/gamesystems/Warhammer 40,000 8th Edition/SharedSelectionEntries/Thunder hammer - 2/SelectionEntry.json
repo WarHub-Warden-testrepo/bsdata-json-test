@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "identifier": "Thunder hammer - 2",
+    "prevIdentifier": "Lightning Claw (Pair) - 2"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": "pts",
+          "costTypeId": "points",
+          "value": 16.0
+        },
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        }
+      ],
+      "collective": true,
+      "id": "a4da-e81d-f108-fbc2",
+      "name": "Thunder hammer",
+      "infoLinks": [
+        {
+          "targetId": "87b3-3f6b-ada0-da8d",
+          "id": "3667-3b67-7352-8ad7",
+          "name": "Thunder hammer"
+        }
+      ],
+      "modifiers": [
+        {
+          "field": "points",
+          "value": "21",
+          "conditions": [
+            {
+              "childId": "ef18-746a-369f-43a4",
+              "type": 6,
+              "field": "selections",
+              "scope": "parent",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,30 @@
           "costTypeId": "e356-c769-5920-6e14"
         }
       ],
+      "entryLinks": [
+        {
+          "constraints": [
+            {
+              "id": "b520-9e98-7616-7b50",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            },
+            {
+              "id": "2686-8983-d03b-76a7",
+              "type": 1,
+              "field": "selections",
+              "scope": "parent",
+              "value": 1.0,
+              "shared": true
+            }
+          ],
+          "targetId": "fdac-c560-87da-c09e",
+          "id": "5462-0d2c-9555-648a",
+          "name": "Meltagun"
+        }
+      ],
       "id": "f42a-6af7-6b1a-b785",
       "name": "Leviathan siege claw",
       "infoLinks": [
@@ -23,23 +47,6 @@
           "targetId": "d95b-474a-c8c6-e351",
           "id": "c3e6-6bff-0ddb-a258",
           "name": "Leviathan siege claw"
-        }
-      ],
-      "modifiers": [
-        {
-          "field": "points",
-          "value": "32.5",
-          "conditions": [
-            {
-              "childId": "f42a-6af7-6b1a-b785",
-              "type": 2,
-              "field": "selections",
-              "scope": "parent",
-              "value": 2.0,
-              "shared": true,
-              "includeChildSelections": true
-            }
-          ]
         }
       ]
     }

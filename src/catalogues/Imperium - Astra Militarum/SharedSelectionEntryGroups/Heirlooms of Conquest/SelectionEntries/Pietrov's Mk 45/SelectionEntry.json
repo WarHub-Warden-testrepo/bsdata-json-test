@@ -29,17 +29,20 @@
       ],
       "id": "4514-dbd8-858d-546d",
       "name": "Pietrov's Mk 45 ",
+      "isHidden": true,
       "modifiers": [
         {
           "field": "hidden",
-          "value": "true",
+          "value": "false",
           "conditions": [
             {
-              "childId": "935b-1502-0bb5-6fb7",
-              "type": 6,
+              "childId": "8efe-03b2-98ce-04a7",
+              "type": 4,
               "field": "selections",
-              "scope": "ancestor",
-              "shared": true
+              "scope": "force",
+              "value": 1.0,
+              "shared": true,
+              "includeChildSelections": true
             }
           ]
         }

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "identifier": "The Laurels of Command",
+    "prevIdentifier": "The Deathmask of Ollanius"
+  },
+  "selectionEntries": [
+    {
+      "costs": [
+        {
+          "name": " PL",
+          "costTypeId": "e356-c769-5920-6e14"
+        },
+        {
+          "name": "pts",
+          "costTypeId": "points"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "292d-766c-8522-268d",
+          "type": 1,
+          "field": "selections",
+          "scope": "roster",
+          "value": 1.0,
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true
+        }
+      ],
+      "id": "bef0-0509-3997-1413",
+      "name": "The Laurels of Command",
+      "modifiers": [
+        {
+          "field": "hidden",
+          "value": "true",
+          "conditions": [
+            {
+              "childId": "dd6e-7055-ca6b-b711",
+              "type": 7,
+              "field": "selections",
+              "scope": "ancestor",
+              "shared": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
